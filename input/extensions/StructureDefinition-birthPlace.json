@@ -1,0 +1,156 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "birthPlace",
+  "url": "http://hl7.org.nz/fhir/StructureDefinition/birthPlace",
+  "version": "0.1.0",
+  "name": "BirthPlace",
+  "status": "active",
+  "description": "The country where the person was born",
+  "fhirVersion": "4.0.1",
+  "mapping": [
+    {
+      "identity": "rim",
+      "uri": "http://hl7.org/v3",
+      "name": "RIM Mapping"
+    }
+  ],
+  "kind": "complex-type",
+  "abstract": false,
+  "context": [
+    {
+      "type": "element",
+      "expression": "Patient"
+    }
+  ],
+  "type": "Extension",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Extension",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Extension.extension:country",
+        "path": "Extension.extension",
+        "sliceName": "country",
+        "definition": "The birth country.",
+        "max": "1"
+      },
+      {
+        "id": "Extension.extension:country.extension",
+        "path": "Extension.extension.extension",
+        "max": "0"
+      },
+      {
+        "id": "Extension.extension:country.url",
+        "path": "Extension.extension.url",
+        "fixedUri": "country"
+      },
+      {
+        "id": "Extension.extension:country.value[x]",
+        "path": "Extension.extension.value[x]",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "type",
+              "path": "$this"
+            }
+          ],
+          "ordered": false,
+          "rules": "open"
+        },
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ]
+      },
+      {
+        "id": "Extension.extension:country.valueCodeableConcept",
+        "path": "Extension.extension.valueCodeableConcept",
+        "binding": {
+          "strength": "preferred",
+          "valueSet": "http://hl7.org/fhir/ValueSet/iso3166-1-2"
+        }
+      },
+      {
+        "id": "Extension.extension:placeOfBirth",
+        "path": "Extension.extension",
+        "sliceName": "placeOfBirth",
+        "definition": "No description",
+        "max": "1"
+      },
+      {
+        "id": "Extension.extension:placeOfBirth.extension",
+        "path": "Extension.extension.extension",
+        "max": "0"
+      },
+      {
+        "id": "Extension.extension:placeOfBirth.url",
+        "path": "Extension.extension.url",
+        "fixedUri": "placeOfBirth"
+      },
+      {
+        "id": "Extension.extension:placeOfBirth.value[x]",
+        "path": "Extension.extension.value[x]",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "Extension.extension:source",
+        "path": "Extension.extension",
+        "sliceName": "source",
+        "definition": "The source of information concerning the country of birth",
+        "max": "1"
+      },
+      {
+        "id": "Extension.extension:source.extension",
+        "path": "Extension.extension.extension",
+        "max": "0"
+      },
+      {
+        "id": "Extension.extension:source.url",
+        "path": "Extension.extension.url",
+        "fixedUri": "source"
+      },
+      {
+        "id": "Extension.extension:source.value[x]",
+        "path": "Extension.extension.value[x]",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "type",
+              "path": "$this"
+            }
+          ],
+          "ordered": false,
+          "rules": "open"
+        },
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ]
+      },
+      {
+        "id": "Extension.extension:source.valueCodeableConcept",
+        "path": "Extension.extension.valueCodeableConcept",
+        "binding": {
+          "strength": "required",
+          "valueSet": "http://standards.digital.health.nz/fhir/ValueSet/nzinfosource"
+        }
+      },
+      {
+        "id": "Extension.url",
+        "path": "Extension.url",
+        "fixedUri": "http://hl7.org.nz/fhir/StructureDefinition/birthPlace"
+      },
+      {
+        "id": "Extension.value[x]",
+        "path": "Extension.value[x]",
+        "max": "0"
+      }
+    ]
+  }
+}

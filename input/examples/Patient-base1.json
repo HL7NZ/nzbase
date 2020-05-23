@@ -1,0 +1,46 @@
+{
+  "resourceType": "Patient",
+  "id": "base1",
+  "meta": {
+    "profile": [
+      "http://hl7.org.nz/fhir/StructureDefinition/NzPatient"
+    ]
+  },
+  "address": [
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org.nz/fhir/StructureDefinition/suburb",
+          "valueString": "Epsom"
+        },
+        {
+          "extension": [
+            {
+              "url": "longitude",
+              "valueDecimal": 100
+            },
+            {
+              "url": "latitute",
+              "valueDecimal": 100
+            }
+          ],
+          "url": "http://hl7.org.nz/fhir/StructureDefinition/nzGeocode"
+        }
+      ],
+      "text": "23 Thule st"
+    }
+  ],
+  "text": {
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Test patient base 1</div>",
+    "status": "additional"
+  },
+  "name": [
+    {
+      "family": "Doe",
+      "given": [
+        "John",
+        "Albertus"
+      ]
+    }
+  ]
+}

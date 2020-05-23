@@ -1,0 +1,183 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "NzPatient",
+  "text": {
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Base Patient profile</div>",
+    "status": "additional"
+  },
+  "url": "http://hl7.org.nz/fhir/StructureDefinition/NzPatient",
+  "version": "0.1.0",
+  "name": "NzPatient",
+  "title": "NZ Patient",
+  "status": "active",
+  "description": "The base Patient resource in NZ. Slices on identifer for NHI numbers (current & old), uses nzAddress and adds sme commonly used extensions",
+  "purpose": "Describe the base New Zealand Patient profile",
+  "fhirVersion": "4.0.1",
+  "mapping": [
+    {
+      "identity": "rim",
+      "uri": "http://hl7.org/v3",
+      "name": "RIM Mapping"
+    },
+    {
+      "identity": "cda",
+      "uri": "http://hl7.org/v3/cda",
+      "name": "CDA (R2)"
+    },
+    {
+      "identity": "w5",
+      "uri": "http://hl7.org/fhir/fivews",
+      "name": "FiveWs Pattern Mapping"
+    },
+    {
+      "identity": "v2",
+      "uri": "http://hl7.org/v2",
+      "name": "HL7 v2 Mapping"
+    },
+    {
+      "identity": "loinc",
+      "uri": "http://loinc.org",
+      "name": "LOINC code for the element"
+    }
+  ],
+  "kind": "resource",
+  "abstract": false,
+  "type": "Patient",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Patient",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Patient.extension",
+        "path": "Patient.extension",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "value",
+              "path": "url"
+            }
+          ],
+          "ordered": false,
+          "rules": "open"
+        }
+      },
+      {
+        "id": "Patient.extension:nzEthnicity",
+        "path": "Patient.extension",
+        "sliceName": "nzEthnicity",
+        "max": "4",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://hl7.org.nz/fhir/StructureDefinition/nzEthnicity"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Patient.extension:birthPlace",
+        "path": "Patient.extension",
+        "sliceName": "birthPlace",
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://hl7.org.nz/fhir/StructureDefinition/birthPlace"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Patient.extension:patient-iwi",
+        "path": "Patient.extension",
+        "sliceName": "patient-iwi",
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://hl7.org.nz/fhir/StructureDefinition/patient-iwi"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Patient.extension:citizenship",
+        "path": "Patient.extension",
+        "sliceName": "citizenship",
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://hl7.org.nz/fhir/StructureDefinition/citizenship"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Patient.identifier",
+        "path": "Patient.identifier",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "pattern",
+              "path": "use"
+            }
+          ],
+          "rules": "openAtEnd"
+        }
+      },
+      {
+        "id": "Patient.identifier:NHI",
+        "path": "Patient.identifier",
+        "sliceName": "NHI",
+        "max": "1",
+        "mustSupport": true
+      },
+      {
+        "id": "Patient.identifier:NHI.use",
+        "path": "Patient.identifier.use",
+        "min": 1,
+        "fixedCode": "official"
+      },
+      {
+        "id": "Patient.identifier:NHI.system",
+        "path": "Patient.identifier.system",
+        "patternUri": "https://standards.digital.health.nz/id/nhi"
+      },
+      {
+        "id": "Patient.identifier:dormantNHI",
+        "path": "Patient.identifier",
+        "sliceName": "dormantNHI",
+        "max": "1",
+        "mustSupport": true
+      },
+      {
+        "id": "Patient.identifier:dormantNHI.use",
+        "path": "Patient.identifier.use",
+        "min": 1,
+        "fixedCode": "old"
+      },
+      {
+        "id": "Patient.identifier:dormantNHI.system",
+        "path": "Patient.identifier.system",
+        "patternUri": "https://standards.digital.health.nz/id/nhi"
+      },
+      {
+        "id": "Patient.address",
+        "path": "Patient.address",
+        "type": [
+          {
+            "code": "Address",
+            "profile": [
+              "http://hl7.org.nz/fhir/StructureDefinition/nzAddress"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

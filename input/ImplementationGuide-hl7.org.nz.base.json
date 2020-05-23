@@ -1,0 +1,193 @@
+{
+  "resourceType": "ImplementationGuide",
+  "id": "hl7.org.nz.base",
+  "url": "http://hl7.org.nz/fhir/ImplementationGuide/hl7.org.nz.base",
+  "version": "0.1.0",
+  "name": "NewZealandbaseprofilesImplementationGuide",
+  "title": "New Zealand base profiles Implementation Guide",
+  "status": "active",
+  "publisher": "David Hay",
+  "contact": [
+    {
+      "name": "David Hay",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "mailto:david.hay25@gmail.com"
+        }
+      ]
+    }
+  ],
+  "description": "New Zealand base profiles",
+  "packageId": "hl7.org.nz.base",
+  "license": "CC0-1.0",
+  "fhirVersion": [
+    "4.0.1"
+  ],
+  "definition": {
+    "resource": [
+      {
+        "reference": {
+          "reference": "StructureDefinition/nzAddress"
+        },
+        "name": "NZ Address datatype",
+        "description": "Adds building name, suburb, domicile code and geocode to the Address datatype",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/NzLocation"
+        },
+        "name": "NZ Location",
+        "description": "NZ base Location profile. Adds slicing for HPI Facility code and uses nzAddress",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/NzOrganization"
+        },
+        "name": "NZ Organization",
+        "description": "base NZ Organization profile. Slices on identifier for HPI and uses nzAddress",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/NzPatient"
+        },
+        "name": "NZ Patient",
+        "description": "The base Patient resource in NZ. Slices on identifer for NHI numbers (current & old), uses nzAddress and adds sme commonly used extensions",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/NzPractitioner"
+        },
+        "name": "NZ Practitioner",
+        "description": "The New Zealand base practitioner. Slices on identifier for CPN, makes name mandatory and uses NZ address.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/birthPlace"
+        },
+        "name": "BirthPlace",
+        "description": "The country where the person was born",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/buildingName"
+        },
+        "name": "BuildingName",
+        "description": "Used on an adddress datatype when a building name is needed",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/citizenship"
+        },
+        "name": "Citizenship",
+        "description": "New Zealand citizenship",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/dhb"
+        },
+        "name": "Dhb",
+        "description": "The District Health Board the patient resides in. It is derived from the patient's primary residential address (not updated directly).",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/domicileCode"
+        },
+        "name": "DomicileCode",
+        "description": "The domicile code. Derived from the address ",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/informationsource"
+        },
+        "name": "Informationsource",
+        "description": "The source of the information. Used paricularly in the NHI. Note this not the person but rather than it came from a passport for example",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/nzEthnicity"
+        },
+        "name": "NzEthnicity",
+        "description": "The ethnicity of the patient. Uses level 4 codes (most detailed).",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/nzGeocode"
+        },
+        "name": "NzGeocode",
+        "description": "The new zealand geocode. This uses a different datum from that defined in the spec for the geocode, so is an extension rather than using the element in the spec. see discussion at https://chat.fhir.org/#narrow/stream/179166-implementers/topic/geocode.20extension",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/patient-addressDerived"
+        },
+        "name": "Patient_addressDerived",
+        "description": "Additional address elements exposed by the NHI and calculated from the address using the eSAM address service",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/patient-iwi"
+        },
+        "name": "Patient_iwi",
+        "description": "Details related to maori ancestry",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/suburb"
+        },
+        "name": "Suburb",
+        "description": "The suburb of the address. This is not the same as 'district' or 'state.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "Patient/base1"
+        },
+        "name": "base1",
+        "description": "This is the base Patient profile",
+        "exampleCanonical": "http://hl7.org.nz/fhir/StructureDefinition/NzPatient"
+      }
+    ],
+    "page": {
+      "nameUrl": "toc.html",
+      "title": "Table of Contents",
+      "generation": "html",
+      "page": [
+        {
+          "nameUrl": "index.html",
+          "title": "Home",
+          "generation": "markdown"
+        }
+      ]
+    },
+    "parameter": [
+      {
+        "code": "copyrightyear",
+        "value": "2020+"
+      },
+      {
+        "code": "releaselabel",
+        "value": "CI Build"
+      },
+      {
+        "code": "show-inherited-invariants",
+        "value": "false"
+      }
+    ]
+  }
+}
