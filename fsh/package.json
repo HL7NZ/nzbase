@@ -1,5 +1,5 @@
 {
- "name": "hl7.org.nz.base",
+ "name": "hl7.org.nz",
  "version" : "0.1.0",  
  "canonical" : "http://hl7.org.nz/fhir",
  "url" : "http://hl7.org.nz/fhir",
