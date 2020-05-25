@@ -43,6 +43,7 @@ Description: "Additional address elements exposed by the NHI and calculated from
 * extension[domcode].value[x] only CodeableConcept
 * extension[domcode].valueCodeableConcept from https://standards.digital.health.nz/fhir/ValueSet/domicilecode (preferred)
 */
+
 * extension[said].url = "said" (exactly)
 * extension[said] ^definition = "Points to the id used buy the internal address coding. For use by advanced users only."
 * extension[said].value[x] only string

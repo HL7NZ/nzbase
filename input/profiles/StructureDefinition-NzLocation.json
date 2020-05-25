@@ -63,6 +63,24 @@
         "patternUri": "https://standards.digital.health.nz/id/hpi-facility"
       },
       {
+        "id": "Location.identifier:dormantFacId",
+        "path": "Location.identifier",
+        "sliceName": "dormantFacId",
+        "max": "1",
+        "mustSupport": true
+      },
+      {
+        "id": "Location.identifier:dormantFacId.use",
+        "path": "Location.identifier.use",
+        "min": 1,
+        "patternCode": "old"
+      },
+      {
+        "id": "Location.identifier:dormantFacId.system",
+        "path": "Location.identifier.system",
+        "patternUri": "https://standards.digital.health.nz/id/hpi-facility"
+      },
+      {
         "id": "Location.address",
         "path": "Location.address",
         "type": [

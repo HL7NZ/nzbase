@@ -20,6 +20,11 @@ Description:    "NZ base Location profile. Adds slicing for HPI Facility code an
 * identifier ^slicing.rules = #openAtEnd
 
 * identifier contains 
-    facId 0..1 MS 
+    facId 0..1 MS and
+    dormantFacId 0..1 MS
+
 * identifier[facId].system = "https://standards.digital.health.nz/id/hpi-facility"
 * identifier[facId].use = #official
+
+* identifier[dormantFacId].system = "https://standards.digital.health.nz/id/hpi-facility"
+* identifier[dormantFacId].use = #old

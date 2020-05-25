@@ -132,14 +132,6 @@
       },
       {
         "reference": {
-          "reference": "StructureDefinition/patient-addressDerived"
-        },
-        "name": "Patient_addressDerived",
-        "description": "Additional address elements exposed by the NHI and calculated from the address using the eSAM address service",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
           "reference": "StructureDefinition/patient-iwi"
         },
         "name": "Patient_iwi",
