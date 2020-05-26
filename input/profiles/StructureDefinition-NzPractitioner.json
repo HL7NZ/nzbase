@@ -56,15 +56,18 @@
         }
       },
       {
-        "id": "Practitioner.extension:nzethnicity",
+        "id": "Practitioner.extension:nzEthnicity",
         "path": "Practitioner.extension",
-        "sliceName": "nzethnicity",
-        "max": "6"
-      },
-      {
-        "id": "Practitioner.extension:nzethnicity.url",
-        "path": "Practitioner.extension.url",
-        "fixedUri": "nzethnicity"
+        "sliceName": "nzEthnicity",
+        "max": "6",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://hl7.org.nz/fhir/StructureDefinition/nzEthnicity"
+            ]
+          }
+        ]
       },
       {
         "id": "Practitioner.identifier",

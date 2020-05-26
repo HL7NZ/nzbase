@@ -148,6 +148,22 @@
       },
       {
         "reference": {
+          "reference": "ValueSet/dhb"
+        },
+        "name": "dhb",
+        "description": "dhb",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/dhb"
+        },
+        "name": "District Health Board Code",
+        "description": "District Health Board Code",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
           "reference": "Patient/base1"
         },
         "name": "base1",

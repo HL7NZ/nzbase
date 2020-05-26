@@ -1,4 +1,6 @@
 
+Alias: $nzEthnicity = http://hl7.org.nz/fhir/StructureDefinition/nzEthnicity
+
 Profile:        NzPractitioner
 Parent:         Practitioner
 Id:             NzPractitioner
@@ -10,7 +12,7 @@ Description:    "The New Zealand base practitioner. Slices on identifier for CPN
 
 //top level  extensions
 * extension contains 
-    nzethnicity 0..6
+    $nzEthnicity named nzEthnicity 0..6
 
 * address only nzAddress
 
