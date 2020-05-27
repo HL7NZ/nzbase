@@ -8,4 +8,4 @@ Description: "The District Health Board the patient resides in. It is derived fr
 
 * extension 0..0
 * value[x] only CodeableConcept
-* valueCodeableConcept from https://standards.digital.health.nz/fhir/ValueSet/dhb (preferred)
+* valueCodeableConcept from https://standards.digital.health.nz/vs/dhb (preferred)

@@ -61,7 +61,7 @@
         "path": "Extension.valueCodeableConcept",
         "binding": {
           "strength": "preferred",
-          "valueSet": "https://standards.digital.health.nz/fhir/ValueSet/dhb"
+          "valueSet": "https://standards.digital.health.nz/vs/dhb"
         }
       }
     ]

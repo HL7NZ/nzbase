@@ -1,0 +1,17 @@
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "Patient_citizenship_status",
+  "id": "Patient-citizenship-status",
+  "title": "Patient citizenship status",
+  "description": "Status of citizenship in NZ",
+  "version": "0.1.0",
+  "url": "https://standards.digital.health.nz/vs/citizenshipstatus",
+  "compose": {
+    "include": [
+      {
+        "system": "https://standards.digital.health.nz/cs/citizenshipstatus"
+      }
+    ]
+  }
+}

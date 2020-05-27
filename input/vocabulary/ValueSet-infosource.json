@@ -1,0 +1,17 @@
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "Infosource",
+  "id": "infosource",
+  "title": "infosource",
+  "description": "infosource",
+  "version": "0.1.0",
+  "url": "http://standards.digital.health.nz/vs/infosource",
+  "compose": {
+    "include": [
+      {
+        "system": "http://standards.digital.health.nz/cs/infosource"
+      }
+    ]
+  }
+}

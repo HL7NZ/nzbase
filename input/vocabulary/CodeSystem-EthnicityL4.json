@@ -1,0 +1,969 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "active",
+  "content": "complete",
+  "name": "EthnicityL4",
+  "id": "EthnicityL4",
+  "title": "Level 4 ethnicity codes",
+  "description": "Level 4 ethnicity codes",
+  "version": "0.1.0",
+  "url": "https://standards.digital.health.nz/cs/ethnic-group-level-4",
+  "concept": [
+    {
+      "code": "10000",
+      "display": "European NFD"
+    },
+    {
+      "code": "11111",
+      "display": "New Zealand European"
+    },
+    {
+      "code": "12100",
+      "display": "British NFD"
+    },
+    {
+      "code": "12111",
+      "display": "Celtic"
+    },
+    {
+      "code": "12112",
+      "display": "Channel Islander"
+    },
+    {
+      "code": "12113",
+      "display": "Cornish"
+    },
+    {
+      "code": "12114",
+      "display": "English"
+    },
+    {
+      "code": "12115",
+      "display": "Gaelic"
+    },
+    {
+      "code": "12116",
+      "display": "Irish"
+    },
+    {
+      "code": "12117",
+      "display": "Manx"
+    },
+    {
+      "code": "12118",
+      "display": "Orkney Islander"
+    },
+    {
+      "code": "12119",
+      "display": "Scottish (Scots)"
+    },
+    {
+      "code": "12120",
+      "display": "Shetland Islander"
+    },
+    {
+      "code": "12121",
+      "display": "Welsh"
+    },
+    {
+      "code": "12199",
+      "display": "British NEC"
+    },
+    {
+      "code": "12211",
+      "display": "Dutch/Netherlands"
+    },
+    {
+      "code": "12311",
+      "display": "Greek (including Greek Cypriot)"
+    },
+    {
+      "code": "12411",
+      "display": "Polish"
+    },
+    {
+      "code": "12500",
+      "display": "South Slav (formerly Yugoslav groups) NFD"
+    },
+    {
+      "code": "12511",
+      "display": "Croat/Croatian"
+    },
+    {
+      "code": "12512",
+      "display": "Dalmatian"
+    },
+    {
+      "code": "12513",
+      "display": "Macedonian"
+    },
+    {
+      "code": "12514",
+      "display": "Serb/Serbian"
+    },
+    {
+      "code": "12515",
+      "display": "Slovene/Slovenian"
+    },
+    {
+      "code": "12516",
+      "display": "Bosnian"
+    },
+    {
+      "code": "12599",
+      "display": "South Slav (formerly Yugoslav groups) NEC"
+    },
+    {
+      "code": "12611",
+      "display": "Italian"
+    },
+    {
+      "code": "12711",
+      "display": "German"
+    },
+    {
+      "code": "12811",
+      "display": "Australian"
+    },
+    {
+      "code": "12911",
+      "display": "Albanian"
+    },
+    {
+      "code": "12912",
+      "display": "Armenian"
+    },
+    {
+      "code": "12913",
+      "display": "Austrian"
+    },
+    {
+      "code": "12914",
+      "display": "Belgian"
+    },
+    {
+      "code": "12915",
+      "display": "Bulgarian"
+    },
+    {
+      "code": "12916",
+      "display": "Belorussian"
+    },
+    {
+      "code": "12917",
+      "display": "Corsican"
+    },
+    {
+      "code": "12918",
+      "display": "Cypriot Unspecified"
+    },
+    {
+      "code": "12919",
+      "display": "Czech"
+    },
+    {
+      "code": "12920",
+      "display": "Danish"
+    },
+    {
+      "code": "12921",
+      "display": "Estonian"
+    },
+    {
+      "code": "12922",
+      "display": "Finnish"
+    },
+    {
+      "code": "12923",
+      "display": "Flemish"
+    },
+    {
+      "code": "12924",
+      "display": "French"
+    },
+    {
+      "code": "12925",
+      "display": "Greenlander"
+    },
+    {
+      "code": "12926",
+      "display": "Hungarian"
+    },
+    {
+      "code": "12927",
+      "display": "Icelander"
+    },
+    {
+      "code": "12928",
+      "display": "Latvian"
+    },
+    {
+      "code": "12929",
+      "display": "Lithuanian"
+    },
+    {
+      "code": "12930",
+      "display": "Maltese"
+    },
+    {
+      "code": "12931",
+      "display": "Norwegian"
+    },
+    {
+      "code": "12932",
+      "display": "Portuguese"
+    },
+    {
+      "code": "12933",
+      "display": "Romanian / Rumanian"
+    },
+    {
+      "code": "12934",
+      "display": "Romany / Gypsy"
+    },
+    {
+      "code": "12935",
+      "display": "Russian"
+    },
+    {
+      "code": "12936",
+      "display": "Sardinian"
+    },
+    {
+      "code": "12937",
+      "display": "Slavic / Slav"
+    },
+    {
+      "code": "12938",
+      "display": "Slovak"
+    },
+    {
+      "code": "12939",
+      "display": "Spanish"
+    },
+    {
+      "code": "12940",
+      "display": "Swedish"
+    },
+    {
+      "code": "12941",
+      "display": "Swiss"
+    },
+    {
+      "code": "12942",
+      "display": "Ukrainian"
+    },
+    {
+      "code": "12943",
+      "display": "American (US)"
+    },
+    {
+      "code": "12944",
+      "display": "Burgher"
+    },
+    {
+      "code": "12945",
+      "display": "Canadian"
+    },
+    {
+      "code": "12946",
+      "display": "Falkland Islander / Kelper"
+    },
+    {
+      "code": "12947",
+      "display": "New Caledonian"
+    },
+    {
+      "code": "12948",
+      "display": "South African"
+    },
+    {
+      "code": "12949",
+      "display": "Afrikaner"
+    },
+    {
+      "code": "12950",
+      "display": "Zimbabwean"
+    },
+    {
+      "code": "12999",
+      "display": "European NEC"
+    },
+    {
+      "code": "21111",
+      "display": "Māori"
+    },
+    {
+      "code": "30000",
+      "display": "Pacific peoples NFD"
+    },
+    {
+      "code": "31111",
+      "display": "Samoan"
+    },
+    {
+      "code": "32100",
+      "display": "Cook Island Māori NFD"
+    },
+    {
+      "code": "32111",
+      "display": "Aitutaki Islander"
+    },
+    {
+      "code": "32112",
+      "display": "Atiu Islander"
+    },
+    {
+      "code": "32113",
+      "display": "Mangaia Islander"
+    },
+    {
+      "code": "32114",
+      "display": "Manihiki Islander"
+    },
+    {
+      "code": "32115",
+      "display": "Mauke Islander"
+    },
+    {
+      "code": "32116",
+      "display": "Mitiaro Islander"
+    },
+    {
+      "code": "32117",
+      "display": "Palmerston Islander"
+    },
+    {
+      "code": "32118",
+      "display": "Penrhyn Islander"
+    },
+    {
+      "code": "32119",
+      "display": "Pukapuka Islander"
+    },
+    {
+      "code": "32120",
+      "display": "Rakahanga Islander"
+    },
+    {
+      "code": "32121",
+      "display": "Rarotongan"
+    },
+    {
+      "code": "33111",
+      "display": "Tongan"
+    },
+    {
+      "code": "34111",
+      "display": "Niuean"
+    },
+    {
+      "code": "35111",
+      "display": "Tokelauan"
+    },
+    {
+      "code": "36111",
+      "display": "Fijian (except Fiji Indian / Indo-Fijian)"
+    },
+    {
+      "code": "37111",
+      "display": "Admiralty Islander"
+    },
+    {
+      "code": "37112",
+      "display": "Australian Aboriginal"
+    },
+    {
+      "code": "37113",
+      "display": "Austral Islander"
+    },
+    {
+      "code": "37114",
+      "display": "Belau / Palau Islander"
+    },
+    {
+      "code": "37115",
+      "display": "Bismark Archipelagoan"
+    },
+    {
+      "code": "37116",
+      "display": "Bougainvillean"
+    },
+    {
+      "code": "37117",
+      "display": "Caroline Islander"
+    },
+    {
+      "code": "37118",
+      "display": "Easter Islander"
+    },
+    {
+      "code": "37119",
+      "display": "Gambier Islander"
+    },
+    {
+      "code": "37120",
+      "display": "Guadalcanalian"
+    },
+    {
+      "code": "37121",
+      "display": "Guam Islander / Chamorro"
+    },
+    {
+      "code": "37122",
+      "display": "Hawaiian"
+    },
+    {
+      "code": "37123",
+      "display": "Kanaka / Kanak"
+    },
+    {
+      "code": "37124",
+      "display": "I-Kiribati / Gilbertese"
+    },
+    {
+      "code": "37125",
+      "display": "Malaitian"
+    },
+    {
+      "code": "37126",
+      "display": "Manus Islander"
+    },
+    {
+      "code": "37127",
+      "display": "Marianas Islander"
+    },
+    {
+      "code": "37128",
+      "display": "Marquesas Islander"
+    },
+    {
+      "code": "37129",
+      "display": "Marshall Islander"
+    },
+    {
+      "code": "37130",
+      "display": "Nauru Islander"
+    },
+    {
+      "code": "37131",
+      "display": "New Britain Islander"
+    },
+    {
+      "code": "37132",
+      "display": "New Georgian"
+    },
+    {
+      "code": "37133",
+      "display": "New Irelander"
+    },
+    {
+      "code": "37134",
+      "display": "Ocean Islander / Banaban"
+    },
+    {
+      "code": "37135",
+      "display": "Papuan / New Guinean / Irian Jayan"
+    },
+    {
+      "code": "37136",
+      "display": "Phoenix Islander"
+    },
+    {
+      "code": "37137",
+      "display": "Pitcairn Islander"
+    },
+    {
+      "code": "37138",
+      "display": "Rotuman / Rotuman Islander"
+    },
+    {
+      "code": "37139",
+      "display": "Santa Cruz Islander"
+    },
+    {
+      "code": "37140",
+      "display": "Society Islander (including Tahitian)"
+    },
+    {
+      "code": "37141",
+      "display": "Solomon Islander"
+    },
+    {
+      "code": "37142",
+      "display": "Torres Strait Islander / Thursday Islander"
+    },
+    {
+      "code": "37143",
+      "display": "Tuamotu Islander"
+    },
+    {
+      "code": "37144",
+      "display": "Tuvalu Islander / Ellice Islander"
+    },
+    {
+      "code": "37145",
+      "display": "Vanuatu Islander / New Hebridean"
+    },
+    {
+      "code": "37146",
+      "display": "Wake Islander"
+    },
+    {
+      "code": "37147",
+      "display": "Wallis Islander"
+    },
+    {
+      "code": "37148",
+      "display": "Yap Islander"
+    },
+    {
+      "code": "37199",
+      "display": "Other Pacific peoples NEC"
+    },
+    {
+      "code": "40000",
+      "display": "Asian NFD"
+    },
+    {
+      "code": "41000",
+      "display": "Southeast Asian NFD"
+    },
+    {
+      "code": "41111",
+      "display": "Filipino"
+    },
+    {
+      "code": "41211",
+      "display": "Khmer / Kampuchean / Cambodian"
+    },
+    {
+      "code": "41311",
+      "display": "Vietnamese"
+    },
+    {
+      "code": "41411",
+      "display": "Burmese"
+    },
+    {
+      "code": "41412",
+      "display": "Indonesian (including Javanese / Sundanese / Sumatran)"
+    },
+    {
+      "code": "41413",
+      "display": "Lao / Laotian"
+    },
+    {
+      "code": "41414",
+      "display": "Malay / Malayan"
+    },
+    {
+      "code": "41415",
+      "display": "Thai / Tai / Siamese"
+    },
+    {
+      "code": "41499",
+      "display": "Other Southeast Asian NEC"
+    },
+    {
+      "code": "42100",
+      "display": "Chinese NFD"
+    },
+    {
+      "code": "42111",
+      "display": "Hong Kong Chinese"
+    },
+    {
+      "code": "42112",
+      "display": "Kampuchean Chinese"
+    },
+    {
+      "code": "42113",
+      "display": "Malaysian Chinese"
+    },
+    {
+      "code": "42114",
+      "display": "Singaporean Chinese"
+    },
+    {
+      "code": "42115",
+      "display": "Vietnamese Chinese"
+    },
+    {
+      "code": "42116",
+      "display": "Taiwanese Chinese"
+    },
+    {
+      "code": "42199",
+      "display": "Chinese NEC"
+    },
+    {
+      "code": "43100",
+      "display": "Indian NFD"
+    },
+    {
+      "code": "43111",
+      "display": "Bengali"
+    },
+    {
+      "code": "43112",
+      "display": "Fijian Indian / Indo-Fijian"
+    },
+    {
+      "code": "43113",
+      "display": "Gujarati"
+    },
+    {
+      "code": "43114",
+      "display": "Tamil"
+    },
+    {
+      "code": "43115",
+      "display": "Punjabi"
+    },
+    {
+      "code": "43116",
+      "display": "Sikh"
+    },
+    {
+      "code": "43117",
+      "display": "Anglo Indian"
+    },
+    {
+      "code": "43199",
+      "display": "Indian NEC"
+    },
+    {
+      "code": "44100",
+      "display": "Sri Lankan NFD"
+    },
+    {
+      "code": "44111",
+      "display": "Sinhalese"
+    },
+    {
+      "code": "44112",
+      "display": "Sri Lankan Tamil"
+    },
+    {
+      "code": "44199",
+      "display": "Sri Lankan NEC"
+    },
+    {
+      "code": "44211",
+      "display": "Japanese"
+    },
+    {
+      "code": "44311",
+      "display": "Korean"
+    },
+    {
+      "code": "44411",
+      "display": "Afghani"
+    },
+    {
+      "code": "44412",
+      "display": "Bangladeshi"
+    },
+    {
+      "code": "44413",
+      "display": "Nepalese"
+    },
+    {
+      "code": "44414",
+      "display": "Pakistani"
+    },
+    {
+      "code": "44415",
+      "display": "Tibetan"
+    },
+    {
+      "code": "44416",
+      "display": "Eurasian"
+    },
+    {
+      "code": "44499",
+      "display": "Other Asian NEC"
+    },
+    {
+      "code": "51100",
+      "display": "Middle Eastern NFD"
+    },
+    {
+      "code": "51111",
+      "display": "Algerian"
+    },
+    {
+      "code": "51112",
+      "display": "Arab"
+    },
+    {
+      "code": "51113",
+      "display": "Assyrian"
+    },
+    {
+      "code": "51114",
+      "display": "Egyptian"
+    },
+    {
+      "code": "51115",
+      "display": "Iranian / Persian"
+    },
+    {
+      "code": "51116",
+      "display": "Iraqi"
+    },
+    {
+      "code": "51117",
+      "display": "Israeli / Jewish / Hebrew"
+    },
+    {
+      "code": "51118",
+      "display": "Jordanian"
+    },
+    {
+      "code": "51119",
+      "display": "Kurd"
+    },
+    {
+      "code": "51120",
+      "display": "Lebanese"
+    },
+    {
+      "code": "51121",
+      "display": "Libyan"
+    },
+    {
+      "code": "51122",
+      "display": "Moroccan"
+    },
+    {
+      "code": "51123",
+      "display": "Omani"
+    },
+    {
+      "code": "51124",
+      "display": "Palestinian"
+    },
+    {
+      "code": "51125",
+      "display": "Syrian"
+    },
+    {
+      "code": "51126",
+      "display": "Tunisian"
+    },
+    {
+      "code": "51127",
+      "display": "Turkish (including Turkish Cypriot)"
+    },
+    {
+      "code": "51128",
+      "display": "Yemeni"
+    },
+    {
+      "code": "51199",
+      "display": "Middle Eastern NEC"
+    },
+    {
+      "code": "52100",
+      "display": "Latin American / Hispanic NFD"
+    },
+    {
+      "code": "52111",
+      "display": "Argentinian"
+    },
+    {
+      "code": "52112",
+      "display": "Bolivian"
+    },
+    {
+      "code": "52113",
+      "display": "Brazilian"
+    },
+    {
+      "code": "52114",
+      "display": "Chilean"
+    },
+    {
+      "code": "52115",
+      "display": "Colombian"
+    },
+    {
+      "code": "52116",
+      "display": "Costa Rican"
+    },
+    {
+      "code": "52117",
+      "display": "Creole (Latin America)"
+    },
+    {
+      "code": "52118",
+      "display": "Ecuadorian"
+    },
+    {
+      "code": "52119",
+      "display": "Guatemalan"
+    },
+    {
+      "code": "52120",
+      "display": "Guyanese"
+    },
+    {
+      "code": "52121",
+      "display": "Honduran"
+    },
+    {
+      "code": "52122",
+      "display": "Malvinian (Spanish-speaking Falkland Islander)"
+    },
+    {
+      "code": "52123",
+      "display": "Mexican"
+    },
+    {
+      "code": "52124",
+      "display": "Nicaraguan"
+    },
+    {
+      "code": "52125",
+      "display": "Panamanian"
+    },
+    {
+      "code": "52126",
+      "display": "Paraguayan"
+    },
+    {
+      "code": "52127",
+      "display": "Peruvian"
+    },
+    {
+      "code": "52128",
+      "display": "Puerto Rican"
+    },
+    {
+      "code": "52129",
+      "display": "Uruguayan"
+    },
+    {
+      "code": "52130",
+      "display": "Venezuelan"
+    },
+    {
+      "code": "52199",
+      "display": "Latin American / Hispanic NEC"
+    },
+    {
+      "code": "53100",
+      "display": "African NFD"
+    },
+    {
+      "code": "53112",
+      "display": "Creole (US)"
+    },
+    {
+      "code": "53113",
+      "display": "Jamaican"
+    },
+    {
+      "code": "53114",
+      "display": "Kenyan"
+    },
+    {
+      "code": "53115",
+      "display": "Nigerian"
+    },
+    {
+      "code": "53116",
+      "display": "African American"
+    },
+    {
+      "code": "53117",
+      "display": "Ugandan"
+    },
+    {
+      "code": "53118",
+      "display": "West Indian / Caribbean"
+    },
+    {
+      "code": "53119",
+      "display": "Somali"
+    },
+    {
+      "code": "53120",
+      "display": "Eritrean"
+    },
+    {
+      "code": "53121",
+      "display": "Ethiopian"
+    },
+    {
+      "code": "53122",
+      "display": "Ghanaian"
+    },
+    {
+      "code": "53199",
+      "display": "Other African NEC"
+    },
+    {
+      "code": "61111",
+      "display": "Central American Indian"
+    },
+    {
+      "code": "61112",
+      "display": "Inuit / Eskimo"
+    },
+    {
+      "code": "61113",
+      "display": "North American Indian"
+    },
+    {
+      "code": "61114",
+      "display": "South American Indian"
+    },
+    {
+      "code": "61115",
+      "display": "Mauritian"
+    },
+    {
+      "code": "61116",
+      "display": "Seychelles Islander"
+    },
+    {
+      "code": "61117",
+      "display": "South African Coloured"
+    },
+    {
+      "code": "61118",
+      "display": "New Zealander"
+    },
+    {
+      "code": "61199",
+      "display": "Other NEC"
+    },
+    {
+      "code": "94444",
+      "display": "Don't know"
+    },
+    {
+      "code": "95555",
+      "display": "Refused to answer"
+    },
+    {
+      "code": "96666",
+      "display": "Repeated Value"
+    },
+    {
+      "code": "97777",
+      "display": "Response unidentifiable"
+    },
+    {
+      "code": "98888",
+      "display": "Response Outside Scope"
+    },
+    {
+      "code": "99999",
+      "display": "Not stated"
+    }
+  ]
+}

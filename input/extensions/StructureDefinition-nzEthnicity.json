@@ -61,7 +61,7 @@
         "path": "Extension.valueCodeableConcept",
         "binding": {
           "strength": "preferred",
-          "valueSet": "http://standards.digital.health.nz/valueset/ethnic-group-level-4"
+          "valueSet": "https://standards.digital.health.nz/vs/ethnic-group-level-4"
         }
       }
     ]

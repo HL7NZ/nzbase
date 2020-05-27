@@ -1,0 +1,25 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "active",
+  "content": "complete",
+  "name": "Patient_citizenship_status",
+  "id": "Patient-citizenship-status",
+  "title": "Patient citizenship status",
+  "description": "Status of citizenship in NZ",
+  "version": "0.1.0",
+  "url": "https://standards.digital.health.nz/cs/citizenshipstatus",
+  "concept": [
+    {
+      "code": "CIT",
+      "display": "Citizen"
+    },
+    {
+      "code": "NCIT",
+      "display": "Not a citizen"
+    },
+    {
+      "code": "UNK",
+      "display": "Unknown"
+    }
+  ]
+}

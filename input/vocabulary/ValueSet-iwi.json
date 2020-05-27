@@ -1,0 +1,17 @@
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "Iwi",
+  "id": "Iwi",
+  "title": "Iwi",
+  "description": "New Zealand iwi codes",
+  "version": "0.1.0",
+  "url": "http://standards.digital.health.nz/cs/iwi",
+  "compose": {
+    "include": [
+      {
+        "system": "http://standards.digital.health.nz/vs/iwi"
+      }
+    ]
+  }
+}

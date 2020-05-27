@@ -40,11 +40,29 @@
       {
         "id": "Extension.value[x]",
         "path": "Extension.value[x]",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "type",
+              "path": "$this"
+            }
+          ],
+          "ordered": false,
+          "rules": "open"
+        },
         "type": [
           {
             "code": "CodeableConcept"
           }
         ]
+      },
+      {
+        "id": "Extension.valueCodeableConcept",
+        "path": "Extension.valueCodeableConcept",
+        "binding": {
+          "strength": "preferred",
+          "valueSet": "https://standards.digital.health.nz/vs/domicileCode"
+        }
       }
     ]
   }

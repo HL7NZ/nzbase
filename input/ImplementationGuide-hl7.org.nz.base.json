@@ -156,10 +156,90 @@
       },
       {
         "reference": {
+          "reference": "ValueSet/domicileCode"
+        },
+        "name": "domicileCode",
+        "description": "domicileCode",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/ethnicity"
+        },
+        "name": "Patient ethnicity",
+        "description": "Level 4 ethnicity codes",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/infosource"
+        },
+        "name": "infosource",
+        "description": "infosource",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/Iwi"
+        },
+        "name": "Iwi",
+        "description": "New Zealand iwi codes",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/Patient-citizenship-status"
+        },
+        "name": "Patient citizenship status",
+        "description": "Status of citizenship in NZ",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
           "reference": "CodeSystem/dhb"
         },
         "name": "District Health Board Code",
         "description": "District Health Board Code",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/domicileCode"
+        },
+        "name": "domicileCode",
+        "description": "domicileCode",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/EthnicityL4"
+        },
+        "name": "Level 4 ethnicity codes",
+        "description": "Level 4 ethnicity codes",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/infosource"
+        },
+        "name": "infosource",
+        "description": "infosource",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/Iwi"
+        },
+        "name": "Iwi",
+        "description": "New Zealand iwi codes",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/Patient-citizenship-status"
+        },
+        "name": "Patient citizenship status",
+        "description": "Status of citizenship in NZ",
         "exampleBoolean": false
       },
       {

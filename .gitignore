@@ -6,6 +6,8 @@ output/
 input-cache/
 /input-cache
 /output
+/working
+
 
 
 # Windows generated files #

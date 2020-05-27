@@ -6,7 +6,7 @@
   "title": "dhb",
   "description": "dhb",
   "version": "0.1.0",
-  "url": "http://hl7.org.nz/fhir/ValueSet/dhb",
+  "url": "https://standards.digital.health.nz/vs/dhb",
   "compose": {
     "include": [
       {

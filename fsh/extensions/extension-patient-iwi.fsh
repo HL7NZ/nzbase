@@ -7,4 +7,4 @@ Description: "Details related to maori ancestry"
 
 * extension 0..0
 * value[x] only CodeableConcept
-* valueCodeableConcept from http://standards.digital.health.nz/fhir/ValueSet/nziwi (preferred)
+* valueCodeableConcept from http://standards.digital.health.nz/cs/iwi (preferred)
