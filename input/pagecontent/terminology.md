@@ -18,7 +18,7 @@ The [FHIR spec](http://hl7.org/fhir/terminology-module.html) has much more detai
 
 | CodeSystem | Purpose | Url |
 | --- | --- | --- |
-| [Citizenship](CodeSystem-citizenShipStatus.html) | Codes that indicate the NZ Citizenship status | https://standards.digital.health.nz/cs/citizenshipstatus |
+| [Citizenship](CodeSystem-citizenshipStatus.html) | Codes that indicate the NZ Citizenship status | https://standards.digital.health.nz/cs/citizenshipstatus |
 | [DHB](CodeSystem-dhb.html) | The list of District Health Boards | https://standards.digital.health.nz/cs/dhb-code |
 | [Domicile Code](CodeSystem-domicileCode.html) | The domicile code referring for an address | https://standards.digital.health.nz/cs/domicileCode |
 | [Ethnicity](CodeSystem-ethnicityL4.html) | The set of NZ ethnicity codes | https://standards.digital.health.nz/cs/ethnic-group-level-4 |
