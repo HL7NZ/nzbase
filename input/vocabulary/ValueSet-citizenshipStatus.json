@@ -1,12 +1,12 @@
 {
   "resourceType": "ValueSet",
   "status": "active",
-  "name": "Patient_citizenship_status",
-  "id": "Patient-citizenship-status",
+  "name": "CitizenshipStatus",
+  "id": "citizenshipStatus",
   "title": "Patient citizenship status",
   "description": "Status of citizenship in NZ",
   "version": "0.1.0",
-  "url": "http:/hl7.org.nz/fhir/ValueSet/citizenshipstatus",
+  "url": "http:/hl7.org.nz/fhir/ValueSet/citizenshipStatus",
   "compose": {
     "include": [
       {

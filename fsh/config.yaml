@@ -14,7 +14,7 @@ id: hl7.org.nz.base
 canonical: http://hl7.org.nz/fhir
 version: 0.1.0
 name: NewZealandbaseprofilesImplementationGuide
-title: New Zealand base profiles Implementation Guide
+title: New Zealand Base Implementation Guide
 status: active
 publisher:
   name: David Hay
@@ -37,6 +37,9 @@ template: fhir.base.template#current
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 menu:
   IG Home: index.html
+  Profiles : profiles.html
+  Extensions : extensions.html
+  Terminology : terminology.html
   Table of Contents: toc.html
   Artifact Index: artifacts.html
   Support:

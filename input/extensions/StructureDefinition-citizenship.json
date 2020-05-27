@@ -68,7 +68,7 @@
         "path": "Extension.extension.valueCodeableConcept",
         "binding": {
           "strength": "preferred",
-          "valueSet": "http:/hl7.org.nz/fhir/ValueSet/citizenshipstatus"
+          "valueSet": "http:/hl7.org.nz/fhir/ValueSet/citizenshipStatus"
         }
       },
       {

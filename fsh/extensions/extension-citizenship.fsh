@@ -14,7 +14,7 @@ Description: "New Zealand citizenship"
 * extension[status].url = "status" (exactly)
 * extension[status] ^definition = "No description"
 * extension[status].value[x] only CodeableConcept
-* extension[status].valueCodeableConcept from http:/hl7.org.nz/fhir/ValueSet/citizenshipstatus (preferred)
+* extension[status].valueCodeableConcept from http:/hl7.org.nz/fhir/ValueSet/citizenshipStatus (preferred)
 
 * extension[source].url = "source" (exactly)
 * extension[source] ^definition = "No description"

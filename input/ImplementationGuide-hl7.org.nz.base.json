@@ -4,7 +4,7 @@
   "url": "http://hl7.org.nz/fhir/ImplementationGuide/hl7.org.nz.base",
   "version": "0.1.0",
   "name": "NewZealandbaseprofilesImplementationGuide",
-  "title": "New Zealand base profiles Implementation Guide",
+  "title": "New Zealand Base Implementation Guide",
   "status": "active",
   "publisher": "David Hay",
   "contact": [
@@ -148,6 +148,14 @@
       },
       {
         "reference": {
+          "reference": "ValueSet/citizenshipStatus"
+        },
+        "name": "Patient citizenship status",
+        "description": "Status of citizenship in NZ",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
           "reference": "ValueSet/dhb"
         },
         "name": "dhb",
@@ -188,7 +196,7 @@
       },
       {
         "reference": {
-          "reference": "ValueSet/Patient-citizenship-status"
+          "reference": "CodeSystem/citizenshipStatus"
         },
         "name": "Patient citizenship status",
         "description": "Status of citizenship in NZ",
@@ -212,7 +220,7 @@
       },
       {
         "reference": {
-          "reference": "CodeSystem/EthnicityL4"
+          "reference": "CodeSystem/ethnicityL4"
         },
         "name": "Level 4 ethnicity codes",
         "description": "Level 4 ethnicity codes",
@@ -236,14 +244,6 @@
       },
       {
         "reference": {
-          "reference": "CodeSystem/Patient-citizenship-status"
-        },
-        "name": "Patient citizenship status",
-        "description": "Status of citizenship in NZ",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
           "reference": "Patient/base1"
         },
         "name": "base1",
@@ -259,6 +259,21 @@
         {
           "nameUrl": "index.html",
           "title": "Home",
+          "generation": "markdown"
+        },
+        {
+          "nameUrl": "extensions.html",
+          "title": "Extensions",
+          "generation": "markdown"
+        },
+        {
+          "nameUrl": "profiles.html",
+          "title": "Profiles",
+          "generation": "markdown"
+        },
+        {
+          "nameUrl": "terminology.html",
+          "title": "Terminology",
           "generation": "markdown"
         }
       ]

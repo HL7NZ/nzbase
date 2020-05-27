@@ -1,7 +1,7 @@
 {
   "package-id": "hl7.org.nz.base",
   "canonical": "http://hl7.org.nz/fhir",
-  "title": "New Zealand base profiles Implementation Guide",
+  "title": "New Zealand Base Implementation Guide",
   "introduction": "New Zealand base profiles",
   "list": [
     {

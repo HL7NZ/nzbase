@@ -1,14 +1,14 @@
-ValueSet: Patient_citizenship_status
-Id: Patient-citizenship-status
+ValueSet: CitizenshipStatus
+Id: citizenshipStatus
 Title: "Patient citizenship status"
 Description: "Status of citizenship in NZ"
 
-* ^url = http:/hl7.org.nz/fhir/ValueSet/citizenshipstatus
+* ^url = http:/hl7.org.nz/fhir/ValueSet/citizenshipStatus
 
 * codes from system https://standards.digital.health.nz/cs/citizenshipstatus
 
-CodeSystem: Patient_citizenship_status
-Id: Patient-citizenship-status
+CodeSystem: CitizenshipStatus
+Id: citizenshipStatus
 Title: "Patient citizenship status"
 Description: "Status of citizenship in NZ"
 * ^url = https://standards.digital.health.nz/cs/citizenshipstatus
