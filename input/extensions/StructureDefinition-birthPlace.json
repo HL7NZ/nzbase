@@ -138,7 +138,7 @@
         "path": "Extension.extension.valueCodeableConcept",
         "binding": {
           "strength": "required",
-          "valueSet": "http://standards.digital.health.nz/vs/infosource"
+          "valueSet": "http:/hl7.org.nz/fhir/ValueSet/infosource"
         }
       },
       {

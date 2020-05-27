@@ -4,7 +4,7 @@ Id: domicileCode
 Title: "domicileCode"
 Description: "domicileCode"
 
-* ^url = https://standards.digital.health.nz/vs/domicileCode
+* ^url = http:/hl7.org.nz/fhir/ValueSet/domicileCode
 
 * codes from system https://standards.digital.health.nz/cs/domicileCode
 

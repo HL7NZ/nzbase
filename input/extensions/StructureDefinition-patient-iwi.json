@@ -61,7 +61,7 @@
         "path": "Extension.valueCodeableConcept",
         "binding": {
           "strength": "preferred",
-          "valueSet": "http://standards.digital.health.nz/cs/iwi"
+          "valueSet": "http:/hl7.org.nz/fhir/ValueSet/iwi"
         }
       }
     ]

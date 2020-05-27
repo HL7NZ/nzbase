@@ -4,7 +4,7 @@ Id: infosource
 Title: "infosource"
 Description: "infosource"
 
-* ^url = http://standards.digital.health.nz/vs/infosource
+* ^url = http:/hl7.org.nz/fhir/ValueSet/infosource
 * codes from system http://standards.digital.health.nz/cs/infosource
 
 

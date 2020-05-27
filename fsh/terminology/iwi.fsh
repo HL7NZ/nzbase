@@ -1,9 +1,9 @@
 ValueSet: Iwi
 Title: "Iwi"
 Description: "New Zealand iwi codes"
-* ^url = http://standards.digital.health.nz/cs/iwi
+* ^url = http:/hl7.org.nz/fhir/ValueSet/iwi
 
-* codes from system http://standards.digital.health.nz/vs/iwi
+* codes from system http://standards.digital.health.nz/cs/iwi
 
 CodeSystem: Iwi
 Title: "Iwi"

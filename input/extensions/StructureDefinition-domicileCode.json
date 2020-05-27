@@ -61,7 +61,7 @@
         "path": "Extension.valueCodeableConcept",
         "binding": {
           "strength": "preferred",
-          "valueSet": "https://standards.digital.health.nz/vs/domicileCode"
+          "valueSet": "http:/hl7.org.nz/fhir/ValueSet/domicileCode"
         }
       }
     ]

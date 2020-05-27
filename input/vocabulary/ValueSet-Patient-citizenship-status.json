@@ -6,7 +6,7 @@
   "title": "Patient citizenship status",
   "description": "Status of citizenship in NZ",
   "version": "0.1.0",
-  "url": "https://standards.digital.health.nz/vs/citizenshipstatus",
+  "url": "http:/hl7.org.nz/fhir/ValueSet/citizenshipstatus",
   "compose": {
     "include": [
       {

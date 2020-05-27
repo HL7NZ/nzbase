@@ -3,7 +3,7 @@ Id: dhb
 Title: "dhb"
 Description: "dhb"
 
-* ^url = https://standards.digital.health.nz/vs/dhb
+* ^url = http:/hl7.org.nz/fhir/ValueSet/dhb
 
 * codes from system https://standards.digital.health.nz/cs/dhb-code
 
