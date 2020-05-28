@@ -48,6 +48,10 @@
   "differential": {
     "element": [
       {
+        "id": "Patient",
+        "path": "Patient"
+      },
+      {
         "id": "Patient.extension",
         "path": "Patient.extension",
         "slicing": {
@@ -65,6 +69,7 @@
         "id": "Patient.extension:nzEthnicity",
         "path": "Patient.extension",
         "sliceName": "nzEthnicity",
+        "min": 0,
         "max": "4",
         "type": [
           {
@@ -79,6 +84,7 @@
         "id": "Patient.extension:birthPlace",
         "path": "Patient.extension",
         "sliceName": "birthPlace",
+        "min": 0,
         "max": "1",
         "type": [
           {
@@ -93,6 +99,7 @@
         "id": "Patient.extension:patient-iwi",
         "path": "Patient.extension",
         "sliceName": "patient-iwi",
+        "min": 0,
         "max": "1",
         "type": [
           {
@@ -107,6 +114,7 @@
         "id": "Patient.extension:citizenship",
         "path": "Patient.extension",
         "sliceName": "citizenship",
+        "min": 0,
         "max": "1",
         "type": [
           {
@@ -134,6 +142,7 @@
         "id": "Patient.identifier:NHI",
         "path": "Patient.identifier",
         "sliceName": "NHI",
+        "min": 0,
         "max": "1",
         "mustSupport": true
       },
@@ -152,6 +161,7 @@
         "id": "Patient.identifier:dormantNHI",
         "path": "Patient.identifier",
         "sliceName": "dormantNHI",
+        "min": 0,
         "max": "1",
         "mustSupport": true
       },

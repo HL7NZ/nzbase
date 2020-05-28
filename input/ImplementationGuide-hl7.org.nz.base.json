@@ -275,6 +275,11 @@
           "nameUrl": "terminology.html",
           "title": "Terminology",
           "generation": "markdown"
+        },
+        {
+          "nameUrl": "terminologySAVE.html",
+          "title": "Terminology SAVE",
+          "generation": "markdown"
         }
       ]
     },

@@ -42,6 +42,10 @@
   "differential": {
     "element": [
       {
+        "id": "Organization",
+        "path": "Organization"
+      },
+      {
         "id": "Organization.identifier",
         "path": "Organization.identifier",
         "slicing": {
@@ -58,6 +62,8 @@
         "id": "Organization.identifier:orgId",
         "path": "Organization.identifier",
         "sliceName": "orgId",
+        "min": 0,
+        "max": "*",
         "mustSupport": true
       },
       {

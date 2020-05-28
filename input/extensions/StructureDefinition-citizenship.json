@@ -28,10 +28,15 @@
   "differential": {
     "element": [
       {
+        "id": "Extension",
+        "path": "Extension"
+      },
+      {
         "id": "Extension.extension:status",
         "path": "Extension.extension",
         "sliceName": "status",
         "definition": "No description",
+        "min": 0,
         "max": "1"
       },
       {
@@ -66,6 +71,8 @@
       {
         "id": "Extension.extension:status.valueCodeableConcept",
         "path": "Extension.extension.valueCodeableConcept",
+        "min": 0,
+        "max": "1",
         "binding": {
           "strength": "preferred",
           "valueSet": "http:/hl7.org.nz/fhir/ValueSet/citizenshipStatus"
@@ -76,6 +83,7 @@
         "path": "Extension.extension",
         "sliceName": "source",
         "definition": "No description",
+        "min": 0,
         "max": "1"
       },
       {
@@ -110,6 +118,8 @@
       {
         "id": "Extension.extension:source.valueCodeableConcept",
         "path": "Extension.extension.valueCodeableConcept",
+        "min": 0,
+        "max": "1",
         "binding": {
           "strength": "preferred",
           "valueSet": "http:/hl7.org.nz/fhir/ValueSet/infosource"

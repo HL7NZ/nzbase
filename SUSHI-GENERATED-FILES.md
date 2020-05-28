@@ -20,3 +20,4 @@ lists those files generated from project configs or the contents in the ig-data 
 | input/pagecontent/extensions.md                | copied    | fsh/ig-data/input/pagecontent/extensions.md      |
 | input/pagecontent/profiles.md                  | copied    | fsh/ig-data/input/pagecontent/profiles.md        |
 | input/pagecontent/terminology.md               | copied    | fsh/ig-data/input/pagecontent/terminology.md     |
+| input/pagecontent/terminologySAVE.md           | copied    | fsh/ig-data/input/pagecontent/terminologySAVE.md |
