@@ -10,7 +10,7 @@
   "compose": {
     "include": [
       {
-        "system": "http://standards.digital.health.nz/cs/infosource"
+        "system": "https://standards.digital.health.nz/cs/infosource"
       }
     ]
   }

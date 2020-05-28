@@ -7,7 +7,7 @@
   "title": "Iwi",
   "description": "New Zealand iwi codes",
   "version": "0.1.0",
-  "url": "http://standards.digital.health.nz/cs/iwi",
+  "url": "https://standards.digital.health.nz/cs/iwi",
   "concept": [
     {
       "code": "01",

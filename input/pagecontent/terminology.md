@@ -10,30 +10,26 @@
 {% endcomment %} -->
 ### ValueSets
 
-
-
-Valuesets are selectors of concepts (represened as codes) that are used to indicate preferred values for specific elements in a particular context. The codes are actually defined in a Code System. The profile is used to 'bind' the ValueSet to an element.
+<div>
+Valuesets are selectors of concepts (represented as codes) that are used to indicate preferred values for specific elements in a particular context. The codes are actually defined in a Code System. The profile is used to 'bind' the ValueSet to an element.
 
 A ValueSet can refer to concepts from multiple CodeSystems, and any concept can be references by many ValueSets. 
 
 Ideally (and the case in this guide) the url of the valueSet will 'resolve' - entering it into a browser or REST client will return the ValueSet. 
 A common pattern is to have a ValueSet that 'includes' all the codes from a code system.
+</div>
 
-
-
-| ValueSet | Purpose | Url |
-| --- | --- | --- |
-| Iwi | New Zealand iwi codes | [http:/hl7.org.nz/fhir/ValueSet/iwi](ValueSet-Iwi.html) |
-| Patient citizenship status | Status of citizenship in NZ | [http:/hl7.org.nz/fhir/ValueSet/citizenshipStatus](ValueSet-citizenshipStatus.html) |
-| dhb | dhb | [http:/hl7.org.nz/fhir/ValueSet/dhb](ValueSet-dhb.html) |
-| domicileCode | domicileCode | [http:/hl7.org.nz/fhir/ValueSet/domicileCode](ValueSet-domicileCode.html) |
-| Patient ethnicity | Level 4 ethnicity codes | [http:/hl7.org.nz/fhir/ValueSet/ethnic-group-level-4](ValueSet-ethnicity.html) |
-| infosource | infosource | [http:/hl7.org.nz/fhir/ValueSet/infosource](ValueSet-infosource.html) |
-
-
+<table class='table table-bordered table-condensed'>
+<tr><th>ValueSet</th><th>Purpose</th><th>Url</th><th>CodeSystem Urls</th></tr>
+<tr><td width='20%'>Iwi</td><td>New Zealand iwi codes</td><td><a href='ValueSet-Iwi.html'>http:/hl7.org.nz/fhir/ValueSet/iwi</a></td><td><div><a href='CodeSystem-Iwi.html'>https://standards.digital.health.nz/cs/iwi</a></div></td></tr>
+<tr><td width='20%'>Patient citizenship status</td><td>Status of citizenship in NZ</td><td><a href='ValueSet-citizenshipStatus.html'>http:/hl7.org.nz/fhir/ValueSet/citizenshipStatus</a></td><td><div><a href='CodeSystem-citizenshipStatus.html'>https://standards.digital.health.nz/cs/citizenshipstatus</a></div></td></tr>
+<tr><td width='20%'>dhb</td><td>dhb</td><td><a href='ValueSet-dhb.html'>http:/hl7.org.nz/fhir/ValueSet/dhb</a></td><td><div><a href='CodeSystem-dhb.html'>https://standards.digital.health.nz/cs/dhb-code</a></div></td></tr>
+<tr><td width='20%'>domicileCode</td><td>domicileCode</td><td><a href='ValueSet-domicileCode.html'>http:/hl7.org.nz/fhir/ValueSet/domicileCode</a></td><td><div><a href='CodeSystem-domicileCode.html'>https://standards.digital.health.nz/cs/domicileCode</a></div></td></tr>
+<tr><td width='20%'>Patient ethnicity</td><td>Level 4 ethnicity codes</td><td><a href='ValueSet-ethnicity.html'>http:/hl7.org.nz/fhir/ValueSet/ethnic-group-level-4</a></td><td><div><a href='CodeSystem-ethnicityL4.html'>https://standards.digital.health.nz/cs/ethnic-group-level-4</a></div></td></tr>
+<tr><td width='20%'>infosource</td><td>infosource</td><td><a href='ValueSet-infosource.html'>http:/hl7.org.nz/fhir/ValueSet/infosource</a></td><td><div><a href='CodeSystem-infosource.html'>https://standards.digital.health.nz/cs/infosource</a></div></td></tr>
+</table>
+<br></br>
 ### CodeSystems
-
-
 
 These are codesystems that have been defined by this guide. They define specific concepts that are included in ValueSets. It is preferabe to use an international code systm such as SNOMED, ICD or LOINC - but this is not always possible.
 
@@ -41,13 +37,11 @@ Each CodeSystem has a globally unique url that is used to unambiguously identiy 
 
 The [FHIR spec](http://hl7.org/fhir/terminology-module.html) has much more detail on the use of Terminology in FHIR
 
-
-
-| CodeSystem | Purpose | Url |
-| --- | --- | --- |
-| Iwi | New Zealand iwi codes | [http://standards.digital.health.nz/cs/iwi](CodeSystem-Iwi.html) |
-| Patient citizenship status | Status of citizenship in NZ | [https://standards.digital.health.nz/cs/citizenshipstatus](CodeSystem-citizenshipStatus.html) |
-| District Health Board Code | District Health Board Code | [https://standards.digital.health.nz/cs/dhb-code](CodeSystem-dhb.html) |
-| domicileCode | domicileCode | [https://standards.digital.health.nz/cs/domicileCode](CodeSystem-domicileCode.html) |
-| Level 4 ethnicity codes | Level 4 ethnicity codes | [https://standards.digital.health.nz/cs/ethnic-group-level-4](CodeSystem-ethnicityL4.html) |
-| infosource | infosource | [http://standards.digital.health.nz/cs/infosource](CodeSystem-infosource.html) |
+<table class='table table-bordered table-condensed'>
+<tr><th>CodeSystem</th><th>Purpose</th><th>ValueSet Url</th></tr>
+<tr><td width='20%'>Iwi</td><td>New Zealand iwi codes</td><td><a href='CodeSystem-Iwi.html'>https://standards.digital.health.nz/cs/iwi</a></td></tr>
+<tr><td width='20%'>Patient citizenship status</td><td>Status of citizenship in NZ</td><td><a href='CodeSystem-citizenshipStatus.html'>https://standards.digital.health.nz/cs/citizenshipstatus</a></td></tr>
+<tr><td width='20%'>District Health Board Code</td><td>District Health Board Code</td><td><a href='CodeSystem-dhb.html'>https://standards.digital.health.nz/cs/dhb-code</a></td></tr>
+<tr><td width='20%'>domicileCode</td><td>domicileCode</td><td><a href='CodeSystem-domicileCode.html'>https://standards.digital.health.nz/cs/domicileCode</a></td></tr>
+<tr><td width='20%'>Level 4 ethnicity codes</td><td>Level 4 ethnicity codes</td><td><a href='CodeSystem-ethnicityL4.html'>https://standards.digital.health.nz/cs/ethnic-group-level-4</a></td></tr>
+<tr><td width='20%'>infosource</td><td>infosource</td><td><a href='CodeSystem-infosource.html'>https://standards.digital.health.nz/cs/infosource</a></td></tr>

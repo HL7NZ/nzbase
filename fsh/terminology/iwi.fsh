@@ -3,12 +3,12 @@ Title: "Iwi"
 Description: "New Zealand iwi codes"
 * ^url = http:/hl7.org.nz/fhir/ValueSet/iwi
 
-* codes from system http://standards.digital.health.nz/cs/iwi
+* codes from system https://standards.digital.health.nz/cs/iwi
 
 CodeSystem: Iwi
 Title: "Iwi"
 Description: "New Zealand iwi codes"
-* ^url = http://standards.digital.health.nz/cs/iwi
+* ^url = https://standards.digital.health.nz/cs/iwi
 
 * #01 "Te Tai Tokerau/Tāmaki-makaurau (Northland/Auckland) Region Iwi"
 * #0101 "Te Aupōuri"

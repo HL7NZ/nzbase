@@ -49,7 +49,7 @@ menu:
 # │  To use a provided ig-data/input/[pagecontent | pages]/index.[md | xml], delete the            │
 # │  "indexPageContent" property below.                                                            │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
-indexPageContent: New Zealand base profiles
+# indexPageContent: New Zealand base profiles
 
 # ╭───────────────────────────────────────package-list.json────────────────────────────────────────╮
 # │  To use a provided ig-data/package-list.json file, delete the "history" property below.        │
