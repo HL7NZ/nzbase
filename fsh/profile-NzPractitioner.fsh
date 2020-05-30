@@ -17,8 +17,9 @@ Description:    "The New Zealand base practitioner. Slices on identifier for CPN
 * address only nzAddress
 
 //must be one name with a family name
+//todo - should we really insist on a family name? May not always be known...
 * name 1..* MS
-* name.family 1..1 MS
+//* name.family 1..1 MS
 
 //slice identifier to add the HPI as Must Support
 * identifier ^slicing.discriminator.type = #value
