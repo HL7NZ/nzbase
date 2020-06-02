@@ -25,30 +25,22 @@ Description:    "The base Patient resource in NZ. Slices on identifer for NHI nu
     $citizenship named citizenship 0..1
    
 
-//set the address to the nz address (adds geocode and suburb)
+//set the address to the nz address (adds geocode, building name, domicileCode and suburb)
 * address only nzAddress
 
-//* address.extension contains
- //   $nzGeocode named nzGeocode 0..1
-
-
-/*
-//temp while testing
-* address.extension contains
-    $patient-addressDerived named patient-addressDerived 0..1
-
-*/
-//identifier - current NHI. Not including dormant NHI's in base...
+//identifier - current NHI. 
 * identifier ^slicing.discriminator.type = #pattern
 * identifier ^slicing.discriminator.path = "use" 
 * identifier ^slicing.rules = #openAtEnd
 
 * identifier contains 
     NHI 0..1 MS and
-    dormantNHI 0..1 MS
+    dormantNHI 0..* MS
 
+//This is the current NHI
 * identifier[NHI].system = "https://standards.digital.health.nz/id/nhi"
 * identifier[NHI].use = #official (exactly)
 
+//These are any previous NHI's (called 'dormant' by the MOH Identity team)
 * identifier[dormantNHI].system = "https://standards.digital.health.nz/id/nhi"
 * identifier[dormantNHI].use = #old (exactly)

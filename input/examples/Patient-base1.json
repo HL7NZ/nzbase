@@ -10,8 +10,12 @@
     {
       "extension": [
         {
+          "url": "http://hl7.org.nz/fhir/StructureDefinition/buildingName",
+          "valueString": "The Red building"
+        },
+        {
           "url": "http://hl7.org.nz/fhir/StructureDefinition/suburb",
-          "valueString": "Epsom"
+          "valueString": "RiverMouth"
         },
         {
           "extension": [
@@ -25,9 +29,25 @@
             }
           ],
           "url": "http://hl7.org.nz/fhir/StructureDefinition/nzGeocode"
+        },
+        {
+          "url": "http://hl7.org.nz/fhir/StructureDefinition/domicileCode",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "code": "0040",
+                "system": "https://standards.digital.health.nz/cs/domicileCode",
+                "display": "Waipu"
+              }
+            ]
+          }
         }
       ],
-      "text": "23 Thule st"
+      "text": "23 Thule st",
+      "line": [
+        "23 thule st"
+      ],
+      "city": "Waipu"
     }
   ],
   "text": {
@@ -42,5 +62,6 @@
         "Albertus"
       ]
     }
-  ]
+  ],
+  "birthDate": "1989-12-12"
 }

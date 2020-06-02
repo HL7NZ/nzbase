@@ -44,6 +44,14 @@
       },
       {
         "reference": {
+          "reference": "StructureDefinition/nzMedicationStatement"
+        },
+        "name": "NZ MedicationStatement",
+        "description": "The base MedicationStatement resource in NZ.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
           "reference": "StructureDefinition/NzOrganization"
         },
         "name": "NZ Organization",

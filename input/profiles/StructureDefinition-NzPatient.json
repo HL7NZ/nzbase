@@ -162,7 +162,7 @@
         "path": "Patient.identifier",
         "sliceName": "dormantNHI",
         "min": 0,
-        "max": "1",
+        "max": "*",
         "mustSupport": true
       },
       {

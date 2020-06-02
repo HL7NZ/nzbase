@@ -13,25 +13,18 @@ Usage: #example
 * name.given[1] = "Albertus"
 
 * address.text = "23 Thule st"
-* address.extension[suburb].valueString = "Epsom"
-
+* address.extension[buildingName].valueString = "The Red building"
+* address.line = "23 thule st"
+* address.extension[suburb].valueString = "RiverMouth"
+* address.city = "Waipu"
 * address.extension[nzGeocode].extension[longitude].valueDecimal = 100
 * address.extension[nzGeocode].extension[latitute].valueDecimal = 100
+* address.extension[domicileCode].valueCodeableConcept.coding.code = #0040
+* address.extension[domicileCode].valueCodeableConcept.coding.system = "https://standards.digital.health.nz/cs/domicileCode"
+* address.extension[domicileCode].valueCodeableConcept.coding.display = "Waipu"
 
-//* address.extension[nzGeocode][longitude].valueDecimal = 100
-/*
-//temp - while testing\
-* address.extension[patient-addressDerived].extension[latitude].valueDecimal = 100
-* address.extension[patient-addressDerived].extension[longitude].valueDecimal = 100
-* address.extension[patient-addressDerived].extension[meshblock].valueString = "mb100"
-* address.extension[patient-addressDerived].extension[depdecile].valueString = "dec100"
-* address.extension[patient-addressDerived].extension[depquintile].valueString = "quin100"
-* address.extension[patient-addressDerived].extension[domcode].valueCodeableConcept.coding.system = "https://standards.digital.health.nz/cs/domicilecode"
-* address.extension[patient-addressDerived].extension[domcode].valueCodeableConcept.coding.code = #0040
-* address.extension[patient-addressDerived].extension[domcode].valueCodeableConcept.coding.display = "Waipu"
-* address.extension[patient-addressDerived].extension[said].valueString = "said"
+* birthDate = "1989-12-12"
 
-*/
 
 /*
 * name.extension[informationsource].valueCodeableConcept.coding.system = "https://standards.digital.health.nz/cs/informationsource"
@@ -44,7 +37,7 @@ Usage: #example
 * gender.extension[originalText].valueString = "Bloke"
 
 //Birth date, verified by passport
-* birthDate = "1989-12-12"
+
 * birthDate.extension[informationsource].valueCodeableConcept.coding.system = "https://standards.digital.health.nz/cs/informationsource"
 * birthDate.extension[informationsource].valueCodeableConcept.coding.code = #PPRT
 * birthDate.extension[informationsource].valueCodeableConcept.coding.display = "Passport"
