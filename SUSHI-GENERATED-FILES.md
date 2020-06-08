@@ -14,11 +14,15 @@ lists those files generated from project configs or the contents in the ig-data 
 | ig.ini                                         | generated | fsh/ig-data/ig.ini, fsh/package.json                                  |
 | input/ImplementationGuide-hl7.org.nz.base.json | generated | fsh/ig-data/ig.ini, fsh/package.json, {all input resources and pages} |
 | input/ignoreWarnings.txt                       | generated |                                                                       |
-| input/pagecontent/index.md                     | generated | fsh/package.json                                                      |
 | package-list.json                              | generated | fsh/package.json                                                      |
+| input/images/hl7nz-logo.jpg                    | copied    | fsh/ig-data/input/images/hl7nz-logo.jpg                               |
 | input/includes/menu.xml                        | copied    | fsh/ig-data/input/includes/menu.xml                                   |
 | input/pagecontent/.DS_Store                    | copied    | fsh/ig-data/input/pagecontent/.DS_Store                               |
-| input/pagecontent/extensions.md                | copied    | fsh/ig-data/input/pagecontent/extensions.md                           |
-| input/pagecontent/profiles.md                  | copied    | fsh/ig-data/input/pagecontent/profiles.md                             |
+| input/pagecontent/extensions.xml               | copied    | fsh/ig-data/input/pagecontent/extensions.xml                          |
+| input/pagecontent/extensionsDEP.md             | copied    | fsh/ig-data/input/pagecontent/extensionsDEP.md                        |
+| input/pagecontent/index.md                     | copied    | fsh/ig-data/input/pagecontent/index.md                                |
+| input/pagecontent/profiles.xml                 | copied    | fsh/ig-data/input/pagecontent/profiles.xml                            |
+| input/pagecontent/profilesDEP.md               | copied    | fsh/ig-data/input/pagecontent/profilesDEP.md                          |
 | input/pagecontent/terminology.md               | copied    | fsh/ig-data/input/pagecontent/terminology.md                          |
+| input/pagecontent/terminologySave.md           | copied    | fsh/ig-data/input/pagecontent/terminologySave.md                      |
 | package.json                                   | copied    | fsh/package.json                                                      |

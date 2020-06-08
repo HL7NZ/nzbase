@@ -1,0 +1,29 @@
+:root {
+    --ig-status-text-color: #006020; /* 1. IG Title and status text color */
+    --navbar-bg-color: #206030; /* 2. Header container color */
+    --footer-bg-color: #666e68; /* 3. Footer background color*/
+    --footer-container-color: #104020; /* 4. Footer container color */
+    --stripe-bg-color: #668877; /* 5. Header strip color */
+    --btn-hover-color: #20b070; /* 6. Menu button hover color */
+    --btn-active-color: #40d090; /* 7. Menu button active color */
+    --btn-text-color: #ddffee; /* 8. Menu button text color */
+    --btn-gradient-start-color: #33aa77; /* 9. Menu item gradient start color */
+    --btn-gradient-end-color: #209966; /* 10. Menu item gradient end color */
+    --btn-gradient-start-color-alpha: #ff33aa77; /* 11. Menu item gradient start color (with alpha) */
+    --btn-gradient-end-color-alpha: #ff209966; /* 12. Menu item gradient end color (with alpha) */
+    --link-color: #208050; /* 13. Hyperlink text color */
+    --link-hover-color: #109030; /* 14. Hyperlink text hover color */
+    --publish-box-bg-color: #ffffd0; /* 15. Publish box background color */
+    --publish-box-border: 1px solid green; /* 16. Publish box border definition */
+    --toc-box-bg-color: #ddffee; /* 17. TOC box background color */
+    --toc-box-border: 1px solid green; /* 18. TOC box border definition */
+    --stu-note-background-color: #ffccbb; /* 19. (STU) Note box background color */
+    --stu-note-border-left-color: #ff6020; /* 20. (STU) Note box border color */
+    }
+
+
+    table, th, td {
+        border: 1px solid black;
+        
+        }
+    th:first-child{ width: 100px; }

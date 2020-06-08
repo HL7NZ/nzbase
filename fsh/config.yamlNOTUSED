@@ -14,7 +14,7 @@ id: hl7.org.nz.base
 canonical: http://hl7.org.nz/fhir
 version: 0.1.0
 name: NewZealandbaseprofilesImplementationGuide
-title: “HL7 FHIR New Zealand Base Implementation Guide”
+title : "HL7® FHIR® New Zealand Base Implementation Guide"
 status: active
 publisher:
   name: David Hay

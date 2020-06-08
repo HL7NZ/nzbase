@@ -24,6 +24,9 @@
       <b class="caret"></b>
     </a>
     <ul class="dropdown-menu">
+    <li>
+        <a href="full-ig.zip">Download IG</a>
+      </li>
       <li>
         <a href="http://hl7.org/fhir/R4/index.html">FHIR Spec</a>
       </li>

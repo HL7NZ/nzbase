@@ -13,7 +13,7 @@
     "********************************************************************************************"
   ],
   "package-id": "hl7.org.nz.base",
-  "title": "New Zealand base profiles Implementation Guide",
+  "title": "HL7® FHIR® New Zealand Base Implementation Guide",
   "canonical": "http://hl7.org.nz/fhir",
   "introduction": "New Zealand base profiles",
   "list": [

@@ -20,6 +20,10 @@
     {
       "type": "element",
       "expression": "Patient"
+    },
+    {
+      "type": "element",
+      "expression": "Location"
     }
   ],
   "type": "Extension",

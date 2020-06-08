@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "canonical": "http://hl7.org.nz/fhir",
   "url": "https://build.fhir.org/ig/HL7NZ/nzbase/",
-  "title": "New Zealand base profiles Implementation Guide",
+  "title": "HL7® FHIR® New Zealand Base Implementation Guide",
   "description": "New Zealand base profiles",
   "dependencies": {
     "hl7.fhir.r4.core": "4.0.1"
