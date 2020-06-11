@@ -67,7 +67,7 @@
         "max": "1",
         "binding": {
           "strength": "preferred",
-          "valueSet": "http:/hl7.org.nz/fhir/ValueSet/domicileCode"
+          "valueSet": "http:/hl7.org.nz/fhir/ValueSet/domicile-code"
         }
       }
     ]

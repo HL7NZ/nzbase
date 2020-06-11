@@ -1,7 +1,7 @@
 {
   "resourceType": "ImplementationGuide",
-  "id": "hl7.fhir.org.nz.base",
-  "url": "http://hl7.org.nz/fhir/ImplementationGuide/hl7.fhir.org.nz.base",
+  "id": "hl7.fhir.nz.base",
+  "url": "http://hl7.org.nz/fhir/ImplementationGuide/hl7.fhir.nz.base",
   "version": "0.1.0",
   "name": "HL7FHIRNewZealandBaseImplementationGuide",
   "title": "HL7® FHIR® New Zealand Base Implementation Guide",
@@ -19,7 +19,7 @@
     }
   ],
   "description": "New Zealand base profiles",
-  "packageId": "hl7.fhir.org.nz.base",
+  "packageId": "hl7.fhir.nz.base",
   "license": "CC0-1.0",
   "fhirVersion": [
     "4.0.1"
@@ -156,7 +156,7 @@
       },
       {
         "reference": {
-          "reference": "ValueSet/citizenshipStatus"
+          "reference": "ValueSet/citizenship-status"
         },
         "name": "Patient citizenship status",
         "description": "Status of citizenship in NZ",
@@ -172,7 +172,7 @@
       },
       {
         "reference": {
-          "reference": "ValueSet/domicileCode"
+          "reference": "ValueSet/domicile-code"
         },
         "name": "domicileCode",
         "description": "domicileCode",
@@ -188,7 +188,7 @@
       },
       {
         "reference": {
-          "reference": "ValueSet/infosource"
+          "reference": "ValueSet/info-source"
         },
         "name": "infosource",
         "description": "infosource",

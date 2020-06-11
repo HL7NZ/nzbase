@@ -22,11 +22,11 @@ A common pattern is to have a ValueSet that 'includes' all the codes from a code
 <table class='table table-bordered table-condensed'>
 <tr><th>ValueSet</th><th>Purpose</th><th>Url</th><th>CodeSystem Urls</th></tr>
 <tr><td width='20%'>Iwi</td><td>New Zealand iwi codes</td><td><a href='ValueSet-Iwi.html'>http:/hl7.org.nz/fhir/ValueSet/iwi</a></td><td><div><a href='CodeSystem-Iwi.html'>https://standards.digital.health.nz/cs/iwi</a></div></td></tr>
-<tr><td width='20%'>Patient citizenship status</td><td>Status of citizenship in NZ</td><td><a href='ValueSet-citizenshipStatus.html'>http:/hl7.org.nz/fhir/ValueSet/citizenshipStatus</a></td><td><div><a href='CodeSystem-citizenshipStatus.html'>https://standards.digital.health.nz/cs/citizenshipstatus</a></div></td></tr>
+<tr><td width='20%'>Patient citizenship status</td><td>Status of citizenship in NZ</td><td><a href='ValueSet-citizenship-status.html'>http:/hl7.org.nz/fhir/ValueSet/citizenship-status</a></td><td><div><a href='CodeSystem-citizenshipStatus.html'>https://standards.digital.health.nz/cs/citizenshipstatus</a></div></td></tr>
 <tr><td width='20%'>dhb</td><td>dhb</td><td><a href='ValueSet-dhb.html'>http:/hl7.org.nz/fhir/ValueSet/dhb</a></td><td><div><a href='CodeSystem-dhb.html'>https://standards.digital.health.nz/cs/dhb-code</a></div></td></tr>
-<tr><td width='20%'>domicileCode</td><td>domicileCode</td><td><a href='ValueSet-domicileCode.html'>http:/hl7.org.nz/fhir/ValueSet/domicileCode</a></td><td><div><a href='CodeSystem-domicileCode.html'>https://standards.digital.health.nz/cs/domicileCode</a></div></td></tr>
+<tr><td width='20%'>domicileCode</td><td>domicileCode</td><td><a href='ValueSet-domicile-code.html'>http:/hl7.org.nz/fhir/ValueSet/domicile-code</a></td><td><div><a href='CodeSystem-domicileCode.html'>https://standards.digital.health.nz/cs/domicileCode</a></div></td></tr>
 <tr><td width='20%'>Patient ethnicity</td><td>Level 4 ethnicity codes</td><td><a href='ValueSet-ethnicity.html'>http:/hl7.org.nz/fhir/ValueSet/ethnic-group-level-4</a></td><td><div><a href='CodeSystem-ethnicityL4.html'>https://standards.digital.health.nz/cs/ethnic-group-level-4</a></div></td></tr>
-<tr><td width='20%'>infosource</td><td>infosource</td><td><a href='ValueSet-infosource.html'>http:/hl7.org.nz/fhir/ValueSet/infosource</a></td><td><div><a href='CodeSystem-infosource.html'>https://standards.digital.health.nz/cs/infosource</a></div></td></tr>
+<tr><td width='20%'>infosource</td><td>infosource</td><td><a href='ValueSet-info-source.html'>http:/hl7.org.nz/fhir/ValueSet/info-source</a></td><td><div><a href='CodeSystem-infosource.html'>https://standards.digital.health.nz/cs/infosource</a></div></td></tr>
 </table>
 <br/></br/>
 ### CodeSystems
@@ -38,7 +38,7 @@ Each CodeSystem has a globally unique url that is used to unambiguously identiy 
 The [FHIR spec](http://hl7.org/fhir/terminology-module.html) has much more detail on the use of Terminology in FHIR
 
 <table class='table table-bordered table-condensed'>
-<tr><th>CodeSystem</th><th>Purpose</th><th>ValueSet Url</th></tr>
+<tr><th>CodeSystem</th><th>Purpose</th><th>CodeSystem Url</th></tr>
 <tr><td width='20%'>Iwi</td><td>New Zealand iwi codes</td><td><a href='CodeSystem-Iwi.html'>https://standards.digital.health.nz/cs/iwi</a></td></tr>
 <tr><td width='20%'>Patient citizenship status</td><td>Status of citizenship in NZ</td><td><a href='CodeSystem-citizenshipStatus.html'>https://standards.digital.health.nz/cs/citizenshipstatus</a></td></tr>
 <tr><td width='20%'>District Health Board Code</td><td>District Health Board Code</td><td><a href='CodeSystem-dhb.html'>https://standards.digital.health.nz/cs/dhb-code</a></td></tr>

@@ -2,11 +2,11 @@
   "resourceType": "ValueSet",
   "status": "active",
   "name": "DomicileCode",
-  "id": "domicileCode",
+  "id": "domicile-code",
   "title": "domicileCode",
   "description": "domicileCode",
   "version": "0.1.0",
-  "url": "http:/hl7.org.nz/fhir/ValueSet/domicileCode",
+  "url": "http:/hl7.org.nz/fhir/ValueSet/domicile-code",
   "compose": {
     "include": [
       {

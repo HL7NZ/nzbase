@@ -12,7 +12,7 @@
     "* See: https://build.fhir.org/ig/FHIR/ig-guidance/using-templates.html#igroot              *",
     "********************************************************************************************"
   ],
-  "package-id": "hl7.org.nz.base",
+  "package-id": "hl7.fhir.nz.base",
   "title": "HL7® FHIR® New Zealand Base Implementation Guide",
   "canonical": "http://hl7.org.nz/fhir",
   "introduction": "New Zealand base profiles",

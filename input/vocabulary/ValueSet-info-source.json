@@ -2,11 +2,11 @@
   "resourceType": "ValueSet",
   "status": "active",
   "name": "Infosource",
-  "id": "infosource",
+  "id": "info-source",
   "title": "infosource",
   "description": "infosource",
   "version": "0.1.0",
-  "url": "http:/hl7.org.nz/fhir/ValueSet/infosource",
+  "url": "http:/hl7.org.nz/fhir/ValueSet/info-source",
   "compose": {
     "include": [
       {

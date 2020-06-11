@@ -1,10 +1,10 @@
 
 ValueSet: DomicileCode
-Id: domicileCode
+Id: domicile-code
 Title: "domicileCode"
 Description: "domicileCode"
 
-* ^url = http:/hl7.org.nz/fhir/ValueSet/domicileCode
+* ^url = http:/hl7.org.nz/fhir/ValueSet/domicile-code
 
 * codes from system https://standards.digital.health.nz/cs/domicileCode
 

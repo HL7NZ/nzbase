@@ -1,10 +1,10 @@
 
 ValueSet: Infosource
-Id: infosource
+Id: info-source
 Title: "infosource"
 Description: "infosource"
 
-* ^url = http:/hl7.org.nz/fhir/ValueSet/infosource
+* ^url = http:/hl7.org.nz/fhir/ValueSet/info-source
 * codes from system https://standards.digital.health.nz/cs/infosource
 
 
