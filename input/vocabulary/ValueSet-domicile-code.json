@@ -10,7 +10,7 @@
   "compose": {
     "include": [
       {
-        "system": "https://standards.digital.health.nz/cs/domicileCode"
+        "system": "https://standards.digital.health.nz/cs/domicile-code"
       }
     ]
   }

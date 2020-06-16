@@ -6,16 +6,16 @@ Description: "domicileCode"
 
 * ^url = http:/hl7.org.nz/fhir/ValueSet/domicile-code
 
-* codes from system https://standards.digital.health.nz/cs/domicileCode
+* codes from system https://standards.digital.health.nz/cs/domicile-code
 
 CodeSystem: DomicileCode
 Id: domicileCode
 Title: "domicileCode"
 Description: "domicileCode"
 
-* ^url = https://standards.digital.health.nz/cs/domicileCode
+* ^url = https://standards.digital.health.nz/cs/domicile-code
 
-* #﻿0001 "Awanui"
+* #0001 "Awanui"
 * #0002 "Karikari Peninsula-Maungataniwha"
 * #0003 "Taipa Bay - Mangonui"
 * #0004 "Herekino"

@@ -7,10 +7,10 @@
   "title": "domicileCode",
   "description": "domicileCode",
   "version": "0.1.0",
-  "url": "https://standards.digital.health.nz/cs/domicileCode",
+  "url": "https://standards.digital.health.nz/cs/domicile-code",
   "concept": [
     {
-      "code": "﻿0001",
+      "code": "0001",
       "display": "Awanui"
     },
     {

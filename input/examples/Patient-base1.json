@@ -6,6 +6,90 @@
       "http://hl7.org.nz/fhir/StructureDefinition/NzPatient"
     ]
   },
+  "extension": [
+    {
+      "url": "http://hl7.org.nz/fhir/StructureDefinition/nz-ethnicity",
+      "valueCodeableConcept": {
+        "coding": [
+          {
+            "code": "11111",
+            "system": "https://standards.digital.health.nz/cs/ethnic-group-level-4",
+            "display": "New Zealand European"
+          }
+        ]
+      }
+    },
+    {
+      "url": "http://hl7.org.nz/fhir/StructureDefinition/nz-ethnicity",
+      "valueCodeableConcept": {
+        "coding": [
+          {
+            "code": "12111",
+            "system": "https://standards.digital.health.nz/cs/ethnic-group-level-4",
+            "display": "Celtic"
+          }
+        ]
+      }
+    },
+    {
+      "extension": [
+        {
+          "url": "country",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "code": "nz",
+                "system": "urn:iso:std:iso:3166"
+              }
+            ]
+          }
+        },
+        {
+          "url": "place-of-birth",
+          "valueString": "Palmerston North"
+        }
+      ],
+      "url": "http://hl7.org.nz/fhir/StructureDefinition/birth-place"
+    },
+    {
+      "extension": [
+        {
+          "url": "status",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "code": "CIT",
+                "system": "https://standards.digital.health.nz/cs/citizenshipstatus"
+              }
+            ]
+          }
+        },
+        {
+          "url": "source",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "code": "PPRT",
+                "system": "https://standards.digital.health.nz/cs/infosource"
+              }
+            ]
+          }
+        }
+      ],
+      "url": "http://hl7.org.nz/fhir/StructureDefinition/citizenship"
+    },
+    {
+      "url": "http://hl7.org.nz/fhir/StructureDefinition/patient-iwi",
+      "valueCodeableConcept": {
+        "coding": [
+          {
+            "code": "01",
+            "system": "https://standards.digital.health.nz/cs/iwi"
+          }
+        ]
+      }
+    }
+  ],
   "address": [
     {
       "extension": [
@@ -61,6 +145,28 @@
         "John",
         "Albertus"
       ]
+    }
+  ],
+  "identifier": [
+    {
+      "use": "official",
+      "system": "https://standards.digital.health.nz/id/nhi",
+      "value": "WER4568"
+    },
+    {
+      "use": "old",
+      "system": "https://standards.digital.health.nz/id/nhi",
+      "value": "ABC1234"
+    }
+  ],
+  "telecom": [
+    {
+      "system": "email",
+      "value": "johndoe@erewhon.com"
+    },
+    {
+      "system": "phone",
+      "value": "+64 9 000 0000"
     }
   ],
   "birthDate": "1989-12-12"

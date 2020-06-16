@@ -75,25 +75,25 @@
         }
       },
       {
-        "id": "Extension.extension:placeOfBirth",
+        "id": "Extension.extension:place-of-birth",
         "path": "Extension.extension",
-        "sliceName": "placeOfBirth",
+        "sliceName": "place-of-birth",
         "definition": "No description",
         "min": 0,
         "max": "1"
       },
       {
-        "id": "Extension.extension:placeOfBirth.extension",
+        "id": "Extension.extension:place-of-birth.extension",
         "path": "Extension.extension.extension",
         "max": "0"
       },
       {
-        "id": "Extension.extension:placeOfBirth.url",
+        "id": "Extension.extension:place-of-birth.url",
         "path": "Extension.extension.url",
-        "fixedUri": "placeOfBirth"
+        "fixedUri": "place-of-birth"
       },
       {
-        "id": "Extension.extension:placeOfBirth.value[x]",
+        "id": "Extension.extension:place-of-birth.value[x]",
         "path": "Extension.extension.value[x]",
         "type": [
           {

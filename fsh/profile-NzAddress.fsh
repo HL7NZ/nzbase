@@ -16,7 +16,7 @@ Description:    "Adds building name, suburb, domicile code and geocode to the Ad
 
 //Needs to be a different geocode as uses a different datum
 * extension contains
-    $nzGeocode named nzGeocode 0..1 and
+    $nzGeocode named nz-geocode 0..1 and
     $suburb named suburb 0..1 and
-    $buildingName named buildingName 0..1 and 
-    $domicileCode named domicileCode 0..1
+    $buildingName named building-name 0..1 and 
+    $domicileCode named domicile-code 0..1
