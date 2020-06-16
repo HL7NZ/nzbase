@@ -48,10 +48,6 @@
   "differential": {
     "element": [
       {
-        "id": "Patient",
-        "path": "Patient"
-      },
-      {
         "id": "Patient.extension",
         "path": "Patient.extension",
         "slicing": {
@@ -66,31 +62,31 @@
         }
       },
       {
-        "id": "Patient.extension:nzEthnicity",
+        "id": "Patient.extension:nz-ethnicity",
         "path": "Patient.extension",
-        "sliceName": "nzEthnicity",
+        "sliceName": "nz-ethnicity",
         "min": 0,
         "max": "4",
         "type": [
           {
             "code": "Extension",
             "profile": [
-              "http://hl7.org.nz/fhir/StructureDefinition/nzEthnicity"
+              "http://hl7.org.nz/fhir/StructureDefinition/nz-ethnicity"
             ]
           }
         ]
       },
       {
-        "id": "Patient.extension:birthPlace",
+        "id": "Patient.extension:birth-place",
         "path": "Patient.extension",
-        "sliceName": "birthPlace",
+        "sliceName": "birth-place",
         "min": 0,
         "max": "1",
         "type": [
           {
             "code": "Extension",
             "profile": [
-              "http://hl7.org.nz/fhir/StructureDefinition/birthPlace"
+              "http://hl7.org.nz/fhir/StructureDefinition/birth-place"
             ]
           }
         ]

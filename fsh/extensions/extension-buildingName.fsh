@@ -1,5 +1,5 @@
 Extension: BuildingName
-Id: buildingName
+Id: building-name
 Description: "Used on an adddress datatype when a building name is needed"
 
 * ^context.type = #element

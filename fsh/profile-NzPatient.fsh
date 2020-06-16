@@ -1,10 +1,10 @@
 // Aliases for extensions
-Alias: $nzEthnicity = http://hl7.org.nz/fhir/StructureDefinition/nzEthnicity
-Alias: $birthPlace = http://hl7.org.nz/fhir/StructureDefinition/birthPlace
+Alias: $nzEthnicity = http://hl7.org.nz/fhir/StructureDefinition/nz-ethnicity
+Alias: $birthPlace = http://hl7.org.nz/fhir/StructureDefinition/birth-place
 Alias: $patient-iwi = http://hl7.org.nz/fhir/StructureDefinition/patient-iwi
-Alias: $patient-addressDerived = http://hl7.org.nz/fhir/StructureDefinition/patient-addressDerived
+//Alias: $patient-addressDerived = http://hl7.org.nz/fhir/StructureDefinition/patient-addressDerived
 //Alias: $NHI = https://standards.digital.health.nz/id/nhi
-Alias: $informationsource = http://hl7.org.nz/fhir/StructureDefinition/informationsource
+Alias: $informationsource = http://hl7.org.nz/fhir/StructureDefinition/information-source
 Alias: $citizenship = http://hl7.org.nz/fhir/StructureDefinition/citizenship
 
 Profile:        NzPatient
@@ -19,8 +19,8 @@ Description:    "The base Patient resource in NZ. Slices on identifer for NHI nu
 
 //root level extensions
 * extension contains
-    $nzEthnicity named nzEthnicity 0..4 and
-    $birthPlace named birthPlace 0..1 and
+    $nzEthnicity named nz-ethnicity 0..4 and
+    $birthPlace named birth-place 0..1 and
     $patient-iwi named patient-iwi 0..1 and
     $citizenship named citizenship 0..1
    

@@ -1,6 +1,6 @@
 
 Extension: DomicileCode
-Id: domicileCode
+Id: domicile-code
 Description: "The domicile code. Derived from the address "
 
 * ^context.type = #element

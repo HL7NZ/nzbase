@@ -10,7 +10,7 @@
     {
       "extension": [
         {
-          "url": "http://hl7.org.nz/fhir/StructureDefinition/buildingName",
+          "url": "http://hl7.org.nz/fhir/StructureDefinition/building-name",
           "valueString": "The Red building"
         },
         {
@@ -28,10 +28,10 @@
               "valueDecimal": 100
             }
           ],
-          "url": "http://hl7.org.nz/fhir/StructureDefinition/nzGeocode"
+          "url": "http://hl7.org.nz/fhir/StructureDefinition/nz-geocode"
         },
         {
-          "url": "http://hl7.org.nz/fhir/StructureDefinition/domicileCode",
+          "url": "http://hl7.org.nz/fhir/StructureDefinition/domicile-code",
           "valueCodeableConcept": {
             "coding": [
               {

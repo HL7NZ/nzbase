@@ -1,11 +1,11 @@
 {
   "resourceType": "StructureDefinition",
-  "id": "domicileCode",
-  "url": "http://hl7.org.nz/fhir/StructureDefinition/domicileCode",
+  "id": "information-source",
+  "url": "http://hl7.org.nz/fhir/StructureDefinition/information-source",
   "version": "0.1.0",
-  "name": "DomicileCode",
+  "name": "Informationsource",
   "status": "active",
-  "description": "The domicile code. Derived from the address ",
+  "description": "The source of the information. Used paricularly in the NHI. Note this not the person but rather than it came from a passport for example",
   "fhirVersion": "4.0.1",
   "mapping": [
     {
@@ -19,7 +19,7 @@
   "context": [
     {
       "type": "element",
-      "expression": "Address"
+      "expression": "Patient.birthDate"
     }
   ],
   "type": "Extension",
@@ -28,10 +28,6 @@
   "differential": {
     "element": [
       {
-        "id": "Extension",
-        "path": "Extension"
-      },
-      {
         "id": "Extension.extension",
         "path": "Extension.extension",
         "max": "0"
@@ -39,7 +35,7 @@
       {
         "id": "Extension.url",
         "path": "Extension.url",
-        "fixedUri": "http://hl7.org.nz/fhir/StructureDefinition/domicileCode"
+        "fixedUri": "http://hl7.org.nz/fhir/StructureDefinition/information-source"
       },
       {
         "id": "Extension.value[x]",
@@ -67,7 +63,7 @@
         "max": "1",
         "binding": {
           "strength": "preferred",
-          "valueSet": "http:/hl7.org.nz/fhir/ValueSet/domicile-code"
+          "valueSet": "http:/hl7.org.nz/fhir/ValueSet/info-source"
         }
       }
     ]

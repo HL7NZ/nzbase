@@ -13,16 +13,16 @@
 <table width='100%' border='1' cellspacing='0' cellpadding='5px'>
 <tr><th>Id</th><th>Url</th><th>Context of Use</th><th>Description</th></tr>
 <tr>
-<td><a href='http://build.fhir.org/ig/HL7NZ/nzbase/branches/master/StructureDefinition-birthPlace.html'>birthPlace</a></td>
-<td>http://hl7.org.nz/fhir/StructureDefinition/birthPlace</td>
+<td><a href='http://build.fhir.org/ig/HL7NZ/nzbase/branches/master/StructureDefinition-birth-place.html'>birth-place</a></td>
+<td>http://hl7.org.nz/fhir/StructureDefinition/birth-place</td>
 <td>
 <div>Patient</div>
 </td>
 <td>The country where the person was born</td>
 </tr>
 <tr>
-<td><a href='http://build.fhir.org/ig/HL7NZ/nzbase/branches/master/StructureDefinition-buildingName.html'>buildingName</a></td>
-<td>http://hl7.org.nz/fhir/StructureDefinition/buildingName</td>
+<td><a href='http://build.fhir.org/ig/HL7NZ/nzbase/branches/master/StructureDefinition-building-name.html'>building-name</a></td>
+<td>http://hl7.org.nz/fhir/StructureDefinition/building-name</td>
 <td>
 <div>Address</div>
 </td>
@@ -46,32 +46,32 @@
 <td>The District Health Board the patient resides in. It is derived from the patient's primary residential address (not updated directly).</td>
 </tr>
 <tr>
-<td><a href='http://build.fhir.org/ig/HL7NZ/nzbase/branches/master/StructureDefinition-domicileCode.html'>domicileCode</a></td>
-<td>http://hl7.org.nz/fhir/StructureDefinition/domicileCode</td>
+<td><a href='http://build.fhir.org/ig/HL7NZ/nzbase/branches/master/StructureDefinition-domicile-code.html'>domicile-code</a></td>
+<td>http://hl7.org.nz/fhir/StructureDefinition/domicile-code</td>
 <td>
 <div>Address</div>
 </td>
 <td>The domicile code. Derived from the address </td>
 </tr>
 <tr>
-<td><a href='http://build.fhir.org/ig/HL7NZ/nzbase/branches/master/StructureDefinition-informationsource.html'>informationsource</a></td>
-<td>http://hl7.org.nz/fhir/StructureDefinition/informationsource</td>
+<td><a href='http://build.fhir.org/ig/HL7NZ/nzbase/branches/master/StructureDefinition-information-source.html'>information-source</a></td>
+<td>http://hl7.org.nz/fhir/StructureDefinition/information-source</td>
 <td>
 <div>Patient.birthDate</div>
 </td>
 <td>The source of the information. Used paricularly in the NHI. Note this not the person but rather than it came from a passport for example</td>
 </tr>
 <tr>
-<td><a href='http://build.fhir.org/ig/HL7NZ/nzbase/branches/master/StructureDefinition-nzEthnicity.html'>nzEthnicity</a></td>
-<td>http://hl7.org.nz/fhir/StructureDefinition/nzEthnicity</td>
+<td><a href='http://build.fhir.org/ig/HL7NZ/nzbase/branches/master/StructureDefinition-nz-ethnicity.html'>nz-ethnicity</a></td>
+<td>http://hl7.org.nz/fhir/StructureDefinition/nz-ethnicity</td>
 <td>
 <div>Element</div>
 </td>
 <td>The ethnicity of the patient. Uses level 4 codes (most detailed).</td>
 </tr>
 <tr>
-<td><a href='http://build.fhir.org/ig/HL7NZ/nzbase/branches/master/StructureDefinition-nzGeocode.html'>nzGeocode</a></td>
-<td>http://hl7.org.nz/fhir/StructureDefinition/nzGeocode</td>
+<td><a href='http://build.fhir.org/ig/HL7NZ/nzbase/branches/master/StructureDefinition-nz-geocode.html'>nz-geocode</a></td>
+<td>http://hl7.org.nz/fhir/StructureDefinition/nz-geocode</td>
 <td>
 <div>Address</div>
 </td>

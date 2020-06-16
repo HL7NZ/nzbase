@@ -32,10 +32,6 @@
   "differential": {
     "element": [
       {
-        "id": "Location",
-        "path": "Location"
-      },
-      {
         "id": "Location.identifier",
         "path": "Location.identifier",
         "slicing": {

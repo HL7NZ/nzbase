@@ -1,7 +1,7 @@
-Alias: $nzGeocode = http://hl7.org.nz/fhir/StructureDefinition/nzGeocode
+Alias: $nzGeocode = http://hl7.org.nz/fhir/StructureDefinition/nz-geocode
 Alias: $suburb = http://hl7.org.nz/fhir/StructureDefinition/suburb
-Alias: $buildingName = http://hl7.org.nz/fhir/StructureDefinition/buildingName
-Alias: $domicileCode = http://hl7.org.nz/fhir/StructureDefinition/domicileCode
+Alias: $buildingName = http://hl7.org.nz/fhir/StructureDefinition/building-name
+Alias: $domicileCode = http://hl7.org.nz/fhir/StructureDefinition/domicile-code
 
 Profile:        NzAddress
 Parent:         Address

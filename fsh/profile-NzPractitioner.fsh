@@ -1,5 +1,5 @@
 
-Alias: $nzEthnicity = http://hl7.org.nz/fhir/StructureDefinition/nzEthnicity
+Alias: $nzEthnicity = http://hl7.org.nz/fhir/StructureDefinition/nz-ethnicity
 
 Profile:        NzPractitioner
 Parent:         Practitioner

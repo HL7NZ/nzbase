@@ -1,11 +1,11 @@
 {
   "resourceType": "StructureDefinition",
-  "id": "nzEthnicity",
-  "url": "http://hl7.org.nz/fhir/StructureDefinition/nzEthnicity",
+  "id": "domicile-code",
+  "url": "http://hl7.org.nz/fhir/StructureDefinition/domicile-code",
   "version": "0.1.0",
-  "name": "NzEthnicity",
+  "name": "DomicileCode",
   "status": "active",
-  "description": "The ethnicity of the patient. Uses level 4 codes (most detailed).",
+  "description": "The domicile code. Derived from the address ",
   "fhirVersion": "4.0.1",
   "mapping": [
     {
@@ -19,7 +19,7 @@
   "context": [
     {
       "type": "element",
-      "expression": "Element"
+      "expression": "Address"
     }
   ],
   "type": "Extension",
@@ -28,10 +28,6 @@
   "differential": {
     "element": [
       {
-        "id": "Extension",
-        "path": "Extension"
-      },
-      {
         "id": "Extension.extension",
         "path": "Extension.extension",
         "max": "0"
@@ -39,7 +35,7 @@
       {
         "id": "Extension.url",
         "path": "Extension.url",
-        "fixedUri": "http://hl7.org.nz/fhir/StructureDefinition/nzEthnicity"
+        "fixedUri": "http://hl7.org.nz/fhir/StructureDefinition/domicile-code"
       },
       {
         "id": "Extension.value[x]",
@@ -67,7 +63,7 @@
         "max": "1",
         "binding": {
           "strength": "preferred",
-          "valueSet": "http:/hl7.org.nz/fhir/ValueSet/ethnic-group-level-4"
+          "valueSet": "http:/hl7.org.nz/fhir/ValueSet/domicile-code"
         }
       }
     ]

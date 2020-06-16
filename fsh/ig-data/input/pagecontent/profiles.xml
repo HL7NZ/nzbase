@@ -27,10 +27,5 @@
 <td>http://hl7.org.nz/fhir/StructureDefinition/nzAddress</td>
 <td>Adds building name, suburb, domicile code and geocode to the Address datatype</td>
 </tr>
-<tr>
-<td><a href='http://build.fhir.org/ig/HL7NZ/nzbase/branches/master/StructureDefinition-nzMedicationStatement.html'>nzMedicationStatement</a></td>
-<td>http://hl7.org.nz/fhir/StructureDefinition/nzMedicationStatement</td>
-<td>The base MedicationStatement resource in NZ.</td>
-</tr>
 </table>
 </div>

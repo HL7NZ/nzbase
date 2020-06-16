@@ -44,14 +44,6 @@
       },
       {
         "reference": {
-          "reference": "StructureDefinition/nzMedicationStatement"
-        },
-        "name": "NZ MedicationStatement",
-        "description": "The base MedicationStatement resource in NZ.",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
           "reference": "StructureDefinition/NzOrganization"
         },
         "name": "NZ Organization",
@@ -76,7 +68,7 @@
       },
       {
         "reference": {
-          "reference": "StructureDefinition/birthPlace"
+          "reference": "StructureDefinition/birth-place"
         },
         "name": "BirthPlace",
         "description": "The country where the person was born",
@@ -84,7 +76,7 @@
       },
       {
         "reference": {
-          "reference": "StructureDefinition/buildingName"
+          "reference": "StructureDefinition/building-name"
         },
         "name": "BuildingName",
         "description": "Used on an adddress datatype when a building name is needed",
@@ -108,7 +100,7 @@
       },
       {
         "reference": {
-          "reference": "StructureDefinition/domicileCode"
+          "reference": "StructureDefinition/domicile-code"
         },
         "name": "DomicileCode",
         "description": "The domicile code. Derived from the address ",
@@ -116,7 +108,7 @@
       },
       {
         "reference": {
-          "reference": "StructureDefinition/informationsource"
+          "reference": "StructureDefinition/information-source"
         },
         "name": "Informationsource",
         "description": "The source of the information. Used paricularly in the NHI. Note this not the person but rather than it came from a passport for example",
@@ -124,7 +116,7 @@
       },
       {
         "reference": {
-          "reference": "StructureDefinition/nzEthnicity"
+          "reference": "StructureDefinition/nz-ethnicity"
         },
         "name": "NzEthnicity",
         "description": "The ethnicity of the patient. Uses level 4 codes (most detailed).",
@@ -132,7 +124,7 @@
       },
       {
         "reference": {
-          "reference": "StructureDefinition/nzGeocode"
+          "reference": "StructureDefinition/nz-geocode"
         },
         "name": "NzGeocode",
         "description": "The new zealand geocode. This uses a different datum from that defined in the spec for the geocode, so is an extension rather than using the element in the spec. see discussion at https://chat.fhir.org/#narrow/stream/179166-implementers/topic/geocode.20extension",

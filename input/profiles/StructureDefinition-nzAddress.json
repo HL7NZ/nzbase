@@ -42,10 +42,6 @@
   "differential": {
     "element": [
       {
-        "id": "Address",
-        "path": "Address"
-      },
-      {
         "id": "Address.extension:nzGeocode",
         "path": "Address.extension",
         "sliceName": "nzGeocode",
@@ -55,7 +51,7 @@
           {
             "code": "Extension",
             "profile": [
-              "http://hl7.org.nz/fhir/StructureDefinition/nzGeocode"
+              "http://hl7.org.nz/fhir/StructureDefinition/nz-geocode"
             ]
           }
         ]
@@ -85,7 +81,7 @@
           {
             "code": "Extension",
             "profile": [
-              "http://hl7.org.nz/fhir/StructureDefinition/buildingName"
+              "http://hl7.org.nz/fhir/StructureDefinition/building-name"
             ]
           }
         ]
@@ -100,7 +96,7 @@
           {
             "code": "Extension",
             "profile": [
-              "http://hl7.org.nz/fhir/StructureDefinition/domicileCode"
+              "http://hl7.org.nz/fhir/StructureDefinition/domicile-code"
             ]
           }
         ]

@@ -1,11 +1,11 @@
 {
   "resourceType": "StructureDefinition",
-  "id": "informationsource",
-  "url": "http://hl7.org.nz/fhir/StructureDefinition/informationsource",
+  "id": "nz-ethnicity",
+  "url": "http://hl7.org.nz/fhir/StructureDefinition/nz-ethnicity",
   "version": "0.1.0",
-  "name": "Informationsource",
+  "name": "NzEthnicity",
   "status": "active",
-  "description": "The source of the information. Used paricularly in the NHI. Note this not the person but rather than it came from a passport for example",
+  "description": "The ethnicity of the patient. Uses level 4 codes (most detailed).",
   "fhirVersion": "4.0.1",
   "mapping": [
     {
@@ -19,7 +19,7 @@
   "context": [
     {
       "type": "element",
-      "expression": "Patient.birthDate"
+      "expression": "Element"
     }
   ],
   "type": "Extension",
@@ -28,10 +28,6 @@
   "differential": {
     "element": [
       {
-        "id": "Extension",
-        "path": "Extension"
-      },
-      {
         "id": "Extension.extension",
         "path": "Extension.extension",
         "max": "0"
@@ -39,7 +35,7 @@
       {
         "id": "Extension.url",
         "path": "Extension.url",
-        "fixedUri": "http://hl7.org.nz/fhir/StructureDefinition/informationsource"
+        "fixedUri": "http://hl7.org.nz/fhir/StructureDefinition/nz-ethnicity"
       },
       {
         "id": "Extension.value[x]",
@@ -67,7 +63,7 @@
         "max": "1",
         "binding": {
           "strength": "preferred",
-          "valueSet": "http:/hl7.org.nz/fhir/ValueSet/info-source"
+          "valueSet": "http:/hl7.org.nz/fhir/ValueSet/ethnic-group-level-4"
         }
       }
     ]

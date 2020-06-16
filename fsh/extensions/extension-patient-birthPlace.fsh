@@ -1,6 +1,6 @@
 
 Extension: BirthPlace
-Id: birthPlace
+Id: birth-place
 Description: "The country where the person was born"
 
 

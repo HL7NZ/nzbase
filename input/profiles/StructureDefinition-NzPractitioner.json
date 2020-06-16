@@ -42,10 +42,6 @@
   "differential": {
     "element": [
       {
-        "id": "Practitioner",
-        "path": "Practitioner"
-      },
-      {
         "id": "Practitioner.extension",
         "path": "Practitioner.extension",
         "slicing": {
@@ -69,7 +65,7 @@
           {
             "code": "Extension",
             "profile": [
-              "http://hl7.org.nz/fhir/StructureDefinition/nzEthnicity"
+              "http://hl7.org.nz/fhir/StructureDefinition/nz-ethnicity"
             ]
           }
         ]

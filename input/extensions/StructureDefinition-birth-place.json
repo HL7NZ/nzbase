@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
-  "id": "birthPlace",
-  "url": "http://hl7.org.nz/fhir/StructureDefinition/birthPlace",
+  "id": "birth-place",
+  "url": "http://hl7.org.nz/fhir/StructureDefinition/birth-place",
   "version": "0.1.0",
   "name": "BirthPlace",
   "status": "active",
@@ -27,10 +27,6 @@
   "derivation": "constraint",
   "differential": {
     "element": [
-      {
-        "id": "Extension",
-        "path": "Extension"
-      },
       {
         "id": "Extension.extension:country",
         "path": "Extension.extension",
@@ -155,7 +151,7 @@
       {
         "id": "Extension.url",
         "path": "Extension.url",
-        "fixedUri": "http://hl7.org.nz/fhir/StructureDefinition/birthPlace"
+        "fixedUri": "http://hl7.org.nz/fhir/StructureDefinition/birth-place"
       },
       {
         "id": "Extension.value[x]",
