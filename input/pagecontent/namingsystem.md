@@ -6,7 +6,6 @@ These are identifiers that are used across teh New Zealand sector. They are defi
 
 <table class='table table-bordered table-condensed'>
 <tr><th>Description</th><th>Url</th><th>Other identifiers</th><th>Responsible</th></tr>
-<tr><td>Represents the identifier used by the Health Practitioner Index (HPI)</td><td><div>https://standards.digital.health.nz/id/hpi</div></td><td></td><td>MOH</td></tr>
 <tr><td>The HPI identifier for a facility (eg a General Practice)</td><td><div>https://standards.digital.health.nz/id/hpi-facility</div></td><td></td><td>MOH</td></tr>
 <tr><td>The HPI identifier for an organization (eg a DHB)</td><td><div>https://standards.digital.health.nz/id/hpi-organization</div></td><td></td><td>MOH</td></tr>
 <tr><td>The HPI identifier for an individual (eg a clinician)</td><td><div>https://standards.digital.health.nz/id/hpi-person</div></td><td></td><td>MOH</td></tr>
