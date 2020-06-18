@@ -1,0 +1,21 @@
+{
+  "resourceType": "NamingSystem",
+  "id": "hpi-nzbn",
+  "meta": {
+    "versionId": "3",
+    "lastUpdated": "2019-11-06T17:39:03.889+00:00"
+  },
+  "name": "NzBN",
+  "status": "draft",
+  "kind": "identifier",
+  "date": "2019-09-27",
+  "description": "New Zealand Business Number",
+  "usage": "Used in the Organization resource",
+  "uniqueId": [
+    {
+      "type": "uri",
+      "value": "https://standards.digital.health.nz/id/hpi-nzbn",
+      "preferred": true
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "resourceType": "NamingSystem",
+  "id": "nzmwc",
+  "meta": {
+    "versionId": "3",
+    "lastUpdated": "2019-11-05T21:39:54.868+00:00"
+  },
+  "name": "NZMidwiferyCouncil",
+  "status": "draft",
+  "kind": "identifier",
+  "date": "2019-09-27",
+  "description": "Midwifery Council Register Number",
+  "usage": "Used in the Practitioner resource",
+  "uniqueId": [
+    {
+      "type": "uri",
+      "value": "https://standards.digital.health.nz/id/midwifery-council-person",
+      "preferred": true
+    },
+    {
+      "type": "other",
+      "value": "G00009-A",
+      "comment": "Used by the HPI prior to the FHIR implementation"
+    }
+  ]
+}

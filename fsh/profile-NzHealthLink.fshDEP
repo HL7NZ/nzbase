@@ -1,0 +1,15 @@
+Profile:        NzHealthlink
+Parent:         EndPoint
+Id:             nzHealthlink
+Title:          "Healthlink EDI resource"
+Description:    "Represents an Endpoint for the file based HealthLink interface"
+
+* ^text.div = "<div xmlns='http://www.w3.org/1999/xhtml'>HealthLink endpoint</div>"
+* ^text.status = #additional
+
+* identifier 1..1       //must have 1 and only 1 identifier (this is the EDI address)
+* connectionType.system = http://clinfhir.com/dummy
+* connectionType.value = #file
+
+//any payload...
+* payloadType = http://terminology.hl7.org/CodeSystem/endpoint-payload-type#any

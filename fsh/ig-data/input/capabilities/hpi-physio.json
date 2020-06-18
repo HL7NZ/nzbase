@@ -1,0 +1,21 @@
+{
+  "resourceType": "NamingSystem",
+  "id": "hpi-physio",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2019-11-05T21:39:51.798+00:00"
+  },
+  "name": "NZPhysio",
+  "status": "draft",
+  "kind": "identifier",
+  "date": "2019-09-27",
+  "description": "Physiotherapy Board Register Number",
+  "usage": "Used in the Practitioner resource",
+  "uniqueId": [
+    {
+      "type": "uri",
+      "value": "https://standards.digital.health.nz/id/physiotherapy-board-person",
+      "preferred": true
+    }
+  ]
+}

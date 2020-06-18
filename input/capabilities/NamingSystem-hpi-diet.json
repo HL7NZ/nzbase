@@ -1,0 +1,21 @@
+{
+  "resourceType": "NamingSystem",
+  "id": "hpi-diet",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2019-11-05T20:55:19.868+00:00"
+  },
+  "name": "HPIDiet",
+  "status": "draft",
+  "kind": "identifier",
+  "date": "2019-09-27",
+  "description": "Dietitians Board Register Number .",
+  "usage": "Used in the Practitioner resource",
+  "uniqueId": [
+    {
+      "type": "uri",
+      "value": "https://standards.digital.health.nz/id/dietitians-board-person",
+      "preferred": true
+    }
+  ]
+}

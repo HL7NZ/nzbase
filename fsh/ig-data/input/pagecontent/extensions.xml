@@ -44,6 +44,16 @@
 <td>The domicile code. Derived from the address </td>
 </tr>
 <tr>
+<td><a href='http://build.fhir.org/ig/HL7NZ/nzbase/branches/master/StructureDefinition-healthlink-edi.html'>healthlink-edi</a></td>
+<td>http://hl7.org.nz/fhir/StructureDefinition/healthlink-edi</td>
+<td>
+<div>Location</div>
+<div>Organization</div>
+<div>HealthcareSerice</div>
+</td>
+<td>Represents the HealthLink EDI number. </td>
+</tr>
+<tr>
 <td><a href='http://build.fhir.org/ig/HL7NZ/nzbase/branches/master/StructureDefinition-information-source.html'>information-source</a></td>
 <td>http://hl7.org.nz/fhir/StructureDefinition/information-source</td>
 <td>

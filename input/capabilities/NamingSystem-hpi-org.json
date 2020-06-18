@@ -1,0 +1,21 @@
+{
+  "resourceType": "NamingSystem",
+  "id": "hpi-org",
+  "meta": {
+    "versionId": "3",
+    "lastUpdated": "2019-11-06T17:39:03.889+00:00"
+  },
+  "name": "HPIOrganization",
+  "status": "draft",
+  "kind": "identifier",
+  "date": "2019-09-27",
+  "description": "HPI Organization identifier system.",
+  "usage": "Used in the Organization resource",
+  "uniqueId": [
+    {
+      "type": "uri",
+      "value": "https://standards.digital.health.nz/id/hpi-organisation",
+      "preferred": true
+    }
+  ]
+}

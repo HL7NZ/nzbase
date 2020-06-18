@@ -108,6 +108,14 @@
       },
       {
         "reference": {
+          "reference": "StructureDefinition/healthlink-edi"
+        },
+        "name": "HealthlinkEDI",
+        "description": "Represents the HealthLink EDI number. ",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
           "reference": "StructureDefinition/information-source"
         },
         "name": "Informationsource",
@@ -244,11 +252,203 @@
       },
       {
         "reference": {
+          "reference": "NamingSystem/NsHPIFacility"
+        },
+        "name": "HPI facility number",
+        "description": "The HPI identifier for an organization (eg a DHB)",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/NsHPIOrganization"
+        },
+        "name": "HPI organization number",
+        "description": "The HPI identifier for an organization (eg a DHB)",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/NsHPIPerson"
+        },
+        "name": "HPI person number",
+        "description": "The HPI identifier for an individual (eg a clinician)",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/NsNHI"
+        },
+        "name": "NHI number",
+        "description": "Represents the identifier used by the NHI",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
           "reference": "Patient/base1"
         },
         "name": "base1",
         "description": "This is the base Patient profile",
         "exampleCanonical": "http://hl7.org.nz/fhir/StructureDefinition/NzPatient"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/hpi-chiro"
+        },
+        "description": "Chiropractic Board Register number.",
+        "exampleBoolean": false,
+        "name": "HPIChirprcactic"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/hpi-cpn"
+        },
+        "description": "HPI Provider identifier system. Also known as the HPI_CPN (Common Person Number)",
+        "exampleBoolean": false,
+        "name": "HPIPerson"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/hpi-dental"
+        },
+        "description": "Dental Council Register Number .",
+        "exampleBoolean": false,
+        "name": "HPIDental"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/hpi-diet"
+        },
+        "description": "Dietitians Board Register Number .",
+        "exampleBoolean": false,
+        "name": "HPIDiet"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/hpi-fac"
+        },
+        "description": "The New Zealand HPI Facility identifier system.",
+        "exampleBoolean": false,
+        "name": "HPIFacility"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/hpi-medlab"
+        },
+        "description": "Medical Laboratory Science Board Register Number .",
+        "exampleBoolean": false,
+        "name": "HPIMedLab"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/hpi-nzbn"
+        },
+        "description": "New Zealand Business Number",
+        "exampleBoolean": false,
+        "name": "NzBN"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/hpi-occ"
+        },
+        "description": "Occupational Therapy Board Register Number ",
+        "exampleBoolean": false,
+        "name": "NZOccupationalTherapy"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/hpi-optician"
+        },
+        "description": "Optometrists & Dispensing Opticians Board Register Number ",
+        "exampleBoolean": false,
+        "name": "NZOptitian"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/hpi-org"
+        },
+        "description": "HPI Organization identifier system.",
+        "exampleBoolean": false,
+        "name": "HPIOrganization"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/hpi-osteo"
+        },
+        "description": "Osteopathic Council Register Number ",
+        "exampleBoolean": false,
+        "name": "NZOsteo"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/hpi-pharmacy"
+        },
+        "description": "Pharmacy Council of New Zealand Register Number ",
+        "exampleBoolean": false,
+        "name": "NZPharmacy"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/hpi-physio"
+        },
+        "description": "Physiotherapy Board Register Number",
+        "exampleBoolean": false,
+        "name": "NZPhysio"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/hpi-podiatry"
+        },
+        "description": "Podiatrists Board Register Number ",
+        "exampleBoolean": false,
+        "name": "NZPodiatry"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/hpi-psychologist"
+        },
+        "description": "Psychologists Board Register Number ",
+        "exampleBoolean": false,
+        "name": "NZPsychologist"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/hpi-radtech"
+        },
+        "description": "Medical Radiation Technologists Board Register Number ",
+        "exampleBoolean": false,
+        "name": "NZRadioTechnician"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/hpi-tbd"
+        },
+        "description": "Legacy number for National Collections",
+        "exampleBoolean": false,
+        "name": "Legacy"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/nzmc"
+        },
+        "description": "Medical Council of New Zealand Register Numbe",
+        "exampleBoolean": false,
+        "name": "NZMedicalCouncil"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/nzmwc"
+        },
+        "description": "Midwifery Council Register Number",
+        "exampleBoolean": false,
+        "name": "NZMidwiferyCouncil"
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/nznc"
+        },
+        "description": "Nursing Council of New Zealand Register Number ",
+        "exampleBoolean": false,
+        "name": "NZNursingCouncil"
       }
     ],
     "page": {
@@ -269,6 +469,11 @@
         {
           "nameUrl": "extensionsDEP.html",
           "title": "Extensions DEP",
+          "generation": "markdown"
+        },
+        {
+          "nameUrl": "namingsystem.html",
+          "title": "Namingsystem",
           "generation": "markdown"
         },
         {

@@ -1,0 +1,21 @@
+{
+  "resourceType": "NamingSystem",
+  "id": "hpi-fac",
+  "meta": {
+    "versionId": "2",
+    "lastUpdated": "2019-11-05T20:45:29.834+00:00"
+  },
+  "name": "HPIFacility",
+  "status": "draft",
+  "kind": "identifier",
+  "date": "2019-09-27",
+  "description": "The New Zealand HPI Facility identifier system.",
+  "usage": "Used in the Location resource",
+  "uniqueId": [
+    {
+      "type": "uri",
+      "value": "https://standards.digital.health.nz/id/hpi-facility",
+      "preferred": true
+    }
+  ]
+}

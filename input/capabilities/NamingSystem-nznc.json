@@ -1,0 +1,26 @@
+{
+  "resourceType": "NamingSystem",
+  "id": "nznc",
+  "meta": {
+    "versionId": "3",
+    "lastUpdated": "2019-11-05T21:39:55.492+00:00"
+  },
+  "name": "NZNursingCouncil",
+  "status": "draft",
+  "kind": "identifier",
+  "date": "2019-09-27",
+  "description": "Nursing Council of New Zealand Register Number ",
+  "usage": "Used in the Practitioner resource",
+  "uniqueId": [
+    {
+      "type": "uri",
+      "value": "https://standards.digital.health.nz/id/nursing-council-person",
+      "preferred": true
+    },
+    {
+      "type": "other",
+      "value": "G00008-K",
+      "comment": "Used by the HPI prior to the FHIR implementation"
+    }
+  ]
+}
