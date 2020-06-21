@@ -1,5 +1,5 @@
-Extension: HealthlinkEDI
-Id: healthlink-edi
+Extension: EdiAddress
+Id: edi-address
 Description: "Represents the HealthLink EDI number. "
 
 * ^context.type = #element

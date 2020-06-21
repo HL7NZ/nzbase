@@ -1,11 +1,11 @@
 {
   "resourceType": "StructureDefinition",
-  "id": "nzAddress",
+  "id": "NzAddress",
   "text": {
     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">NZ Address datatype profile</div>",
     "status": "additional"
   },
-  "url": "http://hl7.org.nz/fhir/StructureDefinition/nzAddress",
+  "url": "http://hl7.org.nz/fhir/StructureDefinition/NzAddress",
   "version": "0.1.0",
   "name": "NzAddress",
   "title": "NZ Address datatype",

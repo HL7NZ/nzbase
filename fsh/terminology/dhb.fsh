@@ -5,14 +5,14 @@ Description: "dhb"
 
 * ^url = http:/hl7.org.nz/fhir/ValueSet/dhb
 
-* codes from system https://standards.digital.health.nz/cs/dhb-code
+* codes from system https://standards.digital.health.nz/cs/dhb
 
 CodeSystem: Dhb
 Id: dhb
 Title: "District Health Board Code"
 Description: "District Health Board Code"
 
-* ^url = https://standards.digital.health.nz/cs/dhb-code
+* ^url = https://standards.digital.health.nz/cs/dhb
 
 * #G00026-A "Northland"
 * #G00013-C "Waitematā"

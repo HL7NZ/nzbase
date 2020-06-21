@@ -12,7 +12,7 @@ Description:    "NZ base Location profile. Adds slicing for HPI Facility code an
 //root level extensions
 
 //Needs to be a different geocode as uses a different datum
-* address only nzAddress
+* address only NzAddress
 
 //slice the identifier
 * identifier ^slicing.discriminator.type = #pattern

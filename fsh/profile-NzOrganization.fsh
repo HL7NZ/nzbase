@@ -10,7 +10,7 @@ Description:    "base NZ Organization profile. Slices on identifier for HPI and 
 * ^text.div = "<div xmlns='http://www.w3.org/1999/xhtml'>NZ base Organization  profile. </div>"
 * ^text.status = #additional
 
-* address only nzAddress
+* address only NzAddress
 
 //slice the identifier for HPI Organization identifierr
 * identifier ^slicing.discriminator.type = #value

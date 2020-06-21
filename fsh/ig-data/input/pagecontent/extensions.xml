@@ -44,8 +44,8 @@
 <td>The domicile code. Derived from the address </td>
 </tr>
 <tr>
-<td><a href='http://build.fhir.org/ig/HL7NZ/nzbase/branches/master/StructureDefinition-healthlink-edi.html'>healthlink-edi</a></td>
-<td>http://hl7.org.nz/fhir/StructureDefinition/healthlink-edi</td>
+<td><a href='http://build.fhir.org/ig/HL7NZ/nzbase/branches/master/StructureDefinition-edi-address.html'>edi-address</a></td>
+<td>http://hl7.org.nz/fhir/StructureDefinition/edi-address</td>
 <td>
 <div>Location</div>
 <div>Organization</div>

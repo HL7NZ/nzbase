@@ -26,7 +26,7 @@ Description:    "The base Patient resource in NZ. Slices on identifer for NHI nu
    
 
 //set the address to the nz address (adds geocode, building name, domicileCode and suburb)
-* address only nzAddress
+* address only NzAddress
 
 //identifier - current NHI. 
 * identifier ^slicing.discriminator.type = #pattern

@@ -31,6 +31,7 @@ Note that 'Must Support' does not mean tthe same as 'Required', as they may be a
 * Profiles - lists the profiles, with links to details
 * Extensions - lists all extensions, with links to details
 * Terminology - lists the ValueSets and CodeSystems defined by the guide
+* Identifiers - a list of the mist commonly used identifiers in New Zealand (these are described in NamingSystem resources)
 * Table Of Contents - has a list of all the contents in the guide
 * Artifact Index - All the main artifacts (Resources) defined by the guide
 * Support - Links to the main FHIR spec and downloads

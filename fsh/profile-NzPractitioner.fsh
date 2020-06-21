@@ -14,7 +14,7 @@ Description:    "The New Zealand base practitioner. Slices on identifier for CPN
 * extension contains 
     $nzEthnicity named nzEthnicity 0..6
 
-* address only nzAddress
+* address only NzAddress
 
 //must be one name with a family name
 //todo - should we really insist on a family name? May not always be known...

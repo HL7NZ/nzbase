@@ -28,7 +28,7 @@
     "resource": [
       {
         "reference": {
-          "reference": "StructureDefinition/nzAddress"
+          "reference": "StructureDefinition/NzAddress"
         },
         "name": "NZ Address datatype",
         "description": "Adds building name, suburb, domicile code and geocode to the Address datatype",
@@ -108,9 +108,9 @@
       },
       {
         "reference": {
-          "reference": "StructureDefinition/healthlink-edi"
+          "reference": "StructureDefinition/edi-address"
         },
-        "name": "HealthlinkEDI",
+        "name": "EdiAddress",
         "description": "Represents the HealthLink EDI number. ",
         "exampleBoolean": false
       },
@@ -474,6 +474,11 @@
         {
           "nameUrl": "namingsystem.html",
           "title": "Namingsystem",
+          "generation": "markdown"
+        },
+        {
+          "nameUrl": "NamingSystems.html",
+          "title": "Naming Systems",
           "generation": "markdown"
         },
         {

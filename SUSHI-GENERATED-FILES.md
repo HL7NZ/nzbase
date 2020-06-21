@@ -38,6 +38,7 @@ lists those files generated from project configs or the contents in the ig-data 
 | input/capabilities/NamingSystem-nznc.json             | copied    | fsh/ig-data/input/capabilities/nznc.json             |
 | input/images/hl7nz-logo.jpg                           | copied    | fsh/ig-data/input/images/hl7nz-logo.jpg              |
 | input/includes/menuSAVE.xml                           | copied    | fsh/ig-data/input/includes/menuSAVE.xml              |
+| input/pagecontent/NamingSystems.md                    | copied    | fsh/ig-data/input/pagecontent/NamingSystems.md       |
 | input/pagecontent/extensions.xml                      | copied    | fsh/ig-data/input/pagecontent/extensions.xml         |
 | input/pagecontent/extensionsDEP.md                    | copied    | fsh/ig-data/input/pagecontent/extensionsDEP.md       |
 | input/pagecontent/index.md                            | copied    | fsh/ig-data/input/pagecontent/index.md               |

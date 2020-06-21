@@ -10,7 +10,7 @@
   "compose": {
     "include": [
       {
-        "system": "https://standards.digital.health.nz/cs/dhb-code"
+        "system": "https://standards.digital.health.nz/cs/dhb"
       }
     ]
   }

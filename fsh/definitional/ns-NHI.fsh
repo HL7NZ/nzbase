@@ -5,7 +5,7 @@ Title: "NHI number"
 Description: "Represents the identifier used by the NHI"
 Usage: #definition
 
-* description = "Represents the identifier used by the National Health index (NHI)"
+* description = "The identifier used by the National Health index (NHI) for patients"
 * responsible = "MOH"
 * name = "NHI"
 * status = #draft

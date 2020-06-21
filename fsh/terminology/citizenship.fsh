@@ -11,7 +11,7 @@ CodeSystem: CitizenshipStatus
 Id: citizenshipStatus
 Title: "Patient citizenship status"
 Description: "Status of citizenship in NZ"
-* ^url = https://standards.digital.health.nz/cs/citizenshipstatus
+* ^url = https://standards.digital.health.nz/cs/citizenship-status
 
 * #CIT "Citizen"
 * #NCIT "Not a citizen"

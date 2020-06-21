@@ -5,7 +5,7 @@ Alias: $domicileCode = http://hl7.org.nz/fhir/StructureDefinition/domicile-code
 
 Profile:        NzAddress
 Parent:         Address
-Id:             nzAddress
+Id:             NzAddress
 Title:          "NZ Address datatype"
 Description:    "Adds building name, suburb, domicile code and geocode to the Address datatype"
 

@@ -5,7 +5,7 @@ Title: "infosource"
 Description: "infosource"
 
 * ^url = http:/hl7.org.nz/fhir/ValueSet/info-source
-* codes from system https://standards.digital.health.nz/cs/infosource
+* codes from system https://standards.digital.health.nz/cs/info-source
 
 
 CodeSystem: Infosource
@@ -13,7 +13,7 @@ Id: infosource
 Title: "infosource"
 Description: "infosource"
 
-* ^url = https://standards.digital.health.nz/cs/infosource
+* ^url = https://standards.digital.health.nz/cs/info-source
 
 * #BREG "Birth Register"
 * #BRCT "Birth Certificate"
