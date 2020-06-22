@@ -1,4 +1,4 @@
-//Alias: $nzGeocode = http://hl7.org.nz/fhir/StructureDefinition/nzGeocode
+Alias: $ediAddress = http://hl7.org.nz/fhir/StructureDefinition/edi-address
 
 Profile:        NzLocation
 Parent:         Location
@@ -10,6 +10,8 @@ Description:    "NZ base Location profile. Adds slicing for HPI Facility code an
 * ^text.status = #additional
 
 //root level extensions
+* extension contains
+    $ediAddress named edi-address 0..1
 
 //Needs to be a different geocode as uses a different datum
 * address only NzAddress

@@ -27,7 +27,7 @@
     },
     {
       "type": "element",
-      "expression": "HealthcareSerice"
+      "expression": "HealthcareService"
     }
   ],
   "type": "Extension",

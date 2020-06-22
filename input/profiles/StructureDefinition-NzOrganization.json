@@ -42,6 +42,35 @@
   "differential": {
     "element": [
       {
+        "id": "Organization.extension",
+        "path": "Organization.extension",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "value",
+              "path": "url"
+            }
+          ],
+          "ordered": false,
+          "rules": "open"
+        }
+      },
+      {
+        "id": "Organization.extension:edi-address",
+        "path": "Organization.extension",
+        "sliceName": "edi-address",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://hl7.org.nz/fhir/StructureDefinition/edi-address"
+            ]
+          }
+        ]
+      },
+      {
         "id": "Organization.identifier",
         "path": "Organization.identifier",
         "slicing": {

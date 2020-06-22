@@ -9,7 +9,7 @@ Description: "Represents the HealthLink EDI number. "
 * ^context[1].expression = "Organization"
 
 * ^context[2].type = #element
-* ^context[2].expression = "HealthcareSerice"
+* ^context[2].expression = "HealthcareService"
 
 * extension 0..0
 * value[x] only string

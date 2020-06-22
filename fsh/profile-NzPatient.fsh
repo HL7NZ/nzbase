@@ -19,7 +19,7 @@ Description:    "The base Patient resource in NZ. Slices on identifer for NHI nu
 
 //root level extensions
 * extension contains
-    $nzEthnicity named nz-ethnicity 0..4 and
+    $nzEthnicity named nz-ethnicity 0..6 and
     $birthPlace named birth-place 0..1 and
     $patient-iwi named patient-iwi 0..1 and
     $citizenship named citizenship 0..1

@@ -66,7 +66,7 @@
         "path": "Patient.extension",
         "sliceName": "nz-ethnicity",
         "min": 0,
-        "max": "4",
+        "max": "6",
         "type": [
           {
             "code": "Extension",
