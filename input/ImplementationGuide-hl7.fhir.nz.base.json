@@ -2,7 +2,7 @@
   "resourceType": "ImplementationGuide",
   "id": "hl7.fhir.nz.base",
   "url": "http://hl7.org.nz/fhir/ImplementationGuide/hl7.fhir.nz.base",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "name": "HL7FHIRNewZealandBaseImplementationGuide",
   "title": "HL7® FHIR® New Zealand Base Implementation Guide",
   "status": "active",
@@ -144,6 +144,14 @@
         },
         "name": "Patient_iwi",
         "description": "Details related to maori ancestry",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/sex-at-birth"
+        },
+        "name": "SexAtBirth",
+        "description": "The persons sex when born. Is considered to be immutable ",
         "exampleBoolean": false
       },
       {

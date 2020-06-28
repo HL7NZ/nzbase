@@ -20,3 +20,8 @@ Description:    "Adds building name, suburb, domicile code and geocode to the Ad
     $suburb named suburb 0..1 and
     $buildingName named building-name 0..1 and 
     $domicileCode named domicile-code 0..1
+
+* extension[nz-geocode] ^short = "A geocode using the NZ specific datum (reference point)"
+* extension[suburb] ^short = "The suburb part of the address"
+* extension[building-name] ^short = "The name of the building"
+* extension[domicile-code] ^short = "The domicile code associated with this address"

@@ -5,7 +5,7 @@
   "id": "info-source",
   "title": "infosource",
   "description": "infosource",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "url": "http:/hl7.org.nz/fhir/ValueSet/info-source",
   "compose": {
     "include": [

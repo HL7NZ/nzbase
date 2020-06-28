@@ -5,7 +5,7 @@
   "id": "dhb",
   "title": "dhb",
   "description": "dhb",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "url": "http:/hl7.org.nz/fhir/ValueSet/dhb",
   "compose": {
     "include": [

@@ -6,6 +6,8 @@ Alias: $patient-iwi = http://hl7.org.nz/fhir/StructureDefinition/patient-iwi
 //Alias: $NHI = https://standards.digital.health.nz/id/nhi
 Alias: $informationsource = http://hl7.org.nz/fhir/StructureDefinition/information-source
 Alias: $citizenship = http://hl7.org.nz/fhir/StructureDefinition/citizenship
+Alias: $genderIdentity = http://hl7.org/fhir/StructureDefinition/patient-genderIdentity
+Alias: $sexAtBirth = http://hl7.org.nz/fhir/StructureDefinition/sex-at-birth
 
 Profile:        NzPatient
 Parent:         Patient
@@ -22,8 +24,15 @@ Description:    "The base Patient resource in NZ. Slices on identifer for NHI nu
     $nzEthnicity named nz-ethnicity 0..6 and
     $birthPlace named birth-place 0..1 and
     $patient-iwi named patient-iwi 0..1 and
-    $citizenship named citizenship 0..1
+    $citizenship named citizenship 0..1 and 
+    $genderIdentity named gender-identity 0..1 and
+    $sexAtBirth named sex-at-birth 0..1
    
+* extension[nz-ethnicity] ^short = "The persons ethnicity (up to 6)"
+* extension[birth-place] ^short = "Where the person was born"
+* extension[patient-iwi] ^short = "The Iwi the person is associated with"
+* extension[citizenship] ^short = "The citizenship status"
+
 
 //set the address to the nz address (adds geocode, building name, domicileCode and suburb)
 * address only NzAddress
@@ -40,7 +49,9 @@ Description:    "The base Patient resource in NZ. Slices on identifer for NHI nu
 //This is the current NHI
 * identifier[NHI].system = "https://standards.digital.health.nz/id/nhi"
 * identifier[NHI].use = #official (exactly)
+* identifier[NHI] ^short = "The persons current NHI number"
 
 //These are any previous NHI's (called 'dormant' by the MOH Identity team)
 * identifier[dormantNHI].system = "https://standards.digital.health.nz/id/nhi"
 * identifier[dormantNHI].use = #old (exactly)
+* identifier[dormantNHI] ^short = "NHI numbers that have been deprecated"

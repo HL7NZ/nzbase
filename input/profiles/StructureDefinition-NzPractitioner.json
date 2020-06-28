@@ -6,7 +6,7 @@
     "status": "additional"
   },
   "url": "http://hl7.org.nz/fhir/StructureDefinition/NzPractitioner",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "name": "NzPractitioner",
   "title": "NZ Practitioner",
   "status": "active",

@@ -5,7 +5,7 @@
   "id": "domicile-code",
   "title": "domicileCode",
   "description": "domicileCode",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "url": "http:/hl7.org.nz/fhir/ValueSet/domicile-code",
   "compose": {
     "include": [

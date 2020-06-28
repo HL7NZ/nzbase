@@ -6,7 +6,7 @@
     "status": "additional"
   },
   "url": "http://hl7.org.nz/fhir/StructureDefinition/NzOrganization",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "name": "NzOrganization",
   "title": "NZ Organization",
   "status": "active",
@@ -59,6 +59,7 @@
         "id": "Organization.extension:edi-address",
         "path": "Organization.extension",
         "sliceName": "edi-address",
+        "short": "The healthLink EDI address associated with this Organization",
         "min": 0,
         "max": "1",
         "type": [
@@ -87,6 +88,7 @@
         "id": "Organization.identifier:orgId",
         "path": "Organization.identifier",
         "sliceName": "orgId",
+        "short": "The current HPI organization Id for this Orrganization",
         "min": 0,
         "max": "*",
         "mustSupport": true

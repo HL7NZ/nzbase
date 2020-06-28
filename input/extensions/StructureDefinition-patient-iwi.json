@@ -2,7 +2,7 @@
   "resourceType": "StructureDefinition",
   "id": "patient-iwi",
   "url": "http://hl7.org.nz/fhir/StructureDefinition/patient-iwi",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "name": "Patient_iwi",
   "status": "active",
   "description": "Details related to maori ancestry",

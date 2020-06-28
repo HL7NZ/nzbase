@@ -2,7 +2,7 @@
   "resourceType": "StructureDefinition",
   "id": "information-source",
   "url": "http://hl7.org.nz/fhir/StructureDefinition/information-source",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "name": "Informationsource",
   "status": "active",
   "description": "The source of the information. Used paricularly in the NHI. Note this not the person but rather than it came from a passport for example",

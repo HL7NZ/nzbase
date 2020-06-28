@@ -2,7 +2,7 @@
   "resourceType": "StructureDefinition",
   "id": "edi-address",
   "url": "http://hl7.org.nz/fhir/StructureDefinition/edi-address",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "name": "EdiAddress",
   "status": "active",
   "description": "Represents the HealthLink EDI number. ",

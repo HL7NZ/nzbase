@@ -1,11 +1,11 @@
 {
   "resourceType": "StructureDefinition",
-  "id": "nz-ethnicity",
-  "url": "http://hl7.org.nz/fhir/StructureDefinition/nz-ethnicity",
+  "id": "sex-at-birth",
+  "url": "http://hl7.org.nz/fhir/StructureDefinition/sex-at-birth",
   "version": "0.2.0",
-  "name": "NzEthnicity",
+  "name": "SexAtBirth",
   "status": "active",
-  "description": "The ethnicity of the patient. Uses level 4 codes (most detailed).",
+  "description": "The persons sex when born. Is considered to be immutable ",
   "fhirVersion": "4.0.1",
   "mapping": [
     {
@@ -19,7 +19,7 @@
   "context": [
     {
       "type": "element",
-      "expression": "Element"
+      "expression": "Patient"
     }
   ],
   "type": "Extension",
@@ -35,7 +35,7 @@
       {
         "id": "Extension.url",
         "path": "Extension.url",
-        "fixedUri": "http://hl7.org.nz/fhir/StructureDefinition/nz-ethnicity"
+        "fixedUri": "http://hl7.org.nz/fhir/StructureDefinition/sex-at-birth"
       },
       {
         "id": "Extension.value[x]",
@@ -62,8 +62,8 @@
         "min": 0,
         "max": "1",
         "binding": {
-          "strength": "preferred",
-          "valueSet": "http:/hl7.org.nz/fhir/ValueSet/ethnic-group-level-4"
+          "strength": "required",
+          "valueSet": "http://hl7.org/fhir/ValueSet/administrative-gender"
         }
       }
     ]

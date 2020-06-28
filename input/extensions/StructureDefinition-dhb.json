@@ -2,7 +2,7 @@
   "resourceType": "StructureDefinition",
   "id": "dhb",
   "url": "http://hl7.org.nz/fhir/StructureDefinition/dhb",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "name": "Dhb",
   "status": "active",
   "description": "The District Health Board the patient resides in. It is derived from the patient's primary residential address (not updated directly).",

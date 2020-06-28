@@ -2,7 +2,7 @@
   "resourceType": "StructureDefinition",
   "id": "citizenship",
   "url": "http://hl7.org.nz/fhir/StructureDefinition/citizenship",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "name": "Citizenship",
   "status": "active",
   "description": "New Zealand citizenship",

@@ -2,7 +2,7 @@
   "resourceType": "StructureDefinition",
   "id": "building-name",
   "url": "http://hl7.org.nz/fhir/StructureDefinition/building-name",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "name": "BuildingName",
   "status": "active",
   "description": "Used on an adddress datatype when a building name is needed",

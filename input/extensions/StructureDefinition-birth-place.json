@@ -2,7 +2,7 @@
   "resourceType": "StructureDefinition",
   "id": "birth-place",
   "url": "http://hl7.org.nz/fhir/StructureDefinition/birth-place",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "name": "BirthPlace",
   "status": "active",
   "description": "The country where the person was born",

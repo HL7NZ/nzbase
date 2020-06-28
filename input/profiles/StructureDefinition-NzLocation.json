@@ -6,7 +6,7 @@
     "status": "additional"
   },
   "url": "http://hl7.org.nz/fhir/StructureDefinition/NzLocation",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "name": "NzLocation",
   "title": "NZ Location",
   "status": "active",
@@ -49,6 +49,7 @@
         "id": "Location.extension:edi-address",
         "path": "Location.extension",
         "sliceName": "edi-address",
+        "short": "The healthLink EDI address associated with this Location",
         "min": 0,
         "max": "1",
         "type": [
@@ -77,6 +78,7 @@
         "id": "Location.identifier:facId",
         "path": "Location.identifier",
         "sliceName": "facId",
+        "short": "The current Facility id for this location",
         "min": 0,
         "max": "1",
         "mustSupport": true
@@ -96,6 +98,7 @@
         "id": "Location.identifier:dormantFacId",
         "path": "Location.identifier",
         "sliceName": "dormantFacId",
+        "short": "Old facility id's that have been deprecated",
         "min": 0,
         "max": "1",
         "mustSupport": true

@@ -12,6 +12,7 @@ Description:    "NZ base Location profile. Adds slicing for HPI Facility code an
 //root level extensions
 * extension contains
     $ediAddress named edi-address 0..1
+* extension[edi-address] ^short = "The healthLink EDI address associated with this Location"
 
 //Needs to be a different geocode as uses a different datum
 * address only NzAddress
@@ -27,6 +28,8 @@ Description:    "NZ base Location profile. Adds slicing for HPI Facility code an
 
 * identifier[facId].system = "https://standards.digital.health.nz/id/hpi-facility"
 * identifier[facId].use = #official
+* identifier[facId] ^short = "The current Facility id for this location"
 
 * identifier[dormantFacId].system = "https://standards.digital.health.nz/id/hpi-facility"
 * identifier[dormantFacId].use = #old
+* identifier[dormantFacId] ^short = "Old facility id's that have been deprecated"

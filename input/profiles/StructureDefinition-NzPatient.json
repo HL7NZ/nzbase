@@ -6,7 +6,7 @@
     "status": "additional"
   },
   "url": "http://hl7.org.nz/fhir/StructureDefinition/NzPatient",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "name": "NzPatient",
   "title": "NZ Patient",
   "status": "active",
@@ -65,6 +65,7 @@
         "id": "Patient.extension:nz-ethnicity",
         "path": "Patient.extension",
         "sliceName": "nz-ethnicity",
+        "short": "The persons ethnicity (up to 6)",
         "min": 0,
         "max": "6",
         "type": [
@@ -80,6 +81,7 @@
         "id": "Patient.extension:birth-place",
         "path": "Patient.extension",
         "sliceName": "birth-place",
+        "short": "Where the person was born",
         "min": 0,
         "max": "1",
         "type": [
@@ -95,6 +97,7 @@
         "id": "Patient.extension:patient-iwi",
         "path": "Patient.extension",
         "sliceName": "patient-iwi",
+        "short": "The Iwi the person is associated with",
         "min": 0,
         "max": "1",
         "type": [
@@ -110,6 +113,7 @@
         "id": "Patient.extension:citizenship",
         "path": "Patient.extension",
         "sliceName": "citizenship",
+        "short": "The citizenship status",
         "min": 0,
         "max": "1",
         "type": [
@@ -117,6 +121,36 @@
             "code": "Extension",
             "profile": [
               "http://hl7.org.nz/fhir/StructureDefinition/citizenship"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Patient.extension:gender-identity",
+        "path": "Patient.extension",
+        "sliceName": "gender-identity",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://hl7.org/fhir/StructureDefinition/patient-genderIdentity"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Patient.extension:sex-at-birth",
+        "path": "Patient.extension",
+        "sliceName": "sex-at-birth",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://hl7.org.nz/fhir/StructureDefinition/sex-at-birth"
             ]
           }
         ]
@@ -138,6 +172,7 @@
         "id": "Patient.identifier:NHI",
         "path": "Patient.identifier",
         "sliceName": "NHI",
+        "short": "The persons current NHI number",
         "min": 0,
         "max": "1",
         "mustSupport": true
@@ -157,6 +192,7 @@
         "id": "Patient.identifier:dormantNHI",
         "path": "Patient.identifier",
         "sliceName": "dormantNHI",
+        "short": "NHI numbers that have been deprecated",
         "min": 0,
         "max": "*",
         "mustSupport": true

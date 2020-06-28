@@ -6,7 +6,7 @@
     "status": "additional"
   },
   "url": "http://hl7.org.nz/fhir/StructureDefinition/NzAddress",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "name": "NzAddress",
   "title": "NZ Address datatype",
   "status": "active",
@@ -45,6 +45,7 @@
         "id": "Address.extension:nz-geocode",
         "path": "Address.extension",
         "sliceName": "nz-geocode",
+        "short": "A geocode using the NZ specific datum (reference point)",
         "min": 0,
         "max": "1",
         "type": [
@@ -60,6 +61,7 @@
         "id": "Address.extension:suburb",
         "path": "Address.extension",
         "sliceName": "suburb",
+        "short": "The suburb part of the address",
         "min": 0,
         "max": "1",
         "type": [
@@ -75,6 +77,7 @@
         "id": "Address.extension:building-name",
         "path": "Address.extension",
         "sliceName": "building-name",
+        "short": "The name of the building",
         "min": 0,
         "max": "1",
         "type": [
@@ -90,6 +93,7 @@
         "id": "Address.extension:domicile-code",
         "path": "Address.extension",
         "sliceName": "domicile-code",
+        "short": "The domicile code associated with this address",
         "min": 0,
         "max": "1",
         "type": [

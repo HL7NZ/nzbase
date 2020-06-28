@@ -13,7 +13,9 @@ Description:    "base NZ Organization profile. Slices on identifier for HPI and 
 //root level extensions
 * extension contains
     $ediAddress named edi-address 0..1
-    
+
+* extension[edi-address] ^short = "The healthLink EDI address associated with this Organization"
+
 * address only NzAddress
 
 //slice the identifier for HPI Organization identifierr
@@ -22,7 +24,8 @@ Description:    "base NZ Organization profile. Slices on identifier for HPI and 
 * identifier ^slicing.rules = #openAtEnd
 * identifier contains 
     orgId 0..* MS
+
 * identifier[orgId].system = "https://standards.digital.health.nz/id/hpi-org"
 * identifier[orgId].use = #official
 
-
+* identifier[orgId] ^short = "The current HPI organization Id for this Orrganization"

@@ -2,7 +2,7 @@
   "resourceType": "StructureDefinition",
   "id": "domicile-code",
   "url": "http://hl7.org.nz/fhir/StructureDefinition/domicile-code",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "name": "DomicileCode",
   "status": "active",
   "description": "The domicile code. Derived from the address ",
