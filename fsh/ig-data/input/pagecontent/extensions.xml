@@ -86,6 +86,14 @@
 <td>Details related to maori ancestry</td>
 </tr>
 <tr>
+<td><a href='http://build.fhir.org/ig/HL7NZ/nzbase/branches/master/StructureDefinition-sex-at-birth.html'>sex-at-birth</a></td>
+<td>http://hl7.org.nz/fhir/StructureDefinition/sex-at-birth</td>
+<td>
+<div>Patient</div>
+</td>
+<td>The persons sex when born. Is considered to be immutable </td>
+</tr>
+<tr>
 <td><a href='http://build.fhir.org/ig/HL7NZ/nzbase/branches/master/StructureDefinition-suburb.html'>suburb</a></td>
 <td>http://hl7.org.nz/fhir/StructureDefinition/suburb</td>
 <td>
@@ -98,5 +106,9 @@
 <h3>Extensions used but defined elsewhere</h3>
 <table width='100%' border='1' cellspacing='0' cellpadding='5px'>
 <tr><th>Url</th><th>Description</th><th>IG</th></tr>
+<tr>
+<td>http://hl7.org/fhir/StructureDefinition/patient-genderIdentity</td>
+<td>Defined outside of known IG's</td>
+</tr>
 </table>
 </div>
