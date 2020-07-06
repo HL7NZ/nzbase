@@ -1,6 +1,6 @@
 Extension: Patient_iwi
 Id: patient-iwi
-Description: "Details related to maori ancestry"
+Description: "Persons Iwi affiliation"
 
 * ^context.type = #element
 * ^context.expression = "Patient"

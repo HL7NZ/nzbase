@@ -23,13 +23,18 @@ Description:    "NZ base Location profile. Adds slicing for HPI Facility code an
 * identifier ^slicing.rules = #openAtEnd
 
 * identifier contains 
-    facId 0..1 MS and
-    dormantFacId 0..1 MS
+    HpifacId 0..1 MS and
+    dormantHpiFacId 0..* MS and
+    MOHFacId 0..1 MS
 
-* identifier[facId].system = "https://standards.digital.health.nz/id/hpi-facility"
-* identifier[facId].use = #official
-* identifier[facId] ^short = "The current Facility id for this location"
+* identifier[HpifacId].system = "https://standards.digital.health.nz/id/hpi-facility"
+* identifier[HpifacId].use = #official
+* identifier[HpifacId] ^short = "The current Facility id for this location"
 
-* identifier[dormantFacId].system = "https://standards.digital.health.nz/id/hpi-facility"
-* identifier[dormantFacId].use = #old
-* identifier[dormantFacId] ^short = "Old facility id's that have been deprecated"
+* identifier[dormantHpiFacId].system = "https://standards.digital.health.nz/id/hpi-facility"
+* identifier[dormantHpiFacId].use = #old
+* identifier[dormantHpiFacId] ^short = "Old facility id's that have been deprecated"
+
+* identifier[MOHFacId].system = "https://standards.digital.health.nz/ns/moh-facility-id"
+* identifier[MOHFacId].use = #official
+* identifier[MOHFacId] ^short = "The MOH (NZHIS) Legacy facility code)"

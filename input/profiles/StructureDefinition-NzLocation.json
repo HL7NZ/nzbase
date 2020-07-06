@@ -75,44 +75,64 @@
         }
       },
       {
-        "id": "Location.identifier:facId",
+        "id": "Location.identifier:HpifacId",
         "path": "Location.identifier",
-        "sliceName": "facId",
+        "sliceName": "HpifacId",
         "short": "The current Facility id for this location",
         "min": 0,
         "max": "1",
         "mustSupport": true
       },
       {
-        "id": "Location.identifier:facId.use",
+        "id": "Location.identifier:HpifacId.use",
         "path": "Location.identifier.use",
         "min": 1,
         "patternCode": "official"
       },
       {
-        "id": "Location.identifier:facId.system",
+        "id": "Location.identifier:HpifacId.system",
         "path": "Location.identifier.system",
         "patternUri": "https://standards.digital.health.nz/id/hpi-facility"
       },
       {
-        "id": "Location.identifier:dormantFacId",
+        "id": "Location.identifier:dormantHpiFacId",
         "path": "Location.identifier",
-        "sliceName": "dormantFacId",
+        "sliceName": "dormantHpiFacId",
         "short": "Old facility id's that have been deprecated",
         "min": 0,
-        "max": "1",
+        "max": "*",
         "mustSupport": true
       },
       {
-        "id": "Location.identifier:dormantFacId.use",
+        "id": "Location.identifier:dormantHpiFacId.use",
         "path": "Location.identifier.use",
         "min": 1,
         "patternCode": "old"
       },
       {
-        "id": "Location.identifier:dormantFacId.system",
+        "id": "Location.identifier:dormantHpiFacId.system",
         "path": "Location.identifier.system",
         "patternUri": "https://standards.digital.health.nz/id/hpi-facility"
+      },
+      {
+        "id": "Location.identifier:MOHFacId",
+        "path": "Location.identifier",
+        "sliceName": "MOHFacId",
+        "short": "The MOH (NZHIS) Legacy facility code)",
+        "min": 0,
+        "max": "1",
+        "mustSupport": true
+      },
+      {
+        "id": "Location.identifier:MOHFacId.use",
+        "path": "Location.identifier.use",
+        "min": 1,
+        "patternCode": "official"
+      },
+      {
+        "id": "Location.identifier:MOHFacId.system",
+        "path": "Location.identifier.system",
+        "patternUri": "https://standards.digital.health.nz/ns/moh-facility-id"
       },
       {
         "id": "Location.address",

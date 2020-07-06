@@ -27,5 +27,6 @@ Description:    "base NZ Organization profile. Slices on identifier for HPI and 
 
 * identifier[orgId].system = "https://standards.digital.health.nz/id/hpi-org"
 * identifier[orgId].use = #official
+* identifier[orgId] ^short = "The current HPI organization Id for this Organization"
 
-* identifier[orgId] ^short = "The current HPI organization Id for this Orrganization"
+

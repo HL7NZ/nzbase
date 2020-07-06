@@ -126,24 +126,10 @@
         ]
       },
       {
-        "id": "Patient.extension:gender-identity",
-        "path": "Patient.extension",
-        "sliceName": "gender-identity",
-        "min": 0,
-        "max": "1",
-        "type": [
-          {
-            "code": "Extension",
-            "profile": [
-              "http://hl7.org/fhir/StructureDefinition/patient-genderIdentity"
-            ]
-          }
-        ]
-      },
-      {
         "id": "Patient.extension:sex-at-birth",
         "path": "Patient.extension",
         "sliceName": "sex-at-birth",
+        "short": "The sex that the patient was at birth. Considered immutable.",
         "min": 0,
         "max": "1",
         "type": [

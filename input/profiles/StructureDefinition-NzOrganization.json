@@ -88,7 +88,7 @@
         "id": "Organization.identifier:orgId",
         "path": "Organization.identifier",
         "sliceName": "orgId",
-        "short": "The current HPI organization Id for this Orrganization",
+        "short": "The current HPI organization Id for this Organization",
         "min": 0,
         "max": "*",
         "mustSupport": true

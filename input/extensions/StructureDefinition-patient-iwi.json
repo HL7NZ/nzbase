@@ -5,7 +5,7 @@
   "version": "0.2.0",
   "name": "Patient_iwi",
   "status": "active",
-  "description": "Details related to maori ancestry",
+  "description": "Persons Iwi affiliation",
   "fhirVersion": "4.0.1",
   "mapping": [
     {

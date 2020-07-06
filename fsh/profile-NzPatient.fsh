@@ -6,7 +6,7 @@ Alias: $patient-iwi = http://hl7.org.nz/fhir/StructureDefinition/patient-iwi
 //Alias: $NHI = https://standards.digital.health.nz/id/nhi
 Alias: $informationsource = http://hl7.org.nz/fhir/StructureDefinition/information-source
 Alias: $citizenship = http://hl7.org.nz/fhir/StructureDefinition/citizenship
-Alias: $genderIdentity = http://hl7.org/fhir/StructureDefinition/patient-genderIdentity
+//Alias: $genderIdentity = http://hl7.org/fhir/StructureDefinition/patient-genderIdentity
 Alias: $sexAtBirth = http://hl7.org.nz/fhir/StructureDefinition/sex-at-birth
 
 Profile:        NzPatient
@@ -25,14 +25,16 @@ Description:    "The base Patient resource in NZ. Slices on identifer for NHI nu
     $birthPlace named birth-place 0..1 and
     $patient-iwi named patient-iwi 0..1 and
     $citizenship named citizenship 0..1 and 
-    $genderIdentity named gender-identity 0..1 and
+
+
     $sexAtBirth named sex-at-birth 0..1
    
 * extension[nz-ethnicity] ^short = "The persons ethnicity (up to 6)"
 * extension[birth-place] ^short = "Where the person was born"
 * extension[patient-iwi] ^short = "The Iwi the person is associated with"
+//* extension[gender-identity] ^short = "The gender that the individual self-identifies as"
 * extension[citizenship] ^short = "The citizenship status"
-
+* extension[sex-at-birth] ^short = "The sex that the patient was at birth. Considered immutable."
 
 //set the address to the nz address (adds geocode, building name, domicileCode and suburb)
 * address only NzAddress
