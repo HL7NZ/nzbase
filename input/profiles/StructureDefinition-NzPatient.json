@@ -113,7 +113,7 @@
         "id": "Patient.extension:citizenship",
         "path": "Patient.extension",
         "sliceName": "citizenship",
-        "short": "The citizenship status",
+        "short": "The citizenship status - Y, N, U",
         "min": 0,
         "max": "1",
         "type": [

@@ -9,11 +9,12 @@ Description:    "NZ base Location profile. Adds slicing for HPI Facility code an
 * ^text.div = "<div xmlns='http://www.w3.org/1999/xhtml'>NZ Location profile</div>"
 * ^text.status = #additional
 
+/*
 //root level extensions
 * extension contains
     $ediAddress named edi-address 0..1
 * extension[edi-address] ^short = "The healthLink EDI address associated with this Location"
-
+*/
 //Needs to be a different geocode as uses a different datum
 * address only NzAddress
 
@@ -38,3 +39,16 @@ Description:    "NZ base Location profile. Adds slicing for HPI Facility code an
 * identifier[MOHFacId].system = "https://standards.digital.health.nz/ns/moh-facility-id"
 * identifier[MOHFacId].use = #official
 * identifier[MOHFacId] ^short = "The MOH (NZHIS) Legacy facility code)"
+
+//slice telecom to add edi account
+* telecom ^slicing.discriminator.type = #pattern
+* telecom ^slicing.discriminator.path = "system"
+* telecom ^slicing.rules = #openAtEnd
+
+* telecom contains 
+    edi-address 0..1
+
+* telecom[edi-address].system = #other (exactly)
+* telecom[edi-address].extension.url = $ediAddress
+* telecom[edi-address].extension.valueString = "healthlink"
+* telecom[edi-address] ^short = "The healthLink EDI address associated with this Location"

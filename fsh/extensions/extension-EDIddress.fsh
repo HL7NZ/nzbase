@@ -12,4 +12,4 @@ Description: "Represents the HealthLink EDI number. "
 * ^context[2].expression = "HealthcareService"
 
 * extension 0..0
-* value[x] only string
+* value[x] only string 

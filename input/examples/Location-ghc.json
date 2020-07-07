@@ -1,0 +1,21 @@
+{
+  "resourceType": "Location",
+  "id": "ghc",
+  "meta": {
+    "profile": [
+      "http://hl7.org.nz/fhir/StructureDefinition/NzLocation"
+    ]
+  },
+  "telecom": [
+    {
+      "system": "other",
+      "value": "hlMailBoxId",
+      "extension": [
+        {
+          "url": "http://hl7.org.nz/fhir/StructureDefinition/edi-address",
+          "valueString": "healthlinkX"
+        }
+      ]
+    }
+  ]
+}

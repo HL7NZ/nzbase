@@ -33,7 +33,7 @@ Description:    "The base Patient resource in NZ. Slices on identifer for NHI nu
 * extension[birth-place] ^short = "Where the person was born"
 * extension[patient-iwi] ^short = "The Iwi the person is associated with"
 //* extension[gender-identity] ^short = "The gender that the individual self-identifies as"
-* extension[citizenship] ^short = "The citizenship status"
+* extension[citizenship] ^short = "The citizenship status - Y, N, U"
 * extension[sex-at-birth] ^short = "The sex that the patient was at birth. Considered immutable."
 
 //set the address to the nz address (adds geocode, building name, domicileCode and suburb)

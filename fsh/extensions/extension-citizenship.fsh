@@ -12,11 +12,13 @@ Description: "New Zealand citizenship"
 
 // definitions of sub-extensions
 * extension[status].url = "status" (exactly)
-* extension[status] ^definition = "No description"
+* extension[status] ^definition = "The citizenship status - CIT, NCIT, UNK"
+* extension[status] ^short = "The citizenship status - CIT, NCIT, UNK"
 * extension[status].value[x] only CodeableConcept
 * extension[status].valueCodeableConcept from http:/hl7.org.nz/fhir/ValueSet/citizenship-status (preferred)
 
 * extension[source].url = "source" (exactly)
-* extension[source] ^definition = "No description"
+* extension[source] ^definition = "Where the information about the status came from"
+* extension[source] ^short = "Where the information about the status came from"
 * extension[source].value[x] only CodeableConcept
 * extension[source].valueCodeableConcept from http:/hl7.org.nz/fhir/ValueSet/info-source (preferred)

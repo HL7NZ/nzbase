@@ -32,36 +32,6 @@
   "differential": {
     "element": [
       {
-        "id": "Location.extension",
-        "path": "Location.extension",
-        "slicing": {
-          "discriminator": [
-            {
-              "type": "value",
-              "path": "url"
-            }
-          ],
-          "ordered": false,
-          "rules": "open"
-        }
-      },
-      {
-        "id": "Location.extension:edi-address",
-        "path": "Location.extension",
-        "sliceName": "edi-address",
-        "short": "The healthLink EDI address associated with this Location",
-        "min": 0,
-        "max": "1",
-        "type": [
-          {
-            "code": "Extension",
-            "profile": [
-              "http://hl7.org.nz/fhir/StructureDefinition/edi-address"
-            ]
-          }
-        ]
-      },
-      {
         "id": "Location.identifier",
         "path": "Location.identifier",
         "slicing": {
@@ -133,6 +103,55 @@
         "id": "Location.identifier:MOHFacId.system",
         "path": "Location.identifier.system",
         "patternUri": "https://standards.digital.health.nz/ns/moh-facility-id"
+      },
+      {
+        "id": "Location.telecom",
+        "path": "Location.telecom",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "pattern",
+              "path": "system"
+            }
+          ],
+          "rules": "openAtEnd"
+        }
+      },
+      {
+        "id": "Location.telecom:edi-address",
+        "path": "Location.telecom",
+        "sliceName": "edi-address",
+        "short": "The healthLink EDI address associated with this Location",
+        "min": 0,
+        "max": "1"
+      },
+      {
+        "id": "Location.telecom:edi-address.extension.extension",
+        "path": "Location.telecom.extension.extension",
+        "max": "0"
+      },
+      {
+        "id": "Location.telecom:edi-address.extension.url",
+        "path": "Location.telecom.extension.url",
+        "patternUri": "http://hl7.org.nz/fhir/StructureDefinition/edi-address"
+      },
+      {
+        "id": "Location.telecom:edi-address.extension.valueString",
+        "path": "Location.telecom.extension.valueString",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "string"
+          }
+        ],
+        "patternString": "healthlink"
+      },
+      {
+        "id": "Location.telecom:edi-address.system",
+        "path": "Location.telecom.system",
+        "min": 1,
+        "fixedCode": "other"
       },
       {
         "id": "Location.address",

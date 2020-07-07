@@ -300,6 +300,14 @@
       },
       {
         "reference": {
+          "reference": "Location/ghc"
+        },
+        "name": "ghc",
+        "description": "Good Health Clinic",
+        "exampleCanonical": "http://hl7.org.nz/fhir/StructureDefinition/NzLocation"
+      },
+      {
+        "reference": {
           "reference": "NamingSystem/hpi-chiro"
         },
         "description": "Chiropractic Board Register number.",
