@@ -48,7 +48,7 @@ Usage: #example
 * address.city = "Waipu"
 
 * address.extension[nz-geocode].extension[longitude].valueDecimal = 100
-* address.extension[nz-geocode].extension[latitute].valueDecimal = 100
+* address.extension[nz-geocode].extension[latitude].valueDecimal = 100
 
 
 * address.extension[domicile-code].valueCodeableConcept.coding.code = #0040
