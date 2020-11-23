@@ -6,13 +6,13 @@ Description: "The new zealand geocode. This uses a different datum from that def
 * ^context.expression = "Address"
 
 * extension contains
-    latitute 1..1 and
+    latitude 1..1 and
     longitude 1..1
 
 // definitions of sub-extensions
-* extension[latitute].url = "latitute" (exactly)
-* extension[latitute] ^definition = "No description"
-* extension[latitute].value[x] only decimal
+* extension[latitude].url = "latitude" (exactly)
+* extension[latitude] ^definition = "No description"
+* extension[latitude].value[x] only decimal
 
 * extension[longitude].url = "longitude" (exactly)
 * extension[longitude] ^definition = "No description"
