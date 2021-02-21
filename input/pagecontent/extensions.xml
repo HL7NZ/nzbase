@@ -3,7 +3,7 @@
 <table width='100%' border='1' cellspacing='0' cellpadding='5px'>
 <tr><th>Id</th><th>Url</th><th>Context of Use</th><th>Description</th></tr>
 <tr>
-<td><a href='http://build.fhir.org/ig/HL7NZ/nzbase/branches/master/StructureDefinition-birth-place.html'>birth-place</a></td>
+<td><a href='StructureDefinition-birth-place.html'>birth-place</a></td>
 <td>http://hl7.org.nz/fhir/StructureDefinition/birth-place</td>
 <td>
 <div>Patient</div>
@@ -11,7 +11,7 @@
 <td>The country where the person was born</td>
 </tr>
 <tr>
-<td><a href='http://build.fhir.org/ig/HL7NZ/nzbase/branches/master/StructureDefinition-building-name.html'>building-name</a></td>
+<td><a href='StructureDefinition-building-name.html'>building-name</a></td>
 <td>http://hl7.org.nz/fhir/StructureDefinition/building-name</td>
 <td>
 <div>Address</div>
@@ -19,7 +19,7 @@
 <td>The name of a building cited in an address.</td>
 </tr>
 <tr>
-<td><a href='http://build.fhir.org/ig/HL7NZ/nzbase/branches/master/StructureDefinition-dhb.html'>dhb</a></td>
+<td><a href='StructureDefinition-dhb.html'>dhb</a></td>
 <td>http://hl7.org.nz/fhir/StructureDefinition/dhb</td>
 <td>
 <div>HealthcareService</div>
@@ -29,7 +29,7 @@
 <td>District Health Board relating to a NZ Healthcare Service, Location (Facility) or Patient (primary, physical home address).</td>
 </tr>
 <tr>
-<td><a href='http://build.fhir.org/ig/HL7NZ/nzbase/branches/master/StructureDefinition-domicile-code.html'>domicile-code</a></td>
+<td><a href='StructureDefinition-domicile-code.html'>domicile-code</a></td>
 <td>http://hl7.org.nz/fhir/StructureDefinition/domicile-code</td>
 <td>
 <div>Patient</div>
@@ -37,7 +37,7 @@
 <td>NZ Domicile Code. Derived from a patient's primary physical, home address.</td>
 </tr>
 <tr>
-<td><a href='http://build.fhir.org/ig/HL7NZ/nzbase/branches/master/StructureDefinition-edi-address.html'>edi-address</a></td>
+<td><a href='StructureDefinition-edi-address.html'>edi-address</a></td>
 <td>http://hl7.org.nz/fhir/StructureDefinition/edi-address</td>
 <td>
 <div>Location</div>
@@ -47,7 +47,7 @@
 <td>Represents an Electronic Data Interchange (EDI) address.</td>
 </tr>
 <tr>
-<td><a href='http://build.fhir.org/ig/HL7NZ/nzbase/branches/master/StructureDefinition-funded-programme.html'>funded-programme</a></td>
+<td><a href='StructureDefinition-funded-programme.html'>funded-programme</a></td>
 <td>http://hl7.org.nz/fhir/StructureDefinition/funded-programme</td>
 <td>
 <div>Location</div>
@@ -57,7 +57,7 @@
 <td>Funded NZ Healthcare Programmes</td>
 </tr>
 <tr>
-<td><a href='http://build.fhir.org/ig/HL7NZ/nzbase/branches/master/StructureDefinition-information-source.html'>information-source</a></td>
+<td><a href='StructureDefinition-information-source.html'>information-source</a></td>
 <td>http://hl7.org.nz/fhir/StructureDefinition/information-source</td>
 <td>
 <div>Patient</div>
@@ -65,7 +65,7 @@
 <td>The official source of information held about a patient.</td>
 </tr>
 <tr>
-<td><a href='http://build.fhir.org/ig/HL7NZ/nzbase/branches/master/StructureDefinition-long-term-condition.html'>long-term-condition</a></td>
+<td><a href='StructureDefinition-long-term-condition.html'>long-term-condition</a></td>
 <td>http://hl7.org.nz/fhir/StructureDefinition/long-term-condition</td>
 <td>
 <div>Condition</div>
@@ -73,7 +73,7 @@
 <td>Long Term Condition Indicator</td>
 </tr>
 <tr>
-<td><a href='http://build.fhir.org/ig/HL7NZ/nzbase/branches/master/StructureDefinition-nz-citizenship.html'>nz-citizenship</a></td>
+<td><a href='StructureDefinition-nz-citizenship.html'>nz-citizenship</a></td>
 <td>http://hl7.org.nz/fhir/StructureDefinition/nz-citizenship</td>
 <td>
 <div>Patient</div>
@@ -81,7 +81,7 @@
 <td>New Zealand citizenship</td>
 </tr>
 <tr>
-<td><a href='http://build.fhir.org/ig/HL7NZ/nzbase/branches/master/StructureDefinition-nz-ethnicity.html'>nz-ethnicity</a></td>
+<td><a href='StructureDefinition-nz-ethnicity.html'>nz-ethnicity</a></td>
 <td>http://hl7.org.nz/fhir/StructureDefinition/nz-ethnicity</td>
 <td>
 <div>Patient</div>
@@ -90,7 +90,7 @@
 <td>The ethnicity of the patient. Uses level 4 codes (most detailed).</td>
 </tr>
 <tr>
-<td><a href='http://build.fhir.org/ig/HL7NZ/nzbase/branches/master/StructureDefinition-nz-geocode.html'>nz-geocode</a></td>
+<td><a href='StructureDefinition-nz-geocode.html'>nz-geocode</a></td>
 <td>http://hl7.org.nz/fhir/StructureDefinition/nz-geocode</td>
 <td>
 <div>Address</div>
@@ -98,7 +98,7 @@
 <td>New Zealand Geocode. This uses a different datum from that defined in the HL7 FHIR specification for a Geocode.</td>
 </tr>
 <tr>
-<td><a href='http://build.fhir.org/ig/HL7NZ/nzbase/branches/master/StructureDefinition-nz-residency-status.html'>nz-residency-status</a></td>
+<td><a href='StructureDefinition-nz-residency-status.html'>nz-residency-status</a></td>
 <td>http://hl7.org.nz/fhir/StructureDefinition/nz-residency-status</td>
 <td>
 <div>Patient</div>
@@ -106,7 +106,7 @@
 <td>NZ Residency Status</td>
 </tr>
 <tr>
-<td><a href='http://build.fhir.org/ig/HL7NZ/nzbase/branches/master/StructureDefinition-nzeps-long-term-medication.html'>nzeps-long-term-medication</a></td>
+<td><a href='StructureDefinition-nzeps-long-term-medication.html'>nzeps-long-term-medication</a></td>
 <td>http://hl7.org.nz/fhir/StructureDefinition/nzeps-long-term-medication</td>
 <td>
 <div>MedicationRequest</div>
@@ -114,7 +114,7 @@
 <td>NZePS Long Term Medication Indicator</td>
 </tr>
 <tr>
-<td><a href='http://build.fhir.org/ig/HL7NZ/nzbase/branches/master/StructureDefinition-nzeps-supply-period-reason.html'>nzeps-supply-period-reason</a></td>
+<td><a href='StructureDefinition-nzeps-supply-period-reason.html'>nzeps-supply-period-reason</a></td>
 <td>http://hl7.org.nz/fhir/StructureDefinition/nzeps-supply-period-reason</td>
 <td>
 <div>MedicationRequest</div>
@@ -122,7 +122,7 @@
 <td>The reason for a non-standard Supply Period.</td>
 </tr>
 <tr>
-<td><a href='http://build.fhir.org/ig/HL7NZ/nzbase/branches/master/StructureDefinition-nzeps-unusual-dose-quantity.html'>nzeps-unusual-dose-quantity</a></td>
+<td><a href='StructureDefinition-nzeps-unusual-dose-quantity.html'>nzeps-unusual-dose-quantity</a></td>
 <td>http://hl7.org.nz/fhir/StructureDefinition/nzeps-unusual-dose-quantity</td>
 <td>
 <div>MedicationRequest</div>
@@ -130,7 +130,7 @@
 <td>NZePS Unusual Dose Quantity Indicator</td>
 </tr>
 <tr>
-<td><a href='http://build.fhir.org/ig/HL7NZ/nzbase/branches/master/StructureDefinition-pho.html'>pho</a></td>
+<td><a href='StructureDefinition-pho.html'>pho</a></td>
 <td>http://hl7.org.nz/fhir/StructureDefinition/pho</td>
 <td>
 <div>HealthcareService</div>
@@ -140,7 +140,7 @@
 <td>Primary Healthcare Organisation associated with a General Practice linked to a NZ Healthcare Service, Location (Facility) or Patient (GP).</td>
 </tr>
 <tr>
-<td><a href='http://build.fhir.org/ig/HL7NZ/nzbase/branches/master/StructureDefinition-sex-at-birth.html'>sex-at-birth</a></td>
+<td><a href='StructureDefinition-sex-at-birth.html'>sex-at-birth</a></td>
 <td>http://hl7.org.nz/fhir/StructureDefinition/sex-at-birth</td>
 <td>
 <div>Patient</div>
@@ -148,7 +148,7 @@
 <td>A person’s sex at the time of their birth (considered to be immutable).</td>
 </tr>
 <tr>
-<td><a href='http://build.fhir.org/ig/HL7NZ/nzbase/branches/master/StructureDefinition-suburb.html'>suburb</a></td>
+<td><a href='StructureDefinition-suburb.html'>suburb</a></td>
 <td>http://hl7.org.nz/fhir/StructureDefinition/suburb</td>
 <td>
 <div>Address</div>
