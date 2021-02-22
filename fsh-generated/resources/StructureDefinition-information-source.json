@@ -1,0 +1,96 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "information-source",
+  "url": "http://hl7.org.nz/fhir/StructureDefinition/information-source",
+  "version": "0.1.0",
+  "name": "Information_source",
+  "title": "Information Source",
+  "status": "draft",
+  "date": "2020-07-20",
+  "publisher": "HL7 New Zealand",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "email",
+          "value": "admin@hl7.org.nz",
+          "use": "work"
+        }
+      ]
+    }
+  ],
+  "description": "The official source of information held about a patient.",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "code": "NZ",
+          "system": "urn:iso:std:iso:3166"
+        }
+      ]
+    }
+  ],
+  "copyright": "HL7 New Zealand© 2020+; Licensed Under Creative Commons No Rights Reserved.",
+  "fhirVersion": "4.0.1",
+  "mapping": [
+    {
+      "identity": "rim",
+      "uri": "http://hl7.org/v3",
+      "name": "RIM Mapping"
+    }
+  ],
+  "kind": "complex-type",
+  "abstract": false,
+  "context": [
+    {
+      "type": "element",
+      "expression": "Patient"
+    }
+  ],
+  "type": "Extension",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Extension",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Extension.extension",
+        "path": "Extension.extension",
+        "max": "0"
+      },
+      {
+        "id": "Extension.url",
+        "path": "Extension.url",
+        "fixedUri": "http://hl7.org.nz/fhir/StructureDefinition/information-source"
+      },
+      {
+        "id": "Extension.value[x]",
+        "path": "Extension.value[x]",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "type",
+              "path": "$this"
+            }
+          ],
+          "ordered": false,
+          "rules": "open"
+        },
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ]
+      },
+      {
+        "id": "Extension.valueCodeableConcept",
+        "path": "Extension.valueCodeableConcept",
+        "min": 0,
+        "max": "1",
+        "binding": {
+          "strength": "preferred",
+          "valueSet": "http:/hl7.org.nz/fhir/ValueSet/information-source-code"
+        }
+      }
+    ]
+  }
+}

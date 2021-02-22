@@ -1,0 +1,163 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "funded-programme",
+  "url": "http://hl7.org.nz/fhir/StructureDefinition/funded-programme",
+  "version": "1.0",
+  "name": "Funded_programme",
+  "title": "Funded Healthcare Programme",
+  "status": "draft",
+  "date": "2021-02-08",
+  "publisher": "HL7 New Zealand",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "email",
+          "value": "admin@hl7.org.nz",
+          "use": "work"
+        }
+      ]
+    }
+  ],
+  "description": "Funded NZ Healthcare Programmes",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "code": "NZ",
+          "system": "urn:iso:std:iso:3166"
+        }
+      ]
+    }
+  ],
+  "purpose": "Details of a NZ Healthcare Funded Programme relevant to its implementation status at an individual organisation, facility or service.",
+  "copyright": "HL7 New Zealand© 2021+; Licensed Under Creative Commons No Rights Reserved.",
+  "fhirVersion": "4.0.1",
+  "mapping": [
+    {
+      "identity": "rim",
+      "uri": "http://hl7.org/v3",
+      "name": "RIM Mapping"
+    }
+  ],
+  "kind": "complex-type",
+  "abstract": false,
+  "context": [
+    {
+      "type": "element",
+      "expression": "Location"
+    },
+    {
+      "type": "element",
+      "expression": "Organization"
+    },
+    {
+      "type": "element",
+      "expression": "HealthcareService"
+    }
+  ],
+  "type": "Extension",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Extension",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Extension.extension:programmeType",
+        "path": "Extension.extension",
+        "sliceName": "programmeType",
+        "definition": "The type of healthcare programme",
+        "min": 0,
+        "max": "0"
+      },
+      {
+        "id": "Extension.extension:programmeType.extension",
+        "path": "Extension.extension.extension",
+        "max": "0"
+      },
+      {
+        "id": "Extension.extension:programmeType.url",
+        "path": "Extension.extension.url",
+        "fixedUri": "programmeType"
+      },
+      {
+        "id": "Extension.extension:programmeType.value[x]",
+        "path": "Extension.extension.value[x]",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "type",
+              "path": "$this"
+            }
+          ],
+          "ordered": false,
+          "rules": "open"
+        },
+        "type": [
+          {
+            "code": "code"
+          }
+        ]
+      },
+      {
+        "id": "Extension.extension:programmeType.valueCode",
+        "path": "Extension.extension.valueCode",
+        "min": 0,
+        "max": "1",
+        "binding": {
+          "strength": "required",
+          "valueSet": "http://hl7.org.nz/fhir/ValueSet/funded-healthcare-programme"
+        }
+      },
+      {
+        "id": "Extension.extension:currentStatus",
+        "path": "Extension.extension",
+        "sliceName": "currentStatus",
+        "definition": "The current status",
+        "min": 0,
+        "max": "0"
+      },
+      {
+        "id": "Extension.extension:currentStatus.extension",
+        "path": "Extension.extension.extension",
+        "max": "0"
+      },
+      {
+        "id": "Extension.extension:currentStatus.url",
+        "path": "Extension.extension.url",
+        "fixedUri": "currentStatus"
+      },
+      {
+        "id": "Extension.extension:currentStatus.value[x]",
+        "path": "Extension.extension.value[x]",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "Extension.extension:notes",
+        "path": "Extension.extension",
+        "sliceName": "notes",
+        "definition": "Further details about the programme and status.",
+        "min": 0,
+        "max": "1"
+      },
+      {
+        "id": "Extension.extension:notes.url",
+        "path": "Extension.extension.url",
+        "fixedUri": "notes"
+      },
+      {
+        "id": "Extension.url",
+        "path": "Extension.url",
+        "fixedUri": "http://hl7.org.nz/fhir/StructureDefinition/funded-programme"
+      },
+      {
+        "id": "Extension.value[x]",
+        "path": "Extension.value[x]",
+        "max": "0"
+      }
+    ]
+  }
+}

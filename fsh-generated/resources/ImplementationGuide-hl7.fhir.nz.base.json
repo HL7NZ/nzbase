@@ -1,0 +1,211 @@
+{
+  "resourceType": "ImplementationGuide",
+  "id": "hl7.fhir.nz.base",
+  "url": "http://hl7.org.nz/fhir/ImplementationGuide/hl7.fhir.nz.base",
+  "version": "0.2.0",
+  "name": "HL7FHIRNewZealandBaseImplementationGuide",
+  "title": "HL7® FHIR® New Zealand Base Implementation Guide",
+  "status": "active",
+  "publisher": "David Hay",
+  "contact": [
+    {
+      "name": "David Hay",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "mailto:david.hay25@gmail.com"
+        }
+      ]
+    }
+  ],
+  "description": "New Zealand base profiles",
+  "packageId": "hl7.fhir.nz.base",
+  "license": "CC0-1.0",
+  "fhirVersion": [
+    "4.0.1"
+  ],
+  "definition": {
+    "resource": [
+      {
+        "reference": {
+          "reference": "StructureDefinition/birth-place"
+        },
+        "name": "Birth Place",
+        "description": "The country where the person was born",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/building-name"
+        },
+        "name": "Building Name",
+        "description": "The name of a building cited in an address.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/dhb"
+        },
+        "name": "District Health Board linked to a NZ Healthcare Service, Location or Patient",
+        "description": "District Health Board relating to a NZ Healthcare Service, Location (Facility) or Patient (primary, physical home address).",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/domicile-code"
+        },
+        "name": "NZ Domicile Code",
+        "description": "NZ Domicile Code. Derived from a patient's primary physical, home address.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/edi-address"
+        },
+        "name": "EDI Address",
+        "description": "Represents an Electronic Data Interchange (EDI) address.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/funded-programme"
+        },
+        "name": "Funded Healthcare Programme",
+        "description": "Funded NZ Healthcare Programmes",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/information-source"
+        },
+        "name": "Information Source",
+        "description": "The official source of information held about a patient.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/long-term-condition"
+        },
+        "name": "Long Term Condition Indicator",
+        "description": "Long Term Condition Indicator",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/nz-residency-status"
+        },
+        "name": "NZResidencyStatus",
+        "description": "NZ Residency Status",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/nz-citizenship"
+        },
+        "name": "NZ Citizenship",
+        "description": "New Zealand citizenship",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/nz-ethnicity"
+        },
+        "name": "NZ Ethnicity",
+        "description": "The ethnicity of the patient. Uses level 4 codes (most detailed).",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/nz-geocode"
+        },
+        "name": "NZ Geocode",
+        "description": "New Zealand Geocode. This uses a different datum from that defined in the HL7 FHIR specification for a Geocode.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/nzeps-long-term-medication"
+        },
+        "name": "NZePS Long Term Medication Indicator",
+        "description": "NZePS Long Term Medication Indicator",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/nzeps-supply-period-reason"
+        },
+        "name": "NZePS Supply Period Reason",
+        "description": "The reason for a non-standard Supply Period.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/nzeps-unusual-dose-quantity"
+        },
+        "name": "NZePS Unusual Dose Quantity Indicator",
+        "description": "NZePS Unusual Dose Quantity Indicator",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/pho"
+        },
+        "name": "Primary Healthcare Organisation linked to a NZ Healthcare Service, Location or Patient",
+        "description": "Primary Healthcare Organisation associated with a General Practice linked to a NZ Healthcare Service, Location (Facility) or Patient (GP).",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/sex-at-birth"
+        },
+        "name": "Sex At Birth",
+        "description": "A person’s sex at the time of their birth (considered to be immutable).",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/suburb"
+        },
+        "name": "NZ Suburb",
+        "description": "Suburb element of a NZ Address.",
+        "exampleBoolean": false
+      }
+    ],
+    "page": {
+      "nameUrl": "toc.html",
+      "title": "Table of Contents",
+      "generation": "html",
+      "page": [
+        {
+          "nameUrl": "index.html",
+          "title": "Home",
+          "generation": "markdown"
+        },
+        {
+          "nameUrl": "extensions.html",
+          "title": "Extensions",
+          "generation": "html"
+        },
+        {
+          "nameUrl": "profiles.html",
+          "title": "Profiles",
+          "generation": "html"
+        }
+      ]
+    },
+    "parameter": [
+      {
+        "code": "copyrightyear",
+        "value": "2020+"
+      },
+      {
+        "code": "releaselabel",
+        "value": "CI Build"
+      },
+      {
+        "code": "show-inherited-invariants",
+        "value": "false"
+      }
+    ]
+  }
+}

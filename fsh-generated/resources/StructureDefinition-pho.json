@@ -1,0 +1,109 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "pho",
+  "url": "http://hl7.org.nz/fhir/StructureDefinition/pho",
+  "version": "1.0",
+  "name": "Pho",
+  "title": "Primary Healthcare Organisation linked to a NZ Healthcare Service, Location or Patient",
+  "status": "active",
+  "date": "2020-11-06",
+  "publisher": "HL7 New Zealand",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "email",
+          "value": "admin@hl7.org.nz",
+          "use": "work"
+        }
+      ]
+    }
+  ],
+  "description": "Primary Healthcare Organisation associated with a General Practice linked to a NZ Healthcare Service, Location (Facility) or Patient (GP).",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "code": "NZ",
+          "system": "urn:iso:std:iso:3166"
+        }
+      ]
+    }
+  ],
+  "purpose": "Administrative - to allow NZ HealthcareService, Location (Facility) or Patient Resources to include the related Primary Healthcare Organisation.",
+  "copyright": "HL7 New Zealand© 2020+; Licensed Under Creative Commons No Rights Reserved.",
+  "fhirVersion": "4.0.1",
+  "mapping": [
+    {
+      "identity": "rim",
+      "uri": "http://hl7.org/v3",
+      "name": "RIM Mapping"
+    }
+  ],
+  "kind": "complex-type",
+  "abstract": false,
+  "context": [
+    {
+      "type": "element",
+      "expression": "HealthcareService"
+    },
+    {
+      "type": "element",
+      "expression": "Location"
+    },
+    {
+      "type": "element",
+      "expression": "Patient"
+    }
+  ],
+  "type": "Extension",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Extension",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Extension.extension",
+        "path": "Extension.extension",
+        "max": "0"
+      },
+      {
+        "id": "Extension.url",
+        "path": "Extension.url",
+        "fixedUri": "http://hl7.org.nz/fhir/StructureDefinition/pho"
+      },
+      {
+        "id": "Extension.value[x]",
+        "path": "Extension.value[x]",
+        "label": "pho Code",
+        "short": "NZ Primary Healthcare Organisations",
+        "definition": "NZ Primary Healthcare Organisations as defined in the NZ Health Provider Index Listing published by the NZ Ministry of Health each month.",
+        "requirements": "The Nzpho ValueSet should be used as this provides the correct NZ HPI-ORG ID for each of the 30 Primary Healthcare Organisations.The binding strength is extensible as this is the most suitable option for a Codeable Concept data type.",
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ],
+        "example": [
+          {
+            "label": "Procare Networks Ltd",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "version": "1.0",
+                  "code": "G05533-K",
+                  "system": "https://standards.digital.health.nz/ns/pho-code",
+                  "display": "Procare Networks Ltd"
+                }
+              ]
+            }
+          }
+        ],
+        "binding": {
+          "strength": "extensible",
+          "valueSet": "http://hl7.org.nz/fhir/ValueSet/pho-code",
+          "description": "NZ HPI-ORG Values for PHOs"
+        }
+      }
+    ]
+  }
+}
