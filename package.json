@@ -9,11 +9,11 @@
     "hl7.fhir.r4.core": "4.0.1"
   },
   "language": "en",
-  "author": "David Hay",
+  "author": "HL7 New Zealand",
   "maintainers": [
     {
-      "name": "David Hay",
-      "email": "mailto:david.hay25@gmail.com"
+      "name": "HL7 New Zraland",
+      "email": "mailto:linda@no9productions.co.nz"
     }
   ],
   "license": "CC0-1.0"

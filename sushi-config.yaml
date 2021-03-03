@@ -17,14 +17,14 @@ name: HL7FHIRNewZealandBaseImplementationGuide
 title: HL7® FHIR® New Zealand Base Implementation Guide
 status: active
 publisher:
-  name: David Hay
-  email: mailto:david.hay25@gmail.com
+  name: HL7 New Zealand
+  email: mailto:admin@hl7.org.nz
 description: New Zealand base profiles
 license: CC0-1.0
 fhirVersion: 4.0.1
 parameters:
   show-inherited-invariants: false
-copyrightYear: 2020+
+copyrightYear: 2021+
 releaseLabel: CI Build
 
 # ╭───────────────────────────────────────package-list.json────────────────────────────────────────╮

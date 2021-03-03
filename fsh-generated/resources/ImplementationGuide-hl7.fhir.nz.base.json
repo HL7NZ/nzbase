@@ -6,14 +6,14 @@
   "name": "HL7FHIRNewZealandBaseImplementationGuide",
   "title": "HL7® FHIR® New Zealand Base Implementation Guide",
   "status": "active",
-  "publisher": "David Hay",
+  "publisher": "HL7 New Zealand",
   "contact": [
     {
-      "name": "David Hay",
+      "name": "HL7 New Zealand",
       "telecom": [
         {
           "system": "email",
-          "value": "mailto:david.hay25@gmail.com"
+          "value": "mailto:admin@hl7.org.nz"
         }
       ]
     }
@@ -196,7 +196,7 @@
     "parameter": [
       {
         "code": "copyrightyear",
-        "value": "2020+"
+        "value": "2021+"
       },
       {
         "code": "releaselabel",
