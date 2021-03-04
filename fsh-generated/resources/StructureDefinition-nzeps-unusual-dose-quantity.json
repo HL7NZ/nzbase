@@ -1,6 +1,12 @@
 {
   "resourceType": "StructureDefinition",
   "id": "nzeps-unusual-dose-quantity",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+      "valueInteger": 1
+    }
+  ],
   "url": "http://hl7.org.nz/fhir/StructureDefinition/nzeps-unusual-dose-quantity",
   "version": "1.0",
   "name": "Nzeps_unusual_dose_quantity",

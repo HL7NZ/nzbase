@@ -2,6 +2,8 @@ Extension: Funded_programme
 Id: funded-programme
 Title: "Funded Healthcare Programme"
 Description: "Funded NZ Healthcare Programmes"
+* ^extension.url = "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"
+* ^extension.valueInteger = 1
 * ^version = "1.0"
 * ^status = #draft
 * ^date = "2021-02-08"

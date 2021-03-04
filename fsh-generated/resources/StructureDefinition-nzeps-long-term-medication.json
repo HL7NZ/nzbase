@@ -1,6 +1,12 @@
 {
   "resourceType": "StructureDefinition",
   "id": "nzeps-long-term-medication",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+      "valueInteger": 2
+    }
+  ],
   "url": "http://hl7.org.nz/fhir/StructureDefinition/nzeps-long-term-medication",
   "version": "1.0",
   "name": "Nzeps_long_term_medication",

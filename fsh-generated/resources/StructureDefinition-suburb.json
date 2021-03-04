@@ -1,6 +1,12 @@
 {
   "resourceType": "StructureDefinition",
   "id": "suburb",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+      "valueInteger": 1
+    }
+  ],
   "url": "http://hl7.org.nz/fhir/StructureDefinition/suburb",
   "version": "1.0",
   "name": "Suburb",

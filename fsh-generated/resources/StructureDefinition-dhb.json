@@ -1,6 +1,12 @@
 {
   "resourceType": "StructureDefinition",
   "id": "dhb",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+      "valueInteger": 3
+    }
+  ],
   "url": "http://hl7.org.nz/fhir/StructureDefinition/dhb",
   "version": "1.0",
   "name": "Dhb",

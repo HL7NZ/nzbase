@@ -2,6 +2,9 @@ Extension: Suburb
 Id: suburb
 Title: "NZ Suburb"
 Description: "Suburb element of a NZ Address."
+
+* ^extension.url = "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"
+* ^extension.valueInteger = 1
 * ^version = "1.0"
 * ^date = "2020-07-20"
 * ^publisher = "HL7 New Zealand"

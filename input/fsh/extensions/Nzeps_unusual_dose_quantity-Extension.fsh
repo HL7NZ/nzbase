@@ -2,6 +2,8 @@ Extension: Nzeps_unusual_dose_quantity
 Id: nzeps-unusual-dose-quantity
 Title: "NZePS Unusual Dose Quantity Indicator"
 Description: "NZePS Unusual Dose Quantity Indicator"
+* ^extension.url = "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"
+* ^extension.valueInteger = 1
 * ^version = "1.0"
 * ^date = "2020-07-20"
 * ^publisher = "HL7 New Zealand"

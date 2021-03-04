@@ -1,6 +1,12 @@
 {
   "resourceType": "StructureDefinition",
   "id": "funded-programme",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+      "valueInteger": 1
+    }
+  ],
   "url": "http://hl7.org.nz/fhir/StructureDefinition/funded-programme",
   "version": "1.0",
   "name": "Funded_programme",

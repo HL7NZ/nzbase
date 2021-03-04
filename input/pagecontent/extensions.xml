@@ -1,7 +1,9 @@
 <div xmlns='http://www.w3.org/1999/xhtml'>
 <br/><strong>Extensions defined in this guide</strong><br/><br/>
 <table width='100%' border='1' cellspacing='0' cellpadding='5px'>
-<tr><th>Id</th><th>Url</th><th>Context of Use</th><th>Description</th></tr>
+<tr><th>Id</th><th>Url</th><th>Context of Use</th><th>Description</th>
+<th>FMM</th>
+</tr>
 <tr>
 <td><a href='StructureDefinition-birth-place.html'>birth-place</a></td>
 <td>http://hl7.org.nz/fhir/StructureDefinition/birth-place</td>
@@ -9,6 +11,7 @@
 <div>Patient</div>
 </td>
 <td>The country where the person was born</td>
+<td>0</td>
 </tr>
 <tr>
 <td><a href='StructureDefinition-building-name.html'>building-name</a></td>
@@ -17,6 +20,7 @@
 <div>Address</div>
 </td>
 <td>The name of a building cited in an address.</td>
+<td>0</td>
 </tr>
 <tr>
 <td><a href='StructureDefinition-dhb.html'>dhb</a></td>
@@ -27,6 +31,7 @@
 <div>Patient</div>
 </td>
 <td>District Health Board relating to a NZ Healthcare Service, Location (Facility) or Patient (primary, physical home address).</td>
+<td>3</td>
 </tr>
 <tr>
 <td><a href='StructureDefinition-domicile-code.html'>domicile-code</a></td>
@@ -35,6 +40,7 @@
 <div>Patient</div>
 </td>
 <td>NZ Domicile Code. Derived from a patient's primary physical, home address.</td>
+<td>0</td>
 </tr>
 <tr>
 <td><a href='StructureDefinition-edi-address.html'>edi-address</a></td>
@@ -45,6 +51,7 @@
 <div>HealthcareService</div>
 </td>
 <td>Represents an Electronic Data Interchange (EDI) address.</td>
+<td>0</td>
 </tr>
 <tr>
 <td><a href='StructureDefinition-funded-programme.html'>funded-programme</a></td>
@@ -55,6 +62,7 @@
 <div>HealthcareService</div>
 </td>
 <td>Funded NZ Healthcare Programmes</td>
+<td>1</td>
 </tr>
 <tr>
 <td><a href='StructureDefinition-information-source.html'>information-source</a></td>
@@ -63,6 +71,7 @@
 <div>Patient</div>
 </td>
 <td>The official source of information held about a patient.</td>
+<td>0</td>
 </tr>
 <tr>
 <td><a href='StructureDefinition-long-term-condition.html'>long-term-condition</a></td>
@@ -71,6 +80,7 @@
 <div>Condition</div>
 </td>
 <td>Long Term Condition Indicator</td>
+<td>1</td>
 </tr>
 <tr>
 <td><a href='StructureDefinition-nz-citizenship.html'>nz-citizenship</a></td>
@@ -79,6 +89,7 @@
 <div>Patient</div>
 </td>
 <td>New Zealand citizenship</td>
+<td>0</td>
 </tr>
 <tr>
 <td><a href='StructureDefinition-nz-ethnicity.html'>nz-ethnicity</a></td>
@@ -88,6 +99,7 @@
 <div>Practitioner</div>
 </td>
 <td>The ethnicity of the patient. Uses level 4 codes (most detailed).</td>
+<td>0</td>
 </tr>
 <tr>
 <td><a href='StructureDefinition-nz-geocode.html'>nz-geocode</a></td>
@@ -96,6 +108,7 @@
 <div>Address</div>
 </td>
 <td>New Zealand Geocode. This uses a different datum from that defined in the HL7 FHIR specification for a Geocode.</td>
+<td>0</td>
 </tr>
 <tr>
 <td><a href='StructureDefinition-nz-residency-status.html'>nz-residency-status</a></td>
@@ -104,6 +117,7 @@
 <div>Patient</div>
 </td>
 <td>NZ Residency Status</td>
+<td>0</td>
 </tr>
 <tr>
 <td><a href='StructureDefinition-nzeps-long-term-medication.html'>nzeps-long-term-medication</a></td>
@@ -112,6 +126,7 @@
 <div>MedicationRequest</div>
 </td>
 <td>NZePS Long Term Medication Indicator</td>
+<td>2</td>
 </tr>
 <tr>
 <td><a href='StructureDefinition-nzeps-supply-period-reason.html'>nzeps-supply-period-reason</a></td>
@@ -120,6 +135,7 @@
 <div>MedicationRequest</div>
 </td>
 <td>The reason for a non-standard Supply Period.</td>
+<td>1</td>
 </tr>
 <tr>
 <td><a href='StructureDefinition-nzeps-unusual-dose-quantity.html'>nzeps-unusual-dose-quantity</a></td>
@@ -128,6 +144,7 @@
 <div>MedicationRequest</div>
 </td>
 <td>NZePS Unusual Dose Quantity Indicator</td>
+<td>1</td>
 </tr>
 <tr>
 <td><a href='StructureDefinition-pho.html'>pho</a></td>
@@ -138,6 +155,7 @@
 <div>Patient</div>
 </td>
 <td>Primary Healthcare Organisation associated with a General Practice linked to a NZ Healthcare Service, Location (Facility) or Patient (GP).</td>
+<td>1</td>
 </tr>
 <tr>
 <td><a href='StructureDefinition-sex-at-birth.html'>sex-at-birth</a></td>
@@ -146,6 +164,7 @@
 <div>Patient</div>
 </td>
 <td>A person’s sex at the time of their birth (considered to be immutable).</td>
+<td>0</td>
 </tr>
 <tr>
 <td><a href='StructureDefinition-suburb.html'>suburb</a></td>
@@ -154,6 +173,7 @@
 <div>Address</div>
 </td>
 <td>Suburb element of a NZ Address.</td>
+<td>1</td>
 </tr>
 </table>
 <a name="externalExtensions"> </a>

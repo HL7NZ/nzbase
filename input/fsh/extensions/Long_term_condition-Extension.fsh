@@ -2,6 +2,8 @@ Extension: Long_term_condition
 Id: long-term-condition
 Title: "Long Term Condition Indicator"
 Description: "Long Term Condition Indicator"
+* ^extension.url = "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"
+* ^extension.valueInteger = 1
 * ^version = "1.0"
 * ^status = #draft
 * ^date = "2020-08-20"

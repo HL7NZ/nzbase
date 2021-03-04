@@ -2,6 +2,8 @@ Extension: Nzeps_supply_period_reason
 Id: nzeps-supply-period-reason
 Title: "NZePS Supply Period Reason"
 Description: "The reason for a non-standard Supply Period."
+* ^extension.url = "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"
+* ^extension.valueInteger = 1
 * ^version = "1.0"
 * ^date = "2020-07-20"
 * ^publisher = "HL7 New Zealand"

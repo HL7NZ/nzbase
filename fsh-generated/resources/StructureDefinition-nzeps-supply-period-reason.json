@@ -1,6 +1,12 @@
 {
   "resourceType": "StructureDefinition",
   "id": "nzeps-supply-period-reason",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+      "valueInteger": 1
+    }
+  ],
   "url": "http://hl7.org.nz/fhir/StructureDefinition/nzeps-supply-period-reason",
   "version": "1.0",
   "name": "Nzeps_supply_period_reason",

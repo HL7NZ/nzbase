@@ -1,6 +1,12 @@
 {
   "resourceType": "StructureDefinition",
   "id": "long-term-condition",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+      "valueInteger": 1
+    }
+  ],
   "url": "http://hl7.org.nz/fhir/StructureDefinition/long-term-condition",
   "version": "1.0",
   "name": "Long_term_condition",
