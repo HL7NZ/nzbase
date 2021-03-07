@@ -11,7 +11,7 @@
   "version": "1.0",
   "name": "Pho",
   "title": "Primary Healthcare Organisation linked to a NZ Healthcare Service, Location or Patient",
-  "status": "active",
+  "status": "draft",
   "date": "2020-11-06",
   "publisher": "HL7 New Zealand",
   "contact": [

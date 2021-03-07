@@ -3,6 +3,7 @@
 <table width='100%' border='1' cellspacing='0' cellpadding='5px'>
 <tr><th>Id</th><th>Url</th><th>Context of Use</th><th>Description</th>
 <th>FMM</th>
+<th>Status</th>
 </tr>
 <tr>
 <td><a href='StructureDefinition-birth-place.html'>birth-place</a></td>
@@ -12,6 +13,7 @@
 </td>
 <td>The country where the person was born</td>
 <td>0</td>
+<td>draft</td>
 </tr>
 <tr>
 <td><a href='StructureDefinition-building-name.html'>building-name</a></td>
@@ -21,6 +23,17 @@
 </td>
 <td>The name of a building cited in an address.</td>
 <td>0</td>
+<td>draft</td>
+</tr>
+<tr>
+<td><a href='StructureDefinition-condition-on-practice.html'>condition-on-practice</a></td>
+<td>http://hl7.org.nz/fhir/StructureDefinition/condition-on-practice</td>
+<td>
+<div>Practitioner.qualification</div>
+</td>
+<td>A full description of the conditions the health practitioner is subject to in relation to their scope of practice.</td>
+<td>0</td>
+<td>draft</td>
 </tr>
 <tr>
 <td><a href='StructureDefinition-dhb.html'>dhb</a></td>
@@ -32,6 +45,7 @@
 </td>
 <td>District Health Board relating to a NZ Healthcare Service, Location (Facility) or Patient (primary, physical home address).</td>
 <td>3</td>
+<td>draft</td>
 </tr>
 <tr>
 <td><a href='StructureDefinition-domicile-code.html'>domicile-code</a></td>
@@ -41,17 +55,27 @@
 </td>
 <td>NZ Domicile Code. Derived from a patient's primary physical, home address.</td>
 <td>0</td>
+<td>draft</td>
 </tr>
-<tr>
+<tr style='background-color:#FFCCCC'>
 <td><a href='StructureDefinition-edi-address.html'>edi-address</a></td>
 <td>http://hl7.org.nz/fhir/StructureDefinition/edi-address</td>
 <td>
-<div>Location</div>
-<div>Organization</div>
-<div>HealthcareService</div>
+<div>ContactPoint.system</div>
 </td>
-<td>Represents an Electronic Data Interchange (EDI) address.</td>
+<td>Represents an Electronic Data Interchange (EDI) address. It is intended as an extension on ContactPoint.system, with the system value being 'other'.</td>
 <td>0</td>
+<td>active</td>
+</tr>
+<tr>
+<td><a href='StructureDefinition-educational-qualification.html'>educational-qualification</a></td>
+<td>http://hl7.org.nz/fhir/StructureDefinition/educational-qualification</td>
+<td>
+<div>Practitioner</div>
+</td>
+<td>Educational qualifications.</td>
+<td>0</td>
+<td>draft</td>
 </tr>
 <tr>
 <td><a href='StructureDefinition-funded-programme.html'>funded-programme</a></td>
@@ -63,6 +87,7 @@
 </td>
 <td>Funded NZ Healthcare Programmes</td>
 <td>1</td>
+<td>draft</td>
 </tr>
 <tr>
 <td><a href='StructureDefinition-information-source.html'>information-source</a></td>
@@ -72,6 +97,7 @@
 </td>
 <td>The official source of information held about a patient.</td>
 <td>0</td>
+<td>draft</td>
 </tr>
 <tr>
 <td><a href='StructureDefinition-long-term-condition.html'>long-term-condition</a></td>
@@ -81,6 +107,7 @@
 </td>
 <td>Long Term Condition Indicator</td>
 <td>1</td>
+<td>draft</td>
 </tr>
 <tr>
 <td><a href='StructureDefinition-nz-citizenship.html'>nz-citizenship</a></td>
@@ -90,6 +117,7 @@
 </td>
 <td>New Zealand citizenship</td>
 <td>0</td>
+<td>draft</td>
 </tr>
 <tr>
 <td><a href='StructureDefinition-nz-ethnicity.html'>nz-ethnicity</a></td>
@@ -100,6 +128,7 @@
 </td>
 <td>The ethnicity of the patient. Uses level 4 codes (most detailed).</td>
 <td>0</td>
+<td>draft</td>
 </tr>
 <tr>
 <td><a href='StructureDefinition-nz-geocode.html'>nz-geocode</a></td>
@@ -109,6 +138,7 @@
 </td>
 <td>New Zealand Geocode. This uses a different datum from that defined in the HL7 FHIR specification for a Geocode.</td>
 <td>0</td>
+<td>draft</td>
 </tr>
 <tr>
 <td><a href='StructureDefinition-nz-residency-status.html'>nz-residency-status</a></td>
@@ -118,6 +148,7 @@
 </td>
 <td>NZ Residency Status</td>
 <td>0</td>
+<td>draft</td>
 </tr>
 <tr>
 <td><a href='StructureDefinition-nzeps-long-term-medication.html'>nzeps-long-term-medication</a></td>
@@ -127,6 +158,7 @@
 </td>
 <td>NZePS Long Term Medication Indicator</td>
 <td>2</td>
+<td>draft</td>
 </tr>
 <tr>
 <td><a href='StructureDefinition-nzeps-supply-period-reason.html'>nzeps-supply-period-reason</a></td>
@@ -136,6 +168,7 @@
 </td>
 <td>The reason for a non-standard Supply Period.</td>
 <td>1</td>
+<td>draft</td>
 </tr>
 <tr>
 <td><a href='StructureDefinition-nzeps-unusual-dose-quantity.html'>nzeps-unusual-dose-quantity</a></td>
@@ -145,6 +178,7 @@
 </td>
 <td>NZePS Unusual Dose Quantity Indicator</td>
 <td>1</td>
+<td>draft</td>
 </tr>
 <tr>
 <td><a href='StructureDefinition-pho.html'>pho</a></td>
@@ -156,6 +190,37 @@
 </td>
 <td>Primary Healthcare Organisation associated with a General Practice linked to a NZ Healthcare Service, Location (Facility) or Patient (GP).</td>
 <td>1</td>
+<td>draft</td>
+</tr>
+<tr>
+<td><a href='StructureDefinition-registration-initial-date.html'>registration-initial-date</a></td>
+<td>http://hl7.org.nz/fhir/StructureDefinition/registration-initial-date</td>
+<td>
+<div>Practitioner.qualification</div>
+</td>
+<td>The date the practitioner first became registered with the Responsible Authority or professional body</td>
+<td>0</td>
+<td>draft</td>
+</tr>
+<tr>
+<td><a href='StructureDefinition-registration-status-code.html'>registration-status-code</a></td>
+<td>http://hl7.org.nz/fhir/StructureDefinition/registration-status-code</td>
+<td>
+<div>Practitioner.qualification</div>
+</td>
+<td>An indicator of the practicing status of the practitioner as supplied by their Responsible Authority or professional body.</td>
+<td>0</td>
+<td>draft</td>
+</tr>
+<tr>
+<td><a href='StructureDefinition-scope-of-practice.html'>scope-of-practice</a></td>
+<td>http://hl7.org.nz/fhir/StructureDefinition/scope-of-practice</td>
+<td>
+<div>Practitioner.qualification</div>
+</td>
+<td>The type or range of health services a practitioner is authorized to perform, as determined by the Responsible Authority or professional body.</td>
+<td>0</td>
+<td>draft</td>
 </tr>
 <tr>
 <td><a href='StructureDefinition-sex-at-birth.html'>sex-at-birth</a></td>
@@ -165,6 +230,7 @@
 </td>
 <td>A person’s sex at the time of their birth (considered to be immutable).</td>
 <td>0</td>
+<td>draft</td>
 </tr>
 <tr>
 <td><a href='StructureDefinition-suburb.html'>suburb</a></td>
@@ -174,6 +240,7 @@
 </td>
 <td>Suburb element of a NZ Address.</td>
 <td>1</td>
+<td>draft</td>
 </tr>
 </table>
 <a name="externalExtensions"> </a>

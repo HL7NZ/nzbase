@@ -44,6 +44,14 @@
       },
       {
         "reference": {
+          "reference": "StructureDefinition/condition-on-practice"
+        },
+        "name": "ConditionOnPractice",
+        "description": "A full description of the conditions the health practitioner is subject to in relation to their scope of practice.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
           "reference": "StructureDefinition/dhb"
         },
         "name": "District Health Board linked to a NZ Healthcare Service, Location or Patient",
@@ -63,7 +71,15 @@
           "reference": "StructureDefinition/edi-address"
         },
         "name": "EDI Address",
-        "description": "Represents an Electronic Data Interchange (EDI) address.",
+        "description": "Represents an Electronic Data Interchange (EDI) address. It is intended as an extension on ContactPoint.system, with the system value being 'other'.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/educational-qualification"
+        },
+        "name": "EducationalQualification",
+        "description": "Educational qualifications.",
         "exampleBoolean": false
       },
       {
@@ -152,6 +168,30 @@
         },
         "name": "Primary Healthcare Organisation linked to a NZ Healthcare Service, Location or Patient",
         "description": "Primary Healthcare Organisation associated with a General Practice linked to a NZ Healthcare Service, Location (Facility) or Patient (GP).",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/registration-initial-date"
+        },
+        "name": "RegistrationInitialDate",
+        "description": "The date the practitioner first became registered with the Responsible Authority or professional body",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/registration-status-code"
+        },
+        "name": "RegistrationStatusCode",
+        "description": "An indicator of the practicing status of the practitioner as supplied by their Responsible Authority or professional body.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/scope-of-practice"
+        },
+        "name": "ScopeOfPractice",
+        "description": "The type or range of health services a practitioner is authorized to perform, as determined by the Responsible Authority or professional body.",
         "exampleBoolean": false
       },
       {

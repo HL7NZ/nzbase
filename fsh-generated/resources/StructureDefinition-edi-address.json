@@ -5,7 +5,7 @@
   "version": "0.1.0",
   "name": "Edi_address",
   "title": "EDI Address",
-  "status": "draft",
+  "status": "active",
   "date": "2020-07-20",
   "publisher": "HL7 New Zealand",
   "contact": [
@@ -19,7 +19,7 @@
       ]
     }
   ],
-  "description": "Represents an Electronic Data Interchange (EDI) address.",
+  "description": "Represents an Electronic Data Interchange (EDI) address. It is intended as an extension on ContactPoint.system, with the system value being 'other'.",
   "jurisdiction": [
     {
       "coding": [
@@ -44,15 +44,7 @@
   "context": [
     {
       "type": "element",
-      "expression": "Location"
-    },
-    {
-      "type": "element",
-      "expression": "Organization"
-    },
-    {
-      "type": "element",
-      "expression": "HealthcareService"
+      "expression": "ContactPoint.system"
     }
   ],
   "type": "Extension",

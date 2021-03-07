@@ -4,6 +4,7 @@ Title: "Primary Healthcare Organisation linked to a NZ Healthcare Service, Locat
 Description: "Primary Healthcare Organisation associated with a General Practice linked to a NZ Healthcare Service, Location (Facility) or Patient (GP)."
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"
 * ^extension.valueInteger = 1
+* ^status = #draft
 * ^version = "1.0"
 * ^date = "2020-11-06"
 * ^publisher = "HL7 New Zealand"
