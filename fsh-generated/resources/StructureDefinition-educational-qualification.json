@@ -1,0 +1,214 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "educational-qualification",
+  "url": "http://hl7.org.nz/fhir/StructureDefinition/educational-qualification",
+  "version": "0.2.0",
+  "name": "EducationalQualification",
+  "status": "draft",
+  "description": "Educational qualifications.",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "code": "NZ",
+          "system": "urn:iso:std:iso:3166"
+        }
+      ]
+    }
+  ],
+  "fhirVersion": "4.0.1",
+  "mapping": [
+    {
+      "identity": "rim",
+      "uri": "http://hl7.org/v3",
+      "name": "RIM Mapping"
+    }
+  ],
+  "kind": "complex-type",
+  "abstract": false,
+  "context": [
+    {
+      "type": "element",
+      "expression": "Practitioner"
+    }
+  ],
+  "type": "Extension",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Extension",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Extension.extension:fullname",
+        "path": "Extension.extension",
+        "sliceName": "fullname",
+        "definition": "The full name of the educational qualification",
+        "min": 0,
+        "max": "1"
+      },
+      {
+        "id": "Extension.extension:fullname.extension",
+        "path": "Extension.extension.extension",
+        "max": "0"
+      },
+      {
+        "id": "Extension.extension:fullname.url",
+        "path": "Extension.extension.url",
+        "fixedUri": "fullname"
+      },
+      {
+        "id": "Extension.extension:fullname.value[x]",
+        "path": "Extension.extension.value[x]",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "Extension.extension:shortname",
+        "path": "Extension.extension",
+        "sliceName": "shortname",
+        "definition": "A short name of the educational qualification for when space is limited",
+        "min": 0,
+        "max": "1"
+      },
+      {
+        "id": "Extension.extension:shortname.extension",
+        "path": "Extension.extension.extension",
+        "max": "0"
+      },
+      {
+        "id": "Extension.extension:shortname.url",
+        "path": "Extension.extension.url",
+        "fixedUri": "shortname"
+      },
+      {
+        "id": "Extension.extension:shortname.value[x]",
+        "path": "Extension.extension.value[x]",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "Extension.extension:year",
+        "path": "Extension.extension",
+        "sliceName": "year",
+        "definition": "The year in which the qualification was granted",
+        "min": 0,
+        "max": "1"
+      },
+      {
+        "id": "Extension.extension:year.extension",
+        "path": "Extension.extension.extension",
+        "max": "0"
+      },
+      {
+        "id": "Extension.extension:year.url",
+        "path": "Extension.extension.url",
+        "fixedUri": "year"
+      },
+      {
+        "id": "Extension.extension:year.value[x]",
+        "path": "Extension.extension.value[x]",
+        "type": [
+          {
+            "code": "date"
+          }
+        ]
+      },
+      {
+        "id": "Extension.extension:institution",
+        "path": "Extension.extension",
+        "sliceName": "institution",
+        "definition": "The institution that granted the qualification",
+        "min": 0,
+        "max": "1"
+      },
+      {
+        "id": "Extension.extension:institution.extension",
+        "path": "Extension.extension.extension",
+        "max": "0"
+      },
+      {
+        "id": "Extension.extension:institution.url",
+        "path": "Extension.extension.url",
+        "fixedUri": "institution"
+      },
+      {
+        "id": "Extension.extension:institution.value[x]",
+        "path": "Extension.extension.value[x]",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "Extension.extension:city",
+        "path": "Extension.extension",
+        "sliceName": "city",
+        "definition": "The city where the institution is located",
+        "min": 0,
+        "max": "1"
+      },
+      {
+        "id": "Extension.extension:city.extension",
+        "path": "Extension.extension.extension",
+        "max": "0"
+      },
+      {
+        "id": "Extension.extension:city.url",
+        "path": "Extension.extension.url",
+        "fixedUri": "city"
+      },
+      {
+        "id": "Extension.extension:city.value[x]",
+        "path": "Extension.extension.value[x]",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "Extension.extension:country",
+        "path": "Extension.extension",
+        "sliceName": "country",
+        "definition": "The country where the institution is located",
+        "min": 0,
+        "max": "1"
+      },
+      {
+        "id": "Extension.extension:country.extension",
+        "path": "Extension.extension.extension",
+        "max": "0"
+      },
+      {
+        "id": "Extension.extension:country.url",
+        "path": "Extension.extension.url",
+        "fixedUri": "country"
+      },
+      {
+        "id": "Extension.extension:country.value[x]",
+        "path": "Extension.extension.value[x]",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "Extension.url",
+        "path": "Extension.url",
+        "fixedUri": "http://hl7.org.nz/fhir/StructureDefinition/educational-qualification"
+      },
+      {
+        "id": "Extension.value[x]",
+        "path": "Extension.value[x]",
+        "max": "0"
+      }
+    ]
+  }
+}

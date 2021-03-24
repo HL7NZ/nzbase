@@ -11,7 +11,7 @@
   "version": "1.0",
   "name": "Nzeps_long_term_medication",
   "title": "NZePS Long Term Medication Indicator",
-  "status": "draft",
+  "status": "active",
   "date": "2020-08-20",
   "publisher": "HL7 New Zealand",
   "contact": [
@@ -36,7 +36,7 @@
       ]
     }
   ],
-  "purpose": "Long term medication usage indicator",
+  "purpose": "This has specific uses in NZ Pharmacy and GP systems for funding and clinical purposes. It is also part of the HISO 10041.1 standard for Medication Lists.",
   "copyright": "HL7 New Zealand© 2020+; Licensed Under Creative Commons No Rights Reserved.",
   "fhirVersion": "4.0.1",
   "mapping": [

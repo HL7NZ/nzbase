@@ -2,6 +2,7 @@ Extension: Nz_ethnicity
 Id: nz-ethnicity
 Title: "NZ Ethnicity"
 Description: "The ethnicity of the patient. Uses level 4 codes (most detailed)."
+
 * ^version = "0.1.0"
 * ^status = #draft
 * ^date = "2020-07-20"
