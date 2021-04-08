@@ -1,5 +1,5 @@
 
-Example of extension
+**Example of extension**
 
 ```
 <extension url="http://hl7.org.nz/fhir/StructureDefinition/suburb">
