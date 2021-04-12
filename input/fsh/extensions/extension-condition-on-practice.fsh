@@ -12,7 +12,7 @@ Description: "A full description of the conditions the health practitioner is su
     description 0..1 and
     period 0..1
 
-* ^status = #draft
+* ^status = #active
 // definitions of sub-extensions
 * extension[description].url = "description" (exactly)
 * extension[description] ^definition = "The condition on practice as text"

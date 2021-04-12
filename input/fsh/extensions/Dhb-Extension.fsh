@@ -4,7 +4,7 @@ Title: "District Health Board linked to a NZ Healthcare Service, Location or Pat
 Description: "District Health Board relating to a NZ Healthcare Service, Location (Facility) or Patient (primary, physical home address)."
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"
 * ^extension.valueInteger = 3
-* ^status = #draft
+* ^status = #active
 * ^version = "1.0"
 * ^date = "2020-07-31"
 * ^publisher = "HL7 New Zealand"

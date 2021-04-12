@@ -27,7 +27,7 @@
 <td>0</td>
 <td>draft</td>
 </tr>
-<tr>
+<tr style='background-color:#FFCCCC'>
 <td><a href='StructureDefinition-condition-on-practice.html'>condition-on-practice</a></td>
 <td>http://hl7.org.nz/fhir/StructureDefinition/condition-on-practice</td>
 <td>
@@ -36,9 +36,9 @@
 <td>A full description of the conditions the health practitioner is subject to in relation to their scope of practice.</td>
 <td></td>
 <td>0</td>
-<td>draft</td>
+<td>active</td>
 </tr>
-<tr>
+<tr style='background-color:#FFCCCC'>
 <td><a href='StructureDefinition-dhb.html'>dhb</a></td>
 <td>http://hl7.org.nz/fhir/StructureDefinition/dhb</td>
 <td>
@@ -49,7 +49,7 @@
 <td>District Health Board relating to a NZ Healthcare Service, Location (Facility) or Patient (primary, physical home address).</td>
 <td>Administrative - to allow NZ HealthcareService, Location (Facility) or Patient Resources to include the related District Health Board.</td>
 <td>3</td>
-<td>draft</td>
+<td>active</td>
 </tr>
 <tr>
 <td><a href='StructureDefinition-domicile-code.html'>domicile-code</a></td>
@@ -197,7 +197,7 @@
 <td>1</td>
 <td>active</td>
 </tr>
-<tr>
+<tr style='background-color:#FFCCCC'>
 <td><a href='StructureDefinition-pho.html'>pho</a></td>
 <td>http://hl7.org.nz/fhir/StructureDefinition/pho</td>
 <td>
@@ -208,7 +208,7 @@
 <td>Primary Healthcare Organisation associated with a General Practice linked to a NZ Healthcare Service, Location (Facility) or Patient (GP).</td>
 <td>Administrative - to allow NZ HealthcareService, Location (Facility) or Patient Resources to include the related Primary Healthcare Organisation.</td>
 <td>1</td>
-<td>draft</td>
+<td>active</td>
 </tr>
 <tr>
 <td><a href='StructureDefinition-registration-initial-date.html'>registration-initial-date</a></td>
