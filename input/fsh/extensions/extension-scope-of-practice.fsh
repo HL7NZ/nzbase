@@ -11,7 +11,8 @@ Description: "The type or range of health services a practitioner is authorized 
 * extension contains
     code 0..1 and
     period 0..1
-* ^status = #draft
+* ^status = #active
+
 // definitions of sub-extensions
 * extension[code].url = "code" (exactly)
 * extension[code] ^definition = "A code identifying the services that the practitioner is permitted to perform"

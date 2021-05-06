@@ -210,7 +210,7 @@
 <td>1</td>
 <td>active</td>
 </tr>
-<tr>
+<tr style='background-color:#FFCCCC'>
 <td><a href='StructureDefinition-registration-initial-date.html'>registration-initial-date</a></td>
 <td>http://hl7.org.nz/fhir/StructureDefinition/registration-initial-date</td>
 <td>
@@ -219,9 +219,9 @@
 <td>The date the practitioner first became registered with the Responsible Authority or professional body</td>
 <td></td>
 <td>0</td>
-<td>draft</td>
+<td>active</td>
 </tr>
-<tr>
+<tr style='background-color:#FFCCCC'>
 <td><a href='StructureDefinition-registration-status-code.html'>registration-status-code</a></td>
 <td>http://hl7.org.nz/fhir/StructureDefinition/registration-status-code</td>
 <td>
@@ -230,9 +230,9 @@
 <td>An indicator of the practicing status of the practitioner as supplied by their Responsible Authority or professional body.</td>
 <td></td>
 <td>0</td>
-<td>draft</td>
+<td>active</td>
 </tr>
-<tr>
+<tr style='background-color:#FFCCCC'>
 <td><a href='StructureDefinition-scope-of-practice.html'>scope-of-practice</a></td>
 <td>http://hl7.org.nz/fhir/StructureDefinition/scope-of-practice</td>
 <td>
@@ -241,7 +241,7 @@
 <td>The type or range of health services a practitioner is authorized to perform, as determined by the Responsible Authority or professional body.</td>
 <td></td>
 <td>0</td>
-<td>draft</td>
+<td>active</td>
 </tr>
 <tr>
 <td><a href='StructureDefinition-sex-at-birth.html'>sex-at-birth</a></td>

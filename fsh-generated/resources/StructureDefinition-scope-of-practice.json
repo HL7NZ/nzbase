@@ -4,7 +4,7 @@
   "url": "http://hl7.org.nz/fhir/StructureDefinition/scope-of-practice",
   "version": "0.2.0",
   "name": "ScopeOfPractice",
-  "status": "draft",
+  "status": "active",
   "description": "The type or range of health services a practitioner is authorized to perform, as determined by the Responsible Authority or professional body.",
   "jurisdiction": [
     {

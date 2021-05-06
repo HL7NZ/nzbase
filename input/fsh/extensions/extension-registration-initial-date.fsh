@@ -4,7 +4,7 @@ Description: "The date the practitioner first became registered with the Respons
 
 * ^url = "http://hl7.org.nz/fhir/StructureDefinition/registration-initial-date"
 * ^jurisdiction.coding = urn:iso:std:iso:3166#NZ
-* ^status = #draft
+* ^status = #active
 
 * ^context.type = #element
 * ^context.expression = "Practitioner.qualification"

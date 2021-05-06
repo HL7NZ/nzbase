@@ -11,7 +11,7 @@ Description: "An indicator of the practicing status of the practitioner as suppl
 * extension contains
     status 0..1 and
     period 0..1
-* ^status = #draft
+* ^status = #active
 * extension[status].url = "status" (exactly)
 * extension[status] ^definition = "The status of this registration"
 * extension[status].value[x] only CodeableConcept

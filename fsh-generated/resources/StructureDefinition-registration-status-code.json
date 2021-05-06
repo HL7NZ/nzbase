@@ -4,7 +4,7 @@
   "url": "http://hl7.org.nz/fhir/StructureDefinition/registration-status-code",
   "version": "0.2.0",
   "name": "RegistrationStatusCode",
-  "status": "draft",
+  "status": "active",
   "description": "An indicator of the practicing status of the practitioner as supplied by their Responsible Authority or professional body.",
   "jurisdiction": [
     {

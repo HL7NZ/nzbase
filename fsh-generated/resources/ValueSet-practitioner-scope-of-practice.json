@@ -1,0 +1,27 @@
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "PractitionerScopeOfPractice",
+  "id": "practitioner-scope-of-practice",
+  "title": "Scope of practice",
+  "description": "A coded type for professional scope of practice.",
+  "version": "0.2.0",
+  "url": "https://standards.digital.health.nz/fhir/ValueSet/practitioner-scope-of-practice-code",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "code": "NZ",
+          "system": "urn:iso:std:iso:3166"
+        }
+      ]
+    }
+  ],
+  "compose": {
+    "include": [
+      {
+        "system": "https://standards.digital.health.nz/ns/practitioner-scope-of-practice-code"
+      }
+    ]
+  }
+}

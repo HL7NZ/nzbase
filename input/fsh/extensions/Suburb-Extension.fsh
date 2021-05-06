@@ -19,7 +19,7 @@ Description: "Suburb element of a NZ Address."
 * ^context[0].type = #element
 * ^context[0].expression = "Address"
 * value[x] only string
-* value[x] N
+//* value[x] N
 * value[x] ^label = "NZ Suburb"
 * value[x] ^short = "NZSuburb"
 * value[x] ^definition = "NZ Suburbs"
