@@ -28,14 +28,6 @@
     "resource": [
       {
         "reference": {
-          "reference": "StructureDefinition/birth-place"
-        },
-        "name": "Birth Place",
-        "description": "The country where the person was born",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
           "reference": "StructureDefinition/building-name"
         },
         "name": "Building Name",

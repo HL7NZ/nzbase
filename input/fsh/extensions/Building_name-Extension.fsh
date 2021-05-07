@@ -3,7 +3,7 @@ Id: building-name
 Title: "Building Name"
 Description: "The name of a building cited in an address."
 * ^version = "0.1.0"
-* ^status = #draft
+* ^status = #active
 * ^date = "2020-07-20"
 * ^publisher = "HL7 New Zealand"
 * ^contact[0].telecom[0].system = #email
