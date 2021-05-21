@@ -7,7 +7,7 @@
       "valueInteger": 1
     }
   ],
-  "url": "http://hl7.org.nz/fhir/StructureDefinition/long-term-condition",
+  "url": "http://hl7.org.nz/fhir/ig/base/StructureDefinition/long-term-condition",
   "version": "1.0",
   "name": "Long_term_condition",
   "title": "Long Term Condition Indicator",
@@ -67,7 +67,7 @@
       {
         "id": "Extension.url",
         "path": "Extension.url",
-        "fixedUri": "http://hl7.org.nz/fhir/StructureDefinition/long-term-condition"
+        "fixedUri": "http://hl7.org.nz/fhir/ig/base/StructureDefinition/long-term-condition"
       },
       {
         "id": "Extension.value[x]",

@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "building-name",
-  "url": "http://hl7.org.nz/fhir/StructureDefinition/building-name",
+  "url": "http://hl7.org.nz/fhir/ig/base/StructureDefinition/building-name",
   "version": "0.1.0",
   "name": "Building_name",
   "title": "Building Name",
@@ -60,7 +60,7 @@
       {
         "id": "Extension.url",
         "path": "Extension.url",
-        "fixedUri": "http://hl7.org.nz/fhir/StructureDefinition/building-name"
+        "fixedUri": "http://hl7.org.nz/fhir/ig/base/StructureDefinition/building-name"
       },
       {
         "id": "Extension.value[x]",

@@ -10,8 +10,8 @@
 # │  supported properties, see:                                                                    │
 # │  http://build.fhir.org/ig/HL7/fhir-shorthand/branches/beta/sushi.html#ig-development           │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
-id: hl7.fhir.nz.base
-canonical: http://hl7.org.nz/fhir
+id: hl7.org.nz.fhir.ig.base
+canonical: http://hl7.org.nz/fhir/ig/base
 version: 0.2.0
 name: HL7FHIRNewZealandBaseImplementationGuide
 title: HL7® FHIR® New Zealand Base Implementation Guide

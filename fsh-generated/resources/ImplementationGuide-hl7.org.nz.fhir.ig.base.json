@@ -1,7 +1,7 @@
 {
   "resourceType": "ImplementationGuide",
-  "id": "hl7.fhir.nz.base",
-  "url": "http://hl7.org.nz/fhir/ImplementationGuide/hl7.fhir.nz.base",
+  "id": "hl7.org.nz.fhir.ig.base",
+  "url": "http://hl7.org.nz/fhir/ig/base/ImplementationGuide/hl7.org.nz.fhir.ig.base",
   "version": "0.2.0",
   "name": "HL7FHIRNewZealandBaseImplementationGuide",
   "title": "HL7® FHIR® New Zealand Base Implementation Guide",
@@ -19,7 +19,7 @@
     }
   ],
   "description": "New Zealand base profiles",
-  "packageId": "hl7.fhir.nz.base",
+  "packageId": "hl7.org.nz.fhir.ig.base",
   "license": "CC0-1.0",
   "fhirVersion": [
     "4.0.1"

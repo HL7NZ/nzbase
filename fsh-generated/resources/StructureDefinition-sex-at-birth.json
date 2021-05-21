@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "sex-at-birth",
-  "url": "http://hl7.org.nz/fhir/StructureDefinition/sex-at-birth",
+  "url": "http://hl7.org.nz/fhir/ig/base/StructureDefinition/sex-at-birth",
   "version": "0.2.0",
   "name": "Sex_at_birth",
   "title": "Sex At Birth",
@@ -60,7 +60,7 @@
       {
         "id": "Extension.url",
         "path": "Extension.url",
-        "fixedUri": "http://hl7.org.nz/fhir/StructureDefinition/sex-at-birth"
+        "fixedUri": "http://hl7.org.nz/fhir/ig/base/StructureDefinition/sex-at-birth"
       },
       {
         "id": "Extension.value[x]",

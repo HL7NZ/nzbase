@@ -1,11 +1,11 @@
 {
   "resourceType": "StructureDefinition",
   "id": "domicile-code",
-  "url": "http://hl7.org.nz/fhir/StructureDefinition/domicile-code",
+  "url": "http://hl7.org.nz/fhir/ig/base/StructureDefinition/domicile-code",
   "version": "0.1.0",
   "name": "Domicile_code",
   "title": "NZ Domicile Code",
-  "status": "draft",
+  "status": "active",
   "date": "2020-07-20",
   "publisher": "HL7 New Zealand",
   "contact": [
@@ -60,7 +60,7 @@
       {
         "id": "Extension.url",
         "path": "Extension.url",
-        "fixedUri": "http://hl7.org.nz/fhir/StructureDefinition/domicile-code"
+        "fixedUri": "http://hl7.org.nz/fhir/ig/base/StructureDefinition/domicile-code"
       },
       {
         "id": "Extension.value[x]",

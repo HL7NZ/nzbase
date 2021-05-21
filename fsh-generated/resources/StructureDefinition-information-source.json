@@ -1,11 +1,11 @@
 {
   "resourceType": "StructureDefinition",
   "id": "information-source",
-  "url": "http://hl7.org.nz/fhir/StructureDefinition/information-source",
+  "url": "http://hl7.org.nz/fhir/ig/base/StructureDefinition/information-source",
   "version": "0.1.0",
   "name": "Information_source",
   "title": "Information Source",
-  "status": "draft",
+  "status": "active",
   "date": "2020-07-20",
   "publisher": "HL7 New Zealand",
   "contact": [
@@ -60,7 +60,7 @@
       {
         "id": "Extension.url",
         "path": "Extension.url",
-        "fixedUri": "http://hl7.org.nz/fhir/StructureDefinition/information-source"
+        "fixedUri": "http://hl7.org.nz/fhir/ig/base/StructureDefinition/information-source"
       },
       {
         "id": "Extension.value[x]",

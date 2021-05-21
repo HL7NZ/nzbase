@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "edi-address",
-  "url": "http://hl7.org.nz/fhir/StructureDefinition/edi-address",
+  "url": "http://hl7.org.nz/fhir/ig/base/StructureDefinition/edi-address",
   "version": "0.1.0",
   "name": "Edi_address",
   "title": "EDI Address",
@@ -60,7 +60,7 @@
       {
         "id": "Extension.url",
         "path": "Extension.url",
-        "fixedUri": "http://hl7.org.nz/fhir/StructureDefinition/edi-address"
+        "fixedUri": "http://hl7.org.nz/fhir/ig/base/StructureDefinition/edi-address"
       },
       {
         "id": "Extension.value[x]",
