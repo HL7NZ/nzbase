@@ -108,7 +108,7 @@
 <td>1</td>
 <td>draft</td>
 </tr>
-<tr>
+<tr style='background-color:#FFCCCC'>
 <td><a href='StructureDefinition-nz-citizenship.html'>nz-citizenship</a></td>
 <td>http://hl7.org.nz/fhir/ig/base/StructureDefinition/nz-citizenship</td>
 <td>
@@ -117,7 +117,7 @@
 <td>New Zealand citizenship</td>
 <td></td>
 <td>0</td>
-<td>draft</td>
+<td>active</td>
 </tr>
 <tr>
 <td><a href='StructureDefinition-nz-ethnicity.html'>nz-ethnicity</a></td>
