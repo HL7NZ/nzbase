@@ -2,6 +2,8 @@ Extension: Information_source
 Id: information-source
 Title: "Information Source"
 Description: "The official source of information held about a patient."
+* ^url = "http://hl7.org.nz/fhir/StructureDefinition/information-source"
+
 * ^version = "0.1.0"
 * ^status = #active
 * ^date = "2020-07-20"

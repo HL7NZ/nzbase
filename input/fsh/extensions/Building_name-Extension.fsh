@@ -2,6 +2,7 @@ Extension: Building_name
 Id: building-name
 Title: "Building Name"
 Description: "The name of a building cited in an address."
+* ^url = "http://hl7.org.nz/fhir/StructureDefinition/building-name"
 * ^version = "0.1.0"
 * ^status = #active
 * ^date = "2020-07-20"

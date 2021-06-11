@@ -7,7 +7,7 @@
       "valueInteger": 2
     }
   ],
-  "url": "http://hl7.org.nz/fhir/ig/base/StructureDefinition/nzeps-long-term-medication",
+  "url": "http://hl7.org.nz/fhir/StructureDefinition/nzeps-long-term-medication",
   "version": "1.0",
   "name": "Nzeps_long_term_medication",
   "title": "NZePS Long Term Medication Indicator",
@@ -60,6 +60,12 @@
   "differential": {
     "element": [
       {
+        "id": "Extension",
+        "path": "Extension",
+        "short": "NZePS Long Term Medication Indicator",
+        "definition": "NZePS Long Term Medication Indicator"
+      },
+      {
         "id": "Extension.extension",
         "path": "Extension.extension",
         "max": "0"
@@ -67,7 +73,7 @@
       {
         "id": "Extension.url",
         "path": "Extension.url",
-        "fixedUri": "http://hl7.org.nz/fhir/ig/base/StructureDefinition/nzeps-long-term-medication"
+        "fixedUri": "http://hl7.org.nz/fhir/StructureDefinition/nzeps-long-term-medication"
       },
       {
         "id": "Extension.value[x]",

@@ -7,11 +7,11 @@
       "valueInteger": 1
     }
   ],
-  "url": "http://hl7.org.nz/fhir/ig/base/StructureDefinition/funded-programme",
+  "url": "http://hl7.org.nz/fhir/StructureDefinition/funded-programme",
   "version": "1.0",
   "name": "Funded_programme",
   "title": "Funded Healthcare Programme",
-  "status": "draft",
+  "status": "active",
   "date": "2021-02-08",
   "publisher": "HL7 New Zealand",
   "contact": [
@@ -68,25 +68,31 @@
   "differential": {
     "element": [
       {
-        "id": "Extension.extension:programmeType",
+        "id": "Extension",
+        "path": "Extension",
+        "short": "Funded Healthcare Programme",
+        "definition": "Funded NZ Healthcare Programmes"
+      },
+      {
+        "id": "Extension.extension:fundedProgramme",
         "path": "Extension.extension",
-        "sliceName": "programmeType",
+        "sliceName": "fundedProgramme",
         "definition": "The type of healthcare programme",
         "min": 0,
         "max": "0"
       },
       {
-        "id": "Extension.extension:programmeType.extension",
+        "id": "Extension.extension:fundedProgramme.extension",
         "path": "Extension.extension.extension",
         "max": "0"
       },
       {
-        "id": "Extension.extension:programmeType.url",
+        "id": "Extension.extension:fundedProgramme.url",
         "path": "Extension.extension.url",
-        "fixedUri": "programmeType"
+        "fixedUri": "fundedProgramme"
       },
       {
-        "id": "Extension.extension:programmeType.value[x]",
+        "id": "Extension.extension:fundedProgramme.value[x]",
         "path": "Extension.extension.value[x]",
         "slicing": {
           "discriminator": [
@@ -100,13 +106,13 @@
         },
         "type": [
           {
-            "code": "code"
+            "code": "CodeableConcept"
           }
         ]
       },
       {
-        "id": "Extension.extension:programmeType.valueCode",
-        "path": "Extension.extension.valueCode",
+        "id": "Extension.extension:fundedProgramme.valueCodeableConcept",
+        "path": "Extension.extension.valueCodeableConcept",
         "min": 0,
         "max": "1",
         "binding": {
@@ -115,29 +121,29 @@
         }
       },
       {
-        "id": "Extension.extension:currentStatus",
+        "id": "Extension.extension:currentAvailability",
         "path": "Extension.extension",
-        "sliceName": "currentStatus",
+        "sliceName": "currentAvailability",
         "definition": "The current status",
         "min": 0,
         "max": "0"
       },
       {
-        "id": "Extension.extension:currentStatus.extension",
+        "id": "Extension.extension:currentAvailability.extension",
         "path": "Extension.extension.extension",
         "max": "0"
       },
       {
-        "id": "Extension.extension:currentStatus.url",
+        "id": "Extension.extension:currentAvailability.url",
         "path": "Extension.extension.url",
-        "fixedUri": "currentStatus"
+        "fixedUri": "currentAvailability"
       },
       {
-        "id": "Extension.extension:currentStatus.value[x]",
+        "id": "Extension.extension:currentAvailability.value[x]",
         "path": "Extension.extension.value[x]",
         "type": [
           {
-            "code": "string"
+            "code": "boolean"
           }
         ]
       },
@@ -157,7 +163,7 @@
       {
         "id": "Extension.url",
         "path": "Extension.url",
-        "fixedUri": "http://hl7.org.nz/fhir/ig/base/StructureDefinition/funded-programme"
+        "fixedUri": "http://hl7.org.nz/fhir/StructureDefinition/funded-programme"
       },
       {
         "id": "Extension.value[x]",

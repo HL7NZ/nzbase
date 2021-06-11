@@ -2,6 +2,7 @@ Extension: Nz_ethnicity
 Id: nz-ethnicity
 Title: "NZ Ethnicity"
 Description: "The ethnicity of the patient. Uses level 4 codes (most detailed)."
+* ^url = "http://hl7.org.nz/fhir/StructureDefinition/nz-ethnicity"
 
 * ^version = "0.1.0"
 * ^status = #draft

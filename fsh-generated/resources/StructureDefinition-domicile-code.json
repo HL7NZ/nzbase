@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "domicile-code",
-  "url": "http://hl7.org.nz/fhir/ig/base/StructureDefinition/domicile-code",
+  "url": "http://hl7.org.nz/fhir/StructureDefinition/domicile-code",
   "version": "0.1.0",
   "name": "Domicile_code",
   "title": "NZ Domicile Code",
@@ -53,6 +53,12 @@
   "differential": {
     "element": [
       {
+        "id": "Extension",
+        "path": "Extension",
+        "short": "NZ Domicile Code",
+        "definition": "NZ Domicile Code. Derived from a patient's primary physical, home address."
+      },
+      {
         "id": "Extension.extension",
         "path": "Extension.extension",
         "max": "0"
@@ -60,7 +66,7 @@
       {
         "id": "Extension.url",
         "path": "Extension.url",
-        "fixedUri": "http://hl7.org.nz/fhir/ig/base/StructureDefinition/domicile-code"
+        "fixedUri": "http://hl7.org.nz/fhir/StructureDefinition/domicile-code"
       },
       {
         "id": "Extension.value[x]",

@@ -7,7 +7,7 @@
       "valueInteger": 1
     }
   ],
-  "url": "http://hl7.org.nz/fhir/ig/base/StructureDefinition/nzeps-supply-period-reason",
+  "url": "http://hl7.org.nz/fhir/StructureDefinition/nzeps-supply-period-reason",
   "version": "1.0",
   "name": "Nzeps_supply_period_reason",
   "title": "NZePS Supply Period Reason",
@@ -60,6 +60,12 @@
   "differential": {
     "element": [
       {
+        "id": "Extension",
+        "path": "Extension",
+        "short": "NZePS Supply Period Reason",
+        "definition": "The reason for a non-standard Supply Period."
+      },
+      {
         "id": "Extension.extension",
         "path": "Extension.extension",
         "max": "0"
@@ -67,7 +73,7 @@
       {
         "id": "Extension.url",
         "path": "Extension.url",
-        "fixedUri": "http://hl7.org.nz/fhir/ig/base/StructureDefinition/nzeps-supply-period-reason"
+        "fixedUri": "http://hl7.org.nz/fhir/StructureDefinition/nzeps-supply-period-reason"
       },
       {
         "id": "Extension.value[x]",

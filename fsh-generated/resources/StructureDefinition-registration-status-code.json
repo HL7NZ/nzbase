@@ -38,6 +38,11 @@
   "differential": {
     "element": [
       {
+        "id": "Extension",
+        "path": "Extension",
+        "definition": "An indicator of the practicing status of the practitioner as supplied by their Responsible Authority or professional body."
+      },
+      {
         "id": "Extension.extension:status",
         "path": "Extension.extension",
         "sliceName": "status",

@@ -2,10 +2,12 @@ Extension: Funded_programme
 Id: funded-programme
 Title: "Funded Healthcare Programme"
 Description: "Funded NZ Healthcare Programmes"
+* ^url = "http://hl7.org.nz/fhir/StructureDefinition/funded-programme"
+
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"
 * ^extension.valueInteger = 1
 * ^version = "1.0"
-* ^status = #draft
+* ^status = #active
 * ^date = "2021-02-08"
 * ^publisher = "HL7 New Zealand"
 * ^contact[0].telecom[0].system = #email
@@ -21,23 +23,21 @@ Description: "Funded NZ Healthcare Programmes"
 * ^context[2].type = #element
 * ^context[2].expression = "HealthcareService"
 * extension contains 
-    programmeType 0..0 and
-    currentStatus 0..0 and 
+    fundedProgramme 0..0 and
+    currentAvailability 0..0 and 
     notes ..1
 
-//* extension[programmeType] ..1
-* extension[programmeType] ^definition = "The type of healthcare programme"
-* extension[programmeType].url = "programmeType" (exactly)
-* extension[programmeType].value[x] only code
-* extension[programmeType].valueCode from $funded-healthcare-programme (required)
-//* extension[currentStatus] ..1
 
-* extension[currentStatus] ^definition = "The current status"
-* extension[currentStatus].url = "currentStatus" (exactly)
-* extension[currentStatus].value[x] only string
+* extension[fundedProgramme] ^definition = "The type of healthcare programme"
+* extension[fundedProgramme].url = "fundedProgramme" (exactly)
+* extension[fundedProgramme].value[x] only CodeableConcept
+* extension[fundedProgramme].valueCodeableConcept from $funded-healthcare-programme (required)
+
+
+* extension[currentAvailability] ^definition = "The current status"
+* extension[currentAvailability].url = "currentAvailability" (exactly)
+* extension[currentAvailability].value[x] only boolean
 
 * extension[notes] ^definition = "Further details about the programme and status."
-//*  extension[notes].extension ..0
 * extension[notes].url = "notes" (exactly)
 
-//* extension[expiryDate].value[x] only string

@@ -38,6 +38,11 @@
   "differential": {
     "element": [
       {
+        "id": "Extension",
+        "path": "Extension",
+        "definition": "A full description of the conditions the health practitioner is subject to in relation to their scope of practice."
+      },
+      {
         "id": "Extension.extension:description",
         "path": "Extension.extension",
         "sliceName": "description",

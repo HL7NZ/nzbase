@@ -7,7 +7,7 @@
       "valueInteger": 1
     }
   ],
-  "url": "http://hl7.org.nz/fhir/ig/base/StructureDefinition/nzeps-unusual-dose-quantity",
+  "url": "http://hl7.org.nz/fhir/StructureDefinition/nzeps-unusual-dose-quantity",
   "version": "1.0",
   "name": "Nzeps_unusual_dose_quantity",
   "title": "NZePS Unusual Dose Quantity Indicator",
@@ -60,6 +60,12 @@
   "differential": {
     "element": [
       {
+        "id": "Extension",
+        "path": "Extension",
+        "short": "NZePS Unusual Dose Quantity Indicator",
+        "definition": "NZePS Unusual Dose Quantity Indicator"
+      },
+      {
         "id": "Extension.extension",
         "path": "Extension.extension",
         "max": "0"
@@ -67,7 +73,7 @@
       {
         "id": "Extension.url",
         "path": "Extension.url",
-        "fixedUri": "http://hl7.org.nz/fhir/ig/base/StructureDefinition/nzeps-unusual-dose-quantity"
+        "fixedUri": "http://hl7.org.nz/fhir/StructureDefinition/nzeps-unusual-dose-quantity"
       },
       {
         "id": "Extension.value[x]",

@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "edi-address",
-  "url": "http://hl7.org.nz/fhir/ig/base/StructureDefinition/edi-address",
+  "url": "http://hl7.org.nz/fhir/StructureDefinition/edi-address",
   "version": "0.1.0",
   "name": "Edi_address",
   "title": "EDI Address",
@@ -53,6 +53,12 @@
   "differential": {
     "element": [
       {
+        "id": "Extension",
+        "path": "Extension",
+        "short": "EDI Address",
+        "definition": "Represents an Electronic Data Interchange (EDI) address. It is intended as an extension on ContactPoint.system, with the system value being 'other'."
+      },
+      {
         "id": "Extension.extension",
         "path": "Extension.extension",
         "max": "0"
@@ -60,7 +66,7 @@
       {
         "id": "Extension.url",
         "path": "Extension.url",
-        "fixedUri": "http://hl7.org.nz/fhir/ig/base/StructureDefinition/edi-address"
+        "fixedUri": "http://hl7.org.nz/fhir/StructureDefinition/edi-address"
       },
       {
         "id": "Extension.value[x]",

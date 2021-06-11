@@ -38,6 +38,11 @@
   "differential": {
     "element": [
       {
+        "id": "Extension",
+        "path": "Extension",
+        "definition": "Educational qualifications."
+      },
+      {
         "id": "Extension.extension:fullname",
         "path": "Extension.extension",
         "sliceName": "fullname",

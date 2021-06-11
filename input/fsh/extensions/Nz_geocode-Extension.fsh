@@ -2,6 +2,8 @@ Extension: Nz_geocode
 Id: nz-geocode
 Title: "NZ Geocode"
 Description: "New Zealand Geocode. This uses a different datum from that defined in the HL7 FHIR specification for a Geocode."
+* ^url = "http://hl7.org.nz/fhir/StructureDefinition/nz-geocode"
+
 * ^version = "0.1.0"
 * ^status = #draft
 * ^date = "2020-07-20"

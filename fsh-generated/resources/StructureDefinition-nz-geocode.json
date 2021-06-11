@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "nz-geocode",
-  "url": "http://hl7.org.nz/fhir/ig/base/StructureDefinition/nz-geocode",
+  "url": "http://hl7.org.nz/fhir/StructureDefinition/nz-geocode",
   "version": "0.1.0",
   "name": "Nz_geocode",
   "title": "NZ Geocode",
@@ -52,6 +52,12 @@
   "derivation": "constraint",
   "differential": {
     "element": [
+      {
+        "id": "Extension",
+        "path": "Extension",
+        "short": "NZ Geocode",
+        "definition": "New Zealand Geocode. This uses a different datum from that defined in the HL7 FHIR specification for a Geocode."
+      },
       {
         "id": "Extension.extension",
         "path": "Extension.extension",
@@ -114,7 +120,7 @@
       {
         "id": "Extension.url",
         "path": "Extension.url",
-        "fixedUri": "http://hl7.org.nz/fhir/ig/base/StructureDefinition/nz-geocode"
+        "fixedUri": "http://hl7.org.nz/fhir/StructureDefinition/nz-geocode"
       },
       {
         "id": "Extension.value[x]",

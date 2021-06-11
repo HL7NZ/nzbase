@@ -38,6 +38,11 @@
   "differential": {
     "element": [
       {
+        "id": "Extension",
+        "path": "Extension",
+        "definition": "The type or range of health services a practitioner is authorized to perform, as determined by the Responsible Authority or professional body."
+      },
+      {
         "id": "Extension.extension:code",
         "path": "Extension.extension",
         "sliceName": "code",

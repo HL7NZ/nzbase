@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "nz-ethnicity",
-  "url": "http://hl7.org.nz/fhir/ig/base/StructureDefinition/nz-ethnicity",
+  "url": "http://hl7.org.nz/fhir/StructureDefinition/nz-ethnicity",
   "version": "0.1.0",
   "name": "Nz_ethnicity",
   "title": "NZ Ethnicity",
@@ -57,6 +57,12 @@
   "differential": {
     "element": [
       {
+        "id": "Extension",
+        "path": "Extension",
+        "short": "NZ Ethnicity",
+        "definition": "The ethnicity of the patient. Uses level 4 codes (most detailed)."
+      },
+      {
         "id": "Extension.extension",
         "path": "Extension.extension",
         "max": "0"
@@ -64,7 +70,7 @@
       {
         "id": "Extension.url",
         "path": "Extension.url",
-        "fixedUri": "http://hl7.org.nz/fhir/ig/base/StructureDefinition/nz-ethnicity"
+        "fixedUri": "http://hl7.org.nz/fhir/StructureDefinition/nz-ethnicity"
       },
       {
         "id": "Extension.value[x]",

@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "nz-residency-status",
-  "url": "http://hl7.org.nz/fhir/ig/base/StructureDefinition/nz-residency-status",
+  "url": "http://hl7.org.nz/fhir/StructureDefinition/nz-residency-status",
   "version": "0.2.0",
   "name": "NZResidencyStatus",
   "status": "draft",
@@ -52,6 +52,11 @@
   "differential": {
     "element": [
       {
+        "id": "Extension",
+        "path": "Extension",
+        "definition": "NZ Residency Status"
+      },
+      {
         "id": "Extension.extension",
         "path": "Extension.extension",
         "max": "0"
@@ -59,7 +64,7 @@
       {
         "id": "Extension.url",
         "path": "Extension.url",
-        "fixedUri": "http://hl7.org.nz/fhir/ig/base/StructureDefinition/nz-residency-status"
+        "fixedUri": "http://hl7.org.nz/fhir/StructureDefinition/nz-residency-status"
       },
       {
         "id": "Extension.value[x]",

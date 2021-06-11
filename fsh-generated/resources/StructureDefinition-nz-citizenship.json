@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "nz-citizenship",
-  "url": "http://hl7.org.nz/fhir/ig/base/StructureDefinition/nz-citizenship",
+  "url": "http://hl7.org.nz/fhir/StructureDefinition/nz-citizenship",
   "version": "0.1.0",
   "name": "Nz_citizenship",
   "title": "NZ Citizenship",
@@ -52,6 +52,12 @@
   "derivation": "constraint",
   "differential": {
     "element": [
+      {
+        "id": "Extension",
+        "path": "Extension",
+        "short": "NZ Citizenship",
+        "definition": "New Zealand citizenship"
+      },
       {
         "id": "Extension.extension:status",
         "path": "Extension.extension",
@@ -149,7 +155,7 @@
       {
         "id": "Extension.url",
         "path": "Extension.url",
-        "fixedUri": "http://hl7.org.nz/fhir/ig/base/StructureDefinition/nz-citizenship"
+        "fixedUri": "http://hl7.org.nz/fhir/StructureDefinition/nz-citizenship"
       },
       {
         "id": "Extension.value[x]",

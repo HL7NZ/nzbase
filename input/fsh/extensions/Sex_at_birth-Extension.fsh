@@ -2,6 +2,8 @@ Extension: Sex_at_birth
 Id: sex-at-birth
 Title: "Sex At Birth"
 Description: "A person’s sex at the time of their birth (considered to be immutable)."
+* ^url = "http://hl7.org.nz/fhir/StructureDefinition/sex-at-birth"
+
 * ^version = "0.2.0"
 * ^status = #draft
 * ^date = "2020-07-20"

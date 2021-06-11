@@ -7,11 +7,11 @@
       "valueInteger": 1
     }
   ],
-  "url": "http://hl7.org.nz/fhir/ig/base/StructureDefinition/suburb",
+  "url": "http://hl7.org.nz/fhir/StructureDefinition/suburb",
   "version": "1.0",
   "name": "Suburb",
   "title": "NZ Suburb",
-  "status": "draft",
+  "status": "active",
   "date": "2020-07-20",
   "publisher": "HL7 New Zealand",
   "contact": [
@@ -60,6 +60,12 @@
   "differential": {
     "element": [
       {
+        "id": "Extension",
+        "path": "Extension",
+        "short": "NZ Suburb",
+        "definition": "Suburb element of a NZ Address."
+      },
+      {
         "id": "Extension.extension",
         "path": "Extension.extension",
         "max": "0"
@@ -67,7 +73,7 @@
       {
         "id": "Extension.url",
         "path": "Extension.url",
-        "fixedUri": "http://hl7.org.nz/fhir/ig/base/StructureDefinition/suburb"
+        "fixedUri": "http://hl7.org.nz/fhir/StructureDefinition/suburb"
       },
       {
         "id": "Extension.value[x]",

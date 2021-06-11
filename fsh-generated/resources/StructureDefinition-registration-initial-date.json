@@ -38,6 +38,11 @@
   "differential": {
     "element": [
       {
+        "id": "Extension",
+        "path": "Extension",
+        "definition": "The date the practitioner first became registered with the Responsible Authority or professional body"
+      },
+      {
         "id": "Extension.extension",
         "path": "Extension.extension",
         "max": "0"

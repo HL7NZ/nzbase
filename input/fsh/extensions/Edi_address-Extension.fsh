@@ -3,6 +3,8 @@ Id: edi-address
 Title: "EDI Address"
 Description: "Represents an Electronic Data Interchange (EDI) address. It is intended as an extension on ContactPoint.system, with the system value being 'other'."
 
+* ^url = "http://hl7.org.nz/fhir/StructureDefinition/edi-address"
+
 * ^version = "0.1.0"
 * ^status = #active
 * ^date = "2020-07-20"

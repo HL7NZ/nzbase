@@ -1,6 +1,7 @@
 Extension: NZResidencyStatus
 Id: nz-residency-status
 Description: "NZ Residency Status"
+* ^url = "http://hl7.org.nz/fhir/StructureDefinition/nz-residency-status"
 * ^version = "0.2.0"
 * ^status = #draft
 * ^date = "2020-07-20"

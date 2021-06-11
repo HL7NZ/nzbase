@@ -68,6 +68,12 @@
   "differential": {
     "element": [
       {
+        "id": "Extension",
+        "path": "Extension",
+        "short": "District Health Board linked to a NZ Healthcare Service, Location or Patient",
+        "definition": "District Health Board relating to a NZ Healthcare Service, Location (Facility) or Patient (primary, physical home address)."
+      },
+      {
         "id": "Extension.extension",
         "path": "Extension.extension",
         "max": "0"

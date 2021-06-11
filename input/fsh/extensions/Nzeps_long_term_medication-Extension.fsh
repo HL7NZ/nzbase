@@ -2,6 +2,8 @@ Extension: Nzeps_long_term_medication
 Id: nzeps-long-term-medication
 Title: "NZePS Long Term Medication Indicator"
 Description: "NZePS Long Term Medication Indicator"
+* ^url = "http://hl7.org.nz/fhir/StructureDefinition/nzeps-long-term-medication"
+
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"
 * ^extension.valueInteger = 2
 * ^version = "1.0"
