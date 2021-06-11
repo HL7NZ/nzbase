@@ -29,7 +29,7 @@
 </tr>
 <tr style='background-color:#FFCCCC'>
 <td><a href='StructureDefinition-dhb.html'>dhb</a></td>
-<td>http://hl7.org.nz/fhir/ig/base/StructureDefinition/dhb</td>
+<td>http://hl7.org.nz/fhir/StructureDefinition/dhb</td>
 <td>
 <div>HealthcareService</div>
 <div>Location</div>

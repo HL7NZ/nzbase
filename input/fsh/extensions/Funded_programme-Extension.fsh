@@ -23,15 +23,15 @@ Description: "Funded NZ Healthcare Programmes"
 * ^context[2].type = #element
 * ^context[2].expression = "HealthcareService"
 * extension contains 
-    fundedProgramme 0..0 and
-    currentAvailability 0..0 and 
-    notes ..1
+    fundedProgramme 0..1 and
+    currentAvailability 0..1 and 
+    notes 0..1
 
 
 * extension[fundedProgramme] ^definition = "The type of healthcare programme"
 * extension[fundedProgramme].url = "fundedProgramme" (exactly)
 * extension[fundedProgramme].value[x] only CodeableConcept
-* extension[fundedProgramme].valueCodeableConcept from $funded-healthcare-programme (required)
+//* extension[fundedProgramme].valueCodeableConcept from $funded-healthcare-programme (required)
 
 
 * extension[currentAvailability] ^definition = "The current status"
