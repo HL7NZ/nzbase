@@ -7,7 +7,7 @@
       "valueInteger": 1
     }
   ],
-  "url": "http://hl7.org.nz/fhir/StructureDefinition/pho",
+  "url": "http://hl7.org.nz/fhir/StructureDefinition/condition-on-practice",
   "version": "1.0",
   "name": "Pho",
   "title": "Primary Healthcare Organisation linked to a NZ Healthcare Service, Location or Patient",
@@ -81,7 +81,7 @@
       {
         "id": "Extension.url",
         "path": "Extension.url",
-        "fixedUri": "http://hl7.org.nz/fhir/StructureDefinition/pho"
+        "fixedUri": "http://hl7.org.nz/fhir/StructureDefinition/condition-on-practice"
       },
       {
         "id": "Extension.value[x]",

@@ -2,6 +2,7 @@ Extension: Dhb
 Id: dhb
 Title: "District Health Board linked to a NZ Healthcare Service, Location or Patient"
 Description: "District Health Board relating to a NZ Healthcare Service, Location (Facility) or Patient (primary, physical home address)."
+
 * ^url = "http://hl7.org.nz/fhir/StructureDefinition/dhb"
 
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"
