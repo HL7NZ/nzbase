@@ -1,11 +1,11 @@
 Extension: Nz_ethnicity
 Id: nz-ethnicity
 Title: "NZ Ethnicity"
-Description: "The ethnicity of the patient. Uses level 4 codes (most detailed)."
+Description: "The ethnicity of the patient. Level 4 codes preferred (most detailed)."
 * ^url = "http://hl7.org.nz/fhir/StructureDefinition/nz-ethnicity"
 
 * ^version = "0.1.0"
-* ^status = #draft
+* ^status = #active
 * ^date = "2020-07-20"
 * ^publisher = "HL7 New Zealand"
 * ^contact[0].telecom[0].system = #email
@@ -17,6 +17,9 @@ Description: "The ethnicity of the patient. Uses level 4 codes (most detailed)."
 * ^context[0].expression = "Patient"
 * ^context[1].type = #element
 * ^context[1].expression = "Practitioner"
+* ^context[2].type = #element
+* ^context[2].expression = "RelatedPerson"
+
 * value[x] only CodeableConcept
-* valueCodeableConcept 0..1
+* valueCodeableConcept 1..1
 * valueCodeableConcept from http:/hl7.org.nz/fhir/ValueSet/ethnic-group-level-4-code (preferred)

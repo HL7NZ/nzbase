@@ -5,7 +5,7 @@ Description: "New Zealand Geocode. This uses a different datum from that defined
 * ^url = "http://hl7.org.nz/fhir/StructureDefinition/nz-geocode"
 
 * ^version = "0.1.0"
-* ^status = #draft
+* ^status = #active
 * ^date = "2020-07-20"
 * ^publisher = "HL7 New Zealand"
 * ^contact[0].telecom[0].system = #email
@@ -16,9 +16,9 @@ Description: "New Zealand Geocode. This uses a different datum from that defined
 * ^context[0].type = #element
 * ^context[0].expression = "Address"
 * extension contains
-    latitute 1..1 and
+    latitude 1..1 and
     longitude 1..1
-* extension[latitute] ^definition = "No description"
-* extension[latitute].value[x] only decimal
-* extension[longitude] ^definition = "No description"
+* extension[latitude] ^definition = "The latitude of the geocode"
+* extension[latitude].value[x] only decimal
+* extension[longitude] ^definition = "The longitude of the geocode"
 * extension[longitude].value[x] only decimal

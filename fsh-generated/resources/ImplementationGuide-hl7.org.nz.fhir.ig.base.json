@@ -44,7 +44,7 @@
       },
       {
         "reference": {
-          "reference": "StructureDefinition/dhb"
+          "reference": "StructureDefinition/dhb-test"
         },
         "name": "District Health Board linked to a NZ Healthcare Service, Location or Patient",
         "description": "District Health Board relating to a NZ Healthcare Service, Location (Facility) or Patient (primary, physical home address).",
