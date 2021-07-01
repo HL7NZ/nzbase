@@ -1,13 +1,13 @@
 {
   "resourceType": "StructureDefinition",
-  "id": "dhb-test",
+  "id": "dhb",
   "extension": [
     {
       "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
       "valueInteger": 3
     }
   ],
-  "url": "http://hl7.org.nz/fhir/StructureDefinition/dhb-test",
+  "url": "http://hl7.org.nz/fhir/StructureDefinition/dhb",
   "version": "1.0",
   "name": "Dhb",
   "title": "District Health Board linked to a NZ Healthcare Service, Location or Patient",
@@ -81,7 +81,7 @@
       {
         "id": "Extension.url",
         "path": "Extension.url",
-        "fixedUri": "http://hl7.org.nz/fhir/StructureDefinition/dhb-test"
+        "fixedUri": "http://hl7.org.nz/fhir/StructureDefinition/dhb"
       },
       {
         "id": "Extension.value[x]",

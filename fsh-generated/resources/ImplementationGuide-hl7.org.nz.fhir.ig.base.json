@@ -44,7 +44,7 @@
       },
       {
         "reference": {
-          "reference": "StructureDefinition/dhb-test"
+          "reference": "StructureDefinition/dhb"
         },
         "name": "District Health Board linked to a NZ Healthcare Service, Location or Patient",
         "description": "District Health Board relating to a NZ Healthcare Service, Location (Facility) or Patient (primary, physical home address).",
@@ -84,6 +84,14 @@
       },
       {
         "reference": {
+          "reference": "StructureDefinition/highlight-condition"
+        },
+        "name": "HighlightCondition",
+        "description": "If true, then this is a condition that has been highlighted in the PMS",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
           "reference": "StructureDefinition/information-source"
         },
         "name": "Information Source",
@@ -119,7 +127,7 @@
           "reference": "StructureDefinition/nz-ethnicity"
         },
         "name": "NZ Ethnicity",
-        "description": "The ethnicity of the patient. Uses level 4 codes (most detailed).",
+        "description": "The ethnicity of the patient. Level 4 codes preferred (most detailed).",
         "exampleBoolean": false
       },
       {

@@ -5,7 +5,7 @@
   "version": "0.1.0",
   "name": "Nz_geocode",
   "title": "NZ Geocode",
-  "status": "draft",
+  "status": "active",
   "date": "2020-07-20",
   "publisher": "HL7 New Zealand",
   "contact": [
@@ -64,25 +64,25 @@
         "min": 2
       },
       {
-        "id": "Extension.extension:latitute",
+        "id": "Extension.extension:latitude",
         "path": "Extension.extension",
-        "sliceName": "latitute",
-        "definition": "No description",
+        "sliceName": "latitude",
+        "definition": "The latitude of the geocode",
         "min": 1,
         "max": "1"
       },
       {
-        "id": "Extension.extension:latitute.extension",
+        "id": "Extension.extension:latitude.extension",
         "path": "Extension.extension.extension",
         "max": "0"
       },
       {
-        "id": "Extension.extension:latitute.url",
+        "id": "Extension.extension:latitude.url",
         "path": "Extension.extension.url",
-        "fixedUri": "latitute"
+        "fixedUri": "latitude"
       },
       {
-        "id": "Extension.extension:latitute.value[x]",
+        "id": "Extension.extension:latitude.value[x]",
         "path": "Extension.extension.value[x]",
         "type": [
           {
@@ -94,7 +94,7 @@
         "id": "Extension.extension:longitude",
         "path": "Extension.extension",
         "sliceName": "longitude",
-        "definition": "No description",
+        "definition": "The longitude of the geocode",
         "min": 1,
         "max": "1"
       },
