@@ -1,0 +1,48 @@
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "PractitionerRegistrationStatusCode",
+  "id": "practitioner-registration-status-code",
+  "title": "Registration Status of Practitioners",
+  "description": "The code list represents the current practicing status of the Provider Person as per their registration with an RA.",
+  "version": "0.2.0",
+  "url": "https://standards.digital.health.nz/fhir/ValueSet/practitioner-registration-status-code",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "code": "NZ",
+          "system": "urn:iso:std:iso:3166"
+        }
+      ]
+    }
+  ],
+  "compose": {
+    "include": [
+      {
+        "system": "https://standards.digital.health.nz/ns/practitioner-registration-status-code",
+        "concept": [
+          {
+            "code": "current",
+            "display": "A provider who holds or is deemed to hold a current practising certificate."
+          },
+          {
+            "code": "inactive",
+            "display": "A provider who is not practising"
+          },
+          {
+            "code": "removed",
+            "display": "A provider who has been removed from the register – this includes voluntary removal, de-registration and deceased"
+          },
+          {
+            "code": "suspended",
+            "display": "A provider who is suspended from practising by a Responsible Authority"
+          }
+        ]
+      },
+      {
+        "system": "https://standards.digital.health.nz/ns/practitioner-registration-status-code"
+      }
+    ]
+  }
+}

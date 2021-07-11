@@ -1,0 +1,27 @@
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "RegistrationAuthority",
+  "id": "practitioner-registration-authority",
+  "title": "Professional registration the healthcare provider has",
+  "description": "Professional registration the healthcare provider has",
+  "version": "0.2.0",
+  "url": "https://standards.digital.health.nz/fhir/ValueSet/practitioner-registration-authority-code",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "code": "NZ",
+          "system": "urn:iso:std:iso:3166"
+        }
+      ]
+    }
+  ],
+  "compose": {
+    "include": [
+      {
+        "system": "https://standards.digital.health.nz/ns/practitioner-registration-authority-code"
+      }
+    ]
+  }
+}

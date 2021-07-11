@@ -1,0 +1,37 @@
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "LocationStatus",
+  "id": "location-status",
+  "title": "Status of Location - is it still in use",
+  "description": "Status of Location - is it still in use",
+  "version": "0.2.0",
+  "url": "https://standards.digital.health.nz/fhir/ValueSet/hpi-location-status-code",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "code": "NZ",
+          "system": "urn:iso:std:iso:3166"
+        }
+      ]
+    }
+  ],
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/location-status",
+        "concept": [
+          {
+            "code": "active",
+            "display": "The location is operational."
+          },
+          {
+            "code": "inactive",
+            "display": "The location is no longer used."
+          }
+        ]
+      }
+    ]
+  }
+}

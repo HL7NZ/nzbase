@@ -1,0 +1,27 @@
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "PractitionerAdditionalAuthorization",
+  "id": "practitioner-additional-authorization",
+  "title": "Additional Authorisation for functions that a Practitioner can perform",
+  "description": "A coded type for additional authorisations",
+  "version": "0.2.0",
+  "url": "https://standards.digital.health.nz/fhir/ValueSet/practitioner-additional-authorisation-code",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "code": "NZ",
+          "system": "urn:iso:std:iso:3166"
+        }
+      ]
+    }
+  ],
+  "compose": {
+    "include": [
+      {
+        "system": "https://standards.digital.health.nz/ns/practitioner-additional-authorization-code"
+      }
+    ]
+  }
+}

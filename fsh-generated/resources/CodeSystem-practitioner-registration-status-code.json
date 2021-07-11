@@ -1,0 +1,40 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "active",
+  "content": "complete",
+  "name": "PractitionerRegistrationStatusCode",
+  "id": "practitioner-registration-status-code",
+  "title": "Registration Status of Practitioners",
+  "description": "The code list represents the current practicing status of the Provider Person as per their registration with an RA.",
+  "version": "0.2.0",
+  "url": "https://standards.digital.health.nz/ns/practitioner-registration-status-code",
+  "concept": [
+    {
+      "code": "current",
+      "display": "Current"
+    },
+    {
+      "code": "inactive",
+      "display": "Inactive"
+    },
+    {
+      "code": "removed",
+      "display": "Removed"
+    },
+    {
+      "code": "suspended",
+      "display": "Suspended"
+    }
+  ],
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "code": "NZ",
+          "system": "urn:iso:std:iso:3166"
+        }
+      ]
+    }
+  ],
+  "count": 4
+}

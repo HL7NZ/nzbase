@@ -1,13 +1,13 @@
 Extension: Long_term_condition
 Id: long-term-condition
 Title: "Long Term Condition Indicator"
-Description: "Long Term Condition Indicator"
+Description: "Long Term Condition Indicator. A long term condition can be  defined as any ongoing, long term or recurring conditions that can have a significant impact on people’s lives."
 * ^url = "http://hl7.org.nz/fhir/StructureDefinition/long-term-condition"
 
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"
 * ^extension.valueInteger = 1
 * ^version = "1.0"
-* ^status = #draft
+* ^status = #active
 * ^date = "2020-08-20"
 * ^publisher = "HL7 New Zealand"
 * ^contact[0].telecom[0].system = #email

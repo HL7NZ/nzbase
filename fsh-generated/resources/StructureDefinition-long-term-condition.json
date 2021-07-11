@@ -11,7 +11,7 @@
   "version": "1.0",
   "name": "Long_term_condition",
   "title": "Long Term Condition Indicator",
-  "status": "draft",
+  "status": "active",
   "date": "2020-08-20",
   "publisher": "HL7 New Zealand",
   "contact": [
@@ -25,7 +25,7 @@
       ]
     }
   ],
-  "description": "Long Term Condition Indicator",
+  "description": "Long Term Condition Indicator. A long term condition can be  defined as any ongoing, long term or recurring conditions that can have a significant impact on people’s lives.",
   "jurisdiction": [
     {
       "coding": [
@@ -63,7 +63,7 @@
         "id": "Extension",
         "path": "Extension",
         "short": "Long Term Condition Indicator",
-        "definition": "Long Term Condition Indicator"
+        "definition": "Long Term Condition Indicator. A long term condition can be  defined as any ongoing, long term or recurring conditions that can have a significant impact on people’s lives."
       },
       {
         "id": "Extension.extension",

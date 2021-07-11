@@ -1,0 +1,41 @@
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "HumanNameUse",
+  "id": "hpi-humanname-use",
+  "title": "Use values for a HumanName",
+  "description": "Use values for a HumanName",
+  "version": "0.2.0",
+  "url": "https://standards.digital.health.nz/fhir/ValueSet/hpi-human-name-use-code",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "code": "NZ",
+          "system": "urn:iso:std:iso:3166"
+        }
+      ]
+    }
+  ],
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/name-use",
+        "concept": [
+          {
+            "code": "usual",
+            "display": "Known as/conventional/the one you normally use."
+          },
+          {
+            "code": "official",
+            "display": "The formal name as registered in an official (government) registry, but which name might not be commonly used. May be called 'legal name'."
+          },
+          {
+            "code": "old",
+            "display": "This name is no longer in use (or was never correct, but retained for records)."
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,476 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "active",
+  "content": "complete",
+  "name": "ScopeOfPractice",
+  "id": "scopeOfPractice",
+  "title": "Scope of practice",
+  "description": "A classification of the type or range of health services that a practitioner is authorised to provide, as determined by the Responsible Authority or other statutory authority (e.g. PHARMAC), that is, what the practitioner can or cannot do. It includes Scope of Practice as defined by the Health Practitioners Competence Assurance Act 2003, any special authorisations granted, and any conditions or limitations imposed by the Responsible Authority.",
+  "version": "0.2.0",
+  "url": "https://standards.digital.health.nz/ns/practitioner-scope-of-practice-code",
+  "concept": [
+    {
+      "code": "CHIR",
+      "display": "Chiropractor"
+    },
+    {
+      "code": "DEAA",
+      "display": "Administering Local Anaesthetic in Dental Hygiene Practice"
+    },
+    {
+      "code": "DEAC",
+      "display": "Adult Care in Dental Therapy Practice"
+    },
+    {
+      "code": "DECD",
+      "display": "Clinical Dental Technology Practice"
+    },
+    {
+      "code": "DEDA",
+      "display": "Dental Auxiliary Practice"
+    },
+    {
+      "code": "DEDH",
+      "display": "Dental Hygiene Practice"
+    },
+    {
+      "code": "DEDR",
+      "display": "Diagnostic Radiography in Dental Therapy Practice"
+    },
+    {
+      "code": "DEDT",
+      "display": "Dental Technology Practice"
+    },
+    {
+      "code": "DEEN",
+      "display": "Endodontic Specialists"
+    },
+    {
+      "code": "DEEO",
+      "display": "Extra Oral Radiography Practice in Dental Hygiene, Dental Auxiliary and Orthodontic Auxiliary Practice"
+    },
+    {
+      "code": "DEGD",
+      "display": "General Dental Therapy Practice"
+    },
+    {
+      "code": "DEIA",
+      "display": "Implant over dentures in clinical dental technology practice"
+    },
+    {
+      "code": "DEIO",
+      "display": "Intra Oral Radiography in Dental Hygiene, Dental Auxiliary and Orthodontic Auxiliary Practice"
+    },
+    {
+      "code": "DENT",
+      "display": "General Dental Practice"
+    },
+    {
+      "code": "DEOA",
+      "display": "Orthodontic Auxiliary Practice"
+    },
+    {
+      "code": "DEOM",
+      "display": "Oral Medicine Specialists"
+    },
+    {
+      "code": "DEOP",
+      "display": "Oral Pathology Specialists"
+    },
+    {
+      "code": "DEOR",
+      "display": "Oral and Maxillofacial Surgery Specialists"
+    },
+    {
+      "code": "DEOS",
+      "display": "Oral Surgery Specialists"
+    },
+    {
+      "code": "DEPA",
+      "display": "Paediatric Dentistry Specialists"
+    },
+    {
+      "code": "DEPD",
+      "display": "Pulpotomies in Dental Therapy Practice"
+    },
+    {
+      "code": "DEPE",
+      "display": "Periodontic Specialists"
+    },
+    {
+      "code": "DEPH",
+      "display": "Public Health Dentistry (or Community Dentistry) Specialists"
+    },
+    {
+      "code": "DEPS",
+      "display": "Prosthodontic Specialists"
+    },
+    {
+      "code": "DERD",
+      "display": "Radiography in Dental Therapy Practice"
+    },
+    {
+      "code": "DERE",
+      "display": "Restorative Dentistry Specialists"
+    },
+    {
+      "code": "DESN",
+      "display": "Special Needs Dentistry Specialists"
+    },
+    {
+      "code": "DESP",
+      "display": "Orthodontic Specialists"
+    },
+    {
+      "code": "DESS",
+      "display": "Stainless Steel Crowns in Dental Therapy Practice"
+    },
+    {
+      "code": "DEUO",
+      "display": "Undertaking Orthodontic Procedures in Dental Hygiene Practice"
+    },
+    {
+      "code": "DIET",
+      "display": "Dietitian"
+    },
+    {
+      "code": "LTAT",
+      "display": "Anaesthetic Technician"
+    },
+    {
+      "code": "LTPA",
+      "display": "Medical Laboratory Pre-Analytical Technician"
+    },
+    {
+      "code": "LTLS",
+      "display": "Medical Laboratory Scientist"
+    },
+    {
+      "code": "LTLT",
+      "display": "Medical Laboratory Technician"
+    },
+    {
+      "code": "MCAM",
+      "display": "Vocational Scope of Accident and Medical Practice"
+    },
+    {
+      "code": "MCAN",
+      "display": "Vocational Scope of Anaesthesia"
+    },
+    {
+      "code": "MCAP",
+      "display": "Vocational Scope of Pain Medicine"
+    },
+    {
+      "code": "MCBM",
+      "display": "Vocational Scope of Breast Medicine"
+    },
+    {
+      "code": "MCCG",
+      "display": "Vocational Scope of Clinical Genetics"
+    },
+    {
+      "code": "MCCS",
+      "display": "Vocational Scope of Cardiothoracic Surgery"
+    },
+    {
+      "code": "MCDE",
+      "display": "Vocational Scope of Dermatology"
+    },
+    {
+      "code": "MCDI",
+      "display": "Vocational Scope of Diagnostic and Interventional Radiology"
+    },
+    {
+      "code": "MCEM",
+      "display": "Vocational Scope of Emergency Medicine"
+    },
+    {
+      "code": "MCFP",
+      "display": "Vocational Scope of Family Planning/Reproductive Health"
+    },
+    {
+      "code": "MCGE",
+      "display": "General Scope of Practice"
+    },
+    {
+      "code": "MCGP",
+      "display": "Vocational Scope of General Practice"
+    },
+    {
+      "code": "MCGS",
+      "display": "Vocational Scope of General Surgery"
+    },
+    {
+      "code": "MCIC",
+      "display": "Vocational Scope of Intensive Care Medicine"
+    },
+    {
+      "code": "MCIM",
+      "display": "Vocational Scope of Internal Medicine"
+    },
+    {
+      "code": "MCMA",
+      "display": "Vocational Scope of Medical Administration"
+    },
+    {
+      "code": "MCMM",
+      "display": "Vocational Scope of Musculoskeletal Medicine"
+    },
+    {
+      "code": "MCNS",
+      "display": "Vocational Scope of Neurosurgery"
+    },
+    {
+      "code": "MCOG",
+      "display": "Vocational Scope of Obstetrics and Gynaecology"
+    },
+    {
+      "code": "MCOH",
+      "display": "Vocational Scope of Otolaryngology Head and Neck Surgery"
+    },
+    {
+      "code": "MCOM",
+      "display": "Vocational Scope of Occupational Medicine"
+    },
+    {
+      "code": "MCOP",
+      "display": "Vocational Scope of Ophthalmology"
+    },
+    {
+      "code": "MCOR",
+      "display": "Vocational Scope of Oral and Maxillofacial Surgery"
+    },
+    {
+      "code": "MCOS",
+      "display": "Vocational Scope of Orthopaedic Surgery"
+    },
+    {
+      "code": "MCPA",
+      "display": "Vocational Scope of Pathology"
+    },
+    {
+      "code": "MCPE",
+      "display": "Vocational Scope of Paediatrics"
+    },
+    {
+      "code": "MCPG",
+      "display": "Provisional General Scope of Practice"
+    },
+    {
+      "code": "MCPH",
+      "display": "Vocational Scope of Public Health Medicine"
+    },
+    {
+      "code": "MCPM",
+      "display": "Vocational Scope of Palliative Medicine"
+    },
+    {
+      "code": "MCPR",
+      "display": "Vocational Scope of Plastic and Reconstructive Surgery"
+    },
+    {
+      "code": "MCPS",
+      "display": "Vocational Scope of Paediatric Surgery"
+    },
+    {
+      "code": "MCPV",
+      "display": "Provisional Vocational Scope of Practice"
+    },
+    {
+      "code": "MCPY",
+      "display": "Vocational Scope of Psychiatry"
+    },
+    {
+      "code": "MCRH",
+      "display": "Vocational Scope of Rural Hospital Medicine"
+    },
+    {
+      "code": "MCRM",
+      "display": "Vocational Scope of Rehabilitation Medicine"
+    },
+    {
+      "code": "MCRO",
+      "display": "Vocational Scope of Radiation Oncology"
+    },
+    {
+      "code": "MCSH",
+      "display": "Vocational Scope of Sexual Health Medicine"
+    },
+    {
+      "code": "MCSM",
+      "display": "Vocational Scope of Sports Medicine"
+    },
+    {
+      "code": "MCSP",
+      "display": "Special Purpose Scope of Practice"
+    },
+    {
+      "code": "MCTR",
+      "display": "Medical Council Temporary Registration"
+    },
+    {
+      "code": "MCUR",
+      "display": "Vocational Scope of Urology"
+    },
+    {
+      "code": "MCVO",
+      "display": "Vocational Scope of Practice"
+    },
+    {
+      "code": "MCVS",
+      "display": "Vocational Scope of Vascular Surgery"
+    },
+    {
+      "code": "MWIF",
+      "display": "Midwife"
+    },
+    {
+      "code": "NCEN",
+      "display": "Enrolled Nurse"
+    },
+    {
+      "code": "NCNA",
+      "display": "Nurse Assistant"
+    },
+    {
+      "code": "NCNP",
+      "display": "Nurse Practitioner"
+    },
+    {
+      "code": "NCRN",
+      "display": "Registered Nurse"
+    },
+    {
+      "code": "OCCT",
+      "display": "Occupational Therapist"
+    },
+    {
+      "code": "OPDI",
+      "display": "Optical Dispensing (Dispensing Optician)"
+    },
+    {
+      "code": "OPED",
+      "display": "Educator in Optometry (Educator Optometrist)"
+    },
+    {
+      "code": "OPET",
+      "display": "Educator in Optometry (TPA Endorsement) (Educator Optometrist with Therapeutic Pharmaceutical Agents (TPA) Endorsement)"
+    },
+    {
+      "code": "OPTE",
+      "display": "Optometry (TPA Endorsement) (Optometrist with Therapeutic Pharmaceutical Agents (TPA) Endorsement)"
+    },
+    {
+      "code": "OPTP",
+      "display": "Optometry (Optometrist)"
+    },
+    {
+      "code": "OSTE",
+      "display": "Osteopath"
+    },
+    {
+      "code": "PHAR",
+      "display": "Pharmacist"
+    },
+    {
+      "code": "PHIN",
+      "display": "Intern Pharmacist"
+    },
+    {
+      "code": "PHPP",
+      "display": "Pharmacist Prescriber"
+    },
+    {
+      "code": "PHSO",
+      "display": "Physiotherapist"
+    },
+    {
+      "code": "PODI",
+      "display": "Podiatrist"
+    },
+    {
+      "code": "PODP",
+      "display": "Podiatric Prescriber"
+    },
+    {
+      "code": "PODR",
+      "display": "Podiatric Radiographic Imager"
+    },
+    {
+      "code": "PODS",
+      "display": "Podiatric Surgeon"
+    },
+    {
+      "code": "POVD",
+      "display": "Visiting Podiatrist Educator/Presenter"
+    },
+    {
+      "code": "PSCE",
+      "display": "Clinical and Educational"
+    },
+    {
+      "code": "PSCL",
+      "display": "Clinical Psychologist"
+    },
+    {
+      "code": "PSCO",
+      "display": "Counselling Psychologist"
+    },
+    {
+      "code": "PSED",
+      "display": "Educational Psychologist"
+    },
+    {
+      "code": "PSIT",
+      "display": "Trainee or Intern Psychologist"
+    },
+    {
+      "code": "PSYC",
+      "display": "Psychologist"
+    },
+    {
+      "code": "RTMR",
+      "display": "Magnetic Resonance Technologist"
+    },
+    {
+      "code": "RTMS",
+      "display": "Sonographer"
+    },
+    {
+      "code": "RTMT",
+      "display": "Nuclear Medicine Technologist"
+    },
+    {
+      "code": "RTRT",
+      "display": "Radiation Therapist"
+    },
+    {
+      "code": "RTTE",
+      "display": "Medical Radiation Technologist"
+    },
+    {
+      "code": "RTTM",
+      "display": "Trainee Magnetic Resonance Imaging (MRI) Technologist"
+    },
+    {
+      "code": "RTTN",
+      "display": "Trainee Nuclear Medicine Technologist"
+    },
+    {
+      "code": "RTTS",
+      "display": "Trainee Sonographer"
+    }
+  ],
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "code": "NZ",
+          "system": "urn:iso:std:iso:3166"
+        }
+      ]
+    }
+  ],
+  "count": 113
+}

@@ -1,0 +1,34 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "active",
+  "content": "complete",
+  "name": "PractitionerRoleCodes",
+  "id": "practitionerrole-codes",
+  "title": "PractitionerRoleCodes",
+  "description": "Coded roles that can be in a PractitionerRole",
+  "version": "0.2.0",
+  "url": "https://standards.digital.health.nz/ns/practitioner-role-code",
+  "concept": [
+    {
+      "code": "MC",
+      "display": "MC",
+      "definition": "Medical Council Number"
+    },
+    {
+      "code": "NC",
+      "display": "NC",
+      "definition": "Nursing Council Number"
+    }
+  ],
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "code": "NZ",
+          "system": "urn:iso:std:iso:3166"
+        }
+      ]
+    }
+  ],
+  "count": 2
+}

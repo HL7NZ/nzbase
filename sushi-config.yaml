@@ -44,8 +44,8 @@ menu:
   IG Home: index.html
   # Profiles: profiles.html
   Extensions: extensions.html
-  # Terminology: terminology.html
-  # Identifiers: namingsystem.html
+  Terminology: terminology.html
+  Identifiers: namingSystems.html
   # Table of Contents: toc.html
   Artifact Index: artifacts.html
   Support:

@@ -103,7 +103,7 @@
           "reference": "StructureDefinition/long-term-condition"
         },
         "name": "Long Term Condition Indicator",
-        "description": "Long Term Condition Indicator",
+        "description": "Long Term Condition Indicator. A long term condition can be  defined as any ongoing, long term or recurring conditions that can have a significant impact on people’s lives.",
         "exampleBoolean": false
       },
       {
@@ -209,6 +209,366 @@
         "name": "NZ Suburb",
         "description": "Suburb element of a NZ Address.",
         "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/hpi-address-use"
+        },
+        "name": "Use values for an Address",
+        "description": "Use values for an Address",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/hpi-contactpoint-use"
+        },
+        "name": "Use values for a ContactPoint",
+        "description": "Use values for a ContactPoint",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/dhb"
+        },
+        "name": "District Health Board HPI Organisation Identifer",
+        "description": "District Health Board HPI Organisation Identifer",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/hpi-humanname-use"
+        },
+        "name": "Use values for a HumanName",
+        "description": "Use values for a HumanName",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/hpi-identifier-use"
+        },
+        "name": "Use values for an identifier",
+        "description": "Use values for an identifier",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/location-alias-type"
+        },
+        "name": "Location alias types",
+        "description": "The set of alias types that apply to Locations",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/location-status"
+        },
+        "name": "Status of Location - is it still in use",
+        "description": "Status of Location - is it still in use",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/location-type"
+        },
+        "name": "Type of location",
+        "description": "Type of Location",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/organization-alias-type"
+        },
+        "name": "Organization alias types",
+        "description": "The set of alias types that apply to Organizations",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/practitioner-additional-authorization"
+        },
+        "name": "Additional Authorisation for functions that a Practitioner can perform",
+        "description": "A coded type for additional authorisations",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/practitioner-registration-status-code"
+        },
+        "name": "Registration Status of Practitioners",
+        "description": "The code list represents the current practicing status of the Provider Person as per their registration with an RA.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/practitionerrole-codes"
+        },
+        "name": "PractitionerRoleCodes",
+        "description": "Coded roles that can be in a PractitionerRole",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/hpi-practitionerrole-status-reason"
+        },
+        "name": "PractitonerRole status reason",
+        "description": "The reason for the current status of PractitionerRole",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/practitioner-scope-of-practice"
+        },
+        "name": "Scope of practice",
+        "description": "A coded type for professional scope of practice.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/practitioner-registration-authority"
+        },
+        "name": "Professional registration the healthcare provider has",
+        "description": "Professional registration the healthcare provider has",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/practitioner-additional-authorization"
+        },
+        "name": "Additional Authorisation",
+        "description": "Additional authorisations that a practitioner is authorised to practice or prescribe.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/alias-type"
+        },
+        "name": "Type of Alias",
+        "description": "Used in Organization and Location to indicate what is the type of Alias",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/dhb"
+        },
+        "name": "District Health Board Code",
+        "description": "District Health Board Code",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/location-type"
+        },
+        "name": "Type of Location",
+        "description": "Type of Location",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/practitioner-registration-authority"
+        },
+        "name": "Professional registration the healthcare provider has",
+        "description": "Professional registration the healthcare provider has",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/practitioner-registration-status-code"
+        },
+        "name": "Registration Status of Practitioners",
+        "description": "The code list represents the current practicing status of the Provider Person as per their registration with an RA.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/practitionerrole-codes"
+        },
+        "name": "PractitionerRoleCodes",
+        "description": "Coded roles that can be in a PractitionerRole",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/hpi-practitionerRole-status-reason"
+        },
+        "name": "PractitonerRole status reason",
+        "description": "The reason for the current status of PractitionerRole",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/scopeOfPractice"
+        },
+        "name": "Scope of practice",
+        "description": "A classification of the type or range of health services that a practitioner is authorised to provide, as determined by the Responsible Authority or other statutory authority (e.g. PHARMAC), that is, what the practitioner can or cannot do. It includes Scope of Practice as defined by the Health Practitioners Competence Assurance Act 2003, any special authorisations granted, and any conditions or limitations imposed by the Responsible Authority.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/hpiFacility"
+        },
+        "name": "hpiFacility",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/hpiOrganization"
+        },
+        "name": "hpiOrganization",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/hpiProvider"
+        },
+        "name": "hpiProvider",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/hpipractitionerrole"
+        },
+        "name": "hpipractitionerrole",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/nzFacilitylegacy"
+        },
+        "name": "nzFacilitylegacy",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/nzOrganizationlegacy"
+        },
+        "name": "nzOrganizationlegacy",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/nzbn"
+        },
+        "name": "nzbn",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/nzchrir"
+        },
+        "name": "nzchrir",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/nzdental"
+        },
+        "name": "nzdental",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/nzdiet"
+        },
+        "name": "nzdiet",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/nzmc"
+        },
+        "name": "nzmc",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/nzmwife"
+        },
+        "name": "nzmwife",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/nznc"
+        },
+        "name": "nznc",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/nzocc"
+        },
+        "name": "nzocc",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/nzopt"
+        },
+        "name": "nzopt",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/nzost"
+        },
+        "name": "nzost",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/nzparamed"
+        },
+        "name": "nzparamed",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/nzpharm"
+        },
+        "name": "nzpharm",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/nzphysio"
+        },
+        "name": "nzphysio",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/nzpod"
+        },
+        "name": "nzpod",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/nzpsycho"
+        },
+        "name": "nzpsycho",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/nzpsyhc"
+        },
+        "name": "nzpsyhc",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/nzrad"
+        },
+        "name": "nzrad",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/nzscience"
+        },
+        "name": "nzscience",
+        "exampleBoolean": false
       }
     ],
     "page": {
@@ -225,6 +585,11 @@
           "nameUrl": "extensions.html",
           "title": "Extensions",
           "generation": "html"
+        },
+        {
+          "nameUrl": "namingSystems.html",
+          "title": "Naming Systems",
+          "generation": "markdown"
         },
         {
           "nameUrl": "profiles.html",

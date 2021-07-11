@@ -1,0 +1,188 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "active",
+  "content": "complete",
+  "name": "AdditionalAuthorization",
+  "id": "practitioner-additional-authorization",
+  "title": "Additional Authorisation",
+  "description": "Additional authorisations that a practitioner is authorised to practice or prescribe.",
+  "version": "0.2.0",
+  "url": "https://standards.digital.health.nz/ns/practitioner-additional-authorization-code",
+  "concept": [
+    {
+      "code": "CA01",
+      "display": "Cardiothoracic Surgery: Cardiothoracic Surgeon"
+    },
+    {
+      "code": "CA02",
+      "display": "Cardiothoracic Surgery: Transplant Surgeon"
+    },
+    {
+      "code": "DI01",
+      "display": "Diagnostic Imaging authorisation"
+    },
+    {
+      "code": "DP01",
+      "display": "Diabetes Prescriber"
+    },
+    {
+      "code": "EC01",
+      "display": "ECP authorisation"
+    },
+    {
+      "code": "FS01",
+      "display": "First Surgical Assistant"
+    },
+    {
+      "code": "IMMU",
+      "display": "Immunisation"
+    },
+    {
+      "code": "INTR",
+      "display": "Intravenous Infusions"
+    },
+    {
+      "code": "MD01",
+      "display": "Internal Medicine: Cardiologist"
+    },
+    {
+      "code": "MD02",
+      "display": "Internal Medicine: Endocrinologist"
+    },
+    {
+      "code": "MD03",
+      "display": "Internal Medicine: Gastroenterologist"
+    },
+    {
+      "code": "MD04",
+      "display": "Internal Medicine: Geriatrician"
+    },
+    {
+      "code": "MD05",
+      "display": "Internal Medicine: Infectious Disease Specialist"
+    },
+    {
+      "code": "MD06",
+      "display": "Internal Medicine: Nephrologist"
+    },
+    {
+      "code": "MD07",
+      "display": "Internal Medicine: Neurologist"
+    },
+    {
+      "code": "MD08",
+      "display": "Internal Medicine: Oncologist"
+    },
+    {
+      "code": "MD09",
+      "display": "Internal Medicine: Physician for the Elderly (FRACP)"
+    },
+    {
+      "code": "MD10",
+      "display": "Internal Medicine: Renal Physician"
+    },
+    {
+      "code": "MD11",
+      "display": "Internal Medicine: Respiratory Specialist"
+    },
+    {
+      "code": "MD12",
+      "display": "Internal Medicine: Rheumatologist"
+    },
+    {
+      "code": "NC01",
+      "display": "Prescribing authorisation"
+    },
+    {
+      "code": "NC02",
+      "display": "Nurse Colposcopist"
+    },
+    {
+      "code": "OG01",
+      "display": "Obstetrics and Gynaecology: Gynaecologist"
+    },
+    {
+      "code": "OG02",
+      "display": "Obstetrics and Gynaecology: Obstetrician"
+    },
+    {
+      "code": "ON01",
+      "display": "Radiation Oncology: Oncologist"
+    },
+    {
+      "code": "ON02",
+      "display": "Radiation Oncology: Radiation Oncologist"
+    },
+    {
+      "code": "PA01",
+      "display": "Paediatrics: Cardiologist"
+    },
+    {
+      "code": "PA02",
+      "display": "Paediatrics: Endocrinologist"
+    },
+    {
+      "code": "PA03",
+      "display": "Paediatrics: Gastroenterologist"
+    },
+    {
+      "code": "PA04",
+      "display": "Paediatrics: Geriatrician"
+    },
+    {
+      "code": "PA05",
+      "display": "Paediatrics: Infectious Disease Specialist"
+    },
+    {
+      "code": "PA06",
+      "display": "Paediatrics: Nephrologist"
+    },
+    {
+      "code": "PA07",
+      "display": "Paediatrics: Neurologist"
+    },
+    {
+      "code": "PA08",
+      "display": "Paediatrics: Oncologist"
+    },
+    {
+      "code": "PA09",
+      "display": "Paediatrics: Physician for the Elderly (FRACP)"
+    },
+    {
+      "code": "PA10",
+      "display": "Paediatrics: Renal Physician"
+    },
+    {
+      "code": "PA11",
+      "display": "Paediatrics: Respiratory Specialist"
+    },
+    {
+      "code": "PA12",
+      "display": "Paediatrics: Rheumatologist"
+    },
+    {
+      "code": "PS01",
+      "display": "Psychiatry: Psychiatrist"
+    },
+    {
+      "code": "PS02",
+      "display": "Psychiatry: Psychological Medicine Specialist"
+    },
+    {
+      "code": "SMEA",
+      "display": "Smear Taker"
+    }
+  ],
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "code": "NZ",
+          "system": "urn:iso:std:iso:3166"
+        }
+      ]
+    }
+  ],
+  "count": 41
+}

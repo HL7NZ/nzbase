@@ -1,0 +1,40 @@
+{
+  "resourceType": "NamingSystem",
+  "id": "nzmwife",
+  "type": {
+    "coding": [
+      {
+        "code": "NPI",
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+        "display": "National provider identifier"
+      }
+    ]
+  },
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "code": "NZ",
+          "system": "urn:iso:std:iso:3166"
+        }
+      ]
+    }
+  ],
+  "name": "NZMidwife",
+  "description": "Midwifery Council Register Number",
+  "status": "active",
+  "kind": "identifier",
+  "date": "2020-07-14",
+  "responsible": "HISO",
+  "uniqueId": [
+    {
+      "type": "uri",
+      "value": "https://standards.digital.health.nz/ns/midwifery-council-id",
+      "preferred": true
+    },
+    {
+      "type": "oid",
+      "value": "2.16.840.1.113883.2.18.70.5"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "ContactPointUse",
+  "id": "hpi-contactpoint-use",
+  "title": "Use values for a ContactPoint",
+  "description": "Use values for a ContactPoint",
+  "version": "0.2.0",
+  "url": "https://standards.digital.health.nz/fhir/ValueSet/hpi-contact-point-use-code",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/contact-point-use",
+        "concept": [
+          {
+            "code": "home",
+            "display": "A communication contact point at a home; attempted contacts for business purposes might intrude privacy and chances are one will contact family or other household members instead of the person one wishes to call. Typically used with urgent cases, or if no other contacts are available."
+          },
+          {
+            "code": "work",
+            "display": "An office contact point. First choice for business related contacts during business hours."
+          },
+          {
+            "code": "mobile",
+            "display": "A telecommunication device that moves and stays with its owner. May have characteristics of all other use codes, suitable for urgent matters, not the first choice for routine business."
+          }
+        ]
+      }
+    ]
+  }
+}

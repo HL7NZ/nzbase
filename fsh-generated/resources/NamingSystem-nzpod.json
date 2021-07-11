@@ -1,0 +1,21 @@
+{
+  "resourceType": "NamingSystem",
+  "id": "nzpod",
+  "name": "NZPodiatry",
+  "description": "Podiatrists Board Register Number",
+  "status": "active",
+  "kind": "identifier",
+  "date": "2020-07-14",
+  "responsible": "HISO",
+  "uniqueId": [
+    {
+      "type": "uri",
+      "value": " https://standards.digital.health.nz/ns/podiatrists-board-id ",
+      "preferred": true
+    },
+    {
+      "type": "oid",
+      "value": "2.16.840.1.113883.2.18.70.8"
+    }
+  ]
+}

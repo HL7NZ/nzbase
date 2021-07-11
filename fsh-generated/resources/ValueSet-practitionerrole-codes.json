@@ -1,0 +1,27 @@
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "PractitionerRoleCodes",
+  "id": "practitionerrole-codes",
+  "title": "PractitionerRoleCodes",
+  "description": "Coded roles that can be in a PractitionerRole",
+  "version": "0.2.0",
+  "url": "https://standards.digital.health.nz/fhir/ValueSet/practitioner-role-code",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "code": "NZ",
+          "system": "urn:iso:std:iso:3166"
+        }
+      ]
+    }
+  ],
+  "compose": {
+    "include": [
+      {
+        "system": "https://standards.digital.health.nz/ns/practitioner-role-code"
+      }
+    ]
+  }
+}
