@@ -13,8 +13,10 @@ Description: "NZ Domicile Code. Derived from a patient's primary physical, home 
 * ^contact[0].telecom[0].use = #work
 * ^jurisdiction[0] = urn:iso:std:iso:3166#NZ
 * ^copyright = "HL7 New Zealand© 2020+; Licensed Under Creative Commons No Rights Reserved."
+
 * ^context[0].type = #element
 * ^context[0].expression = "Patient"
+
 * value[x] only CodeableConcept
 * valueCodeableConcept 0..1
-* valueCodeableConcept from http:/hl7.org.nz/fhir/ValueSet/domicile-code (preferred)
+* valueCodeableConcept from $domicile-code-vs (preferred)

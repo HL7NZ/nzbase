@@ -1,0 +1,17 @@
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "NZResidencyStatus",
+  "id": "nz-residency-status",
+  "title": "NZ Residency status",
+  "description": "Is the person a NZ resident",
+  "version": "0.2.0",
+  "url": "https://standards.digital.health.nz/fhir/ValueSet/nz-residency-status-code",
+  "compose": {
+    "include": [
+      {
+        "system": "https://standards.digital.health.nz/ns/nz-residency-status-code"
+      }
+    ]
+  }
+}

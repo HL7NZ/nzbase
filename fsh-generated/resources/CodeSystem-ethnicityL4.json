@@ -7,7 +7,7 @@
   "title": "Level 4 ethnicity codes",
   "description": "Level 4 ethnicity codes",
   "version": "0.2.0",
-  "url": "https://standards.digital.health.nz/cs/ethnic-group-level-4",
+  "url": "https://standards.digital.health.nz/ns/ethnic-group-level-4-code",
   "concept": [
     {
       "code": "10000",

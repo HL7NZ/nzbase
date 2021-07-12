@@ -104,7 +104,7 @@
                   "version": "1.0",
                   "code": "G00027-C",
                   "system": "https://standards.digital.health.nz/ns/dhb-code",
-                  "display": "Waikato District Health Board"
+                  "display": "Waikato"
                 }
               ]
             }
@@ -112,7 +112,7 @@
         ],
         "binding": {
           "strength": "extensible",
-          "valueSet": "http://hl7.org.nz/fhir/ValueSet/dhb-code",
+          "valueSet": "https://standards.digital.health.nz/fhir/ValueSet/dhb-code",
           "description": "NZ HPI-ORG Values for DHBs"
         }
       }

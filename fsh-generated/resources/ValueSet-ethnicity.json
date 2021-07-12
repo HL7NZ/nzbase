@@ -3,14 +3,14 @@
   "status": "active",
   "name": "Ethnicity",
   "id": "ethnicity",
-  "title": "Patient ethnicity",
+  "title": "Ethnicity of a perrson",
   "description": "Level 4 ethnicity codes",
   "version": "0.2.0",
-  "url": "http:/hl7.org.nz/fhir/ValueSet/ethnic-group-level-4",
+  "url": "https://standards.digital.health.nz/fhir/ValueSet/ethnic-group-level-4-code",
   "compose": {
     "include": [
       {
-        "system": "https://standards.digital.health.nz/cs/ethnic-group-level-4"
+        "system": "https://standards.digital.health.nz/ns/ethnic-group-level-4-code"
       }
     ]
   }

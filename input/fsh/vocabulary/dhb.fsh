@@ -3,17 +3,17 @@ Id: dhb
 Title: "District Health Board HPI Organisation Identifer"
 Description: "District Health Board HPI Organisation Identifer"
 
-* ^url = https://standards.digital.health.nz/fhir/ValueSet/dhb-code
+* ^url = $dhb-code-vs
 * ^jurisdiction.coding = urn:iso:std:iso:3166#NZ
 
-* codes from system https://standards.digital.health.nz/ns/dhb-code
+* codes from system $dhb-code-cs
 
 CodeSystem: Dhb
 Id: dhb
 Title: "District Health Board Code"
 Description: "District Health Board Code"
 
-* ^url = https://standards.digital.health.nz/ns/dhb-code
+* ^url = $dhb-code-cs
 * ^jurisdiction.coding = urn:iso:std:iso:3166#NZ
 
 * #G00026-A "Northland"

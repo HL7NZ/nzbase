@@ -2,6 +2,7 @@ Extension: Funded_programme
 Id: funded-programme
 Title: "Funded Healthcare Programme"
 Description: "Funded NZ Healthcare Programmes"
+
 * ^url = "http://hl7.org.nz/fhir/StructureDefinition/funded-programme"
 
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"
@@ -31,7 +32,7 @@ Description: "Funded NZ Healthcare Programmes"
 * extension[fundedProgramme] ^definition = "The type of healthcare programme"
 * extension[fundedProgramme].url = "fundedProgramme" (exactly)
 * extension[fundedProgramme].value[x] only CodeableConcept
-//* extension[fundedProgramme].valueCodeableConcept from $funded-healthcare-programme (required)
+* extension[fundedProgramme].valueCodeableConcept from $funded-programme-vs (required)
 
 
 * extension[currentAvailability] ^definition = "The current status"

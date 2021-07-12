@@ -1,0 +1,24 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "active",
+  "content": "complete",
+  "name": "CitizenshipStatus",
+  "id": "citizenship-status",
+  "title": "Funded Program",
+  "description": "Some sort of funded programme",
+  "version": "0.2.0",
+  "url": "https://standards.digital.health.nz/ns/nz-citizenship-status-code",
+  "concept": [
+    {
+      "code": "RESIDENT",
+      "display": "Resident",
+      "definition": "This patient is a resident (temporary or permanent)."
+    },
+    {
+      "code": "CITIZEN",
+      "display": "Citizen",
+      "definition": "This patient is a citizen."
+    }
+  ],
+  "count": 2
+}

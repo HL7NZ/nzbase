@@ -1,0 +1,114 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "active",
+  "content": "complete",
+  "name": "InformationSource",
+  "id": "information-source",
+  "title": "InformationSource",
+  "description": "All possible sources of information",
+  "version": "0.2.0",
+  "url": "https://standards.digital.health.nz/ns/information-source-code",
+  "concept": [
+    {
+      "code": "BREG",
+      "display": "Birth Register"
+    },
+    {
+      "code": "BRCT",
+      "display": "Birth Certificate"
+    },
+    {
+      "code": "NZCT",
+      "display": "NZ Citizenship Certificate"
+    },
+    {
+      "code": "PPRT",
+      "display": "Passport"
+    },
+    {
+      "code": "NZCI",
+      "display": "NZ Certificate of Identity"
+    },
+    {
+      "code": "NZRT",
+      "display": "NZ Refugee Travel Document"
+    },
+    {
+      "code": "NZET",
+      "display": "NZ Emergency Travel Document"
+    },
+    {
+      "code": "OTHR",
+      "display": "Other"
+    },
+    {
+      "code": "NPRF",
+      "display": "Proof not Sighted"
+    },
+    {
+      "code": "NZPV",
+      "display": "NZ Permanent Resident Visa"
+    },
+    {
+      "code": "NZTV",
+      "display": "NZ Resident Visa"
+    },
+    {
+      "code": "NZMC",
+      "display": "NZ Marriage Certificate"
+    },
+    {
+      "code": "NZCU",
+      "display": "NZ Civil Union Certificate"
+    },
+    {
+      "code": "NZNC",
+      "display": "NZ Name Change Certificate or Deed Poll"
+    },
+    {
+      "code": "NZDL",
+      "display": "NZ Driver Licence"
+    },
+    {
+      "code": "CSC",
+      "display": "Community Services Card"
+    },
+    {
+      "code": "HL7",
+      "display": "HL7 applied"
+    },
+    {
+      "code": "MIGR",
+      "display": "Migrated"
+    },
+    {
+      "code": "DREG",
+      "display": "Death Register"
+    },
+    {
+      "code": "OSEA",
+      "display": "Death Overseas"
+    },
+    {
+      "code": "MCCOD",
+      "display": "Medical Certificate Cause of Death"
+    },
+    {
+      "code": "CORONER",
+      "display": "Coroner Notification"
+    },
+    {
+      "code": "OSEAOFF",
+      "display": "Death Overseas Official"
+    },
+    {
+      "code": "DIA",
+      "display": "DIA data share"
+    },
+    {
+      "code": "INZ",
+      "display": "ImmigrationNZ"
+    }
+  ],
+  "count": 25
+}

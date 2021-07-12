@@ -1,0 +1,17 @@
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "InformationSource",
+  "id": "information-source",
+  "title": "InformationSource",
+  "description": "The source from where the value of this item was sourced",
+  "version": "0.2.0",
+  "url": "https://standards.digital.health.nz/fhir/ValueSet/information-source-code",
+  "compose": {
+    "include": [
+      {
+        "system": "https://standards.digital.health.nz/ns/information-source-code"
+      }
+    ]
+  }
+}

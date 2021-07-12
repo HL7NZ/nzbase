@@ -17,7 +17,7 @@ Description: "The type or range of health services a practitioner is authorized 
 * extension[code].url = "code" (exactly)
 * extension[code] ^definition = "A code identifying the services that the practitioner is permitted to perform"
 * extension[code].value[x] only CodeableConcept
-* extension[code].valueCodeableConcept from https://standards.digital.health.nz/fhir/ValueSet/practitioner-scope-of-practice-code (preferred)
+* extension[code].valueCodeableConcept from $practitioner-scope-practice (preferred)
 /*
 * extension[description].url = "description" (exactly)
 * extension[description] ^definition = "A full description of the health services that a health practitioner with this scope is permitted to perform"

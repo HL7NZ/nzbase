@@ -18,13 +18,4 @@ Description: "Represents an Electronic Data Interchange (EDI) address. It is int
 * ^context[0].type = #element
 * ^context[0].expression = "ContactPoint.system"
 
-/*
-* ^context[0].type = #element
-* ^context[0].expression = "Location"
-* ^context[1].type = #element
-* ^context[1].expression = "Organization"
-* ^context[2].type = #element
-* ^context[2].expression = "HealthcareService"
-
-*/
 * value[x] only string

@@ -7,7 +7,7 @@
       "valueInteger": 1
     }
   ],
-  "url": "http://hl7.org.nz/fhir/StructureDefinition/condition-on-practice",
+  "url": "http://hl7.org.nz/fhir/StructureDefinition/pho",
   "version": "1.0",
   "name": "Pho",
   "title": "Primary Healthcare Organisation linked to a NZ Healthcare Service, Location or Patient",
@@ -81,7 +81,7 @@
       {
         "id": "Extension.url",
         "path": "Extension.url",
-        "fixedUri": "http://hl7.org.nz/fhir/StructureDefinition/condition-on-practice"
+        "fixedUri": "http://hl7.org.nz/fhir/StructureDefinition/pho"
       },
       {
         "id": "Extension.value[x]",
@@ -104,7 +104,7 @@
                   "version": "1.0",
                   "code": "G05533-K",
                   "system": "https://standards.digital.health.nz/ns/pho-code",
-                  "display": "Procare Networks Ltd"
+                  "display": "Procare"
                 }
               ]
             }
@@ -112,7 +112,7 @@
         ],
         "binding": {
           "strength": "extensible",
-          "valueSet": "http://hl7.org.nz/fhir/ValueSet/pho-code",
+          "valueSet": "https://standards.digital.health.nz/fhir/pho-code",
           "description": "NZ HPI-ORG Values for PHOs"
         }
       }

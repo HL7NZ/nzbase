@@ -15,14 +15,17 @@ Description: "New Zealand citizenship"
 * ^copyright = "HL7 New Zealand© 2020+; Licensed Under Creative Commons No Rights Reserved."
 * ^context[0].type = #element
 * ^context[0].expression = "Patient"
+
 * extension contains
     status 0..1 and
     source 0..1
+
 * extension[status] ^definition = "No description"
 * extension[status].value[x] only CodeableConcept
-* extension[status].valueCodeableConcept 0..1
-* extension[status].valueCodeableConcept from http:/hl7.org.nz/fhir/ValueSet/nz-citizenship-status-code (preferred)
+//* extension[status].valueCodeableConcept 0..1
+* extension[status].valueCodeableConcept from $citizenship-status-vs (preferred)
+
 * extension[source] ^definition = "No description"
 * extension[source].value[x] only CodeableConcept
-* extension[source].valueCodeableConcept 0..1
-* extension[source].valueCodeableConcept from http:/hl7.org.nz/fhir/ValueSet/information-source-code (preferred)
+//* extension[source].valueCodeableConcept 0..1
+* extension[source].valueCodeableConcept from $information-source-vs (preferred)

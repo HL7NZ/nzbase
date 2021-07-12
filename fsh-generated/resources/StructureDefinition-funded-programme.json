@@ -94,11 +94,31 @@
       {
         "id": "Extension.extension:fundedProgramme.value[x]",
         "path": "Extension.extension.value[x]",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "type",
+              "path": "$this"
+            }
+          ],
+          "ordered": false,
+          "rules": "open"
+        },
         "type": [
           {
             "code": "CodeableConcept"
           }
         ]
+      },
+      {
+        "id": "Extension.extension:fundedProgramme.valueCodeableConcept",
+        "path": "Extension.extension.valueCodeableConcept",
+        "min": 0,
+        "max": "1",
+        "binding": {
+          "strength": "required",
+          "valueSet": "https://standards.digital.health.nz/fhir/ValueSet/funded-programme-code"
+        }
       },
       {
         "id": "Extension.extension:currentAvailability",

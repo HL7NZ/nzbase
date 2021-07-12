@@ -1,0 +1,17 @@
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "CitizenshipStatus",
+  "id": "citizenship-status",
+  "title": "Funded Program",
+  "description": "Some sort of funded programme",
+  "version": "0.2.0",
+  "url": "https://standards.digital.health.nz/fhir/ValueSet/nz-citizenship-status-code",
+  "compose": {
+    "include": [
+      {
+        "system": "https://standards.digital.health.nz/ns/nz-citizenship-status-code"
+      }
+    ]
+  }
+}

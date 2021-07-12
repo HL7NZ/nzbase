@@ -92,7 +92,7 @@
         "max": "1",
         "binding": {
           "strength": "preferred",
-          "valueSet": "https://hl7.org.nz/fhir/ValueSet/nz-residency-status-code"
+          "valueSet": "https://standards.digital.health.nz/fhir/ValueSet/nz-residency-status-code"
         }
       }
     ]

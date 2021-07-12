@@ -22,4 +22,4 @@ Description: "The ethnicity of the patient. Level 4 codes preferred (most detail
 
 * value[x] only CodeableConcept
 * valueCodeableConcept 1..1
-* valueCodeableConcept from http:/hl7.org.nz/fhir/ValueSet/ethnic-group-level-4-code (preferred)
+* valueCodeableConcept from $ethnicity-code-vs (preferred)

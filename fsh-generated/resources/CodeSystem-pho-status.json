@@ -1,0 +1,24 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "active",
+  "content": "complete",
+  "name": "PHO",
+  "id": "pho-status",
+  "title": "PHO",
+  "description": "Primary Healthcare Organization",
+  "version": "0.2.0",
+  "url": "https://standards.digital.health.nz/ns/pho-code",
+  "concept": [
+    {
+      "code": "other",
+      "display": "Other",
+      "definition": "Some other PHO."
+    },
+    {
+      "code": "G05533-K",
+      "display": "Procare",
+      "definition": "The code used in the example (attached to the extension definition"
+    }
+  ],
+  "count": 2
+}

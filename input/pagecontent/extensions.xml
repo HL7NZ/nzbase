@@ -86,17 +86,6 @@
 <td>1</td>
 <td>active</td>
 </tr>
-<tr>
-<td><a href='StructureDefinition-highlight-condition.html'>highlight-condition</a></td>
-<td>http://hl7.org.nz/fhir/StructureDefinition/highlight-condition</td>
-<td>
-<div>Condition</div>
-</td>
-<td>If true, then this is a condition that has been highlighted in the PMS</td>
-<td></td>
-<td>0</td>
-<td>draft</td>
-</tr>
 <tr style='background-color:#FFCCCC'>
 <td><a href='StructureDefinition-information-source.html'>information-source</a></td>
 <td>http://hl7.org.nz/fhir/StructureDefinition/information-source</td>
@@ -200,7 +189,7 @@
 </tr>
 <tr style='background-color:#FFCCCC'>
 <td><a href='StructureDefinition-pho.html'>pho</a></td>
-<td>http://hl7.org.nz/fhir/StructureDefinition/condition-on-practice</td>
+<td>http://hl7.org.nz/fhir/StructureDefinition/pho</td>
 <td>
 <div>HealthcareService</div>
 <div>Location</div>
@@ -270,6 +259,6 @@
 <a name="externalExtensions"> </a>
 <h3>Extensions used but defined elsewhere</h3>
 <table width='100%' border='1' cellspacing='0' cellpadding='5px'>
-<tr><th>Url</th><th>Description</th><th>IG</th></tr>
+<tr><th>Path</th><th>Url</th><th>Description</th><th>IG where defined</th></tr>
 </table>
 </div>

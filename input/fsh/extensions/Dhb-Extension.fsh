@@ -23,14 +23,17 @@ Description: "District Health Board relating to a NZ Healthcare Service, Locatio
 * ^context[1].expression = "Location"
 * ^context[2].type = #element
 * ^context[2].expression = "Patient"
+
 * value[x] only CodeableConcept
-* value[x] from $dhb-code_1 (extensible)
+* value[x] from $dhb-code-vs (extensible)
+
 * value[x] ^label = "DHB Code"
 * value[x] ^short = "NZ District Health Boards"
 * value[x] ^definition = "NZ District Health Boards as defined in the NZ Health Provider Index Listing published by the NZ Ministry of Health each month."
 * value[x] ^requirements = "The NzDHB ValueSet should be used as this provides the correct NZ HPI-ORG ID for each of the 20 District Health Boards.The binding strength is extensible as this is the most suitable option for a Codeable Concept data type."
+
 * value[x] ^example[0].label = "Waikato DHB"
 * value[x] ^example[0].valueCodeableConcept.coding[0].version = "1.0"
-* value[x] ^example[0].valueCodeableConcept.coding[0] = $dhb-code#G00027-C "Waikato District Health Board"
+* value[x] ^example[0].valueCodeableConcept.coding[0] = $dhb-code-cs#G00027-C "Waikato"
 * value[x] ^isModifier = false
 * value[x] ^binding.description = "NZ HPI-ORG Values for DHBs"

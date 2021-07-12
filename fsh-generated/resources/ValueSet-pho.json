@@ -1,0 +1,17 @@
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "PHO",
+  "id": "pho",
+  "title": "PHO",
+  "description": "Primary Healthcare Organization",
+  "version": "0.2.0",
+  "url": "https://standards.digital.health.nz/fhir/pho-code",
+  "compose": {
+    "include": [
+      {
+        "system": "https://standards.digital.health.nz/ns/pho-code"
+      }
+    ]
+  }
+}

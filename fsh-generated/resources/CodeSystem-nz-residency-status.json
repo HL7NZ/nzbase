@@ -1,0 +1,26 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "active",
+  "content": "complete",
+  "name": "NZResidencyStatus",
+  "id": "nz-residency-status",
+  "title": "NZ Residency status",
+  "description": "NZ Residency status",
+  "version": "0.2.0",
+  "url": "https://standards.digital.health.nz/ns/nz-residency-status-code",
+  "concept": [
+    {
+      "code": "Y",
+      "display": "Yes"
+    },
+    {
+      "code": "N",
+      "display": "No"
+    },
+    {
+      "code": "U",
+      "display": "Unknown"
+    }
+  ],
+  "count": 3
+}
