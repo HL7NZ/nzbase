@@ -1,6 +1,6 @@
 ValueSet: Ethnicity
 Id: ethnicity
-Title: "Ethnicity of a perrson"
+Title: "Ethnicity of a person"
 Description: "Level 4 ethnicity codes"
 
 * ^url = $ethnicity-code-vs
@@ -13,8 +13,6 @@ Title: "Level 4 ethnicity codes"
 Description: "Level 4 ethnicity codes"
 
 * ^url = $ethnicity-code-cs
-
-
 
 * #10000 "European NFD"
 * #11111 "New Zealand European"

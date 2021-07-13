@@ -2,7 +2,7 @@
 <table class='table table-bordered table-condensed'>
 <tr><th>ValueSet</th><th>Purpose</th><th>Url</th><th>CodeSystem Urls</th></tr>
 <tr><td width='20%'>District Health Board HPI Organisation Identifer</td><td>District Health Board HPI Organisation Identifer</td><td><a href='ValueSet-dhb.html'>https://standards.digital.health.nz/fhir/ValueSet/dhb-code</a></td><td><div><a href='CodeSystem-dhb.html'>https://standards.digital.health.nz/ns/dhb-code</a></div></td></tr>
-<tr><td width='20%'>Ethnicity of a perrson</td><td>Level 4 ethnicity codes</td><td><a href='ValueSet-ethnicity.html'>https://standards.digital.health.nz/fhir/ValueSet/ethnic-group-level-4-code</a></td><td><div><a href='CodeSystem-ethnicityL4.html'>https://standards.digital.health.nz/ns/ethnic-group-level-4-code</a></div></td></tr>
+<tr><td width='20%'>Ethnicity of a person</td><td>Level 4 ethnicity codes</td><td><a href='ValueSet-ethnicity.html'>https://standards.digital.health.nz/fhir/ValueSet/ethnic-group-level-4-code</a></td><td><div><a href='CodeSystem-ethnicityL4.html'>https://standards.digital.health.nz/ns/ethnic-group-level-4-code</a></div></td></tr>
 <tr><td width='20%'>Funded Program</td><td>Some sort of funded programme</td><td><a href='ValueSet-citizenship-status.html'>https://standards.digital.health.nz/fhir/ValueSet/nz-citizenship-status-code</a></td><td><div><a href='CodeSystem-citizenship-status.html'>https://standards.digital.health.nz/ns/nz-citizenship-status-code</a></div></td></tr>
 <tr><td width='20%'>Funded Program</td><td>Some sort of funded programme</td><td><a href='ValueSet-funded-programme.html'>https://standards.digital.health.nz/fhir/ValueSet/funded-programme-code</a></td><td><div><a href='CodeSystem-funded-programme.html'>https://standards.digital.health.nz/ns/funded-programme-code</a></div></td></tr>
 <tr><td width='20%'>InformationSource</td><td>The source from where the value of this item was sourced</td><td><a href='ValueSet-information-source.html'>https://standards.digital.health.nz/fhir/ValueSet/information-source-code</a></td><td><div><a href='CodeSystem-information-source.html'>https://standards.digital.health.nz/ns/information-source-code</a></div></td></tr>
@@ -13,16 +13,11 @@
 <tr><td width='20%'>domicileCode</td><td>domicileCode</td><td><a href='ValueSet-domicile-code.html'>https://standards.digital.health.nz/fhir/ValueSet/domicile-code</a></td><td><div><a href='CodeSystem-domicile-code.html'>https://standards.digital.health.nz/ns/domicile-code</a></div></td></tr>
 </table>
 <br/><br/>
-### Retired ValueSets
-<table class='table table-bordered table-condensed'>
-<tr><th>ValueSet</th><th>Purpose</th><th>Url</th><th>CodeSystem Urls</th></tr>
-</table>
-<br/><br/>
 ### CodeSystems
 
-These are codesystems that have been defined by this guide. They define specific concepts that are included in ValueSets. It is preferabe to use an international code systm such as SNOMED, ICD or LOINC - but this is not always possible.
+These are code systems that have been defined by this guide. They define specific concepts that are included in ValueSets. It is preferable to use an international code system such as SNOMED, ICD or LOINC - but this is not always possible.
 
-Each CodeSystem has a globally unique url that is used to unambiguously identiy it. The url generally refers to a describtion of the codesystem, rather than to the FHIR CodeSystem resource.
+Each CodeSystem resource has a globally unique url that is used to unambiguously identify it. The url generally refers to a description of the codesystem, rather than to the FHIR CodeSystem resource.
 
 The [FHIR spec](http://hl7.org/fhir/terminology-module.html) has much more detail on the use of Terminology in FHIR
 

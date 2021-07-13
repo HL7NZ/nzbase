@@ -230,7 +230,7 @@
         "reference": {
           "reference": "ValueSet/ethnicity"
         },
-        "name": "Ethnicity of a perrson",
+        "name": "Ethnicity of a person",
         "description": "Level 4 ethnicity codes",
         "exampleBoolean": false
       },
