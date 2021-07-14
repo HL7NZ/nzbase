@@ -20,27 +20,6 @@
   "compose": {
     "include": [
       {
-        "system": "https://standards.digital.health.nz/ns/practitioner-registration-status-code",
-        "concept": [
-          {
-            "code": "current",
-            "display": "A provider who holds or is deemed to hold a current practising certificate."
-          },
-          {
-            "code": "inactive",
-            "display": "A provider who is not practising"
-          },
-          {
-            "code": "removed",
-            "display": "A provider who has been removed from the register – this includes voluntary removal, de-registration and deceased"
-          },
-          {
-            "code": "suspended",
-            "display": "A provider who is suspended from practising by a Responsible Authority"
-          }
-        ]
-      },
-      {
         "system": "https://standards.digital.health.nz/ns/practitioner-registration-status-code"
       }
     ]

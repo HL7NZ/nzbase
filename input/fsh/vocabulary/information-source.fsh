@@ -1,7 +1,7 @@
 
 ValueSet: InformationSource
 Id: information-source
-Title: "InformationSource"
+Title: "Information Source"
 Description: "The source from where the value of this item was sourced"
 
 * ^url = $information-source-vs
@@ -10,7 +10,7 @@ Description: "The source from where the value of this item was sourced"
 
 CodeSystem: InformationSource
 Id: information-source
-Title: "InformationSource"
+Title: "Information Source"
 Description: "All possible sources of information"
 
 * ^url = $information-source-cs
