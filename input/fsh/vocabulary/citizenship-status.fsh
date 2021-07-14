@@ -1,7 +1,7 @@
 ValueSet : CitizenshipStatus
 Id: citizenship-status
-Title: "Funded Program"
-Description:  "Some sort of funded programme"
+Title: "Citizenship status"
+Description:  "Citizenship status"
 
 * ^url = $citizenship-status-vs
 * codes from system $citizenship-status-cs
@@ -9,8 +9,8 @@ Description:  "Some sort of funded programme"
 
 CodeSystem:  CitizenshipStatus
 Id: citizenship-status
-Title: "Funded Program"
-Description:  "Some sort of funded programme"
+Title: "Citizenship status"
+Description:  "Citizenship status"
 
 * ^url = $citizenship-status-cs
 

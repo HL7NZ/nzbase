@@ -4,8 +4,8 @@
   "content": "complete",
   "name": "CitizenshipStatus",
   "id": "citizenship-status",
-  "title": "Funded Program",
-  "description": "Some sort of funded programme",
+  "title": "Citizenship status",
+  "description": "Citizenship status",
   "version": "0.2.0",
   "url": "https://standards.digital.health.nz/ns/nz-citizenship-status-code",
   "concept": [

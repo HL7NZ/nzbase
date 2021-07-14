@@ -206,16 +206,16 @@
         "reference": {
           "reference": "ValueSet/citizenship-status"
         },
-        "name": "Funded Program",
-        "description": "Some sort of funded programme",
+        "name": "Citizenship status",
+        "description": "Citizenship status",
         "exampleBoolean": false
       },
       {
         "reference": {
           "reference": "ValueSet/dhb"
         },
-        "name": "District Health Board HPI Organisation Identifer",
-        "description": "District Health Board HPI Organisation Identifer",
+        "name": "District Health Board Identifer",
+        "description": "District Health Board Identifer. Assigned by the HPI.",
         "exampleBoolean": false
       },
       {
@@ -223,7 +223,7 @@
           "reference": "ValueSet/domicile-code"
         },
         "name": "domicileCode",
-        "description": "domicileCode",
+        "description": "Domicile Code",
         "exampleBoolean": false
       },
       {
@@ -238,7 +238,7 @@
         "reference": {
           "reference": "ValueSet/funded-programme"
         },
-        "name": "Funded Program",
+        "name": "Funded Programme",
         "description": "Some sort of funded programme",
         "exampleBoolean": false
       },
@@ -286,8 +286,8 @@
         "reference": {
           "reference": "CodeSystem/citizenship-status"
         },
-        "name": "Funded Program",
-        "description": "Some sort of funded programme",
+        "name": "Citizenship status",
+        "description": "Citizenship status",
         "exampleBoolean": false
       },
       {
@@ -303,7 +303,7 @@
           "reference": "CodeSystem/domicile-code"
         },
         "name": "domicileCode",
-        "description": "domicileCode",
+        "description": "Domicile Code",
         "exampleBoolean": false
       },
       {
@@ -318,7 +318,7 @@
         "reference": {
           "reference": "CodeSystem/funded-programme"
         },
-        "name": "Funded Program",
+        "name": "Funded Programme",
         "description": "Some sort of funded programme",
         "exampleBoolean": false
       },

@@ -3,7 +3,7 @@
   "status": "active",
   "name": "FundedProgramme",
   "id": "funded-programme",
-  "title": "Funded Program",
+  "title": "Funded Programme",
   "description": "Some sort of funded programme",
   "version": "0.2.0",
   "url": "https://standards.digital.health.nz/fhir/ValueSet/funded-programme-code",

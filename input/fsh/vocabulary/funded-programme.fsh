@@ -1,6 +1,6 @@
 ValueSet : FundedProgramme
 Id: funded-programme
-Title: "Funded Program"
+Title: "Funded Programme"
 Description:  "Some sort of funded programme"
 
 * ^url = $funded-programme-vs
@@ -9,7 +9,7 @@ Description:  "Some sort of funded programme"
 
 CodeSystem:  FundedProgramme
 Id: funded-programme
-Title: "Funded Program"
+Title: "Funded Programme"
 Description:  "Some sort of funded programme"
 
 * ^url = $funded-programme-cs
