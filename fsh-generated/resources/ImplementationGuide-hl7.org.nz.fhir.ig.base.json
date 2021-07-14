@@ -246,7 +246,7 @@
         "reference": {
           "reference": "ValueSet/information-source"
         },
-        "name": "InformationSource",
+        "name": "Information Source",
         "description": "The source from where the value of this item was sourced",
         "exampleBoolean": false
       },
@@ -326,7 +326,7 @@
         "reference": {
           "reference": "CodeSystem/information-source"
         },
-        "name": "InformationSource",
+        "name": "Information Source",
         "description": "All possible sources of information",
         "exampleBoolean": false
       },

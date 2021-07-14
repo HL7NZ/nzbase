@@ -10,10 +10,21 @@
   "url": "https://standards.digital.health.nz/ns/funded-programme-code",
   "concept": [
     {
-      "code": "other",
-      "display": "Other",
-      "definition": "Some other funded programme not otherwise defined"
+      "code": "DENTAL_CHILD",
+      "display": "Dental Care - Children up to age 13"
+    },
+    {
+      "code": "DENTAL_ADULT_EMERGENCY",
+      "display": "Dental Care – Adult Emergency"
+    },
+    {
+      "code": "ENROLLING_GP_PRACTICE",
+      "display": "General Practice Enrollment"
+    },
+    {
+      "code": "OTHER",
+      "display": "Some other funded programme not otherwise defined"
     }
   ],
-  "count": 1
+  "count": 4
 }

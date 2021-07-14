@@ -14,7 +14,7 @@ Description:  "Some sort of funded programme"
 
 * ^url = $funded-programme-cs
 
-* #other "Other" "Some other funded programme not otherwise defined"
-
-
-
+* #DENTAL_CHILD "Dental Care - Children up to age 13"
+* #DENTAL_ADULT_EMERGENCY "Dental Care – Adult Emergency"
+* #ENROLLING_GP_PRACTICE "General Practice Enrollment"
+* #OTHER "Some other funded programme not otherwise defined"
