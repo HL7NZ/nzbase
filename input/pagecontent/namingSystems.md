@@ -11,6 +11,7 @@ These are identifiers defined in this IG. They are defined using <a href='http:/
 <tr><td>HPI organizations</td><td><div>https://standards.digital.health.nz/ns/hpi-organisation-id</div></td><td><ul><li>https://standards.digital.health.nz/ns/moh-agency-id (uri) NZHIS Agency code. Deprecated</li><li>https://standards.digital.health.nz/id/hpi-organisation (uri) Deprecated</li><li>2.16.840.1.113883.2.18.3.3 (oid) </li></ul></td><td>HISO</td></tr>
 <tr><td>HPI providers</td><td><div>https://standards.digital.health.nz/ns/hpi-person-id</div></td><td><ul><li>https://standards.digital.health.nz/id/hpi-person (uri) Deprecated</li><li>2.16.840.1.113883.2.18.3.1 (oid) </li></ul></td><td>HISO</td></tr>
 <tr><td>HPI PractitionerRole id</td><td><div>https://standards.digital.health.nz/ns/hpi-practitionerrole-id</div></td><td></td><td>HISO</td></tr>
+<tr><td>NHI number</td><td><div>https://standards.digital.health.nz/ns/nhi-id</div></td><td><ul><li>https://standards.digital.health.nz/id/nhi (uri) Deprecated</li><li>2.16.840.1.113883.2.18.2 (oid) </li></ul></td><td>HISO</td></tr>
 <tr><td>Legacy number for Facility (Location) National Collections</td><td><div>https://standards.digital.health.nz/ns/nzhis-facility-id</div></td><td></td><td>HISO</td></tr>
 <tr><td>Legacy number for Organization National Collections</td><td><div>https://standards.digital.health.nz/ns/nzhis-agency-id</div></td><td></td><td>HISO</td></tr>
 <tr><td>New Zealand Business Number</td><td><div>https://standards.digital.health.nz/ns/hpi-nzbn</div></td><td></td><td>HISO</td></tr>

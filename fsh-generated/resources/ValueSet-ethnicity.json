@@ -4,7 +4,7 @@
   "name": "Ethnicity",
   "id": "ethnicity",
   "title": "Ethnicity of a person",
-  "description": "Level 4 ethnicity codes",
+  "description": "Codes to record a person’s ethnicity, drawn from Level 4 of the Ethnicity code system \ndescribed at http://aria.stats.govt.nz/aria/#ClassificationView:uri=http://stats.govt.nz/cms/ClassificationVersion/YVqOcFHSlguKkT17",
   "version": "0.2.0",
   "url": "https://standards.digital.health.nz/fhir/ValueSet/ethnic-group-level-4-code",
   "compose": {

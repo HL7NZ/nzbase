@@ -231,7 +231,7 @@
           "reference": "ValueSet/ethnicity"
         },
         "name": "Ethnicity of a person",
-        "description": "Level 4 ethnicity codes",
+        "description": "Codes to record a person’s ethnicity, drawn from Level 4 of the Ethnicity code system \ndescribed at http://aria.stats.govt.nz/aria/#ClassificationView:uri=http://stats.govt.nz/cms/ClassificationVersion/YVqOcFHSlguKkT17",
         "exampleBoolean": false
       },
       {
@@ -311,7 +311,7 @@
           "reference": "CodeSystem/ethnicityL4"
         },
         "name": "Level 4 ethnicity codes",
-        "description": "Level 4 ethnicity codes",
+        "description": "Codes to record a person’s ethnicity, drawn from Level 4 of the Ethnicity code system \ndescribed at http://aria.stats.govt.nz/aria/#ClassificationView:uri=http://stats.govt.nz/cms/ClassificationVersion/YVqOcFHSlguKkT17",
         "exampleBoolean": false
       },
       {
@@ -388,6 +388,13 @@
           "reference": "NamingSystem/hpipractitionerrole"
         },
         "name": "hpipractitionerrole",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/nhi"
+        },
+        "name": "nhi",
         "exampleBoolean": false
       },
       {

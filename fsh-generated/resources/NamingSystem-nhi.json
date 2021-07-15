@@ -1,0 +1,26 @@
+{
+  "resourceType": "NamingSystem",
+  "id": "nhi",
+  "name": "NHI",
+  "description": "NHI number",
+  "status": "active",
+  "kind": "identifier",
+  "date": "2020-07-14",
+  "responsible": "HISO",
+  "uniqueId": [
+    {
+      "type": "uri",
+      "value": "https://standards.digital.health.nz/ns/nhi-id",
+      "preferred": true
+    },
+    {
+      "type": "uri",
+      "value": "https://standards.digital.health.nz/id/nhi",
+      "comment": "Deprecated"
+    },
+    {
+      "type": "oid",
+      "value": "2.16.840.1.113883.2.18.2"
+    }
+  ]
+}
