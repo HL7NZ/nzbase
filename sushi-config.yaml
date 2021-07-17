@@ -51,4 +51,4 @@ menu:
   Support:
     Download IG: full-ig.zip
     FHIR Spec: http://hl7.org/fhir/R4/index.html
-  Immunization Audit: immaudit.html
+  Terminology Audit: termaudit.html
