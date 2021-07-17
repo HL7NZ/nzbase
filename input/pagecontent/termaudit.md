@@ -1,14 +1,14 @@
-### https://standards.digital.health.nz/fhir/ValueSet/nz-citizenship-status-code
+### nz-citizenship-status-code
 
-<div><a href=ValueSet-citizenship-status.json>https://standards.digital.health.nz/fhir/ValueSet/nz-citizenship-status-code</a></div>
+<div><a href='ValueSet-citizenship-status.json'>https://standards.digital.health.nz/fhir/ValueSet/nz-citizenship-status-code</a></div>
 
 Error expanding on IG server
 
 Failed to call access method: java.lang.NullPointerException
 
-### https://standards.digital.health.nz/fhir/ValueSet/dhb-code
+### dhb-code
 
-<div><a href=ValueSet-dhb.json>https://standards.digital.health.nz/fhir/ValueSet/dhb-code</a></div>
+<div><a href='ValueSet-dhb.json'>https://standards.digital.health.nz/fhir/ValueSet/dhb-code</a></div>
 
 Found in IG server. 20 concepts.
 
@@ -16,9 +16,9 @@ Found in Termnz. 20 concepts. (Using url: https://terminz.azurewebsites.net/fhir
 
 The contents of the valueSets are the same. Hurrah! (comparing system & code)
 
-### https://standards.digital.health.nz/fhir/ValueSet/domicile-code
+### domicile-code
 
-<div><a href=ValueSet-domicile-code.json>https://standards.digital.health.nz/fhir/ValueSet/domicile-code</a></div>
+<div><a href='ValueSet-domicile-code.json'>https://standards.digital.health.nz/fhir/ValueSet/domicile-code</a></div>
 
 Found in IG server. 2341 concepts.
 
@@ -26,9 +26,9 @@ Found in Termnz. 2341 concepts. (Using url: https://terminz.azurewebsites.net/fh
 
 The contents of the valueSets are the same. Hurrah! (comparing system & code)
 
-### https://standards.digital.health.nz/fhir/ValueSet/ethnic-group-level-4-code
+### ethnic-group-level-4-code
 
-<div><a href=ValueSet-ethnicity.json>https://standards.digital.health.nz/fhir/ValueSet/ethnic-group-level-4-code</a></div>
+<div><a href='ValueSet-ethnicity.json'>https://standards.digital.health.nz/fhir/ValueSet/ethnic-group-level-4-code</a></div>
 
 Found in IG server. 239 concepts.
 
@@ -36,9 +36,9 @@ Found in Termnz. 239 concepts. (Using url: https://terminz.azurewebsites.net/fhi
 
 The contents of the valueSets are the same. Hurrah! (comparing system & code)
 
-### https://standards.digital.health.nz/fhir/ValueSet/funded-programme-code
+### funded-programme-code
 
-<div><a href=ValueSet-funded-programme.json>https://standards.digital.health.nz/fhir/ValueSet/funded-programme-code</a></div>
+<div><a href='ValueSet-funded-programme.json'>https://standards.digital.health.nz/fhir/ValueSet/funded-programme-code</a></div>
 
 Found in IG server. 4 concepts.
 
@@ -52,9 +52,9 @@ Found in Termnz. 3 concepts. (Using url: https://terminz.azurewebsites.net/fhir/
 
 </ul>
 
-### https://standards.digital.health.nz/fhir/ValueSet/information-source-code
+### information-source-code
 
-<div><a href=ValueSet-information-source.json>https://standards.digital.health.nz/fhir/ValueSet/information-source-code</a></div>
+<div><a href='ValueSet-information-source.json'>https://standards.digital.health.nz/fhir/ValueSet/information-source-code</a></div>
 
 Found in IG server. 25 concepts.
 
@@ -62,9 +62,9 @@ Found in Termnz. 25 concepts. (Using url: https://terminz.azurewebsites.net/fhir
 
 The contents of the valueSets are the same. Hurrah! (comparing system & code)
 
-### https://standards.digital.health.nz/fhir/ValueSet/nz-residency-status-code
+### nz-residency-status-code
 
-<div><a href=ValueSet-nz-residency-status.json>https://standards.digital.health.nz/fhir/ValueSet/nz-residency-status-code</a></div>
+<div><a href='ValueSet-nz-residency-status.json'>https://standards.digital.health.nz/fhir/ValueSet/nz-residency-status-code</a></div>
 
 Found in IG server. 3 concepts.
 
@@ -72,9 +72,9 @@ Found in Termnz. 3 concepts. (Using url: https://terminz.azurewebsites.net/fhir/
 
 The contents of the valueSets are the same. Hurrah! (comparing system & code)
 
-### https://standards.digital.health.nz/fhir/ValueSet/pho-code
+### pho-code
 
-<div><a href=ValueSet-pho.json>https://standards.digital.health.nz/fhir/ValueSet/pho-code</a></div>
+<div><a href='ValueSet-pho.json'>https://standards.digital.health.nz/fhir/ValueSet/pho-code</a></div>
 
 Found in IG server. 0 concepts.
 
@@ -146,17 +146,17 @@ Found in Termnz. 30 concepts. (Using url: https://terminz.azurewebsites.net/fhir
 
 </ul>
 
-### https://standards.digital.health.nz/fhir/ValueSet/practitioner-registration-status-code
+### practitioner-registration-status-code
 
-<div><a href=ValueSet-practitioner-registration-status-code.json>https://standards.digital.health.nz/fhir/ValueSet/practitioner-registration-status-code</a></div>
+<div><a href='ValueSet-practitioner-registration-status-code.json'>https://standards.digital.health.nz/fhir/ValueSet/practitioner-registration-status-code</a></div>
 
 Error expanding on IG server
 
 Unknown code system: https://standards.digital.health.nz/ns/practitioner-registration-status
 
-### https://standards.digital.health.nz/fhir/ValueSet/practitioner-scope-of-practice-code
+### practitioner-scope-of-practice-code
 
-<div><a href=ValueSet-practitioner-scope-of-practice.json>https://standards.digital.health.nz/fhir/ValueSet/practitioner-scope-of-practice-code</a></div>
+<div><a href='ValueSet-practitioner-scope-of-practice.json'>https://standards.digital.health.nz/fhir/ValueSet/practitioner-scope-of-practice-code</a></div>
 
 Found in IG server. 113 concepts.
 
