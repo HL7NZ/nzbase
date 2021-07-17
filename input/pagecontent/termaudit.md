@@ -1,6 +1,6 @@
 ### nz-citizenship-status-code
 
-<div><a href='ValueSet-citizenship-status.json'>https://standards.digital.health.nz/fhir/ValueSet/nz-citizenship-status-code</a></div>
+<div><a href='ValueSet-citizenship-status.html'>https://standards.digital.health.nz/fhir/ValueSet/nz-citizenship-status-code</a></div>
 
 Error expanding on IG server
 
@@ -8,7 +8,7 @@ Failed to call access method: java.lang.NullPointerException
 
 ### dhb-code
 
-<div><a href='ValueSet-dhb.json'>https://standards.digital.health.nz/fhir/ValueSet/dhb-code</a></div>
+<div><a href='ValueSet-dhb.html'>https://standards.digital.health.nz/fhir/ValueSet/dhb-code</a></div>
 
 Found in IG server. 20 concepts.
 
@@ -18,7 +18,7 @@ The contents of the valueSets are the same. Hurrah! (comparing system & code)
 
 ### domicile-code
 
-<div><a href='ValueSet-domicile-code.json'>https://standards.digital.health.nz/fhir/ValueSet/domicile-code</a></div>
+<div><a href='ValueSet-domicile-code.html'>https://standards.digital.health.nz/fhir/ValueSet/domicile-code</a></div>
 
 Found in IG server. 2341 concepts.
 
@@ -28,7 +28,7 @@ The contents of the valueSets are the same. Hurrah! (comparing system & code)
 
 ### ethnic-group-level-4-code
 
-<div><a href='ValueSet-ethnicity.json'>https://standards.digital.health.nz/fhir/ValueSet/ethnic-group-level-4-code</a></div>
+<div><a href='ValueSet-ethnicity.html'>https://standards.digital.health.nz/fhir/ValueSet/ethnic-group-level-4-code</a></div>
 
 Found in IG server. 239 concepts.
 
@@ -38,7 +38,7 @@ The contents of the valueSets are the same. Hurrah! (comparing system & code)
 
 ### funded-programme-code
 
-<div><a href='ValueSet-funded-programme.json'>https://standards.digital.health.nz/fhir/ValueSet/funded-programme-code</a></div>
+<div><a href='ValueSet-funded-programme.html'>https://standards.digital.health.nz/fhir/ValueSet/funded-programme-code</a></div>
 
 Found in IG server. 4 concepts.
 
@@ -54,7 +54,7 @@ Found in Termnz. 3 concepts. (Using url: https://terminz.azurewebsites.net/fhir/
 
 ### information-source-code
 
-<div><a href='ValueSet-information-source.json'>https://standards.digital.health.nz/fhir/ValueSet/information-source-code</a></div>
+<div><a href='ValueSet-information-source.html'>https://standards.digital.health.nz/fhir/ValueSet/information-source-code</a></div>
 
 Found in IG server. 25 concepts.
 
@@ -64,7 +64,7 @@ The contents of the valueSets are the same. Hurrah! (comparing system & code)
 
 ### nz-residency-status-code
 
-<div><a href='ValueSet-nz-residency-status.json'>https://standards.digital.health.nz/fhir/ValueSet/nz-residency-status-code</a></div>
+<div><a href='ValueSet-nz-residency-status.html'>https://standards.digital.health.nz/fhir/ValueSet/nz-residency-status-code</a></div>
 
 Found in IG server. 3 concepts.
 
@@ -74,7 +74,7 @@ The contents of the valueSets are the same. Hurrah! (comparing system & code)
 
 ### pho-code
 
-<div><a href='ValueSet-pho.json'>https://standards.digital.health.nz/fhir/ValueSet/pho-code</a></div>
+<div><a href='ValueSet-pho.html'>https://standards.digital.health.nz/fhir/ValueSet/pho-code</a></div>
 
 Found in IG server. 0 concepts.
 
@@ -148,7 +148,7 @@ Found in Termnz. 30 concepts. (Using url: https://terminz.azurewebsites.net/fhir
 
 ### practitioner-registration-status-code
 
-<div><a href='ValueSet-practitioner-registration-status-code.json'>https://standards.digital.health.nz/fhir/ValueSet/practitioner-registration-status-code</a></div>
+<div><a href='ValueSet-practitioner-registration-status-code.html'>https://standards.digital.health.nz/fhir/ValueSet/practitioner-registration-status-code</a></div>
 
 Error expanding on IG server
 
@@ -156,7 +156,7 @@ Unknown code system: https://standards.digital.health.nz/ns/practitioner-registr
 
 ### practitioner-scope-of-practice-code
 
-<div><a href='ValueSet-practitioner-scope-of-practice.json'>https://standards.digital.health.nz/fhir/ValueSet/practitioner-scope-of-practice-code</a></div>
+<div><a href='ValueSet-practitioner-scope-of-practice.html'>https://standards.digital.health.nz/fhir/ValueSet/practitioner-scope-of-practice-code</a></div>
 
 Found in IG server. 113 concepts.
 
