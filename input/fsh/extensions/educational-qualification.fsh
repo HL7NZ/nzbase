@@ -20,6 +20,7 @@ Description: "Educational qualifications."
 // definitions of sub-extensions
 * extension[fullname].url = "fullname" (exactly)
 * extension[fullname] ^definition = "The full name of the educational qualification"
+* extension[fullname] ^short = "The full name of the educational qualification"
 * extension[fullname].value[x] only string
 
 * extension[shortname].url = "shortname" (exactly)

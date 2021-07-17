@@ -12,7 +12,7 @@ Alias: $condition-on-practice-cs = https://standards.digital.health.nz/ns/condit
 
 
 //Aliases for ValueSets
-Alias: $pho-code-vs = https://standards.digital.health.nz/fhir/pho-code
+Alias: $pho-code-vs = https://standards.digital.health.nz/fhir/ValueSet/pho-code
 Alias: $iso3166-1-2 = http://hl7.org/fhir/ValueSet/iso3166-1-2
 
 Alias: $dhb-code-vs = https://standards.digital.health.nz/fhir/ValueSet/dhb-code

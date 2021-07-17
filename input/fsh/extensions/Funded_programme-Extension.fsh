@@ -17,10 +17,13 @@ Description: "Funded NZ Healthcare Programmes"
 * ^jurisdiction[0] = urn:iso:std:iso:3166#NZ
 * ^purpose = "Details of a NZ Healthcare Funded Programme relevant to its implementation status at an individual organisation, facility or service."
 * ^copyright = "HL7 New Zealand© 2021+; Licensed Under Creative Commons No Rights Reserved."
+
 * ^context[0].type = #element
 * ^context[0].expression = "Location"
+
 * ^context[1].type = #element
 * ^context[1].expression = "Organization"
+
 * ^context[2].type = #element
 * ^context[2].expression = "HealthcareService"
 * extension contains 
@@ -39,6 +42,7 @@ Description: "Funded NZ Healthcare Programmes"
 * extension[currentAvailability].url = "currentAvailability" (exactly)
 * extension[currentAvailability].value[x] only boolean
 
+* extension[notes].value[x] only string
 * extension[notes] ^definition = "Further details about the programme and status."
 * extension[notes].url = "notes" (exactly)
 
