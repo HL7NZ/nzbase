@@ -1,4 +1,13 @@
 ### ValueSets
+
+These are ValueSets that have been defined in this guide for coded elements. 
+
+Each ValueSet resource has a globally unique url (the Canonical url) that is used to unambiguously identify it. 
+This url generally should resolve to the to the FHIR ValueSet resource, though the infrastructure 
+to support this is not yet in place. 
+
+The [FHIR spec](http://hl7.org/fhir/terminology-module.html) has much more detail on the use of Terminology in FHIR
+
 <table class='table table-bordered table-condensed'>
 <tr><th>ValueSet</th><th>Purpose</th><th>Canonical url</th></tr>
 <tr><td width='20%'>Citizenship status</td><td>Citizenship status</td><td><a href='ValueSet-citizenship-status.html'>https://standards.digital.health.nz/fhir/ValueSet/nz-citizenship-status-code</a></td></tr>
@@ -12,15 +21,6 @@ described at http://aria.stats.govt.nz/aria/#ClassificationView:uri=http://stats
 <tr><td width='20%'>Registration Status of Practitioners</td><td>The code list represents the current practicing status of the Provider Person as per their registration with an RA.</td><td><a href='ValueSet-practitioner-registration-status-code.html'>https://standards.digital.health.nz/fhir/ValueSet/practitioner-registration-status-code</a></td></tr>
 <tr><td width='20%'>Scope of practice</td><td>A coded type for professional scope of practice.</td><td><a href='ValueSet-practitioner-scope-of-practice.html'>https://standards.digital.health.nz/fhir/ValueSet/practitioner-scope-of-practice-code</a></td></tr>
 <tr><td width='20%'>domicileCode</td><td>Domicile Code</td><td><a href='ValueSet-domicile-code.html'>https://standards.digital.health.nz/fhir/ValueSet/domicile-code</a></td></tr>
-
-These are ValueSets that have been defined in this guide for coded elements. 
-
-Each ValueSet resource has a globally unique url (the Canonical url) that is used to unambiguously identify it. 
-This url generally should resolve to the to the FHIR CodeSystem resource, though the infrastructure 
-to support this is not yet in place. 
-
-The [FHIR spec](http://hl7.org/fhir/terminology-module.html) has much more detail on the use of Terminology in FHIR
-
 </table>
 <br/><br/>
 ### CodeSystems
