@@ -1,6 +1,6 @@
 ### ValueSets
 <table class='table table-bordered table-condensed'>
-<tr><th>ValueSet</th><th>Purpose</th><th>Url</th></tr>
+<tr><th>ValueSet</th><th>Purpose</th><th>Canonical url</th></tr>
 <tr><td width='20%'>Citizenship status</td><td>Citizenship status</td><td><a href='ValueSet-citizenship-status.html'>https://standards.digital.health.nz/fhir/ValueSet/nz-citizenship-status-code</a></td><td></tr>
 <tr><td width='20%'>District Health Board Identifer</td><td>District Health Board Identifer. Assigned by the HPI.</td><td><a href='ValueSet-dhb.html'>https://standards.digital.health.nz/fhir/ValueSet/dhb-code</a></td><td></tr>
 <tr><td width='20%'>Ethnicity of a person</td><td>Codes to record a person’s ethnicity, drawn from Level 4 of the Ethnicity code system 
@@ -15,7 +15,7 @@ described at http://aria.stats.govt.nz/aria/#ClassificationView:uri=http://stats
 
 These are ValueSets that have been defined in this guide for coded elements. 
 
-Each ValueSet resource has a globally unique url that is used to unambiguously identify it. 
+Each ValueSet resource has a globally unique url (the Canonical url) that is used to unambiguously identify it. 
 This url generally should resolve to the to the FHIR CodeSystem resource, though the infrastructure 
 to support this is not yet in place. 
 
@@ -27,12 +27,12 @@ The [FHIR spec](http://hl7.org/fhir/terminology-module.html) has much more detai
 
 These are code systems that have been defined in this guide. They define specific concepts that are included in ValueSets. It is preferable to use an international code system such as SNOMED, ICD or LOINC - but this is not always possible.
 
-Each CodeSystem resource has a globally unique url that is used to unambiguously identify it. The url generally refers to a description of the codesystem, rather than to the FHIR CodeSystem resource.
+Each CodeSystem resource has a globally unique url (the canonical url) that is used to unambiguously identify it. The url generally refers to a description of the codesystem, rather than to the FHIR CodeSystem resource.
 
 The [FHIR spec](http://hl7.org/fhir/terminology-module.html) has much more detail on the use of Terminology in FHIR
 
 <table class='table table-bordered table-condensed'>
-<tr><th>CodeSystem</th><th>Purpose</th><th>CodeSystem Url</th></tr>
+<tr><th>CodeSystem</th><th>Purpose</th><th>Canonical Url</th></tr>
 <tr><td width='20%'>Citizenship status</td><td>Citizenship status</td><td><a href='CodeSystem-citizenship-status.html'>https://standards.digital.health.nz/ns/nz-citizenship-status-code</a></td></tr>
 <tr><td width='20%'>District Health Board Code</td><td>District Health Board Code</td><td><a href='CodeSystem-dhb.html'>https://standards.digital.health.nz/ns/dhb-code</a></td></tr>
 <tr><td width='20%'>domicileCode</td><td>Domicile Code</td><td><a href='CodeSystem-domicile-code.html'>https://standards.digital.health.nz/ns/domicile-code</a></td></tr>
