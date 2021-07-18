@@ -1,17 +1,26 @@
 ### ValueSets
 <table class='table table-bordered table-condensed'>
 <tr><th>ValueSet</th><th>Purpose</th><th>Url</th></tr>
-<tr><td width='20%'>Citizenship status</td><td>Citizenship status</td><td><a href='ValueSet-citizenship-status.html'>https://standards.digital.health.nz/fhir/ValueSet/nz-citizenship-status-code</a></td><td></td></tr>
-<tr><td width='20%'>District Health Board Identifer</td><td>District Health Board Identifer. Assigned by the HPI.</td><td><a href='ValueSet-dhb.html'>https://standards.digital.health.nz/fhir/ValueSet/dhb-code</a></td><td></td></tr>
+<tr><td width='20%'>Citizenship status</td><td>Citizenship status</td><td><a href='ValueSet-citizenship-status.html'>https://standards.digital.health.nz/fhir/ValueSet/nz-citizenship-status-code</a></td><td></tr>
+<tr><td width='20%'>District Health Board Identifer</td><td>District Health Board Identifer. Assigned by the HPI.</td><td><a href='ValueSet-dhb.html'>https://standards.digital.health.nz/fhir/ValueSet/dhb-code</a></td><td></tr>
 <tr><td width='20%'>Ethnicity of a person</td><td>Codes to record a person’s ethnicity, drawn from Level 4 of the Ethnicity code system 
-described at http://aria.stats.govt.nz/aria/#ClassificationView:uri=http://stats.govt.nz/cms/ClassificationVersion/YVqOcFHSlguKkT17</td><td><a href='ValueSet-ethnicity.html'>https://standards.digital.health.nz/fhir/ValueSet/ethnic-group-level-4-code</a></td><td></td></tr>
-<tr><td width='20%'>Funded Programme</td><td>Some sort of funded programme</td><td><a href='ValueSet-funded-programme.html'>https://standards.digital.health.nz/fhir/ValueSet/funded-programme-code</a></td><td></td></tr>
-<tr><td width='20%'>Information Source</td><td>The source from where the value of this item was sourced</td><td><a href='ValueSet-information-source.html'>https://standards.digital.health.nz/fhir/ValueSet/information-source-code</a></td><td></td></tr>
-<tr><td width='20%'>NZ Residency status</td><td>Is the person a NZ resident</td><td><a href='ValueSet-nz-residency-status.html'>https://standards.digital.health.nz/fhir/ValueSet/nz-residency-status-code</a></td><td></td></tr>
-<tr><td width='20%'>PHO</td><td>Primary Healthcare Organization</td><td><a href='ValueSet-pho.html'>https://standards.digital.health.nz/fhir/ValueSet/pho-code</a></td><td></td></tr>
-<tr><td width='20%'>Registration Status of Practitioners</td><td>The code list represents the current practicing status of the Provider Person as per their registration with an RA.</td><td><a href='ValueSet-practitioner-registration-status-code.html'>https://standards.digital.health.nz/fhir/ValueSet/practitioner-registration-status-code</a></td><td></td></tr>
-<tr><td width='20%'>Scope of practice</td><td>A coded type for professional scope of practice.</td><td><a href='ValueSet-practitioner-scope-of-practice.html'>https://standards.digital.health.nz/fhir/ValueSet/practitioner-scope-of-practice-code</a></td><td></td></tr>
-<tr><td width='20%'>domicileCode</td><td>Domicile Code</td><td><a href='ValueSet-domicile-code.html'>https://standards.digital.health.nz/fhir/ValueSet/domicile-code</a></td><td></td></tr>
+described at http://aria.stats.govt.nz/aria/#ClassificationView:uri=http://stats.govt.nz/cms/ClassificationVersion/YVqOcFHSlguKkT17</td><td><a href='ValueSet-ethnicity.html'>https://standards.digital.health.nz/fhir/ValueSet/ethnic-group-level-4-code</a></td><td></tr>
+<tr><td width='20%'>Funded Programme</td><td>Some sort of funded programme</td><td><a href='ValueSet-funded-programme.html'>https://standards.digital.health.nz/fhir/ValueSet/funded-programme-code</a></td><td></tr>
+<tr><td width='20%'>Information Source</td><td>The source from where the value of this item was sourced</td><td><a href='ValueSet-information-source.html'>https://standards.digital.health.nz/fhir/ValueSet/information-source-code</a></td><td></tr>
+<tr><td width='20%'>NZ Residency status</td><td>Is the person a NZ resident</td><td><a href='ValueSet-nz-residency-status.html'>https://standards.digital.health.nz/fhir/ValueSet/nz-residency-status-code</a></td><td></tr>
+<tr><td width='20%'>PHO</td><td>Primary Healthcare Organization</td><td><a href='ValueSet-pho.html'>https://standards.digital.health.nz/fhir/ValueSet/pho-code</a></td><td></tr>
+<tr><td width='20%'>Registration Status of Practitioners</td><td>The code list represents the current practicing status of the Provider Person as per their registration with an RA.</td><td><a href='ValueSet-practitioner-registration-status-code.html'>https://standards.digital.health.nz/fhir/ValueSet/practitioner-registration-status-code</a></td><td></tr>
+<tr><td width='20%'>Scope of practice</td><td>A coded type for professional scope of practice.</td><td><a href='ValueSet-practitioner-scope-of-practice.html'>https://standards.digital.health.nz/fhir/ValueSet/practitioner-scope-of-practice-code</a></td><td></tr>
+<tr><td width='20%'>domicileCode</td><td>Domicile Code</td><td><a href='ValueSet-domicile-code.html'>https://standards.digital.health.nz/fhir/ValueSet/domicile-code</a></td><td></tr>
+
+These are ValueSets that have been defined in this guide for coded elements. 
+
+Each ValueSet resource has a globally unique url that is used to unambiguously identify it. 
+This url generally should resolve to the to the FHIR CodeSystem resource, though the infrastructure 
+to support this is not yet in place. 
+
+The [FHIR spec](http://hl7.org/fhir/terminology-module.html) has much more detail on the use of Terminology in FHIR
+
 </table>
 <br/><br/>
 ### CodeSystems
