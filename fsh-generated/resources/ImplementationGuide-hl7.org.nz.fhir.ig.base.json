@@ -28,6 +28,30 @@
     "resource": [
       {
         "reference": {
+          "reference": "StructureDefinition/additional-authorization"
+        },
+        "name": "AdditionalAuthorization",
+        "description": "Additional authorizations that a practitioner is authorized to perform",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/alias-type"
+        },
+        "name": "AliasType",
+        "description": "Indicates the type of alias name. VS Binding is done by the profile.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/authorized-by-patient"
+        },
+        "name": "AuthorizedByPatient",
+        "description": "If true, then indicates that the patient as authorized the use of this address or telecom to contact them.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
           "reference": "StructureDefinition/building-name"
         },
         "name": "Building Name",
@@ -40,6 +64,30 @@
         },
         "name": "ConditionOnPractice",
         "description": "A full description of the conditions the health practitioner is subject to in relation to their scope of practice.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/contactpoint-other"
+        },
+        "name": "ContactPointOther",
+        "description": "Other values for the ContactPoint system",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/current-occupation"
+        },
+        "name": "CurrentOccupation",
+        "description": "The current occupation for the patient",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/death-date"
+        },
+        "name": "DeathDate",
+        "description": "The date the person died.",
         "exampleBoolean": false
       },
       {
@@ -88,6 +136,14 @@
         },
         "name": "Information Source",
         "description": "The official source of information held about a patient.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/location-established"
+        },
+        "name": "LocationEstablished",
+        "description": "The period over which the location is open",
         "exampleBoolean": false
       },
       {
@@ -156,10 +212,34 @@
       },
       {
         "reference": {
+          "reference": "StructureDefinition/organization-established"
+        },
+        "name": "OrganizationEstablished",
+        "description": "The period over which the Organization is active",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
           "reference": "StructureDefinition/pho"
         },
         "name": "Primary Healthcare Organisation linked to a NZ Healthcare Service, Location or Patient",
         "description": "Primary Healthcare Organisation associated with a General Practice linked to a NZ Healthcare Service, Location (Facility) or Patient (GP).",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/practitionerRole-creator"
+        },
+        "name": "PractitionerRoleCreator",
+        "description": "The organisation and person that created this role",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/practitionerRole-status"
+        },
+        "name": "PractitionerRoleStatus",
+        "description": "The status of the role - active,ended",
         "exampleBoolean": false
       },
       {
@@ -204,10 +284,26 @@
       },
       {
         "reference": {
+          "reference": "StructureDefinition/validated-by-patient"
+        },
+        "name": "ValidatedByPatient",
+        "description": "If true, then indicates that the patient as indicated that the data is correct. Defined by healthAlliance",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
           "reference": "ValueSet/citizenship-status"
         },
         "name": "Citizenship status",
         "description": "Citizenship status",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/contact-point-other"
+        },
+        "name": "Other values for the ContactPoint system",
+        "description": "Other values for the ContactPoint system",
         "exampleBoolean": false
       },
       {
@@ -268,10 +364,26 @@
       },
       {
         "reference": {
+          "reference": "ValueSet/practitioner-additional-authorization"
+        },
+        "name": "Additional Authorisation for functions that a Practitioner can perform",
+        "description": "A coded type for additional authorisations",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
           "reference": "ValueSet/practitioner-registration-status-code"
         },
         "name": "Registration Status of Practitioners",
         "description": "The code list represents the current practicing status of the Provider Person as per their registration with an RA.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/hpi-practitionerrole-status-reason"
+        },
+        "name": "PractitionerRole status reason",
+        "description": "The reason for the current status of PractitionerRole",
         "exampleBoolean": false
       },
       {
@@ -284,10 +396,26 @@
       },
       {
         "reference": {
+          "reference": "CodeSystem/practitioner-additional-authorization"
+        },
+        "name": "Additional Authorisation",
+        "description": "Additional authorisations that a practitioner is authorised to practice or prescribe.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
           "reference": "CodeSystem/citizenship-status"
         },
         "name": "Citizenship status",
         "description": "Citizenship status",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/contact-point-other"
+        },
+        "name": "Other values for the ContactPoint system",
+        "description": "Other values for the ContactPoint system",
         "exampleBoolean": false
       },
       {
@@ -352,6 +480,14 @@
         },
         "name": "Registration Status of Practitioners",
         "description": "The code list represents the current practicing status of the Provider Person as per their registration with an RA.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/hpi-practitionerRole-status-reason"
+        },
+        "name": "PractitionerRole status reason",
+        "description": "The reason for the current status of PractitionerRole",
         "exampleBoolean": false
       },
       {
@@ -552,11 +688,6 @@
           "nameUrl": "extensions.html",
           "title": "Extensions",
           "generation": "html"
-        },
-        {
-          "nameUrl": "immaudit.html",
-          "title": "Immaudit",
-          "generation": "markdown"
         },
         {
           "nameUrl": "namingSystems.html",

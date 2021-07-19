@@ -1,0 +1,40 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "active",
+  "content": "complete",
+  "name": "PractitionerRoleStatusReason",
+  "id": "hpi-practitionerRole-status-reason",
+  "title": "PractitionerRole status reason",
+  "description": "The reason for the current status of PractitionerRole",
+  "version": "0.2.0",
+  "url": "https://standards.digital.health.nz/ns/hpi-practitioner-role-status-reason-code",
+  "concept": [
+    {
+      "code": "enteredInError",
+      "display": "enteredInError"
+    },
+    {
+      "code": "duplicate",
+      "display": "duplicate"
+    },
+    {
+      "code": "died",
+      "display": "died"
+    },
+    {
+      "code": "other",
+      "display": "other"
+    }
+  ],
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "code": "NZ",
+          "system": "urn:iso:std:iso:3166"
+        }
+      ]
+    }
+  ],
+  "count": 4
+}

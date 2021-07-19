@@ -1,0 +1,122 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "practitionerRole-creator",
+  "url": "http://hl7.org.nz/fhir/StructureDefinition/practitionerRole-creator",
+  "version": "0.2.0",
+  "name": "PractitionerRoleCreator",
+  "status": "draft",
+  "description": "The organisation and person that created this role",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "code": "NZ",
+          "system": "urn:iso:std:iso:3166"
+        }
+      ]
+    }
+  ],
+  "fhirVersion": "4.0.1",
+  "mapping": [
+    {
+      "identity": "rim",
+      "uri": "http://hl7.org/v3",
+      "name": "RIM Mapping"
+    }
+  ],
+  "kind": "complex-type",
+  "abstract": false,
+  "context": [
+    {
+      "type": "element",
+      "expression": "PractitionerRole"
+    }
+  ],
+  "type": "Extension",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Extension",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Extension",
+        "path": "Extension",
+        "definition": "The organisation and person that created this role"
+      },
+      {
+        "id": "Extension.extension",
+        "path": "Extension.extension",
+        "min": 1
+      },
+      {
+        "id": "Extension.extension:person",
+        "path": "Extension.extension",
+        "sliceName": "person",
+        "definition": "The person who created the role",
+        "min": 1,
+        "max": "1"
+      },
+      {
+        "id": "Extension.extension:person.extension",
+        "path": "Extension.extension.extension",
+        "max": "0"
+      },
+      {
+        "id": "Extension.extension:person.url",
+        "path": "Extension.extension.url",
+        "fixedUri": "person"
+      },
+      {
+        "id": "Extension.extension:person.value[x]",
+        "path": "Extension.extension.value[x]",
+        "type": [
+          {
+            "code": "Reference",
+            "targetProfile": [
+              "http://hl7.org/fhir/StructureDefinition/Practitioner"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Extension.extension:organization",
+        "path": "Extension.extension",
+        "sliceName": "organization",
+        "definition": "The organization where the person was working (acting on behalf of?)",
+        "min": 0,
+        "max": "1"
+      },
+      {
+        "id": "Extension.extension:organization.extension",
+        "path": "Extension.extension.extension",
+        "max": "0"
+      },
+      {
+        "id": "Extension.extension:organization.url",
+        "path": "Extension.extension.url",
+        "fixedUri": "organization"
+      },
+      {
+        "id": "Extension.extension:organization.value[x]",
+        "path": "Extension.extension.value[x]",
+        "type": [
+          {
+            "code": "Reference",
+            "targetProfile": [
+              "http://hl7.org/fhir/StructureDefinition/Organization"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Extension.url",
+        "path": "Extension.url",
+        "fixedUri": "http://hl7.org.nz/fhir/StructureDefinition/practitionerRole-creator"
+      },
+      {
+        "id": "Extension.value[x]",
+        "path": "Extension.value[x]",
+        "max": "0"
+      }
+    ]
+  }
+}

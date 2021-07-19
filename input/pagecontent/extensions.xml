@@ -5,6 +5,40 @@
 <th>FMM</th>
 <th>Status</th>
 </tr>
+<tr>
+<td><a href='StructureDefinition-additional-authorization.html'>additional-authorization</a></td>
+<td>http://hl7.org.nz/fhir/StructureDefinition/additional-authorization</td>
+<td>
+<div>Practitioner.qualification</div>
+</td>
+<td>Additional authorizations that a practitioner is authorized to perform</td>
+<td></td>
+<td>0</td>
+<td>draft</td>
+</tr>
+<tr>
+<td><a href='StructureDefinition-alias-type.html'>alias-type</a></td>
+<td>http://hl7.org.nz/fhir/StructureDefinition/alias-type</td>
+<td>
+<div>Location.alias</div>
+</td>
+<td>Indicates the type of alias name. VS Binding is done by the profile.</td>
+<td></td>
+<td>0</td>
+<td>draft</td>
+</tr>
+<tr>
+<td><a href='StructureDefinition-authorized-by-patient.html'>authorized-by-patient</a></td>
+<td>http://hl7.org.nz/fhir/StructureDefinition/authorized-by-patient</td>
+<td>
+<div>Address</div>
+<div>ContactPoint</div>
+</td>
+<td>If true, then indicates that the patient as authorized the use of this address or telecom to contact them.</td>
+<td></td>
+<td>0</td>
+<td>draft</td>
+</tr>
 <tr style='background-color:#FFCCCC'>
 <td><a href='StructureDefinition-building-name.html'>building-name</a></td>
 <td>http://hl7.org.nz/fhir/StructureDefinition/building-name</td>
@@ -26,6 +60,39 @@
 <td></td>
 <td>0</td>
 <td>active</td>
+</tr>
+<tr>
+<td><a href='StructureDefinition-contactpoint-other.html'>contactpoint-other</a></td>
+<td>http://hl7.org.nz/fhir/StructureDefinition/contactpoint-other</td>
+<td>
+<div>ContactPoint</div>
+</td>
+<td>Other values for the ContactPoint system</td>
+<td></td>
+<td>0</td>
+<td>draft</td>
+</tr>
+<tr>
+<td><a href='StructureDefinition-current-occupation.html'>current-occupation</a></td>
+<td>http://hl7.org.nz/fhir/StructureDefinition/current-occupation</td>
+<td>
+<div>Patient</div>
+</td>
+<td>The current occupation for the patient</td>
+<td></td>
+<td>0</td>
+<td>draft</td>
+</tr>
+<tr>
+<td><a href='StructureDefinition-death-date.html'>death-date</a></td>
+<td>http://hl7.org.nz/fhir/StructureDefinition/death-date</td>
+<td>
+<div>Practitioner</div>
+</td>
+<td>The date the person died.</td>
+<td>The date the person died. (def) </td>
+<td>0</td>
+<td>draft</td>
 </tr>
 <tr style='background-color:#FFCCCC'>
 <td><a href='StructureDefinition-dhb.html'>dhb</a></td>
@@ -96,6 +163,17 @@
 <td></td>
 <td>0</td>
 <td>active</td>
+</tr>
+<tr>
+<td><a href='StructureDefinition-location-established.html'>location-established</a></td>
+<td>http://hl7.org.nz/fhir/StructureDefinition/location-established</td>
+<td>
+<div>Location</div>
+</td>
+<td>The period over which the location is open</td>
+<td></td>
+<td>0</td>
+<td>draft</td>
 </tr>
 <tr style='background-color:#FFCCCC'>
 <td><a href='StructureDefinition-long-term-condition.html'>long-term-condition</a></td>
@@ -187,6 +265,17 @@
 <td>1</td>
 <td>active</td>
 </tr>
+<tr>
+<td><a href='StructureDefinition-organization-established.html'>organization-established</a></td>
+<td>http://hl7.org.nz/fhir/StructureDefinition/organization-established</td>
+<td>
+<div>Organization</div>
+</td>
+<td>The period over which the Organization is active</td>
+<td></td>
+<td>0</td>
+<td>draft</td>
+</tr>
 <tr style='background-color:#FFCCCC'>
 <td><a href='StructureDefinition-pho.html'>pho</a></td>
 <td>http://hl7.org.nz/fhir/StructureDefinition/pho</td>
@@ -199,6 +288,28 @@
 <td>Administrative - to allow NZ HealthcareService, Location (Facility) or Patient Resources to include the related Primary Healthcare Organisation.</td>
 <td>1</td>
 <td>active</td>
+</tr>
+<tr>
+<td><a href='StructureDefinition-practitionerRole-creator.html'>practitionerRole-creator</a></td>
+<td>http://hl7.org.nz/fhir/StructureDefinition/practitionerRole-creator</td>
+<td>
+<div>PractitionerRole</div>
+</td>
+<td>The organisation and person that created this role</td>
+<td></td>
+<td>0</td>
+<td>draft</td>
+</tr>
+<tr>
+<td><a href='StructureDefinition-practitionerRole-status.html'>practitionerRole-status</a></td>
+<td>http://hl7.org.nz/fhir/StructureDefinition/practitionerRole-status</td>
+<td>
+<div>PractitionerRole</div>
+</td>
+<td>The status of the role - active,ended</td>
+<td></td>
+<td>0</td>
+<td>draft</td>
 </tr>
 <tr style='background-color:#FFCCCC'>
 <td><a href='StructureDefinition-registration-initial-date.html'>registration-initial-date</a></td>
@@ -254,6 +365,18 @@
 <td>Required as FHIR Base Address Type does not contain an element for Suburb (only District or State which, in population terms, are both broader than City - whereas Suburb is narrower).</td>
 <td>1</td>
 <td>active</td>
+</tr>
+<tr>
+<td><a href='StructureDefinition-validated-by-patient.html'>validated-by-patient</a></td>
+<td>http://hl7.org.nz/fhir/StructureDefinition/validated-by-patient</td>
+<td>
+<div>Address</div>
+<div>ContactPoint</div>
+</td>
+<td>If true, then indicates that the patient as indicated that the data is correct. Defined by healthAlliance</td>
+<td></td>
+<td>0</td>
+<td>draft</td>
 </tr>
 </table>
 <a name="externalExtensions"> </a>

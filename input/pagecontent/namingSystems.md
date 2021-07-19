@@ -27,7 +27,7 @@ These are identifiers defined in this IG. They are defined using <a href='http:/
 <tr><td>Paramedic Council Register Number</td><td><div>https://standards.digital.health.nz/ns/paramedic-council-id</div></td><td></td><td>HISO</td></tr>
 <tr><td>Pharmacy Council of New Zealand Register Number</td><td><div>https://standards.digital.health.nz/ns/pharmacy-council-id</div></td><td><ul><li>2.16.840.1.113883.2.18.68 (oid) </li><li>2.16.840.1.113883.2.18.9 (oid) </li></ul></td><td>HISO</td></tr>
 <tr><td>Physiotherapy Board Register Number</td><td><div>https://standards.digital.health.nz/ns/physiotherapy-board-id</div></td><td><ul><li>2.16.840.1.113883.2.18.70.7 (oid) </li></ul></td><td>HISO</td></tr>
-<tr><td>Podiatrists Board Register Number</td><td><div> https://standards.digital.health.nz/ns/podiatrists-board-id </div></td><td><ul><li>2.16.840.1.113883.2.18.70.8 (oid) </li></ul></td><td>HISO</td></tr>
+<tr><td>Podiatrists Board Register Number</td><td><div> https://standards.digital.health.nz/ns/podiatrists-board-id</div></td><td><ul><li>2.16.840.1.113883.2.18.70.8 (oid) </li></ul></td><td>HISO</td></tr>
 <tr><td>Psychotherapists Board register Number</td><td><div>https://standards.digital.health.nz/ns/psychotherapists-board-id</div></td><td><ul><li>2.16.840.1.113883.2.18.70.7 (oid) </li></ul></td><td>HISO</td></tr>
 <tr><td>Psychologists Board Register Number</td><td><div>https://standards.digital.health.nz/ns/psychologists-board-id</div></td><td><ul><li>2.16.840.1.113883.2.18.70.9 (oid) </li></ul></td><td>HISO</td></tr>
 <tr><td>Medical Radiation Technologists Board Register Number</td><td><div>https://standards.digital.health.nz/ns/medical-radiation-technologists-board-id</div></td><td></td><td>HISO</td></tr>

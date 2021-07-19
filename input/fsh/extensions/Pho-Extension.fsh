@@ -36,6 +36,6 @@ Description: "Primary Healthcare Organisation associated with a General Practice
 
 * value[x] ^example[0].label = "Procare Networks Ltd"
 * value[x] ^example[0].valueCodeableConcept.coding[0].version = "1.0"
-* value[x] ^example[0].valueCodeableConcept.coding[0] = $pho-code-cs#G05533-K "Procare"
+* value[x] ^example[0].valueCodeableConcept.coding[0] = $pho-code-cs#G05533-K "Procare Networks Limited"
 * value[x] ^isModifier = false
 * value[x] ^binding.description = "NZ HPI-ORG Values for PHOs"

@@ -1,0 +1,70 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "validated-by-patient",
+  "url": "http://hl7.org.nz/fhir/StructureDefinition/validated-by-patient",
+  "version": "0.2.0",
+  "name": "ValidatedByPatient",
+  "status": "draft",
+  "description": "If true, then indicates that the patient as indicated that the data is correct. Defined by healthAlliance",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "code": "NZ",
+          "system": "urn:iso:std:iso:3166"
+        }
+      ]
+    }
+  ],
+  "fhirVersion": "4.0.1",
+  "mapping": [
+    {
+      "identity": "rim",
+      "uri": "http://hl7.org/v3",
+      "name": "RIM Mapping"
+    }
+  ],
+  "kind": "complex-type",
+  "abstract": false,
+  "context": [
+    {
+      "type": "element",
+      "expression": "Address"
+    },
+    {
+      "type": "element",
+      "expression": "ContactPoint"
+    }
+  ],
+  "type": "Extension",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Extension",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Extension",
+        "path": "Extension",
+        "definition": "If true, then indicates that the patient as indicated that the data is correct. Defined by healthAlliance"
+      },
+      {
+        "id": "Extension.extension",
+        "path": "Extension.extension",
+        "max": "0"
+      },
+      {
+        "id": "Extension.url",
+        "path": "Extension.url",
+        "fixedUri": "http://hl7.org.nz/fhir/StructureDefinition/validated-by-patient"
+      },
+      {
+        "id": "Extension.value[x]",
+        "path": "Extension.value[x]",
+        "type": [
+          {
+            "code": "boolean"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,14 +1,89 @@
-### nz-citizenship-status-code
+
+#### nz-citizenship-status-code
 
 <div><a href='ValueSet-citizenship-status.html'>https://standards.digital.health.nz/fhir/ValueSet/nz-citizenship-status-code</a></div>
 
-Error expanding on IG server
+<table class='table table-bordered'>
 
-Failed to call access method: java.lang.NullPointerException
+<tr><th>Description from IG</th><th>Description from Termnz</th></tr>
 
-### dhb-code
+<tr>
+
+<td width='50%'>Citizenship status</td>
+
+<td>NZ Citizenship Status Codes</td>
+
+</tr>
+
+</table>
+
+Found in IG server. 2 concepts.
+
+Found in Termnz. 3 concepts. (Using url: https://terminz.azurewebsites.net/fhir/ValueSet/nz-citizenship-status-code)
+
+<strong>Concepts only found in ig</strong>
+
+<ul>
+
+<li> https://standards.digital.health.nz/ns/nz-citizenship-status-code|CITIZEN </li>
+
+<li> https://standards.digital.health.nz/ns/nz-citizenship-status-code|RESIDENT </li>
+
+</ul>
+
+<strong>Concepts only found in termnz</strong>
+
+<ul>
+
+<li> https://standards.digital.health.nz/ns/nz-citizenship-status-code|CIT </li>
+
+<li> https://standards.digital.health.nz/ns/nz-citizenship-status-code|NCIT </li>
+
+<li> https://standards.digital.health.nz/ns/nz-citizenship-status-code|UNK </li>
+
+</ul>
+
+
+#### contact-point-other-code
+
+<div><a href='ValueSet-contact-point-other.html'>https://standards.digital.health.nz/fhir/ValueSet/contact-point-other-code</a></div>
+
+<table class='table table-bordered'>
+
+<tr><th>Description from IG</th><th>Description from Termnz</th></tr>
+
+<tr>
+
+<td width='50%'>Other values for the ContactPoint system</td>
+
+<td></td>
+
+</tr>
+
+</table>
+
+Found in IG server. 2 concepts.
+
+Mapping to termnz url not available. Unable to check.
+
+
+#### dhb-code
 
 <div><a href='ValueSet-dhb.html'>https://standards.digital.health.nz/fhir/ValueSet/dhb-code</a></div>
+
+<table class='table table-bordered'>
+
+<tr><th>Description from IG</th><th>Description from Termnz</th></tr>
+
+<tr>
+
+<td width='50%'>District Health Board Identifer. Assigned by the HPI.</td>
+
+<td>NZ District Health Board (HPI-ORG) Codes</td>
+
+</tr>
+
+</table>
 
 Found in IG server. 20 concepts.
 
@@ -16,9 +91,24 @@ Found in Termnz. 20 concepts. (Using url: https://terminz.azurewebsites.net/fhir
 
 The contents of the valueSets are the same. Hurrah! (comparing system & code)
 
-### domicile-code
+
+#### domicile-code
 
 <div><a href='ValueSet-domicile-code.html'>https://standards.digital.health.nz/fhir/ValueSet/domicile-code</a></div>
+
+<table class='table table-bordered'>
+
+<tr><th>Description from IG</th><th>Description from Termnz</th></tr>
+
+<tr>
+
+<td width='50%'>Domicile Code</td>
+
+<td>New Zealand Domicile Codes</td>
+
+</tr>
+
+</table>
 
 Found in IG server. 2341 concepts.
 
@@ -26,9 +116,25 @@ Found in Termnz. 2341 concepts. (Using url: https://terminz.azurewebsites.net/fh
 
 The contents of the valueSets are the same. Hurrah! (comparing system & code)
 
-### ethnic-group-level-4-code
+
+#### ethnic-group-level-4-code
 
 <div><a href='ValueSet-ethnicity.html'>https://standards.digital.health.nz/fhir/ValueSet/ethnic-group-level-4-code</a></div>
+
+<table class='table table-bordered'>
+
+<tr><th>Description from IG</th><th>Description from Termnz</th></tr>
+
+<tr>
+
+<td width='50%'>Codes to record a person’s ethnicity, drawn from Level 4 of the Ethnicity code system 
+described at http://aria.stats.govt.nz/aria/#ClassificationView:uri=http://stats.govt.nz/cms/ClassificationVersion/YVqOcFHSlguKkT17</td>
+
+<td>NZ Ethnicity Level 4 Codes</td>
+
+</tr>
+
+</table>
 
 Found in IG server. 239 concepts.
 
@@ -36,9 +142,24 @@ Found in Termnz. 239 concepts. (Using url: https://terminz.azurewebsites.net/fhi
 
 The contents of the valueSets are the same. Hurrah! (comparing system & code)
 
-### funded-programme-code
+
+#### funded-programme-code
 
 <div><a href='ValueSet-funded-programme.html'>https://standards.digital.health.nz/fhir/ValueSet/funded-programme-code</a></div>
+
+<table class='table table-bordered'>
+
+<tr><th>Description from IG</th><th>Description from Termnz</th></tr>
+
+<tr>
+
+<td width='50%'>Some sort of funded programme</td>
+
+<td>NZ Funded Healthcare Programme Codes</td>
+
+</tr>
+
+</table>
 
 Found in IG server. 4 concepts.
 
@@ -52,9 +173,47 @@ Found in Termnz. 3 concepts. (Using url: https://terminz.azurewebsites.net/fhir/
 
 </ul>
 
-### information-source-code
+
+#### hpi-practitioner-role-status-reason-code
+
+<div><a href='ValueSet-hpi-practitionerrole-status-reason.html'>https://standards.digital.health.nz/fhir/ValueSet/hpi-practitioner-role-status-reason-code</a></div>
+
+<table class='table table-bordered'>
+
+<tr><th>Description from IG</th><th>Description from Termnz</th></tr>
+
+<tr>
+
+<td width='50%'>The reason for the current status of PractitionerRole</td>
+
+<td></td>
+
+</tr>
+
+</table>
+
+Found in IG server. 4 concepts.
+
+Mapping to termnz url not available. Unable to check.
+
+
+#### information-source-code
 
 <div><a href='ValueSet-information-source.html'>https://standards.digital.health.nz/fhir/ValueSet/information-source-code</a></div>
+
+<table class='table table-bordered'>
+
+<tr><th>Description from IG</th><th>Description from Termnz</th></tr>
+
+<tr>
+
+<td width='50%'>The source from where the value of this item was sourced</td>
+
+<td>New Zealand Information Sources</td>
+
+</tr>
+
+</table>
 
 Found in IG server. 25 concepts.
 
@@ -62,9 +221,24 @@ Found in Termnz. 25 concepts. (Using url: https://terminz.azurewebsites.net/fhir
 
 The contents of the valueSets are the same. Hurrah! (comparing system & code)
 
-### nz-residency-status-code
+
+#### nz-residency-status-code
 
 <div><a href='ValueSet-nz-residency-status.html'>https://standards.digital.health.nz/fhir/ValueSet/nz-residency-status-code</a></div>
+
+<table class='table table-bordered'>
+
+<tr><th>Description from IG</th><th>Description from Termnz</th></tr>
+
+<tr>
+
+<td width='50%'>Is the person a NZ resident</td>
+
+<td>NZ Residency Status Codes</td>
+
+</tr>
+
+</table>
 
 Found in IG server. 3 concepts.
 
@@ -72,91 +246,97 @@ Found in Termnz. 3 concepts. (Using url: https://terminz.azurewebsites.net/fhir/
 
 The contents of the valueSets are the same. Hurrah! (comparing system & code)
 
-### pho-code
+
+#### pho-code
 
 <div><a href='ValueSet-pho.html'>https://standards.digital.health.nz/fhir/ValueSet/pho-code</a></div>
 
-Found in IG server. 0 concepts.
+<table class='table table-bordered'>
+
+<tr><th>Description from IG</th><th>Description from Termnz</th></tr>
+
+<tr>
+
+<td width='50%'>Primary Healthcare Organization</td>
+
+<td>NZ Primary Healthcare Organisation (HPI-ORG) Codes</td>
+
+</tr>
+
+</table>
+
+Found in IG server. 30 concepts.
 
 Found in Termnz. 30 concepts. (Using url: https://terminz.azurewebsites.net/fhir/ValueSet/pho-code)
 
-<strong>Concepts only found in termnz</strong>
+The contents of the valueSets are the same. Hurrah! (comparing system & code)
 
-<ul>
 
-<li> https://standards.digital.health.nz/ns/pho-code|G04587-F </li>
+#### practitioner-additional-authorisation-code
 
-<li> https://standards.digital.health.nz/ns/pho-code|G05487-G </li>
+<div><a href='ValueSet-practitioner-additional-authorization.html'>https://standards.digital.health.nz/fhir/ValueSet/practitioner-additional-authorisation-code</a></div>
 
-<li> https://standards.digital.health.nz/ns/pho-code|G05491-J </li>
+<table class='table table-bordered'>
 
-<li> https://standards.digital.health.nz/ns/pho-code|G02384-D </li>
+<tr><th>Description from IG</th><th>Description from Termnz</th></tr>
 
-<li> https://standards.digital.health.nz/ns/pho-code|G00755-C </li>
+<tr>
 
-<li> https://standards.digital.health.nz/ns/pho-code|G05272-H </li>
+<td width='50%'>A coded type for additional authorisations</td>
 
-<li> https://standards.digital.health.nz/ns/pho-code|G05493-B </li>
+<td></td>
 
-<li> https://standards.digital.health.nz/ns/pho-code|G05495-F </li>
+</tr>
 
-<li> https://standards.digital.health.nz/ns/pho-code|G05494-D </li>
+</table>
 
-<li> https://standards.digital.health.nz/ns/pho-code|G09738-D </li>
+Found in IG server. 41 concepts.
 
-<li> https://standards.digital.health.nz/ns/pho-code|G05498-A </li>
+Mapping to termnz url not available. Unable to check.
 
-<li> https://standards.digital.health.nz/ns/pho-code|G0F252-G </li>
 
-<li> https://standards.digital.health.nz/ns/pho-code|G04639-K </li>
-
-<li> https://standards.digital.health.nz/ns/pho-code|G05484-A </li>
-
-<li> https://standards.digital.health.nz/ns/pho-code|G05507-J </li>
-
-<li> https://standards.digital.health.nz/ns/pho-code|G05454-C </li>
-
-<li> https://standards.digital.health.nz/ns/pho-code|G00246-D </li>
-
-<li> https://standards.digital.health.nz/ns/pho-code|G04805-A </li>
-
-<li> https://standards.digital.health.nz/ns/pho-code|G04764-B </li>
-
-<li> https://standards.digital.health.nz/ns/pho-code|G03310-B </li>
-
-<li> https://standards.digital.health.nz/ns/pho-code|G05533-K </li>
-
-<li> https://standards.digital.health.nz/ns/pho-code|G08550-C </li>
-
-<li> https://standards.digital.health.nz/ns/pho-code|G00886-G </li>
-
-<li> https://standards.digital.health.nz/ns/pho-code|G00025-K </li>
-
-<li> https://standards.digital.health.nz/ns/pho-code|G05589-D </li>
-
-<li> https://standards.digital.health.nz/ns/pho-code|G05596-A </li>
-
-<li> https://standards.digital.health.nz/ns/pho-code|G05569-J </li>
-
-<li> https://standards.digital.health.nz/ns/pho-code|G00039-K </li>
-
-<li> https://standards.digital.health.nz/ns/pho-code|G00507-F </li>
-
-<li> https://standards.digital.health.nz/ns/pho-code|G01220-B </li>
-
-</ul>
-
-### practitioner-registration-status-code
+#### practitioner-registration-status-code
 
 <div><a href='ValueSet-practitioner-registration-status-code.html'>https://standards.digital.health.nz/fhir/ValueSet/practitioner-registration-status-code</a></div>
 
-Error expanding on IG server
+<table class='table table-bordered'>
 
-Unknown code system: https://standards.digital.health.nz/ns/practitioner-registration-status
+<tr><th>Description from IG</th><th>Description from Termnz</th></tr>
 
-### practitioner-scope-of-practice-code
+<tr>
+
+<td width='50%'>The code list represents the current practicing status of the Provider Person as per their registration with an RA.</td>
+
+<td>Practitioner Status Codes Used in NZ</td>
+
+</tr>
+
+</table>
+
+Found in IG server. 4 concepts.
+
+Found in Termnz. 4 concepts. (Using url: https://terminz.azurewebsites.net/fhir/ValueSet/practitioner-registration-status-code)
+
+The contents of the valueSets are the same. Hurrah! (comparing system & code)
+
+
+#### practitioner-scope-of-practice-code
 
 <div><a href='ValueSet-practitioner-scope-of-practice.html'>https://standards.digital.health.nz/fhir/ValueSet/practitioner-scope-of-practice-code</a></div>
+
+<table class='table table-bordered'>
+
+<tr><th>Description from IG</th><th>Description from Termnz</th></tr>
+
+<tr>
+
+<td width='50%'>A coded type for professional scope of practice.</td>
+
+<td>New Zealand Practitioner Scope of Practice Codes</td>
+
+</tr>
+
+</table>
 
 Found in IG server. 113 concepts.
 
