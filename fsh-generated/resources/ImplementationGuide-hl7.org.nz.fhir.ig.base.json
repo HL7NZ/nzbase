@@ -680,6 +680,14 @@
         },
         "name": "nzscience",
         "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "Patient/patient-dhb"
+        },
+        "name": "patient-dhb",
+        "description": "Patient1",
+        "exampleBoolean": true
       }
     ],
     "page": {
