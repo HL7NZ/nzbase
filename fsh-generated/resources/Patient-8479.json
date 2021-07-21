@@ -1,0 +1,116 @@
+{
+  "resourceType": "Patient",
+  "id": "8479",
+  "name": [
+    {
+      "text": "John Doe"
+    }
+  ],
+  "address": [
+    {
+      "line": [
+        "23 Thule st",
+        "Erewhon"
+      ],
+      "extension": [
+        {
+          "url": "http://hl7.org.nz/fhir/StructureDefinition/suburb",
+          "valueString": "Little Bay"
+        },
+        {
+          "url": "http://hl7.org.nz/fhir/StructureDefinition/building-name",
+          "valueString": "Big blue building"
+        },
+        {
+          "url": "http://hl7.org.nz/fhir/StructureDefinition/nz-geocode",
+          "extension": [
+            {
+              "url": "latitude",
+              "valueDecimal": -41
+            },
+            {
+              "url": "longitude",
+              "valueDecimal": 172
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "extension": [
+    {
+      "url": "http://hl7.org.nz/fhir/StructureDefinition/domicile-code",
+      "valueCodeableConcept": {
+        "coding": [
+          {
+            "code": "0040",
+            "system": "https://standards.digital.health.nz/ns/domicile-code",
+            "display": "Waipu"
+          }
+        ]
+      }
+    },
+    {
+      "url": "http://hl7.org.nz/fhir/StructureDefinition/dhb",
+      "valueCodeableConcept": {
+        "coding": [
+          {
+            "code": "G00026-A",
+            "system": "https://standards.digital.health.nz/ns/dhb-code",
+            "display": "Northland"
+          }
+        ]
+      }
+    },
+    {
+      "url": "http://hl7.org.nz/fhir/StructureDefinition/nz-citizenship",
+      "extension": [
+        {
+          "url": "status",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "code": "CITIZEN",
+                "system": "https://standards.digital.health.nz/ns/nz-citizenship-status-code"
+              }
+            ]
+          }
+        },
+        {
+          "url": "source",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "code": "PPRT",
+                "system": "https://standards.digital.health.nz/ns/information-source-code"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "url": "http://hl7.org.nz/fhir/StructureDefinition/nz-ethnicity",
+      "valueCodeableConcept": {
+        "coding": [
+          {
+            "code": "10000",
+            "system": "https://standards.digital.health.nz/ns/ethnic-group-level-4-code",
+            "display": "European NFD"
+          }
+        ]
+      }
+    },
+    {
+      "url": "http://hl7.org.nz/fhir/StructureDefinition/pho",
+      "valueCodeableConcept": {
+        "coding": [
+          {
+            "code": "G05569-J",
+            "system": "https://standards.digital.health.nz/ns/pho-code"
+          }
+        ]
+      }
+    }
+  ]
+}

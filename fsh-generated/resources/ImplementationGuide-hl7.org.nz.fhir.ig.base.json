@@ -500,6 +500,14 @@
       },
       {
         "reference": {
+          "reference": "Patient/8479"
+        },
+        "name": "8479",
+        "description": "Patient1",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
           "reference": "NamingSystem/hpiFacility"
         },
         "name": "hpiFacility",

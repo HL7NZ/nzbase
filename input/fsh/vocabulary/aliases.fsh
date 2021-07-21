@@ -1,15 +1,5 @@
 
-//Aliases for CodeSystems
-Alias: $dhb-code-cs = https://standards.digital.health.nz/ns/dhb-code
-Alias: $pho-code-cs = https://standards.digital.health.nz/ns/pho-code
-Alias: $domicile-code-cs = https://standards.digital.health.nz/ns/domicile-code
-Alias: $funded-programme-cs = https://standards.digital.health.nz/ns/funded-programme-code
-Alias: $information-source-cs = https://standards.digital.health.nz/ns/information-source-code
-Alias: $nz-residency-status-cs = https://standards.digital.health.nz/ns/nz-residency-status-code
-Alias: $citizenship-status-cs = https://standards.digital.health.nz/ns/nz-citizenship-status-code
-Alias: $ethnicity-code-cs = https://standards.digital.health.nz/ns/ethnic-group-level-4-code
-Alias: $condition-on-practice-cs = https://standards.digital.health.nz/ns/condition-on-practice-code
-
+//Aliases for extensions
 
 //Aliases for ValueSets
 Alias: $pho-code-vs = https://standards.digital.health.nz/fhir/ValueSet/pho-code
@@ -31,4 +21,16 @@ Alias: $information-source-vs = https://standards.digital.health.nz/fhir/ValueSe
 Alias: $ethnicity-code-vs = https://standards.digital.health.nz/fhir/ValueSet/ethnic-group-level-4-code
 Alias: $condition-on-practice-vs = https://standards.digital.health.nz/fhir/ValueSet/condition-on-practice-code
 
-//Aliases for extensions
+
+
+//Aliases for CodeSystems
+Alias: $dhb-code-cs = https://standards.digital.health.nz/ns/dhb-code
+Alias: $pho-code-cs = https://standards.digital.health.nz/ns/pho-code
+Alias: $domicile-code-cs = https://standards.digital.health.nz/ns/domicile-code
+Alias: $funded-programme-cs = https://standards.digital.health.nz/ns/funded-programme-code
+Alias: $information-source-cs = https://standards.digital.health.nz/ns/information-source-code
+Alias: $nz-residency-status-cs = https://standards.digital.health.nz/ns/nz-residency-status-code
+Alias: $citizenship-status-cs = https://standards.digital.health.nz/ns/nz-citizenship-status-code
+Alias: $ethnicity-code-cs = https://standards.digital.health.nz/ns/ethnic-group-level-4-code
+Alias: $condition-on-practice-cs = https://standards.digital.health.nz/ns/condition-on-practice-code
+
