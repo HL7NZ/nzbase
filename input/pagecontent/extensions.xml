@@ -6,12 +6,12 @@
 <th>Status</th>
 </tr>
 <tr>
-<td><a href='StructureDefinition-additional-authorization.html'>additional-authorization</a></td>
-<td>http://hl7.org.nz/fhir/StructureDefinition/additional-authorization</td>
+<td><a href='StructureDefinition-additional-authorisation.html'>additional-authorisation</a></td>
+<td>http://hl7.org.nz/fhir/StructureDefinition/additional-authorisation</td>
 <td>
 <div>Practitioner.qualification</div>
 </td>
-<td>Additional authorizations that a practitioner is authorized to perform</td>
+<td>Additional authorisations that a practitioner is authorised to perform</td>
 <td></td>
 <td>0</td>
 <td>draft</td>
@@ -339,7 +339,7 @@
 <td>
 <div>Practitioner.qualification</div>
 </td>
-<td>The type or range of health services a practitioner is authorized to perform, as determined by the Responsible Authority or professional body.</td>
+<td>The type or range of health services a practitioner is authorised to perform, as determined by the Responsible Authority or professional body.</td>
 <td></td>
 <td>0</td>
 <td>active</td>

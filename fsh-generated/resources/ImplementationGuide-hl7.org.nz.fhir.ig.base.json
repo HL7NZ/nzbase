@@ -28,10 +28,10 @@
     "resource": [
       {
         "reference": {
-          "reference": "StructureDefinition/additional-authorization"
+          "reference": "StructureDefinition/additional-authorisation"
         },
-        "name": "AdditionalAuthorization",
-        "description": "Additional authorizations that a practitioner is authorized to perform",
+        "name": "AdditionalAuthorisation",
+        "description": "Additional authorisations that a practitioner is authorised to perform",
         "exampleBoolean": false
       },
       {
@@ -263,7 +263,7 @@
           "reference": "StructureDefinition/scope-of-practice"
         },
         "name": "ScopeOfPractice",
-        "description": "The type or range of health services a practitioner is authorized to perform, as determined by the Responsible Authority or professional body.",
+        "description": "The type or range of health services a practitioner is authorised to perform, as determined by the Responsible Authority or professional body.",
         "exampleBoolean": false
       },
       {
@@ -364,7 +364,7 @@
       },
       {
         "reference": {
-          "reference": "ValueSet/practitioner-additional-authorization"
+          "reference": "ValueSet/practitioner-additional-authorisation"
         },
         "name": "Additional Authorisation for functions that a Practitioner can perform",
         "description": "A coded type for additional authorisations",
@@ -396,7 +396,7 @@
       },
       {
         "reference": {
-          "reference": "CodeSystem/practitioner-additional-authorization"
+          "reference": "CodeSystem/practitioner-additional-authorisation"
         },
         "name": "Additional Authorisation",
         "description": "Additional authorisations that a practitioner is authorised to practice or prescribe.",

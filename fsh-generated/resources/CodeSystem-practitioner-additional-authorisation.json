@@ -2,12 +2,12 @@
   "resourceType": "CodeSystem",
   "status": "active",
   "content": "complete",
-  "name": "AdditionalAuthorization",
-  "id": "practitioner-additional-authorization",
+  "name": "AdditionalAuthorisation",
+  "id": "practitioner-additional-authorisation",
   "title": "Additional Authorisation",
   "description": "Additional authorisations that a practitioner is authorised to practice or prescribe.",
   "version": "0.2.0",
-  "url": "https://standards.digital.health.nz/ns/practitioner-additional-authorization-code",
+  "url": "https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code",
   "concept": [
     {
       "code": "CA01",

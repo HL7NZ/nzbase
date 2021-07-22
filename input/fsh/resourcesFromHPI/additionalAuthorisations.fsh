@@ -1,20 +1,20 @@
 
-ValueSet: PractitionerAdditionalAuthorization
-Id: practitioner-additional-authorization
+ValueSet: PractitionerAdditionalAuthorisation
+Id: practitioner-additional-authorisation
 Title: "Additional Authorisation for functions that a Practitioner can perform"
 Description: "A coded type for additional authorisations"
 
 * ^url = "https://standards.digital.health.nz/fhir/ValueSet/practitioner-additional-authorisation-code"
 * ^jurisdiction.coding = urn:iso:std:iso:3166#NZ
 
-* codes from system https://standards.digital.health.nz/ns/practitioner-additional-authorization-code
+* codes from system https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code
 
-CodeSystem: AdditionalAuthorization
-Id: practitioner-additional-authorization
+CodeSystem: AdditionalAuthorisation
+Id: practitioner-additional-authorisation
 Title: "Additional Authorisation"
 Description: "Additional authorisations that a practitioner is authorised to practice or prescribe."
 
-* ^url = "https://standards.digital.health.nz/ns/practitioner-additional-authorization-code" 
+* ^url = "https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code" 
 * ^jurisdiction.coding = urn:iso:std:iso:3166#NZ
 
 * #CA01 "Cardiothoracic Surgery: Cardiothoracic Surgeon"

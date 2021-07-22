@@ -1,8 +1,8 @@
-Extension: AdditionalAuthorization
-Id: additional-authorization
-Description: "Additional authorizations that a practitioner is authorized to perform"
+Extension: AdditionalAuthorisation
+Id: additional-authorisation
+Description: "Additional authorisations that a practitioner is authorised to perform"
 
-* ^url = "http://hl7.org.nz/fhir/StructureDefinition/additional-authorization"
+* ^url = "http://hl7.org.nz/fhir/StructureDefinition/additional-authorisation"
 * ^jurisdiction.coding = urn:iso:std:iso:3166#NZ
 
 * ^status = #draft
@@ -21,5 +21,5 @@ Description: "Additional authorizations that a practitioner is authorized to per
 * extension[code].valueCodeableConcept from https://standards.digital.health.nz/fhir/ValueSet/practitioner-additional-authorisation-code (preferred)
 
 * extension[period].url = "period" (exactly)
-* extension[period] ^definition = "The period the additional authorization is effective"
+* extension[period] ^definition = "The period the additional authorisation is effective"
 * extension[period].value[x] only Period

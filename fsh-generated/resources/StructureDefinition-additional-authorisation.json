@@ -1,11 +1,11 @@
 {
   "resourceType": "StructureDefinition",
-  "id": "condition-on-practice",
-  "url": "http://hl7.org.nz/fhir/StructureDefinition/condition-on-practice",
+  "id": "additional-authorisation",
+  "url": "http://hl7.org.nz/fhir/StructureDefinition/additional-authorisation",
   "version": "0.2.0",
-  "name": "ConditionOnPractice",
-  "status": "active",
-  "description": "A full description of the conditions the health practitioner is subject to in relation to their scope of practice.",
+  "name": "AdditionalAuthorisation",
+  "status": "draft",
+  "description": "Additional authorisations that a practitioner is authorised to perform",
   "jurisdiction": [
     {
       "coding": [
@@ -51,7 +51,7 @@
         ],
         "path": "Extension",
         "short": "Optional Extensions Element",
-        "definition": "A full description of the conditions the health practitioner is subject to in relation to their scope of practice.",
+        "definition": "Additional authorisations that a practitioner is authorised to perform",
         "min": 0,
         "max": "*",
         "base": {
@@ -186,11 +186,11 @@
         ]
       },
       {
-        "id": "Extension.extension:description",
+        "id": "Extension.extension:code",
         "path": "Extension.extension",
-        "sliceName": "description",
+        "sliceName": "code",
         "short": "Additional content defined by implementations",
-        "definition": "The condition on practice as text",
+        "definition": "A code identifying the additional authorisations that a practitioner is authorised to perform",
         "comment": "There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.",
         "alias": [
           "extensions",
@@ -236,7 +236,7 @@
         ]
       },
       {
-        "id": "Extension.extension:description.id",
+        "id": "Extension.extension:code.id",
         "path": "Extension.extension.id",
         "representation": [
           "xmlAttr"
@@ -271,7 +271,7 @@
         ]
       },
       {
-        "id": "Extension.extension:description.extension",
+        "id": "Extension.extension:code.extension",
         "path": "Extension.extension.extension",
         "slicing": {
           "discriminator": [
@@ -330,7 +330,7 @@
         ]
       },
       {
-        "id": "Extension.extension:description.url",
+        "id": "Extension.extension:code.url",
         "path": "Extension.extension.url",
         "representation": [
           "xmlAttr"
@@ -356,7 +356,7 @@
             ]
           }
         ],
-        "fixedUri": "description",
+        "fixedUri": "code",
         "isModifier": false,
         "isSummary": false,
         "mapping": [
@@ -367,8 +367,18 @@
         ]
       },
       {
-        "id": "Extension.extension:description.value[x]",
+        "id": "Extension.extension:code.value[x]",
         "path": "Extension.extension.value[x]",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "type",
+              "path": "$this"
+            }
+          ],
+          "ordered": false,
+          "rules": "open"
+        },
         "short": "Value of extension",
         "definition": "Value of extension - must be one of a constrained set of the data types (see [Extensibility](extensibility.html) for a list).",
         "min": 0,
@@ -380,7 +390,7 @@
         },
         "type": [
           {
-            "code": "string"
+            "code": "CodeableConcept"
           }
         ],
         "constraint": [
@@ -403,11 +413,52 @@
         ]
       },
       {
+        "id": "Extension.extension:code.value[x]:valueCodeableConcept",
+        "path": "Extension.extension.value[x]",
+        "sliceName": "valueCodeableConcept",
+        "short": "Value of extension",
+        "definition": "Value of extension - must be one of a constrained set of the data types (see [Extensibility](extensibility.html) for a list).",
+        "min": 0,
+        "max": "1",
+        "base": {
+          "path": "Extension.value[x]",
+          "min": 0,
+          "max": "1"
+        },
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ],
+        "constraint": [
+          {
+            "key": "ele-1",
+            "severity": "error",
+            "human": "All FHIR elements must have a @value or children",
+            "expression": "hasValue() or (children().count() > id.count())",
+            "xpath": "@value|f:*|h:div",
+            "source": "http://hl7.org/fhir/StructureDefinition/Element"
+          }
+        ],
+        "isModifier": false,
+        "isSummary": false,
+        "binding": {
+          "strength": "preferred",
+          "valueSet": "https://standards.digital.health.nz/fhir/ValueSet/practitioner-additional-authorisation-code"
+        },
+        "mapping": [
+          {
+            "identity": "rim",
+            "map": "N/A"
+          }
+        ]
+      },
+      {
         "id": "Extension.extension:period",
         "path": "Extension.extension",
         "sliceName": "period",
         "short": "Additional content defined by implementations",
-        "definition": "The period the conditions on practice are effective",
+        "definition": "The period the additional authorisation is effective",
         "comment": "There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.",
         "alias": [
           "extensions",
@@ -646,7 +697,7 @@
             ]
           }
         ],
-        "fixedUri": "http://hl7.org.nz/fhir/StructureDefinition/condition-on-practice",
+        "fixedUri": "http://hl7.org.nz/fhir/StructureDefinition/additional-authorisation",
         "isModifier": false,
         "isSummary": false,
         "mapping": [
@@ -846,40 +897,60 @@
       {
         "id": "Extension",
         "path": "Extension",
-        "definition": "A full description of the conditions the health practitioner is subject to in relation to their scope of practice."
+        "definition": "Additional authorisations that a practitioner is authorised to perform"
       },
       {
-        "id": "Extension.extension:description",
+        "id": "Extension.extension:code",
         "path": "Extension.extension",
-        "sliceName": "description",
-        "definition": "The condition on practice as text",
+        "sliceName": "code",
+        "definition": "A code identifying the additional authorisations that a practitioner is authorised to perform",
         "min": 0,
         "max": "1"
       },
       {
-        "id": "Extension.extension:description.extension",
+        "id": "Extension.extension:code.extension",
         "path": "Extension.extension.extension",
         "max": "0"
       },
       {
-        "id": "Extension.extension:description.url",
+        "id": "Extension.extension:code.url",
         "path": "Extension.extension.url",
-        "fixedUri": "description"
+        "fixedUri": "code"
       },
       {
-        "id": "Extension.extension:description.value[x]",
+        "id": "Extension.extension:code.value[x]",
         "path": "Extension.extension.value[x]",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "type",
+              "path": "$this"
+            }
+          ],
+          "ordered": false,
+          "rules": "open"
+        },
         "type": [
           {
-            "code": "string"
+            "code": "CodeableConcept"
           }
         ]
+      },
+      {
+        "id": "Extension.extension:code.valueCodeableConcept",
+        "path": "Extension.extension.valueCodeableConcept",
+        "min": 0,
+        "max": "1",
+        "binding": {
+          "strength": "preferred",
+          "valueSet": "https://standards.digital.health.nz/fhir/ValueSet/practitioner-additional-authorisation-code"
+        }
       },
       {
         "id": "Extension.extension:period",
         "path": "Extension.extension",
         "sliceName": "period",
-        "definition": "The period the conditions on practice are effective",
+        "definition": "The period the additional authorisation is effective",
         "min": 0,
         "max": "1"
       },
@@ -905,7 +976,7 @@
       {
         "id": "Extension.url",
         "path": "Extension.url",
-        "fixedUri": "http://hl7.org.nz/fhir/StructureDefinition/condition-on-practice"
+        "fixedUri": "http://hl7.org.nz/fhir/StructureDefinition/additional-authorisation"
       },
       {
         "id": "Extension.value[x]",
