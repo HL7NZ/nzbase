@@ -20,7 +20,7 @@ Alias: $funded-programme-vs = https://standards.digital.health.nz/fhir/ValueSet/
 Alias: $information-source-vs = https://standards.digital.health.nz/fhir/ValueSet/information-source-code
 Alias: $ethnicity-code-vs = https://standards.digital.health.nz/fhir/ValueSet/ethnic-group-level-4-code
 Alias: $condition-on-practice-vs = https://standards.digital.health.nz/fhir/ValueSet/condition-on-practice-code
-
+Alias: $alias-type-vs = https://standards.digital.health.nz/fhir/ValueSet/alias-type-code
 
 
 //Aliases for CodeSystems
@@ -33,4 +33,4 @@ Alias: $nz-residency-status-cs = https://standards.digital.health.nz/ns/nz-resid
 Alias: $citizenship-status-cs = https://standards.digital.health.nz/ns/nz-citizenship-status-code
 Alias: $ethnicity-code-cs = https://standards.digital.health.nz/ns/ethnic-group-level-4-code
 Alias: $condition-on-practice-cs = https://standards.digital.health.nz/ns/condition-on-practice-code
-
+Alias: $alias-type-cs = https://standards.digital.health.nz/ns/alias-type-code

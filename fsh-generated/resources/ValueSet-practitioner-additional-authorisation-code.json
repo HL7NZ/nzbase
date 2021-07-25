@@ -1,8 +1,8 @@
 {
   "resourceType": "ValueSet",
   "status": "active",
-  "name": "PractitionerAdditionalAuthorisation",
-  "id": "practitioner-additional-authorisation",
+  "name": "PractitionerAdditionalAuthorisationCode",
+  "id": "practitioner-additional-authorisation-code",
   "title": "Additional Authorisation for functions that a Practitioner can perform",
   "description": "A coded type for additional authorisations",
   "version": "0.2.0",

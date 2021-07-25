@@ -21,6 +21,7 @@
 <td>http://hl7.org.nz/fhir/StructureDefinition/alias-type</td>
 <td>
 <div>Location.alias</div>
+<div>Organization.alias</div>
 </td>
 <td>Indicates the type of alias name. VS Binding is done by the profile.</td>
 <td></td>

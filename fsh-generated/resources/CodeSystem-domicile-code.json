@@ -15,7 +15,7 @@
     },
     {
       "code": "0002",
-      "display": "Karikari Peninsula-Maungataniwha"
+      "display": "Mangonui East"
     },
     {
       "code": "0003",
@@ -23,7 +23,7 @@
     },
     {
       "code": "0004",
-      "display": "Herekino"
+      "display": "Mangonui West"
     },
     {
       "code": "0005",
@@ -95,7 +95,7 @@
     },
     {
       "code": "0022",
-      "display": "Opua East"
+      "display": "Opua"
     },
     {
       "code": "0023",
@@ -415,7 +415,7 @@
     },
     {
       "code": "0102",
-      "display": "Opua West"
+      "display": "West Opua"
     },
     {
       "code": "0103",
@@ -540,94 +540,6 @@
     {
       "code": "0134",
       "display": "Gulf Harbour Marina"
-    },
-    {
-      "code": "0135",
-      "display": "Waimauku"
-    },
-    {
-      "code": "0136",
-      "display": "Huapai"
-    },
-    {
-      "code": "0137",
-      "display": "Riverhead Urban"
-    },
-    {
-      "code": "0138",
-      "display": "Kumeu East"
-    },
-    {
-      "code": "0139",
-      "display": "Kumeu West"
-    },
-    {
-      "code": "0140",
-      "display": "Silverdale Central"
-    },
-    {
-      "code": "0141",
-      "display": "Red Beach West"
-    },
-    {
-      "code": "0142",
-      "display": "Red Beach East"
-    },
-    {
-      "code": "0143",
-      "display": "Weiti River"
-    },
-    {
-      "code": "0144",
-      "display": "Stillwater"
-    },
-    {
-      "code": "0145",
-      "display": "Silverdale South"
-    },
-    {
-      "code": "0146",
-      "display": "Silverdale North"
-    },
-    {
-      "code": "0147",
-      "display": "Orewa West"
-    },
-    {
-      "code": "0148",
-      "display": "Algies Bay"
-    },
-    {
-      "code": "0149",
-      "display": "Mahurangi"
-    },
-    {
-      "code": "0150",
-      "display": "Parakai Rural"
-    },
-    {
-      "code": "0151",
-      "display": "Parakai Urban"
-    },
-    {
-      "code": "0152",
-      "display": "Point Wells"
-    },
-    {
-      "code": "0153",
-      "display": "Omaha"
-    },
-    {
-      "code": "0154",
-      "display": "Matakana"
-    },
-    {
-      "code": "0155",
-      "display": "Cape Rodney"
-    },
-    {
-      "code": "0156",
-      "display": "Cape Rodney South"
     },
     {
       "code": "0200",
@@ -1134,70 +1046,6 @@
       "display": "Ranui South"
     },
     {
-      "code": "0326",
-      "display": "Kaukapakapa Rural"
-    },
-    {
-      "code": "0327",
-      "display": "Kaukapakapa"
-    },
-    {
-      "code": "0328",
-      "display": "Helensville South"
-    },
-    {
-      "code": "0329",
-      "display": "Muriwai Beach"
-    },
-    {
-      "code": "0330",
-      "display": "Muriwai Valley"
-    },
-    {
-      "code": "0331",
-      "display": "Waitakere West"
-    },
-    {
-      "code": "0332",
-      "display": "Parrs Park West"
-    },
-    {
-      "code": "0333",
-      "display": "Parrs Park"
-    },
-    {
-      "code": "0334",
-      "display": "Oratia West"
-    },
-    {
-      "code": "0335",
-      "display": "Oratia"
-    },
-    {
-      "code": "0336",
-      "display": "Swanson"
-    },
-    {
-      "code": "0337",
-      "display": "Swanson South"
-    },
-    {
-      "code": "0338",
-      "display": "Hobsonville East"
-    },
-    {
-      "code": "0339",
-      "display": "Hobsonville South"
-    },
-    {
-      "code": "0340",
-      "display": "Birdwood West"
-    },
-    {
-      "code": "0341",
-      "display": "Birdwood East"
-    },
-    {
       "code": "0400",
       "display": "Waitakere"
     },
@@ -1640,26 +1488,6 @@
     {
       "code": "0510",
       "display": "Tidal-Waiheke Island"
-    },
-    {
-      "code": "0511",
-      "display": "St Johns"
-    },
-    {
-      "code": "0512",
-      "display": "Stonefields"
-    },
-    {
-      "code": "0513",
-      "display": "Mt Wellington Domain"
-    },
-    {
-      "code": "0514",
-      "display": "Mt Wellington West"
-    },
-    {
-      "code": "0515",
-      "display": "Mt Wellington North"
     },
     {
       "code": "0600",
@@ -2190,70 +2018,6 @@
       "display": "Kawakawa-Orere"
     },
     {
-      "code": "0732",
-      "display": "Buckland"
-    },
-    {
-      "code": "0733",
-      "display": "Buckland South"
-    },
-    {
-      "code": "0734",
-      "display": "Paparata"
-    },
-    {
-      "code": "0735",
-      "display": "Mangatawhiri"
-    },
-    {
-      "code": "0736",
-      "display": "Kaiaua"
-    },
-    {
-      "code": "0737",
-      "display": "Highbrook"
-    },
-    {
-      "code": "0738",
-      "display": "Greenmount"
-    },
-    {
-      "code": "0739",
-      "display": "Point View"
-    },
-    {
-      "code": "0740",
-      "display": "Baverstock Oaks"
-    },
-    {
-      "code": "0741",
-      "display": "Mission Heights"
-    },
-    {
-      "code": "0742",
-      "display": "Wymondley"
-    },
-    {
-      "code": "0743",
-      "display": "Grange"
-    },
-    {
-      "code": "0744",
-      "display": "Redoubt East"
-    },
-    {
-      "code": "0745",
-      "display": "Mill Road"
-    },
-    {
-      "code": "0746",
-      "display": "Puhinui South"
-    },
-    {
-      "code": "0747",
-      "display": "Manukau Central"
-    },
-    {
       "code": "0800",
       "display": "Papakura North"
     },
@@ -2343,7 +2107,7 @@
     },
     {
       "code": "0822",
-      "display": "Te Kauwhata"
+      "display": "Te Kauwhata Community"
     },
     {
       "code": "0823",
@@ -2395,7 +2159,7 @@
     },
     {
       "code": "0835",
-      "display": "Meremere"
+      "display": "Meremere Community"
     },
     {
       "code": "0836",
@@ -2639,7 +2403,7 @@
     },
     {
       "code": "0896",
-      "display": "Silverdale"
+      "display": "Dalesford"
     },
     {
       "code": "0897",
@@ -2694,46 +2458,6 @@
       "display": "Brymer"
     },
     {
-      "code": "0910",
-      "display": "Waiuku West"
-    },
-    {
-      "code": "0911",
-      "display": "Waiuku East"
-    },
-    {
-      "code": "0912",
-      "display": "South Waiuku"
-    },
-    {
-      "code": "0913",
-      "display": "Pukeoware"
-    },
-    {
-      "code": "0914",
-      "display": "Newstead"
-    },
-    {
-      "code": "0915",
-      "display": "Eureka"
-    },
-    {
-      "code": "0916",
-      "display": "Hautapu"
-    },
-    {
-      "code": "0917",
-      "display": "Swayne"
-    },
-    {
-      "code": "0918",
-      "display": "Horotiu"
-    },
-    {
-      "code": "0919",
-      "display": "Te Rapa North"
-    },
-    {
       "code": "1000",
       "display": "Te Awamutu Central"
     },
@@ -2755,7 +2479,7 @@
     },
     {
       "code": "1005",
-      "display": "Otorohanga Rural West"
+      "display": "Ngutunui"
     },
     {
       "code": "1006",
@@ -3035,7 +2759,7 @@
     },
     {
       "code": "1075",
-      "display": "Omokoroa"
+      "display": "Omokoroa Community"
     },
     {
       "code": "1076",
@@ -3139,11 +2863,11 @@
     },
     {
       "code": "1101",
-      "display": "Otorohanga Rural East"
+      "display": "Maihiihi"
     },
     {
       "code": "1102",
-      "display": "Ohinemuri"
+      "display": "Golden Cross"
     },
     {
       "code": "1103",
@@ -3327,11 +3051,11 @@
     },
     {
       "code": "1215",
-      "display": "Te Puke West"
+      "display": "Te Puke Community West"
     },
     {
       "code": "1216",
-      "display": "Te Puke East"
+      "display": "Te Puke Community East"
     },
     {
       "code": "1217",
@@ -3547,7 +3271,7 @@
     },
     {
       "code": "1270",
-      "display": "Taupo Central"
+      "display": "Central Taupo"
     },
     {
       "code": "1271",
@@ -3571,15 +3295,15 @@
     },
     {
       "code": "1276",
-      "display": "Matata"
+      "display": "Matata Community"
     },
     {
       "code": "1277",
-      "display": "Taneatua"
+      "display": "Taneatua Community"
     },
     {
       "code": "1278",
-      "display": "Edgecumbe"
+      "display": "Edgecumbe Community"
     },
     {
       "code": "1279",
@@ -3635,7 +3359,7 @@
     },
     {
       "code": "1292",
-      "display": "Urewera"
+      "display": "Waikirikiri"
     },
     {
       "code": "1293",
@@ -3719,7 +3443,7 @@
     },
     {
       "code": "1314",
-      "display": "Inlet-Ohiwa Harbour West"
+      "display": "Port Ohope"
     },
     {
       "code": "1315",
@@ -3731,7 +3455,7 @@
     },
     {
       "code": "1317",
-      "display": "Inlet-Ohiwa Harbour East"
+      "display": "Ohiwa Harbour"
     },
     {
       "code": "1318",
@@ -3784,34 +3508,6 @@
     {
       "code": "1330",
       "display": "Kinloch"
-    },
-    {
-      "code": "1331",
-      "display": "Tatua"
-    },
-    {
-      "code": "1332",
-      "display": "Oruanui"
-    },
-    {
-      "code": "1333",
-      "display": "Broadlands"
-    },
-    {
-      "code": "1334",
-      "display": "Waitahanui"
-    },
-    {
-      "code": "1335",
-      "display": "Tongariro"
-    },
-    {
-      "code": "1336",
-      "display": "Motuoapa"
-    },
-    {
-      "code": "1337",
-      "display": "Tokaanu"
     },
     {
       "code": "1400",
@@ -4211,7 +3907,7 @@
     },
     {
       "code": "1499",
-      "display": "Mara"
+      "display": "Rara"
     },
     {
       "code": "1500",
@@ -4867,7 +4563,7 @@
     },
     {
       "code": "1840",
-      "display": "Turitea"
+      "display": "Tiritea"
     },
     {
       "code": "1841",
@@ -5255,7 +4951,7 @@
     },
     {
       "code": "2028",
-      "display": "Avalon East"
+      "display": "Naenae West"
     },
     {
       "code": "2029",
@@ -5539,7 +5235,7 @@
     },
     {
       "code": "2099",
-      "display": "Karori North"
+      "display": "Johnston Hill"
     },
     {
       "code": "2100",
@@ -5563,11 +5259,11 @@
     },
     {
       "code": "2105",
-      "display": "Tawa Central"
+      "display": "Central Tawa"
     },
     {
       "code": "2106",
-      "display": "Glenside North"
+      "display": "Churton Park"
     },
     {
       "code": "2107",
@@ -5575,7 +5271,7 @@
     },
     {
       "code": "2108",
-      "display": "Grenada "
+      "display": "Grenada"
     },
     {
       "code": "2109",
@@ -5583,7 +5279,7 @@
     },
     {
       "code": "2110",
-      "display": "Grenada Village"
+      "display": "Paparangi"
     },
     {
       "code": "2111",
@@ -5658,54 +5354,6 @@
       "display": "Horokiwi"
     },
     {
-      "code": "2129",
-      "display": "Papakowhai North"
-    },
-    {
-      "code": "2130",
-      "display": "Papakowhai South"
-    },
-    {
-      "code": "2131",
-      "display": "Churton Park North"
-    },
-    {
-      "code": "2132",
-      "display": "Churton Park South"
-    },
-    {
-      "code": "2133",
-      "display": "Paparangi West"
-    },
-    {
-      "code": "2134",
-      "display": "Johnsonville East"
-    },
-    {
-      "code": "2135",
-      "display": "Paparangi"
-    },
-    {
-      "code": "2136",
-      "display": "Woodridge"
-    },
-    {
-      "code": "2137",
-      "display": "Newlands North"
-    },
-    {
-      "code": "2138",
-      "display": "Crofton Downs"
-    },
-    {
-      "code": "2139",
-      "display": "Wilton"
-    },
-    {
-      "code": "2140",
-      "display": "Northland North"
-    },
-    {
       "code": "2200",
       "display": "Karori Park"
     },
@@ -5715,7 +5363,7 @@
     },
     {
       "code": "2202",
-      "display": "Karori South"
+      "display": "Wright Hill"
     },
     {
       "code": "2203",
@@ -5851,7 +5499,7 @@
     },
     {
       "code": "2236",
-      "display": "Opaki-Fernridge"
+      "display": "Opaki"
     },
     {
       "code": "2237",
@@ -6007,11 +5655,11 @@
     },
     {
       "code": "2275",
-      "display": "Kaikoura Township"
+      "display": "Kaikoura"
     },
     {
       "code": "2276",
-      "display": "Kaikoura Rural"
+      "display": "Clarence"
     },
     {
       "code": "2277",
@@ -6218,78 +5866,6 @@
       "display": "Evans Bay Marina"
     },
     {
-      "code": "2329",
-      "display": "Vogeltown West"
-    },
-    {
-      "code": "2330",
-      "display": "Vogeltown"
-    },
-    {
-      "code": "2331",
-      "display": "Newtown West"
-    },
-    {
-      "code": "2332",
-      "display": "Berhampore East"
-    },
-    {
-      "code": "2333",
-      "display": "Seatoun Tunnel West"
-    },
-    {
-      "code": "2334",
-      "display": "Strathmore Park"
-    },
-    {
-      "code": "2335",
-      "display": "Miramar North"
-    },
-    {
-      "code": "2336",
-      "display": "Miramar"
-    },
-    {
-      "code": "2337",
-      "display": "Maupuia"
-    },
-    {
-      "code": "2338",
-      "display": "Miramar West"
-    },
-    {
-      "code": "2339",
-      "display": "Spring Creek-Grovetown"
-    },
-    {
-      "code": "2340",
-      "display": "Riverlands"
-    },
-    {
-      "code": "2341",
-      "display": "Wairau North"
-    },
-    {
-      "code": "2342",
-      "display": "Tuamarina"
-    },
-    {
-      "code": "2343",
-      "display": "Rapaura"
-    },
-    {
-      "code": "2344",
-      "display": "Wairau South"
-    },
-    {
-      "code": "2345",
-      "display": "Weld Pass"
-    },
-    {
-      "code": "2346",
-      "display": "Fairhall"
-    },
-    {
       "code": "2400",
       "display": "The Wood"
     },
@@ -6367,11 +5943,11 @@
     },
     {
       "code": "2419",
-      "display": "Richmond East"
+      "display": "Richmond North"
     },
     {
       "code": "2420",
-      "display": "Richmond West"
+      "display": "Richmond South"
     },
     {
       "code": "2421",
@@ -6399,7 +5975,7 @@
     },
     {
       "code": "2427",
-      "display": "Westport Urban"
+      "display": "Westport"
     },
     {
       "code": "2428",
@@ -6499,7 +6075,7 @@
     },
     {
       "code": "2452",
-      "display": "Hokitika Urban"
+      "display": "Hokitika"
     },
     {
       "code": "2453",
@@ -6954,90 +6530,6 @@
       "display": "Hendersons Basin"
     },
     {
-      "code": "2566",
-      "display": "Fernside"
-    },
-    {
-      "code": "2567",
-      "display": "Lehmans"
-    },
-    {
-      "code": "2568",
-      "display": "Pegasus"
-    },
-    {
-      "code": "2569",
-      "display": "Woodend Beach"
-    },
-    {
-      "code": "2570",
-      "display": "Coldstream"
-    },
-    {
-      "code": "2571",
-      "display": "Ravenswood"
-    },
-    {
-      "code": "2572",
-      "display": "Tuahiwi"
-    },
-    {
-      "code": "2573",
-      "display": "Woodend West"
-    },
-    {
-      "code": "2574",
-      "display": "Rangiora West"
-    },
-    {
-      "code": "2575",
-      "display": "Rangiora Central"
-    },
-    {
-      "code": "2576",
-      "display": "Kaiapoi East"
-    },
-    {
-      "code": "2577",
-      "display": "Kaiapoi North West"
-    },
-    {
-      "code": "2578",
-      "display": "Kaiapoi North East"
-    },
-    {
-      "code": "2579",
-      "display": "Kaiapoi West"
-    },
-    {
-      "code": "2580",
-      "display": "Silverstream"
-    },
-    {
-      "code": "2581",
-      "display": "West Eyreton"
-    },
-    {
-      "code": "2582",
-      "display": "Eyrewell"
-    },
-    {
-      "code": "2583",
-      "display": "Paparua"
-    },
-    {
-      "code": "2584",
-      "display": "Templeton"
-    },
-    {
-      "code": "2585",
-      "display": "Prebbleton"
-    },
-    {
-      "code": "2586",
-      "display": "Trents-Ladbrooks"
-    },
-    {
       "code": "2600",
       "display": "West Melton"
     },
@@ -7154,10 +6646,6 @@
       "display": "Marshland"
     },
     {
-      "code": "2629",
-      "display": "Styx"
-    },
-    {
       "code": "2630",
       "display": "Parklands"
     },
@@ -7263,7 +6751,7 @@
     },
     {
       "code": "2656",
-      "display": "Avondale"
+      "display": "Wainoni"
     },
     {
       "code": "2657",
@@ -7275,11 +6763,11 @@
     },
     {
       "code": "2659",
-      "display": "Richmond North"
+      "display": "North Richmond"
     },
     {
       "code": "2660",
-      "display": "Richmond South"
+      "display": "South Richmond"
     },
     {
       "code": "2661",
@@ -7295,11 +6783,11 @@
     },
     {
       "code": "2664",
-      "display": "Linwood North"
+      "display": "North Linwood"
     },
     {
       "code": "2665",
-      "display": "Linwood East"
+      "display": "East Linwood"
     },
     {
       "code": "2666",
@@ -7506,22 +6994,6 @@
       "display": "Banks Peninsula Eastern Bays"
     },
     {
-      "code": "2717",
-      "display": "Mairehau North"
-    },
-    {
-      "code": "2718",
-      "display": "Westhaven"
-    },
-    {
-      "code": "2719",
-      "display": "Highfield Park"
-    },
-    {
-      "code": "2720",
-      "display": "Prestons"
-    },
-    {
       "code": "2800",
       "display": "Lincoln"
     },
@@ -7547,7 +7019,7 @@
     },
     {
       "code": "2806",
-      "display": "Methven"
+      "display": "Methven Community"
     },
     {
       "code": "2807",
@@ -7579,7 +7051,7 @@
     },
     {
       "code": "2814",
-      "display": "Ashburton Central West"
+      "display": "Central Ashburton West"
     },
     {
       "code": "2815",
@@ -7587,7 +7059,7 @@
     },
     {
       "code": "2816",
-      "display": "Ashburton Central East"
+      "display": "Central Ashburton East"
     },
     {
       "code": "2817",
@@ -7695,7 +7167,7 @@
     },
     {
       "code": "2843",
-      "display": "Fairlie"
+      "display": "Fairlie Community"
     },
     {
       "code": "2844",
@@ -7859,23 +7331,23 @@
     },
     {
       "code": "2884",
-      "display": "Saddle Hill"
+      "display": "Kaikorai Lagoon"
     },
     {
       "code": "2885",
-      "display": "Taieri"
+      "display": "Momona"
     },
     {
       "code": "2886",
-      "display": "Strath Taieri"
+      "display": "Silverpeaks"
     },
     {
       "code": "2887",
-      "display": "Harbourside"
+      "display": "Fryatt"
     },
     {
       "code": "2888",
-      "display": "Fernhill"
+      "display": "High St - The Oval"
     },
     {
       "code": "2889",
@@ -7895,7 +7367,7 @@
     },
     {
       "code": "2893",
-      "display": "North East Valley"
+      "display": "North - East Valley"
     },
     {
       "code": "2894",
@@ -7907,7 +7379,7 @@
     },
     {
       "code": "2896",
-      "display": "North Dunedin"
+      "display": "Botanic Gardens"
     },
     {
       "code": "2897",
@@ -7927,7 +7399,7 @@
     },
     {
       "code": "2901",
-      "display": "Inland Water-Lake Alexandrina"
+      "display": "Lake Alexandrina"
     },
     {
       "code": "2902",
@@ -7956,50 +7428,6 @@
     {
       "code": "2908",
       "display": "Inland Water-Lake Ohai"
-    },
-    {
-      "code": "2909",
-      "display": "Rolleston North West"
-    },
-    {
-      "code": "2910",
-      "display": "Rolleston Central"
-    },
-    {
-      "code": "2911",
-      "display": "Rolleston North East"
-    },
-    {
-      "code": "2912",
-      "display": "Rolleston South West"
-    },
-    {
-      "code": "2913",
-      "display": "Springston"
-    },
-    {
-      "code": "2914",
-      "display": "Rolleston South East"
-    },
-    {
-      "code": "2915",
-      "display": "Ashburton North"
-    },
-    {
-      "code": "2916",
-      "display": "Fairton"
-    },
-    {
-      "code": "2917",
-      "display": "Ashburton East"
-    },
-    {
-      "code": "2918",
-      "display": "Allenton West"
-    },
-    {
-      "code": "2919",
-      "display": "Allenton East"
     },
     {
       "code": "3000",
@@ -8127,7 +7555,7 @@
     },
     {
       "code": "3031",
-      "display": "Green Island"
+      "display": "Green Island Central"
     },
     {
       "code": "3032",
@@ -8287,7 +7715,7 @@
     },
     {
       "code": "3071",
-      "display": "Queenstown Hill"
+      "display": "Earnslaw"
     },
     {
       "code": "3072",
@@ -8307,7 +7735,7 @@
     },
     {
       "code": "3076",
-      "display": "Wyndham"
+      "display": "Wyndham Community"
     },
     {
       "code": "3077",
@@ -8391,7 +7819,7 @@
     },
     {
       "code": "3097",
-      "display": "Wallacetown"
+      "display": "Wallacetown Community"
     },
     {
       "code": "3098",
@@ -8411,7 +7839,7 @@
     },
     {
       "code": "3102",
-      "display": "Company Bay"
+      "display": "Raynbirds Bay"
     },
     {
       "code": "3103",
@@ -8483,47 +7911,11 @@
     },
     {
       "code": "3120",
-      "display": "Wakatipu"
+      "display": "Skippers"
     },
     {
       "code": "3121",
       "display": "Lake Hayes"
-    },
-    {
-      "code": "3122",
-      "display": "Glenorchy"
-    },
-    {
-      "code": "3123",
-      "display": "Kingston South"
-    },
-    {
-      "code": "3124",
-      "display": "Outer Wakatipu"
-    },
-    {
-      "code": "3125",
-      "display": "Wakatipu Basin"
-    },
-    {
-      "code": "3126",
-      "display": "Frankton East"
-    },
-    {
-      "code": "3127",
-      "display": "Lake Hayes South"
-    },
-    {
-      "code": "3128",
-      "display": "Jacks Point"
-    },
-    {
-      "code": "3129",
-      "display": "Arthurs Point"
-    },
-    {
-      "code": "3130",
-      "display": "Queenstown Bay"
     },
     {
       "code": "3200",
@@ -8555,7 +7947,7 @@
     },
     {
       "code": "3207",
-      "display": "Rosedale"
+      "display": "Rosedale - Waverley"
     },
     {
       "code": "3208",
@@ -8567,7 +7959,7 @@
     },
     {
       "code": "3210",
-      "display": "Waverley-Glengarry"
+      "display": "Glengarry"
     },
     {
       "code": "3211",
@@ -8735,7 +8127,7 @@
     },
     {
       "code": "3252",
-      "display": "Cape Barrier"
+      "display": "Cape Barrier Islands"
     },
     {
       "code": "3253",
@@ -8879,11 +8271,11 @@
     },
     {
       "code": "3288",
-      "display": "Oceanic-Oil Rigs Taranaki"
+      "display": "Oil Rig - Taranaki"
     },
     {
       "code": "3289",
-      "display": "Oceanic-Tararua Constituency"
+      "display": "Oceanic - Tararua Con."
     },
     {
       "code": "3290",
@@ -9031,7 +8423,7 @@
     },
     {
       "code": "3326",
-      "display": "Tidal-Manukau Harbour"
+      "display": "Inlet - Manukau Harbour"
     },
     {
       "code": "3327",
@@ -9039,7 +8431,7 @@
     },
     {
       "code": "3328",
-      "display": "Tidal-Tamaki"
+      "display": "Inlets -Tamaki"
     },
     {
       "code": "3329",
@@ -9063,7 +8455,7 @@
     },
     {
       "code": "3334",
-      "display": "Tidal-Manukau Harbour  North"
+      "display": "Tidal-Manukau Harbour North"
     },
     {
       "code": "3335",
@@ -9151,7 +8543,7 @@
     },
     {
       "code": "3414",
-      "display": "Oceanic-Oil Rig Southland"
+      "display": "Oceanic - Oil Rigs"
     },
     {
       "code": "3415",
@@ -9188,34 +8580,6 @@
     {
       "code": "3505",
       "display": "Auckland Islands"
-    },
-    {
-      "code": "3506",
-      "display": "NZ Economic Zone"
-    },
-    {
-      "code": "3507",
-      "display": "Oceanic-Bounty Islands"
-    },
-    {
-      "code": "3508",
-      "display": "Bounty Islands"
-    },
-    {
-      "code": "3509",
-      "display": "Oceanic-Snares Islands"
-    },
-    {
-      "code": "3510",
-      "display": "Snares Island"
-    },
-    {
-      "code": "3511",
-      "display": "Oceanic-Antipodes Islands"
-    },
-    {
-      "code": "3512",
-      "display": "Antipodes Islands"
     },
     {
       "code": "9999",
@@ -9374,5 +8738,5 @@
       "display": "Southern District Health Board"
     }
   ],
-  "count": 2341
+  "count": 2182
 }

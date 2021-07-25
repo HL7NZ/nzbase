@@ -1,16 +1,19 @@
-Alias: $at = https://standards.digital.health.nz/ns/alias-type-code
+//Alias: $at = https://standards.digital.health.nz/ns/alias-type-code
 
 CodeSystem:  AliasType
 Id: alias-type
 Title: "Type of Alias"
 Description:  "Used in Organization and Location to indicate what is the type of Alias"
 
-* ^url = "https://standards.digital.health.nz/ns/alias-type-code"
+* ^url = $alias-type-cs
 
 * #aka "Aka" "The name by which the organisation or facility is also known as."
-* #legal "Legal name" "The name as recorded in the official register eg Register of Companies."
-* #maori "Maori" "The Mâori name of the organisation or facility."
+* #old "Old" "The previous legal name(s) of the organisation/facility."
+* #maori "Māori" "The Māori name of the organisation or facility."
+* #legal "Legal" "The name as recorded in the official register eg Register of Companies."
 * #short "Short" "An abbreviated name by which the organisation or facility is known."
+* #trade-as "Trading as" "Used when the organisation/facility has a separate trading name."
+* #current "Current unverified or unofficial name" "The name currently used for a facility."
 
 ValueSet : LocationAliasType
 Id: location-alias-type
@@ -19,9 +22,9 @@ Description: "The set of alias types that apply to Locations"
 
 * ^url = "https://standards.digital.health.nz/fhir/ValueSet/location-alias-type-code"
 
-* $at#aka "Aka"
-* $at#maori "Maori"
-* $at#short "Short"
+* $alias-type-cs#aka "Aka"
+* $alias-type-cs#maori "Maori"
+* $alias-type-cs#short "Short"
 
 ValueSet : OrganizationAliasType
 Id: organization-alias-type
@@ -30,7 +33,7 @@ Description: "The set of alias types that apply to Organizations"
 
 * ^url = "https://standards.digital.health.nz/fhir/ValueSet/organization-alias-type-code"
 
-* $at#aka "Aka"
-* $at#maori "Maori"
-* $at#short "Short"
-* $at#legal "Legal"
+* $alias-type-cs#aka "Aka"
+* $alias-type-cs#maori "Maori"
+* $alias-type-cs#short "Short"
+* $alias-type-cs#legal "Legal"

@@ -11,47 +11,58 @@
   "concept": [
     {
       "code": "BREG",
-      "display": "Birth Register"
+      "display": "Birth Register",
+      "definition": "This code is added only after verification via MOH/DIA birth register matching"
     },
     {
       "code": "BRCT",
-      "display": "Birth Certificate"
+      "display": "Birth Certificate",
+      "definition": "Birth Certificate"
     },
     {
       "code": "NZCT",
-      "display": "NZ Citizenship Certificate"
+      "display": "NZ Citizenship Certificate",
+      "definition": "New Zealand Citizenship Certificate issued by DIA"
     },
     {
       "code": "PPRT",
-      "display": "Passport"
+      "display": "Passport",
+      "definition": "An overseas passport is acceptable"
     },
     {
       "code": "NZCI",
-      "display": "NZ Certificate of Identity"
+      "display": "NZ Certificate of Identity",
+      "definition": "Certificate of Identity issued by DIA"
     },
     {
       "code": "NZRT",
-      "display": "NZ Refugee Travel Document"
+      "display": "NZ Refugee Travel Document",
+      "definition": "Refugee Travel document issued by DIA"
     },
     {
       "code": "NZET",
-      "display": "NZ Emergency Travel Document"
+      "display": "NZ Emergency Travel Document",
+      "definition": "Emergency Travel document issued by DIA"
     },
     {
       "code": "OTHR",
-      "display": "Other"
+      "display": "Other",
+      "definition": "Other official document provided that is not found in the list provided"
     },
     {
       "code": "NPRF",
-      "display": "Proof not Sighted"
+      "display": "Proof not Sighted",
+      "definition": "Information (not proof) provided by the patient / whanau verbally communicated. No proof sighted"
     },
     {
       "code": "NZPV",
-      "display": "NZ Permanent Resident Visa"
+      "display": "NZ Permanent Resident Visa",
+      "definition": "A New Zealand Permanent Resident Visa (not time bound) issued by Immigration New Zealand"
     },
     {
       "code": "NZTV",
-      "display": "NZ Resident Visa"
+      "display": "NZ Resident Visa",
+      "definition": "A New Zealand Resident Visa (time bound) issued by Immigration New Zealand"
     },
     {
       "code": "NZMC",
@@ -63,7 +74,8 @@
     },
     {
       "code": "NZNC",
-      "display": "NZ Name Change Certificate or Deed Poll"
+      "display": "NZ Name Change Certificate or Deed Poll",
+      "definition": "NZ Name Change Certificate effective from 25 January 2009, Name Change by Statutary Declaration Documents issued for names changes made between September 1995 and 25 January 2009, Deed Poll for name changes prior to September 1995"
     },
     {
       "code": "NZDL",
@@ -75,39 +87,48 @@
     },
     {
       "code": "HL7",
-      "display": "HL7 applied"
+      "display": "HL7 applied",
+      "definition": "Data has been applied via HL7 message"
     },
     {
       "code": "MIGR",
-      "display": "Migrated"
+      "display": "Migrated",
+      "definition": "From the legacy NHI System with no known external source"
     },
     {
       "code": "DREG",
-      "display": "Death Register"
+      "display": "Death Register",
+      "definition": "The code is added only after MOH/DIA data matching"
     },
     {
       "code": "OSEA",
-      "display": "Death Overseas"
+      "display": "Death Overseas",
+      "definition": "Indicates a non-New Zealand registered death advised by a third party or discovered by a media search"
     },
     {
       "code": "MCCOD",
-      "display": "Medical Certificate Cause of Death"
+      "display": "Medical Certificate Cause of Death",
+      "definition": "Date of Death from a Medical Certificate Cause of  Death. Forms HP4720, HP4721 or BDM 50"
     },
     {
       "code": "CORONER",
-      "display": "Coroner Notification"
+      "display": "Coroner Notification",
+      "definition": "Date of death notified to the Ministry by a Coronial Office"
     },
     {
       "code": "OSEAOFF",
-      "display": "Death Overseas Official"
+      "display": "Death Overseas Official",
+      "definition": "Indicates a non-New Zealand registered death advised by an official source from another country."
     },
     {
       "code": "DIA",
-      "display": "DIA data share"
+      "display": "DIA data share",
+      "definition": "The code is added only after DHB or MOH/DIA data matching"
     },
     {
       "code": "INZ",
-      "display": "ImmigrationNZ"
+      "display": "ImmigrationNZ",
+      "definition": "The code is added only by the MoH or DHB from information provided by ImmigrationNZ data sharing"
     }
   ],
   "count": 25

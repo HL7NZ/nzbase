@@ -11,167 +11,223 @@
   "concept": [
     {
       "code": "CA01",
-      "display": "Cardiothoracic Surgery: Cardiothoracic Surgeon"
+      "display": "Cardiothoracic Surgery: Cardiothoracic Surgeon",
+      "definition": "Alternate name."
     },
     {
       "code": "CA02",
-      "display": "Cardiothoracic Surgery: Transplant Surgeon"
+      "display": "Cardiothoracic Surgery: Transplant Surgeon",
+      "definition": "Alternate name."
     },
     {
       "code": "DI01",
-      "display": "Diagnostic Imaging authorisation"
+      "display": "Diagnostic Imaging authorisation",
+      "definition": "A practitioner is authorised to perform diagnostic imaging in rural settings."
     },
     {
       "code": "DP01",
-      "display": "Diabetes Prescriber"
+      "display": "Diabetes Prescriber",
+      "definition": "A Registered Nurse Diabetes Prescriber."
     },
     {
       "code": "EC01",
-      "display": "ECP authorisation"
+      "display": "ECP authorisation",
+      "definition": "A practitioner is authorised to dispense the emergency contraceptive pill."
     },
     {
       "code": "FS01",
-      "display": "First Surgical Assistant"
+      "display": "First Surgical Assistant",
+      "definition": "A nurse authorised to undertake an expanded role to assist the surgeon during surgery."
     },
     {
       "code": "IMMU",
-      "display": "Immunisation"
+      "display": "Immunisation",
+      "definition": "A person authorised to administer immunizations."
     },
     {
       "code": "INTR",
-      "display": "Intravenous Infusions"
+      "display": "Intravenous Infusions",
+      "definition": "A practitioner who is certified to administer intravenous infusions."
     },
     {
       "code": "MD01",
-      "display": "Internal Medicine: Cardiologist"
+      "display": "Internal Medicine: Cardiologist",
+      "definition": "An internal medicine specialist working in the role of cardiologist."
     },
     {
       "code": "MD02",
-      "display": "Internal Medicine: Endocrinologist"
+      "display": "Internal Medicine: Endocrinologist",
+      "definition": "An internal medicine specialist working in the role of endocrinologist."
     },
     {
       "code": "MD03",
-      "display": "Internal Medicine: Gastroenterologist"
+      "display": "Internal Medicine: Gastroenterologist",
+      "definition": "An internal medicine specialist working in the role of gastroenterologist."
     },
     {
       "code": "MD04",
-      "display": "Internal Medicine: Geriatrician"
+      "display": "Internal Medicine: Geriatrician",
+      "definition": "An internal medicine specialist working in the role of geriatrician."
     },
     {
       "code": "MD05",
-      "display": "Internal Medicine: Infectious Disease Specialist"
+      "display": "Internal Medicine: Infectious Disease Specialist",
+      "definition": "An internal medicine specialist working in the role of infectious disease specialist."
     },
     {
       "code": "MD06",
-      "display": "Internal Medicine: Nephrologist"
+      "display": "Internal Medicine: Nephrologist",
+      "definition": "An internal medicine specialist working in the role of nephrologist."
     },
     {
       "code": "MD07",
-      "display": "Internal Medicine: Neurologist"
+      "display": "Internal Medicine: Neurologist",
+      "definition": "An internal medicine specialist working in the role of neurologist."
     },
     {
       "code": "MD08",
-      "display": "Internal Medicine: Oncologist"
+      "display": "Internal Medicine: Oncologist",
+      "definition": "An internal medicine specialist working in the role of oncologist."
     },
     {
       "code": "MD09",
-      "display": "Internal Medicine: Physician for the Elderly (FRACP)"
+      "display": "Internal Medicine: Physician for the Elderly (FRACP)",
+      "definition": "An internal medicine specialist working in the role of physician for the Elderly (FRACP = Royal Australasian College of Physicians)."
     },
     {
       "code": "MD10",
-      "display": "Internal Medicine: Renal Physician"
+      "display": "Internal Medicine: Renal Physician",
+      "definition": "An internal medicine specialist working in the role of renal physician."
     },
     {
       "code": "MD11",
-      "display": "Internal Medicine: Respiratory Specialist"
+      "display": "Internal Medicine: Respiratory Specialist",
+      "definition": "An internal medicine specialist working in the role of respiratory specialist."
     },
     {
       "code": "MD12",
-      "display": "Internal Medicine: Rheumatologist"
+      "display": "Internal Medicine: Rheumatologist",
+      "definition": "An internal medicine specialist working in the role of rheumatologist."
     },
     {
       "code": "NC01",
-      "display": "Prescribing authorisation"
+      "display": "Prescribing authorisation",
+      "definition": "A nurse practitioner is authorised to prescribe."
     },
     {
       "code": "NC02",
-      "display": "Nurse Colposcopist"
+      "display": "Nurse Colposcopist",
+      "definition": "A nurse authorised to undertake colposcopy procedures."
+    },
+    {
+      "code": "NC03",
+      "display": "A nurse authorised to prescribe with primary health and speciality teams",
+      "definition": "A nurse authorised to prescribe with primary health and speciality teams."
+    },
+    {
+      "code": "NC04",
+      "display": "A nurse authorised to prescribe in community health",
+      "definition": "A nurse authorised to prescribe in community health."
     },
     {
       "code": "OG01",
-      "display": "Obstetrics and Gynaecology: Gynaecologist"
+      "display": "Obstetrics and Gynaecology: Gynaecologist",
+      "definition": "Alternate name."
     },
     {
       "code": "OG02",
-      "display": "Obstetrics and Gynaecology: Obstetrician"
+      "display": "Obstetrics and Gynaecology: Obstetrician",
+      "definition": "Alternate name."
     },
     {
       "code": "ON01",
-      "display": "Radiation Oncology: Oncologist"
+      "display": "Radiation Oncology: Oncologist",
+      "definition": "Alternate name."
     },
     {
       "code": "ON02",
-      "display": "Radiation Oncology: Radiation Oncologist"
+      "display": "Radiation Oncology: Radiation Oncologist",
+      "definition": "Alternate name."
+    },
+    {
+      "code": "OP01",
+      "display": "Optometrists",
+      "definition": "Optometrists."
     },
     {
       "code": "PA01",
-      "display": "Paediatrics: Cardiologist"
+      "display": "Paediatrics: Cardiologist",
+      "definition": "A paediatrician working in the role of cardiologist."
     },
     {
       "code": "PA02",
-      "display": "Paediatrics: Endocrinologist"
+      "display": "Paediatrics: Endocrinologist",
+      "definition": "A paediatrician working in the role of endocrinologist."
     },
     {
       "code": "PA03",
-      "display": "Paediatrics: Gastroenterologist"
+      "display": "Paediatrics: Gastroenterologist",
+      "definition": "A paediatrician working in the role of gastroenterologist."
     },
     {
       "code": "PA04",
-      "display": "Paediatrics: Geriatrician"
+      "display": "Paediatrics: Geriatrician",
+      "definition": "A paediatrician working in the role of geriatrician."
     },
     {
       "code": "PA05",
-      "display": "Paediatrics: Infectious Disease Specialist"
+      "display": "Paediatrics: Infectious Disease Specialist",
+      "definition": "A paediatrician working in the role of infectious disease specialist."
     },
     {
       "code": "PA06",
-      "display": "Paediatrics: Nephrologist"
+      "display": "Paediatrics: Nephrologist",
+      "definition": "A paediatrician working in the role of nephrologist."
     },
     {
       "code": "PA07",
-      "display": "Paediatrics: Neurologist"
+      "display": "Paediatrics: Neurologist",
+      "definition": "A paediatrician working in the role of neurologist."
     },
     {
       "code": "PA08",
-      "display": "Paediatrics: Oncologist"
+      "display": "Paediatrics: Oncologist",
+      "definition": "A paediatrician working in the role of oncologist."
     },
     {
       "code": "PA09",
-      "display": "Paediatrics: Physician for the Elderly (FRACP)"
+      "display": "Paediatrics: Physician for the Elderly (FRACP)",
+      "definition": "A paediatrician working in the role of of physician for the elderly (FRACP = Royal Australasian College of Physicians)."
     },
     {
       "code": "PA10",
-      "display": "Paediatrics: Renal Physician"
+      "display": "Paediatrics: Renal Physician",
+      "definition": "A paediatrician working in the role of renal physician."
     },
     {
       "code": "PA11",
-      "display": "Paediatrics: Respiratory Specialist"
+      "display": "Paediatrics: Respiratory Specialist",
+      "definition": "A paediatrician working in the role of respiratory specialist."
     },
     {
       "code": "PA12",
-      "display": "Paediatrics: Rheumatologist"
+      "display": "Paediatrics: Rheumatologist",
+      "definition": "A paediatrician working in the role of rheumatologist."
     },
     {
       "code": "PS01",
-      "display": "Psychiatry: Psychiatrist"
+      "display": "Psychiatry: Psychiatrist",
+      "definition": "Alternate name."
     },
     {
       "code": "PS02",
-      "display": "Psychiatry: Psychological Medicine Specialist"
+      "display": "Psychiatry: Psychological Medicine Specialist",
+      "definition": "Alternate name."
     },
     {
       "code": "SMEA",
-      "display": "Smear Taker"
+      "display": "Smear Taker",
+      "definition": "A person authorised by the Cervical Screening Programme to participate in smear taking and on the register."
     }
   ],
   "jurisdiction": [
@@ -184,5 +240,5 @@
       ]
     }
   ],
-  "count": 41
+  "count": 44
 }

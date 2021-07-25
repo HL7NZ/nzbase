@@ -348,10 +348,26 @@
       },
       {
         "reference": {
+          "reference": "ValueSet/location-alias-type"
+        },
+        "name": "Location alias types",
+        "description": "The set of alias types that apply to Locations",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
           "reference": "ValueSet/nz-residency-status"
         },
         "name": "NZ Residency status",
         "description": "Is the person a NZ resident",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/organization-alias-type"
+        },
+        "name": "Organization alias types",
+        "description": "The set of alias types that apply to Organizations",
         "exampleBoolean": false
       },
       {
@@ -364,7 +380,7 @@
       },
       {
         "reference": {
-          "reference": "ValueSet/practitioner-additional-authorisation"
+          "reference": "ValueSet/practitioner-additional-authorisation-code"
         },
         "name": "Additional Authorisation for functions that a Practitioner can perform",
         "description": "A coded type for additional authorisations",
@@ -404,6 +420,14 @@
       },
       {
         "reference": {
+          "reference": "CodeSystem/alias-type"
+        },
+        "name": "Type of Alias",
+        "description": "Used in Organization and Location to indicate what is the type of Alias",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
           "reference": "CodeSystem/citizenship-status"
         },
         "name": "Citizenship status",
@@ -416,14 +440,6 @@
         },
         "name": "Other values for the ContactPoint system",
         "description": "Other values for the ContactPoint system",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "CodeSystem/dhb"
-        },
-        "name": "District Health Board Code",
-        "description": "District Health Board Code",
         "exampleBoolean": false
       },
       {
@@ -505,6 +521,13 @@
         "name": "8479",
         "description": "Patient1",
         "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/Dhb-code"
+        },
+        "name": "Dhb-code",
+        "exampleBoolean": false
       },
       {
         "reference": {

@@ -10,7 +10,7 @@
   "uniqueId": [
     {
       "type": "uri",
-      "value": " https://standards.digital.health.nz/ns/podiatrists-board-id",
+      "value": "https://standards.digital.health.nz/ns/podiatrists-board-id",
       "preferred": true
     },
     {

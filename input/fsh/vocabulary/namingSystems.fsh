@@ -462,7 +462,7 @@ Usage: #definition
 * responsible = "HISO"
 
 * uniqueId.type = #uri
-* uniqueId.value = " https://standards.digital.health.nz/ns/podiatrists-board-id"
+* uniqueId.value = "https://standards.digital.health.nz/ns/podiatrists-board-id"
 * uniqueId.preferred = true
 
 * uniqueId[1].type = #oid

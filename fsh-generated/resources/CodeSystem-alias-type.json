@@ -1,0 +1,49 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "active",
+  "content": "complete",
+  "name": "AliasType",
+  "id": "alias-type",
+  "title": "Type of Alias",
+  "description": "Used in Organization and Location to indicate what is the type of Alias",
+  "version": "0.2.0",
+  "url": "https://standards.digital.health.nz/ns/alias-type-code",
+  "concept": [
+    {
+      "code": "aka",
+      "display": "Aka",
+      "definition": "The name by which the organisation or facility is also known as."
+    },
+    {
+      "code": "old",
+      "display": "Old",
+      "definition": "The previous legal name(s) of the organisation/facility."
+    },
+    {
+      "code": "maori",
+      "display": "Māori",
+      "definition": "The Māori name of the organisation or facility."
+    },
+    {
+      "code": "legal",
+      "display": "Legal",
+      "definition": "The name as recorded in the official register eg Register of Companies."
+    },
+    {
+      "code": "short",
+      "display": "Short",
+      "definition": "An abbreviated name by which the organisation or facility is known."
+    },
+    {
+      "code": "trade-as",
+      "display": "Trading as",
+      "definition": "Used when the organisation/facility has a separate trading name."
+    },
+    {
+      "code": "current",
+      "display": "Current unverified or unofficial name",
+      "definition": "The name currently used for a facility."
+    }
+  ],
+  "count": 7
+}
