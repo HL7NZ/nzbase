@@ -44,6 +44,10 @@
     {
       "type": "oid",
       "value": "2.16.840.1.113883.2.18.3.2"
+    },
+    {
+      "type": "uri",
+      "value": "https://standards.digital.health.nz/ns/nzhis-facility-id"
     }
   ]
 }

@@ -566,20 +566,6 @@
       },
       {
         "reference": {
-          "reference": "NamingSystem/nzFacilitylegacy"
-        },
-        "name": "nzFacilitylegacy",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "NamingSystem/nzOrganizationlegacy"
-        },
-        "name": "nzOrganizationlegacy",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
           "reference": "NamingSystem/nzbn"
         },
         "name": "nzbn",

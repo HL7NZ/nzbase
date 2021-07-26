@@ -58,20 +58,28 @@ Usage: #definition
 * type.coding = http://terminology.hl7.org/CodeSystem/v2-0203#NPI "National provider identifier"
 * jurisdiction = urn:iso:std:iso:3166#NZ
 
-* uniqueId.type = #uri
-* uniqueId.value = "https://standards.digital.health.nz/ns/hpi-organisation-id"
-* uniqueId.preferred = true
+* uniqueId[+].type = #uri
+* uniqueId[=].value = "https://standards.digital.health.nz/ns/hpi-organisation-id"
+* uniqueId[=].preferred = true
 
-* uniqueId[1].type = #uri
-* uniqueId[1].value = "https://standards.digital.health.nz/ns/moh-agency-id"
-* uniqueId[1].comment = "NZHIS Agency code. Deprecated"
+* uniqueId[+].type = #uri
+* uniqueId[=].value = "https://standards.digital.health.nz/ns/moh-agency-id"
+* uniqueId[=].comment = "NZHIS Agency code. Deprecated"
 
-* uniqueId[2].type = #uri
-* uniqueId[2].value = "https://standards.digital.health.nz/id/hpi-organisation"
-* uniqueId[2].comment = "Deprecated"
+* uniqueId[+].type = #uri
+* uniqueId[=].value = "https://standards.digital.health.nz/id/hpi-organisation"
+* uniqueId[=].comment = "Deprecated"
 
-* uniqueId[3].type = #oid
-* uniqueId[3].value = "2.16.840.1.113883.2.18.3.3"
+* uniqueId[+].type = #oid
+* uniqueId[=].value = "2.16.840.1.113883.2.18.3.3"
+
+* uniqueId[+].type = #uri
+* uniqueId[=].value = "https://standards.digital.health.nz/ns/nzhis-agency-id"
+* uniqueId[=].comment = "Deprecated"
+
+
+
+
 
 
 Instance: hpiFacility
@@ -87,20 +95,23 @@ Usage: #definition
 * date = "2020-07-14"
 * responsible = "HISO"
 
-* uniqueId.type = #uri
-* uniqueId.value = "https://standards.digital.health.nz/ns/hpi-facility-id"
-* uniqueId.preferred = true
+* uniqueId[+].type = #uri
+* uniqueId[=].value = "https://standards.digital.health.nz/ns/hpi-facility-id"
+* uniqueId[=].preferred = true
 
-* uniqueId[1].type = #uri
-* uniqueId[1].value = "https://standards.digital.health.nz/ns/moh-facility-id"
+* uniqueId[+].type = #uri
+* uniqueId[=].value = "https://standards.digital.health.nz/ns/moh-facility-id"
 
+* uniqueId[+].type = #uri
+* uniqueId[=].value = "https://standards.digital.health.nz/id/hpi-facility"
+* uniqueId[=].comment = "Deprecated"
 
-* uniqueId[2].type = #uri
-* uniqueId[2].value = "https://standards.digital.health.nz/id/hpi-facility"
-* uniqueId[2].comment = "Deprecated"
+* uniqueId[+].type = #oid
+* uniqueId[=].value = "2.16.840.1.113883.2.18.3.2"
 
-* uniqueId[3].type = #oid
-* uniqueId[3].value = "2.16.840.1.113883.2.18.3.2"
+* uniqueId[+].type = #uri
+* uniqueId[=].value = "https://standards.digital.health.nz/ns/nzhis-facility-id"
+
 
 
 Instance: hpipractitionerrole
@@ -505,7 +516,7 @@ Usage: #definition
 * uniqueId.value = "https://standards.digital.health.nz/ns/medical-radiation-technologists-board-id"
 * uniqueId.preferred = true
 
-
+/*
 Instance: nzFacilitylegacy
 InstanceOf: NamingSystem
 Usage: #definition
@@ -523,6 +534,9 @@ Usage: #definition
 * uniqueId.value = "https://standards.digital.health.nz/ns/nzhis-facility-id"
 * uniqueId.preferred = true
 
+*/
+
+/*
 Instance: nzOrganizationlegacy
 InstanceOf: NamingSystem
 Usage: #definition
@@ -540,3 +554,4 @@ Usage: #definition
 * uniqueId.value = "https://standards.digital.health.nz/ns/nzhis-agency-id"
 * uniqueId.preferred = true
 
+*/
