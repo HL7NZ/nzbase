@@ -20,7 +20,7 @@ Id: location-alias-type
 Title: "Location alias types"
 Description: "The set of alias types that apply to Locations"
 
-* ^url = "https://standards.digital.health.nz/fhir/ValueSet/location-alias-type-code"
+* ^url = $alias-type-vs
 
 * $alias-type-cs#aka "Aka"
 * $alias-type-cs#maori "Maori"

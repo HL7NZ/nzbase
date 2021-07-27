@@ -1,0 +1,46 @@
+{
+  "resourceType": "Patient",
+  "id": "patient-citizenship",
+  "extension": [
+    {
+      "url": "http://hl7.org.nz/fhir/StructureDefinition/nz-citizenship",
+      "extension": [
+        {
+          "url": "status",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "code": "RESIDENT",
+                "system": "https://standards.digital.health.nz/ns/nz-citizenship-status-code",
+                "display": "Resident"
+              }
+            ]
+          }
+        },
+        {
+          "url": "source",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "code": "BREG",
+                "system": "https://standards.digital.health.nz/ns/information-source-code",
+                "display": "Birth Register"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "name": [
+    {
+      "family": "Doe",
+      "given": [
+        "John"
+      ],
+      "text": "John Doe"
+    }
+  ],
+  "birthDate": "1998-01-01",
+  "gender": "male"
+}

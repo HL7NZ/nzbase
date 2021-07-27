@@ -516,18 +516,18 @@
       },
       {
         "reference": {
-          "reference": "Patient/8479"
-        },
-        "name": "8479",
-        "description": "Patient1",
-        "exampleBoolean": true
-      },
-      {
-        "reference": {
           "reference": "CodeSystem/Dhb-code"
         },
         "name": "Dhb-code",
         "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "Condition/condition-long-term-condition"
+        },
+        "name": "condition-long-term-condition",
+        "description": "Example of long term condition",
+        "exampleBoolean": true
       },
       {
         "reference": {
@@ -556,6 +556,22 @@
         },
         "name": "hpipractitionerrole",
         "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "MedicationRequest/medicationrequest-nzeps-supply-period-reason"
+        },
+        "name": "medicationrequest-nzeps-supply-period-reason",
+        "description": "Example of supply period reason",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "MedicationRequest/medicationrequest-nzeps-unusual-dose-quantity"
+        },
+        "name": "medicationrequest-nzeps-unusual-dose-quantity",
+        "description": "Example of sunusual does quantity",
+        "exampleBoolean": true
       },
       {
         "reference": {
@@ -591,6 +607,14 @@
         },
         "name": "nzdiet",
         "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "MedicationRequest/nzeps-long-term-medication"
+        },
+        "name": "nzeps-long-term-medication",
+        "description": "Example of long term medication",
+        "exampleBoolean": true
       },
       {
         "reference": {
@@ -692,10 +716,122 @@
       },
       {
         "reference": {
+          "reference": "Organization/organization-edi-address"
+        },
+        "name": "organization-edi-address",
+        "description": "Example of edi addrss extension",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Organization/organization-funded-programme"
+        },
+        "name": "organization-funded-programme",
+        "description": "Example of Funded programme",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Patient/patient-building-name"
+        },
+        "name": "patient-building-name",
+        "description": "Example of building name extension",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Patient/patient-citizenship"
+        },
+        "name": "patient-citizenship",
+        "description": "Example of citizenship",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
           "reference": "Patient/patient-dhb"
         },
         "name": "patient-dhb",
         "description": "Patient1",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Patient/patient-domicile-code"
+        },
+        "name": "patient-domicile-code",
+        "description": "Example of Domicile code",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Patient/patient-ethnicity"
+        },
+        "name": "patient-ethnicity",
+        "description": "Example of ethnicity",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Patient/patient-geocode"
+        },
+        "name": "patient-geocode",
+        "description": "Example of geocode",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Patient/patient-information-source"
+        },
+        "name": "patient-information-source",
+        "description": "Example of information source",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Patient/patient-pho"
+        },
+        "name": "patient-pho",
+        "description": "Example of PHO",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Patient/patient-suburb"
+        },
+        "name": "patient-suburb",
+        "description": "Example of suburb",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Practitioner/practitioner-condition-on-practice"
+        },
+        "name": "practitioner-condition-on-practice",
+        "description": "Example of Condition on practice",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Practitioner/practitioner-registration-initial-date"
+        },
+        "name": "practitioner-registration-initial-date",
+        "description": "Example of Initial date of registration",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Practitioner/practitioner-registration-status-code"
+        },
+        "name": "practitioner-registration-status-code",
+        "description": "Example of registration status",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Practitioner/practitioner-scope-of-practice"
+        },
+        "name": "practitioner-scope-of-practice",
+        "description": "Example of scope of practice",
         "exampleBoolean": true
       }
     ],

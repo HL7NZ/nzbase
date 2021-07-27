@@ -18,7 +18,7 @@ The [FHIR spec](http://hl7.org/fhir/terminology-module.html) has much more detai
 described at http://aria.stats.govt.nz/aria/#ClassificationView:uri=http://stats.govt.nz/cms/ClassificationVersion/YVqOcFHSlguKkT17</td><td><a href='ValueSet-ethnicity.html'>https://standards.digital.health.nz/fhir/ValueSet/ethnic-group-level-4-code</a></td></tr>
 <tr><td width='20%'>Funded Programme</td><td>Some sort of funded programme</td><td><a href='ValueSet-funded-programme.html'>https://standards.digital.health.nz/fhir/ValueSet/funded-programme-code</a></td></tr>
 <tr><td width='20%'>Information Source</td><td>The source from where the value of this item was sourced</td><td><a href='ValueSet-information-source.html'>https://standards.digital.health.nz/fhir/ValueSet/information-source-code</a></td></tr>
-<tr><td width='20%'>Location alias types</td><td>The set of alias types that apply to Locations</td><td><a href='ValueSet-location-alias-type.html'>https://standards.digital.health.nz/fhir/ValueSet/location-alias-type-code</a></td></tr>
+<tr><td width='20%'>Location alias types</td><td>The set of alias types that apply to Locations</td><td><a href='ValueSet-location-alias-type.html'>https://standards.digital.health.nz/fhir/ValueSet/alias-type-code</a></td></tr>
 <tr><td width='20%'>NZ Residency status</td><td>Is the person a NZ resident</td><td><a href='ValueSet-nz-residency-status.html'>https://standards.digital.health.nz/fhir/ValueSet/nz-residency-status-code</a></td></tr>
 <tr><td width='20%'>Organization alias types</td><td>The set of alias types that apply to Organizations</td><td><a href='ValueSet-organization-alias-type.html'>https://standards.digital.health.nz/fhir/ValueSet/organization-alias-type-code</a></td></tr>
 <tr><td width='20%'>Other values for the ContactPoint system</td><td>Other values for the ContactPoint system</td><td><a href='ValueSet-contact-point-other.html'>https://standards.digital.health.nz/fhir/ValueSet/contact-point-other-code</a></td></tr>
@@ -59,6 +59,5 @@ described at http://aria.stats.govt.nz/aria/#ClassificationView:uri=http://stats
 ### ValueSets defined but not used
 
 <table><tr><th>Url</th></tr>
-<tr><td><a href='ValueSet-location-alias-type.html'>https://standards.digital.health.nz/fhir/ValueSet/location-alias-type-code</a></td></tr>
 <tr><td><a href='ValueSet-organization-alias-type.html'>https://standards.digital.health.nz/fhir/ValueSet/organization-alias-type-code</a></td></tr>
 </table>

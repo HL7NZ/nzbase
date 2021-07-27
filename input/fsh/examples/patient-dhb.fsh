@@ -16,6 +16,7 @@ Usage: #example
 * gender = #male
 
 
+/*
 
 Instance: 8479
 InstanceOf: Patient
@@ -60,3 +61,5 @@ Usage: #example
 
 * extension[+].url = "http://hl7.org.nz/fhir/StructureDefinition/pho" 
 * extension[=].valueCodeableConcept = $pho-code-cs#G05569-J
+
+*/

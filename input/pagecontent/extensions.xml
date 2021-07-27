@@ -158,7 +158,8 @@
 <td><a href='StructureDefinition-information-source.html'>information-source</a></td>
 <td>http://hl7.org.nz/fhir/StructureDefinition/information-source</td>
 <td>
-<div>Patient</div>
+<div>Patient.name</div>
+<div>Patient.birthDate</div>
 </td>
 <td>The official source of information held about a patient.</td>
 <td></td>

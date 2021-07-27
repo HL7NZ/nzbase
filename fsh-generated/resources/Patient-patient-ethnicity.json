@@ -1,0 +1,41 @@
+{
+  "resourceType": "Patient",
+  "id": "patient-ethnicity",
+  "extension": [
+    {
+      "url": "http://hl7.org.nz/fhir/StructureDefinition/nz-ethnicity",
+      "valueCodeableConcept": {
+        "coding": [
+          {
+            "code": "10000",
+            "system": "https://standards.digital.health.nz/ns/ethnic-group-level-4-code",
+            "display": "European NFD"
+          }
+        ]
+      }
+    },
+    {
+      "url": "http://hl7.org.nz/fhir/StructureDefinition/nz-ethnicity",
+      "valueCodeableConcept": {
+        "coding": [
+          {
+            "code": "12111",
+            "system": "https://standards.digital.health.nz/ns/ethnic-group-level-4-code",
+            "display": "Celtic"
+          }
+        ]
+      }
+    }
+  ],
+  "name": [
+    {
+      "family": "Doe",
+      "given": [
+        "John"
+      ],
+      "text": "John Doe"
+    }
+  ],
+  "birthDate": "1998-01-01",
+  "gender": "male"
+}

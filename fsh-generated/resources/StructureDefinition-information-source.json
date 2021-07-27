@@ -44,7 +44,11 @@
   "context": [
     {
       "type": "element",
-      "expression": "Patient"
+      "expression": "Patient.name"
+    },
+    {
+      "type": "element",
+      "expression": "Patient.birthDate"
     }
   ],
   "type": "Extension",
