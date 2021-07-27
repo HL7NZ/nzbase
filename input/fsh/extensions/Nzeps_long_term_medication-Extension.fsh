@@ -18,8 +18,12 @@ Description: "NZePS Long Term Medication Indicator"
 
 * ^copyright = "HL7 New Zealand© 2020+; Licensed Under Creative Commons No Rights Reserved."
 * ^kind = #primitive-type
-* ^context[0].type = #element
-* ^context[0].expression = "MedicationRequest"
+* ^context[+].type = #element
+* ^context[=].expression = "MedicationRequest"
+
+* ^context[+].type = #element
+* ^context[=].expression = "MedicationStatement"
+
 
 * value[x] only boolean
 * value[x] ^label = "NZePS-long-term-medication"
