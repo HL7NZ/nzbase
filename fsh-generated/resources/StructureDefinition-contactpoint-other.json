@@ -82,7 +82,7 @@
         "path": "Extension.valueCoding.system",
         "binding": {
           "strength": "required",
-          "valueSet": "https://standards.digital.health.nz/fhir/ValueSet/contact-point-other-code"
+          "valueSet": "https://nzhts.digital.health.nz/fhir/ValueSet/contact-point-other-code"
         }
       }
     ]

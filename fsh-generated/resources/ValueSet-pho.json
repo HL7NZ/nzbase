@@ -6,7 +6,7 @@
   "title": "PHO",
   "description": "Primary Healthcare Organization",
   "version": "0.2.0",
-  "url": "https://standards.digital.health.nz/fhir/ValueSet/pho-code",
+  "url": "https://nzhts.digital.health.nz/fhir/ValueSet/pho-code",
   "compose": {
     "include": [
       {

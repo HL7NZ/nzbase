@@ -23,4 +23,4 @@ Description: "The status of the role - active,ended"
 * extension[reason].url = "reason" (exactly)
 * extension[reason] ^definition = "The reason for the current status if it is not active"
 * extension[reason].value[x] only CodeableConcept
-* extension[reason].valueCodeableConcept from https://standards.digital.health.nz/fhir/ValueSet/hpi-practitioner-role-status-reason-code (preferred)
+* extension[reason].valueCodeableConcept from https://nzhts.digital.health.nz/fhir/ValueSet/hpi-practitioner-role-status-reason-code (preferred)

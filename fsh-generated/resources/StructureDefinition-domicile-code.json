@@ -94,7 +94,7 @@
         "max": "1",
         "binding": {
           "strength": "preferred",
-          "valueSet": "https://standards.digital.health.nz/fhir/ValueSet/domicile-code"
+          "valueSet": "https://nzhts.digital.health.nz/fhir/ValueSet/domicile-code"
         }
       }
     ]

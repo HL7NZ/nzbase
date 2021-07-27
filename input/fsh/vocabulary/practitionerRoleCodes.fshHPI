@@ -15,7 +15,7 @@ Id: practitionerrole-codes
 Title: "PractitionerRoleCodes"
 Description: "Coded roles that can be in a PractitionerRole"
 
-* ^url = "https://standards.digital.health.nz/fhir/ValueSet/practitioner-role-code"
+* ^url = "https://nzhts.digital.health.nz/fhir/ValueSet/practitioner-role-code"
 * ^jurisdiction.coding = urn:iso:std:iso:3166#NZ
 
 * codes from system https://standards.digital.health.nz/ns/practitioner-role-code

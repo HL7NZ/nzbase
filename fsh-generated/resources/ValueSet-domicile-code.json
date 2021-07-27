@@ -6,7 +6,7 @@
   "title": "domicileCode",
   "description": "Domicile Code",
   "version": "0.2.0",
-  "url": "https://standards.digital.health.nz/fhir/ValueSet/domicile-code",
+  "url": "https://nzhts.digital.health.nz/fhir/ValueSet/domicile-code",
   "compose": {
     "include": [
       {

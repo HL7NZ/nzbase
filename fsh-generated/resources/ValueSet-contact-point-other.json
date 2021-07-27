@@ -6,7 +6,7 @@
   "title": "Other values for the ContactPoint system",
   "description": "Other values for the ContactPoint system",
   "version": "0.2.0",
-  "url": "https://standards.digital.health.nz/fhir/ValueSet/contact-point-other-code",
+  "url": "https://nzhts.digital.health.nz/fhir/ValueSet/contact-point-other-code",
   "jurisdiction": [
     {
       "coding": [

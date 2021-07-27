@@ -239,6 +239,7 @@
 <td>http://hl7.org.nz/fhir/StructureDefinition/nzeps-long-term-medication</td>
 <td>
 <div>MedicationRequest</div>
+<div>MedicationStatement</div>
 </td>
 <td>NZePS Long Term Medication Indicator</td>
 <td>This has specific uses in NZ Pharmacy and GP systems for funding and clinical purposes. It is also part of the HISO 10041.1 standard for Medication Lists.</td>

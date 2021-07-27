@@ -82,7 +82,7 @@
         "max": "1",
         "binding": {
           "strength": "required",
-          "valueSet": "https://standards.digital.health.nz/fhir/ValueSet/alias-type-code"
+          "valueSet": "https://nzhts.digital.health.nz/fhir/ValueSet/alias-type-code"
         }
       }
     ]

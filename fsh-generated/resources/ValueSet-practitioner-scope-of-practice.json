@@ -6,7 +6,7 @@
   "title": "Scope of practice",
   "description": "A coded type for professional scope of practice.",
   "version": "0.2.0",
-  "url": "https://standards.digital.health.nz/fhir/ValueSet/practitioner-scope-of-practice-code",
+  "url": "https://nzhts.digital.health.nz/fhir/ValueSet/practitioner-scope-of-practice-code",
   "jurisdiction": [
     {
       "coding": [

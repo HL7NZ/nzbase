@@ -6,7 +6,7 @@
   "title": "Organization alias types",
   "description": "The set of alias types that apply to Organizations",
   "version": "0.2.0",
-  "url": "https://standards.digital.health.nz/fhir/ValueSet/organization-alias-type-code",
+  "url": "https://nzhts.digital.health.nz/fhir/ValueSet/organization-alias-type-code",
   "compose": {
     "include": [
       {

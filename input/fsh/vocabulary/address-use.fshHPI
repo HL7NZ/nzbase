@@ -5,7 +5,7 @@ Id: hpi-address-use
 Title: "Use values for an Address"
 Description: "Use values for an Address"
 
-* ^url = "https://standards.digital.health.nz/fhir/ValueSet/hpi-location-address-use-code"
+* ^url = "https://nzhts.digital.health.nz/fhir/ValueSet/hpi-location-address-use-code"
 * ^jurisdiction.coding = urn:iso:std:iso:3166#NZ
 
 * $au#work "An office address. First choice for business related contacts during business hours."

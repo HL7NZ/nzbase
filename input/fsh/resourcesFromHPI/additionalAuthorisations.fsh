@@ -4,7 +4,7 @@ Id: practitioner-additional-authorisation-code
 Title: "Additional Authorisation for functions that a Practitioner can perform"
 Description: "A coded type for additional authorisations"
 
-* ^url = "https://standards.digital.health.nz/fhir/ValueSet/practitioner-additional-authorisation-code"
+* ^url = "https://nzhts.digital.health.nz/fhir/ValueSet/practitioner-additional-authorisation-code"
 * ^jurisdiction.coding = urn:iso:std:iso:3166#NZ
 
 * codes from system https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code

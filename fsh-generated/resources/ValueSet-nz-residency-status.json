@@ -6,7 +6,7 @@
   "title": "NZ Residency status",
   "description": "Is the person a NZ resident",
   "version": "0.2.0",
-  "url": "https://standards.digital.health.nz/fhir/ValueSet/nz-residency-status-code",
+  "url": "https://nzhts.digital.health.nz/fhir/ValueSet/nz-residency-status-code",
   "compose": {
     "include": [
       {

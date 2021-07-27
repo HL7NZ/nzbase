@@ -3,7 +3,7 @@ Id: practitioner-scope-of-practice
 Title: "Scope of practice"
 Description: "A coded type for professional scope of practice."
 
-* ^url = "https://standards.digital.health.nz/fhir/ValueSet/practitioner-scope-of-practice-code"
+* ^url = "https://nzhts.digital.health.nz/fhir/ValueSet/practitioner-scope-of-practice-code"
 * ^jurisdiction.coding = urn:iso:std:iso:3166#NZ
 
 * codes from system https://standards.digital.health.nz/ns/practitioner-scope-of-practice-code

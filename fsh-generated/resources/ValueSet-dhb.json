@@ -6,7 +6,7 @@
   "title": "District Health Board Identifer",
   "description": "District Health Board Identifer. Assigned by the HPI.",
   "version": "0.2.0",
-  "url": "https://standards.digital.health.nz/fhir/ValueSet/dhb-code",
+  "url": "https://nzhts.digital.health.nz/fhir/ValueSet/dhb-code",
   "jurisdiction": [
     {
       "coding": [

@@ -5,7 +5,7 @@ Id: hpi-identifier-use
 Title: "Use values for an identifier"
 Description: "Use values for an identifier"
 
-* ^url = "https://standards.digital.health.nz/fhir/ValueSet/hpi-identifier-use-code"
+* ^url = "https://nzhts.digital.health.nz/fhir/ValueSet/hpi-identifier-use-code"
 * ^jurisdiction.coding = urn:iso:std:iso:3166#NZ
 
 * $ie#official "A 'live' identifier that is currently in use"

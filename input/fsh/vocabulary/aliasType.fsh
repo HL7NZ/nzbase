@@ -31,7 +31,7 @@ Id: organization-alias-type
 Title: "Organization alias types"
 Description: "The set of alias types that apply to Organizations"
 
-* ^url = "https://standards.digital.health.nz/fhir/ValueSet/organization-alias-type-code"
+* ^url = "https://nzhts.digital.health.nz/fhir/ValueSet/organization-alias-type-code"
 
 * $alias-type-cs#aka "Aka"
 * $alias-type-cs#maori "Maori"

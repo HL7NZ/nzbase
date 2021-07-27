@@ -112,7 +112,7 @@
         ],
         "binding": {
           "strength": "extensible",
-          "valueSet": "https://standards.digital.health.nz/fhir/ValueSet/dhb-code",
+          "valueSet": "https://nzhts.digital.health.nz/fhir/ValueSet/dhb-code",
           "description": "NZ HPI-ORG Values for DHBs"
         }
       }

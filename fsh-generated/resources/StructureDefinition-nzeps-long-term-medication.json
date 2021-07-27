@@ -52,6 +52,10 @@
     {
       "type": "element",
       "expression": "MedicationRequest"
+    },
+    {
+      "type": "element",
+      "expression": "MedicationStatement"
     }
   ],
   "type": "Extension",

@@ -11,14 +11,14 @@ Description: "Other values for the ContactPoint system"
 * ^context.expression = "ContactPoint"
 
 * value[x] only Coding
-* valueCoding.system from https://standards.digital.health.nz/fhir/ValueSet/contact-point-other-code
+* valueCoding.system from https://nzhts.digital.health.nz/fhir/ValueSet/contact-point-other-code
 
 ValueSet: ContactPointOther
 Id: contact-point-other
 Title: "Other values for the ContactPoint system"
 Description: "Other values for the ContactPoint system"
 
-* ^url = https://standards.digital.health.nz/fhir/ValueSet/contact-point-other-code
+* ^url = https://nzhts.digital.health.nz/fhir/ValueSet/contact-point-other-code
 * ^jurisdiction.coding = urn:iso:std:iso:3166#NZ
 
 * codes from system https://standards.digital.health.nz/ns/contact-point-other-code

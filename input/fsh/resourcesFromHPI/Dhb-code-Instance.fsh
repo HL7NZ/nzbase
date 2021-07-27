@@ -23,7 +23,7 @@ Usage: #definition
 * description = "District Health Board code table."
 * purpose = "District Health Board code table."
 * caseSensitive = false
-* valueSet = "https://standards.digital.health.nz/fhir/ValueSet/dhb-code"
+* valueSet = "https://nzhts.digital.health.nz/fhir/ValueSet/dhb-code"
 * versionNeeded = true
 * content = #complete
 * count = 20

@@ -18,7 +18,7 @@ Description: "Additional authorisations that a practitioner is authorised to per
 * extension[code].url = "code" (exactly)
 * extension[code] ^definition = "A code identifying the additional authorisations that a practitioner is authorised to perform"
 * extension[code].value[x] only CodeableConcept
-* extension[code].valueCodeableConcept from https://standards.digital.health.nz/fhir/ValueSet/practitioner-additional-authorisation-code (preferred)
+* extension[code].valueCodeableConcept from https://nzhts.digital.health.nz/fhir/ValueSet/practitioner-additional-authorisation-code (preferred)
 
 * extension[period].url = "period" (exactly)
 * extension[period] ^definition = "The period the additional authorisation is effective"

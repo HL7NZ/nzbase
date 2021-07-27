@@ -112,7 +112,7 @@
         ],
         "binding": {
           "strength": "extensible",
-          "valueSet": "https://standards.digital.health.nz/fhir/ValueSet/pho-code",
+          "valueSet": "https://nzhts.digital.health.nz/fhir/ValueSet/pho-code",
           "description": "NZ HPI-ORG Values for PHOs"
         }
       }

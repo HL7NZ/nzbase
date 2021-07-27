@@ -5,7 +5,7 @@ Id: practitioner-registration-status-code
 Title: "Registration Status of Practitioners"
 Description: "The code list represents the current practicing status of the Provider Person as per their registration with an RA."
 
-* ^url = https://standards.digital.health.nz/fhir/ValueSet/practitioner-registration-status-code
+* ^url = https://nzhts.digital.health.nz/fhir/ValueSet/practitioner-registration-status-code
 * ^jurisdiction.coding = urn:iso:std:iso:3166#NZ
 
 
