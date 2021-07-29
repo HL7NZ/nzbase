@@ -1,6 +1,6 @@
 Extension: AliasType
 Id: alias-type
-Description: "Indicates the type of alias name. VS Binding is done by the profile."
+Description: "Used to indicate what sort of alias is being used in a Location or Organization - eg that it is a legal name."
 
 * ^url = "http://hl7.org.nz/fhir/StructureDefinition/alias-type"
 * ^jurisdiction.coding = urn:iso:std:iso:3166#NZ

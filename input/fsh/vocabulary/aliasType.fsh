@@ -15,12 +15,26 @@ Description:  "Used in Organization and Location to indicate what is the type of
 * #trade-as "Trading as" "Used when the organisation/facility has a separate trading name."
 * #current "Current unverified or unofficial name" "The name currently used for a facility."
 
+
+
+ValueSet : AliasType
+Id: location-alias-type
+Title: "All the possible alias types"
+Description: "The complete set of alias types that apply to Locations and Organizations"
+
+* ^url = $alias-type-vs
+
+* codes from system $alias-type-cs
+
+/* 
+Move these to the HPI...
+
 ValueSet : LocationAliasType
 Id: location-alias-type
 Title: "Location alias types"
 Description: "The set of alias types that apply to Locations"
 
-* ^url = $alias-type-vs
+* ^url = "https://nzhts.digital.health.nz/fhir/ValueSet/location-alias-type-code"
 
 * $alias-type-cs#aka "Aka"
 * $alias-type-cs#maori "Maori"
@@ -37,3 +51,5 @@ Description: "The set of alias types that apply to Organizations"
 * $alias-type-cs#maori "Maori"
 * $alias-type-cs#short "Short"
 * $alias-type-cs#legal "Legal"
+
+*/

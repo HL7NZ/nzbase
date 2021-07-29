@@ -15,3 +15,7 @@
 </extension>
 
 ```
+
+**Example instances**
+
+[Patient with PHO](Patient-patient-pho.html)

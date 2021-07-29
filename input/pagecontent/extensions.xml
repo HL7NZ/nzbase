@@ -23,7 +23,7 @@
 <div>Location.alias</div>
 <div>Organization.alias</div>
 </td>
-<td>Indicates the type of alias name. VS Binding is done by the profile.</td>
+<td>Used to indicate what sort of alias is being used in a Location or Organization - eg that it is a legal name.</td>
 <td></td>
 <td>0</td>
 <td>draft</td>
@@ -136,7 +136,7 @@
 <td>
 <div>Practitioner</div>
 </td>
-<td>Educational qualifications.</td>
+<td>Educational qualifications a practitioner has. These may or may not be related to registration information. </td>
 <td></td>
 <td>0</td>
 <td>draft</td>

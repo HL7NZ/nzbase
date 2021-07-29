@@ -5,7 +5,7 @@
   "version": "0.2.0",
   "name": "AliasType",
   "status": "draft",
-  "description": "Indicates the type of alias name. VS Binding is done by the profile.",
+  "description": "Used to indicate what sort of alias is being used in a Location or Organization - eg that it is a legal name.",
   "jurisdiction": [
     {
       "coding": [
@@ -44,7 +44,7 @@
       {
         "id": "Extension",
         "path": "Extension",
-        "definition": "Indicates the type of alias name. VS Binding is done by the profile."
+        "definition": "Used to indicate what sort of alias is being used in a Location or Organization - eg that it is a legal name."
       },
       {
         "id": "Extension.extension",

@@ -1,30 +1,16 @@
 {
   "resourceType": "ValueSet",
   "status": "active",
-  "name": "LocationAliasType",
+  "name": "AliasType",
   "id": "location-alias-type",
-  "title": "Location alias types",
-  "description": "The set of alias types that apply to Locations",
+  "title": "All the possible alias types",
+  "description": "The complete set of alias types that apply to Locations and Organizations",
   "version": "0.2.0",
   "url": "https://nzhts.digital.health.nz/fhir/ValueSet/alias-type-code",
   "compose": {
     "include": [
       {
-        "system": "https://standards.digital.health.nz/ns/alias-type-code",
-        "concept": [
-          {
-            "code": "aka",
-            "display": "Aka"
-          },
-          {
-            "code": "maori",
-            "display": "Maori"
-          },
-          {
-            "code": "short",
-            "display": "Short"
-          }
-        ]
+        "system": "https://standards.digital.health.nz/ns/alias-type-code"
       }
     ]
   }

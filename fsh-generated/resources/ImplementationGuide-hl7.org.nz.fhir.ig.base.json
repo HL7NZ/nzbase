@@ -39,7 +39,7 @@
           "reference": "StructureDefinition/alias-type"
         },
         "name": "AliasType",
-        "description": "Indicates the type of alias name. VS Binding is done by the profile.",
+        "description": "Used to indicate what sort of alias is being used in a Location or Organization - eg that it is a legal name.",
         "exampleBoolean": false
       },
       {
@@ -119,7 +119,7 @@
           "reference": "StructureDefinition/educational-qualification"
         },
         "name": "EducationalQualification",
-        "description": "Educational qualifications.",
+        "description": "Educational qualifications a practitioner has. These may or may not be related to registration information. ",
         "exampleBoolean": false
       },
       {
@@ -292,6 +292,14 @@
       },
       {
         "reference": {
+          "reference": "ValueSet/location-alias-type"
+        },
+        "name": "All the possible alias types",
+        "description": "The complete set of alias types that apply to Locations and Organizations",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
           "reference": "ValueSet/citizenship-status"
         },
         "name": "Citizenship status",
@@ -348,26 +356,10 @@
       },
       {
         "reference": {
-          "reference": "ValueSet/location-alias-type"
-        },
-        "name": "Location alias types",
-        "description": "The set of alias types that apply to Locations",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
           "reference": "ValueSet/nz-residency-status"
         },
         "name": "NZ Residency status",
         "description": "Is the person a NZ resident",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "ValueSet/organization-alias-type"
-        },
-        "name": "Organization alias types",
-        "description": "The set of alias types that apply to Organizations",
         "exampleBoolean": false
       },
       {
@@ -382,7 +374,7 @@
         "reference": {
           "reference": "ValueSet/practitioner-additional-authorisation-code"
         },
-        "name": "Additional Authorisation for functions that a Practitioner can perform",
+        "name": "Additional activities that a Practitioner is authorised to perform",
         "description": "A coded type for additional authorisations",
         "exampleBoolean": false
       },

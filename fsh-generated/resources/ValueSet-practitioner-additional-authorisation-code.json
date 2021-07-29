@@ -3,7 +3,7 @@
   "status": "active",
   "name": "PractitionerAdditionalAuthorisationCode",
   "id": "practitioner-additional-authorisation-code",
-  "title": "Additional Authorisation for functions that a Practitioner can perform",
+  "title": "Additional activities that a Practitioner is authorised to perform",
   "description": "A coded type for additional authorisations",
   "version": "0.2.0",
   "url": "https://nzhts.digital.health.nz/fhir/ValueSet/practitioner-additional-authorisation-code",

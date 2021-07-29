@@ -11,16 +11,15 @@ The [FHIR spec](http://hl7.org/fhir/terminology-module.html) has much more detai
 
 <table class='table table-bordered table-condensed'>
 <tr><th>ValueSet</th><th>Purpose</th><th>Canonical url</th></tr>
-<tr><td width='20%'>Additional Authorisation for functions that a Practitioner can perform</td><td>A coded type for additional authorisations</td><td><a href='ValueSet-practitioner-additional-authorisation-code.html'>https://nzhts.digital.health.nz/fhir/ValueSet/practitioner-additional-authorisation-code</a></td></tr>
+<tr><td width='20%'>Additional activities that a Practitioner is authorised to perform</td><td>A coded type for additional authorisations</td><td><a href='ValueSet-practitioner-additional-authorisation-code.html'>https://nzhts.digital.health.nz/fhir/ValueSet/practitioner-additional-authorisation-code</a></td></tr>
+<tr><td width='20%'>All the possible alias types</td><td>The complete set of alias types that apply to Locations and Organizations</td><td><a href='ValueSet-location-alias-type.html'>https://nzhts.digital.health.nz/fhir/ValueSet/alias-type-code</a></td></tr>
 <tr><td width='20%'>Citizenship status</td><td>Citizenship status</td><td><a href='ValueSet-citizenship-status.html'>https://nzhts.digital.health.nz/fhir/ValueSet/nz-citizenship-status-code</a></td></tr>
 <tr><td width='20%'>District Health Board Identifer</td><td>District Health Board Identifer. Assigned by the HPI.</td><td><a href='ValueSet-dhb.html'>https://nzhts.digital.health.nz/fhir/ValueSet/dhb-code</a></td></tr>
 <tr><td width='20%'>Ethnicity of a person</td><td>Codes to record a person’s ethnicity, drawn from Level 4 of the Ethnicity code system 
 described at http://aria.stats.govt.nz/aria/#ClassificationView:uri=http://stats.govt.nz/cms/ClassificationVersion/YVqOcFHSlguKkT17</td><td><a href='ValueSet-ethnicity.html'>https://nzhts.digital.health.nz/fhir/ValueSet/ethnic-group-level-4-code</a></td></tr>
 <tr><td width='20%'>Funded Programme</td><td>Some sort of funded programme</td><td><a href='ValueSet-funded-programme.html'>https://nzhts.digital.health.nz/fhir/ValueSet/funded-programme-code</a></td></tr>
 <tr><td width='20%'>Information Source</td><td>The source from where the value of this item was sourced</td><td><a href='ValueSet-information-source.html'>https://nzhts.digital.health.nz/fhir/ValueSet/information-source-code</a></td></tr>
-<tr><td width='20%'>Location alias types</td><td>The set of alias types that apply to Locations</td><td><a href='ValueSet-location-alias-type.html'>https://nzhts.digital.health.nz/fhir/ValueSet/alias-type-code</a></td></tr>
 <tr><td width='20%'>NZ Residency status</td><td>Is the person a NZ resident</td><td><a href='ValueSet-nz-residency-status.html'>https://nzhts.digital.health.nz/fhir/ValueSet/nz-residency-status-code</a></td></tr>
-<tr><td width='20%'>Organization alias types</td><td>The set of alias types that apply to Organizations</td><td><a href='ValueSet-organization-alias-type.html'>https://nzhts.digital.health.nz/fhir/ValueSet/organization-alias-type-code</a></td></tr>
 <tr><td width='20%'>Other values for the ContactPoint system</td><td>Other values for the ContactPoint system</td><td><a href='ValueSet-contact-point-other.html'>https://nzhts.digital.health.nz/fhir/ValueSet/contact-point-other-code</a></td></tr>
 <tr><td width='20%'>PHO</td><td>Primary Healthcare Organization</td><td><a href='ValueSet-pho.html'>https://nzhts.digital.health.nz/fhir/ValueSet/pho-code</a></td></tr>
 <tr><td width='20%'>PractitionerRole status reason</td><td>The reason for the current status of PractitionerRole</td><td><a href='ValueSet-hpi-practitionerrole-status-reason.html'>https://nzhts.digital.health.nz/fhir/ValueSet/hpi-practitioner-role-status-reason-code</a></td></tr>
@@ -54,10 +53,4 @@ described at http://aria.stats.govt.nz/aria/#ClassificationView:uri=http://stats
 <tr><td width='20%'>Additional Authorisation</td><td>Additional authorisations that a practitioner is authorised to practice or prescribe.</td><td><a href='CodeSystem-practitioner-additional-authorisation.html'>https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code</a></td></tr>
 <tr><td width='20%'>Registration Status of Practitioners</td><td>The code list represents the current practicing status of the Provider Person as per their registration with an RA.</td><td><a href='CodeSystem-practitioner-registration-status-code.html'>https://standards.digital.health.nz/ns/practitioner-registration-status-code</a></td></tr>
 <tr><td width='20%'>Scope of practice</td><td>A classification of the type or range of health services that a practitioner is authorised to provide, as determined by the Responsible Authority or other statutory authority (e.g. PHARMAC), that is, what the practitioner can or cannot do. It includes Scope of Practice as defined by the Health Practitioners Competence Assurance Act 2003, any special authorisations granted, and any conditions or limitations imposed by the Responsible Authority.</td><td><a href='CodeSystem-scopeOfPractice.html'>https://standards.digital.health.nz/ns/practitioner-scope-of-practice-code</a></td></tr>
-</table>
-
-### ValueSets defined but not used
-
-<table><tr><th>Url</th></tr>
-<tr><td><a href='ValueSet-organization-alias-type.html'>https://nzhts.digital.health.nz/fhir/ValueSet/organization-alias-type-code</a></td></tr>
 </table>

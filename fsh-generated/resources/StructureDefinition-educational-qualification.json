@@ -5,7 +5,7 @@
   "version": "0.2.0",
   "name": "EducationalQualification",
   "status": "draft",
-  "description": "Educational qualifications.",
+  "description": "Educational qualifications a practitioner has. These may or may not be related to registration information. ",
   "jurisdiction": [
     {
       "coding": [
@@ -40,7 +40,7 @@
       {
         "id": "Extension",
         "path": "Extension",
-        "definition": "Educational qualifications."
+        "definition": "Educational qualifications a practitioner has. These may or may not be related to registration information. "
       },
       {
         "id": "Extension.extension:fullname",
