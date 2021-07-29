@@ -68,14 +68,6 @@
       },
       {
         "reference": {
-          "reference": "StructureDefinition/contactpoint-other"
-        },
-        "name": "ContactPointOther",
-        "description": "Other values for the ContactPoint system",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
           "reference": "StructureDefinition/current-occupation"
         },
         "name": "CurrentOccupation",
@@ -308,14 +300,6 @@
       },
       {
         "reference": {
-          "reference": "ValueSet/contact-point-other"
-        },
-        "name": "Other values for the ContactPoint system",
-        "description": "Other values for the ContactPoint system",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
           "reference": "ValueSet/dhb"
         },
         "name": "District Health Board Identifer",
@@ -424,14 +408,6 @@
         },
         "name": "Citizenship status",
         "description": "Citizenship status",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "CodeSystem/contact-point-other"
-        },
-        "name": "Other values for the ContactPoint system",
-        "description": "Other values for the ContactPoint system",
         "exampleBoolean": false
       },
       {

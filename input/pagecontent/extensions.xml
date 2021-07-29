@@ -63,17 +63,6 @@
 <td>active</td>
 </tr>
 <tr>
-<td><a href='StructureDefinition-contactpoint-other.html'>contactpoint-other</a></td>
-<td>http://hl7.org.nz/fhir/StructureDefinition/contactpoint-other</td>
-<td>
-<div>ContactPoint</div>
-</td>
-<td>Other values for the ContactPoint system</td>
-<td></td>
-<td>0</td>
-<td>draft</td>
-</tr>
-<tr>
 <td><a href='StructureDefinition-current-occupation.html'>current-occupation</a></td>
 <td>http://hl7.org.nz/fhir/StructureDefinition/current-occupation</td>
 <td>
