@@ -1,5 +1,5 @@
 
-This extension allows the use of other values for the ContactPoint.system element.
+This extension allows an EDI address to be added to the ContactPoint.system element.
 
 As the FHIR specification has a [required](http://hl7.org/fhir/terminologies.html#required) binding for this element, it is necessary to
 provide a value from the defined set (eg 'other') then place the extension on that value.
@@ -14,4 +14,4 @@ provide a value from the defined set (eg 'other') then place the extension on th
 
 **Example instances**
 
-[Patient with DHB](Practitioner-contactpoint-other.html)
+[Patient with DHB](Practitioner-practitioner-edi-address.html)

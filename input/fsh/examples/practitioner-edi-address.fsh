@@ -1,5 +1,5 @@
 
-Instance: practitioner-condition-on-practice
+Instance: practitioner-edi-address
 InstanceOf: Practitioner
 Description: "Example of Condition on practice"
 Usage: #example
@@ -11,7 +11,7 @@ Usage: #example
 * gender = #male
 
 * telecom.system = #other
-* telecom.system.extension[0].url = "http://hl7.org.nz/fhir/StructureDefinition/contactpoint-other"
-
+* telecom.system.extension[0].url = "http://hl7.org.nz/fhir/StructureDefinition/edi-address"
+* telecom.system.extension[0].valueString = "hl001"
 
 

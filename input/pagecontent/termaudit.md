@@ -1,11 +1,11 @@
 
 #### nz-citizenship-status-code
 
-<div><a href='ValueSet-citizenship-status.html'>https://standards.digital.health.nz/fhir/ValueSet/nz-citizenship-status-code</a></div>
+<div><a href='ValueSet-citizenship-status.html'>https://nzhts.digital.health.nz/fhir/ValueSet/nz-citizenship-status-code</a></div>
 
 <table class='table table-bordered'>
 
-<tr><th>Description from IG</th><th>Description from Termnz</th></tr>
+<tr><th>Description from IG</th><th>Description from Terminz</th></tr>
 
 <tr>
 
@@ -19,7 +19,7 @@
 
 Found in IG server. 2 concepts.
 
-Found in Termnz. 3 concepts. (Using url: https://terminz.azurewebsites.net/fhir/ValueSet/nz-citizenship-status-code)
+Found in Terminz. 3 concepts. (Using url: https://nzhts.digital.health.nz/fhir/ValueSet/nz-citizenship-status-code)
 
 <strong>Concepts only found in ig</strong>
 
@@ -44,38 +44,13 @@ Found in Termnz. 3 concepts. (Using url: https://terminz.azurewebsites.net/fhir/
 </ul>
 
 
-#### contact-point-other-code
-
-<div><a href='ValueSet-contact-point-other.html'>https://standards.digital.health.nz/fhir/ValueSet/contact-point-other-code</a></div>
-
-<table class='table table-bordered'>
-
-<tr><th>Description from IG</th><th>Description from Termnz</th></tr>
-
-<tr>
-
-<td width='50%'>Other values for the ContactPoint system</td>
-
-<td>NZ Additional Contact Point Codes</td>
-
-</tr>
-
-</table>
-
-Found in IG server. 2 concepts.
-
-Found in Termnz. 2 concepts. (Using url: https://terminz.azurewebsites.net/fhir/ValueSet/contact-point-other-code)
-
-The contents of the valueSets are the same. Hurrah! (comparing system & code)
-
-
 #### dhb-code
 
-<div><a href='ValueSet-dhb.html'>https://standards.digital.health.nz/fhir/ValueSet/dhb-code</a></div>
+<div><a href='ValueSet-dhb.html'>https://nzhts.digital.health.nz/fhir/ValueSet/dhb-code</a></div>
 
 <table class='table table-bordered'>
 
-<tr><th>Description from IG</th><th>Description from Termnz</th></tr>
+<tr><th>Description from IG</th><th>Description from Terminz</th></tr>
 
 <tr>
 
@@ -89,18 +64,18 @@ The contents of the valueSets are the same. Hurrah! (comparing system & code)
 
 Found in IG server. 20 concepts.
 
-Found in Termnz. 20 concepts. (Using url: https://terminz.azurewebsites.net/fhir/ValueSet/dhb-code)
+Found in Terminz. 20 concepts. (Using url: https://nzhts.digital.health.nz/fhir/ValueSet/dhb-code)
 
 The contents of the valueSets are the same. Hurrah! (comparing system & code)
 
 
 #### domicile-code
 
-<div><a href='ValueSet-domicile-code.html'>https://standards.digital.health.nz/fhir/ValueSet/domicile-code</a></div>
+<div><a href='ValueSet-domicile-code.html'>https://nzhts.digital.health.nz/fhir/ValueSet/domicile-code</a></div>
 
 <table class='table table-bordered'>
 
-<tr><th>Description from IG</th><th>Description from Termnz</th></tr>
+<tr><th>Description from IG</th><th>Description from Terminz</th></tr>
 
 <tr>
 
@@ -114,7 +89,7 @@ The contents of the valueSets are the same. Hurrah! (comparing system & code)
 
 Found in IG server. 2182 concepts.
 
-Found in Termnz. 2341 concepts. (Using url: https://terminz.azurewebsites.net/fhir/ValueSet/domicile-code)
+Found in Terminz. 2341 concepts. (Using url: https://nzhts.digital.health.nz/fhir/ValueSet/domicile-code)
 
 <strong>Concepts only found in termnz</strong>
 
@@ -443,11 +418,11 @@ Found in Termnz. 2341 concepts. (Using url: https://terminz.azurewebsites.net/fh
 
 #### ethnic-group-level-4-code
 
-<div><a href='ValueSet-ethnicity.html'>https://standards.digital.health.nz/fhir/ValueSet/ethnic-group-level-4-code</a></div>
+<div><a href='ValueSet-ethnicity.html'>https://nzhts.digital.health.nz/fhir/ValueSet/ethnic-group-level-4-code</a></div>
 
 <table class='table table-bordered'>
 
-<tr><th>Description from IG</th><th>Description from Termnz</th></tr>
+<tr><th>Description from IG</th><th>Description from Terminz</th></tr>
 
 <tr>
 
@@ -462,18 +437,18 @@ described at http://aria.stats.govt.nz/aria/#ClassificationView:uri=http://stats
 
 Found in IG server. 239 concepts.
 
-Found in Termnz. 239 concepts. (Using url: https://terminz.azurewebsites.net/fhir/ValueSet/ethnic-group-level-4-code)
+Found in Terminz. 239 concepts. (Using url: https://nzhts.digital.health.nz/fhir/ValueSet/ethnic-group-level-4-code)
 
 The contents of the valueSets are the same. Hurrah! (comparing system & code)
 
 
 #### funded-programme-code
 
-<div><a href='ValueSet-funded-programme.html'>https://standards.digital.health.nz/fhir/ValueSet/funded-programme-code</a></div>
+<div><a href='ValueSet-funded-programme.html'>https://nzhts.digital.health.nz/fhir/ValueSet/funded-programme-code</a></div>
 
 <table class='table table-bordered'>
 
-<tr><th>Description from IG</th><th>Description from Termnz</th></tr>
+<tr><th>Description from IG</th><th>Description from Terminz</th></tr>
 
 <tr>
 
@@ -487,18 +462,18 @@ The contents of the valueSets are the same. Hurrah! (comparing system & code)
 
 Found in IG server. 4 concepts.
 
-Found in Termnz. 4 concepts. (Using url: https://terminz.azurewebsites.net/fhir/ValueSet/funded-programme-code)
+Found in Terminz. 4 concepts. (Using url: https://nzhts.digital.health.nz/fhir/ValueSet/funded-programme-code)
 
 The contents of the valueSets are the same. Hurrah! (comparing system & code)
 
 
 #### hpi-practitioner-role-status-reason-code
 
-<div><a href='ValueSet-hpi-practitionerrole-status-reason.html'>https://standards.digital.health.nz/fhir/ValueSet/hpi-practitioner-role-status-reason-code</a></div>
+<div><a href='ValueSet-hpi-practitionerrole-status-reason.html'>https://nzhts.digital.health.nz/fhir/ValueSet/hpi-practitioner-role-status-reason-code</a></div>
 
 <table class='table table-bordered'>
 
-<tr><th>Description from IG</th><th>Description from Termnz</th></tr>
+<tr><th>Description from IG</th><th>Description from Terminz</th></tr>
 
 <tr>
 
@@ -512,18 +487,18 @@ The contents of the valueSets are the same. Hurrah! (comparing system & code)
 
 Found in IG server. 4 concepts.
 
-Found in Termnz. 4 concepts. (Using url: https://terminz.azurewebsites.net/fhir/ValueSet/hpi-practitioner-role-status-reason-code)
+Found in Terminz. 4 concepts. (Using url: https://nzhts.digital.health.nz/fhir/ValueSet/hpi-practitioner-role-status-reason-code)
 
 The contents of the valueSets are the same. Hurrah! (comparing system & code)
 
 
 #### information-source-code
 
-<div><a href='ValueSet-information-source.html'>https://standards.digital.health.nz/fhir/ValueSet/information-source-code</a></div>
+<div><a href='ValueSet-information-source.html'>https://nzhts.digital.health.nz/fhir/ValueSet/information-source-code</a></div>
 
 <table class='table table-bordered'>
 
-<tr><th>Description from IG</th><th>Description from Termnz</th></tr>
+<tr><th>Description from IG</th><th>Description from Terminz</th></tr>
 
 <tr>
 
@@ -537,43 +512,43 @@ The contents of the valueSets are the same. Hurrah! (comparing system & code)
 
 Found in IG server. 25 concepts.
 
-Found in Termnz. 25 concepts. (Using url: https://terminz.azurewebsites.net/fhir/ValueSet/information-source-code)
+Found in Terminz. 25 concepts. (Using url: https://nzhts.digital.health.nz/fhir/ValueSet/information-source-code)
 
 The contents of the valueSets are the same. Hurrah! (comparing system & code)
 
 
-#### location-alias-type-code
+#### alias-type-code
 
-<div><a href='ValueSet-location-alias-type.html'>https://standards.digital.health.nz/fhir/ValueSet/location-alias-type-code</a></div>
+<div><a href='ValueSet-location-alias-type.html'>https://nzhts.digital.health.nz/fhir/ValueSet/alias-type-code</a></div>
 
 <table class='table table-bordered'>
 
-<tr><th>Description from IG</th><th>Description from Termnz</th></tr>
+<tr><th>Description from IG</th><th>Description from Terminz</th></tr>
 
 <tr>
 
-<td width='50%'>The set of alias types that apply to Locations</td>
+<td width='50%'>The complete set of alias types that apply to Locations and Organizations</td>
 
-<td></td>
+<td>New Zealand Location Types</td>
 
 </tr>
 
 </table>
 
-Found in IG server. 3 concepts.
+Found in IG server. 7 concepts.
 
-Error expanding on Termnz
+Found in Terminz. 7 concepts. (Using url: https://nzhts.digital.health.nz/fhir/ValueSet/alias-type-code)
 
-Value Set Not Found.
+The contents of the valueSets are the same. Hurrah! (comparing system & code)
 
 
 #### nz-residency-status-code
 
-<div><a href='ValueSet-nz-residency-status.html'>https://standards.digital.health.nz/fhir/ValueSet/nz-residency-status-code</a></div>
+<div><a href='ValueSet-nz-residency-status.html'>https://nzhts.digital.health.nz/fhir/ValueSet/nz-residency-status-code</a></div>
 
 <table class='table table-bordered'>
 
-<tr><th>Description from IG</th><th>Description from Termnz</th></tr>
+<tr><th>Description from IG</th><th>Description from Terminz</th></tr>
 
 <tr>
 
@@ -587,43 +562,18 @@ Value Set Not Found.
 
 Found in IG server. 3 concepts.
 
-Found in Termnz. 3 concepts. (Using url: https://terminz.azurewebsites.net/fhir/ValueSet/nz-residency-status-code)
+Found in Terminz. 3 concepts. (Using url: https://nzhts.digital.health.nz/fhir/ValueSet/nz-residency-status-code)
 
 The contents of the valueSets are the same. Hurrah! (comparing system & code)
 
 
-#### organization-alias-type-code
-
-<div><a href='ValueSet-organization-alias-type.html'>https://standards.digital.health.nz/fhir/ValueSet/organization-alias-type-code</a></div>
-
-<table class='table table-bordered'>
-
-<tr><th>Description from IG</th><th>Description from Termnz</th></tr>
-
-<tr>
-
-<td width='50%'>The set of alias types that apply to Organizations</td>
-
-<td></td>
-
-</tr>
-
-</table>
-
-Found in IG server. 4 concepts.
-
-Error expanding on Termnz
-
-Value Set Not Found.
-
-
 #### pho-code
 
-<div><a href='ValueSet-pho.html'>https://standards.digital.health.nz/fhir/ValueSet/pho-code</a></div>
+<div><a href='ValueSet-pho.html'>https://nzhts.digital.health.nz/fhir/ValueSet/pho-code</a></div>
 
 <table class='table table-bordered'>
 
-<tr><th>Description from IG</th><th>Description from Termnz</th></tr>
+<tr><th>Description from IG</th><th>Description from Terminz</th></tr>
 
 <tr>
 
@@ -637,18 +587,18 @@ Value Set Not Found.
 
 Found in IG server. 30 concepts.
 
-Found in Termnz. 30 concepts. (Using url: https://terminz.azurewebsites.net/fhir/ValueSet/pho-code)
+Found in Terminz. 30 concepts. (Using url: https://nzhts.digital.health.nz/fhir/ValueSet/pho-code)
 
 The contents of the valueSets are the same. Hurrah! (comparing system & code)
 
 
 #### practitioner-additional-authorisation-code
 
-<div><a href='ValueSet-practitioner-additional-authorisation-code.html'>https://standards.digital.health.nz/fhir/ValueSet/practitioner-additional-authorisation-code</a></div>
+<div><a href='ValueSet-practitioner-additional-authorisation-code.html'>https://nzhts.digital.health.nz/fhir/ValueSet/practitioner-additional-authorisation-code</a></div>
 
 <table class='table table-bordered'>
 
-<tr><th>Description from IG</th><th>Description from Termnz</th></tr>
+<tr><th>Description from IG</th><th>Description from Terminz</th></tr>
 
 <tr>
 
@@ -662,7 +612,7 @@ The contents of the valueSets are the same. Hurrah! (comparing system & code)
 
 Found in IG server. 44 concepts.
 
-Found in Termnz. 41 concepts. (Using url: https://terminz.azurewebsites.net/fhir/ValueSet/practitioner-additional-authorisation-code)
+Found in Terminz. 41 concepts. (Using url: https://nzhts.digital.health.nz/fhir/ValueSet/practitioner-additional-authorisation-code)
 
 <strong>Concepts only found in ig</strong>
 
@@ -679,11 +629,11 @@ Found in Termnz. 41 concepts. (Using url: https://terminz.azurewebsites.net/fhir
 
 #### practitioner-registration-status-code
 
-<div><a href='ValueSet-practitioner-registration-status-code.html'>https://standards.digital.health.nz/fhir/ValueSet/practitioner-registration-status-code</a></div>
+<div><a href='ValueSet-practitioner-registration-status-code.html'>https://nzhts.digital.health.nz/fhir/ValueSet/practitioner-registration-status-code</a></div>
 
 <table class='table table-bordered'>
 
-<tr><th>Description from IG</th><th>Description from Termnz</th></tr>
+<tr><th>Description from IG</th><th>Description from Terminz</th></tr>
 
 <tr>
 
@@ -697,18 +647,18 @@ Found in Termnz. 41 concepts. (Using url: https://terminz.azurewebsites.net/fhir
 
 Found in IG server. 4 concepts.
 
-Found in Termnz. 4 concepts. (Using url: https://terminz.azurewebsites.net/fhir/ValueSet/practitioner-registration-status-code)
+Found in Terminz. 4 concepts. (Using url: https://nzhts.digital.health.nz/fhir/ValueSet/practitioner-registration-status-code)
 
 The contents of the valueSets are the same. Hurrah! (comparing system & code)
 
 
 #### practitioner-scope-of-practice-code
 
-<div><a href='ValueSet-practitioner-scope-of-practice.html'>https://standards.digital.health.nz/fhir/ValueSet/practitioner-scope-of-practice-code</a></div>
+<div><a href='ValueSet-practitioner-scope-of-practice.html'>https://nzhts.digital.health.nz/fhir/ValueSet/practitioner-scope-of-practice-code</a></div>
 
 <table class='table table-bordered'>
 
-<tr><th>Description from IG</th><th>Description from Termnz</th></tr>
+<tr><th>Description from IG</th><th>Description from Terminz</th></tr>
 
 <tr>
 
@@ -722,7 +672,7 @@ The contents of the valueSets are the same. Hurrah! (comparing system & code)
 
 Found in IG server. 113 concepts.
 
-Found in Termnz. 118 concepts. (Using url: https://terminz.azurewebsites.net/fhir/ValueSet/practitioner-scope-of-practice-code)
+Found in Terminz. 118 concepts. (Using url: https://nzhts.digital.health.nz/fhir/ValueSet/practitioner-scope-of-practice-code)
 
 <strong>Concepts only found in termnz</strong>
 

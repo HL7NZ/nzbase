@@ -780,6 +780,14 @@
       },
       {
         "reference": {
+          "reference": "Practitioner/practitioner-edi-address"
+        },
+        "name": "practitioner-edi-address",
+        "description": "Example of Condition on practice",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
           "reference": "Practitioner/practitioner-registration-initial-date"
         },
         "name": "practitioner-registration-initial-date",
