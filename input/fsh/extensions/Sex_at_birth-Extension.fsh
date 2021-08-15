@@ -9,7 +9,7 @@ Description: "A person’s sex at the time of their birth (considered to be immu
 * ^url = "http://hl7.org.nz/fhir/StructureDefinition/sex-at-birth"
 
 * ^version = "0.2.0"
-* ^status = #draft
+* ^status = #active
 * ^date = "2020-07-20"
 * ^publisher = "HL7 New Zealand"
 * ^contact[0].telecom[0].system = #email

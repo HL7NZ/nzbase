@@ -52,3 +52,9 @@ described at http://aria.stats.govt.nz/aria/#ClassificationView:uri=http://stats
 <tr><td width='20%'>Registration Status of Practitioners</td><td>The code list represents the current practicing status of the Provider Person as per their registration with an RA.</td><td><a href='CodeSystem-practitioner-registration-status-code.html'>https://standards.digital.health.nz/ns/practitioner-registration-status-code</a></td></tr>
 <tr><td width='20%'>Scope of practice</td><td>A classification of the type or range of health services that a practitioner is authorised to provide, as determined by the Responsible Authority or other statutory authority (e.g. PHARMAC), that is, what the practitioner can or cannot do. It includes Scope of Practice as defined by the Health Practitioners Competence Assurance Act 2003, any special authorisations granted, and any conditions or limitations imposed by the Responsible Authority.</td><td><a href='CodeSystem-scopeOfPractice.html'>https://standards.digital.health.nz/ns/practitioner-scope-of-practice-code</a></td></tr>
 </table>
+
+### ValueSets defined but not used
+
+<table><tr><th>Url</th></tr>
+<tr><td><a href='ValueSet-nz-residency-status.html'>https://nzhts.digital.health.nz/fhir/ValueSet/nz-residency-status-code</a></td></tr>
+</table>

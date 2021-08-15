@@ -28,18 +28,6 @@
 <td>0</td>
 <td>draft</td>
 </tr>
-<tr>
-<td><a href='StructureDefinition-authorized-by-patient.html'>authorized-by-patient</a></td>
-<td>http://hl7.org.nz/fhir/StructureDefinition/authorized-by-patient</td>
-<td>
-<div>Address</div>
-<div>ContactPoint</div>
-</td>
-<td>If true, then indicates that the patient as authorized the use of this address or telecom to contact them.</td>
-<td></td>
-<td>0</td>
-<td>draft</td>
-</tr>
 <tr style='background-color:#FFCCCC'>
 <td><a href='StructureDefinition-building-name.html'>building-name</a></td>
 <td>http://hl7.org.nz/fhir/StructureDefinition/building-name</td>
@@ -61,28 +49,6 @@
 <td></td>
 <td>0</td>
 <td>active</td>
-</tr>
-<tr>
-<td><a href='StructureDefinition-current-occupation.html'>current-occupation</a></td>
-<td>http://hl7.org.nz/fhir/StructureDefinition/current-occupation</td>
-<td>
-<div>Patient</div>
-</td>
-<td>The current occupation for the patient</td>
-<td></td>
-<td>0</td>
-<td>draft</td>
-</tr>
-<tr>
-<td><a href='StructureDefinition-death-date.html'>death-date</a></td>
-<td>http://hl7.org.nz/fhir/StructureDefinition/death-date</td>
-<td>
-<div>Practitioner</div>
-</td>
-<td>The date the person died.</td>
-<td>The date the person died. (def) </td>
-<td>0</td>
-<td>draft</td>
 </tr>
 <tr style='background-color:#FFCCCC'>
 <td><a href='StructureDefinition-dhb.html'>dhb</a></td>
@@ -131,6 +97,18 @@
 <td>draft</td>
 </tr>
 <tr style='background-color:#FFCCCC'>
+<td><a href='StructureDefinition-established.html'>established</a></td>
+<td>http://hl7.org.nz/fhir/StructureDefinition/established</td>
+<td>
+<div>Location</div>
+<div>Organization</div>
+</td>
+<td>The period over which the location or Organization is open</td>
+<td></td>
+<td>0</td>
+<td>active</td>
+</tr>
+<tr style='background-color:#FFCCCC'>
 <td><a href='StructureDefinition-funded-programme.html'>funded-programme</a></td>
 <td>http://hl7.org.nz/fhir/StructureDefinition/funded-programme</td>
 <td>
@@ -154,17 +132,6 @@
 <td></td>
 <td>0</td>
 <td>active</td>
-</tr>
-<tr>
-<td><a href='StructureDefinition-location-established.html'>location-established</a></td>
-<td>http://hl7.org.nz/fhir/StructureDefinition/location-established</td>
-<td>
-<div>Location</div>
-</td>
-<td>The period over which the location is open</td>
-<td></td>
-<td>0</td>
-<td>draft</td>
 </tr>
 <tr style='background-color:#FFCCCC'>
 <td><a href='StructureDefinition-long-term-condition.html'>long-term-condition</a></td>
@@ -212,17 +179,6 @@
 <td>0</td>
 <td>active</td>
 </tr>
-<tr>
-<td><a href='StructureDefinition-nz-residency-status.html'>nz-residency-status</a></td>
-<td>http://hl7.org.nz/fhir/StructureDefinition/nz-residency-status</td>
-<td>
-<div>Patient</div>
-</td>
-<td>NZ Residency Status</td>
-<td></td>
-<td>0</td>
-<td>draft</td>
-</tr>
 <tr style='background-color:#FFCCCC'>
 <td><a href='StructureDefinition-nzeps-long-term-medication.html'>nzeps-long-term-medication</a></td>
 <td>http://hl7.org.nz/fhir/StructureDefinition/nzeps-long-term-medication</td>
@@ -256,17 +212,6 @@
 <td>Indicates if an unusual dose quantity has been prescribed deliberately.</td>
 <td>1</td>
 <td>active</td>
-</tr>
-<tr>
-<td><a href='StructureDefinition-organization-established.html'>organization-established</a></td>
-<td>http://hl7.org.nz/fhir/StructureDefinition/organization-established</td>
-<td>
-<div>Organization</div>
-</td>
-<td>The period over which the Organization is active</td>
-<td></td>
-<td>0</td>
-<td>draft</td>
 </tr>
 <tr style='background-color:#FFCCCC'>
 <td><a href='StructureDefinition-pho.html'>pho</a></td>
@@ -357,18 +302,6 @@
 <td>Required as FHIR Base Address Type does not contain an element for Suburb (only District or State which, in population terms, are both broader than City - whereas Suburb is narrower).</td>
 <td>1</td>
 <td>active</td>
-</tr>
-<tr>
-<td><a href='StructureDefinition-validated-by-patient.html'>validated-by-patient</a></td>
-<td>http://hl7.org.nz/fhir/StructureDefinition/validated-by-patient</td>
-<td>
-<div>Address</div>
-<div>ContactPoint</div>
-</td>
-<td>If true, then indicates that the patient as indicated that the data is correct. Defined by healthAlliance</td>
-<td></td>
-<td>0</td>
-<td>draft</td>
 </tr>
 </table>
 <a name="externalExtensions"> </a>

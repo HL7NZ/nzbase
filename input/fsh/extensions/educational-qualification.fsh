@@ -1,6 +1,6 @@
 Extension: EducationalQualification
 Id: educational-qualification
-Description: "Educational qualifications a practitioner has. These may or may not be related to registration information. "
+Description: "Educational qualifications a practitioner has. These may or may not be related to registration information."
 
 * ^url = "http://hl7.org.nz/fhir/StructureDefinition/educational-qualification"
 * ^jurisdiction.coding = urn:iso:std:iso:3166#NZ

@@ -1,11 +1,11 @@
 {
   "resourceType": "StructureDefinition",
-  "id": "organization-established",
-  "url": "http://hl7.org.nz/fhir/StructureDefinition/organization-established",
+  "id": "established",
+  "url": "http://hl7.org.nz/fhir/StructureDefinition/established",
   "version": "0.2.0",
-  "name": "OrganizationEstablished",
-  "status": "draft",
-  "description": "The period over which the Organization is active",
+  "name": "Established",
+  "status": "active",
+  "description": "The period over which the location or Organization is open",
   "jurisdiction": [
     {
       "coding": [
@@ -29,6 +29,10 @@
   "context": [
     {
       "type": "element",
+      "expression": "Location"
+    },
+    {
+      "type": "element",
       "expression": "Organization"
     }
   ],
@@ -40,7 +44,7 @@
       {
         "id": "Extension",
         "path": "Extension",
-        "definition": "The period over which the Organization is active"
+        "definition": "The period over which the location or Organization is open"
       },
       {
         "id": "Extension.extension",
@@ -50,7 +54,7 @@
       {
         "id": "Extension.url",
         "path": "Extension.url",
-        "fixedUri": "http://hl7.org.nz/fhir/StructureDefinition/organization-established"
+        "fixedUri": "http://hl7.org.nz/fhir/StructureDefinition/established"
       },
       {
         "id": "Extension.value[x]",
