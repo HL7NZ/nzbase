@@ -555,3 +555,22 @@ Usage: #definition
 * uniqueId.preferred = true
 
 */
+
+
+//enrollment ID for national 
+Instance: hpipractitionerrole
+InstanceOf: NamingSystem
+Usage: #definition
+* type.coding = http://terminology.hl7.org/CodeSystem/v2-0203#NPI "National provider identifier"
+* jurisdiction = urn:iso:std:iso:3166#NZ
+
+* name = "HPIPractitionerRole"
+* description = "NES Enrolment id"
+* status = #active
+* kind = #identifier
+* date = "2021s-07-14"
+* responsible = "HISO"
+
+* uniqueId.type = #uri
+* uniqueId.value = "https://standards.digital.health.nz/ns/enrolment-id"
+* uniqueId.preferred = true
