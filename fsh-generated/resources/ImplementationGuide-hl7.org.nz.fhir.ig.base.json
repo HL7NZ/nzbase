@@ -87,7 +87,7 @@
           "reference": "StructureDefinition/educational-qualification"
         },
         "name": "EducationalQualification",
-        "description": "Educational qualifications a practitioner has. These may or may not be related to registration information. ",
+        "description": "Educational qualifications a practitioner has. These may or may not be related to registration information.",
         "exampleBoolean": false
       },
       {
