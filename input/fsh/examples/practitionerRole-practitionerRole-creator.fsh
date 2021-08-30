@@ -9,6 +9,7 @@ Usage : #inline
 
 Instance: administrator
 InstanceOf: Practitioner
+Usage : #inline
 
 * name.text = "Amy Administrator"
 

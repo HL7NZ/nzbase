@@ -1,6 +1,6 @@
 Instance: location-established
 InstanceOf: Location
-Description: "A location with the date established "
+Description: "A location with the date established"
 Usage: #example
 
 * name = "Daves health centre"

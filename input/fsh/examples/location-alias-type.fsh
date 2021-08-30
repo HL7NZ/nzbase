@@ -1,6 +1,6 @@
 Instance: location-alias-type
 InstanceOf: Location
-Description: "A location with an alias type against the alias. "
+Description: "A location with an alias type against the alias."
 Usage: #example
 
 * name = "Daves health centre"
