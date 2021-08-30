@@ -1,0 +1,20 @@
+{
+  "resourceType": "Location",
+  "id": "location-established",
+  "name": "Daves health centre",
+  "alias": [
+    "Best health"
+  ],
+  "_alias": [
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org.nz/fhir/StructureDefinition/established",
+          "valuePeriod": {
+            "start": "2010-01-01"
+          }
+        }
+      ]
+    }
+  ]
+}

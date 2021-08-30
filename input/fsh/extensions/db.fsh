@@ -14,7 +14,9 @@ Description: "District Health Board relating to a NZ Healthcare Service, Locatio
 * ^contact[0].telecom[0].system = #email
 * ^contact[0].telecom[0].value = "admin@hl7.org.nz"
 * ^contact[0].telecom[0].use = #work
+
 * ^jurisdiction[0] = urn:iso:std:iso:3166#NZ
+
 * ^purpose = "Administrative - to allow NZ HealthcareService, Location (Facility) or Patient Resources to include the related District Health Board."
 * ^copyright = "HL7 New Zealand© 2020+; Licensed Under Creative Commons No Rights Reserved."
 * ^context[0].type = #element

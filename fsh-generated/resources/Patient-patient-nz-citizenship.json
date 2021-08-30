@@ -1,6 +1,6 @@
 {
   "resourceType": "Patient",
-  "id": "patient-citizenship",
+  "id": "patient-nz-citizenship",
   "extension": [
     {
       "url": "http://hl7.org.nz/fhir/StructureDefinition/nz-citizenship",

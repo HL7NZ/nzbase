@@ -1,11 +1,11 @@
 {
   "resourceType": "StructureDefinition",
-  "id": "nz-citizenship",
-  "url": "http://hl7.org.nz/fhir/StructureDefinition/nz-citizenship",
+  "id": "death-date",
+  "url": "http://hl7.org.nz/fhir/StructureDefinition/death-date",
   "version": "0.1.0",
-  "name": "Nz_citizenship",
-  "title": "NZ Citizenship",
-  "status": "active",
+  "name": "Death_date",
+  "title": "Date of death",
+  "status": "draft",
   "date": "2020-07-20",
   "publisher": "HL7 New Zealand",
   "contact": [
@@ -19,7 +19,7 @@
       ]
     }
   ],
-  "description": "New Zealand citizenship",
+  "description": "The date of death of the individual, plus the source of that information",
   "jurisdiction": [
     {
       "coding": [
@@ -44,7 +44,7 @@
   "context": [
     {
       "type": "element",
-      "expression": "Patient"
+      "expression": "Practitioner"
     }
   ],
   "type": "Extension",
@@ -55,61 +55,43 @@
       {
         "id": "Extension",
         "path": "Extension",
-        "short": "NZ Citizenship",
-        "definition": "New Zealand citizenship"
+        "short": "Date of death",
+        "definition": "The date of death of the individual, plus the source of that information"
       },
       {
-        "id": "Extension.extension:status",
+        "id": "Extension.extension:date",
         "path": "Extension.extension",
-        "sliceName": "status",
-        "definition": "No description",
+        "sliceName": "date",
+        "short": "The date of death",
+        "definition": "The date of death",
         "min": 0,
         "max": "1"
       },
       {
-        "id": "Extension.extension:status.extension",
+        "id": "Extension.extension:date.extension",
         "path": "Extension.extension.extension",
         "max": "0"
       },
       {
-        "id": "Extension.extension:status.url",
+        "id": "Extension.extension:date.url",
         "path": "Extension.extension.url",
-        "fixedUri": "status"
+        "fixedUri": "date"
       },
       {
-        "id": "Extension.extension:status.value[x]",
+        "id": "Extension.extension:date.value[x]",
         "path": "Extension.extension.value[x]",
-        "slicing": {
-          "discriminator": [
-            {
-              "type": "type",
-              "path": "$this"
-            }
-          ],
-          "ordered": false,
-          "rules": "open"
-        },
         "type": [
           {
-            "code": "CodeableConcept"
+            "code": "date"
           }
         ]
-      },
-      {
-        "id": "Extension.extension:status.valueCodeableConcept",
-        "path": "Extension.extension.valueCodeableConcept",
-        "min": 0,
-        "max": "1",
-        "binding": {
-          "strength": "preferred",
-          "valueSet": "https://nzhts.digital.health.nz/fhir/ValueSet/nz-citizenship-status-code"
-        }
       },
       {
         "id": "Extension.extension:source",
         "path": "Extension.extension",
         "sliceName": "source",
-        "definition": "No description",
+        "short": "The date of death",
+        "definition": "The date of death",
         "min": 0,
         "max": "1"
       },
@@ -155,7 +137,7 @@
       {
         "id": "Extension.url",
         "path": "Extension.url",
-        "fixedUri": "http://hl7.org.nz/fhir/StructureDefinition/nz-citizenship"
+        "fixedUri": "http://hl7.org.nz/fhir/StructureDefinition/death-date"
       },
       {
         "id": "Extension.value[x]",

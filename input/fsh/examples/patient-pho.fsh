@@ -1,6 +1,3 @@
-
-
-
 Instance: patient-pho
 InstanceOf: Patient
 Description: "Example of PHO"

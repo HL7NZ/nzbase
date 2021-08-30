@@ -8,7 +8,7 @@ Description: "The organisation and person that created this role"
 * ^context.type = #element
 * ^context.expression = "PractitionerRole"
 
-* ^status = #draft
+* ^status = #active
 
 * extension contains
     person 1..1 and

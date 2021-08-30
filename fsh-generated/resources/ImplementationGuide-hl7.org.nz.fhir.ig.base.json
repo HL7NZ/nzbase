@@ -60,6 +60,14 @@
       },
       {
         "reference": {
+          "reference": "StructureDefinition/death-date"
+        },
+        "name": "Date of death",
+        "description": "The date of death of the individual, plus the source of that information",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
           "reference": "StructureDefinition/dhb"
         },
         "name": "District Health Board linked to a NZ Healthcare Service, Location or Patient",
@@ -443,6 +451,13 @@
       },
       {
         "reference": {
+          "reference": "Practitioner/administrator"
+        },
+        "name": "administrator",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
           "reference": "Condition/condition-long-term-condition"
         },
         "name": "condition-long-term-condition",
@@ -476,6 +491,22 @@
         },
         "name": "hpipractitionerrole",
         "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "Location/location-alias-type"
+        },
+        "name": "location-alias-type",
+        "description": "A location with an alias type against the alias. ",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Location/location-established"
+        },
+        "name": "location-established",
+        "description": "A location with the date established ",
+        "exampleBoolean": true
       },
       {
         "reference": {
@@ -639,7 +670,7 @@
           "reference": "Organization/organization-edi-address"
         },
         "name": "organization-edi-address",
-        "description": "Example of edi addrss extension",
+        "description": "Example of edi address extension",
         "exampleBoolean": true
       },
       {
@@ -652,18 +683,26 @@
       },
       {
         "reference": {
-          "reference": "Patient/patient-building-name"
+          "reference": "Patient/patient-address-building-name"
         },
-        "name": "patient-building-name",
-        "description": "Example of building name extension",
+        "name": "patient-address-building-name",
+        "description": "Patient with building name in the address",
         "exampleBoolean": true
       },
       {
         "reference": {
-          "reference": "Patient/patient-citizenship"
+          "reference": "Patient/patient-address-suburb"
         },
-        "name": "patient-citizenship",
-        "description": "Example of citizenship",
+        "name": "patient-address-suburb",
+        "description": "Patient with building name and suburb in the address",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Patient/patient-building-name"
+        },
+        "name": "patient-building-name",
+        "description": "Example of building name extension",
         "exampleBoolean": true
       },
       {
@@ -708,6 +747,14 @@
       },
       {
         "reference": {
+          "reference": "Patient/patient-nz-citizenship"
+        },
+        "name": "patient-nz-citizenship",
+        "description": "Example of citizenship",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
           "reference": "Patient/patient-pho"
         },
         "name": "patient-pho",
@@ -716,10 +763,26 @@
       },
       {
         "reference": {
+          "reference": "Patient/patient-sex-at-birth"
+        },
+        "name": "patient-sex-at-birth",
+        "description": "Example of a Patient with the sex at birth extension",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
           "reference": "Patient/patient-suburb"
         },
         "name": "patient-suburb",
         "description": "Example of suburb",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Practitioner/practitioner-additional-authorisation"
+        },
+        "name": "practitioner-additional-authorisation",
+        "description": "Additional authorisation example - to give immunizations in 2021",
         "exampleBoolean": true
       },
       {
@@ -736,6 +799,14 @@
         },
         "name": "practitioner-edi-address",
         "description": "Example of Condition on practice",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Practitioner/practitioner-educational-qualification"
+        },
+        "name": "practitioner-educational-qualification",
+        "description": "Example of educational qualification",
         "exampleBoolean": true
       },
       {
@@ -760,6 +831,14 @@
         },
         "name": "practitioner-scope-of-practice",
         "description": "Example of scope of practice",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "PractitionerRole/practitionerRole-creator"
+        },
+        "name": "practitionerRole-creator",
+        "description": "The creator of a practitioner role. Uses a contained resource.",
         "exampleBoolean": true
       }
     ],

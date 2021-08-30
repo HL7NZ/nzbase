@@ -2,7 +2,7 @@ Alias: $csAA = https://standards.digital.health.nz/ns/practitioner-additional-au
 
 Instance: practitioner-additional-authorisation
 InstanceOf: Practitioner
-Description: "Additional authorisation example"
+Description: "Additional authorisation example - to give immunizations in 2021"
 Usage: #example
 
 
@@ -12,6 +12,16 @@ Usage: #example
 * birthDate = "1998-01-01"
 * gender = #male
 
+
+
+
 * qualification[+].code = http://terminology.hl7.org/CodeSystem/v2-0360#BS
+
 * qualification[=].extension[+].url = "http://hl7.org.nz/fhir/StructureDefinition/additional-authorisation"
-* qualification[=].extension[=].valueCodeableConcept = $csAA#IMMU "Immunization"
+
+* qualification[=].extension[=].extension[+].url = "code"
+* qualification[=].extension[=].extension[=].valueCodeableConcept = $csAA#IMMU "Immunisation"
+
+* qualification[=].extension[=].extension[+].url = "period"
+* qualification[=].extension[=].extension[=].valuePeriod.start = "2021-01-01"
+* qualification[=].extension[=].extension[=].valuePeriod.start = "2022-01-01"

@@ -50,6 +50,17 @@
 <td>0</td>
 <td>active</td>
 </tr>
+<tr>
+<td><a href='StructureDefinition-death-date.html'>death-date</a></td>
+<td>http://hl7.org.nz/fhir/StructureDefinition/death-date</td>
+<td>
+<div>Practitioner</div>
+</td>
+<td>The date of death of the individual, plus the source of that information</td>
+<td></td>
+<td>0</td>
+<td>draft</td>
+</tr>
 <tr style='background-color:#FFCCCC'>
 <td><a href='StructureDefinition-dhb.html'>dhb</a></td>
 <td>http://hl7.org.nz/fhir/StructureDefinition/dhb</td>
@@ -85,22 +96,22 @@
 <td>0</td>
 <td>active</td>
 </tr>
-<tr>
+<tr style='background-color:#FFCCCC'>
 <td><a href='StructureDefinition-educational-qualification.html'>educational-qualification</a></td>
 <td>http://hl7.org.nz/fhir/StructureDefinition/educational-qualification</td>
 <td>
-<div>Practitioner</div>
+<div>Practitioner.qualification</div>
 </td>
 <td>Educational qualifications a practitioner has. These may or may not be related to registration information.</td>
 <td></td>
 <td>0</td>
-<td>draft</td>
+<td>active</td>
 </tr>
 <tr style='background-color:#FFCCCC'>
 <td><a href='StructureDefinition-established.html'>established</a></td>
 <td>http://hl7.org.nz/fhir/StructureDefinition/established</td>
 <td>
-<div>Location</div>
+<div>Location.alias</div>
 <div>Organization</div>
 </td>
 <td>The period over which the location or Organization is open</td>
@@ -226,7 +237,7 @@
 <td>1</td>
 <td>active</td>
 </tr>
-<tr>
+<tr style='background-color:#FFCCCC'>
 <td><a href='StructureDefinition-practitionerRole-creator.html'>practitionerRole-creator</a></td>
 <td>http://hl7.org.nz/fhir/StructureDefinition/practitionerRole-creator</td>
 <td>
@@ -235,7 +246,7 @@
 <td>The organisation and person that created this role</td>
 <td></td>
 <td>0</td>
-<td>draft</td>
+<td>active</td>
 </tr>
 <tr>
 <td><a href='StructureDefinition-practitionerRole-status.html'>practitionerRole-status</a></td>

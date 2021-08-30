@@ -2,7 +2,7 @@
 Alias: $csCitizen = https://standards.digital.health.nz/ns/nz-citizenship-status-code
 Alias: $csInfoSource = https://standards.digital.health.nz/ns/information-source-code
 
-Instance: patient-citizenship
+Instance: patient-nz-citizenship
 InstanceOf: Patient
 Description: "Example of citizenship"
 Usage: #example

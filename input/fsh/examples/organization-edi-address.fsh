@@ -1,6 +1,6 @@
 Instance: organization-edi-address
 InstanceOf: Organization
-Description: "Example of edi addrss extension"
+Description: "Example of edi address extension"
 Usage: #example
 
 * name = "Health R Us"
