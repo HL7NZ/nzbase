@@ -81,7 +81,7 @@
         "min": 0,
         "max": "1",
         "binding": {
-          "strength": "required",
+          "strength": "preferred",
           "valueSet": "https://nzhts.digital.health.nz/fhir/ValueSet/alias-type-code"
         }
       }

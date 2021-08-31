@@ -90,8 +90,8 @@
         "id": "Extension.extension:source",
         "path": "Extension.extension",
         "sliceName": "source",
-        "short": "The date of death",
-        "definition": "The date of death",
+        "short": "The source of information",
+        "definition": "The source of information",
         "min": 0,
         "max": "1"
       },

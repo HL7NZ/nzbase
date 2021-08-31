@@ -1,7 +1,9 @@
 Extension: Edi_address
 Id: edi-address
 Title: "EDI Address"
-Description: "Represents an Electronic Data Interchange (EDI) address. It is intended as an extension on ContactPoint.system, with the system value being 'other'."
+Description: "Represents an Electronic Data Interchange (EDI) address. It is intended as an extension on ContactPoint.system, with the system value being 'other'. The value of the extension is the EDI supplier, the actual EDI address is the value element."
+
+
 
 * ^url = "http://hl7.org.nz/fhir/StructureDefinition/edi-address"
 

@@ -451,13 +451,6 @@
       },
       {
         "reference": {
-          "reference": "Practitioner/administrator"
-        },
-        "name": "administrator",
-        "exampleBoolean": true
-      },
-      {
-        "reference": {
           "reference": "Condition/condition-long-term-condition"
         },
         "name": "condition-long-term-condition",
@@ -497,7 +490,7 @@
           "reference": "Location/location-alias-type"
         },
         "name": "location-alias-type",
-        "description": "A location with an alias type against the alias. ",
+        "description": "A location with an alias type against the alias.",
         "exampleBoolean": true
       },
       {
@@ -505,7 +498,7 @@
           "reference": "Location/location-established"
         },
         "name": "location-established",
-        "description": "A location with the date established ",
+        "description": "A location with the date established",
         "exampleBoolean": true
       },
       {

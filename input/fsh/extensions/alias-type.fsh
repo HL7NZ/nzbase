@@ -18,5 +18,5 @@ Description: "Used to indicate what sort of alias is being used in a Location or
 //The dataype is fixed to CodeableConcept, and bound to the full set of alias types
 // but the organization and location profiles in the HPI profiles restrict each to a sub-set of aliases...
 * value[x] only CodeableConcept
-* valueCodeableConcept from $alias-type-vs
+* valueCodeableConcept from $alias-type-vs (preferred)
 

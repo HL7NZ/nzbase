@@ -1,9 +1,0 @@
-{
-  "resourceType": "Practitioner",
-  "id": "administrator",
-  "name": [
-    {
-      "text": "Amy Administrator"
-    }
-  ]
-}
