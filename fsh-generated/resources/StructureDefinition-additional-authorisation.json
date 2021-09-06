@@ -2,7 +2,7 @@
   "resourceType": "StructureDefinition",
   "id": "additional-authorisation",
   "url": "http://hl7.org.nz/fhir/StructureDefinition/additional-authorisation",
-  "version": "0.2.0",
+  "version": "0.9.0",
   "name": "AdditionalAuthorisation",
   "status": "active",
   "description": "Additional authorisations that a practitioner is authorised to perform",

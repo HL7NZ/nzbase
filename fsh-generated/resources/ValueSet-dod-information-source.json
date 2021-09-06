@@ -1,0 +1,31 @@
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "DodInformationSource",
+  "id": "dod-information-source",
+  "title": "Information Source",
+  "description": "The source from where the date of death was sourced",
+  "version": "0.9.0",
+  "url": "https://nzhts.digital.health.nz/fhir/ValueSet/dod-information-source-code",
+  "compose": {
+    "include": [
+      {
+        "system": "https://standards.digital.health.nz/ns/information-source-code",
+        "concept": [
+          {
+            "code": "DREG",
+            "display": "Death Register"
+          },
+          {
+            "code": "OSEAOFF",
+            "display": "Death Overseas Official"
+          },
+          {
+            "code": "NPRF",
+            "display": "Proof no Sighted"
+          }
+        ]
+      }
+    ]
+  }
+}

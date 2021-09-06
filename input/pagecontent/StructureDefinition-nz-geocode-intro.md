@@ -11,3 +11,7 @@
     </extension>
 </extension>
 ```
+
+**Example instances**
+
+[Patient with geocoded address](Patient-patient-nz-geocode.html)

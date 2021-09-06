@@ -2,7 +2,7 @@
   "resourceType": "ImplementationGuide",
   "id": "hl7.org.nz.fhir.ig.base",
   "url": "http://hl7.org.nz/fhir/ig/base/ImplementationGuide/hl7.org.nz.fhir.ig.base",
-  "version": "0.2.0",
+  "version": "0.9.0",
   "name": "HL7FHIRNewZealandBaseImplementationGuide",
   "title": "HL7® FHIR® New Zealand Base Implementation Guide",
   "status": "active",
@@ -87,7 +87,7 @@
           "reference": "StructureDefinition/edi-address"
         },
         "name": "EDI Address",
-        "description": "Represents an Electronic Data Interchange (EDI) address. It is intended as an extension on ContactPoint.system, with the system value being 'other'.",
+        "description": "Represents an Electronic Data Interchange (EDI) address. It is intended as an extension on ContactPoint.system, with the system value being 'other'. The value of the extension is the EDI supplier, the actual EDI address is the value element.",
         "exampleBoolean": false
       },
       {
@@ -196,10 +196,10 @@
       },
       {
         "reference": {
-          "reference": "StructureDefinition/practitionerRole-status"
+          "reference": "StructureDefinition/practitionerRole-status-reason"
         },
-        "name": "PractitionerRoleStatus",
-        "description": "The status of the role - active,ended",
+        "name": "PractitionerRoleStatusReason",
+        "description": "The reason why a status is active or inactive.",
         "exampleBoolean": false
       },
       {
@@ -268,6 +268,14 @@
       },
       {
         "reference": {
+          "reference": "ValueSet/dod-information-source"
+        },
+        "name": "Information Source",
+        "description": "The source from where the date of death was sourced",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
           "reference": "ValueSet/domicile-code"
         },
         "name": "domicileCode",
@@ -279,7 +287,7 @@
           "reference": "ValueSet/ethnicity"
         },
         "name": "Ethnicity of a person",
-        "description": "Codes to record a person’s ethnicity, drawn from Level 4 of the Ethnicity code system \ndescribed at http://aria.stats.govt.nz/aria/#ClassificationView:uri=http://stats.govt.nz/cms/ClassificationVersion/YVqOcFHSlguKkT17",
+        "description": "Codes to record a person's ethnicity, drawn from Level 4 of the Ethnicity code system \ndescribed at http://aria.stats.govt.nz/aria/#ClassificationView:uri=http://stats.govt.nz/cms/ClassificationVersion/YVqOcFHSlguKkT17",
         "exampleBoolean": false
       },
       {
@@ -503,6 +511,14 @@
       },
       {
         "reference": {
+          "reference": "MedicationRequest/medicationrequest-nzeps-long-term-medication"
+        },
+        "name": "medicationrequest-nzeps-long-term-medication",
+        "description": "Example of long term medication",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
           "reference": "MedicationRequest/medicationrequest-nzeps-supply-period-reason"
         },
         "name": "medicationrequest-nzeps-supply-period-reason",
@@ -551,14 +567,6 @@
         },
         "name": "nzdiet",
         "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "MedicationRequest/nzeps-long-term-medication"
-        },
-        "name": "nzeps-long-term-medication",
-        "description": "Example of long term medication",
-        "exampleBoolean": true
       },
       {
         "reference": {
@@ -716,22 +724,6 @@
       },
       {
         "reference": {
-          "reference": "Patient/patient-ethnicity"
-        },
-        "name": "patient-ethnicity",
-        "description": "Example of ethnicity",
-        "exampleBoolean": true
-      },
-      {
-        "reference": {
-          "reference": "Patient/patient-geocode"
-        },
-        "name": "patient-geocode",
-        "description": "Example of geocode",
-        "exampleBoolean": true
-      },
-      {
-        "reference": {
           "reference": "Patient/patient-information-source"
         },
         "name": "patient-information-source",
@@ -744,6 +736,22 @@
         },
         "name": "patient-nz-citizenship",
         "description": "Example of citizenship",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Patient/patient-nz-ethnicity"
+        },
+        "name": "patient-nz-ethnicity",
+        "description": "Example of ethnicity",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Patient/patient-nz-geocode"
+        },
+        "name": "patient-nz-geocode",
+        "description": "Example of geocode",
         "exampleBoolean": true
       },
       {
@@ -784,6 +792,14 @@
         },
         "name": "practitioner-condition-on-practice",
         "description": "Example of Condition on practice",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Practitioner/practitioner-death-date"
+        },
+        "name": "practitioner-death-date",
+        "description": "Example of Practitioner with detah date",
         "exampleBoolean": true
       },
       {
@@ -833,6 +849,14 @@
         "name": "practitionerRole-creator",
         "description": "The creator of a practitioner role. Uses a contained resource.",
         "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "PractitionerRole/practitionerRole-status-reason-code"
+        },
+        "name": "practitionerRole-status-reason-code",
+        "description": "Example of status reason",
+        "exampleBoolean": true
       }
     ],
     "page": {
@@ -879,7 +903,7 @@
       },
       {
         "code": "releaselabel",
-        "value": "CI Build"
+        "value": "Ballot version"
       },
       {
         "code": "show-inherited-invariants",

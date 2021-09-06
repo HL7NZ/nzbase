@@ -91,7 +91,7 @@
 <td>
 <div>ContactPoint.system</div>
 </td>
-<td>Represents an Electronic Data Interchange (EDI) address. It is intended as an extension on ContactPoint.system, with the system value being 'other'.</td>
+<td>Represents an Electronic Data Interchange (EDI) address. It is intended as an extension on ContactPoint.system, with the system value being 'other'. The value of the extension is the EDI supplier, the actual EDI address is the value element.</td>
 <td></td>
 <td>0</td>
 <td>active</td>
@@ -111,7 +111,7 @@
 <td><a href='StructureDefinition-established.html'>established</a></td>
 <td>http://hl7.org.nz/fhir/StructureDefinition/established</td>
 <td>
-<div>Location.alias</div>
+<div>Location</div>
 <div>Organization</div>
 </td>
 <td>The period over which the location or Organization is open</td>
@@ -249,12 +249,12 @@
 <td>active</td>
 </tr>
 <tr>
-<td><a href='StructureDefinition-practitionerRole-status.html'>practitionerRole-status</a></td>
-<td>http://hl7.org.nz/fhir/StructureDefinition/practitionerRole-status</td>
+<td><a href='StructureDefinition-practitionerRole-status-reason.html'>practitionerRole-status-reason</a></td>
+<td>http://hl7.org.nz/fhir/StructureDefinition/practitionerRole-status-reason-code</td>
 <td>
 <div>PractitionerRole</div>
 </td>
-<td>The status of the role - active,ended</td>
+<td>The reason why a status is active or inactive.</td>
 <td></td>
 <td>0</td>
 <td>draft</td>

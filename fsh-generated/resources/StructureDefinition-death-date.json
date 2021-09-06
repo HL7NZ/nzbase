@@ -82,7 +82,7 @@
         "path": "Extension.extension.value[x]",
         "type": [
           {
-            "code": "date"
+            "code": "dateTime"
           }
         ]
       },

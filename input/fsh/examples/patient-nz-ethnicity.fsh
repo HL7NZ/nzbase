@@ -1,6 +1,6 @@
 Alias: $csEthnicity = https://standards.digital.health.nz/ns/ethnic-group-level-4-code
 
-Instance: patient-ethnicity
+Instance: patient-nz-ethnicity
 InstanceOf: Patient
 Description: "Example of ethnicity"
 Usage: #example

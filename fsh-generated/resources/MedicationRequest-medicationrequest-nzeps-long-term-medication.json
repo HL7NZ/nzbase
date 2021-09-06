@@ -1,6 +1,6 @@
 {
   "resourceType": "MedicationRequest",
-  "id": "nzeps-long-term-medication",
+  "id": "medicationrequest-nzeps-long-term-medication",
   "status": "active",
   "intent": "order",
   "medicationCodeableConcept": {

@@ -1,6 +1,6 @@
 {
   "resourceType": "Patient",
-  "id": "patient-ethnicity",
+  "id": "patient-nz-ethnicity",
   "extension": [
     {
       "url": "http://hl7.org.nz/fhir/StructureDefinition/nz-ethnicity",

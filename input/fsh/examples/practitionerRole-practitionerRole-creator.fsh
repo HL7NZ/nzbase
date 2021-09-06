@@ -1,18 +1,4 @@
 
-Instance: mmh
-InstanceOf: Organization
-Usage : #inline
-
-* name = "Middlemore Hospital"
-* identifier.system = "https://standards.digital.health.nz/ns/hpi-organisation-id"
-* identifier.value = "mmh"
-
-Instance: administrator
-InstanceOf: Practitioner
-Usage : #inline
-
-* name.text = "Amy Administrator"
-
 Instance: practitionerRole-creator
 InstanceOf: PractitionerRole
 Description: "The creator of a practitioner role. Uses a contained resource."
@@ -30,3 +16,16 @@ Usage: #example
 * extension[=].extension[+].url = "organization"
 * extension[=].extension[=].valueReference = Reference(mmh)
 
+Instance: mmh
+InstanceOf: Organization
+Usage : #inline
+
+* name = "Middlemore Hospital"
+* identifier.system = "https://standards.digital.health.nz/ns/hpi-organisation-id"
+* identifier.value = "mmh"
+
+Instance: administrator
+InstanceOf: Practitioner
+Usage : #inline
+
+* name.text = "Amy Administrator"

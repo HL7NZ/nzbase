@@ -18,6 +18,9 @@ Alias: $practitioner-scope-practice = https://nzhts.digital.health.nz/fhir/Value
 Alias: $domicile-code-vs = https://nzhts.digital.health.nz/fhir/ValueSet/domicile-code
 Alias: $funded-programme-vs = https://nzhts.digital.health.nz/fhir/ValueSet/funded-programme-code
 Alias: $information-source-vs = https://nzhts.digital.health.nz/fhir/ValueSet/information-source-code
+
+Alias: $dod-information-source-vs = https://nzhts.digital.health.nz/fhir/ValueSet/dod-information-source-code
+
 Alias: $ethnicity-code-vs = https://nzhts.digital.health.nz/fhir/ValueSet/ethnic-group-level-4-code
 Alias: $condition-on-practice-vs = https://nzhts.digital.health.nz/fhir/ValueSet/condition-on-practice-code
 Alias: $alias-type-vs = https://nzhts.digital.health.nz/fhir/ValueSet/alias-type-code

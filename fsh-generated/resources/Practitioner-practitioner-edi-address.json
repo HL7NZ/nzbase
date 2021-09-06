@@ -3,11 +3,11 @@
   "id": "practitioner-edi-address",
   "name": [
     {
-      "family": "Doe",
+      "family": "Welby",
       "given": [
-        "John"
+        "Marcus"
       ],
-      "text": "John Doe"
+      "text": "Marcus Welby"
     }
   ],
   "birthDate": "1998-01-01",
@@ -19,10 +19,11 @@
         "extension": [
           {
             "url": "http://hl7.org.nz/fhir/StructureDefinition/edi-address",
-            "valueString": "hl001"
+            "valueString": "healthlink"
           }
         ]
-      }
+      },
+      "value": "001a"
     }
   ]
 }

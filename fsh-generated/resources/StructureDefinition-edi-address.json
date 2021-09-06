@@ -19,7 +19,7 @@
       ]
     }
   ],
-  "description": "Represents an Electronic Data Interchange (EDI) address. It is intended as an extension on ContactPoint.system, with the system value being 'other'.",
+  "description": "Represents an Electronic Data Interchange (EDI) address. It is intended as an extension on ContactPoint.system, with the system value being 'other'. The value of the extension is the EDI supplier, the actual EDI address is the value element.",
   "jurisdiction": [
     {
       "coding": [
@@ -56,7 +56,7 @@
         "id": "Extension",
         "path": "Extension",
         "short": "EDI Address",
-        "definition": "Represents an Electronic Data Interchange (EDI) address. It is intended as an extension on ContactPoint.system, with the system value being 'other'."
+        "definition": "Represents an Electronic Data Interchange (EDI) address. It is intended as an extension on ContactPoint.system, with the system value being 'other'. The value of the extension is the EDI supplier, the actual EDI address is the value element."
       },
       {
         "id": "Extension.extension",

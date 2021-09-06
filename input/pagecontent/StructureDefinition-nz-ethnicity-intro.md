@@ -21,3 +21,8 @@ The Stats New Zealand standard can be found [here](http://aria.stats.govt.nz/ari
   </extension>
 
 ```
+
+**Example instances**
+
+[Patient with ethnicity](Patient-patient-nz-ethnicity.html)
+

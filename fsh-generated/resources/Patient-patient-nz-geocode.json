@@ -1,6 +1,6 @@
 {
   "resourceType": "Patient",
-  "id": "patient-geocode",
+  "id": "patient-nz-geocode",
   "name": [
     {
       "family": "Doe",

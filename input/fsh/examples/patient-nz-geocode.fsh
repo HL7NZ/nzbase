@@ -1,5 +1,5 @@
 
-Instance: patient-geocode
+Instance: patient-nz-geocode
 InstanceOf: Patient
 Description: "Example of geocode"
 Usage: #example

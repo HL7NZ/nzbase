@@ -15,7 +15,7 @@
               {
                 "code": "short",
                 "system": "https://standards.digital.health.nz/ns/alias-type-code",
-                "display": "Local name"
+                "display": "Short"
               }
             ]
           }

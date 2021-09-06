@@ -30,7 +30,7 @@ Description: "The date of death of the individual, plus the source of that infor
 * extension[date].url = "date" (exactly)
 * extension[date] ^definition = "The date of death"
 * extension[date] ^short = "The date of death"
-* extension[date].value[x] only date
+* extension[date].value[x] only dateTime
 
 * extension[source].url = "source" (exactly)
 * extension[source] ^definition = "The source of information"

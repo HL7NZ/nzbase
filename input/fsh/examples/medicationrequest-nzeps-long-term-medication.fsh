@@ -1,5 +1,5 @@
 
-Instance: nzeps-long-term-medication
+Instance: medicationrequest-nzeps-long-term-medication
 InstanceOf: MedicationRequest
 Description: "Example of long term medication"
 Usage: #example

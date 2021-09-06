@@ -1,5 +1,5 @@
 # sushi fsh -o .
-sushi fsh -s -o .
+sushi -s -o .
 
 if [[ $? -eq 0 ]]
 then

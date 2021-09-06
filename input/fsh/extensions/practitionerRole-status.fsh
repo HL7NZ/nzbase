@@ -1,8 +1,8 @@
-Extension: PractitionerRoleStatus
-Id: practitionerRole-status
-Description: "The status of the role - active,ended"
+Extension: PractitionerRoleStatusReason
+Id: practitionerRole-status-reason
+Description: "The reason why a status is active or inactive."
 
-* ^url = "http://hl7.org.nz/fhir/StructureDefinition/practitionerRole-status"
+* ^url = "http://hl7.org.nz/fhir/StructureDefinition/practitionerRole-status-reason-code"
 * ^jurisdiction.coding = urn:iso:std:iso:3166#NZ
 
 * ^context.type = #element
@@ -10,6 +10,12 @@ Description: "The status of the role - active,ended"
 
 * ^status = #draft
 
+* value[x] only CodeableConcept
+//not sure if there is a ValueSet yet...
+//* valueCodeableConcept from https://nzhts.digital.health.nz/fhir/ValueSet/hpi-practitioner-role-status-reason-code (preferred)
+
+
+/*
 * extension contains
     active 0..1 and
     reason 0..1
@@ -24,3 +30,4 @@ Description: "The status of the role - active,ended"
 * extension[reason] ^definition = "The reason for the current status if it is not active"
 * extension[reason].value[x] only CodeableConcept
 * extension[reason].valueCodeableConcept from https://nzhts.digital.health.nz/fhir/ValueSet/hpi-practitioner-role-status-reason-code (preferred)
+*/

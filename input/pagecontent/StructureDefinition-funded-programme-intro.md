@@ -22,3 +22,7 @@
     </extension>
   </extension>
 ```
+
+**Example instances**
+
+[Organization with funded programme](Organization-organization-funded-programme.html)

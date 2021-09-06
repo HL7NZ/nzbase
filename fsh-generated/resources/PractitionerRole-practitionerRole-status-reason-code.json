@@ -1,0 +1,13 @@
+{
+  "resourceType": "PractitionerRole",
+  "id": "practitionerRole-status-reason-code",
+  "active": false,
+  "extension": [
+    {
+      "url": "http://hl7.org.nz/fhir/StructureDefinition/practitionerRole-status-reason-code",
+      "valueCodeableConcept": {
+        "text": "Practitioner has resigned"
+      }
+    }
+  ]
+}

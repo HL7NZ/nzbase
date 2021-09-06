@@ -6,7 +6,7 @@
   "id": "practitioner-registration-status-code",
   "title": "Registration Status of Practitioners",
   "description": "The code list represents the current practicing status of the Provider Person as per their registration with an RA.",
-  "version": "0.2.0",
+  "version": "0.9.0",
   "url": "https://standards.digital.health.nz/ns/practitioner-registration-status-code",
   "concept": [
     {
