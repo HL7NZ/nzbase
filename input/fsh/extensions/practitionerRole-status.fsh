@@ -1,8 +1,8 @@
 Extension: PractitionerRoleStatusReason
 Id: practitionerRole-status-reason
-Description: "The reason why a status is active or inactive."
+Description: "The reason for the status. Generally only used for inactive resources."
 
-* ^url = "http://hl7.org.nz/fhir/StructureDefinition/practitionerRole-status-reason-code"
+* ^url = "http://hl7.org.nz/fhir/StructureDefinition/practitionerRole-status-reason"
 * ^jurisdiction.coding = urn:iso:std:iso:3166#NZ
 
 * ^context.type = #element
