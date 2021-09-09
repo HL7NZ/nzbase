@@ -252,11 +252,11 @@ The Stats New Zealand standard can be found [here](http://aria.stats.govt.nz/ari
 </tr>
 <tr>
 <td><a href='StructureDefinition-practitionerRole-status-reason.html'>practitionerRole-status-reason</a></td>
-<td>http://hl7.org.nz/fhir/StructureDefinition/practitionerRole-status-reason-code</td>
+<td>http://hl7.org.nz/fhir/StructureDefinition/practitionerRole-status-reason</td>
 <td>
 <div>PractitionerRole</div>
 </td>
-<td>The reason why a status is active or inactive.</td>
+<td>The reason for the status. Generally only used for inactive resources.</td>
 <td></td>
 <td>0</td>
 <td>draft</td>

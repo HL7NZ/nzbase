@@ -199,7 +199,7 @@
           "reference": "StructureDefinition/practitionerRole-status-reason"
         },
         "name": "PractitionerRoleStatusReason",
-        "description": "The reason why a status is active or inactive.",
+        "description": "The reason for the status. Generally only used for inactive resources.",
         "exampleBoolean": false
       },
       {
