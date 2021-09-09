@@ -1,4 +1,5 @@
 {
+  "nameDEP": "hl7.fhir.nz.base",
   "name": "hl7.fhir.nz.base",
   "version": "0.1.0",
   "canonical": "http://hl7.org.nz/fhir",

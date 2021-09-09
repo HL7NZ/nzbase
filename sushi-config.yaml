@@ -1,5 +1,6 @@
 
 id: hl7.org.nz.fhir.ig.base
+#id: hl7.fhir.nz.base
 canonical: http://hl7.org.nz/fhir/ig/base
 version: 0.9.0
 name: HL7FHIRNewZealandBaseImplementationGuide
@@ -32,7 +33,6 @@ releaseLabel: Ballot version
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 menu:
   IG Home: index.html
-  # Profiles: profiles.html
   Extensions: extensions.html
   Terminology: terminology.html
   Identifiers: namingSystems.html

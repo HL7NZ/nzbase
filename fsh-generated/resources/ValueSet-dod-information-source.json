@@ -23,6 +23,18 @@
           {
             "code": "NPRF",
             "display": "Proof no Sighted"
+          },
+          {
+            "code": "OSEA",
+            "display": "Death Overseas"
+          },
+          {
+            "code": "CORONER",
+            "display": "Coroner Notification"
+          },
+          {
+            "code": "MCCOD",
+            "display": "Medical Certificate Cause of Death"
           }
         ]
       }

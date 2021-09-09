@@ -17,6 +17,10 @@ Description: "The source from where the date of death was sourced"
 * $information-source-cs#DREG "Death Register"
 * $information-source-cs#OSEAOFF "Death Overseas Official"
 * $information-source-cs#NPRF "Proof no Sighted"
+* $information-source-cs#OSEA "Death Overseas" 
+* $information-source-cs#CORONER "Coroner Notification" 
+* $information-source-cs#MCCOD "Medical Certificate Cause of Death" 
+
 
 
 CodeSystem: InformationSource

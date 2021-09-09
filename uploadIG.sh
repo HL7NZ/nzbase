@@ -6,4 +6,5 @@ scp ./output/full-ig.zip root@igs.clinfhir.com:/var/www/nzbaseig.zip
 # after uplading, log into igs.clinfhir.com
 # cd /var/www
 # mv nzbase nzbaseDEP{1}
+# unzip nzbaseig
 # mv site nzbase
