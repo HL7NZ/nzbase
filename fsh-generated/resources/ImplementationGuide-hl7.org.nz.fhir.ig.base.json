@@ -270,7 +270,7 @@
         "reference": {
           "reference": "ValueSet/dod-information-source"
         },
-        "name": "Information Source",
+        "name": "Death date Information Source",
         "description": "The source from where the date of death was sourced",
         "exampleBoolean": false
       },
@@ -852,9 +852,9 @@
       },
       {
         "reference": {
-          "reference": "PractitionerRole/practitionerRole-status-reason-code"
+          "reference": "PractitionerRole/practitionerRole-status-reason"
         },
-        "name": "practitionerRole-status-reason-code",
+        "name": "practitionerRole-status-reason",
         "description": "Example of status reason",
         "exampleBoolean": true
       }

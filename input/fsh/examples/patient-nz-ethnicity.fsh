@@ -6,7 +6,7 @@ Description: "Example of ethnicity"
 Usage: #example
 
 * extension[+].url = "http://hl7.org.nz/fhir/StructureDefinition/nz-ethnicity"
-* extension[=].valueCodeableConcept = $csEthnicity#21111 "Maori"
+* extension[=].valueCodeableConcept = $csEthnicity#21111 "Māori"
 
 * extension[+].url = "http://hl7.org.nz/fhir/StructureDefinition/nz-ethnicity"
 * extension[=].valueCodeableConcept = $csEthnicity#12116 "Irish"

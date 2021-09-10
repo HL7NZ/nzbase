@@ -11,8 +11,7 @@ Description: "The reason for the status. Generally only used for inactive resour
 * ^status = #draft
 
 * value[x] only CodeableConcept
-//not sure if there is a ValueSet yet...
-//* valueCodeableConcept from https://nzhts.digital.health.nz/fhir/ValueSet/hpi-practitioner-role-status-reason-code (preferred)
+* valueCodeableConcept from https://nzhts.digital.health.nz/fhir/ValueSet/hpi-practitioner-role-status-reason-code (preferred)
 
 
 /*

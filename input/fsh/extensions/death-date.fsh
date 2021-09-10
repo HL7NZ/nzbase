@@ -36,5 +36,5 @@ Description: "The date of death of the individual, plus the source of that infor
 * extension[source] ^definition = "The source of information"
 * extension[source] ^short = "The source of information"
 * extension[source].value[x] only CodeableConcept
-* extension[source].valueCodeableConcept from $information-source-vs (preferred)
+* extension[source].valueCodeableConcept from $dod-information-source-vs (preferred)
 

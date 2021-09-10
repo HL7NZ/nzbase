@@ -10,10 +10,11 @@ Description: "The source from where the value of this item was sourced"
 
 ValueSet: DodInformationSource
 Id: dod-information-source
-Title: "Information Source"
+Title: "Death date Information Source"
 Description: "The source from where the date of death was sourced"
 
 * ^url = $dod-information-source-vs
+
 * $information-source-cs#DREG "Death Register"
 * $information-source-cs#OSEAOFF "Death Overseas Official"
 * $information-source-cs#NPRF "Proof no Sighted"

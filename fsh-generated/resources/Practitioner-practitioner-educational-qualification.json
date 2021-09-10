@@ -28,27 +28,27 @@
           "extension": [
             {
               "url": "fullname",
-              "valueString": "How to make a deal so that only you win and the other guy (the loser) loses everything"
+              "valueString": "Fellow of the Royal Australian and New Zealand College of Psychiatrists qualification"
             },
             {
               "url": "shortname",
-              "valueString": "Deal making"
+              "valueString": "Psychiatrist fellow"
             },
             {
               "url": "year",
-              "valueDate": "2010"
+              "valueDate": "1995"
             },
             {
               "url": "institution",
-              "valueString": "Trump University"
+              "valueString": "Royal Australian and New Zealand College of Psychiatrists"
             },
             {
               "url": "city",
-              "valueString": "New York"
+              "valueString": "Wellington"
             },
             {
               "url": "country",
-              "valueString": "US"
+              "valueString": "NZ"
             }
           ]
         }

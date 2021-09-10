@@ -12,7 +12,7 @@ Usage: #example
 
 * extension[+].url = "http://hl7.org.nz/fhir/StructureDefinition/death-date"
 * extension[=].extension[+].url = "date"
-* extension[=].extension[=].valueDate = "2021-01-01"
+* extension[=].extension[=].valueDateTime = "2021-01-01"
 * extension[=].extension[+].url = "source"
 * extension[=].extension[=].valueCodeableConcept = $information-source-cs#DREG
 

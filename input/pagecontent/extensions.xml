@@ -2,10 +2,8 @@
 <br/><strong>Extensions defined in this guide</strong><br/><br/>
 <table width='100%' border='1' cellspacing='0' cellpadding='5px'>
 <tr><th>Id</th><th>Url</th><th>Context of Use</th><th>Description</th><th>Purpose</th>
-<th>FMM</th>
-<th>Status</th>
 </tr>
-<tr style='background-color:#FFCCCC'>
+<tr>
 <td><a href='StructureDefinition-additional-authorisation.html'>additional-authorisation</a></td>
 <td>http://hl7.org.nz/fhir/StructureDefinition/additional-authorisation</td>
 <td>
@@ -13,10 +11,8 @@
 </td>
 <td>Additional authorisations that a practitioner is authorised to perform</td>
 <td></td>
-<td>0</td>
-<td>active</td>
 </tr>
-<tr style='background-color:#FFCCCC'>
+<tr>
 <td><a href='StructureDefinition-alias-type.html'>alias-type</a></td>
 <td>http://hl7.org.nz/fhir/StructureDefinition/alias-type</td>
 <td>
@@ -25,10 +21,8 @@
 </td>
 <td>Used to indicate what sort of alias is being used in a Location or Organization - eg that it is a legal name.</td>
 <td></td>
-<td>0</td>
-<td>active</td>
 </tr>
-<tr style='background-color:#FFCCCC'>
+<tr>
 <td><a href='StructureDefinition-building-name.html'>building-name</a></td>
 <td>http://hl7.org.nz/fhir/StructureDefinition/building-name</td>
 <td>
@@ -36,10 +30,8 @@
 </td>
 <td>The name of a building cited in an address.</td>
 <td></td>
-<td>0</td>
-<td>active</td>
 </tr>
-<tr style='background-color:#FFCCCC'>
+<tr>
 <td><a href='StructureDefinition-condition-on-practice.html'>condition-on-practice</a></td>
 <td>http://hl7.org.nz/fhir/StructureDefinition/condition-on-practice</td>
 <td>
@@ -47,8 +39,6 @@
 </td>
 <td>A full description of the conditions the health practitioner is subject to in relation to their scope of practice.</td>
 <td></td>
-<td>0</td>
-<td>active</td>
 </tr>
 <tr>
 <td><a href='StructureDefinition-death-date.html'>death-date</a></td>
@@ -58,10 +48,8 @@
 </td>
 <td>The date of death of the individual, plus the source of that information</td>
 <td></td>
-<td>0</td>
-<td>draft</td>
 </tr>
-<tr style='background-color:#FFCCCC'>
+<tr>
 <td><a href='StructureDefinition-dhb.html'>dhb</a></td>
 <td>http://hl7.org.nz/fhir/StructureDefinition/dhb</td>
 <td>
@@ -71,10 +59,8 @@
 </td>
 <td>District Health Board relating to a NZ Healthcare Service, Location (Facility) or Patient (primary, physical home address).</td>
 <td>Administrative - to allow NZ HealthcareService, Location (Facility) or Patient Resources to include the related District Health Board.</td>
-<td>3</td>
-<td>active</td>
 </tr>
-<tr style='background-color:#FFCCCC'>
+<tr>
 <td><a href='StructureDefinition-domicile-code.html'>domicile-code</a></td>
 <td>http://hl7.org.nz/fhir/StructureDefinition/domicile-code</td>
 <td>
@@ -82,10 +68,8 @@
 </td>
 <td>NZ Domicile Code. Derived from a patient's primary physical, home address.</td>
 <td></td>
-<td>0</td>
-<td>active</td>
 </tr>
-<tr style='background-color:#FFCCCC'>
+<tr>
 <td><a href='StructureDefinition-edi-address.html'>edi-address</a></td>
 <td>http://hl7.org.nz/fhir/StructureDefinition/edi-address</td>
 <td>
@@ -93,10 +77,8 @@
 </td>
 <td>Represents an Electronic Data Interchange (EDI) address. It is intended as an extension on ContactPoint.system, with the system value being 'other'. The value of the extension is the EDI supplier, the actual EDI address is the value element.</td>
 <td></td>
-<td>0</td>
-<td>active</td>
 </tr>
-<tr style='background-color:#FFCCCC'>
+<tr>
 <td><a href='StructureDefinition-educational-qualification.html'>educational-qualification</a></td>
 <td>http://hl7.org.nz/fhir/StructureDefinition/educational-qualification</td>
 <td>
@@ -104,10 +86,8 @@
 </td>
 <td>Educational qualifications a practitioner has. These may or may not be related to registration information.</td>
 <td></td>
-<td>0</td>
-<td>active</td>
 </tr>
-<tr style='background-color:#FFCCCC'>
+<tr>
 <td><a href='StructureDefinition-established.html'>established</a></td>
 <td>http://hl7.org.nz/fhir/StructureDefinition/established</td>
 <td>
@@ -116,10 +96,8 @@
 </td>
 <td>The period over which the location or Organization is open</td>
 <td></td>
-<td>0</td>
-<td>active</td>
 </tr>
-<tr style='background-color:#FFCCCC'>
+<tr>
 <td><a href='StructureDefinition-funded-programme.html'>funded-programme</a></td>
 <td>http://hl7.org.nz/fhir/StructureDefinition/funded-programme</td>
 <td>
@@ -129,10 +107,8 @@
 </td>
 <td>Funded NZ Healthcare Programmes</td>
 <td>Details of a NZ Healthcare Funded Programme relevant to its implementation status at an individual organisation, facility or service.</td>
-<td>1</td>
-<td>active</td>
 </tr>
-<tr style='background-color:#FFCCCC'>
+<tr>
 <td><a href='StructureDefinition-information-source.html'>information-source</a></td>
 <td>http://hl7.org.nz/fhir/StructureDefinition/information-source</td>
 <td>
@@ -141,10 +117,8 @@
 </td>
 <td>The official source of information held about a patient.</td>
 <td></td>
-<td>0</td>
-<td>active</td>
 </tr>
-<tr style='background-color:#FFCCCC'>
+<tr>
 <td><a href='StructureDefinition-long-term-condition.html'>long-term-condition</a></td>
 <td>http://hl7.org.nz/fhir/StructureDefinition/long-term-condition</td>
 <td>
@@ -152,10 +126,8 @@
 </td>
 <td>Long Term Condition Indicator. A long term condition can be  defined as any ongoing, long term or recurring conditions that can have a significant impact on people’s lives.</td>
 <td>Long term condition indicator (see https://www.health.govt.nz/our-work/diseases-and-conditions/long-term-conditions).</td>
-<td>1</td>
-<td>active</td>
 </tr>
-<tr style='background-color:#FFCCCC'>
+<tr>
 <td><a href='StructureDefinition-nz-citizenship.html'>nz-citizenship</a></td>
 <td>http://hl7.org.nz/fhir/StructureDefinition/nz-citizenship</td>
 <td>
@@ -163,10 +135,8 @@
 </td>
 <td>New Zealand citizenship</td>
 <td></td>
-<td>0</td>
-<td>active</td>
 </tr>
-<tr style='background-color:#FFCCCC'>
+<tr>
 <td><a href='StructureDefinition-nz-ethnicity.html'>nz-ethnicity</a></td>
 <td>http://hl7.org.nz/fhir/StructureDefinition/nz-ethnicity</td>
 <td>
@@ -178,10 +148,8 @@
 
 The Stats New Zealand standard can be found [here](http://aria.stats.govt.nz/aria/#StandardView:uri= http://stats.govt.nz/cms/StatisticalStandard/vv0ovwUoTSSVDhpt).</td>
 <td></td>
-<td>0</td>
-<td>active</td>
 </tr>
-<tr style='background-color:#FFCCCC'>
+<tr>
 <td><a href='StructureDefinition-nz-geocode.html'>nz-geocode</a></td>
 <td>http://hl7.org.nz/fhir/StructureDefinition/nz-geocode</td>
 <td>
@@ -189,10 +157,8 @@ The Stats New Zealand standard can be found [here](http://aria.stats.govt.nz/ari
 </td>
 <td>New Zealand Geocode. This uses a different datum from that defined in the HL7 FHIR specification for a Geocode.</td>
 <td></td>
-<td>0</td>
-<td>active</td>
 </tr>
-<tr style='background-color:#FFCCCC'>
+<tr>
 <td><a href='StructureDefinition-nzeps-long-term-medication.html'>nzeps-long-term-medication</a></td>
 <td>http://hl7.org.nz/fhir/StructureDefinition/nzeps-long-term-medication</td>
 <td>
@@ -201,10 +167,8 @@ The Stats New Zealand standard can be found [here](http://aria.stats.govt.nz/ari
 </td>
 <td>NZePS Long Term Medication Indicator</td>
 <td>This has specific uses in NZ Pharmacy and GP systems for funding and clinical purposes. It is also part of the HISO 10041.1 standard for Medication Lists.</td>
-<td>2</td>
-<td>active</td>
 </tr>
-<tr style='background-color:#FFCCCC'>
+<tr>
 <td><a href='StructureDefinition-nzeps-supply-period-reason.html'>nzeps-supply-period-reason</a></td>
 <td>http://hl7.org.nz/fhir/StructureDefinition/nzeps-supply-period-reason</td>
 <td>
@@ -212,10 +176,8 @@ The Stats New Zealand standard can be found [here](http://aria.stats.govt.nz/ari
 </td>
 <td>The reason for a non-standard Supply Period.</td>
 <td>The reason for a non-standard supply period, e.g. the patient going abroad.</td>
-<td>1</td>
-<td>active</td>
 </tr>
-<tr style='background-color:#FFCCCC'>
+<tr>
 <td><a href='StructureDefinition-nzeps-unusual-dose-quantity.html'>nzeps-unusual-dose-quantity</a></td>
 <td>http://hl7.org.nz/fhir/StructureDefinition/nzeps-unusual-dose-quantity</td>
 <td>
@@ -223,10 +185,8 @@ The Stats New Zealand standard can be found [here](http://aria.stats.govt.nz/ari
 </td>
 <td>NZePS Unusual Dose Quantity Indicator</td>
 <td>Indicates if an unusual dose quantity has been prescribed deliberately.</td>
-<td>1</td>
-<td>active</td>
 </tr>
-<tr style='background-color:#FFCCCC'>
+<tr>
 <td><a href='StructureDefinition-pho.html'>pho</a></td>
 <td>http://hl7.org.nz/fhir/StructureDefinition/pho</td>
 <td>
@@ -236,10 +196,8 @@ The Stats New Zealand standard can be found [here](http://aria.stats.govt.nz/ari
 </td>
 <td>Primary Healthcare Organisation associated with a General Practice linked to a NZ Healthcare Service, Location (Facility) or Patient (GP).</td>
 <td>Administrative - to allow NZ HealthcareService, Location (Facility) or Patient Resources to include the related Primary Healthcare Organisation.</td>
-<td>1</td>
-<td>active</td>
 </tr>
-<tr style='background-color:#FFCCCC'>
+<tr>
 <td><a href='StructureDefinition-practitionerRole-creator.html'>practitionerRole-creator</a></td>
 <td>http://hl7.org.nz/fhir/StructureDefinition/practitionerRole-creator</td>
 <td>
@@ -247,8 +205,6 @@ The Stats New Zealand standard can be found [here](http://aria.stats.govt.nz/ari
 </td>
 <td>The organisation and person that created this role</td>
 <td></td>
-<td>0</td>
-<td>active</td>
 </tr>
 <tr>
 <td><a href='StructureDefinition-practitionerRole-status-reason.html'>practitionerRole-status-reason</a></td>
@@ -258,10 +214,8 @@ The Stats New Zealand standard can be found [here](http://aria.stats.govt.nz/ari
 </td>
 <td>The reason for the status. Generally only used for inactive resources.</td>
 <td></td>
-<td>0</td>
-<td>draft</td>
 </tr>
-<tr style='background-color:#FFCCCC'>
+<tr>
 <td><a href='StructureDefinition-registration-initial-date.html'>registration-initial-date</a></td>
 <td>http://hl7.org.nz/fhir/StructureDefinition/registration-initial-date</td>
 <td>
@@ -269,10 +223,8 @@ The Stats New Zealand standard can be found [here](http://aria.stats.govt.nz/ari
 </td>
 <td>The date the practitioner first became registered with the Responsible Authority or professional body</td>
 <td></td>
-<td>0</td>
-<td>active</td>
 </tr>
-<tr style='background-color:#FFCCCC'>
+<tr>
 <td><a href='StructureDefinition-registration-status-code.html'>registration-status-code</a></td>
 <td>http://hl7.org.nz/fhir/StructureDefinition/registration-status-code</td>
 <td>
@@ -280,10 +232,8 @@ The Stats New Zealand standard can be found [here](http://aria.stats.govt.nz/ari
 </td>
 <td>An indicator of the practicing status of the practitioner as supplied by their Responsible Authority or professional body.</td>
 <td></td>
-<td>0</td>
-<td>active</td>
 </tr>
-<tr style='background-color:#FFCCCC'>
+<tr>
 <td><a href='StructureDefinition-scope-of-practice.html'>scope-of-practice</a></td>
 <td>http://hl7.org.nz/fhir/StructureDefinition/scope-of-practice</td>
 <td>
@@ -291,10 +241,8 @@ The Stats New Zealand standard can be found [here](http://aria.stats.govt.nz/ari
 </td>
 <td>The type or range of health services a practitioner is authorised to perform, as determined by the Responsible Authority or professional body.</td>
 <td></td>
-<td>0</td>
-<td>active</td>
 </tr>
-<tr style='background-color:#FFCCCC'>
+<tr>
 <td><a href='StructureDefinition-sex-at-birth.html'>sex-at-birth</a></td>
 <td>http://hl7.org.nz/fhir/StructureDefinition/sex-at-birth</td>
 <td>
@@ -302,10 +250,8 @@ The Stats New Zealand standard can be found [here](http://aria.stats.govt.nz/ari
 </td>
 <td>A person’s sex at the time of their birth (considered to be immutable).</td>
 <td></td>
-<td>0</td>
-<td>active</td>
 </tr>
-<tr style='background-color:#FFCCCC'>
+<tr>
 <td><a href='StructureDefinition-suburb.html'>suburb</a></td>
 <td>http://hl7.org.nz/fhir/StructureDefinition/suburb</td>
 <td>
@@ -313,8 +259,6 @@ The Stats New Zealand standard can be found [here](http://aria.stats.govt.nz/ari
 </td>
 <td>Suburb element of a NZ Address.</td>
 <td>Required as FHIR Base Address Type does not contain an element for Suburb (only District or State which, in population terms, are both broader than City - whereas Suburb is narrower).</td>
-<td>1</td>
-<td>active</td>
 </tr>
 </table>
 <a name="externalExtensions"> </a>

@@ -24,22 +24,22 @@ Usage: #example
 * qualification[=].extension[+].url = "http://hl7.org.nz/fhir/StructureDefinition/educational-qualification"
 
 * qualification[=].extension[=].extension[+].url = "fullname"
-* qualification[=].extension[=].extension[=].valueString = "How to make a deal so that only you win and the other guy (the loser) loses everything"
+* qualification[=].extension[=].extension[=].valueString = "Fellow of the Royal Australian and New Zealand College of Psychiatrists qualification"
 
 * qualification[=].extension[=].extension[+].url = "shortname"
-* qualification[=].extension[=].extension[=].valueString = "Deal making"
+* qualification[=].extension[=].extension[=].valueString = "Psychiatrist fellow"
 
 * qualification[=].extension[=].extension[+].url = "year"
-* qualification[=].extension[=].extension[=].valueDate = "2010"
+* qualification[=].extension[=].extension[=].valueDate = "1995"
 
 * qualification[=].extension[=].extension[+].url = "institution"
-* qualification[=].extension[=].extension[=].valueString = "Trump University"
+* qualification[=].extension[=].extension[=].valueString = "Royal Australian and New Zealand College of Psychiatrists"
 
 * qualification[=].extension[=].extension[+].url = "city"
-* qualification[=].extension[=].extension[=].valueString = "New York"
+* qualification[=].extension[=].extension[=].valueString = "Wellington"
 
 * qualification[=].extension[=].extension[+].url = "country"
-* qualification[=].extension[=].extension[=].valueString = "US"
+* qualification[=].extension[=].extension[=].valueString = "NZ"
 
 
 
