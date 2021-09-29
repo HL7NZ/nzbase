@@ -6,7 +6,13 @@
     {
       "url": "http://hl7.org.nz/fhir/StructureDefinition/practitionerRole-status-reason",
       "valueCodeableConcept": {
-        "text": "Practitioner has resigned"
+        "coding": [
+          {
+            "code": "duplicate",
+            "system": "https://standards.digital.health.nz/ns/hpi-practitioner-role-status-reason-code",
+            "display": "duplicate"
+          }
+        ]
       }
     }
   ]

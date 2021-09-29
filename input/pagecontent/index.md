@@ -28,8 +28,8 @@ Clicking on the link in the 'id' column will display the detail page for that ex
 
 This tab lists the terminology artifacts defined in this guide. There are 2 artifacts that will be found here:
 
-* [ValueSets](http://hl7.org/fhir/valueset.html) are 'selectors' of concepts that apply to some particular coded element in an Extension Definition or Profile - they contain a list of possible values for that element. It is usually possible to use other values if needed, but these are the 'recommended' values. Note that it is possible to have elements where the concept MUST come from the ValueSet, though this is uncommon. 
-* [CodeSystem](http://hl7.org/fhir/codesystem.html) resources are used to define specific concepts. Generally, it is preferred to use an 'external' terminology like SNOMED or LOINC, but sometimes it isn't possible to find the matching concepts there so they need to be defined separately.
+* [ValueSets](http://hl7.org/fhir/valueset.html) are sets of codes, drawn from one or more code systems, intended for use in coded data elements in Resources, as defined by a particular conformance rule - such as an Extension or Profile. The ValueSets in this Guide are 'recommended' values, but it may be possible for implementers to use additional concepts if the rules defined by a particular Extension or Profile permit this.
+* [CodeSystem](http://hl7.org/fhir/codesystem.html) resources are used to declare the existence of and describe a code system, its key properties, and optionally define a part or all of its content. Wherever possible, the use of international terminologies, such as [SNOMED CT](https://www.snomed.org/), is recommended; however, a number of New Zealand-specific code systems are included in this Guide to meet unique, local requirements.
 
 These resources can be used by Terminology Servers (like [Terminz](https://terminz-itp.azurewebsites.net/) or [Ontoserver](https://aehrc.com/ontoserver/) ) to provide terminology [operations](http://hl7.org/fhir/operations.html) of use to implementers, such as the ValueSet [$expand](http://hl7.org/fhir/valueset-operation-expand.html) operation.
 

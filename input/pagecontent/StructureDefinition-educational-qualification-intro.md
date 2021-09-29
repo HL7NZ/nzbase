@@ -2,35 +2,31 @@
 **Example of extension**
 
 ```
-
+  ...
   <qualification>
     <extension url="http://hl7.org.nz/fhir/StructureDefinition/educational-qualification">
       <extension url="fullname">
-        <valueString value="How to make a deal so that only you win and the other guy (the loser) loses everything"/>
+        <valueString value="Fellow of the Royal Australian and New Zealand College of Psychiatrists qualification"/>
       </extension>
       <extension url="shortname">
-        <valueString value="Deal making"/>
+        <valueString value="Psychiatrist fellow"/>
       </extension>
       <extension url="year">
-        <valueDate value="2010"/>
+        <valueDate value="1995"/>
       </extension>
       <extension url="institution">
-        <valueString value="Trump University"/>
+        <valueString value="Royal Australian and New Zealand College of Psychiatrists"/>
       </extension>
       <extension url="city">
-        <valueString value="New York"/>
+        <valueString value="Wellington"/>
       </extension>
       <extension url="country">
-        <valueString value="US"/>
+        <valueString value="NZ"/>
       </extension>
     </extension>
-    <code>
-      <coding>
-        <system value="http://terminology.hl7.org/CodeSystem/v2-0360"/>
-        <code value="BS"/>
-      </coding>
-    </code>
+    ...
   </qualification>
+  ...
 
 ```
 

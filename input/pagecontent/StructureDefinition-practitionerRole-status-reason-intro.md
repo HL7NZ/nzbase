@@ -5,7 +5,11 @@
 
   <extension url="http://hl7.org.nz/fhir/StructureDefinition/practitionerRole-status-reason">
     <valueCodeableConcept>
-      <text value="Practitioner has resigned"/>
+      <coding>
+        <system value="https://standards.digital.health.nz/ns/hpi-practitioner-role-status-reason-code"/>
+        <code value="duplicate"/>
+        <display value="duplicate"/>
+      </coding>
     </valueCodeableConcept>
   </extension>
 

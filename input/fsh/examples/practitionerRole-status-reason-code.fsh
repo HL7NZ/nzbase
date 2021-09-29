@@ -6,5 +6,6 @@ Usage: #example
 * active = false
 
 * extension.url = "http://hl7.org.nz/fhir/StructureDefinition/practitionerRole-status-reason"
-* extension.valueCodeableConcept.text = "Practitioner has resigned"
+* extension.valueCodeableConcept = $pr-status-reason-cs#duplicate "duplicate"
+
 
