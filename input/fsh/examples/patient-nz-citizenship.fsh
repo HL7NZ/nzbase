@@ -9,7 +9,7 @@ Usage: #example
 
 * extension[+].url = "http://hl7.org.nz/fhir/StructureDefinition/nz-citizenship"
 * extension[=].extension[+].url = "status"
-* extension[=].extension[=].valueCodeableConcept = $csCitizen#RESIDENT "Resident"
+* extension[=].extension[=].valueCodeableConcept = $csCitizen#yes "Yes"
 
 * extension[=].extension[+].url = "source"
 * extension[=].extension[=].valueCodeableConcept = $csInfoSource#BREG "Birth Register"

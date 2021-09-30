@@ -40,7 +40,7 @@ The [FHIR spec](http://hl7.org/fhir/terminology-module.html) has much more detai
 <tr><th>CodeSystem</th><th>Purpose</th><th>Canonical Url</th></tr>
 <tr><td width='20%'>District Health Board Code</td><td>District Health Board code table.</td><td><a href='CodeSystem-Dhb-code.html'>https://standards.digital.health.nz/ns/dhb-code</a></td></tr>
 <tr><td width='20%'>Type of Alias</td><td>Used in Organization and Location to indicate what is the type of Alias</td><td><a href='CodeSystem-alias-type.html'>https://standards.digital.health.nz/ns/alias-type-code</a></td></tr>
-<tr><td width='20%'>Citizenship status</td><td>Citizenship status</td><td><a href='CodeSystem-citizenship-status.html'>https://standards.digital.health.nz/ns/nz-citizenship-status-code</a></td></tr>
+<tr><td width='20%'>NZ Citizenship status</td><td>Is this person a NZ Citizen</td><td><a href='CodeSystem-citizenship-status.html'>https://standards.digital.health.nz/ns/nz-citizenship-status-code</a></td></tr>
 <tr><td width='20%'>domicileCode</td><td>Domicile Code</td><td><a href='CodeSystem-domicile-code.html'>https://standards.digital.health.nz/ns/domicile-code</a></td></tr>
 <tr><td width='20%'>Level 4 ethnicity codes</td><td>Codes to record a person’s ethnicity, drawn from Level 4 of the Ethnicity code system 
 described at http://aria.stats.govt.nz/aria/#ClassificationView:uri=http://stats.govt.nz/cms/ClassificationVersion/YVqOcFHSlguKkT17</td><td><a href='CodeSystem-ethnicityL4.html'>https://standards.digital.health.nz/ns/ethnic-group-level-4-code</a></td></tr>

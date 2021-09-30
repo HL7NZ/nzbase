@@ -10,9 +10,9 @@
           "valueCodeableConcept": {
             "coding": [
               {
-                "code": "RESIDENT",
+                "code": "yes",
                 "system": "https://standards.digital.health.nz/ns/nz-citizenship-status-code",
-                "display": "Resident"
+                "display": "Yes"
               }
             ]
           }

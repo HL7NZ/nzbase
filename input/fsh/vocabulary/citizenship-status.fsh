@@ -9,13 +9,14 @@ Description:  "Citizenship status"
 
 CodeSystem:  CitizenshipStatus
 Id: citizenship-status
-Title: "Citizenship status"
-Description:  "Citizenship status"
+Title: "NZ Citizenship status"
+Description:  "Is this person a NZ Citizen"
 
 * ^url = $citizenship-status-cs
 
-* #RESIDENT "Resident" "This patient is a resident (temporary or permanent)."
-* #CITIZEN "Citizen" "This patient is a citizen."
+* #yes "Yes" "This patient is a citizen."
+* #no "No" "This patient is not a citizen."
+* #unknown "The citizenship status is unknown"
 
 
 

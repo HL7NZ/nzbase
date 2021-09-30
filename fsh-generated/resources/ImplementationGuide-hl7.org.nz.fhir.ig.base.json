@@ -374,8 +374,8 @@
         "reference": {
           "reference": "CodeSystem/citizenship-status"
         },
-        "name": "Citizenship status",
-        "description": "Citizenship status",
+        "name": "NZ Citizenship status",
+        "description": "Is this person a NZ Citizen",
         "exampleBoolean": false
       },
       {

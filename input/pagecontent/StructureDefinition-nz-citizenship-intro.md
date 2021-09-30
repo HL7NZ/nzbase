@@ -8,8 +8,8 @@
       <valueCodeableConcept>
         <coding>
           <system value="https://standards.digital.health.nz/ns/nz-citizenship-status-code"/>
-          <code value="RESIDENT"/>
-          <display value="Resident"/>
+          <code value="yes"/>
+          <display value="Yes"/>
         </coding>
       </valueCodeableConcept>
     </extension>

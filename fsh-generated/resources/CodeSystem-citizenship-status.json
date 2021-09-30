@@ -4,21 +4,25 @@
   "content": "complete",
   "name": "CitizenshipStatus",
   "id": "citizenship-status",
-  "title": "Citizenship status",
-  "description": "Citizenship status",
+  "title": "NZ Citizenship status",
+  "description": "Is this person a NZ Citizen",
   "version": "0.9.0",
   "url": "https://standards.digital.health.nz/ns/nz-citizenship-status-code",
   "concept": [
     {
-      "code": "RESIDENT",
-      "display": "Resident",
-      "definition": "This patient is a resident (temporary or permanent)."
+      "code": "yes",
+      "display": "Yes",
+      "definition": "This patient is a citizen."
     },
     {
-      "code": "CITIZEN",
-      "display": "Citizen",
-      "definition": "This patient is a citizen."
+      "code": "no",
+      "display": "No",
+      "definition": "This patient is not a citizen."
+    },
+    {
+      "code": "unknown",
+      "display": "The citizenship status is unknown"
     }
   ],
-  "count": 2
+  "count": 3
 }
