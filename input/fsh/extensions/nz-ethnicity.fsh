@@ -6,6 +6,8 @@ The ethnic group or groups that a person identifies with or feels they belong to
 
 The Stats New Zealand standard can be found [here](http://aria.stats.govt.nz/aria/#StandardView:uri=http://stats.govt.nz/cms/StatisticalStandard/vv0ovwUoTSSVDhpt).
 """
+//The Stats New Zealand standard can be found [here](http://aria.stats.govt.nz/aria/#StandardView:uri=http://stats.govt.nz/cms/StatisticalStandard/vv0ovwUoTSSVDhpt).
+
 * ^url = "http://hl7.org.nz/fhir/StructureDefinition/nz-ethnicity"
 
 * ^version = "0.1.0"

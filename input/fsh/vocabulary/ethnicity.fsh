@@ -2,8 +2,7 @@ ValueSet: Ethnicity
 Id: ethnicity
 Title: "Ethnicity of a person"
 Description: """
-Codes to record a person's ethnicity, drawn from Level 4 of the Ethnicity code system 
-described at http://aria.stats.govt.nz/aria/#ClassificationView:uri=http://stats.govt.nz/cms/ClassificationVersion/YVqOcFHSlguKkT17
+Codes to record a person's ethnicity, drawn from [Level 4 of the Ethnicity code system](http://aria.stats.govt.nz/aria/#ClassificationView:uri=http://stats.govt.nz/cms/ClassificationVersion/YVqOcFHSlguKkT17)
 """
 
 * ^url = $ethnicity-code-vs 

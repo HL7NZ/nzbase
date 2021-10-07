@@ -9,7 +9,7 @@
 <td>
 <div>Practitioner.qualification</div>
 </td>
-<td>Additional authorisations that a practitioner is authorised to perform</td>
+<td><p>Additional authorisations that a practitioner is authorised to perform</p></td>
 <td></td>
 </tr>
 <tr>
@@ -19,7 +19,7 @@
 <div>Location.alias</div>
 <div>Organization.alias</div>
 </td>
-<td>Used to indicate what sort of alias is being used in a Location or Organization - eg that it is a legal name.</td>
+<td><p>Used to indicate what sort of alias is being used in a Location or Organization - eg that it is a legal name.</p></td>
 <td></td>
 </tr>
 <tr>
@@ -28,7 +28,7 @@
 <td>
 <div>Address</div>
 </td>
-<td>The name of a building cited in an address.</td>
+<td><p>The name of a building cited in an address.</p></td>
 <td></td>
 </tr>
 <tr>
@@ -37,7 +37,7 @@
 <td>
 <div>Practitioner.qualification</div>
 </td>
-<td>A full description of the conditions the health practitioner is subject to in relation to their scope of practice.</td>
+<td><p>A full description of the conditions the health practitioner is subject to in relation to their scope of practice.</p></td>
 <td></td>
 </tr>
 <tr>
@@ -46,7 +46,7 @@
 <td>
 <div>Practitioner</div>
 </td>
-<td>The date of death of the individual, plus the source of that information</td>
+<td><p>The date of death of the individual, plus the source of that information</p></td>
 <td></td>
 </tr>
 <tr>
@@ -57,8 +57,8 @@
 <div>Location</div>
 <div>Patient</div>
 </td>
-<td>District Health Board relating to a NZ Healthcare Service, Location (Facility) or Patient (primary, physical home address).</td>
-<td>Administrative - to allow NZ HealthcareService, Location (Facility) or Patient Resources to include the related District Health Board.</td>
+<td><p>District Health Board relating to a NZ Healthcare Service, Location (Facility) or Patient (primary, physical home address).</p></td>
+<td><p>Administrative - to allow NZ HealthcareService, Location (Facility) or Patient Resources to include the related District Health Board.</p></td>
 </tr>
 <tr>
 <td><a href='StructureDefinition-domicile-code.html'>domicile-code</a></td>
@@ -66,7 +66,7 @@
 <td>
 <div>Patient</div>
 </td>
-<td>NZ Domicile Code. Derived from a patient's primary physical, home address.</td>
+<td><p>NZ Domicile Code. Derived from a patient&#39;s primary physical, home address.</p></td>
 <td></td>
 </tr>
 <tr>
@@ -75,7 +75,7 @@
 <td>
 <div>ContactPoint.system</div>
 </td>
-<td>Represents an Electronic Data Interchange (EDI) address. It is intended as an extension on ContactPoint.system, with the system value being 'other'. The value of the extension is the EDI supplier, the actual EDI address is the value element.</td>
+<td><p>Represents an Electronic Data Interchange (EDI) address. It is intended as an extension on ContactPoint.system, with the system value being &#39;other&#39;. The value of the extension is the EDI supplier, the actual EDI address is the value element.</p></td>
 <td></td>
 </tr>
 <tr>
@@ -84,7 +84,7 @@
 <td>
 <div>Practitioner.qualification</div>
 </td>
-<td>Educational qualifications a practitioner has. These may or may not be related to registration information.</td>
+<td><p>Educational qualifications a practitioner has. These may or may not be related to registration information.</p></td>
 <td></td>
 </tr>
 <tr>
@@ -94,7 +94,7 @@
 <div>Location</div>
 <div>Organization</div>
 </td>
-<td>The period over which the location or Organization is open</td>
+<td><p>The period over which the location or Organization is open</p></td>
 <td></td>
 </tr>
 <tr>
@@ -105,8 +105,8 @@
 <div>Organization</div>
 <div>HealthcareService</div>
 </td>
-<td>Funded NZ Healthcare Programmes</td>
-<td>Details of a NZ Healthcare Funded Programme relevant to its implementation status at an individual organisation, facility or service.</td>
+<td><p>Funded NZ Healthcare Programmes</p></td>
+<td><p>Details of a NZ Healthcare Funded Programme relevant to its implementation status at an individual organisation, facility or service.</p></td>
 </tr>
 <tr>
 <td><a href='StructureDefinition-information-source.html'>information-source</a></td>
@@ -115,7 +115,7 @@
 <div>Patient.name</div>
 <div>Patient.birthDate</div>
 </td>
-<td>The official source of information held about a patient.</td>
+<td><p>The official source of information held about a patient.</p></td>
 <td></td>
 </tr>
 <tr>
@@ -124,8 +124,8 @@
 <td>
 <div>Condition</div>
 </td>
-<td>Long Term Condition Indicator. A long term condition can be  defined as any ongoing, long term or recurring conditions that can have a significant impact on people’s lives.</td>
-<td>Long term condition indicator (see https://www.health.govt.nz/our-work/diseases-and-conditions/long-term-conditions).</td>
+<td><p>Long Term Condition Indicator. A long term condition can be  defined as any ongoing, long term or recurring conditions that can have a significant impact on people’s lives.</p></td>
+<td><p>Long term condition indicator (see https://www.health.govt.nz/our-work/diseases-and-conditions/long-term-conditions).</p></td>
 </tr>
 <tr>
 <td><a href='StructureDefinition-nz-citizenship.html'>nz-citizenship</a></td>
@@ -133,7 +133,7 @@
 <td>
 <div>Patient</div>
 </td>
-<td>New Zealand citizenship</td>
+<td><p>New Zealand citizenship</p></td>
 <td></td>
 </tr>
 <tr>
@@ -144,9 +144,9 @@
 <div>Practitioner</div>
 <div>RelatedPerson</div>
 </td>
-<td>The ethnic group or groups that a person identifies with or feels they belong to.  Ethnicity is a measure of cultural affiliation as opposed to race, ancestry, nationality or citizen.  Ethnicity is self-perceived and a person can belong to more than one group.
+<td><p>The ethnic group or groups that a person identifies with or feels they belong to.  Ethnicity is a measure of cultural affiliation as opposed to race, ancestry, nationality or citizen.  Ethnicity is self-perceived and a person can belong to more than one group.</p>
 
-The Stats New Zealand standard can be found [here](http://aria.stats.govt.nz/aria/#StandardView:uri= http://stats.govt.nz/cms/StatisticalStandard/vv0ovwUoTSSVDhpt).</td>
+<p>The Stats New Zealand standard can be found <a href="http://aria.stats.govt.nz/aria/#StandardView:uri= http://stats.govt.nz/cms/StatisticalStandard/vv0ovwUoTSSVDhpt">here</a>.</p></td>
 <td></td>
 </tr>
 <tr>
@@ -155,7 +155,7 @@ The Stats New Zealand standard can be found [here](http://aria.stats.govt.nz/ari
 <td>
 <div>Address</div>
 </td>
-<td>New Zealand Geocode. This uses a different datum from that defined in the HL7 FHIR specification for a Geocode.</td>
+<td><p>New Zealand Geocode. This uses a different datum from that defined in the HL7 FHIR specification for a Geocode.</p></td>
 <td></td>
 </tr>
 <tr>
@@ -165,8 +165,8 @@ The Stats New Zealand standard can be found [here](http://aria.stats.govt.nz/ari
 <div>MedicationRequest</div>
 <div>MedicationStatement</div>
 </td>
-<td>NZePS Long Term Medication Indicator</td>
-<td>This has specific uses in NZ Pharmacy and GP systems for funding and clinical purposes. It is also part of the HISO 10041.1 standard for Medication Lists.</td>
+<td><p>NZePS Long Term Medication Indicator</p></td>
+<td><p>This has specific uses in NZ Pharmacy and GP systems for funding and clinical purposes. It is also part of the HISO 10041.1 standard for Medication Lists.</p></td>
 </tr>
 <tr>
 <td><a href='StructureDefinition-nzeps-supply-period-reason.html'>nzeps-supply-period-reason</a></td>
@@ -174,8 +174,8 @@ The Stats New Zealand standard can be found [here](http://aria.stats.govt.nz/ari
 <td>
 <div>MedicationRequest</div>
 </td>
-<td>The reason for a non-standard Supply Period.</td>
-<td>The reason for a non-standard supply period, e.g. the patient going abroad.</td>
+<td><p>The reason for a non-standard Supply Period.</p></td>
+<td><p>The reason for a non-standard supply period, e.g. the patient going abroad.</p></td>
 </tr>
 <tr>
 <td><a href='StructureDefinition-nzeps-unusual-dose-quantity.html'>nzeps-unusual-dose-quantity</a></td>
@@ -183,8 +183,8 @@ The Stats New Zealand standard can be found [here](http://aria.stats.govt.nz/ari
 <td>
 <div>MedicationRequest</div>
 </td>
-<td>NZePS Unusual Dose Quantity Indicator</td>
-<td>Indicates if an unusual dose quantity has been prescribed deliberately.</td>
+<td><p>NZePS Unusual Dose Quantity Indicator</p></td>
+<td><p>Indicates if an unusual dose quantity has been prescribed deliberately.</p></td>
 </tr>
 <tr>
 <td><a href='StructureDefinition-pho.html'>pho</a></td>
@@ -194,8 +194,8 @@ The Stats New Zealand standard can be found [here](http://aria.stats.govt.nz/ari
 <div>Location</div>
 <div>Patient</div>
 </td>
-<td>Primary Healthcare Organisation associated with a General Practice linked to a NZ Healthcare Service, Location (Facility) or Patient (GP).</td>
-<td>Administrative - to allow NZ HealthcareService, Location (Facility) or Patient Resources to include the related Primary Healthcare Organisation.</td>
+<td><p>Primary Healthcare Organisation associated with a General Practice linked to a NZ Healthcare Service, Location (Facility) or Patient (GP).</p></td>
+<td><p>Administrative - to allow NZ HealthcareService, Location (Facility) or Patient Resources to include the related Primary Healthcare Organisation.</p></td>
 </tr>
 <tr>
 <td><a href='StructureDefinition-practitionerRole-creator.html'>practitionerRole-creator</a></td>
@@ -203,7 +203,7 @@ The Stats New Zealand standard can be found [here](http://aria.stats.govt.nz/ari
 <td>
 <div>PractitionerRole</div>
 </td>
-<td>The organisation and person that created this role</td>
+<td><p>The organisation and person that created this role</p></td>
 <td></td>
 </tr>
 <tr>
@@ -212,7 +212,7 @@ The Stats New Zealand standard can be found [here](http://aria.stats.govt.nz/ari
 <td>
 <div>PractitionerRole</div>
 </td>
-<td>The reason for the status. Generally only used for inactive resources.</td>
+<td><p>The reason for the status. Generally only used for inactive resources.</p></td>
 <td></td>
 </tr>
 <tr>
@@ -221,7 +221,7 @@ The Stats New Zealand standard can be found [here](http://aria.stats.govt.nz/ari
 <td>
 <div>Practitioner.qualification</div>
 </td>
-<td>The date the practitioner first became registered with the Responsible Authority or professional body</td>
+<td><p>The date the practitioner first became registered with the Responsible Authority or professional body</p></td>
 <td></td>
 </tr>
 <tr>
@@ -230,7 +230,7 @@ The Stats New Zealand standard can be found [here](http://aria.stats.govt.nz/ari
 <td>
 <div>Practitioner.qualification</div>
 </td>
-<td>An indicator of the practicing status of the practitioner as supplied by their Responsible Authority or professional body.</td>
+<td><p>An indicator of the practicing status of the practitioner as supplied by their Responsible Authority or professional body.</p></td>
 <td></td>
 </tr>
 <tr>
@@ -239,7 +239,7 @@ The Stats New Zealand standard can be found [here](http://aria.stats.govt.nz/ari
 <td>
 <div>Practitioner.qualification</div>
 </td>
-<td>The type or range of health services a practitioner is authorised to perform, as determined by the Responsible Authority or professional body.</td>
+<td><p>The type or range of health services a practitioner is authorised to perform, as determined by the Responsible Authority or professional body.</p></td>
 <td></td>
 </tr>
 <tr>
@@ -248,7 +248,7 @@ The Stats New Zealand standard can be found [here](http://aria.stats.govt.nz/ari
 <td>
 <div>Patient</div>
 </td>
-<td>A person’s sex at the time of their birth (considered to be immutable).</td>
+<td><p>A person’s sex at the time of their birth (considered to be immutable).</p></td>
 <td></td>
 </tr>
 <tr>
@@ -257,8 +257,8 @@ The Stats New Zealand standard can be found [here](http://aria.stats.govt.nz/ari
 <td>
 <div>Address</div>
 </td>
-<td>Suburb element of a NZ Address.</td>
-<td>Required as FHIR Base Address Type does not contain an element for Suburb (only District or State which, in population terms, are both broader than City - whereas Suburb is narrower).</td>
+<td><p>Suburb element of a NZ Address.</p></td>
+<td><p>Required as FHIR Base Address Type does not contain an element for Suburb (only District or State which, in population terms, are both broader than City - whereas Suburb is narrower).</p></td>
 </tr>
 </table>
 <a name="externalExtensions"> </a>
