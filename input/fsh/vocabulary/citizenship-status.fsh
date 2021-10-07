@@ -1,6 +1,6 @@
 ValueSet : CitizenshipStatus
 Id: citizenship-status
-Title: "Citizenship status"
+Title: "NZ Citizenship status"
 Description:  "Citizenship status"
 
 * ^url = $citizenship-status-vs
