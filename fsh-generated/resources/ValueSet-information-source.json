@@ -5,7 +5,7 @@
   "id": "information-source",
   "title": "Information Source",
   "description": "The source from where the value of this item was sourced",
-  "version": "0.9.0",
+  "version": "1.0.0",
   "url": "https://nzhts.digital.health.nz/fhir/ValueSet/information-source-code",
   "compose": {
     "include": [

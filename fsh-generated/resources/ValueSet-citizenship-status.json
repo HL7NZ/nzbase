@@ -3,9 +3,9 @@
   "status": "active",
   "name": "CitizenshipStatus",
   "id": "citizenship-status",
-  "title": "Citizenship status",
+  "title": "NZ Citizenship status",
   "description": "Citizenship status",
-  "version": "0.9.0",
+  "version": "1.0.0",
   "url": "https://nzhts.digital.health.nz/fhir/ValueSet/nz-citizenship-status-code",
   "compose": {
     "include": [

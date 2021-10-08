@@ -2,7 +2,7 @@
   "resourceType": "StructureDefinition",
   "id": "condition-on-practice",
   "url": "http://hl7.org.nz/fhir/StructureDefinition/condition-on-practice",
-  "version": "0.9.0",
+  "version": "1.0.0",
   "name": "ConditionOnPractice",
   "status": "active",
   "description": "A full description of the conditions the health practitioner is subject to in relation to their scope of practice.",

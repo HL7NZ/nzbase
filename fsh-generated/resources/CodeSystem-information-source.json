@@ -6,7 +6,7 @@
   "id": "information-source",
   "title": "Information Source",
   "description": "All possible sources of information",
-  "version": "0.9.0",
+  "version": "1.0.0",
   "url": "https://standards.digital.health.nz/ns/information-source-code",
   "concept": [
     {
@@ -52,7 +52,7 @@
     {
       "code": "NPRF",
       "display": "Proof not Sighted",
-      "definition": "Information (not proof) provided by the patient / whanau verbally communicated. No proof sighted"
+      "definition": "Information (not proof) provided by the patient / whānau verbally communicated. No proof sighted"
     },
     {
       "code": "NZPV",
