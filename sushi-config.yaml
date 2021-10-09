@@ -15,7 +15,7 @@ fhirVersion: 4.0.1
 parameters:
   show-inherited-invariants: false
 copyrightYear: 2021+
-releaseLabel: Ballot version
+releaseLabel: Release
 # releaseLabel: CI Build
 
 # ╭───────────────────────────────────────package-list.json────────────────────────────────────────╮

@@ -903,7 +903,7 @@
       },
       {
         "code": "releaselabel",
-        "value": "Ballot version"
+        "value": "Release"
       },
       {
         "code": "show-inherited-invariants",
