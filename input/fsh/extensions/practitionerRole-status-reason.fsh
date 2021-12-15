@@ -8,7 +8,7 @@ Description: "The reason for the status. Generally only used for inactive resour
 * ^context.type = #element
 * ^context.expression = "PractitionerRole"
 
-* ^status = #draft
+* ^status = #active
 
 * value[x] only CodeableConcept
 * valueCodeableConcept from https://nzhts.digital.health.nz/fhir/ValueSet/hpi-practitioner-role-status-reason-code (preferred)

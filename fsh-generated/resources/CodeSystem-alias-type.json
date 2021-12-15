@@ -6,7 +6,7 @@
   "id": "alias-type",
   "title": "Type of Alias",
   "description": "Used in Organization and Location to indicate what is the type of Alias",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "url": "https://standards.digital.health.nz/ns/alias-type-code",
   "concept": [
     {

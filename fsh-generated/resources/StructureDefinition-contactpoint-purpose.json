@@ -1,0 +1,82 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "contactpoint-purpose",
+  "url": "http://hl7.org.nz/fhir/StructureDefinition/contactpoint-purpose",
+  "version": "1.0",
+  "name": "Contactpoint_purpose",
+  "title": "A specific purpose for which this ContactPoint would be used",
+  "status": "draft",
+  "date": "2020-07-20",
+  "publisher": "HL7 New Zealand",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "email",
+          "value": "admin@hl7.org.nz",
+          "use": "work"
+        }
+      ]
+    }
+  ],
+  "description": "An example would be to indicate that this CP is an email address for sending prescriptions",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "code": "NZ",
+          "system": "urn:iso:std:iso:3166"
+        }
+      ]
+    }
+  ],
+  "copyright": "HL7 New Zealand© 2020+; Licensed Under Creative Commons No Rights Reserved.",
+  "fhirVersion": "4.0.1",
+  "mapping": [
+    {
+      "identity": "rim",
+      "uri": "http://hl7.org/v3",
+      "name": "RIM Mapping"
+    }
+  ],
+  "kind": "complex-type",
+  "abstract": false,
+  "context": [
+    {
+      "type": "element",
+      "expression": "ContactPoint"
+    }
+  ],
+  "type": "Extension",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Extension",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Extension",
+        "path": "Extension",
+        "short": "A specific purpose for which this ContactPoint would be used",
+        "definition": "An example would be to indicate that this CP is an email address for sending prescriptions"
+      },
+      {
+        "id": "Extension.extension",
+        "path": "Extension.extension",
+        "max": "0"
+      },
+      {
+        "id": "Extension.url",
+        "path": "Extension.url",
+        "fixedUri": "http://hl7.org.nz/fhir/StructureDefinition/contactpoint-purpose"
+      },
+      {
+        "id": "Extension.value[x]",
+        "path": "Extension.value[x]",
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ]
+      }
+    ]
+  }
+}

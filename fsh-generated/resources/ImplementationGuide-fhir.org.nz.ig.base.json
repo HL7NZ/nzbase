@@ -1,8 +1,8 @@
 {
   "resourceType": "ImplementationGuide",
-  "id": "hl7.org.nz.fhir.ig.base",
-  "url": "http://hl7.org.nz/fhir/ig/base/ImplementationGuide/hl7.org.nz.fhir.ig.base",
-  "version": "1.0.0",
+  "id": "fhir.org.nz.ig.base",
+  "url": "http://fhir.org.nz/ig/base/ImplementationGuide/fhir.org.nz.ig.base",
+  "version": "1.1.0",
   "name": "HL7FHIRNewZealandBaseImplementationGuide",
   "title": "HL7® FHIR® New Zealand Base Implementation Guide",
   "status": "active",
@@ -19,13 +19,21 @@
     }
   ],
   "description": "New Zealand base profiles",
-  "packageId": "hl7.org.nz.fhir.ig.base",
+  "packageId": "fhir.org.nz.ig.base",
   "license": "CC0-1.0",
   "fhirVersion": [
     "4.0.1"
   ],
   "definition": {
     "resource": [
+      {
+        "reference": {
+          "reference": "StructureDefinition/adHocDate"
+        },
+        "name": "AdHocDate",
+        "description": "One off day that a service is open, or when a service is open with hours that differ to their standard (regular) opening hours. ",
+        "exampleBoolean": false
+      },
       {
         "reference": {
           "reference": "StructureDefinition/additional-authorisation"
@@ -56,6 +64,14 @@
         },
         "name": "ConditionOnPractice",
         "description": "A full description of the conditions the health practitioner is subject to in relation to their scope of practice.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/contactpoint-purpose"
+        },
+        "name": "A specific purpose for which this ContactPoint would be used",
+        "description": "An example would be to indicate that this CP is an email address for sending prescriptions",
         "exampleBoolean": false
       },
       {
@@ -903,7 +919,7 @@
       },
       {
         "code": "releaselabel",
-        "value": "Release"
+        "value": "CI Build"
       },
       {
         "code": "show-inherited-invariants",

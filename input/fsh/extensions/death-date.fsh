@@ -24,7 +24,7 @@ Description: "The date of death of the individual, plus the source of that infor
     date 0..1 and
     source 0..1 
 
-* ^status = #draft
+
 
 // definitions of sub-extensions
 * extension[date].url = "date" (exactly)

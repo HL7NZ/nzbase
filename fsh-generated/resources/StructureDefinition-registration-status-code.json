@@ -2,7 +2,7 @@
   "resourceType": "StructureDefinition",
   "id": "registration-status-code",
   "url": "http://hl7.org.nz/fhir/StructureDefinition/registration-status-code",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "name": "RegistrationStatusCode",
   "status": "active",
   "description": "An indicator of the practicing status of the practitioner as supplied by their Responsible Authority or professional body.",

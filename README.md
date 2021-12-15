@@ -1,3 +1,7 @@
+# issue
+
+Thius is teh folder where I inadvertently included the publish folder in the git. The publish folder has the v1 IG 
+
 # NZBase
 
 This is the base Implementation Guide (IG) for New Zealand and contains the most common extensions that most NZ FHIR Implementations will need.

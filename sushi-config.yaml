@@ -1,8 +1,8 @@
 
-id: hl7.org.nz.fhir.ig.base
+id: fhir.org.nz.ig.base
 #id: hl7.fhir.nz.base
-canonical: http://hl7.org.nz/fhir/ig/base
-version: 1.0.0
+canonical: http://fhir.org.nz/ig/base
+version: 1.1.0
 name: HL7FHIRNewZealandBaseImplementationGuide
 title: HL7® FHIR® New Zealand Base Implementation Guide
 status: active
@@ -15,8 +15,8 @@ fhirVersion: 4.0.1
 parameters:
   show-inherited-invariants: false
 copyrightYear: 2021+
-releaseLabel: Release
-# releaseLabel: CI Build
+# releaseLabel: Release
+releaseLabel: CI Build
 
 # ╭───────────────────────────────────────package-list.json────────────────────────────────────────╮
 # │  To use a provided ig-data/package-list.json file, delete the "history" property below.        │

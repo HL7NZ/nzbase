@@ -1,11 +1,11 @@
 {
   "resourceType": "StructureDefinition",
-  "id": "registration-initial-date",
-  "url": "http://hl7.org.nz/fhir/StructureDefinition/registration-initial-date",
-  "version": "1.1.0",
-  "name": "RegistrationInitialDate",
-  "status": "active",
-  "description": "The date the practitioner first became registered with the Responsible Authority or professional body",
+  "id": "adHocDate",
+  "url": "http://hl7.org.nz/fhir/StructureDefinition/adHocDate",
+  "version": "1.0",
+  "name": "AdHocDate",
+  "status": "draft",
+  "description": "One off day that a service is open, or when a service is open with hours that differ to their standard (regular) opening hours. ",
   "jurisdiction": [
     {
       "coding": [
@@ -29,7 +29,7 @@
   "context": [
     {
       "type": "element",
-      "expression": "Practitioner.qualification"
+      "expression": "HealthcareService.availableTime"
     }
   ],
   "type": "Extension",
@@ -40,7 +40,7 @@
       {
         "id": "Extension",
         "path": "Extension",
-        "definition": "The date the practitioner first became registered with the Responsible Authority or professional body"
+        "definition": "One off day that a service is open, or when a service is open with hours that differ to their standard (regular) opening hours. "
       },
       {
         "id": "Extension.extension",
@@ -50,7 +50,7 @@
       {
         "id": "Extension.url",
         "path": "Extension.url",
-        "fixedUri": "http://hl7.org.nz/fhir/StructureDefinition/registration-initial-date"
+        "fixedUri": "http://hl7.org.nz/fhir/StructureDefinition/adHocDate"
       },
       {
         "id": "Extension.value[x]",
