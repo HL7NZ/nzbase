@@ -1,3 +1,6 @@
+
+/*
+
 Extension: AdHocDate
 Id: adHocDate
 Description: "One off day that a service is open, or when a service is open with hours that differ to their standard (regular) opening hours. "
@@ -12,6 +15,7 @@ Description: "One off day that a service is open, or when a service is open with
 * extension 0..0
 * value[x] only date
 
+*/
 
 Extension: Contactpoint_purpose
 Id: contactpoint-purpose

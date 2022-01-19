@@ -1,0 +1,317 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "NzPatient",
+  "text": {
+    "status": "additional",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">NZ Patient profile</div>"
+  },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-category",
+      "valueString": "Base.Individuals"
+    },
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-security-category",
+      "valueCode": "patient"
+    }
+  ],
+  "url": "http://hl7.org.nz/fhir/StructureDefinition/NzPatient",
+  "version": "1.1.0",
+  "name": "NzPatient",
+  "title": "NZ Patient",
+  "status": "active",
+  "description": "The base New Zealand Patient profile",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "code": "NZ",
+          "system": "urn:iso:std:iso:3166"
+        }
+      ]
+    }
+  ],
+  "purpose": "Describe the Base New Zealand Patient resource profileI",
+  "fhirVersion": "4.0.1",
+  "mapping": [
+    {
+      "identity": "rim",
+      "uri": "http://hl7.org/v3",
+      "name": "RIM Mapping"
+    },
+    {
+      "identity": "cda",
+      "uri": "http://hl7.org/v3/cda",
+      "name": "CDA (R2)"
+    },
+    {
+      "identity": "w5",
+      "uri": "http://hl7.org/fhir/fivews",
+      "name": "FiveWs Pattern Mapping"
+    },
+    {
+      "identity": "v2",
+      "uri": "http://hl7.org/v2",
+      "name": "HL7 v2 Mapping"
+    },
+    {
+      "identity": "loinc",
+      "uri": "http://loinc.org",
+      "name": "LOINC code for the element"
+    }
+  ],
+  "kind": "resource",
+  "abstract": false,
+  "type": "Patient",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Patient",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Patient.extension",
+        "path": "Patient.extension",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "value",
+              "path": "url"
+            }
+          ],
+          "ordered": false,
+          "rules": "open"
+        }
+      },
+      {
+        "id": "Patient.extension:ethnicity",
+        "path": "Patient.extension",
+        "sliceName": "ethnicity",
+        "min": 0,
+        "max": "6",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://hl7.org.nz/fhir/StructureDefinition/nz-ethnicity"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Patient.extension:nzCitizen",
+        "path": "Patient.extension",
+        "sliceName": "nzCitizen",
+        "short": "Is this person a New Zealand citizen",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://hl7.org.nz/fhir/StructureDefinition/nz-citizenship"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Patient.extension:dhb",
+        "path": "Patient.extension",
+        "sliceName": "dhb",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://hl7.org.nz/fhir/StructureDefinition/dhb"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Patient.extension:domicile-code",
+        "path": "Patient.extension",
+        "sliceName": "domicile-code",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://hl7.org.nz/fhir/StructureDefinition/domicile-code"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Patient.extension:nz-citizenship",
+        "path": "Patient.extension",
+        "sliceName": "nz-citizenship",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://hl7.org.nz/fhir/StructureDefinition/nz-citizenship"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Patient.extension:pho",
+        "path": "Patient.extension",
+        "sliceName": "pho",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://hl7.org.nz/fhir/StructureDefinition/pho"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Patient.extension:sex-at-birth",
+        "path": "Patient.extension",
+        "sliceName": "sex-at-birth",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://hl7.org.nz/fhir/StructureDefinition/sex-at-birth"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Patient.identifier",
+        "path": "Patient.identifier",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "value",
+              "path": "system"
+            }
+          ],
+          "description": "Add NHI as a defined identifier type",
+          "rules": "openAtEnd"
+        }
+      },
+      {
+        "id": "Patient.identifier:NHI",
+        "path": "Patient.identifier",
+        "sliceName": "NHI",
+        "short": "The currently active NHI ",
+        "definition": "The NHI number is a unique number for all New Zealanders, assigned at birth",
+        "min": 0,
+        "max": "1",
+        "mustSupport": true
+      },
+      {
+        "id": "Patient.identifier:NHI.use",
+        "path": "Patient.identifier.use",
+        "short": "fixed to official",
+        "fixedCode": "official"
+      },
+      {
+        "id": "Patient.identifier:NHI.system",
+        "path": "Patient.identifier.system",
+        "min": 1,
+        "fixedUri": "https://standards.digital.health.nz/ns/nhi-id"
+      },
+      {
+        "id": "Patient.name.extension:information-source",
+        "path": "Patient.name.extension",
+        "sliceName": "information-source",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://hl7.org.nz/fhir/StructureDefinition/information-source"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Patient.birthDate.extension",
+        "path": "Patient.birthDate.extension",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "value",
+              "path": "url"
+            }
+          ],
+          "ordered": false,
+          "rules": "open"
+        }
+      },
+      {
+        "id": "Patient.birthDate.extension:information-source",
+        "path": "Patient.birthDate.extension",
+        "sliceName": "information-source",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://hl7.org.nz/fhir/StructureDefinition/information-source"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Patient.address.extension:building-name",
+        "path": "Patient.address.extension",
+        "sliceName": "building-name",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://hl7.org.nz/fhir/StructureDefinition/building-name"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Patient.address.extension:ne-geocode",
+        "path": "Patient.address.extension",
+        "sliceName": "ne-geocode",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://hl7.org.nz/fhir/StructureDefinition/nz-geocode"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Patient.address.extension:suburb",
+        "path": "Patient.address.extension",
+        "sliceName": "suburb",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://hl7.org.nz/fhir/StructureDefinition/suburb"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

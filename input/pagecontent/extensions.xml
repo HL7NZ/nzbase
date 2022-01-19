@@ -4,16 +4,6 @@
 <tr><th>Id</th><th>Url</th><th>Context of Use</th><th>Description</th><th>Purpose</th>
 <th>Status</th>
 </tr>
-<tr>
-<td><a href='StructureDefinition-adHocDate.html'>adHocDate</a></td>
-<td>http://hl7.org.nz/fhir/StructureDefinition/adHocDate</td>
-<td>
-<div>HealthcareService.availableTime</div>
-</td>
-<td><p>One off day that a service is open, or when a service is open with hours that differ to their standard (regular) opening hours. </p></td>
-<td></td>
-<td>draft</td>
-</tr>
 <tr style='background-color:#FFCCCC'>
 <td><a href='StructureDefinition-additional-authorisation.html'>additional-authorisation</a></td>
 <td>http://hl7.org.nz/fhir/StructureDefinition/additional-authorisation</td>

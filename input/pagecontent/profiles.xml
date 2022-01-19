@@ -3,5 +3,10 @@
 <br/><strong>Profiles defined in this guide</strong><br/><br/>
 <table class='table table-bordered table-hover table-sm'>
 <tr><th>Id</th><th>Url</th><th>Description</th></tr>
+<tr>
+<td><a href='StructureDefinition-NzPatient.html'>NzPatient</a></td>
+<td>http://hl7.org.nz/fhir/StructureDefinition/NzPatient</td>
+<td><p>The base New Zealand Patient profile</p></td>
+</tr>
 </table>
 </div>

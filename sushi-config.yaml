@@ -34,6 +34,7 @@ releaseLabel: CI Build
 menu:
   IG Home: index.html
   Extensions: extensions.html
+  Profiles: profiles.html
   Terminology: terminology.html
   Identifiers: namingSystems.html
   # Table of Contents: toc.html

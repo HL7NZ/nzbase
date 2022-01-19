@@ -28,10 +28,10 @@
     "resource": [
       {
         "reference": {
-          "reference": "StructureDefinition/adHocDate"
+          "reference": "StructureDefinition/NzPatient"
         },
-        "name": "AdHocDate",
-        "description": "One off day that a service is open, or when a service is open with hours that differ to their standard (regular) opening hours. ",
+        "name": "NZ Patient",
+        "description": "The base New Zealand Patient profile",
         "exampleBoolean": false
       },
       {
