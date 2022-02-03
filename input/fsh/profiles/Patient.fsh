@@ -29,6 +29,8 @@ Description:    "The base New Zealand Patient profile"
 
 //todo - decide if must support elements - aussies don't use it
 
+* address only NzAddress
+
 * extension contains 
     $ethnicity named ethnicity 0..6 and
     $nzCitizen named nzCitizen 0..1 and 
@@ -61,14 +63,16 @@ Description:    "The base New Zealand Patient profile"
 
 //-------- end of identifier slicing --------
 
+/* this is NHI stuff I think
 * name.extension contains
     $information-source named information-source 0..1
 
 * birthDate.extension contains 
     $information-source named information-source 0..1
 
+
 * address.extension contains
     $building-name named building-name 0..1 and 
     $nz-geocode named ne-geocode 0..1 and 
     $suburb named suburb 0..1
-
+*/

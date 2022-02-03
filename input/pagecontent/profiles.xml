@@ -4,6 +4,16 @@
 <table class='table table-bordered table-hover table-sm'>
 <tr><th>Id</th><th>Url</th><th>Description</th></tr>
 <tr>
+<td><a href='StructureDefinition-NzAddress.html'>NzAddress</a></td>
+<td>http://hl7.org.nz/fhir/StructureDefinition/hpi-nz-address</td>
+<td><p>Adds building name, suburb, domicile code and geocode to the Address datatype</p></td>
+</tr>
+<tr>
+<td><a href='StructureDefinition-NzContactPoint.html'>NzContactPoint</a></td>
+<td>http://hl7.org.nz/fhir/StructureDefinition/nz-contactpoint</td>
+<td><p>Common NZ ContactPoint datatype</p></td>
+</tr>
+<tr>
 <td><a href='StructureDefinition-NzPatient.html'>NzPatient</a></td>
 <td>http://hl7.org.nz/fhir/StructureDefinition/NzPatient</td>
 <td><p>The base New Zealand Patient profile</p></td>

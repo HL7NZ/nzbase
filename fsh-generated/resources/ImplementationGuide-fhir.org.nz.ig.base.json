@@ -28,6 +28,22 @@
     "resource": [
       {
         "reference": {
+          "reference": "StructureDefinition/NzAddress"
+        },
+        "name": "Common NZ Address datatype",
+        "description": "Adds building name, suburb, domicile code and geocode to the Address datatype",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/NzContactPoint"
+        },
+        "name": "Common NZ ContactPoint datatype",
+        "description": "Common NZ ContactPoint datatype",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
           "reference": "StructureDefinition/NzPatient"
         },
         "name": "NZ Patient",

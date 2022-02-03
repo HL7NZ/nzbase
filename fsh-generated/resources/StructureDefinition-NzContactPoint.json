@@ -1,0 +1,97 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "NzContactPoint",
+  "text": {
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">NZ ContactPoint datatype profile</div>",
+    "status": "additional"
+  },
+  "url": "http://hl7.org.nz/fhir/StructureDefinition/nz-contactpoint",
+  "version": "1.1.0",
+  "name": "NzContactPoint",
+  "title": "Common NZ ContactPoint datatype",
+  "status": "active",
+  "description": "Common NZ ContactPoint datatype",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "code": "NZ",
+          "system": "urn:iso:std:iso:3166"
+        }
+      ]
+    }
+  ],
+  "fhirVersion": "4.0.1",
+  "mapping": [
+    {
+      "identity": "v2",
+      "uri": "http://hl7.org/v2",
+      "name": "HL7 v2 Mapping"
+    },
+    {
+      "identity": "rim",
+      "uri": "http://hl7.org/v3",
+      "name": "RIM Mapping"
+    },
+    {
+      "identity": "servd",
+      "uri": "http://www.omg.org/spec/ServD/1.0/",
+      "name": "ServD"
+    }
+  ],
+  "kind": "complex-type",
+  "abstract": false,
+  "type": "ContactPoint",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/ContactPoint",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "ContactPoint.extension:cp-purpose",
+        "path": "ContactPoint.extension",
+        "sliceName": "cp-purpose",
+        "short": "The business reason this ContactPoint is being used",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://hl7.org.nz/fhir/StructureDefinition/contactpoint-purpose"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ContactPoint.system.extension",
+        "path": "ContactPoint.system.extension",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "value",
+              "path": "url"
+            }
+          ],
+          "ordered": false,
+          "rules": "open"
+        }
+      },
+      {
+        "id": "ContactPoint.system.extension:cp-edi",
+        "path": "ContactPoint.system.extension",
+        "sliceName": "cp-edi",
+        "short": "Represents an EDI contact",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://hl7.org.nz/fhir/StructureDefinition/edi-address"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,130 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "NzAddress",
+  "text": {
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">NZ Address datatype profile</div>",
+    "status": "additional"
+  },
+  "url": "http://hl7.org.nz/fhir/StructureDefinition/hpi-nz-address",
+  "version": "1.1.0",
+  "name": "NzAddress",
+  "title": "Common NZ Address datatype",
+  "status": "active",
+  "description": "Adds building name, suburb, domicile code and geocode to the Address datatype",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "code": "NZ",
+          "system": "urn:iso:std:iso:3166"
+        }
+      ]
+    }
+  ],
+  "fhirVersion": "4.0.1",
+  "mapping": [
+    {
+      "identity": "v2",
+      "uri": "http://hl7.org/v2",
+      "name": "HL7 v2 Mapping"
+    },
+    {
+      "identity": "rim",
+      "uri": "http://hl7.org/v3",
+      "name": "RIM Mapping"
+    },
+    {
+      "identity": "servd",
+      "uri": "http://www.omg.org/spec/ServD/1.0/",
+      "name": "ServD"
+    },
+    {
+      "identity": "vcard",
+      "uri": "http://w3.org/vcard",
+      "name": "vCard Mapping"
+    }
+  ],
+  "kind": "complex-type",
+  "abstract": false,
+  "type": "Address",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Address",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Address.extension:nz-geocode",
+        "path": "Address.extension",
+        "sliceName": "nz-geocode",
+        "short": "A geocode using the NZ specific datum (reference point)",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://hl7.org.nz/fhir/StructureDefinition/nz-geocode"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Address.extension:suburb",
+        "path": "Address.extension",
+        "sliceName": "suburb",
+        "short": "The suburb part of the address",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://hl7.org.nz/fhir/StructureDefinition/suburb"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Address.extension:building-name",
+        "path": "Address.extension",
+        "sliceName": "building-name",
+        "short": "The name of the building",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://hl7.org.nz/fhir/StructureDefinition/building-name"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Address.extension:domicile-code",
+        "path": "Address.extension",
+        "sliceName": "domicile-code",
+        "short": "The domicile code associated with this address",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://hl7.org.nz/fhir/StructureDefinition/domicile-code"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Address.district",
+        "path": "Address.district",
+        "max": "0"
+      },
+      {
+        "id": "Address.state",
+        "path": "Address.state",
+        "max": "0"
+      }
+    ]
+  }
+}
