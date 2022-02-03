@@ -30,13 +30,13 @@ Description:    "The base New Zealand Patient profile"
 //todo - decide if must support elements - aussies don't use it
 
 * address only NzAddress
+* telecom only NzContactPoint
 
 * extension contains 
     $ethnicity named ethnicity 0..6 and
     $nzCitizen named nzCitizen 0..1 and 
     $dhb named dhb 0..1 and 
     $domicile-code named domicile-code 0..1 and 
-    $nzCitizen named nz-citizenship 0..1 and 
     $pho named pho 0..1 and 
     $sex-at-birth named sex-at-birth 0..1
 

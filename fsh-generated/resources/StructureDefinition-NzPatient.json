@@ -143,21 +143,6 @@
         ]
       },
       {
-        "id": "Patient.extension:nz-citizenship",
-        "path": "Patient.extension",
-        "sliceName": "nz-citizenship",
-        "min": 0,
-        "max": "1",
-        "type": [
-          {
-            "code": "Extension",
-            "profile": [
-              "http://hl7.org.nz/fhir/StructureDefinition/nz-citizenship"
-            ]
-          }
-        ]
-      },
-      {
         "id": "Patient.extension:pho",
         "path": "Patient.extension",
         "sliceName": "pho",
@@ -222,6 +207,18 @@
         "path": "Patient.identifier.system",
         "min": 1,
         "fixedUri": "https://standards.digital.health.nz/ns/nhi-id"
+      },
+      {
+        "id": "Patient.telecom",
+        "path": "Patient.telecom",
+        "type": [
+          {
+            "code": "ContactPoint",
+            "profile": [
+              "http://hl7.org.nz/fhir/StructureDefinition/nz-contactpoint"
+            ]
+          }
+        ]
       },
       {
         "id": "Patient.address",
