@@ -183,7 +183,7 @@
           "reference": "StructureDefinition/nz-geocode"
         },
         "name": "NZ Geocode",
-        "description": "New Zealand Geocode. This uses a different datum from that defined in the HL7 FHIR specification for a Geocode.",
+        "description": "New Zealand Geocode. This uses a different datum from that defined in the HL7 FHIR specification for a Geocode. \r\nIf no dataum is supplied, NZGD2000 is assumed",
         "exampleBoolean": false
       },
       {
@@ -300,6 +300,14 @@
       },
       {
         "reference": {
+          "reference": "ValueSet/Datum"
+        },
+        "name": "Datum Code",
+        "description": "Identifies the coordinate system used to specify points on a map",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
           "reference": "ValueSet/dod-information-source"
         },
         "name": "Death date Information Source",
@@ -408,6 +416,14 @@
         },
         "name": "NZ Citizenship status",
         "description": "Is this person a NZ Citizen",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/Datum"
+        },
+        "name": "Datum Code",
+        "description": "Identifies the coordinate system used to specify points on a map",
         "exampleBoolean": false
       },
       {

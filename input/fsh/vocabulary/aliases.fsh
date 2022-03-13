@@ -26,6 +26,7 @@ Alias: $condition-on-practice-vs = https://nzhts.digital.health.nz/fhir/ValueSet
 Alias: $alias-type-vs = https://nzhts.digital.health.nz/fhir/ValueSet/alias-type-code
 
 Alias: $pr-status-reason-vs = https://nzhts.digital.health.nz/fhir/ValueSet/hpi-practitioner-role-status-reason-code
+Alias: $datum-vs = https://nzhts.digital.health.nz/fhir/ValueSet/datum-code
 
 
 //Aliases for CodeSystems
@@ -40,4 +41,4 @@ Alias: $ethnicity-code-cs = https://standards.digital.health.nz/ns/ethnic-group-
 Alias: $condition-on-practice-cs = https://standards.digital.health.nz/ns/condition-on-practice-code
 Alias: $alias-type-cs = https://standards.digital.health.nz/ns/alias-type-code
 Alias: $pr-status-reason-cs = https://standards.digital.health.nz/ns/hpi-practitioner-role-status-reason-code
-Alias: $datumCode = http://hl7.org.nz/fhir/StructureDefinition/datum
+Alias: $datum-cs = http://hl7.org.nz/fhir/StructureDefinition/datum-code
