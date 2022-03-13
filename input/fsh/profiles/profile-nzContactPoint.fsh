@@ -10,7 +10,7 @@ Title:          "Common NZ ContactPoint datatype"
 Description:    "Common NZ ContactPoint datatype"
 
 * ^jurisdiction.coding = urn:iso:std:iso:3166#NZ
-* ^url = "http://hl7.org.nz/fhir/StructureDefinition/nz-contactpoint"
+* ^url = "http://hl7.org.nz/fhir/StructureDefinition/NzContactpoint"
 
 * ^text.div = "<div xmlns='http://www.w3.org/1999/xhtml'>NZ ContactPoint datatype profile</div>"
 * ^text.status = #additional
