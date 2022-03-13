@@ -19,7 +19,7 @@
       ]
     }
   ],
-  "description": "New Zealand Geocode. This uses a different datum from that defined in the HL7 FHIR specification for a Geocode.",
+  "description": "New Zealand Geocode. This uses a different datum from that defined in the HL7 FHIR specification for a Geocode. \r\nIf no dataum is supplied, NZGD2000 is assumed",
   "jurisdiction": [
     {
       "coding": [
@@ -862,7 +862,7 @@
         "id": "Extension",
         "path": "Extension",
         "short": "NZ Geocode",
-        "definition": "New Zealand Geocode. This uses a different datum from that defined in the HL7 FHIR specification for a Geocode."
+        "definition": "New Zealand Geocode. This uses a different datum from that defined in the HL7 FHIR specification for a Geocode. \r\nIf no dataum is supplied, NZGD2000 is assumed"
       },
       {
         "id": "Extension.extension",
@@ -922,6 +922,53 @@
             "code": "decimal"
           }
         ]
+      },
+      {
+        "id": "Extension.extension:datumCode",
+        "path": "Extension.extension",
+        "sliceName": "datumCode",
+        "definition": "The datum used for the lat/long",
+        "min": 0,
+        "max": "1"
+      },
+      {
+        "id": "Extension.extension:datumCode.extension",
+        "path": "Extension.extension.extension",
+        "max": "0"
+      },
+      {
+        "id": "Extension.extension:datumCode.url",
+        "path": "Extension.extension.url",
+        "fixedUri": "datumCode"
+      },
+      {
+        "id": "Extension.extension:datumCode.value[x]",
+        "path": "Extension.extension.value[x]",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "type",
+              "path": "$this"
+            }
+          ],
+          "ordered": false,
+          "rules": "open"
+        },
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ]
+      },
+      {
+        "id": "Extension.extension:datumCode.valueCodeableConcept",
+        "path": "Extension.extension.valueCodeableConcept",
+        "min": 0,
+        "max": "1",
+        "binding": {
+          "strength": "preferred",
+          "valueSet": "https://nzhts.digital.health.nz/fhir/ValueSet/datum-code"
+        }
       },
       {
         "id": "Extension.url",
