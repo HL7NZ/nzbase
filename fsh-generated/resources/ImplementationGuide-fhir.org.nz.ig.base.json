@@ -300,6 +300,14 @@
       },
       {
         "reference": {
+          "reference": "ValueSet/datumCode"
+        },
+        "name": "Datum code",
+        "description": "Datum codes used",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
           "reference": "ValueSet/dod-information-source"
         },
         "name": "Death date Information Source",
@@ -408,6 +416,14 @@
         },
         "name": "NZ Citizenship status",
         "description": "Is this person a NZ Citizen",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/datum-code"
+        },
+        "name": "Datum codes",
+        "description": "Possible datum codes",
         "exampleBoolean": false
       },
       {

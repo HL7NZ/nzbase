@@ -1,0 +1,24 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "active",
+  "content": "complete",
+  "name": "DatumCode",
+  "id": "datum-code",
+  "title": "Datum codes",
+  "description": "Possible datum codes",
+  "version": "1.1.0",
+  "url": "https://standards.digital.health.nz/ns/nz-datum-code",
+  "concept": [
+    {
+      "code": "WGS84",
+      "display": "WGS84",
+      "definition": "global datum, used by google maps"
+    },
+    {
+      "code": "NZGD2000",
+      "display": "NZGD2000",
+      "definition": "Nz official datum, used by MoH address service"
+    }
+  ],
+  "count": 2
+}

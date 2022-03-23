@@ -1,0 +1,27 @@
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "DatumCode",
+  "id": "datumCode",
+  "title": "Datum code",
+  "description": "Datum codes used",
+  "version": "1.1.0",
+  "url": "https://nzhts.digital.health.nz/fhir/ValueSet/nz-datum-code",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "code": "NZ",
+          "system": "urn:iso:std:iso:3166"
+        }
+      ]
+    }
+  ],
+  "compose": {
+    "include": [
+      {
+        "system": "https://standards.digital.health.nz/ns/nz-datum-code"
+      }
+    ]
+  }
+}

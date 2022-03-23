@@ -21,9 +21,39 @@ Description: "New Zealand Geocode. This uses a different datum from that defined
 
 * extension contains
     latitude 1..1 and
-    longitude 1..1
+    longitude 1..1 and 
+    datumCode 0..1
 
 * extension[latitude] ^definition = "The latitude of the geocode"
 * extension[latitude].value[x] only decimal
+
 * extension[longitude] ^definition = "The longitude of the geocode"
 * extension[longitude].value[x] only decimal
+
+* extension[datumCode] ^definition = "The datum used for the lat/long"
+* extension[datumCode].value[x] only CodeableConcept
+* extension[datumCode].valueCodeableConcept from $datum-code-vs (preferred)
+
+ValueSet: DatumCode
+Id: datumCode
+Title: "Datum code"
+Description: "Datum codes used"
+
+* ^url = $datum-code-vs
+* ^jurisdiction.coding = urn:iso:std:iso:3166#NZ
+
+* codes from system $datum-code-cs
+
+
+CodeSystem: DatumCode
+Id: datum-code
+Title: "Datum codes"
+Description: "Possible datum codes"
+
+
+* ^url = $datum-code-cs
+//* status = #draft
+//* content = #complete
+
+* #WGS84 "WGS84" "global datum, used by google maps"
+* #NZGD2000 "NZGD2000" "Nz official datum, used by MoH address service"
