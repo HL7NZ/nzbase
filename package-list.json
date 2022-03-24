@@ -1,21 +1,21 @@
 {
-  "package-id": "hl7.fhir.nz.base",
-  "canonical": "http://hl7.org.nz/fhir",
+  "package-id": "fhir.org.nz.ig.base",
+  "canonical": "http://fhir.org.nz/ig/base",
   "title": "HL7® FHIR® New Zealand Base Implementation Guide",
   "introduction": "New Zealand base profiles",
   "list": [
     {
       "version": "current",
       "desc": "Continuous Integration Build (latest in version control)",
-      "path": "http://build.fhir.org/ig/example/example-ig",
+      "path": "http://build.fhir.org/ig/HL7NZ/nzbase/branches/master/index.html",
       "status": "ci-build",
       "current": true
     },
     {
-      "version": "0.0.1",
+      "version": "1.0.0",
       "date": "2099-01-01",
-      "desc": "Initial STU ballot (Mmm yyyy Ballot)",
-      "path": "http://example.org/fhir/STU1",
+      "desc": "Initial release",
+      "path": "http://fhir.org.nz/ig/base",
       "status": "ballot",
       "sequence": "STU 1",
       "fhirversion": "4.0.1",
