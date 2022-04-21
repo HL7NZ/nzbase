@@ -1,0 +1,151 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "nz-residency-status",
+  "url": "http://hl7.org.nz/fhir/StructureDefinition/nz-residency",
+  "version": "1.1.0",
+  "name": "NZResidencyStatus",
+  "status": "draft",
+  "description": "NZ Residency status",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "code": "NZ",
+          "system": "urn:iso:std:iso:3166"
+        }
+      ]
+    }
+  ],
+  "fhirVersion": "4.0.1",
+  "mapping": [
+    {
+      "identity": "rim",
+      "uri": "http://hl7.org/v3",
+      "name": "RIM Mapping"
+    }
+  ],
+  "kind": "complex-type",
+  "abstract": false,
+  "context": [
+    {
+      "type": "element",
+      "expression": "Patient"
+    }
+  ],
+  "type": "Extension",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Extension",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Extension",
+        "path": "Extension",
+        "definition": "NZ Residency status"
+      },
+      {
+        "id": "Extension.extension:status",
+        "path": "Extension.extension",
+        "sliceName": "status",
+        "definition": "Residency Status",
+        "min": 0,
+        "max": "1"
+      },
+      {
+        "id": "Extension.extension:status.extension",
+        "path": "Extension.extension.extension",
+        "max": "0"
+      },
+      {
+        "id": "Extension.extension:status.url",
+        "path": "Extension.extension.url",
+        "fixedUri": "status"
+      },
+      {
+        "id": "Extension.extension:status.value[x]",
+        "path": "Extension.extension.value[x]",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "type",
+              "path": "$this"
+            }
+          ],
+          "ordered": false,
+          "rules": "open"
+        },
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ]
+      },
+      {
+        "id": "Extension.extension:status.valueCodeableConcept",
+        "path": "Extension.extension.valueCodeableConcept",
+        "min": 0,
+        "max": "1",
+        "binding": {
+          "strength": "preferred",
+          "valueSet": "https://nzhts.digital.health.nz/fhir/ValueSet/nz-residency-status-code"
+        }
+      },
+      {
+        "id": "Extension.extension:source",
+        "path": "Extension.extension",
+        "sliceName": "source",
+        "definition": "The source of information concerning the residency",
+        "min": 0,
+        "max": "1"
+      },
+      {
+        "id": "Extension.extension:source.extension",
+        "path": "Extension.extension.extension",
+        "max": "0"
+      },
+      {
+        "id": "Extension.extension:source.url",
+        "path": "Extension.extension.url",
+        "fixedUri": "source"
+      },
+      {
+        "id": "Extension.extension:source.value[x]",
+        "path": "Extension.extension.value[x]",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "type",
+              "path": "$this"
+            }
+          ],
+          "ordered": false,
+          "rules": "open"
+        },
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ]
+      },
+      {
+        "id": "Extension.extension:source.valueCodeableConcept",
+        "path": "Extension.extension.valueCodeableConcept",
+        "min": 0,
+        "max": "1",
+        "binding": {
+          "strength": "required",
+          "valueSet": "https://nzhts.digital.health.nz/fhir/ValueSet/information-source-code"
+        }
+      },
+      {
+        "id": "Extension.url",
+        "path": "Extension.url",
+        "fixedUri": "http://hl7.org.nz/fhir/StructureDefinition/nz-residency"
+      },
+      {
+        "id": "Extension.value[x]",
+        "path": "Extension.value[x]",
+        "max": "0"
+      }
+    ]
+  }
+}

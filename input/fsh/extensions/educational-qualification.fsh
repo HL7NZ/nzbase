@@ -8,6 +8,9 @@ Description: "Educational qualifications a practitioner has. These may or may no
 * ^context.type = #element
 * ^context.expression = "Practitioner.qualification"
 
+//* ^context.type = #element
+//* ^context.expression = "Practitioner"
+
 * extension contains
     fullname 0..1 and
     shortname 0..1 and

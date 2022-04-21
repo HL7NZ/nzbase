@@ -1,0 +1,86 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "patient-iwi",
+  "url": "http://hl7.org.nz/fhir/StructureDefinition/patient-iwi",
+  "version": "1.1.0",
+  "name": "Patient_iwi",
+  "status": "draft",
+  "description": "Persons Iwi affiliation",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "code": "NZ",
+          "system": "urn:iso:std:iso:3166"
+        }
+      ]
+    }
+  ],
+  "fhirVersion": "4.0.1",
+  "mapping": [
+    {
+      "identity": "rim",
+      "uri": "http://hl7.org/v3",
+      "name": "RIM Mapping"
+    }
+  ],
+  "kind": "complex-type",
+  "abstract": false,
+  "context": [
+    {
+      "type": "element",
+      "expression": "Patient"
+    }
+  ],
+  "type": "Extension",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Extension",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Extension",
+        "path": "Extension",
+        "definition": "Persons Iwi affiliation"
+      },
+      {
+        "id": "Extension.extension",
+        "path": "Extension.extension",
+        "max": "0"
+      },
+      {
+        "id": "Extension.url",
+        "path": "Extension.url",
+        "fixedUri": "http://hl7.org.nz/fhir/StructureDefinition/patient-iwi"
+      },
+      {
+        "id": "Extension.value[x]",
+        "path": "Extension.value[x]",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "type",
+              "path": "$this"
+            }
+          ],
+          "ordered": false,
+          "rules": "open"
+        },
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ]
+      },
+      {
+        "id": "Extension.valueCodeableConcept",
+        "path": "Extension.valueCodeableConcept",
+        "min": 0,
+        "max": "1",
+        "binding": {
+          "strength": "preferred",
+          "valueSet": "https://standards.digital.health.nz/fhir/ValueSet/iwi-code"
+        }
+      }
+    ]
+  }
+}

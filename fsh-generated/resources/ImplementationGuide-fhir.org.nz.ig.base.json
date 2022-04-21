@@ -164,6 +164,14 @@
       },
       {
         "reference": {
+          "reference": "StructureDefinition/nz-residency-status"
+        },
+        "name": "NZResidencyStatus",
+        "description": "NZ Residency status",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
           "reference": "StructureDefinition/nz-citizenship"
         },
         "name": "NZ Citizenship",
@@ -208,6 +216,14 @@
         },
         "name": "NZePS Unusual Dose Quantity Indicator",
         "description": "NZePS Unusual Dose Quantity Indicator",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/patient-iwi"
+        },
+        "name": "Patient_iwi",
+        "description": "Persons Iwi affiliation",
         "exampleBoolean": false
       },
       {
@@ -348,6 +364,14 @@
       },
       {
         "reference": {
+          "reference": "ValueSet/Iwi"
+        },
+        "name": "Iwi",
+        "description": "New Zealand iwi codes",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
           "reference": "ValueSet/nz-residency-status"
         },
         "name": "NZ Residency status",
@@ -456,6 +480,14 @@
         },
         "name": "Information Source",
         "description": "All possible sources of information",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/Iwi"
+        },
+        "name": "Iwi",
+        "description": "New Zealand iwi codes",
         "exampleBoolean": false
       },
       {

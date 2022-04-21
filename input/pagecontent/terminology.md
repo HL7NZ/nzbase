@@ -19,6 +19,7 @@ The [FHIR spec](http://hl7.org/fhir/terminology-module.html) has much more detai
 <tr><td width='20%'>Ethnicity of a person</td><td><p>Codes to record a person&#39;s ethnicity, drawn from <a href="http://aria.stats.govt.nz/aria/#ClassificationView:uri=http://stats.govt.nz/cms/ClassificationVersion/YVqOcFHSlguKkT17">Level 4 of the Ethnicity code system</a></p></td><td><a href='ValueSet-ethnicity.html'>https://nzhts.digital.health.nz/fhir/ValueSet/ethnic-group-level-4-code</a></td></tr>
 <tr><td width='20%'>Funded Programme</td><td><p>Some sort of funded programme</p></td><td><a href='ValueSet-funded-programme.html'>https://nzhts.digital.health.nz/fhir/ValueSet/funded-programme-code</a></td></tr>
 <tr><td width='20%'>Information Source</td><td><p>The source from where the value of this item was sourced</p></td><td><a href='ValueSet-information-source.html'>https://nzhts.digital.health.nz/fhir/ValueSet/information-source-code</a></td></tr>
+<tr><td width='20%'>Iwi</td><td><p>New Zealand iwi codes</p></td><td><a href='ValueSet-Iwi.html'>https://standards.digital.health.nz/fhir/ValueSet/iwi-code</a></td></tr>
 <tr><td width='20%'>NZ Citizenship status</td><td><p>Citizenship status</p></td><td><a href='ValueSet-citizenship-status.html'>https://nzhts.digital.health.nz/fhir/ValueSet/nz-citizenship-status-code</a></td></tr>
 <tr><td width='20%'>NZ Residency status</td><td><p>Is the person a NZ resident</p></td><td><a href='ValueSet-nz-residency-status.html'>https://nzhts.digital.health.nz/fhir/ValueSet/nz-residency-status-code</a></td></tr>
 <tr><td width='20%'>PHO</td><td><p>Primary Healthcare Organization</p></td><td><a href='ValueSet-pho.html'>https://nzhts.digital.health.nz/fhir/ValueSet/pho-code</a></td></tr>
@@ -39,6 +40,7 @@ The [FHIR spec](http://hl7.org/fhir/terminology-module.html) has much more detai
 <table class='table table-bordered table-condensed'>
 <tr><th>CodeSystem</th><th>Purpose</th><th>Canonical Url</th></tr>
 <tr><td width='20%'>District Health Board Code</td><td><p>District Health Board code table.</p></td><td><a href='CodeSystem-Dhb-code.html'>https://standards.digital.health.nz/ns/dhb-code</a></td></tr>
+<tr><td width='20%'>Iwi</td><td><p>New Zealand iwi codes</p></td><td><a href='CodeSystem-Iwi.html'>https://standards.digital.health.nz/ns/iwi-code</a></td></tr>
 <tr><td width='20%'>Type of Alias</td><td><p>Used in Organization and Location to indicate what is the type of Alias</p></td><td><a href='CodeSystem-alias-type.html'>https://standards.digital.health.nz/ns/alias-type-code</a></td></tr>
 <tr><td width='20%'>NZ Citizenship status</td><td><p>Is this person a NZ Citizen</p></td><td><a href='CodeSystem-citizenship-status.html'>https://standards.digital.health.nz/ns/nz-citizenship-status-code</a></td></tr>
 <tr><td width='20%'>Datum codes</td><td><p>Possible datum codes</p></td><td><a href='CodeSystem-datum-code.html'>https://standards.digital.health.nz/ns/nz-datum-code</a></td></tr>
