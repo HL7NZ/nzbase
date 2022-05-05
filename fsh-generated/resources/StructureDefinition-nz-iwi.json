@@ -1,25 +1,11 @@
 {
   "resourceType": "StructureDefinition",
-  "id": "domicile-code",
-  "url": "http://hl7.org.nz/fhir/StructureDefinition/domicile-code",
-  "version": "0.1.0",
-  "name": "Domicile_code",
-  "title": "NZ Domicile Code",
+  "id": "nz-iwi",
+  "url": "http://hl7.org.nz/fhir/StructureDefinition/nz-iwi",
+  "version": "1.1.0",
+  "name": "Nz_iwi",
   "status": "active",
-  "date": "2020-07-20",
-  "publisher": "HL7 New Zealand",
-  "contact": [
-    {
-      "telecom": [
-        {
-          "system": "email",
-          "value": "admin@hl7.org.nz",
-          "use": "work"
-        }
-      ]
-    }
-  ],
-  "description": "NZ Domicile Code. Derived from a patient's primary physical, home address.",
+  "description": "Persons Iwi affiliation",
   "jurisdiction": [
     {
       "coding": [
@@ -30,7 +16,6 @@
       ]
     }
   ],
-  "copyright": "HL7 New Zealand© 2020+; Licensed Under Creative Commons No Rights Reserved.",
   "fhirVersion": "4.0.1",
   "mapping": [
     {
@@ -45,6 +30,14 @@
     {
       "type": "element",
       "expression": "Patient"
+    },
+    {
+      "type": "element",
+      "expression": "Practitioner"
+    },
+    {
+      "type": "element",
+      "expression": "RelatedPerson"
     }
   ],
   "type": "Extension",
@@ -65,8 +58,8 @@
           }
         ],
         "path": "Extension",
-        "short": "NZ Domicile Code",
-        "definition": "NZ Domicile Code. Derived from a patient's primary physical, home address.",
+        "short": "Optional Extensions Element",
+        "definition": "Persons Iwi affiliation",
         "min": 0,
         "max": "*",
         "base": {
@@ -227,7 +220,7 @@
             ]
           }
         ],
-        "fixedUri": "http://hl7.org.nz/fhir/StructureDefinition/domicile-code",
+        "fixedUri": "http://hl7.org.nz/fhir/StructureDefinition/nz-iwi",
         "isModifier": false,
         "isSummary": false,
         "mapping": [
@@ -315,7 +308,7 @@
         "isSummary": false,
         "binding": {
           "strength": "preferred",
-          "valueSet": "https://nzhts.digital.health.nz/fhir/ValueSet/domicile-code"
+          "valueSet": "https://standards.digital.health.nz/fhir/ValueSet/iwi-code"
         },
         "mapping": [
           {
@@ -331,8 +324,7 @@
       {
         "id": "Extension",
         "path": "Extension",
-        "short": "NZ Domicile Code",
-        "definition": "NZ Domicile Code. Derived from a patient's primary physical, home address."
+        "definition": "Persons Iwi affiliation"
       },
       {
         "id": "Extension.extension",
@@ -342,7 +334,7 @@
       {
         "id": "Extension.url",
         "path": "Extension.url",
-        "fixedUri": "http://hl7.org.nz/fhir/StructureDefinition/domicile-code"
+        "fixedUri": "http://hl7.org.nz/fhir/StructureDefinition/nz-iwi"
       },
       {
         "id": "Extension.value[x]",
@@ -370,7 +362,7 @@
         "max": "1",
         "binding": {
           "strength": "preferred",
-          "valueSet": "https://nzhts.digital.health.nz/fhir/ValueSet/domicile-code"
+          "valueSet": "https://standards.digital.health.nz/fhir/ValueSet/iwi-code"
         }
       }
     ]

@@ -13,6 +13,6 @@ Title: "NZ Residency status"
 Description: "NZ Residency status"
 * ^url = $nz-residency-status-cs
 
-* #Y "Yes"
-* #N "No"
-* #U "Unknown"
+* #yes "Yes"
+* #no "No"
+* #unknown "Unknown"

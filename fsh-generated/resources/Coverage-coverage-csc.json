@@ -1,0 +1,32 @@
+{
+  "resourceType": "Coverage",
+  "id": "coverage-csc",
+  "status": "active",
+  "identifier": [
+    {
+      "system": "http://moh.org.nz/csc-cards",
+      "value": "a6524144"
+    }
+  ],
+  "type": {
+    "coding": [
+      {
+        "code": "csc",
+        "system": "http://example.co.nz",
+        "display": "Community Services Card"
+      }
+    ]
+  },
+  "beneficiary": {
+    "reference": "Patient/patient-dhb"
+  },
+  "period": {
+    "start": "2022-01-01",
+    "end": "2022-06-30"
+  },
+  "payor": [
+    {
+      "reference": "Organization/organization-moh"
+    }
+  ]
+}

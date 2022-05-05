@@ -196,6 +196,14 @@
       },
       {
         "reference": {
+          "reference": "StructureDefinition/nz-iwi"
+        },
+        "name": "Nz_iwi",
+        "description": "Persons Iwi affiliation",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
           "reference": "StructureDefinition/nzeps-long-term-medication"
         },
         "name": "NZePS Long Term Medication Indicator",
@@ -216,14 +224,6 @@
         },
         "name": "NZePS Unusual Dose Quantity Indicator",
         "description": "NZePS Unusual Dose Quantity Indicator",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "StructureDefinition/patient-iwi"
-        },
-        "name": "Patient_iwi",
-        "description": "Persons Iwi affiliation",
         "exampleBoolean": false
       },
       {
@@ -547,6 +547,14 @@
       },
       {
         "reference": {
+          "reference": "Coverage/coverage-csc"
+        },
+        "name": "coverage-csc",
+        "description": "Community Services Card",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
           "reference": "NamingSystem/hpiFacility"
         },
         "name": "hpiFacility",
@@ -760,6 +768,14 @@
         },
         "name": "organization-funded-programme",
         "description": "Example of Funded programme",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Organization/organization-moh"
+        },
+        "name": "organization-moh",
+        "description": "Ministry of Health",
         "exampleBoolean": true
       },
       {

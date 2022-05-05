@@ -10,15 +10,15 @@
   "url": "https://standards.digital.health.nz/ns/nz-residency-status-code",
   "concept": [
     {
-      "code": "Y",
+      "code": "yes",
       "display": "Yes"
     },
     {
-      "code": "N",
+      "code": "no",
       "display": "No"
     },
     {
-      "code": "U",
+      "code": "unknown",
       "display": "Unknown"
     }
   ],
