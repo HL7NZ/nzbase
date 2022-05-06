@@ -5,8 +5,11 @@ Description: "Educational qualifications a practitioner has. These may or may no
 * ^url = "http://hl7.org.nz/fhir/StructureDefinition/educational-qualification"
 * ^jurisdiction.coding = urn:iso:std:iso:3166#NZ
 
-* ^context.type = #element
-* ^context.expression = "Practitioner.qualification"
+* ^context[0].type = #element
+* ^context[0].expression = "Practitioner.qualification"
+
+* ^context[+].type = #element
+* ^context[+].expression = "Practitioner"
 
 //* ^context.type = #element
 //* ^context.expression = "Practitioner"

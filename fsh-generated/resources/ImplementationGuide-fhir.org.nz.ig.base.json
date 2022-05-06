@@ -852,6 +852,14 @@
       },
       {
         "reference": {
+          "reference": "Patient/patient-nz-residenct-status"
+        },
+        "name": "patient-nz-residenct-status",
+        "description": "Example of residency status",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
           "reference": "Patient/patient-pho"
         },
         "name": "patient-pho",

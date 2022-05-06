@@ -11,15 +11,18 @@
   "concept": [
     {
       "code": "yes",
-      "display": "Yes"
+      "display": "Permanent Resident",
+      "definition": "Use this status if the person holds a residence class visa"
     },
     {
       "code": "no",
-      "display": "No"
+      "display": "Not a Permanent Resident",
+      "definition": "Use this status for a person who is a NZ Citizen or does not hold a residence class visa"
     },
     {
       "code": "unknown",
-      "display": "Unknown"
+      "display": "Unknown",
+      "definition": "use this status if the residency status of the person cannot be determined or is unknown"
     }
   ],
   "count": 3
