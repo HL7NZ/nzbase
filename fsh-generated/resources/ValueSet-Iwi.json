@@ -6,7 +6,7 @@
   "title": "Iwi",
   "description": "New Zealand iwi codes",
   "version": "1.1.0",
-  "url": "https://standards.digital.health.nz/fhir/ValueSet/iwi-code",
+  "url": "https://nzhts.digital.health.nz/fhir/ValueSet/iwi-code",
   "compose": {
     "include": [
       {

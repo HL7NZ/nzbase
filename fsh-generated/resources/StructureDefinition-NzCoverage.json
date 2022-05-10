@@ -616,7 +616,7 @@
         "isSummary": true,
         "binding": {
           "strength": "required",
-          "valueSet": "https://standards.digital.health.nz/fhir/ValueSet/coverage-type"
+          "valueSet": "https://nzhts.digital.health.nz/fhir/ValueSet/coverage-type"
         },
         "mapping": [
           {
@@ -2048,7 +2048,7 @@
         "path": "Coverage.type",
         "binding": {
           "strength": "required",
-          "valueSet": "https://standards.digital.health.nz/fhir/ValueSet/coverage-type"
+          "valueSet": "https://nzhts.digital.health.nz/fhir/ValueSet/coverage-type"
         }
       }
     ]

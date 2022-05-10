@@ -29,9 +29,8 @@ Alias: $pr-status-reason-vs = https://nzhts.digital.health.nz/fhir/ValueSet/hpi-
 
 Alias: $datum-code-vs = https://nzhts.digital.health.nz/fhir/ValueSet/nz-datum-code
 
-Alias: $iwi-vs = https://standards.digital.health.nz/fhir/ValueSet/iwi-code
-
-Alias: $coverage-type-vs = https://standards.digital.health.nz/fhir/ValueSet/coverage-type
+Alias: $iwi-vs = https://nzhts.digital.health.nz/fhir/ValueSet/iwi-code
+Alias: $coverage-type-vs = https://nzhts.digital.health.nz/fhir/ValueSet/coverage-type
 
 
 //Aliases for CodeSystems
