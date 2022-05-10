@@ -13,13 +13,14 @@ The [FHIR spec](http://hl7.org/fhir/terminology-module.html) has much more detai
 <tr><th>ValueSet</th><th>Purpose</th><th>Canonical url</th></tr>
 <tr><td width='20%'>Additional activities that a Practitioner is authorised to perform</td><td><p>A coded type for additional authorisations</p></td><td><a href='ValueSet-practitioner-additional-authorisation-code.html'>https://nzhts.digital.health.nz/fhir/ValueSet/practitioner-additional-authorisation-code</a></td></tr>
 <tr><td width='20%'>All the possible alias types</td><td><p>The complete set of alias types that apply to Locations and Organizations</p></td><td><a href='ValueSet-location-alias-type.html'>https://nzhts.digital.health.nz/fhir/ValueSet/alias-type-code</a></td></tr>
+<tr><td width='20%'>CoverageType type VS</td><td><p>New Zealand codes for CoverageType types</p></td><td><a href='ValueSet-coverage-type.html'>https://standards.digital.health.nz/fhir/ValueSet/coverage-type</a></td></tr>
 <tr><td width='20%'>Datum code</td><td><p>Datum codes used</p></td><td><a href='ValueSet-datumCode.html'>https://nzhts.digital.health.nz/fhir/ValueSet/nz-datum-code</a></td></tr>
 <tr><td width='20%'>Death date Information Source</td><td><p>The source from where the date of death was sourced</p></td><td><a href='ValueSet-dod-information-source.html'>https://nzhts.digital.health.nz/fhir/ValueSet/dod-information-source-code</a></td></tr>
 <tr><td width='20%'>District Health Board Identifer</td><td><p>District Health Board Identifer. Assigned by the HPI.</p></td><td><a href='ValueSet-dhb.html'>https://nzhts.digital.health.nz/fhir/ValueSet/dhb-code</a></td></tr>
 <tr><td width='20%'>Ethnicity of a person</td><td><p>Codes to record a person&#39;s ethnicity, drawn from <a href="http://aria.stats.govt.nz/aria/#ClassificationView:uri=http://stats.govt.nz/cms/ClassificationVersion/YVqOcFHSlguKkT17">Level 4 of the Ethnicity code system</a></p></td><td><a href='ValueSet-ethnicity.html'>https://nzhts.digital.health.nz/fhir/ValueSet/ethnic-group-level-4-code</a></td></tr>
 <tr><td width='20%'>Funded Programme</td><td><p>Some sort of funded programme</p></td><td><a href='ValueSet-funded-programme.html'>https://nzhts.digital.health.nz/fhir/ValueSet/funded-programme-code</a></td></tr>
 <tr><td width='20%'>Information Source</td><td><p>The source from where the value of this item was sourced</p></td><td><a href='ValueSet-information-source.html'>https://nzhts.digital.health.nz/fhir/ValueSet/information-source-code</a></td></tr>
-<tr><td width='20%'>Iwi</td><td><p>New Zealand iwi codes</p></td><td><a href='ValueSet-Iwi.html'>https://standards.digital.health.nz/fhir/ValueSet/iwi-code</a></td></tr>
+<tr><td width='20%'>Iwi</td><td><p>New Zealand iwi codes</p></td><td><a href='ValueSet-iwi.html'>https://standards.digital.health.nz/fhir/ValueSet/iwi-code</a></td></tr>
 <tr><td width='20%'>NZ Citizenship status</td><td><p>Citizenship status</p></td><td><a href='ValueSet-citizenship-status.html'>https://nzhts.digital.health.nz/fhir/ValueSet/nz-citizenship-status-code</a></td></tr>
 <tr><td width='20%'>NZ Residency status</td><td><p>Is the person a NZ resident</p></td><td><a href='ValueSet-nz-residency-status.html'>https://nzhts.digital.health.nz/fhir/ValueSet/nz-residency-status-code</a></td></tr>
 <tr><td width='20%'>PHO</td><td><p>Primary Healthcare Organization</p></td><td><a href='ValueSet-pho.html'>https://nzhts.digital.health.nz/fhir/ValueSet/pho-code</a></td></tr>
@@ -40,9 +41,9 @@ The [FHIR spec](http://hl7.org/fhir/terminology-module.html) has much more detai
 <table class='table table-bordered table-condensed'>
 <tr><th>CodeSystem</th><th>Purpose</th><th>Canonical Url</th></tr>
 <tr><td width='20%'>District Health Board Code</td><td><p>District Health Board code table.</p></td><td><a href='CodeSystem-Dhb-code.html'>https://standards.digital.health.nz/ns/dhb-code</a></td></tr>
-<tr><td width='20%'>Iwi</td><td><p>New Zealand iwi codes</p></td><td><a href='CodeSystem-Iwi.html'>https://standards.digital.health.nz/ns/iwi-code</a></td></tr>
 <tr><td width='20%'>Type of Alias</td><td><p>Used in Organization and Location to indicate what is the type of Alias</p></td><td><a href='CodeSystem-alias-type.html'>https://standards.digital.health.nz/ns/alias-type-code</a></td></tr>
 <tr><td width='20%'>NZ Citizenship status</td><td><p>Is this person a NZ Citizen</p></td><td><a href='CodeSystem-citizenship-status.html'>https://standards.digital.health.nz/ns/nz-citizenship-status-code</a></td></tr>
+<tr><td width='20%'>NZ Iwi</td><td><p>New Zealand codes for CoverageType types</p></td><td><a href='CodeSystem-coverage-type.html'>https://standards.digital.health.nz/ns/coverage-type</a></td></tr>
 <tr><td width='20%'>Datum codes</td><td><p>Possible datum codes</p></td><td><a href='CodeSystem-datum-code.html'>https://standards.digital.health.nz/ns/nz-datum-code</a></td></tr>
 <tr><td width='20%'>domicileCode</td><td><p>Domicile Code</p></td><td><a href='CodeSystem-domicile-code.html'>https://standards.digital.health.nz/ns/domicile-code</a></td></tr>
 <tr><td width='20%'>Level 4 ethnicity codes</td><td><p>Codes to record a person’s ethnicity, drawn from Level 4 of the Ethnicity code system 
@@ -50,6 +51,7 @@ described <a href="http://aria.stats.govt.nz/aria/#ClassificationView:uri=http:/
 <tr><td width='20%'>Funded Programme</td><td><p>Some sort of funded programme</p></td><td><a href='CodeSystem-funded-programme.html'>https://standards.digital.health.nz/ns/funded-programme-code</a></td></tr>
 <tr><td width='20%'>PractitionerRole status reason</td><td><p>The reason for the current status of PractitionerRole</p></td><td><a href='CodeSystem-hpi-practitionerRole-status-reason.html'>https://standards.digital.health.nz/ns/hpi-practitioner-role-status-reason-code</a></td></tr>
 <tr><td width='20%'>Information Source</td><td><p>All possible sources of information</p></td><td><a href='CodeSystem-information-source.html'>https://standards.digital.health.nz/ns/information-source-code</a></td></tr>
+<tr><td width='20%'>NZ Iwi</td><td><p>NZ Iwi Statistical Standard: 29 September 2017</p></td><td><a href='CodeSystem-iwi-code.html'>https://standards.digital.health.nz/ns/iwi-code</a></td></tr>
 <tr><td width='20%'>NZ Residency status</td><td><p>NZ Residency status</p></td><td><a href='CodeSystem-nz-residency-status.html'>https://standards.digital.health.nz/ns/nz-residency-status-code</a></td></tr>
 <tr><td width='20%'>PHO</td><td><p>Primary Healthcare Organization</p></td><td><a href='CodeSystem-pho-status.html'>https://standards.digital.health.nz/ns/pho-code</a></td></tr>
 <tr><td width='20%'>Additional Authorisation</td><td><p>Additional authorisations that a practitioner is authorised to practice or prescribe.</p></td><td><a href='CodeSystem-practitioner-additional-authorisation.html'>https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code</a></td></tr>

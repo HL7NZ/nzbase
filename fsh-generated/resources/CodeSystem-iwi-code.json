@@ -2,11 +2,11 @@
   "resourceType": "CodeSystem",
   "status": "active",
   "content": "complete",
-  "name": "Iwi",
-  "id": "Iwi",
-  "title": "Iwi",
-  "description": "New Zealand iwi codes",
-  "version": "1.1.0",
+  "name": "Iwi_code",
+  "id": "iwi-code",
+  "title": "NZ Iwi",
+  "description": "NZ Iwi Statistical Standard: 29 September 2017",
+  "version": "1.0.0",
   "url": "https://standards.digital.health.nz/ns/iwi-code",
   "concept": [
     {
@@ -87,7 +87,7 @@
     },
     {
       "code": "0119",
-      "display": "Ngāti Rēhua"
+      "display": "Ngati Rehua"
     },
     {
       "code": "02",
@@ -331,7 +331,7 @@
     },
     {
       "code": "07",
-      "display": "Te Matau-a-Māui/Wairarapa (Hawkes Bay/Wairarapa) Region iwi"
+      "display": "Te Matau-a-Māui/Wairarapa (Hawke's Bay/Wairarapa) Region iwi"
     },
     {
       "code": "0701",
@@ -351,7 +351,7 @@
     },
     {
       "code": "0706",
-      "display": "Rangitāne (Te Matau-a-Māui/Hawkes Bay/Wairarapa)"
+      "display": "Rangitāne (Te Matau-a-Māui/Hawke's Bay/Wairarapa)"
     },
     {
       "code": "0707",
@@ -471,19 +471,19 @@
     },
     {
       "code": "0908",
-      "display": "Ngāti Rangi (Ruapehu)"
+      "display": "Ngāti Rangi (Ruapehu, Whanganui)"
     },
     {
       "code": "0909",
-      "display": "Uenuku (Ruapehu)"
+      "display": "Uenuku (Ruapehu, Waimarino)"
     },
     {
       "code": "0910",
-      "display": "Tamahaki (Ruapehu)"
+      "display": "Tamahaki (Ruapehu, Waimarino)"
     },
     {
       "code": "0911",
-      "display": "Tamakana (Ruapehu)"
+      "display": "Tamakana (Ruapehu, Waimarino)"
     },
     {
       "code": "10",
@@ -583,135 +583,135 @@
     },
     {
       "code": "20",
-      "display": "Confederations and Waka"
+      "display": "Confederations and Waka, iwi not named"
     },
     {
       "code": "2001",
-      "display": "Tainui"
+      "display": "Tainui, iwi not named"
     },
     {
       "code": "2002",
-      "display": "Te Arawa"
+      "display": "Te Arawa, iwi not named"
     },
     {
       "code": "2003",
-      "display": "Tākitimu"
+      "display": "Tākitimu, iwi not named"
     },
     {
       "code": "2004",
-      "display": "Aotea"
+      "display": "Aotea, iwi not named"
     },
     {
       "code": "2005",
-      "display": "Mātaatua"
+      "display": "Mātaatua, iwi not named"
     },
     {
       "code": "2006",
-      "display": "Mahuru"
+      "display": "Mahuru, iwi not named"
     },
     {
       "code": "2007",
-      "display": "Māmari"
+      "display": "Māmari, iwi not named"
     },
     {
       "code": "2008",
-      "display": "Ngātokimatawhaorua"
+      "display": "Ngātokimatawhaorua, iwi not named"
     },
     {
       "code": "2009",
-      "display": "Nukutere"
+      "display": "Nukutere, iwi not named"
     },
     {
       "code": "2010",
-      "display": "Tokomaru"
+      "display": "Tokomaru, iwi not named"
     },
     {
       "code": "2011",
-      "display": "Kurahaupō"
+      "display": "Kurahaupō, iwi not named"
     },
     {
       "code": "2012",
-      "display": "Muriwhenua"
+      "display": "Muriwhenua, iwi not named"
     },
     {
       "code": "2013",
-      "display": "Hauraki / Pare Hauraki"
+      "display": "Hauraki / Pare Hauraki, iwi not named"
     },
     {
       "code": "2014",
-      "display": "Tūranganui a Kiwa"
+      "display": "Tūranganui a Kiwa, iwi not named"
     },
     {
       "code": "2015",
-      "display": "Te Tauihu o Te Waka a Māui"
+      "display": "Te Tauihu o Te Waka a Māui, iwi not named"
     },
     {
       "code": "2016",
-      "display": "Tauranga Moana"
+      "display": "Tauranga Moana, iwi not named"
     },
     {
       "code": "2017",
-      "display": "Horouta"
+      "display": "Horouta, iwi not named"
     },
     {
       "code": "2018",
-      "display": "Mōkai Pātea"
+      "display": "Mōkai Pātea, iwi not named"
     },
     {
       "code": "21",
-      "display": "Iwi named"
+      "display": "Iwi named, region not known"
     },
     {
       "code": "2101",
-      "display": "Te Atiawa"
+      "display": "Te Atiawa, region not known"
     },
     {
       "code": "2102",
-      "display": "Ngāti Haua"
+      "display": "Ngāti Haua, region not known"
     },
     {
       "code": "2103",
-      "display": "Ngāti Maru"
+      "display": "Ngāti Maru, region not known"
     },
     {
       "code": "2104",
-      "display": "Ngāti Mutunga"
+      "display": "Ngāti Mutunga, region not known"
     },
     {
       "code": "2105",
-      "display": "Rangitāne"
+      "display": "Rangitāne, region not known"
     },
     {
       "code": "2106",
-      "display": "Ngāti Raukawa"
+      "display": "Ngāti Raukawa, region not known"
     },
     {
       "code": "2107",
-      "display": "Ngāti Tama"
+      "display": "Ngāti Tama, region not known"
     },
     {
       "code": "2108",
-      "display": "Ngāti Toa"
+      "display": "Ngāti Toa, region not known"
     },
     {
       "code": "2109",
-      "display": "Waitaha"
+      "display": "Waitaha, region not known"
     },
     {
       "code": "2110",
-      "display": "Ngāti Apa"
+      "display": "Ngāti Apa, region not known"
     },
     {
       "code": "2111",
-      "display": "Ngāi Tai"
+      "display": "Ngāi Tai, region not known"
     },
     {
       "code": "2112",
-      "display": "Ngāti Kahungunu"
+      "display": "Ngāti Kahungunu, region not known"
     },
     {
       "code": "2113",
-      "display": "Ngāti Tūwharetoa"
+      "display": "Ngāti Tūwharetoa, region not known"
     },
     {
       "code": "22",
@@ -723,59 +723,59 @@
     },
     {
       "code": "23",
-      "display": "Region known"
+      "display": "Region known, Iwi not named"
     },
     {
       "code": "2301",
-      "display": "Te Tai Tokerau/Tāmaki-makaurau Region"
+      "display": "Te Tai Tokerau/Tāmaki-makaurau Region, Iwi not named"
     },
     {
       "code": "2302",
-      "display": "Hauraki Region"
+      "display": "Hauraki Region, Iwi not named"
     },
     {
       "code": "2303",
-      "display": "Waikato/Te Rohe Pōtae Region"
+      "display": "Waikato/Te Rohe Pōtae Region, Iwi not named"
     },
     {
       "code": "2304",
-      "display": "Te Arawa/Taupō Region"
+      "display": "Te Arawa/Taupō Region, Iwi not named"
     },
     {
       "code": "2305",
-      "display": "Tauranga Moana/Mātaatua Region"
+      "display": "Tauranga Moana/Mātaatua Region, Iwi not named"
     },
     {
       "code": "2306",
-      "display": "Te Tai Rāwhiti Region"
+      "display": "Te Tai Rāwhiti Region, Iwi not named"
     },
     {
       "code": "2307",
-      "display": "Te Matau-a-Māui/Wairarapa Region"
+      "display": "Te Matau-a-Māui/Wairarapa Region, Iwi not named"
     },
     {
       "code": "2308",
-      "display": "Taranaki Region"
+      "display": "Taranaki Region, Iwi not named"
     },
     {
       "code": "2309",
-      "display": "Whanganui/Rangitīkei Region"
+      "display": "Whanganui/Rangitīkei Region, Iwi not named"
     },
     {
       "code": "2310",
-      "display": "Manawatū/Horowhenua/Te Whanganui-a-Tara Region"
+      "display": "Manawatū/Horowhenua/Te Whanganui-a-Tara Region, Iwi not named"
     },
     {
       "code": "2311",
-      "display": "Te Waipounamu/Wharekauri Region"
+      "display": "Te Waipounamu/Wharekauri Region, Iwi not named"
     },
     {
       "code": "44",
-      "display": "Dont Know"
+      "display": "Don't Know"
     },
     {
       "code": "4444",
-      "display": "Dont Know"
+      "display": "Don't Know"
     },
     {
       "code": "55",
@@ -810,5 +810,23 @@
       "display": "Not Stated"
     }
   ],
+  "experimental": true,
+  "date": "2022-05-10",
+  "publisher": "Stats NZ",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "email",
+          "value": "admin@hl7.org.nz"
+        }
+      ]
+    }
+  ],
+  "copyright": "© 2017+ Stats NZ",
+  "caseSensitive": true,
+  "valueSet": "https://nzhts.digital.health.nz/fhir/ValueSet/iwi-code",
+  "compositional": false,
+  "versionNeeded": false,
   "count": 200
 }

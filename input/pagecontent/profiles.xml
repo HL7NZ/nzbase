@@ -14,6 +14,11 @@
 <td><p>Common NZ ContactPoint datatype</p></td>
 </tr>
 <tr>
+<td><a href='StructureDefinition-NzCoverage.html'>NzCoverage</a></td>
+<td>http://hl7.org.nz/fhir/StructureDefinition/NzCoverage</td>
+<td><p>The base New Zealand Patient profile</p></td>
+</tr>
+<tr>
 <td><a href='StructureDefinition-NzPatient.html'>NzPatient</a></td>
 <td>http://hl7.org.nz/fhir/StructureDefinition/NzPatient</td>
 <td><p>The base New Zealand Patient profile</p></td>

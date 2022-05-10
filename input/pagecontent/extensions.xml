@@ -201,7 +201,7 @@
 </tr>
 <tr>
 <td><a href='StructureDefinition-nz-residency-status.html'>nz-residency-status</a></td>
-<td>http://hl7.org.nz/fhir/StructureDefinition/nz-residency</td>
+<td>http://hl7.org.nz/fhir/StructureDefinition/nz-residency-status</td>
 <td>
 <div>Patient</div>
 </td>

@@ -44,6 +44,14 @@
       },
       {
         "reference": {
+          "reference": "StructureDefinition/NzCoverage"
+        },
+        "name": "Coverage resource for use in NZ",
+        "description": "The base New Zealand Patient profile",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
           "reference": "StructureDefinition/NzPatient"
         },
         "name": "NZ Patient",
@@ -308,6 +316,14 @@
       },
       {
         "reference": {
+          "reference": "ValueSet/coverage-type"
+        },
+        "name": "CoverageType type VS",
+        "description": "New Zealand codes for CoverageType types",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
           "reference": "ValueSet/dhb"
         },
         "name": "District Health Board Identifer",
@@ -364,7 +380,7 @@
       },
       {
         "reference": {
-          "reference": "ValueSet/Iwi"
+          "reference": "ValueSet/iwi"
         },
         "name": "Iwi",
         "description": "New Zealand iwi codes",
@@ -444,6 +460,14 @@
       },
       {
         "reference": {
+          "reference": "CodeSystem/coverage-type"
+        },
+        "name": "NZ Iwi",
+        "description": "New Zealand codes for CoverageType types",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
           "reference": "CodeSystem/datum-code"
         },
         "name": "Datum codes",
@@ -484,10 +508,10 @@
       },
       {
         "reference": {
-          "reference": "CodeSystem/Iwi"
+          "reference": "CodeSystem/iwi-code"
         },
-        "name": "Iwi",
-        "description": "New Zealand iwi codes",
+        "name": "NZ Iwi",
+        "description": "NZ Iwi Statistical Standard: 29 September 2017",
         "exampleBoolean": false
       },
       {

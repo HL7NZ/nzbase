@@ -31,6 +31,9 @@ Alias: $datum-code-vs = https://nzhts.digital.health.nz/fhir/ValueSet/nz-datum-c
 
 Alias: $iwi-vs = https://standards.digital.health.nz/fhir/ValueSet/iwi-code
 
+Alias: $coverage-type-vs = https://standards.digital.health.nz/fhir/ValueSet/coverage-type
+
+
 //Aliases for CodeSystems
 Alias: $dhb-code-cs = https://standards.digital.health.nz/ns/dhb-code
 Alias: $pho-code-cs = https://standards.digital.health.nz/ns/pho-code
@@ -47,3 +50,5 @@ Alias: $pr-status-reason-cs = https://standards.digital.health.nz/ns/hpi-practit
 Alias: $datum-code-cs = https://standards.digital.health.nz/ns/nz-datum-code
 
 Alias: $iwi-cs = https://standards.digital.health.nz/ns/iwi-code
+
+Alias: $coverage-type-cs = https://standards.digital.health.nz/ns/coverage-type

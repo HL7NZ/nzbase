@@ -2,7 +2,7 @@
   "resourceType": "ValueSet",
   "status": "active",
   "name": "Iwi",
-  "id": "Iwi",
+  "id": "iwi",
   "title": "Iwi",
   "description": "New Zealand iwi codes",
   "version": "1.1.0",

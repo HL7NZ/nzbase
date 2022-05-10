@@ -1,0 +1,17 @@
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "CoverageType",
+  "id": "coverage-type",
+  "title": "CoverageType type VS",
+  "description": "New Zealand codes for CoverageType types",
+  "version": "1.1.0",
+  "url": "https://standards.digital.health.nz/fhir/ValueSet/coverage-type",
+  "compose": {
+    "include": [
+      {
+        "system": "https://standards.digital.health.nz/ns/coverage-type"
+      }
+    ]
+  }
+}
