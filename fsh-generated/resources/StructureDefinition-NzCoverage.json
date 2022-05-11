@@ -76,7 +76,7 @@
         "id": "Coverage.type",
         "path": "Coverage.type",
         "binding": {
-          "strength": "required",
+          "strength": "preferred",
           "valueSet": "https://nzhts.digital.health.nz/fhir/ValueSet/coverage-type"
         }
       }

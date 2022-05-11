@@ -316,6 +316,14 @@
       },
       {
         "reference": {
+          "reference": "ValueSet/coverage-type"
+        },
+        "name": "CoverageType type VS",
+        "description": "New Zealand codes for CoverageType types",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
           "reference": "ValueSet/dhb"
         },
         "name": "District Health Board Identifer",
@@ -368,6 +376,22 @@
         },
         "name": "Information Source",
         "description": "The source from where the value of this item was sourced",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/iwi"
+        },
+        "name": "Iwi",
+        "description": "New Zealand iwi codes",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/nz-residency-status"
+        },
+        "name": "NZ Residency status",
+        "description": "Is the person a NZ resident",
         "exampleBoolean": false
       },
       {
@@ -436,6 +460,14 @@
       },
       {
         "reference": {
+          "reference": "CodeSystem/coverage-type"
+        },
+        "name": "NZ Iwi",
+        "description": "New Zealand codes for CoverageType types",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
           "reference": "CodeSystem/datum-code"
         },
         "name": "Datum codes",
@@ -472,6 +504,22 @@
         },
         "name": "Information Source",
         "description": "All possible sources of information",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/iwi-code"
+        },
+        "name": "NZ Iwi",
+        "description": "NZ Iwi Statistical Standard: 29 September 2017",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/nz-residency-status"
+        },
+        "name": "NZ Residency status",
+        "description": "NZ Residency status",
         "exampleBoolean": false
       },
       {
