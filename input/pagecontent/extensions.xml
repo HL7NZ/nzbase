@@ -102,7 +102,6 @@
 <td>http://hl7.org.nz/fhir/StructureDefinition/educational-qualification</td>
 <td>
 <div>Practitioner.qualification</div>
-<div>undefined</div>
 <div>Practitioner</div>
 </td>
 <td><p>Educational qualifications a practitioner has. These may or may not be related to registration information.</p></td>

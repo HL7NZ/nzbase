@@ -316,14 +316,6 @@
       },
       {
         "reference": {
-          "reference": "ValueSet/coverage-type"
-        },
-        "name": "CoverageType type VS",
-        "description": "New Zealand codes for CoverageType types",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
           "reference": "ValueSet/dhb"
         },
         "name": "District Health Board Identifer",
@@ -376,22 +368,6 @@
         },
         "name": "Information Source",
         "description": "The source from where the value of this item was sourced",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "ValueSet/iwi"
-        },
-        "name": "Iwi",
-        "description": "New Zealand iwi codes",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "ValueSet/nz-residency-status"
-        },
-        "name": "NZ Residency status",
-        "description": "Is the person a NZ resident",
         "exampleBoolean": false
       },
       {
@@ -460,14 +436,6 @@
       },
       {
         "reference": {
-          "reference": "CodeSystem/coverage-type"
-        },
-        "name": "NZ Iwi",
-        "description": "New Zealand codes for CoverageType types",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
           "reference": "CodeSystem/datum-code"
         },
         "name": "Datum codes",
@@ -504,22 +472,6 @@
         },
         "name": "Information Source",
         "description": "All possible sources of information",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "CodeSystem/iwi-code"
-        },
-        "name": "NZ Iwi",
-        "description": "NZ Iwi Statistical Standard: 29 September 2017",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "CodeSystem/nz-residency-status"
-        },
-        "name": "NZ Residency status",
-        "description": "NZ Residency status",
         "exampleBoolean": false
       },
       {
@@ -567,14 +519,6 @@
         },
         "name": "condition-long-term-condition",
         "description": "Example of long term condition",
-        "exampleBoolean": true
-      },
-      {
-        "reference": {
-          "reference": "Coverage/coverage-csc"
-        },
-        "name": "coverage-csc",
-        "description": "Community Services Card",
         "exampleBoolean": true
       },
       {
@@ -796,14 +740,6 @@
       },
       {
         "reference": {
-          "reference": "Organization/organization-moh"
-        },
-        "name": "organization-moh",
-        "description": "Ministry of Health",
-        "exampleBoolean": true
-      },
-      {
-        "reference": {
           "reference": "Patient/patient-address-building-name"
         },
         "name": "patient-address-building-name",
@@ -872,14 +808,6 @@
         },
         "name": "patient-nz-geocode",
         "description": "Example of geocode",
-        "exampleBoolean": true
-      },
-      {
-        "reference": {
-          "reference": "Patient/patient-nz-residenct-status"
-        },
-        "name": "patient-nz-residenct-status",
-        "description": "Example of residency status",
         "exampleBoolean": true
       },
       {
