@@ -1,6 +1,10 @@
 Extension: NZResidencyStatus
 Id: nz-residency-status
-Description: "NZ Residency status"
+Description: """
+NZ Residency status. The words 'Residence class visa' is intentional.  It is the wording used in Section B3 (1) of the [Eligibility Direction](https://www.health.govt.nz/system/files/documents/pages/eligibility-direction-2011.pdf) “A person who holds a residence class visa is eligible to receive services funded under the Act”.
+
+'Residence class visa' includes both a Resident visa and a Permanent Resident visa.
+"""
 
 * ^url = "http://hl7.org.nz/fhir/StructureDefinition/nz-residency-status"
 * ^jurisdiction.coding = urn:iso:std:iso:3166#NZ

@@ -20,7 +20,7 @@
   "name": "NzCoverage",
   "title": "Coverage resource for use in NZ",
   "status": "draft",
-  "description": "The base New Zealand Patient profile",
+  "description": "Coverage resource for use in NZ",
   "jurisdiction": [
     {
       "coding": [

@@ -47,7 +47,7 @@
           "reference": "StructureDefinition/NzCoverage"
         },
         "name": "Coverage resource for use in NZ",
-        "description": "The base New Zealand Patient profile",
+        "description": "Coverage resource for use in NZ",
         "exampleBoolean": false
       },
       {
@@ -175,7 +175,7 @@
           "reference": "StructureDefinition/nz-residency-status"
         },
         "name": "NZResidencyStatus",
-        "description": "NZ Residency status",
+        "description": "NZ Residency status. The words 'Residence class visa' is intentional.  It is the wording used in Section B3 (1) of the [Eligibility Direction](https://www.health.govt.nz/system/files/documents/pages/eligibility-direction-2011.pdf) “A person who holds a residence class visa is eligible to receive services funded under the Act”.\n\n'Residence class visa' includes both a Resident visa and a Permanent Resident visa.",
         "exampleBoolean": false
       },
       {

@@ -204,7 +204,9 @@
 <td>
 <div>Patient</div>
 </td>
-<td><p>NZ Residency status</p></td>
+<td><p>NZ Residency status. The words &#39;Residence class visa&#39; is intentional.  It is the wording used in Section B3 (1) of the <a href="https://www.health.govt.nz/system/files/documents/pages/eligibility-direction-2011.pdf">Eligibility Direction</a> “A person who holds a residence class visa is eligible to receive services funded under the Act”.</p>
+
+<p>&#39;Residence class visa&#39; includes both a Resident visa and a Permanent Resident visa.</p></td>
 <td></td>
 <td>draft</td>
 </tr>

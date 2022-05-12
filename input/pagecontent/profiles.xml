@@ -16,7 +16,7 @@
 <tr>
 <td><a href='StructureDefinition-NzCoverage.html'>NzCoverage</a></td>
 <td>http://hl7.org.nz/fhir/StructureDefinition/NzCoverage</td>
-<td><p>The base New Zealand Patient profile</p></td>
+<td><p>Coverage resource for use in NZ</p></td>
 </tr>
 <tr>
 <td><a href='StructureDefinition-NzPatient.html'>NzPatient</a></td>
