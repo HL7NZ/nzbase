@@ -24,14 +24,13 @@ Alias: $dod-information-source-vs = https://nzhts.digital.health.nz/fhir/ValueSe
 Alias: $ethnicity-code-vs = https://nzhts.digital.health.nz/fhir/ValueSet/ethnic-group-level-4-code
 Alias: $condition-on-practice-vs = https://nzhts.digital.health.nz/fhir/ValueSet/condition-on-practice-code
 Alias: $alias-type-vs = https://nzhts.digital.health.nz/fhir/ValueSet/alias-type-code
-
 Alias: $pr-status-reason-vs = https://nzhts.digital.health.nz/fhir/ValueSet/hpi-practitioner-role-status-reason-code
 
 Alias: $datum-code-vs = https://nzhts.digital.health.nz/fhir/ValueSet/nz-datum-code
 
 Alias: $iwi-vs = https://nzhts.digital.health.nz/fhir/ValueSet/iwi-code
-Alias: $coverage-type-vs = https://nzhts.digital.health.nz/fhir/ValueSet/coverage-type
-
+Alias: $coverage-type-vs = https://nzhts.digital.health.nz/fhir/ValueSet/coverage-type-code
+Alias: $contact-point-purpose-vs = https://nzhts.digital.health.nz/fhir/ValueSet/contact-point-purpose-code
 
 //Aliases for CodeSystems
 Alias: $dhb-code-cs = https://standards.digital.health.nz/ns/dhb-code
@@ -45,9 +44,9 @@ Alias: $ethnicity-code-cs = https://standards.digital.health.nz/ns/ethnic-group-
 Alias: $condition-on-practice-cs = https://standards.digital.health.nz/ns/condition-on-practice-code
 Alias: $alias-type-cs = https://standards.digital.health.nz/ns/alias-type-code
 Alias: $pr-status-reason-cs = https://standards.digital.health.nz/ns/hpi-practitioner-role-status-reason-code
-
 Alias: $datum-code-cs = https://standards.digital.health.nz/ns/nz-datum-code
 
 Alias: $iwi-cs = https://standards.digital.health.nz/ns/iwi-code
 
-Alias: $coverage-type-cs = https://standards.digital.health.nz/ns/coverage-type
+Alias: $coverage-type-cs = https://standards.digital.health.nz/ns/coverage-type-code
+Alias: $contact-point-purpose-cs = https://standards.digital.health.nz/ns/contact-point-purpose-code

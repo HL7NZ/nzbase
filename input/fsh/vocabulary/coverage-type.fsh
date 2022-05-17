@@ -10,7 +10,7 @@ Description: "New Zealand codes for CoverageType types"
 
 CodeSystem: CoverageType
 Id: coverage-type
-Title: "NZ Iwi"
+Title: "Coverage type"
 Description: "New Zealand codes for CoverageType types"
 
 * ^url = $coverage-type-cs

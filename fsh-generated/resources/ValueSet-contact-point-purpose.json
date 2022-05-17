@@ -1,0 +1,27 @@
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "ContactPointPurpose",
+  "id": "contact-point-purpose",
+  "title": "ContactPoint purpose",
+  "description": "The purpose of a ContactPoint - what it is used for.",
+  "version": "1.1.0",
+  "url": "https://nzhts.digital.health.nz/fhir/ValueSet/contact-point-purpose-code",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "code": "NZ",
+          "system": "urn:iso:std:iso:3166"
+        }
+      ]
+    }
+  ],
+  "compose": {
+    "include": [
+      {
+        "system": "https://standards.digital.health.nz/ns/dhb-code"
+      }
+    ]
+  }
+}

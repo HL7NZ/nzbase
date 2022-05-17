@@ -316,6 +316,14 @@
       },
       {
         "reference": {
+          "reference": "ValueSet/contact-point-purpose"
+        },
+        "name": "ContactPoint purpose",
+        "description": "The purpose of a ContactPoint - what it is used for.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
           "reference": "ValueSet/coverage-type"
         },
         "name": "CoverageType type VS",
@@ -460,9 +468,17 @@
       },
       {
         "reference": {
+          "reference": "CodeSystem/contact-point-purpose"
+        },
+        "name": "ContactPoint purpose",
+        "description": "The purpose of a ContactPoint - what it is used for.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
           "reference": "CodeSystem/coverage-type"
         },
-        "name": "NZ Iwi",
+        "name": "Coverage type",
         "description": "New Zealand codes for CoverageType types",
         "exampleBoolean": false
       },

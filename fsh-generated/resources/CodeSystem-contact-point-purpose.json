@@ -1,0 +1,18 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "active",
+  "content": "complete",
+  "name": "ContactPointPurpose",
+  "id": "contact-point-purpose",
+  "title": "ContactPoint purpose",
+  "description": "The purpose of a ContactPoint - what it is used for.",
+  "version": "1.1.0",
+  "url": "https://standards.digital.health.nz/ns/contact-point-purpose-code",
+  "concept": [
+    {
+      "code": "rx-email",
+      "display": "Prescription email"
+    }
+  ],
+  "count": 1
+}

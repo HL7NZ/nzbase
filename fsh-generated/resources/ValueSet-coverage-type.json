@@ -6,11 +6,11 @@
   "title": "CoverageType type VS",
   "description": "New Zealand codes for CoverageType types",
   "version": "1.1.0",
-  "url": "https://nzhts.digital.health.nz/fhir/ValueSet/coverage-type",
+  "url": "https://nzhts.digital.health.nz/fhir/ValueSet/coverage-type-code",
   "compose": {
     "include": [
       {
-        "system": "https://standards.digital.health.nz/ns/coverage-type"
+        "system": "https://standards.digital.health.nz/ns/coverage-type-code"
       }
     ]
   }

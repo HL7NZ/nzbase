@@ -22,5 +22,5 @@ NZ Residency status. The words 'Residence class visa' is intentional.  It is the
 
 * extension[source] ^definition = "The source of information concerning the residency"
 * extension[source].value[x] only CodeableConcept
-* extension[source].valueCodeableConcept from $information-source-vs (required)
+* extension[source].valueCodeableConcept from $information-source-vs (preferred)
 

@@ -25,7 +25,7 @@ Description:    "Common NZ ContactPoint datatype"
 
 
 * system.extension contains
-    $cpEdi named cp-edi 0..1
+    $cpEdi named cp-edi 0..*
 
     
 * system.extension[cp-edi] ^short = "Represents an EDI contact"

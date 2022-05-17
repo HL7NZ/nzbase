@@ -4,10 +4,10 @@
   "content": "complete",
   "name": "CoverageType",
   "id": "coverage-type",
-  "title": "NZ Iwi",
+  "title": "Coverage type",
   "description": "New Zealand codes for CoverageType types",
   "version": "1.1.0",
-  "url": "https://standards.digital.health.nz/ns/coverage-type",
+  "url": "https://standards.digital.health.nz/ns/coverage-type-code",
   "concept": [
     {
       "code": "gms",
