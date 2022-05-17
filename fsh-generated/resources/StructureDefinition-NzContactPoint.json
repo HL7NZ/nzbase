@@ -463,7 +463,7 @@
         "isModifier": false,
         "isSummary": false,
         "binding": {
-          "strength": "required",
+          "strength": "preferred",
           "valueSet": "https://nzhts.digital.health.nz/fhir/ValueSet/contact-point-purpose-code"
         },
         "mapping": [

@@ -19,4 +19,4 @@ Description: "An example would be to indicate that this CP is an email address f
 * ^context[0].expression = "ContactPoint"
 
 * value[x] only CodeableConcept
-* valueCodeableConcept from $contact-point-purpose-vs
+* valueCodeableConcept from $contact-point-purpose-vs (preferred)
