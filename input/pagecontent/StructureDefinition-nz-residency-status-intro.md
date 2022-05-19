@@ -1,7 +1,12 @@
 
-The words “Residence class visa” is intentional.  It is the wording used in Section B3 (1) of the [Eligibility Direction](https://www.health.govt.nz/system/files/documents/pages/eligibility-direction-2011.pdf) “A person who holds a residence class visa is eligible to receive services funded under the Act”.
+NZ Residency status indicates that a person holds a New Zealand residence class visa.
+A residence class visa' includes both a resident visa and a permanent resident visa.
 
-“Residence class visa” includes both a Resident visa and a Permanent Resident visa.
+'Residence class visa' is the wording used in Section B3(1) of the 
+[Eligibility Direction](https://www.health.govt.nz/system/files/documents/pages/eligibility-direction-2011.pdf)
+
+A person who holds a residence class visa is eligible to receive services funded under the Act”.
+
 
 **Example of extension**
 
