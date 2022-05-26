@@ -52,5 +52,4 @@ Contains links to the main FHIR specification, as well downloads for the full IG
 This is a working page during development of the guide and will be removed when published. 
 
 
-
-
+If you would like to make any feedback on this Implementation Guide, email admin@hl7.org.nz

@@ -13,7 +13,9 @@ A residence class visa' includes both a resident visa and a permanent resident v
 A person who holds a residence class visa is eligible to receive services funded under the Act”.
 
 """
+
 */
+
 
 * ^url = "http://hl7.org.nz/fhir/StructureDefinition/nz-residency-status"
 * ^jurisdiction.coding = urn:iso:std:iso:3166#NZ

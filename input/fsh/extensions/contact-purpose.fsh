@@ -1,7 +1,7 @@
 Extension: Contactpoint_purpose
 Id: contactpoint-purpose
-Title: "A specific purpose for which this ContactPoint would be used"
-Description: "An example would be to indicate that this CP is an email address for sending prescriptions"
+Title: "A specific purpose for which this ContactPoint dataType would be used"
+Description: "An example would be to indicate that this ContactPoint is used for sending prescriptions"
 
 * ^url = "http://hl7.org.nz/fhir/StructureDefinition/contactpoint-purpose"
 

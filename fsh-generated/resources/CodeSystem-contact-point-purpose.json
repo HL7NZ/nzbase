@@ -12,7 +12,15 @@
     {
       "code": "rx-email",
       "display": "Prescription email"
+    },
+    {
+      "code": "vc",
+      "display": "Video Conference"
+    },
+    {
+      "code": "wf",
+      "display": "Web forum"
     }
   ],
-  "count": 1
+  "count": 3
 }

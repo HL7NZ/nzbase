@@ -1,3 +1,4 @@
+*** Definition
 
 NZ Residency status indicates that a person holds a New Zealand residence class visa.
 A residence class visa' includes both a resident visa and a permanent resident visa.

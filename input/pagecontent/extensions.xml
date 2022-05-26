@@ -52,7 +52,7 @@
 <td>
 <div>ContactPoint</div>
 </td>
-<td><p>An example would be to indicate that this CP is an email address for sending prescriptions</p></td>
+<td><p>An example would be to indicate that this ContactPoint is used for sending prescriptions</p></td>
 <td></td>
 <td>draft</td>
 </tr>

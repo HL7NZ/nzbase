@@ -16,3 +16,5 @@ Description: "The purpose of a ContactPoint - what it is used for."
 
 * ^url = $contact-point-purpose-cs
 * #rx-email "Prescription email"
+* #vc "Video Conference"
+* #wf "Web forum"

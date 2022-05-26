@@ -4,7 +4,7 @@
   "url": "http://hl7.org.nz/fhir/StructureDefinition/contactpoint-purpose",
   "version": "1.0",
   "name": "Contactpoint_purpose",
-  "title": "A specific purpose for which this ContactPoint would be used",
+  "title": "A specific purpose for which this ContactPoint dataType would be used",
   "status": "draft",
   "date": "2020-07-20",
   "publisher": "HL7 New Zealand",
@@ -19,7 +19,7 @@
       ]
     }
   ],
-  "description": "An example would be to indicate that this CP is an email address for sending prescriptions",
+  "description": "An example would be to indicate that this ContactPoint is used for sending prescriptions",
   "jurisdiction": [
     {
       "coding": [
@@ -55,8 +55,8 @@
       {
         "id": "Extension",
         "path": "Extension",
-        "short": "A specific purpose for which this ContactPoint would be used",
-        "definition": "An example would be to indicate that this CP is an email address for sending prescriptions"
+        "short": "A specific purpose for which this ContactPoint dataType would be used",
+        "definition": "An example would be to indicate that this ContactPoint is used for sending prescriptions"
       },
       {
         "id": "Extension.extension",
