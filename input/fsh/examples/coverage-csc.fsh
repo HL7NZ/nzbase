@@ -1,7 +1,7 @@
 // Community Services Card as Coverage resource example
 
 Instance:   CoverageCSC
-InstanceOf: Coverage
+InstanceOf: NzCoverage
 Description: "CSC Coverage example"
  
 * text.div = "<div xmlns='http://www.w3.org/1999/xhtml'>Community Services Card for Raewyn Joseph<br />NHI ZZZ0032<br />CSC number 12345689<br /></div>"
@@ -14,7 +14,7 @@ Description: "CSC Coverage example"
 * status = #active
 
 * type.coding.system = "https://standards.digital.health.nz/ns/entitlement-type-code"
-* type.coding.code = #CSC
+* type.coding.code = #csc
 * type.coding.display = "Community Services Card"
 
 * beneficiary = Reference(patient-dhb)

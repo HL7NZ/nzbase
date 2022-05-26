@@ -13,5 +13,6 @@ Description:    "Coverage resource for use in NZ"
 * ^text.div = "<div xmlns='http://www.w3.org/1999/xhtml'>NZ Patient profile</div>"
 
 * type from $coverage-type-vs (preferred)
+* class.type from $coverage-category-vs (extensible)
 
 //todo - decide if must support elements - aussies don't use it

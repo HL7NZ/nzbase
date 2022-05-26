@@ -17,3 +17,5 @@ Description: "New Zealand codes for CoverageType types"
 
 * #gms "General Medical Subsidy"
 * #acc "Accident Compensation Corporation"
+* #csc "Community Services Card"
+* #huhc "High User Health Card"

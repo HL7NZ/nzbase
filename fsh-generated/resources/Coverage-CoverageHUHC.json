@@ -1,6 +1,11 @@
 {
   "resourceType": "Coverage",
   "id": "CoverageHUHC",
+  "meta": {
+    "profile": [
+      "http://hl7.org.nz/fhir/StructureDefinition/NzCoverage"
+    ]
+  },
   "text": {
     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">High User Health Card for Raewyn Joseph<br/>NHI ZZZ0032<br/>HUHC number 12345689<br/></div>",
     "status": "additional"
@@ -17,7 +22,7 @@
     "coding": [
       {
         "system": "https://standards.digital.health.nz/ns/entitlement-type-code",
-        "code": "HUHC",
+        "code": "huhc",
         "display": "High user health card"
       }
     ]

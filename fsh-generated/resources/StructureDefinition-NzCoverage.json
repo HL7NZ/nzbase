@@ -77,7 +77,15 @@
         "path": "Coverage.type",
         "binding": {
           "strength": "preferred",
-          "valueSet": "https://nzhts.digital.health.nz/fhir/ValueSet/coverage-type-code"
+          "valueSet": "https://nzhts.digital.health.nz/fhir/ValueSet/entitlement-type-code"
+        }
+      },
+      {
+        "id": "Coverage.class.type",
+        "path": "Coverage.class.type",
+        "binding": {
+          "strength": "extensible",
+          "valueSet": "https://nzhts.digital.health.nz/fhir/ValueSet/coverage-category-code"
         }
       }
     ]

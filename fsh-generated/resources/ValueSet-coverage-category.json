@@ -1,0 +1,17 @@
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "CoverageCategory",
+  "id": "coverage-category",
+  "title": "Coverage Category VS",
+  "description": "New Zealand codes for Coverage category types",
+  "version": "1.1.0",
+  "url": "https://nzhts.digital.health.nz/fhir/ValueSet/entitlement-type-code",
+  "compose": {
+    "include": [
+      {
+        "system": "https://standards.digital.health.nz/ns/coverage-category-code"
+      }
+    ]
+  }
+}

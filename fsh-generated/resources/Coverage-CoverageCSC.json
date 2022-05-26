@@ -1,6 +1,11 @@
 {
   "resourceType": "Coverage",
   "id": "CoverageCSC",
+  "meta": {
+    "profile": [
+      "http://hl7.org.nz/fhir/StructureDefinition/NzCoverage"
+    ]
+  },
   "text": {
     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Community Services Card for Raewyn Joseph<br/>NHI ZZZ0032<br/>CSC number 12345689<br/></div>",
     "status": "additional"
@@ -17,7 +22,7 @@
     "coding": [
       {
         "system": "https://standards.digital.health.nz/ns/entitlement-type-code",
-        "code": "CSC",
+        "code": "csc",
         "display": "Community Services Card"
       }
     ]

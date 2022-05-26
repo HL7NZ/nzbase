@@ -1,7 +1,7 @@
 // High User Health Card as Coverage resource example
 
 Instance:   CoverageHUHC
-InstanceOf: Coverage
+InstanceOf: NzCoverage
 Description: "HUHC Coverage example"
  
 * text.div = "<div xmlns='http://www.w3.org/1999/xhtml'>High User Health Card for Raewyn Joseph<br />NHI ZZZ0032<br />HUHC number 12345689<br /></div>"
@@ -14,7 +14,7 @@ Description: "HUHC Coverage example"
 * status = #active
 
 * type.coding.system = "https://standards.digital.health.nz/ns/entitlement-type-code"
-* type.coding.code = #HUHC
+* type.coding.code = #huhc
 * type.coding.display = "High user health card"
 
 * subscriber = Reference(patient-dhb)

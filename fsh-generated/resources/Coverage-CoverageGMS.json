@@ -1,6 +1,11 @@
 {
   "resourceType": "Coverage",
   "id": "CoverageGMS",
+  "meta": {
+    "profile": [
+      "http://hl7.org.nz/fhir/StructureDefinition/NzCoverage"
+    ]
+  },
   "text": {
     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">GMS Entitlement for Raewyn Joseph<br/>NHI ZZZ0032<br/></div>",
     "status": "additional"
@@ -10,7 +15,7 @@
     "coding": [
       {
         "system": "https://standards.digital.health.nz/ns/entitlement-type-code",
-        "code": "GMS",
+        "code": "gms",
         "display": "General Medical Subsidy"
       }
     ]
@@ -34,8 +39,8 @@
       "type": {
         "coding": [
           {
-            "system": "https://nzhts.digital.health.nz/fhir/ValueSet/GMS-category-codes",
-            "code": "Under6",
+            "system": "https://standards.digital.health.nz/ns/coverage-category-code",
+            "code": "under6",
             "display": "A child under 6 years of age"
           }
         ]

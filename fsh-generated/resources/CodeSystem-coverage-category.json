@@ -1,0 +1,18 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "active",
+  "content": "complete",
+  "name": "CoverageCategory",
+  "id": "coverage-category",
+  "title": "Coverage category",
+  "description": "New Zealand codes for Coverage category types",
+  "version": "1.1.0",
+  "url": "https://standards.digital.health.nz/ns/coverage-category-code",
+  "concept": [
+    {
+      "code": "under6",
+      "display": "A child under 6 years of age"
+    }
+  ],
+  "count": 1
+}

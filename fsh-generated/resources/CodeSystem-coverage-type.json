@@ -7,7 +7,7 @@
   "title": "Coverage type",
   "description": "New Zealand codes for CoverageType types",
   "version": "1.1.0",
-  "url": "https://standards.digital.health.nz/ns/coverage-type-code",
+  "url": "https://standards.digital.health.nz/ns/entitlement-type-code",
   "concept": [
     {
       "code": "gms",
@@ -16,7 +16,15 @@
     {
       "code": "acc",
       "display": "Accident Compensation Corporation"
+    },
+    {
+      "code": "csc",
+      "display": "Community Services Card"
+    },
+    {
+      "code": "huhc",
+      "display": "High User Health Card"
     }
   ],
-  "count": 2
+  "count": 4
 }
