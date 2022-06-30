@@ -4,7 +4,7 @@
   "url": "http://hl7.org.nz/fhir/StructureDefinition/nz-residency-status",
   "version": "1.1.0",
   "name": "NZResidencyStatus",
-  "status": "draft",
+  "status": "active",
   "description": "NZ Residency status",
   "jurisdiction": [
     {

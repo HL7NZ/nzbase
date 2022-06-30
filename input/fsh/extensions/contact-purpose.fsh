@@ -1,12 +1,12 @@
 Extension: Contactpoint_purpose
 Id: contactpoint-purpose
 Title: "A specific purpose for which this ContactPoint dataType would be used"
-Description: "An example would be to indicate that this ContactPoint is used for sending prescriptions"
+Description: "A specific purpose for which this ContactPoint dataType would be used. An example would be to indicate that this ContactPoint is used for video conferencing."
 
 * ^url = "http://hl7.org.nz/fhir/StructureDefinition/contactpoint-purpose"
 
 * ^version = "1.0"
-* ^status = #draft
+* ^status = #active
 * ^date = "2020-07-20"
 * ^publisher = "HL7 New Zealand"
 * ^contact[0].telecom[0].system = #email

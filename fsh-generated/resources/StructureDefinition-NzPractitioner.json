@@ -1,0 +1,240 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "NzPractitioner",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-category",
+      "valueString": "Base.Individuals"
+    },
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-security-category",
+      "valueCode": "individual"
+    }
+  ],
+  "url": "http://hl7.org.nz/fhir/StructureDefinition/Practitioner",
+  "version": "1.1.0",
+  "name": "NzPractitioner",
+  "title": "Practitioner resource for use in NZ",
+  "status": "draft",
+  "description": "Practitioner resource for use in NZ",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "code": "NZ",
+          "system": "urn:iso:std:iso:3166"
+        }
+      ]
+    }
+  ],
+  "fhirVersion": "4.0.1",
+  "mapping": [
+    {
+      "identity": "v2",
+      "uri": "http://hl7.org/v2",
+      "name": "HL7 v2 Mapping"
+    },
+    {
+      "identity": "rim",
+      "uri": "http://hl7.org/v3",
+      "name": "RIM Mapping"
+    },
+    {
+      "identity": "servd",
+      "uri": "http://www.omg.org/spec/ServD/1.0/",
+      "name": "ServD"
+    },
+    {
+      "identity": "w5",
+      "uri": "http://hl7.org/fhir/fivews",
+      "name": "FiveWs Pattern Mapping"
+    }
+  ],
+  "kind": "resource",
+  "abstract": false,
+  "type": "Practitioner",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Practitioner",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Practitioner.extension",
+        "path": "Practitioner.extension",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "value",
+              "path": "url"
+            }
+          ],
+          "ordered": false,
+          "rules": "open"
+        }
+      },
+      {
+        "id": "Practitioner.extension:death-data",
+        "path": "Practitioner.extension",
+        "sliceName": "death-data",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://hl7.org.nz/fhir/StructureDefinition/death-date"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Practitioner.extension:educational-qualification",
+        "path": "Practitioner.extension",
+        "sliceName": "educational-qualification",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://hl7.org.nz/fhir/StructureDefinition/educational-qualification"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Practitioner.extension:ethnicity",
+        "path": "Practitioner.extension",
+        "sliceName": "ethnicity",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://hl7.org.nz/fhir/StructureDefinition/nz-ethnicity"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Practitioner.extension:iwi",
+        "path": "Practitioner.extension",
+        "sliceName": "iwi",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://hl7.org.nz/fhir/StructureDefinition/nz-iwi"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Practitioner.qualification.extension",
+        "path": "Practitioner.qualification.extension",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "value",
+              "path": "url"
+            }
+          ],
+          "ordered": false,
+          "rules": "open"
+        }
+      },
+      {
+        "id": "Practitioner.qualification.extension:additional-authorisation",
+        "path": "Practitioner.qualification.extension",
+        "sliceName": "additional-authorisation",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://hl7.org.nz/fhir/StructureDefinition/additional-authorisation"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Practitioner.qualification.extension:condition-on-practice",
+        "path": "Practitioner.qualification.extension",
+        "sliceName": "condition-on-practice",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://hl7.org.nz/fhir/StructureDefinition/condition-on-practice"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Practitioner.qualification.extension:educational-qualification",
+        "path": "Practitioner.qualification.extension",
+        "sliceName": "educational-qualification",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://hl7.org.nz/fhir/StructureDefinition/educational-qualification"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Practitioner.qualification.extension:registration-initial-date",
+        "path": "Practitioner.qualification.extension",
+        "sliceName": "registration-initial-date",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://hl7.org.nz/fhir/StructureDefinition/registration-initial-date"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Practitioner.qualification.extension:registration-status-code",
+        "path": "Practitioner.qualification.extension",
+        "sliceName": "registration-status-code",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://hl7.org.nz/fhir/StructureDefinition/registration-status-code"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Practitioner.qualification.extension:scope-of-practice",
+        "path": "Practitioner.qualification.extension",
+        "sliceName": "scope-of-practice",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://hl7.org.nz/fhir/StructureDefinition/scope-of-practice"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

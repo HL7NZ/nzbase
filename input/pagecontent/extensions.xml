@@ -46,15 +46,15 @@
 <td></td>
 <td>active</td>
 </tr>
-<tr>
+<tr style='background-color:#FFCCCC'>
 <td><a href='StructureDefinition-contactpoint-purpose.html'>contactpoint-purpose</a></td>
 <td>http://hl7.org.nz/fhir/StructureDefinition/contactpoint-purpose</td>
 <td>
 <div>ContactPoint</div>
 </td>
-<td><p>An example would be to indicate that this ContactPoint is used for sending prescriptions</p></td>
+<td><p>A specific purpose for which this ContactPoint dataType would be used. An example would be to indicate that this ContactPoint is used for video conferencing.</p></td>
 <td></td>
-<td>draft</td>
+<td>active</td>
 </tr>
 <tr style='background-color:#FFCCCC'>
 <td><a href='StructureDefinition-death-date.html'>death-date</a></td>
@@ -199,7 +199,7 @@
 <td></td>
 <td>active</td>
 </tr>
-<tr>
+<tr style='background-color:#FFCCCC'>
 <td><a href='StructureDefinition-nz-residency-status.html'>nz-residency-status</a></td>
 <td>http://hl7.org.nz/fhir/StructureDefinition/nz-residency-status</td>
 <td>
@@ -207,7 +207,7 @@
 </td>
 <td><p>NZ Residency status</p></td>
 <td></td>
-<td>draft</td>
+<td>active</td>
 </tr>
 <tr style='background-color:#FFCCCC'>
 <td><a href='StructureDefinition-nzeps-long-term-medication.html'>nzeps-long-term-medication</a></td>

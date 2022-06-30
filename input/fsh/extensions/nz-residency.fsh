@@ -19,7 +19,7 @@ A person who holds a residence class visa is eligible to receive services funded
 
 * ^url = "http://hl7.org.nz/fhir/StructureDefinition/nz-residency-status"
 * ^jurisdiction.coding = urn:iso:std:iso:3166#NZ
-* ^status = #draft
+* ^status = #active
 * ^context.type = #element
 * ^context.expression = "Patient"
 

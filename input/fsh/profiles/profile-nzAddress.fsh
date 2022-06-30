@@ -22,6 +22,8 @@ Description:    "Adds building name, suburb, domicile code and geocode to the Ad
 //* district 0..0
 //* state 0..0
 
+//* status = #active
+
 //Needs to be a different geocode as uses a different datum
 * extension contains
     $nzGeocode named nz-geocode 0..1 and

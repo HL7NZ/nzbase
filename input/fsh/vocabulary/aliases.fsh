@@ -1,9 +1,44 @@
 
 //Aliases for extensions
 
+Alias: $dhb = http://hl7.org.nz/fhir/StructureDefinition/dhb
+Alias: $ethnicity = http://hl7.org.nz/fhir/StructureDefinition/nz-ethnicity
+Alias: $preferred = http://hl7.org/fhir/StructureDefinition/iso21090-preferred
+Alias: $information-source = http://hl7.org.nz/fhir/StructureDefinition/information-source
+Alias: $nzCitizen = http://hl7.org.nz/fhir/StructureDefinition/nz-citizenship
+Alias: $building-name = http://hl7.org.nz/fhir/StructureDefinition/building-name
+Alias: $domicile-code = http://hl7.org.nz/fhir/StructureDefinition/domicile-code
+Alias: $nz-geocode = http://hl7.org.nz/fhir/StructureDefinition/nz-geocode
+Alias: $pho = http://hl7.org.nz/fhir/StructureDefinition/pho
+Alias: $sex-at-birth = http://hl7.org.nz/fhir/StructureDefinition/sex-at-birth
+Alias: $suburb = http://hl7.org.nz/fhir/StructureDefinition/suburb
 
 
-//Aliases for ValueSets
+Alias: $alias-type = http://hl7.org.nz/fhir/StructureDefinition/alias-type
+Alias: $established = http://hl7.org.nz/fhir/StructureDefinition/established
+Alias: $funded-programme = http://hl7.org.nz/fhir/StructureDefinition/funded-programme
+Alias: $pho = http://hl7.org.nz/fhir/StructureDefinition/pho
+
+Alias: $additional-authorisation = http://hl7.org.nz/fhir/StructureDefinition/additional-authorisation
+Alias: $condition-on-practice = http://hl7.org.nz/fhir/StructureDefinition/condition-on-practice
+Alias: $death-date = http://hl7.org.nz/fhir/StructureDefinition/death-date
+Alias: $educational-qualification = http://hl7.org.nz/fhir/StructureDefinition/educational-qualification
+Alias: $iwi = http://hl7.org.nz/fhir/StructureDefinition/nz-iwi
+Alias: $registration-status-code = http://hl7.org.nz/fhir/StructureDefinition/registration-status-code
+Alias: $scope-of-practice = http://hl7.org.nz/fhir/StructureDefinition/scope-of-practice
+Alias: $registration-initial-date = http://hl7.org.nz/fhir/StructureDefinition/registration-initial-date
+Alias: $long-term-condition = http://hl7.org.nz/fhir/StructureDefinition/long-term-condition
+
+Alias: $nzeps-long-term-medication = http://hl7.org.nz/fhir/StructureDefinition/nzeps-long-term-medication
+Alias: $nzeps-supply-period-reason = http://hl7.org.nz/fhir/StructureDefinition/nzeps-supply-period-reason
+Alias: $nzeps-unusual-dose-quantity = http://hl7.org.nz/fhir/StructureDefinition/nzeps-unusual-dose-quantity
+
+
+Alias: $cpPurpose = http://hl7.org.nz/fhir/StructureDefinition/contactpoint-purpose
+Alias: $cpEdi = http://hl7.org.nz/fhir/StructureDefinition/edi-address
+
+
+//===============   Aliases for ValueSets  ===============
 Alias: $pho-code-vs = https://nzhts.digital.health.nz/fhir/ValueSet/pho-code
 Alias: $iso3166-1-2 = http://hl7.org/fhir/ValueSet/iso3166-1-2
 
@@ -37,7 +72,9 @@ Alias: $coverage-category-vs = https://nzhts.digital.health.nz/fhir/ValueSet/cov
 
 Alias: $contact-point-purpose-vs = https://nzhts.digital.health.nz/fhir/ValueSet/contact-point-purpose-code
 
-//Aliases for CodeSystems
+
+
+//================  Aliases for CodeSystems  ==============
 Alias: $dhb-code-cs = https://standards.digital.health.nz/ns/dhb-code
 Alias: $pho-code-cs = https://standards.digital.health.nz/ns/pho-code
 Alias: $domicile-code-cs = https://standards.digital.health.nz/ns/domicile-code

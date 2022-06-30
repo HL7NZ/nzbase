@@ -1,0 +1,126 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "NzMedicationRequest",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-category",
+      "valueString": "Clinical.Medications"
+    },
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-security-category",
+      "valueCode": "patient"
+    }
+  ],
+  "url": "http://hl7.org.nz/fhir/StructureDefinition/MedicationRequest",
+  "version": "1.1.0",
+  "name": "NzMedicationRequest",
+  "title": "MedicationRequest resource for use in NZ",
+  "status": "draft",
+  "description": "MedicationRequest resource for use in NZ",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "code": "NZ",
+          "system": "urn:iso:std:iso:3166"
+        }
+      ]
+    }
+  ],
+  "fhirVersion": "4.0.1",
+  "mapping": [
+    {
+      "identity": "workflow",
+      "uri": "http://hl7.org/fhir/workflow",
+      "name": "Workflow Pattern"
+    },
+    {
+      "identity": "script10.6",
+      "uri": "http://ncpdp.org/SCRIPT10_6",
+      "name": "Mapping to NCPDP SCRIPT 10.6"
+    },
+    {
+      "identity": "rim",
+      "uri": "http://hl7.org/v3",
+      "name": "RIM Mapping"
+    },
+    {
+      "identity": "w5",
+      "uri": "http://hl7.org/fhir/fivews",
+      "name": "FiveWs Pattern Mapping"
+    },
+    {
+      "identity": "v2",
+      "uri": "http://hl7.org/v2",
+      "name": "HL7 v2 Mapping"
+    }
+  ],
+  "kind": "resource",
+  "abstract": false,
+  "type": "MedicationRequest",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/MedicationRequest",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "MedicationRequest.extension",
+        "path": "MedicationRequest.extension",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "value",
+              "path": "url"
+            }
+          ],
+          "ordered": false,
+          "rules": "open"
+        }
+      },
+      {
+        "id": "MedicationRequest.extension:nzeps-long-term-medication",
+        "path": "MedicationRequest.extension",
+        "sliceName": "nzeps-long-term-medication",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://hl7.org.nz/fhir/StructureDefinition/nzeps-long-term-medication"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "MedicationRequest.extension:nzeps-supply-period-reason",
+        "path": "MedicationRequest.extension",
+        "sliceName": "nzeps-supply-period-reason",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://hl7.org.nz/fhir/StructureDefinition/nzeps-supply-period-reason"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "MedicationRequest.extension:nzeps-unusual-dose-quantity",
+        "path": "MedicationRequest.extension",
+        "sliceName": "nzeps-unusual-dose-quantity",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://hl7.org.nz/fhir/StructureDefinition/nzeps-unusual-dose-quantity"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

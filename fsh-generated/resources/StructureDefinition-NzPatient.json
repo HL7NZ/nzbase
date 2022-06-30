@@ -173,6 +173,21 @@
         ]
       },
       {
+        "id": "Patient.extension:iwi",
+        "path": "Patient.extension",
+        "sliceName": "iwi",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://hl7.org.nz/fhir/StructureDefinition/nz-iwi"
+            ]
+          }
+        ]
+      },
+      {
         "id": "Patient.identifier",
         "path": "Patient.identifier",
         "slicing": {

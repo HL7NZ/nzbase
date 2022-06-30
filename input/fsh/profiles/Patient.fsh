@@ -1,5 +1,5 @@
 //Extension urls defined in this IG...
-
+/*
 Alias: $dhb = http://hl7.org.nz/fhir/StructureDefinition/dhb
 Alias: $ethnicity = http://hl7.org.nz/fhir/StructureDefinition/nz-ethnicity
 Alias: $preferred = http://hl7.org/fhir/StructureDefinition/iso21090-preferred
@@ -11,7 +11,7 @@ Alias: $nz-geocode = http://hl7.org.nz/fhir/StructureDefinition/nz-geocode
 Alias: $pho = http://hl7.org.nz/fhir/StructureDefinition/pho
 Alias: $sex-at-birth = http://hl7.org.nz/fhir/StructureDefinition/sex-at-birth
 Alias: $suburb = http://hl7.org.nz/fhir/StructureDefinition/suburb
-
+*/
 
 Profile:        NzPatient
 Parent:         Patient
@@ -38,7 +38,8 @@ Description:    "The base New Zealand Patient profile"
     $dhb named dhb 0..1 and 
     $domicile-code named domicile-code 0..1 and 
     $pho named pho 0..1 and 
-    $sex-at-birth named sex-at-birth 0..1
+    $sex-at-birth named sex-at-birth 0..1 and
+    $iwi named iwi 0..1
 
 * extension[nzCitizen] ^short = "Is this person a New Zealand citizen"
 

@@ -5,7 +5,7 @@
   "version": "1.0",
   "name": "Contactpoint_purpose",
   "title": "A specific purpose for which this ContactPoint dataType would be used",
-  "status": "draft",
+  "status": "active",
   "date": "2020-07-20",
   "publisher": "HL7 New Zealand",
   "contact": [
@@ -19,7 +19,7 @@
       ]
     }
   ],
-  "description": "An example would be to indicate that this ContactPoint is used for sending prescriptions",
+  "description": "A specific purpose for which this ContactPoint dataType would be used. An example would be to indicate that this ContactPoint is used for video conferencing.",
   "jurisdiction": [
     {
       "coding": [
@@ -56,7 +56,7 @@
         "id": "Extension",
         "path": "Extension",
         "short": "A specific purpose for which this ContactPoint dataType would be used",
-        "definition": "An example would be to indicate that this ContactPoint is used for sending prescriptions"
+        "definition": "A specific purpose for which this ContactPoint dataType would be used. An example would be to indicate that this ContactPoint is used for video conferencing."
       },
       {
         "id": "Extension.extension",

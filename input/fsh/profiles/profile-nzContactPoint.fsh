@@ -1,8 +1,4 @@
 
-
-Alias: $cpPurpose = http://hl7.org.nz/fhir/StructureDefinition/contactpoint-purpose
-Alias: $cpEdi = http://hl7.org.nz/fhir/StructureDefinition/edi-address
-
 Profile:        NzContactPoint
 Parent:         ContactPoint
 Id:             NzContactPoint

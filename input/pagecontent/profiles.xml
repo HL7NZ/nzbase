@@ -9,6 +9,11 @@
 <td><p>Adds building name, suburb, domicile code and geocode to the Address datatype</p></td>
 </tr>
 <tr>
+<td><a href='StructureDefinition-NzCondition.html'>NzCondition</a></td>
+<td>http://hl7.org.nz/fhir/StructureDefinition/Condition</td>
+<td><p>Condition resource for use in NZ</p></td>
+</tr>
+<tr>
 <td><a href='StructureDefinition-NzContactPoint.html'>NzContactPoint</a></td>
 <td>http://hl7.org.nz/fhir/StructureDefinition/NzContactpoint</td>
 <td><p>Common NZ ContactPoint datatype</p></td>
@@ -19,9 +24,39 @@
 <td><p>Coverage resource for use in NZ</p></td>
 </tr>
 <tr>
+<td><a href='StructureDefinition-NzHealthcareService.html'>NzHealthcareService</a></td>
+<td>http://hl7.org.nz/fhir/StructureDefinition/HealthcareService</td>
+<td><p>HealthcareService resource for use in NZ</p></td>
+</tr>
+<tr>
+<td><a href='StructureDefinition-NzLocation.html'>NzLocation</a></td>
+<td>http://hl7.org.nz/fhir/StructureDefinition/NzLocation</td>
+<td><p>Location resource for use in NZ</p></td>
+</tr>
+<tr>
+<td><a href='StructureDefinition-NzMedicationRequest.html'>NzMedicationRequest</a></td>
+<td>http://hl7.org.nz/fhir/StructureDefinition/MedicationRequest</td>
+<td><p>MedicationRequest resource for use in NZ</p></td>
+</tr>
+<tr>
+<td><a href='StructureDefinition-NzMedicationStatement.html'>NzMedicationStatement</a></td>
+<td>http://hl7.org.nz/fhir/StructureDefinition/MedicationStatement</td>
+<td><p>MedicationStatement resource for use in NZ</p></td>
+</tr>
+<tr>
+<td><a href='StructureDefinition-NzOrganization.html'>NzOrganization</a></td>
+<td>http://hl7.org.nz/fhir/StructureDefinition/Organization</td>
+<td><p>Organization resource for use in NZ</p></td>
+</tr>
+<tr>
 <td><a href='StructureDefinition-NzPatient.html'>NzPatient</a></td>
 <td>http://hl7.org.nz/fhir/StructureDefinition/NzPatient</td>
 <td><p>The base New Zealand Patient profile</p></td>
+</tr>
+<tr>
+<td><a href='StructureDefinition-NzPractitioner.html'>NzPractitioner</a></td>
+<td>http://hl7.org.nz/fhir/StructureDefinition/Practitioner</td>
+<td><p>Practitioner resource for use in NZ</p></td>
 </tr>
 </table>
 </div>

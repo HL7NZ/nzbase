@@ -1,0 +1,141 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "NzLocation",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-category",
+      "valueString": "Base.Entities"
+    },
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-security-category",
+      "valueCode": "business"
+    }
+  ],
+  "url": "http://hl7.org.nz/fhir/StructureDefinition/NzLocation",
+  "version": "1.1.0",
+  "name": "NzLocation",
+  "title": "Location resource for use in NZ",
+  "status": "draft",
+  "description": "Location resource for use in NZ",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "code": "NZ",
+          "system": "urn:iso:std:iso:3166"
+        }
+      ]
+    }
+  ],
+  "fhirVersion": "4.0.1",
+  "mapping": [
+    {
+      "identity": "rim",
+      "uri": "http://hl7.org/v3",
+      "name": "RIM Mapping"
+    },
+    {
+      "identity": "w5",
+      "uri": "http://hl7.org/fhir/fivews",
+      "name": "FiveWs Pattern Mapping"
+    }
+  ],
+  "kind": "resource",
+  "abstract": false,
+  "type": "Location",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Location",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Location.extension",
+        "path": "Location.extension",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "value",
+              "path": "url"
+            }
+          ],
+          "ordered": false,
+          "rules": "open"
+        }
+      },
+      {
+        "id": "Location.extension:alias-type",
+        "path": "Location.extension",
+        "sliceName": "alias-type",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://hl7.org.nz/fhir/StructureDefinition/alias-type"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Location.extension:dhb",
+        "path": "Location.extension",
+        "sliceName": "dhb",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://hl7.org.nz/fhir/StructureDefinition/dhb"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Location.extension:established",
+        "path": "Location.extension",
+        "sliceName": "established",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://hl7.org.nz/fhir/StructureDefinition/established"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Location.extension:funded-programme",
+        "path": "Location.extension",
+        "sliceName": "funded-programme",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://hl7.org.nz/fhir/StructureDefinition/funded-programme"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Location.extension:pho",
+        "path": "Location.extension",
+        "sliceName": "pho",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://hl7.org.nz/fhir/StructureDefinition/pho"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

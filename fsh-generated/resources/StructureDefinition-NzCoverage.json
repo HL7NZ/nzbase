@@ -7,8 +7,9 @@
   },
   "extension": [
     {
-      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-category",
-      "valueString": "Financial.Support"
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+      "valueString": "Financial.Support",
+      "valueCode": "trial-use"
     },
     {
       "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-security-category",

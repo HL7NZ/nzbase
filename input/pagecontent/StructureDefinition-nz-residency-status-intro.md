@@ -1,4 +1,3 @@
-*** Definition
 
 NZ Residency status indicates that a person holds a New Zealand residence class visa.
 A residence class visa' includes both a resident visa and a permanent resident visa.
@@ -6,7 +5,7 @@ A residence class visa' includes both a resident visa and a permanent resident v
 'Residence class visa' is the wording used in Section B3(1) of the 
 [Eligibility Direction](https://www.health.govt.nz/system/files/documents/pages/eligibility-direction-2011.pdf)
 
-A person who holds a residence class visa is eligible to receive services funded under the Act”.
+"A person who holds a residence class visa is eligible to receive services funded under the Act”.
 
 
 **Example of extension**
