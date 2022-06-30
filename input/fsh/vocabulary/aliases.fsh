@@ -37,6 +37,8 @@ Alias: $nzeps-unusual-dose-quantity = http://hl7.org.nz/fhir/StructureDefinition
 Alias: $cpPurpose = http://hl7.org.nz/fhir/StructureDefinition/contactpoint-purpose
 Alias: $cpEdi = http://hl7.org.nz/fhir/StructureDefinition/edi-address
 
+Alias: $practitionerRole-creator = http://hl7.org.nz/fhir/StructureDefinition/practitionerRole-creator
+Alias: $practitionerRole-status-reason = http://hl7.org.nz/fhir/StructureDefinition/practitionerRole-status-reason
 
 //===============   Aliases for ValueSets  ===============
 Alias: $pho-code-vs = https://nzhts.digital.health.nz/fhir/ValueSet/pho-code

@@ -3,7 +3,7 @@
   "id": "NzCoverage",
   "text": {
     "status": "additional",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">NZ Patient profile</div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">NZ Coverage profile</div>"
   },
   "extension": [
     {

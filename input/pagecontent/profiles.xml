@@ -58,5 +58,10 @@
 <td>http://hl7.org.nz/fhir/StructureDefinition/Practitioner</td>
 <td><p>Practitioner resource for use in NZ</p></td>
 </tr>
+<tr>
+<td><a href='StructureDefinition-NzPractitionerRole.html'>NzPractitionerRole</a></td>
+<td>http://hl7.org.nz/fhir/StructureDefinition/PractitionerRole</td>
+<td><p>PractitionerRole resource for use in NZ</p></td>
+</tr>
 </table>
 </div>

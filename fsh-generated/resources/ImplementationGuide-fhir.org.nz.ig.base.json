@@ -116,6 +116,14 @@
       },
       {
         "reference": {
+          "reference": "StructureDefinition/NzPractitionerRole"
+        },
+        "name": "PractitionerRole resource for use in NZ",
+        "description": "PractitionerRole resource for use in NZ",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
           "reference": "StructureDefinition/additional-authorisation"
         },
         "name": "AdditionalAuthorisation",
