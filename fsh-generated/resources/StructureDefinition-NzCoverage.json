@@ -19,9 +19,9 @@
   "url": "http://hl7.org.nz/fhir/StructureDefinition/NzCoverage",
   "version": "1.1.0",
   "name": "NzCoverage",
-  "title": "Coverage resource for use in NZ",
+  "title": "Coverage resource for use in NZ (Trial use)",
   "status": "draft",
-  "description": "Coverage resource for use in NZ",
+  "description": "Coverage resource for use in NZ (Trial use)",
   "jurisdiction": [
     {
       "coding": [
@@ -32,7 +32,7 @@
       ]
     }
   ],
-  "purpose": "Profile on Coverage for NZ use. Primarily changing the type valueset ",
+  "purpose": "Profile on Coverage for NZ use. Primaryqih-1.mp4\nash-4.mp4\nla-1.mp4ily changing the type valueset ",
   "fhirVersion": "4.0.1",
   "mapping": [
     {
@@ -75,6 +75,12 @@
     "element": [
       {
         "id": "Coverage.type",
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+            "valueCode": "trial-use"
+          }
+        ],
         "path": "Coverage.type",
         "binding": {
           "strength": "preferred",

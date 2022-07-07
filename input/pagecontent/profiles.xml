@@ -21,7 +21,7 @@
 <tr>
 <td><a href='StructureDefinition-NzCoverage.html'>NzCoverage</a></td>
 <td>http://hl7.org.nz/fhir/StructureDefinition/NzCoverage</td>
-<td><p>Coverage resource for use in NZ</p></td>
+<td><p>Coverage resource for use in NZ (Trial use)</p></td>
 </tr>
 <tr>
 <td><a href='StructureDefinition-NzHealthcareService.html'>NzHealthcareService</a></td>

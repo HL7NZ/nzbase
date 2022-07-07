@@ -54,8 +54,8 @@
         "reference": {
           "reference": "StructureDefinition/NzCoverage"
         },
-        "name": "Coverage resource for use in NZ",
-        "description": "Coverage resource for use in NZ",
+        "name": "Coverage resource for use in NZ (Trial use)",
+        "description": "Coverage resource for use in NZ (Trial use)",
         "exampleBoolean": false
       },
       {
