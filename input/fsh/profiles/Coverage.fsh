@@ -11,9 +11,7 @@ Description:    "Coverage resource for use in NZ (Trial use)"
 * ^extension[+].url = "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"
 * ^extension[=].valueCode = #trial-use
 
-* ^purpose = "Profile on Coverage for NZ use. Primaryqih-1.mp4
-ash-4.mp4
-la-1.mp4ily changing the type valueset "
+* ^purpose = "Profile on Coverage for NZ use. Primarily changing the type valueset "
 * ^text.status = #additional
 * ^text.div = "<div xmlns='http://www.w3.org/1999/xhtml'>NZ Coverage profile</div>"
 
