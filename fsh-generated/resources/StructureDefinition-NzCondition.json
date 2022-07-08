@@ -11,7 +11,7 @@
       "valueCode": "patient"
     }
   ],
-  "url": "http://hl7.org.nz/fhir/StructureDefinition/Condition",
+  "url": "http://hl7.org.nz/fhir/StructureDefinition/NzCondition",
   "version": "1.1.0",
   "name": "NzCondition",
   "title": "Condition resource for use in NZ",

@@ -11,7 +11,7 @@
       "valueCode": "individual"
     }
   ],
-  "url": "http://hl7.org.nz/fhir/StructureDefinition/PractitionerRole",
+  "url": "http://hl7.org.nz/fhir/StructureDefinition/NzPractitionerRole",
   "version": "1.1.0",
   "name": "NzPractitionerRole",
   "title": "PractitionerRole resource for use in NZ",

@@ -4,7 +4,7 @@ Id:             NzMedicationRequest
 Title:          "MedicationRequest resource for use in NZ"
 Description:    "MedicationRequest resource for use in NZ"
 
-* ^url = "http://hl7.org.nz/fhir/StructureDefinition/MedicationRequest"
+* ^url = "http://hl7.org.nz/fhir/StructureDefinition/NzMedicationRequest"
 * ^jurisdiction.coding = urn:iso:std:iso:3166#NZ
 * ^status = #draft
 

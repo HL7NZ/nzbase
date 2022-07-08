@@ -83,6 +83,7 @@
 <td>http://hl7.org.nz/fhir/StructureDefinition/domicile-code</td>
 <td>
 <div>Patient</div>
+<div>Address</div>
 </td>
 <td><p>NZ Domicile Code. Derived from a patient&#39;s primary physical, home address.</p></td>
 <td></td>

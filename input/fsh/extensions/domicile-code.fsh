@@ -14,8 +14,11 @@ Description: "NZ Domicile Code. Derived from a patient's primary physical, home 
 * ^jurisdiction[0] = urn:iso:std:iso:3166#NZ
 * ^copyright = "HL7 New Zealand© 2020+; Licensed Under Creative Commons No Rights Reserved."
 
-* ^context[0].type = #element
-* ^context[0].expression = "Patient"
+* ^context[+].type = #element
+* ^context[=].expression = "Patient"
+
+* ^context[+].type = #element
+* ^context[=].expression = "Address"
 
 * value[x] only CodeableConcept
 * valueCodeableConcept 0..1

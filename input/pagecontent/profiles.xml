@@ -10,7 +10,7 @@
 </tr>
 <tr>
 <td><a href='StructureDefinition-NzCondition.html'>NzCondition</a></td>
-<td>http://hl7.org.nz/fhir/StructureDefinition/Condition</td>
+<td>http://hl7.org.nz/fhir/StructureDefinition/NzCondition</td>
 <td><p>Condition resource for use in NZ</p></td>
 </tr>
 <tr>
@@ -25,7 +25,7 @@
 </tr>
 <tr>
 <td><a href='StructureDefinition-NzHealthcareService.html'>NzHealthcareService</a></td>
-<td>http://hl7.org.nz/fhir/StructureDefinition/HealthcareService</td>
+<td>http://hl7.org.nz/fhir/StructureDefinition/NzHealthcareService</td>
 <td><p>HealthcareService resource for use in NZ</p></td>
 </tr>
 <tr>
@@ -35,17 +35,17 @@
 </tr>
 <tr>
 <td><a href='StructureDefinition-NzMedicationRequest.html'>NzMedicationRequest</a></td>
-<td>http://hl7.org.nz/fhir/StructureDefinition/MedicationRequest</td>
+<td>http://hl7.org.nz/fhir/StructureDefinition/NzMedicationRequest</td>
 <td><p>MedicationRequest resource for use in NZ</p></td>
 </tr>
 <tr>
 <td><a href='StructureDefinition-NzMedicationStatement.html'>NzMedicationStatement</a></td>
-<td>http://hl7.org.nz/fhir/StructureDefinition/MedicationStatement</td>
+<td>http://hl7.org.nz/fhir/StructureDefinition/NzMedicationStatement</td>
 <td><p>MedicationStatement resource for use in NZ</p></td>
 </tr>
 <tr>
 <td><a href='StructureDefinition-NzOrganization.html'>NzOrganization</a></td>
-<td>http://hl7.org.nz/fhir/StructureDefinition/Organization</td>
+<td>http://hl7.org.nz/fhir/StructureDefinition/NzOrganization</td>
 <td><p>Organization resource for use in NZ</p></td>
 </tr>
 <tr>
@@ -55,12 +55,12 @@
 </tr>
 <tr>
 <td><a href='StructureDefinition-NzPractitioner.html'>NzPractitioner</a></td>
-<td>http://hl7.org.nz/fhir/StructureDefinition/Practitioner</td>
+<td>http://hl7.org.nz/fhir/StructureDefinition/NzPractitioner</td>
 <td><p>Practitioner resource for use in NZ</p></td>
 </tr>
 <tr>
 <td><a href='StructureDefinition-NzPractitionerRole.html'>NzPractitionerRole</a></td>
-<td>http://hl7.org.nz/fhir/StructureDefinition/PractitionerRole</td>
+<td>http://hl7.org.nz/fhir/StructureDefinition/NzPractitionerRole</td>
 <td><p>PractitionerRole resource for use in NZ</p></td>
 </tr>
 </table>

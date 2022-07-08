@@ -4,7 +4,7 @@ Id:             NzOrganization
 Title:          "Organization resource for use in NZ"
 Description:    "Organization resource for use in NZ"
 
-* ^url = "http://hl7.org.nz/fhir/StructureDefinition/Organization"
+* ^url = "http://hl7.org.nz/fhir/StructureDefinition/NzOrganization"
 * ^jurisdiction.coding = urn:iso:std:iso:3166#NZ
 * ^status = #draft
 

@@ -4,7 +4,7 @@ Id:             NzPractitioner
 Title:          "Practitioner resource for use in NZ"
 Description:    "Practitioner resource for use in NZ"
 
-* ^url = "http://hl7.org.nz/fhir/StructureDefinition/Practitioner"
+* ^url = "http://hl7.org.nz/fhir/StructureDefinition/NzPractitioner"
 * ^jurisdiction.coding = urn:iso:std:iso:3166#NZ
 * ^status = #draft
 

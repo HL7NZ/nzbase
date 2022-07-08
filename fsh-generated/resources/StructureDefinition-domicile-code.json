@@ -45,6 +45,10 @@
     {
       "type": "element",
       "expression": "Patient"
+    },
+    {
+      "type": "element",
+      "expression": "Address"
     }
   ],
   "type": "Extension",

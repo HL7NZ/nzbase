@@ -4,7 +4,7 @@ Id:             NzHealthcareService
 Title:          "HealthcareService resource for use in NZ"
 Description:    "HealthcareService resource for use in NZ"
 
-* ^url = "http://hl7.org.nz/fhir/StructureDefinition/HealthcareService"
+* ^url = "http://hl7.org.nz/fhir/StructureDefinition/NzHealthcareService"
 * ^jurisdiction.coding = urn:iso:std:iso:3166#NZ
 * ^status = #draft
 
