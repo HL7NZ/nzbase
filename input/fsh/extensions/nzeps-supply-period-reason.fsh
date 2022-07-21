@@ -18,7 +18,7 @@ Description: "The reason for a non-standard Supply Period."
 
 * ^purpose = "The reason for a non-standard supply period, e.g. the patient going abroad."
 * ^copyright = "HL7 New Zealand© 2020+; Licensed Under Creative Commons No Rights Reserved."
-* ^kind = #primitive-type
+//* ^kind = #primitive-type
 
 * ^context[0].type = #element
 * ^context[0].expression = "MedicationRequest"

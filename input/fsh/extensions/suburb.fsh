@@ -20,12 +20,13 @@ Description: "Suburb element of a NZ Address."
 * ^jurisdiction[0] = urn:iso:std:iso:3166#NZ
 * ^purpose = "Required as FHIR Base Address Type does not contain an element for Suburb (only District or State which, in population terms, are both broader than City - whereas Suburb is narrower)."
 * ^copyright = "HL7 New Zealand© 2020+; Licensed Under Creative Commons No Rights Reserved."
-* ^kind = #primitive-type
+//* ^kind = #primitive-type
 
 * ^context[0].type = #element
 * ^context[0].expression = "Address"
 
 * value[x] only string
+
 * value[x] ^label = "NZ Suburb"
 * value[x] ^short = "NZSuburb"
 * value[x] ^definition = "NZ Suburbs"

@@ -17,7 +17,7 @@ Description: "NZePS Unusual Dose Quantity Indicator"
 * ^jurisdiction[0] = urn:iso:std:iso:3166#NZ
 * ^purpose = "Indicates if an unusual dose quantity has been prescribed deliberately."
 * ^copyright = "HL7 New Zealand© 2020+; Licensed Under Creative Commons No Rights Reserved."
-* ^kind = #primitive-type
+//* ^kind = #primitive-type
 
 * ^context[0].type = #element
 * ^context[0].expression = "MedicationRequest"

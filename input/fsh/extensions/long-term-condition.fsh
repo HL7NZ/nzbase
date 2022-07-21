@@ -19,7 +19,7 @@ Description: "Long Term Condition Indicator. A long term condition can be  defin
 
 * ^purpose = "Long term condition indicator (see https://www.health.govt.nz/our-work/diseases-and-conditions/long-term-conditions)."
 * ^copyright = "HL7 New Zealand© 2020+; Licensed Under Creative Commons No Rights Reserved."
-* ^kind = #primitive-type
+//* ^kind = #primitive-type
 
 * ^context[0].type = #element
 * ^context[0].expression = "Condition"

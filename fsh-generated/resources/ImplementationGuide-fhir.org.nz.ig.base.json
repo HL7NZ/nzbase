@@ -236,6 +236,14 @@
       },
       {
         "reference": {
+          "reference": "StructureDefinition/messaging-address"
+        },
+        "name": "Messaging Address",
+        "description": "The address to where electronic communications might be sent. For historical reasons, there is an overlap with edi-address ",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
           "reference": "StructureDefinition/nz-residency-status"
         },
         "name": "NZResidencyStatus",

@@ -1,0 +1,110 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "messaging-address",
+  "url": "http://hl7.org.nz/fhir/StructureDefinition/messaging-address",
+  "version": "0.1.0",
+  "name": "Messaging_address",
+  "title": "Messaging Address",
+  "status": "draft",
+  "date": "2022-07-20",
+  "publisher": "HL7 New Zealand",
+  "description": "The address to where electronic communications might be sent. For historical reasons, there is an overlap with edi-address ",
+  "fhirVersion": "4.0.1",
+  "mapping": [
+    {
+      "identity": "rim",
+      "uri": "http://hl7.org/v3",
+      "name": "RIM Mapping"
+    }
+  ],
+  "kind": "complex-type",
+  "abstract": false,
+  "context": [
+    {
+      "type": "element",
+      "expression": "ContactPoint"
+    }
+  ],
+  "type": "Extension",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Extension",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Extension",
+        "path": "Extension",
+        "short": "Messaging Address",
+        "definition": "The address to where electronic communications might be sent. For historical reasons, there is an overlap with edi-address "
+      },
+      {
+        "id": "Extension.extension",
+        "path": "Extension.extension",
+        "min": 2
+      },
+      {
+        "id": "Extension.extension:provider",
+        "path": "Extension.extension",
+        "sliceName": "provider",
+        "definition": "The messaging provider",
+        "min": 1,
+        "max": "1"
+      },
+      {
+        "id": "Extension.extension:provider.extension",
+        "path": "Extension.extension.extension",
+        "max": "0"
+      },
+      {
+        "id": "Extension.extension:provider.url",
+        "path": "Extension.extension.url",
+        "fixedUri": "provider"
+      },
+      {
+        "id": "Extension.extension:provider.value[x]",
+        "path": "Extension.extension.value[x]",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "Extension.extension:value",
+        "path": "Extension.extension",
+        "sliceName": "value",
+        "definition": "The identifier supplied by the provider",
+        "min": 1,
+        "max": "1"
+      },
+      {
+        "id": "Extension.extension:value.extension",
+        "path": "Extension.extension.extension",
+        "max": "0"
+      },
+      {
+        "id": "Extension.extension:value.url",
+        "path": "Extension.extension.url",
+        "fixedUri": "value"
+      },
+      {
+        "id": "Extension.extension:value.value[x]",
+        "path": "Extension.extension.value[x]",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "Extension.url",
+        "path": "Extension.url",
+        "fixedUri": "http://hl7.org.nz/fhir/StructureDefinition/messaging-address"
+      },
+      {
+        "id": "Extension.value[x]",
+        "path": "Extension.value[x]",
+        "max": "0"
+      }
+    ]
+  }
+}

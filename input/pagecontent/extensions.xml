@@ -154,6 +154,16 @@
 <td><p>Long term condition indicator (see https://www.health.govt.nz/our-work/diseases-and-conditions/long-term-conditions).</p></td>
 <td>active</td>
 </tr>
+<tr>
+<td><a href='StructureDefinition-messaging-address.html'>messaging-address</a></td>
+<td>http://hl7.org.nz/fhir/StructureDefinition/messaging-address</td>
+<td>
+<div>ContactPoint</div>
+</td>
+<td><p>The address to where electronic communications might be sent. For historical reasons, there is an overlap with edi-address </p></td>
+<td></td>
+<td>draft</td>
+</tr>
 <tr style='background-color:#FFCCCC'>
 <td><a href='StructureDefinition-nz-citizenship.html'>nz-citizenship</a></td>
 <td>http://hl7.org.nz/fhir/StructureDefinition/nz-citizenship</td>

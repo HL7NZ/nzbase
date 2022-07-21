@@ -17,7 +17,7 @@ Description: "NZePS Long Term Medication Indicator"
 * ^jurisdiction[0] = urn:iso:std:iso:3166#NZ
 
 * ^copyright = "HL7 New Zealand© 2020+; Licensed Under Creative Commons No Rights Reserved."
-* ^kind = #primitive-type
+//* ^kind = #primitive-type
 * ^context[+].type = #element
 * ^context[=].expression = "MedicationRequest"
 

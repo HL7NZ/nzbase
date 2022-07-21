@@ -17,7 +17,9 @@ Description: "Represents an Electronic Data Interchange (EDI) address. It is int
 * ^jurisdiction[0] = urn:iso:std:iso:3166#NZ
 * ^copyright = "HL7 New Zealand© 2020+; Licensed Under Creative Commons No Rights Reserved."
 
-* ^context[0].type = #element
-* ^context[0].expression = "ContactPoint.system"
+* ^context[+].type = #element
+* ^context[=].expression = "ContactPoint.system"
+
+
 
 * value[x] only string
