@@ -1,6 +1,4 @@
 <div xmlns='http://www.w3.org/1999/xhtml'>
-<a name="internalExtensions"> </a>
-<br/><h3>Extensions defined in this guide</h3><br/><br/>
 <table width='100%' border='1' cellspacing='0' cellpadding='5px'>
 <tr><th>Id</th><th>Url</th><th>Context of Use</th><th>Description</th><th>Purpose</th>
 <th>Status</th>
@@ -333,10 +331,5 @@
 <td><p>Required as FHIR Base Address Type does not contain an element for Suburb (only District or State which, in population terms, are both broader than City - whereas Suburb is narrower).</p></td>
 <td>active</td>
 </tr>
-</table>
-<a name="externalExtensions"> </a>
-<h3>Extensions used but defined elsewhere</h3>
-<table width='100%' border='1' cellspacing='0' cellpadding='5px'>
-<tr><th>Path</th><th>Url</th><th>Description</th><th>IG where defined</th></tr>
 </table>
 </div>

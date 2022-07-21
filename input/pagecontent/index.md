@@ -17,7 +17,6 @@ Note that 'Must Support' does not mean the same as 'Required', as they may be ab
 
 The following tabs are available from the navbar at the top.
 
-
 ### Extensions
 
 This tab lists all the extensions defined in this guide, where an extension is an additional element that can be recorded in a resource. The extension definition describes the purpose of the extension, its name and [dataType/s](http://hl7.org/fhir/datatypes.html).
@@ -46,10 +45,5 @@ This is a tab automatically generated during the build of the Implementation Gui
 ### Support
 
 Contains links to the main FHIR specification, as well downloads for the full IG or the artifacts defined in the guide (Extension Definitions, ValueSets and CodeSystems.)
-
-### Terminology Audit.
-
-This is a working page during development of the guide and will be removed when published. 
-
 
 If you would like to make any feedback on this Implementation Guide, email admin@hl7.org.nz
