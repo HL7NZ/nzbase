@@ -29,6 +29,7 @@ The [FHIR spec](http://hl7.org/fhir/terminology-module.html) has much more detai
 <tr><td width='20%'>PractitionerRole status reason</td><td><p>The reason for the current status of PractitionerRole</p></td><td><a href='ValueSet-hpi-practitionerrole-status-reason.html'>https://nzhts.digital.health.nz/fhir/ValueSet/hpi-practitioner-role-status-reason-code</a></td></tr>
 <tr><td width='20%'>Registration Status of Practitioners</td><td><p>The code list represents the current practicing status of the Provider Person as per their registration with an RA.</p></td><td><a href='ValueSet-practitioner-registration-status-code.html'>https://nzhts.digital.health.nz/fhir/ValueSet/practitioner-registration-status-code</a></td></tr>
 <tr><td width='20%'>Scope of practice</td><td><p>A coded type for professional scope of practice.</p></td><td><a href='ValueSet-practitioner-scope-of-practice.html'>https://nzhts.digital.health.nz/fhir/ValueSet/practitioner-scope-of-practice-code</a></td></tr>
+<tr><td width='20%'>Valid use values for </td><td><p>Citizenship status</p></td><td><a href='ValueSet-nhi-use.html'>https://nzhts.digital.health.nz/fhir/ValueSet/nhi-use-code</a></td></tr>
 <tr><td width='20%'>domicileCode</td><td><p>Domicile Code</p></td><td><a href='ValueSet-domicile-code.html'>https://nzhts.digital.health.nz/fhir/ValueSet/domicile-code</a></td></tr>
 </table>
 <br/><br/>
@@ -45,7 +46,7 @@ The [FHIR spec](http://hl7.org/fhir/terminology-module.html) has much more detai
 <tr><td width='20%'>District Health Board Code</td><td><p>District Health Board code table.</p></td><td><a href='CodeSystem-Dhb-code.html'>https://standards.digital.health.nz/ns/dhb-code</a></td></tr>
 <tr><td width='20%'>Type of Alias</td><td><p>Used in Organization and Location to indicate what is the type of Alias</p></td><td><a href='CodeSystem-alias-type.html'>https://standards.digital.health.nz/ns/alias-type-code</a></td></tr>
 <tr><td width='20%'>NZ Citizenship status</td><td><p>Is this person a NZ Citizen</p></td><td><a href='CodeSystem-citizenship-status.html'>https://standards.digital.health.nz/ns/nz-citizenship-status-code</a></td></tr>
-<tr><td width='20%'>ContactPoint purpose</td><td><p>The purpose of a ContactPoint - what it is used for.</p></td><td><a href='CodeSystem-contact-point-purpose.html'>http://fhir.org.nz/ig/base/CodeSystem/contact-point-purpose</a></td></tr>
+<tr><td width='20%'>ContactPoint purpose</td><td><p>The purpose of a ContactPoint - what it is used for.</p></td><td><a href='CodeSystem-contact-point-purpose.html'>https://standards.digital.health.nz/ns/contact-point-purpose-code</a></td></tr>
 <tr><td width='20%'>Coverage category</td><td><p>New Zealand codes for Coverage category types</p></td><td><a href='CodeSystem-coverage-category.html'>https://standards.digital.health.nz/ns/coverage-category-code</a></td></tr>
 <tr><td width='20%'>Coverage type</td><td><p>New Zealand codes for CoverageType types</p></td><td><a href='CodeSystem-coverage-type.html'>https://standards.digital.health.nz/ns/entitlement-type-code</a></td></tr>
 <tr><td width='20%'>Datum codes</td><td><p>Possible datum codes</p></td><td><a href='CodeSystem-datum-code.html'>https://standards.digital.health.nz/ns/nz-datum-code</a></td></tr>

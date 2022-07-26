@@ -74,6 +74,7 @@ Alias: $coverage-category-vs = https://nzhts.digital.health.nz/fhir/ValueSet/cov
 
 Alias: $contact-point-purpose-vs = https://nzhts.digital.health.nz/fhir/ValueSet/contact-point-purpose-code
 
+Alias: $nhi-use-vs = https://nzhts.digital.health.nz/fhir/ValueSet/nhi-use-code
 
 
 //================  Aliases for CodeSystems  ==============
@@ -97,3 +98,5 @@ Alias: $coverage-type-cs = https://standards.digital.health.nz/ns/entitlement-ty
 Alias: $coverage-category-cs = https://standards.digital.health.nz/ns/coverage-category-code
 
 Alias: $contact-point-purpose-cs = https://standards.digital.health.nz/ns/contact-point-purpose-code
+
+// Alias: $nhi-use-cs = https://standards.digital.health.nz/ns/nhi-use-code

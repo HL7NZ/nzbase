@@ -7,7 +7,7 @@
   "title": "ContactPoint purpose",
   "description": "The purpose of a ContactPoint - what it is used for.",
   "version": "1.1.0",
-  "url": "http://fhir.org.nz/ig/base/CodeSystem/contact-point-purpose",
+  "url": "https://standards.digital.health.nz/ns/contact-point-purpose-code",
   "concept": [
     {
       "code": "rx",

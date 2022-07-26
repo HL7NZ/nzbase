@@ -1,0 +1,25 @@
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "NHIUse",
+  "id": "nhi-use",
+  "title": "Valid use values for ",
+  "description": "Citizenship status",
+  "version": "1.1.0",
+  "url": "https://nzhts.digital.health.nz/fhir/ValueSet/nhi-use-code",
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/identifier-use",
+        "concept": [
+          {
+            "code": "official"
+          },
+          {
+            "code": "old"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -46,34 +46,97 @@ Description:    "The base New Zealand Patient profile"
 
 //slicing for NHI
 
-* identifier ^slicing.discriminator.type = #value
+* identifier ^slicing.discriminator.type = #pattern
 * identifier ^slicing.discriminator.path = "system"
+* identifier ^slicing.rules = #openAtEnd
 
+* identifier contains 
+    NHI 0..2 MS          //allow an active and a dormant (or 2 active / dormant for that matter)
+
+* identifier[NHI].system = "https://standards.digital.health.nz/ns/nhi-id" (exactly)
+
+
+* identifier[NHI].use from $nhi-use-vs
+
+/*/
+//now reslice the nhi
+
+* identifier[NHI] ^slicing.discriminator.type = #pattern
+* identifier[NHI] ^slicing.discriminator.path = "use"
+* identifier[NHI] ^slicing.rules = #closed
+
+* identifier[NHI] contains active 0..1 and dormant 0..1
+
+* identifier[NHI][active].use = #official (exactly)
+* identifier[NHI][active].system =  "https://standards.digital.health.nz/ns/nhi-id" (exactly)
+
+* identifier[NHI][dormant].use = #old (exactly)
+* identifier[NHI][dormant].system =  "https://standards.digital.health.nz/ns/nhi-id" (exactly)
+
+*/
+
+//* identifier ^slicing.discriminator.type = #value
+//* identifier ^slicing.discriminator.path = "use"
+/*
 * identifier ^slicing.description = "Add NHI as a defined identifier type"
 * identifier ^slicing.rules = #openAtEnd
 
 * identifier contains 
-    NHI 0..1 MS 
+    activeNHI 0..1 MS  and
+    dormantNHI 0..1
 
-* identifier[NHI].system = "https://standards.digital.health.nz/ns/nhi-id" (exactly)
-* identifier[NHI].use = #official (exactly)
-* identifier[NHI].use ^short = "fixed to 'official'"
+* identifier[activeNHI].system = "https://standards.digital.health.nz/ns/nhi-id" (exactly)
+* identifier[activeNHI].use = #official (exactly)
 
-* identifier[NHI] ^short = "The currently active NHI"
-* identifier[NHI] ^definition = "The NHI number is a unique number for all New Zealanders, assigned at birth"
+* identifier[dormantNHI].system = "https://standards.digital.health.nz/ns/nhi-id" (exactly)
+* identifier[dormantNHI].use = #old (exactly)
+*/
+//* identifier[NHI].use ^short = "fixed to 'official'"
 
-//-------- end of identifier slicing --------
+//* identifier[NHI] ^short = "The currently active NHI"
+//* identifier[NHI] ^definition = "The NHI number is a unique number for all New Zealanders, assigned at birth"
 
-/* this is NHI stuff I think
-* name.extension contains
-    $information-source named information-source 0..1
+/*
+//reslice for active dormant - https://chat.fhir.org/#narrow/stream/215610-shorthand/topic/Reslicing
 
-* birthDate.extension contains 
-    $information-source named information-source 0..1
+* identifier[NHI] ^slicing.discriminator.type = #pattern
+* identifier[NHI] ^slicing.discriminator.path = "use"
+* identifier[NHI] ^slicing.rules = #closed
+
+* identifier[NHI] contains active 0..1 and dormant 0..1
+
+* identifier[NHI][active].use = #official (exactly)
+* identifier[NHI][active].system =  "https://standards.digital.health.nz/ns/nhi-id" (exactly)
+
+* identifier[NHI][dormant].use = #old (exactly)
+* identifier[NHI][dormant].system =  "https://standards.digital.health.nz/ns/nhi-id" (exactly)
+
+*/
 
 
-* address.extension contains
-    $building-name named building-name 0..1 and 
-    $nz-geocode named ne-geocode 0..1 and 
-    $suburb named suburb 0..1
+ValueSet : NHIUse
+Id: nhi-use
+Title: "Valid use values for "
+Description:  "Citizenship status"
+
+* ^url = $nhi-use-vs
+
+* http://hl7.org/fhir/identifier-use#official
+* http://hl7.org/fhir/identifier-use#old
+
+//* codes from system $nhi-use-cs
+
+/*
+
+CodeSystem:  Nhi-use
+Id: nhi-use
+Title: "NZ Citizenship status"
+Description:  "Is this person a NZ Citizen"
+
+* ^url = $nhi-use-cs
+
+* #yes "Yes" "This patient is a citizen."
+* #no "No" "This patient is not a citizen."
+* #unknown "The citizenship status is unknown"
+
 */

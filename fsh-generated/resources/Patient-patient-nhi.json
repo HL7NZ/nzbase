@@ -1,0 +1,32 @@
+{
+  "resourceType": "Patient",
+  "id": "patient-nhi",
+  "meta": {
+    "profile": [
+      "http://hl7.org.nz/fhir/StructureDefinition/NzPatient"
+    ]
+  },
+  "name": [
+    {
+      "family": "Doe",
+      "given": [
+        "John"
+      ],
+      "text": "John Doe"
+    }
+  ],
+  "birthDate": "1998-01-01",
+  "gender": "male",
+  "identifier": [
+    {
+      "system": "https://standards.digital.health.nz/ns/nhi-id",
+      "use": "official",
+      "value": "activeIdent"
+    },
+    {
+      "system": "https://standards.digital.health.nz/ns/nhi-id",
+      "use": "old",
+      "value": "temp"
+    }
+  ]
+}

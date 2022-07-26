@@ -193,11 +193,10 @@
         "slicing": {
           "discriminator": [
             {
-              "type": "value",
+              "type": "pattern",
               "path": "system"
             }
           ],
-          "description": "Add NHI as a defined identifier type",
           "rules": "openAtEnd"
         }
       },
@@ -205,17 +204,17 @@
         "id": "Patient.identifier:NHI",
         "path": "Patient.identifier",
         "sliceName": "NHI",
-        "short": "The currently active NHI",
-        "definition": "The NHI number is a unique number for all New Zealanders, assigned at birth",
         "min": 0,
-        "max": "1",
+        "max": "2",
         "mustSupport": true
       },
       {
         "id": "Patient.identifier:NHI.use",
         "path": "Patient.identifier.use",
-        "short": "fixed to 'official'",
-        "fixedCode": "official"
+        "binding": {
+          "strength": "required",
+          "valueSet": "https://nzhts.digital.health.nz/fhir/ValueSet/nhi-use-code"
+        }
       },
       {
         "id": "Patient.identifier:NHI.system",

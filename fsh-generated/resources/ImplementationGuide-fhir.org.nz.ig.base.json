@@ -476,6 +476,14 @@
       },
       {
         "reference": {
+          "reference": "ValueSet/nhi-use"
+        },
+        "name": "Valid use values for ",
+        "description": "Citizenship status",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
           "reference": "ValueSet/nz-residency-status"
         },
         "name": "NZ Residency status",
@@ -969,6 +977,14 @@
         "name": "patient-information-source",
         "description": "Example of information source",
         "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Patient/patient-nhi"
+        },
+        "name": "patient-nhi",
+        "description": "Example of PHO",
+        "exampleCanonical": "http://hl7.org.nz/fhir/StructureDefinition/NzPatient"
       },
       {
         "reference": {
