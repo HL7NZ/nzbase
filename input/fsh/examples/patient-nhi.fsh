@@ -21,6 +21,19 @@ Usage: #example
 * identifier[=].use = #old
 * identifier[=].value = "dormant"
 
+* identifier[+].system = "https://standards.digital.health.nz/ns/nhi-id"
+* identifier[=].use = #old
+* identifier[=].value = "dormant2"
+
+* identifier[+].system = "https://example.com/mysystem"
+* identifier[=].use = #official
+* identifier[=].value = "other system id"
+
+* identifier[+].system = "https://example.com/mysystem"
+* identifier[=].use = #temp
+* identifier[=].value = "other system id2"
+
+
 /*
 //this should fail... - and it does!
 * identifier[+].system = "https://standards.digital.health.nz/ns/nhi-id"

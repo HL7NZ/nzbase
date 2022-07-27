@@ -46,17 +46,32 @@ Description:    "The base New Zealand Patient profile"
 
 //slicing for NHI
 
-* identifier ^slicing.discriminator.type = #pattern
+* identifier ^slicing.discriminator.type = #value
 * identifier ^slicing.discriminator.path = "system"
-* identifier ^slicing.rules = #openAtEnd
+* identifier ^slicing.rules = #open
+
+* identifier ^slicing.discriminator[1].type = #value
+* identifier ^slicing.discriminator[1].path = "use"
 
 * identifier contains 
-    NHI 0..2 MS          //allow an active and a dormant (or 2 active / dormant for that matter)
-
+    NHI 0..1 MS   and    // allow no more than one  active NHIs
+    dormant 0..* MS      // allow many dormant NHIs
+// because it is an open slice, identifiers with other system identifiers and uses are also allowed
+    
 * identifier[NHI].system = "https://standards.digital.health.nz/ns/nhi-id" (exactly)
+* identifier[NHI].use = #offical (exactly)
+* identifier[NHI].use ^short = "fixed to official"
+* identifier[NHI] ^short = "The currently active NHI "
+* identifier[NHI] ^definition = "The NHI number is a unique number for all New Zealanders, assigned at birth"
 
 
-* identifier[NHI].use from $nhi-use-vs
+* identifier[dormant].system = "https://standards.digital.health.nz/ns/nhi-id" (exactly)
+* identifier[dormant].use = #old (exactly)
+* identifier[dormant].use ^short = "fixed to old"
+* identifier[dormant] ^short = "NHI identifiers that have been deprecated for this Person"
+* identifier[dormant] ^definition = "An NHI of the person that is no longer in use.   An NHI becomes dormant when it is discovered that 2 NHIs exist for the same person. The NHIs are linked, one becomes ‘live’ the other ‘dormant’."
+
+
 
 /*/
 //now reslice the nhi
