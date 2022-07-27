@@ -45,12 +45,14 @@ Description:    "The base New Zealand Patient profile"
 
 
 //slicing for NHI
-
-* identifier ^slicing.discriminator.type = #value
+//using the pattern rather than value as the discrimitator type to allow other components
+//of an identifier to be included (eg period or type) which other users of identifier may wish to use.
+//'value' is very restrictive in what it allows - eg using period / type would cause it to fail validation... 
+* identifier ^slicing.discriminator.type = #pattern
 * identifier ^slicing.discriminator.path = "system"
 * identifier ^slicing.rules = #open
 
-* identifier ^slicing.discriminator[1].type = #value
+* identifier ^slicing.discriminator[1].type = #pattern
 * identifier ^slicing.discriminator[1].path = "use"
 
 * identifier contains 
