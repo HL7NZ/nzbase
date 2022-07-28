@@ -25,7 +25,17 @@
     },
     {
       "system": "https://standards.digital.health.nz/ns/nhi-id",
+      "use": "official",
+      "value": "another activeIdent"
+    },
+    {
+      "system": "https://standards.digital.health.nz/ns/nhi-id",
       "use": "old",
+      "value": "dormant"
+    },
+    {
+      "system": "https://standards.digital.health.nz/ns/nhi-id",
+      "use": "temp",
       "value": "dormant"
     },
     {
@@ -42,6 +52,11 @@
       "system": "https://example.com/mysystem",
       "use": "temp",
       "value": "other system id2"
+    },
+    {
+      "system": "https://standards.digital.health.nz/ns/nhi-id",
+      "use": "temp",
+      "value": "temp"
     }
   ]
 }

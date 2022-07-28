@@ -478,8 +478,8 @@
         "reference": {
           "reference": "ValueSet/nhi-use"
         },
-        "name": "Valid use values for ",
-        "description": "Citizenship status",
+        "name": "Valid use values for NHI",
+        "description": "NHI Use codes",
         "exampleBoolean": false
       },
       {
