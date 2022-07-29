@@ -980,6 +980,14 @@
       },
       {
         "reference": {
+          "reference": "Patient/patient-messaging-address"
+        },
+        "name": "patient-messaging-address",
+        "description": "Patient1",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
           "reference": "Patient/patient-nhi"
         },
         "name": "patient-nhi",

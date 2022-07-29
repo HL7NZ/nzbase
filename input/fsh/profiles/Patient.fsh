@@ -90,9 +90,9 @@ Description:    "The base New Zealand Patient profile"
 * identifier[NHI].system = "https://standards.digital.health.nz/ns/nhi-id" (exactly)
 * identifier[NHI].use from nhi-use
 
-* obeys nz-nhi
+* obeys nz-pat-1
 
-Invariant: nz-nhi
+Invariant: nz-pat-1
 Expression: "Patient.identifier.where(system='https://standards.digital.health.nz/ns/nhi-id' and use='official').count() < 2"
 Severity: #error
 Description: "only a single official NHI"
