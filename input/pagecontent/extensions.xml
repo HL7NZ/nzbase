@@ -5,7 +5,7 @@
 </tr>
 <tr style='background-color:#FFCCCC'>
 <td><a href='StructureDefinition-additional-authorisation.html'>additional-authorisation</a></td>
-<td><a href=http://hl7.org.nz/fhir/StructureDefinition/additional-authorisation>http://hl7.org.nz/fhir/StructureDefinition/additional-authorisation</a></td>
+<td><a href='http://hl7.org.nz/fhir/StructureDefinition/additional-authorisation'>http://hl7.org.nz/fhir/StructureDefinition/additional-authorisation</a></td>
 <td>
 <div>Practitioner.qualification</div>
 </td>
@@ -15,7 +15,7 @@
 </tr>
 <tr style='background-color:#FFCCCC'>
 <td><a href='StructureDefinition-alias-type.html'>alias-type</a></td>
-<td><a href=http://hl7.org.nz/fhir/StructureDefinition/alias-type>http://hl7.org.nz/fhir/StructureDefinition/alias-type</a></td>
+<td><a href='http://hl7.org.nz/fhir/StructureDefinition/alias-type'>http://hl7.org.nz/fhir/StructureDefinition/alias-type</a></td>
 <td>
 <div>Location.alias</div>
 <div>Organization.alias</div>
@@ -26,7 +26,7 @@
 </tr>
 <tr style='background-color:#FFCCCC'>
 <td><a href='StructureDefinition-building-name.html'>building-name</a></td>
-<td><a href=http://hl7.org.nz/fhir/StructureDefinition/building-name>http://hl7.org.nz/fhir/StructureDefinition/building-name</a></td>
+<td><a href='http://hl7.org.nz/fhir/StructureDefinition/building-name'>http://hl7.org.nz/fhir/StructureDefinition/building-name</a></td>
 <td>
 <div>Address</div>
 </td>
@@ -36,7 +36,7 @@
 </tr>
 <tr style='background-color:#FFCCCC'>
 <td><a href='StructureDefinition-condition-on-practice.html'>condition-on-practice</a></td>
-<td><a href=http://hl7.org.nz/fhir/StructureDefinition/condition-on-practice>http://hl7.org.nz/fhir/StructureDefinition/condition-on-practice</a></td>
+<td><a href='http://hl7.org.nz/fhir/StructureDefinition/condition-on-practice'>http://hl7.org.nz/fhir/StructureDefinition/condition-on-practice</a></td>
 <td>
 <div>Practitioner.qualification</div>
 </td>
@@ -46,7 +46,7 @@
 </tr>
 <tr style='background-color:#FFCCCC'>
 <td><a href='StructureDefinition-contactpoint-purpose.html'>contactpoint-purpose</a></td>
-<td><a href=http://hl7.org.nz/fhir/StructureDefinition/contactpoint-purpose>http://hl7.org.nz/fhir/StructureDefinition/contactpoint-purpose</a></td>
+<td><a href='http://hl7.org.nz/fhir/StructureDefinition/contactpoint-purpose'>http://hl7.org.nz/fhir/StructureDefinition/contactpoint-purpose</a></td>
 <td>
 <div>ContactPoint</div>
 </td>
@@ -56,7 +56,7 @@
 </tr>
 <tr style='background-color:#FFCCCC'>
 <td><a href='StructureDefinition-death-date.html'>death-date</a></td>
-<td><a href=http://hl7.org.nz/fhir/StructureDefinition/death-date>http://hl7.org.nz/fhir/StructureDefinition/death-date</a></td>
+<td><a href='http://hl7.org.nz/fhir/StructureDefinition/death-date'>http://hl7.org.nz/fhir/StructureDefinition/death-date</a></td>
 <td>
 <div>Practitioner</div>
 </td>
@@ -66,7 +66,7 @@
 </tr>
 <tr style='background-color:#FFCCCC'>
 <td><a href='StructureDefinition-dhb.html'>dhb</a></td>
-<td><a href=http://hl7.org.nz/fhir/StructureDefinition/dhb>http://hl7.org.nz/fhir/StructureDefinition/dhb</a></td>
+<td><a href='http://hl7.org.nz/fhir/StructureDefinition/dhb'>http://hl7.org.nz/fhir/StructureDefinition/dhb</a></td>
 <td>
 <div>HealthcareService</div>
 <div>Location</div>
@@ -78,7 +78,7 @@
 </tr>
 <tr style='background-color:#FFCCCC'>
 <td><a href='StructureDefinition-domicile-code.html'>domicile-code</a></td>
-<td><a href=http://hl7.org.nz/fhir/StructureDefinition/domicile-code>http://hl7.org.nz/fhir/StructureDefinition/domicile-code</a></td>
+<td><a href='http://hl7.org.nz/fhir/StructureDefinition/domicile-code'>http://hl7.org.nz/fhir/StructureDefinition/domicile-code</a></td>
 <td>
 <div>Patient</div>
 <div>Address</div>
@@ -89,7 +89,7 @@
 </tr>
 <tr style='background-color:#FFCCCC'>
 <td><a href='StructureDefinition-edi-address.html'>edi-address</a></td>
-<td><a href=http://hl7.org.nz/fhir/StructureDefinition/edi-address>http://hl7.org.nz/fhir/StructureDefinition/edi-address</a></td>
+<td><a href='http://hl7.org.nz/fhir/StructureDefinition/edi-address'>http://hl7.org.nz/fhir/StructureDefinition/edi-address</a></td>
 <td>
 <div>ContactPoint.system</div>
 </td>
@@ -99,7 +99,7 @@
 </tr>
 <tr style='background-color:#FFCCCC'>
 <td><a href='StructureDefinition-educational-qualification.html'>educational-qualification</a></td>
-<td><a href=http://hl7.org.nz/fhir/StructureDefinition/educational-qualification>http://hl7.org.nz/fhir/StructureDefinition/educational-qualification</a></td>
+<td><a href='http://hl7.org.nz/fhir/StructureDefinition/educational-qualification'>http://hl7.org.nz/fhir/StructureDefinition/educational-qualification</a></td>
 <td>
 <div>Practitioner.qualification</div>
 <div>Practitioner</div>
@@ -110,7 +110,7 @@
 </tr>
 <tr style='background-color:#FFCCCC'>
 <td><a href='StructureDefinition-established.html'>established</a></td>
-<td><a href=http://hl7.org.nz/fhir/StructureDefinition/established>http://hl7.org.nz/fhir/StructureDefinition/established</a></td>
+<td><a href='http://hl7.org.nz/fhir/StructureDefinition/established'>http://hl7.org.nz/fhir/StructureDefinition/established</a></td>
 <td>
 <div>Location</div>
 <div>Organization</div>
@@ -121,7 +121,7 @@
 </tr>
 <tr style='background-color:#FFCCCC'>
 <td><a href='StructureDefinition-funded-programme.html'>funded-programme</a></td>
-<td><a href=http://hl7.org.nz/fhir/StructureDefinition/funded-programme>http://hl7.org.nz/fhir/StructureDefinition/funded-programme</a></td>
+<td><a href='http://hl7.org.nz/fhir/StructureDefinition/funded-programme'>http://hl7.org.nz/fhir/StructureDefinition/funded-programme</a></td>
 <td>
 <div>Location</div>
 <div>Organization</div>
@@ -133,10 +133,11 @@
 </tr>
 <tr style='background-color:#FFCCCC'>
 <td><a href='StructureDefinition-information-source.html'>information-source</a></td>
-<td><a href=http://hl7.org.nz/fhir/StructureDefinition/information-source>http://hl7.org.nz/fhir/StructureDefinition/information-source</a></td>
+<td><a href='http://hl7.org.nz/fhir/StructureDefinition/information-source'>http://hl7.org.nz/fhir/StructureDefinition/information-source</a></td>
 <td>
 <div>Patient.name</div>
 <div>Patient.birthDate</div>
+<div>Patient.deceasedDateTime</div>
 </td>
 <td><p>The official source of information held about a patient.</p></td>
 <td></td>
@@ -144,7 +145,7 @@
 </tr>
 <tr style='background-color:#FFCCCC'>
 <td><a href='StructureDefinition-long-term-condition.html'>long-term-condition</a></td>
-<td><a href=http://hl7.org.nz/fhir/StructureDefinition/long-term-condition>http://hl7.org.nz/fhir/StructureDefinition/long-term-condition</a></td>
+<td><a href='http://hl7.org.nz/fhir/StructureDefinition/long-term-condition'>http://hl7.org.nz/fhir/StructureDefinition/long-term-condition</a></td>
 <td>
 <div>Condition</div>
 </td>
@@ -154,9 +155,9 @@
 </tr>
 <tr>
 <td><a href='StructureDefinition-messaging-address.html'>messaging-address</a></td>
-<td><a href=http://hl7.org.nz/fhir/StructureDefinition/messaging-address>http://hl7.org.nz/fhir/StructureDefinition/messaging-address</a></td>
+<td><a href='http://hl7.org.nz/fhir/StructureDefinition/messaging-address'>http://hl7.org.nz/fhir/StructureDefinition/messaging-address</a></td>
 <td>
-<div>ContactPoint</div>
+<div>Patient</div>
 </td>
 <td><p>The address to where electronic communications might be sent. For historical reasons, there is an overlap with edi-address </p></td>
 <td></td>
@@ -164,7 +165,7 @@
 </tr>
 <tr style='background-color:#FFCCCC'>
 <td><a href='StructureDefinition-nz-citizenship.html'>nz-citizenship</a></td>
-<td><a href=http://hl7.org.nz/fhir/StructureDefinition/nz-citizenship>http://hl7.org.nz/fhir/StructureDefinition/nz-citizenship</a></td>
+<td><a href='http://hl7.org.nz/fhir/StructureDefinition/nz-citizenship'>http://hl7.org.nz/fhir/StructureDefinition/nz-citizenship</a></td>
 <td>
 <div>Patient</div>
 </td>
@@ -174,7 +175,7 @@
 </tr>
 <tr style='background-color:#FFCCCC'>
 <td><a href='StructureDefinition-nz-ethnicity.html'>nz-ethnicity</a></td>
-<td><a href=http://hl7.org.nz/fhir/StructureDefinition/nz-ethnicity>http://hl7.org.nz/fhir/StructureDefinition/nz-ethnicity</a></td>
+<td><a href='http://hl7.org.nz/fhir/StructureDefinition/nz-ethnicity'>http://hl7.org.nz/fhir/StructureDefinition/nz-ethnicity</a></td>
 <td>
 <div>Patient</div>
 <div>Practitioner</div>
@@ -188,7 +189,7 @@
 </tr>
 <tr style='background-color:#FFCCCC'>
 <td><a href='StructureDefinition-nz-geocode.html'>nz-geocode</a></td>
-<td><a href=http://hl7.org.nz/fhir/StructureDefinition/nz-geocode>http://hl7.org.nz/fhir/StructureDefinition/nz-geocode</a></td>
+<td><a href='http://hl7.org.nz/fhir/StructureDefinition/nz-geocode'>http://hl7.org.nz/fhir/StructureDefinition/nz-geocode</a></td>
 <td>
 <div>Address</div>
 </td>
@@ -198,7 +199,7 @@
 </tr>
 <tr style='background-color:#FFCCCC'>
 <td><a href='StructureDefinition-nz-iwi.html'>nz-iwi</a></td>
-<td><a href=http://hl7.org.nz/fhir/StructureDefinition/nz-iwi>http://hl7.org.nz/fhir/StructureDefinition/nz-iwi</a></td>
+<td><a href='http://hl7.org.nz/fhir/StructureDefinition/nz-iwi'>http://hl7.org.nz/fhir/StructureDefinition/nz-iwi</a></td>
 <td>
 <div>Patient</div>
 <div>Practitioner</div>
@@ -210,7 +211,7 @@
 </tr>
 <tr style='background-color:#FFCCCC'>
 <td><a href='StructureDefinition-nz-residency-status.html'>nz-residency-status</a></td>
-<td><a href=http://hl7.org.nz/fhir/StructureDefinition/nz-residency-status>http://hl7.org.nz/fhir/StructureDefinition/nz-residency-status</a></td>
+<td><a href='http://hl7.org.nz/fhir/StructureDefinition/nz-residency-status'>http://hl7.org.nz/fhir/StructureDefinition/nz-residency-status</a></td>
 <td>
 <div>Patient</div>
 </td>
@@ -220,7 +221,7 @@
 </tr>
 <tr style='background-color:#FFCCCC'>
 <td><a href='StructureDefinition-nzeps-long-term-medication.html'>nzeps-long-term-medication</a></td>
-<td><a href=http://hl7.org.nz/fhir/StructureDefinition/nzeps-long-term-medication>http://hl7.org.nz/fhir/StructureDefinition/nzeps-long-term-medication</a></td>
+<td><a href='http://hl7.org.nz/fhir/StructureDefinition/nzeps-long-term-medication'>http://hl7.org.nz/fhir/StructureDefinition/nzeps-long-term-medication</a></td>
 <td>
 <div>MedicationRequest</div>
 <div>MedicationStatement</div>
@@ -231,7 +232,7 @@
 </tr>
 <tr style='background-color:#FFCCCC'>
 <td><a href='StructureDefinition-nzeps-supply-period-reason.html'>nzeps-supply-period-reason</a></td>
-<td><a href=http://hl7.org.nz/fhir/StructureDefinition/nzeps-supply-period-reason>http://hl7.org.nz/fhir/StructureDefinition/nzeps-supply-period-reason</a></td>
+<td><a href='http://hl7.org.nz/fhir/StructureDefinition/nzeps-supply-period-reason'>http://hl7.org.nz/fhir/StructureDefinition/nzeps-supply-period-reason</a></td>
 <td>
 <div>MedicationRequest</div>
 </td>
@@ -241,7 +242,7 @@
 </tr>
 <tr style='background-color:#FFCCCC'>
 <td><a href='StructureDefinition-nzeps-unusual-dose-quantity.html'>nzeps-unusual-dose-quantity</a></td>
-<td><a href=http://hl7.org.nz/fhir/StructureDefinition/nzeps-unusual-dose-quantity>http://hl7.org.nz/fhir/StructureDefinition/nzeps-unusual-dose-quantity</a></td>
+<td><a href='http://hl7.org.nz/fhir/StructureDefinition/nzeps-unusual-dose-quantity'>http://hl7.org.nz/fhir/StructureDefinition/nzeps-unusual-dose-quantity</a></td>
 <td>
 <div>MedicationRequest</div>
 </td>
@@ -251,7 +252,7 @@
 </tr>
 <tr style='background-color:#FFCCCC'>
 <td><a href='StructureDefinition-pho.html'>pho</a></td>
-<td><a href=http://hl7.org.nz/fhir/StructureDefinition/pho>http://hl7.org.nz/fhir/StructureDefinition/pho</a></td>
+<td><a href='http://hl7.org.nz/fhir/StructureDefinition/pho'>http://hl7.org.nz/fhir/StructureDefinition/pho</a></td>
 <td>
 <div>HealthcareService</div>
 <div>Location</div>
@@ -263,7 +264,7 @@
 </tr>
 <tr style='background-color:#FFCCCC'>
 <td><a href='StructureDefinition-practitionerRole-creator.html'>practitionerRole-creator</a></td>
-<td><a href=http://hl7.org.nz/fhir/StructureDefinition/practitionerRole-creator>http://hl7.org.nz/fhir/StructureDefinition/practitionerRole-creator</a></td>
+<td><a href='http://hl7.org.nz/fhir/StructureDefinition/practitionerRole-creator'>http://hl7.org.nz/fhir/StructureDefinition/practitionerRole-creator</a></td>
 <td>
 <div>PractitionerRole</div>
 </td>
@@ -273,7 +274,7 @@
 </tr>
 <tr style='background-color:#FFCCCC'>
 <td><a href='StructureDefinition-practitionerRole-status-reason.html'>practitionerRole-status-reason</a></td>
-<td><a href=http://hl7.org.nz/fhir/StructureDefinition/practitionerRole-status-reason>http://hl7.org.nz/fhir/StructureDefinition/practitionerRole-status-reason</a></td>
+<td><a href='http://hl7.org.nz/fhir/StructureDefinition/practitionerRole-status-reason'>http://hl7.org.nz/fhir/StructureDefinition/practitionerRole-status-reason</a></td>
 <td>
 <div>PractitionerRole</div>
 </td>
@@ -283,7 +284,7 @@
 </tr>
 <tr style='background-color:#FFCCCC'>
 <td><a href='StructureDefinition-registration-initial-date.html'>registration-initial-date</a></td>
-<td><a href=http://hl7.org.nz/fhir/StructureDefinition/registration-initial-date>http://hl7.org.nz/fhir/StructureDefinition/registration-initial-date</a></td>
+<td><a href='http://hl7.org.nz/fhir/StructureDefinition/registration-initial-date'>http://hl7.org.nz/fhir/StructureDefinition/registration-initial-date</a></td>
 <td>
 <div>Practitioner.qualification</div>
 </td>
@@ -293,7 +294,7 @@
 </tr>
 <tr style='background-color:#FFCCCC'>
 <td><a href='StructureDefinition-registration-status-code.html'>registration-status-code</a></td>
-<td><a href=http://hl7.org.nz/fhir/StructureDefinition/registration-status-code>http://hl7.org.nz/fhir/StructureDefinition/registration-status-code</a></td>
+<td><a href='http://hl7.org.nz/fhir/StructureDefinition/registration-status-code'>http://hl7.org.nz/fhir/StructureDefinition/registration-status-code</a></td>
 <td>
 <div>Practitioner.qualification</div>
 </td>
@@ -303,7 +304,7 @@
 </tr>
 <tr style='background-color:#FFCCCC'>
 <td><a href='StructureDefinition-scope-of-practice.html'>scope-of-practice</a></td>
-<td><a href=http://hl7.org.nz/fhir/StructureDefinition/scope-of-practice>http://hl7.org.nz/fhir/StructureDefinition/scope-of-practice</a></td>
+<td><a href='http://hl7.org.nz/fhir/StructureDefinition/scope-of-practice'>http://hl7.org.nz/fhir/StructureDefinition/scope-of-practice</a></td>
 <td>
 <div>Practitioner.qualification</div>
 </td>
@@ -313,7 +314,7 @@
 </tr>
 <tr style='background-color:#FFCCCC'>
 <td><a href='StructureDefinition-sex-at-birth.html'>sex-at-birth</a></td>
-<td><a href=http://hl7.org.nz/fhir/StructureDefinition/sex-at-birth>http://hl7.org.nz/fhir/StructureDefinition/sex-at-birth</a></td>
+<td><a href='http://hl7.org.nz/fhir/StructureDefinition/sex-at-birth'>http://hl7.org.nz/fhir/StructureDefinition/sex-at-birth</a></td>
 <td>
 <div>Patient</div>
 </td>
@@ -323,7 +324,7 @@
 </tr>
 <tr style='background-color:#FFCCCC'>
 <td><a href='StructureDefinition-suburb.html'>suburb</a></td>
-<td><a href=http://hl7.org.nz/fhir/StructureDefinition/suburb>http://hl7.org.nz/fhir/StructureDefinition/suburb</a></td>
+<td><a href='http://hl7.org.nz/fhir/StructureDefinition/suburb'>http://hl7.org.nz/fhir/StructureDefinition/suburb</a></td>
 <td>
 <div>Address</div>
 </td>

@@ -11,12 +11,12 @@
 <tr>
 <td><a href='StructureDefinition-NzCondition.html'>NzCondition</a></td>
 <td>http://hl7.org.nz/fhir/StructureDefinition/NzCondition</td>
-<td><p>Condition resource for use in NZ</p></td>
+<td><p>This profile adds the Long-Term Condition extension to the base Condition resource</p></td>
 </tr>
 <tr>
 <td><a href='StructureDefinition-NzContactPoint.html'>NzContactPoint</a></td>
 <td>http://hl7.org.nz/fhir/StructureDefinition/NzContactpoint</td>
-<td><p>Common NZ ContactPoint datatype</p></td>
+<td><p>This profile adds the Contact Point Purpose and EDI address extensions to the standard data type</p></td>
 </tr>
 <tr>
 <td><a href='StructureDefinition-NzCoverage.html'>NzCoverage</a></td>

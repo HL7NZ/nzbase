@@ -1,6 +1,6 @@
 Extension: Pho
 Id: pho
-Title: "Primary Healthcare Organisation linked to a NZ Healthcare Service, Location or Patient"
+Title: "Primary Healthcare Organisation"
 Description: "Primary Healthcare Organisation associated with a General Practice linked to a NZ Healthcare Service, Location (Facility) or Patient (GP)."
 * ^url = "http://hl7.org.nz/fhir/StructureDefinition/pho"
 

@@ -29,4 +29,4 @@ _Note that this is applied to the qualification element, not the resource root. 
 
 **Example instances**
 
-[Practitioner with initial date](Practitioner-practitioner-registration-status-code.html)
+[Practitioner with Scope of Practice](Practitioner-practitioner-registration-status-code.html)

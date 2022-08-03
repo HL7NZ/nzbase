@@ -3,7 +3,7 @@ Profile:        NzContactPoint
 Parent:         ContactPoint
 Id:             NzContactPoint
 Title:          "Common NZ ContactPoint datatype"
-Description:    "Common NZ ContactPoint datatype"
+Description:    "This profile adds the Contact Point Purpose and EDI address extensions to the standard data type"
 
 * ^jurisdiction.coding = urn:iso:std:iso:3166#NZ
 * ^url = "http://hl7.org.nz/fhir/StructureDefinition/NzContactpoint"

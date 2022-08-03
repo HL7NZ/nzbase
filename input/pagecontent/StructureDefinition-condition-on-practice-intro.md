@@ -27,4 +27,4 @@
 
 **Example instances**
 
-[Address with building name](Practitioner-practitioner-condition-on-practice.html)
+[Practitioner with Condition on practice](Practitioner-practitioner-condition-on-practice.html)

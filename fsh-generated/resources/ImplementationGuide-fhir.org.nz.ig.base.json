@@ -39,7 +39,7 @@
           "reference": "StructureDefinition/NzCondition"
         },
         "name": "Condition resource for use in NZ",
-        "description": "Condition resource for use in NZ",
+        "description": "This profile adds the Long-Term Condition extension to the base Condition resource",
         "exampleBoolean": false
       },
       {
@@ -47,7 +47,7 @@
           "reference": "StructureDefinition/NzContactPoint"
         },
         "name": "Common NZ ContactPoint datatype",
-        "description": "Common NZ ContactPoint datatype",
+        "description": "This profile adds the Contact Point Purpose and EDI address extensions to the standard data type",
         "exampleBoolean": false
       },
       {
@@ -310,7 +310,7 @@
         "reference": {
           "reference": "StructureDefinition/pho"
         },
-        "name": "Primary Healthcare Organisation linked to a NZ Healthcare Service, Location or Patient",
+        "name": "Primary Healthcare Organisation",
         "description": "Primary Healthcare Organisation associated with a General Practice linked to a NZ Healthcare Service, Location (Facility) or Patient (GP).",
         "exampleBoolean": false
       },

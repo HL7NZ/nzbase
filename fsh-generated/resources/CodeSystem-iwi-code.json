@@ -87,7 +87,11 @@
     },
     {
       "code": "0119",
-      "display": "Ngati Rehua"
+      "display": "Ngāti Rehua"
+    },
+    {
+      "code": "0120",
+      "display": "Ngāti Torehina ki Mata-ure ō Hau"
     },
     {
       "code": "02",
@@ -138,6 +142,10 @@
       "display": "Ngāti Whanaunga"
     },
     {
+      "code": "0213",
+      "display": "Ngāti Huarere"
+    },
+    {
       "code": "03",
       "display": "Waikato/Te Rohe Pōtae (Waikato/King Country) Region Iwi"
     },
@@ -184,6 +192,10 @@
     {
       "code": "0311",
       "display": "Te Ākitai-Waiohua"
+    },
+    {
+      "code": "0312",
+      "display": "Tainui Awhiro"
     },
     {
       "code": "04",
@@ -394,6 +406,10 @@
       "display": "Te Hika o Pāpāuma"
     },
     {
+      "code": "0717",
+      "display": "Ngāti Hinemanu (Heretaunga)"
+    },
+    {
       "code": "08",
       "display": "Taranaki Region Iwi"
     },
@@ -486,6 +502,10 @@
       "display": "Tamakana (Ruapehu, Waimarino)"
     },
     {
+      "code": "0912",
+      "display": "Ngāti Hinemanu (Rangitīkei)"
+    },
+    {
       "code": "10",
       "display": "Manawatū/Horowhenua/Te Whanganui-a-Tara (Manawatū/Horowhenua/Wellington) Region Iwi"
     },
@@ -527,7 +547,7 @@
     },
     {
       "code": "11",
-      "display": "Te Waipounamu/Wharekauri (South Island/Chatham Islands) Region Iwi"
+      "display": "Te Waipounamu (South Island) Region Iwi"
     },
     {
       "code": "1101",
@@ -546,14 +566,6 @@
       "display": "Kāti Māmoe"
     },
     {
-      "code": "1105",
-      "display": "Moriori"
-    },
-    {
-      "code": "1106",
-      "display": "Ngāti Mutunga (Wharekauri/Chatham Islands)"
-    },
-    {
       "code": "1107",
       "display": "Rangitāne (Te Waipounamu/South Island)"
     },
@@ -567,7 +579,7 @@
     },
     {
       "code": "1110",
-      "display": "Ngāti Tama (Te Waipounamu/South Island)"
+      "display": "Ngāti Tama ki Te Tauihu"
     },
     {
       "code": "1111",
@@ -580,6 +592,18 @@
     {
       "code": "1113",
       "display": "Ngāti Apa ki Te Rā Tō"
+    },
+    {
+      "code": "12",
+      "display": "Rēkohu/Wharekauri (Chatham Islands) Region Imi/Iwi"
+    },
+    {
+      "code": "1201",
+      "display": "Moriori"
+    },
+    {
+      "code": "1202",
+      "display": "Ngāti Mutunga (Wharekauri/Chatham Islands)"
     },
     {
       "code": "20",
@@ -714,6 +738,10 @@
       "display": "Ngāti Tūwharetoa, region not known"
     },
     {
+      "code": "2114",
+      "display": "Ngāti Hinemanu, region not known"
+    },
+    {
       "code": "22",
       "display": "Hapū affiliated to more than one iwi"
     },
@@ -767,7 +795,11 @@
     },
     {
       "code": "2311",
-      "display": "Te Waipounamu/Wharekauri Region, Iwi not named"
+      "display": "Te Waipounamu Region, Iwi not named"
+    },
+    {
+      "code": "2312",
+      "display": "Rēkohu/Wharekauri Region, Imi/Iwi not named"
     },
     {
       "code": "44",
@@ -828,5 +860,5 @@
   "valueSet": "https://nzhts.digital.health.nz/fhir/ValueSet/iwi-code",
   "compositional": false,
   "versionNeeded": false,
-  "count": 200
+  "count": 208
 }

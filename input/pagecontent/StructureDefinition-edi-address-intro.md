@@ -26,4 +26,4 @@ by HealthLink. The actual value of the EDI address (on telecom.value) is 001a
 
 **Example instances**
 
-[Patient with DHB](Practitioner-practitioner-edi-address.html)
+[Patient with EDI Address](Practitioner-practitioner-edi-address.html)

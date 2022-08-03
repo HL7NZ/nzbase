@@ -16,10 +16,6 @@ Usage: #example
 * identifier[=].use = #official
 * identifier[=].value = "activeIdent"
 
-//1
-* identifier[+].system = "https://standards.digital.health.nz/ns/nhi-id"
-* identifier[=].use = #official
-* identifier[=].value = "another activeIdent"
 
 //2
 * identifier[+].system = "https://standards.digital.health.nz/ns/nhi-id"
@@ -27,9 +23,7 @@ Usage: #example
 * identifier[=].value = "dormant"
 
 //3
-* identifier[+].system = "https://standards.digital.health.nz/ns/nhi-id"
-* identifier[=].use = #temp
-* identifier[=].value = "dormant"
+
 
 //4
 * identifier[+].system = "https://standards.digital.health.nz/ns/nhi-id"
@@ -47,11 +41,25 @@ Usage: #example
 * identifier[=].value = "other system id2"
 
 //7
+
+
+/*
+Fail ones
+
+//1
+* identifier[+].system = "https://standards.digital.health.nz/ns/nhi-id"
+* identifier[=].use = #official
+* identifier[=].value = "another activeIdent"
+
+* identifier[+].system = "https://standards.digital.health.nz/ns/nhi-id"
+* identifier[=].use = #temp
+* identifier[=].value = "dormant"
+
+
 * identifier[+].system = "https://standards.digital.health.nz/ns/nhi-id"
 * identifier[=].use = #temp
 * identifier[=].value = "temp"
 
-/*
 //this should fail ( >1 old)... - and it does!
 * identifier[+].system = "https://standards.digital.health.nz/ns/nhi-id"
 * identifier[=].use = #old

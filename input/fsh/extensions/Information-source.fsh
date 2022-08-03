@@ -23,6 +23,9 @@ Description: "The official source of information held about a patient."
 * ^context[+].type = #element
 * ^context[=].expression = "Patient.birthDate"
 
+* ^context[+].type = #element
+* ^context[=].expression = "Patient.deceasedDateTime"
+
 * value[x] only CodeableConcept
 * valueCodeableConcept 0..1
 * valueCodeableConcept from $information-source-vs (preferred)

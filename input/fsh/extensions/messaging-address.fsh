@@ -11,7 +11,7 @@ Description: "The address to where electronic communications might be sent. For 
 * ^publisher = "HL7 New Zealand"
 
 * ^context[+].type = #element
-* ^context[=].expression = "ContactPoint"
+* ^context[=].expression = "Patient"
 
 * extension contains
     provider 1..1 and
