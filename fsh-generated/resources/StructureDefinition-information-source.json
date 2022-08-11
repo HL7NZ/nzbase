@@ -52,7 +52,7 @@
     },
     {
       "type": "element",
-      "expression": "Patient.deceasedDateTime"
+      "expression": "Patient.deceased.ofType(dateTime)"
     }
   ],
   "type": "Extension",

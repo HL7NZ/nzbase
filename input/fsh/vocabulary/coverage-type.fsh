@@ -1,8 +1,8 @@
 
 ValueSet: CoverageType
 Id: coverage-type
-Title: "CoverageType type VS"
-Description: "New Zealand codes for CoverageType types"
+Title: "Coverage Type"
+Description: "New Zealand codes for Coverage Types"
 * ^url = $coverage-type-vs
 
 * codes from system $coverage-type-cs
@@ -11,7 +11,7 @@ Description: "New Zealand codes for CoverageType types"
 CodeSystem: CoverageType
 Id: coverage-type
 Title: "Coverage type"
-Description: "New Zealand codes for CoverageType types"
+Description: "New Zealand codes for Coverage Types"
 
 * ^url = $coverage-type-cs
 

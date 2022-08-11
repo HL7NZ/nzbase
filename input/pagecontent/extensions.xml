@@ -137,7 +137,7 @@
 <td>
 <div>Patient.name</div>
 <div>Patient.birthDate</div>
-<div>Patient.deceasedDateTime</div>
+<div>Patient.deceased.ofType(dateTime)</div>
 </td>
 <td><p>The official source of information held about a patient.</p></td>
 <td></td>
@@ -158,6 +158,10 @@
 <td><a href='http://hl7.org.nz/fhir/StructureDefinition/messaging-address'>http://hl7.org.nz/fhir/StructureDefinition/messaging-address</a></td>
 <td>
 <div>Patient</div>
+<div>Location</div>
+<div>Organization</div>
+<div>HealthcareService</div>
+<div>PractitionerRole</div>
 </td>
 <td><p>The address to where electronic communications might be sent. For historical reasons, there is an overlap with edi-address </p></td>
 <td></td>

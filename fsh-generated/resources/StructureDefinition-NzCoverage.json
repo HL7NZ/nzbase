@@ -16,7 +16,7 @@
     }
   ],
   "url": "http://hl7.org.nz/fhir/StructureDefinition/NzCoverage",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "name": "NzCoverage",
   "title": "Coverage resource for use in NZ (Trial use)",
   "status": "draft",
@@ -77,7 +77,7 @@
         "path": "Coverage.type",
         "binding": {
           "strength": "preferred",
-          "valueSet": "https://nzhts.digital.health.nz/fhir/ValueSet/entitlement-type-code"
+          "valueSet": "https://nzhts.digital.health.nz/fhir/ValueSet/coverage-type-code"
         }
       },
       {

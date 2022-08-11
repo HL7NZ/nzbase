@@ -68,10 +68,10 @@ Alias: $pr-status-reason-vs = https://nzhts.digital.health.nz/fhir/ValueSet/hpi-
 Alias: $datum-code-vs = https://nzhts.digital.health.nz/fhir/ValueSet/nz-datum-code
 
 Alias: $iwi-vs = https://nzhts.digital.health.nz/fhir/ValueSet/iwi-code
-Alias: $coverage-type-vs = https://nzhts.digital.health.nz/fhir/ValueSet/entitlement-type-code
 
+Alias: $coverage-type-vs = https://nzhts.digital.health.nz/fhir/ValueSet/coverage-type-code
 Alias: $coverage-category-vs = https://nzhts.digital.health.nz/fhir/ValueSet/coverage-category-code
-
+                             
 Alias: $contact-point-purpose-vs = https://nzhts.digital.health.nz/fhir/ValueSet/contact-point-purpose-code
 
 Alias: $nhi-use-vs = https://nzhts.digital.health.nz/fhir/ValueSet/nhi-use-code
@@ -93,7 +93,7 @@ Alias: $datum-code-cs = https://standards.digital.health.nz/ns/nz-datum-code
 
 Alias: $iwi-cs = https://standards.digital.health.nz/ns/iwi-code
 
-Alias: $coverage-type-cs = https://standards.digital.health.nz/ns/entitlement-type-code
+Alias: $coverage-type-cs = https://standards.digital.health.nz/ns/coverage-type-code
 
 Alias: $coverage-category-cs = https://standards.digital.health.nz/ns/coverage-category-code
 

@@ -1,7 +1,7 @@
 
 ValueSet: DomicileCode
 Id: domicile-code
-Title: "domicileCode"
+Title: "Domicile Code"
 Description: "Domicile Code"
 
 * ^url = $domicile-code-vs
@@ -10,7 +10,7 @@ Description: "Domicile Code"
 
 CodeSystem: DomicileCode
 Id: domicile-code
-Title: "domicileCode"
+Title: "Domicile Code"
 Description: "Domicile Code"
 
 * ^url = $domicile-code-cs

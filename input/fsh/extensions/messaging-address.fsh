@@ -13,6 +13,19 @@ Description: "The address to where electronic communications might be sent. For 
 * ^context[+].type = #element
 * ^context[=].expression = "Patient"
 
+* ^context[+].type = #element
+* ^context[=].expression = "Location"
+
+* ^context[+].type = #element
+* ^context[=].expression = "Organization"
+
+* ^context[+].type = #element
+* ^context[=].expression = "HealthcareService"
+
+* ^context[+].type = #element
+* ^context[=].expression = "PractitionerRole"
+
+
 * extension contains
     provider 1..1 and
     value 1..1 

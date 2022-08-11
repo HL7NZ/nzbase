@@ -16,7 +16,7 @@
     }
   ],
   "url": "http://hl7.org.nz/fhir/StructureDefinition/NzPatient",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "name": "NzPatient",
   "title": "NZ Patient",
   "status": "active",

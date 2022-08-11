@@ -12,11 +12,11 @@ Description: "New Zealand iwi codes"
 CodeSystem: Iwi_code
 Id: iwi-code
 Title: "NZ Iwi"
-Description: "NZ Iwi Statistical Standard: 29 September 2017"
+Description: "NZ Iwi Statistical Standard: 27 May 2022"
 * ^url = $iwi-cs //"https://standards.digital.health.nz/ns/iwi-code"
-* ^version = "1.0.0"
+* ^version = "2.0.0"
 * ^status = #active
-* ^experimental = true
+
 * ^date = "2022-05-10"
 * ^publisher = "Stats NZ"
 * ^contact.telecom.system = #email

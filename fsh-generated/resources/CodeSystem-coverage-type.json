@@ -5,9 +5,9 @@
   "name": "CoverageType",
   "id": "coverage-type",
   "title": "Coverage type",
-  "description": "New Zealand codes for CoverageType types",
-  "version": "1.1.0",
-  "url": "https://standards.digital.health.nz/ns/entitlement-type-code",
+  "description": "New Zealand codes for Coverage Types",
+  "version": "1.2.0",
+  "url": "https://standards.digital.health.nz/ns/coverage-type-code",
   "concept": [
     {
       "code": "gms",

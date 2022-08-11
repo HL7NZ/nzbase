@@ -4,9 +4,9 @@
   "content": "complete",
   "name": "DomicileCode",
   "id": "domicile-code",
-  "title": "domicileCode",
+  "title": "Domicile Code",
   "description": "Domicile Code",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "url": "https://standards.digital.health.nz/ns/domicile-code",
   "concept": [
     {

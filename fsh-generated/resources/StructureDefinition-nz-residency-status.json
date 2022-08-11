@@ -2,7 +2,7 @@
   "resourceType": "StructureDefinition",
   "id": "nz-residency-status",
   "url": "http://hl7.org.nz/fhir/StructureDefinition/nz-residency-status",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "name": "NZResidencyStatus",
   "status": "active",
   "description": "NZ Residency status",

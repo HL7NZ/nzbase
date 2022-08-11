@@ -2,7 +2,7 @@
   "resourceType": "ImplementationGuide",
   "id": "fhir.org.nz.ig.base",
   "url": "http://fhir.org.nz/ig/base/ImplementationGuide/fhir.org.nz.ig.base",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "name": "HL7FHIRNewZealandBaseImplementationGuide",
   "title": "HL7® FHIR® New Zealand Base Implementation Guide",
   "status": "active",
@@ -398,7 +398,7 @@
         "reference": {
           "reference": "ValueSet/coverage-category"
         },
-        "name": "Coverage Category VS",
+        "name": "Coverage Category",
         "description": "New Zealand codes for Coverage category types",
         "exampleBoolean": false
       },
@@ -406,8 +406,8 @@
         "reference": {
           "reference": "ValueSet/coverage-type"
         },
-        "name": "CoverageType type VS",
-        "description": "New Zealand codes for CoverageType types",
+        "name": "Coverage Type",
+        "description": "New Zealand codes for Coverage Types",
         "exampleBoolean": false
       },
       {
@@ -438,7 +438,7 @@
         "reference": {
           "reference": "ValueSet/domicile-code"
         },
-        "name": "domicileCode",
+        "name": "Domicile Code",
         "description": "Domicile Code",
         "exampleBoolean": false
       },
@@ -575,7 +575,7 @@
           "reference": "CodeSystem/coverage-type"
         },
         "name": "Coverage type",
-        "description": "New Zealand codes for CoverageType types",
+        "description": "New Zealand codes for Coverage Types",
         "exampleBoolean": false
       },
       {
@@ -590,7 +590,7 @@
         "reference": {
           "reference": "CodeSystem/domicile-code"
         },
-        "name": "domicileCode",
+        "name": "Domicile Code",
         "description": "Domicile Code",
         "exampleBoolean": false
       },
@@ -623,7 +623,7 @@
           "reference": "CodeSystem/iwi-code"
         },
         "name": "NZ Iwi",
-        "description": "NZ Iwi Statistical Standard: 29 September 2017",
+        "description": "NZ Iwi Statistical Standard: 27 May 2022",
         "exampleBoolean": false
       },
       {
@@ -956,6 +956,14 @@
       },
       {
         "reference": {
+          "reference": "Patient/patient-deceased-information-source"
+        },
+        "name": "patient-deceased-information-source",
+        "description": "Example of information source",
+        "exampleCanonical": "http://hl7.org.nz/fhir/StructureDefinition/NzPatient"
+      },
+      {
+        "reference": {
           "reference": "Patient/patient-dhb"
         },
         "name": "patient-dhb",
@@ -1155,6 +1163,11 @@
           "nameUrl": "profiles.html",
           "title": "Profiles",
           "generation": "html"
+        },
+        {
+          "nameUrl": "StructureDefinition-nzpatient-summary.html",
+          "title": "Structure Definition Nzpatient Summary",
+          "generation": "markdown"
         },
         {
           "nameUrl": "termaudit.html",

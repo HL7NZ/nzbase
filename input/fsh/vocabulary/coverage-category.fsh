@@ -1,9 +1,9 @@
 
 ValueSet: CoverageCategory
 Id: coverage-category
-Title: "Coverage Category VS"
+Title: "Coverage Category"
 Description: "New Zealand codes for Coverage category types"
-* ^url = $coverage-type-vs
+* ^url = $coverage-category-vs
 
 * codes from system $coverage-category-cs
 
