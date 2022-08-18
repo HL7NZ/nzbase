@@ -3,7 +3,7 @@
   "status": "active",
   "name": "AliasType",
   "id": "location-alias-type",
-  "title": "All the possible alias types",
+  "title": "Alias types",
   "description": "The complete set of alias types that apply to Locations and Organizations",
   "version": "1.2.0",
   "url": "https://nzhts.digital.health.nz/fhir/ValueSet/alias-type-code",

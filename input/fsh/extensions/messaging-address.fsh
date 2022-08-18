@@ -6,7 +6,7 @@ Description: "The address to where electronic communications might be sent. For 
 * ^url = "http://hl7.org.nz/fhir/StructureDefinition/messaging-address"
 
 * ^version = "0.1.0"
-* ^status = #draft
+* ^status = #active
 * ^date = "2022-07-20"
 * ^publisher = "HL7 New Zealand"
 

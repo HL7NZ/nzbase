@@ -1,7 +1,7 @@
 
 ValueSet: PractitionerAdditionalAuthorisationCode
 Id: practitioner-additional-authorisation-code
-Title: "Additional activities that a Practitioner is authorised to perform"
+Title: "Additional Practitioner authorisations"
 Description: "A coded type for additional authorisations"
 
 * ^url = "https://nzhts.digital.health.nz/fhir/ValueSet/practitioner-additional-authorisation-code"

@@ -9,18 +9,18 @@ Description:    "Practitioner resource for use in NZ"
 * ^status = #draft
 
 * extension contains
-    $death-date named death-data 0..1 and
-    $educational-qualification named educational-qualification 0..1 and
-    $ethnicity named ethnicity 0..1 and
+    $death-date named death-date 0..1 and
+    $educational-qualification named educational-qualification 0..* and
+    $ethnicity named ethnicity 0..6 and
     $iwi named iwi 0..1
 
 
 * qualification.extension contains
-    $additional-authorisation named additional-authorisation 0..1 and
-    $condition-on-practice named condition-on-practice 0..1 and
+    $additional-authorisation named additional-authorisation 0..* and
+    $condition-on-practice named condition-on-practice 0..* and
     $educational-qualification named educational-qualification 0..1 and
     $registration-initial-date named registration-initial-date 0..1 and
     $registration-status-code named registration-status-code 0..1 and
-    $scope-of-practice named scope-of-practice 0..1
+    $scope-of-practice named scope-of-practice 0..*
 
 

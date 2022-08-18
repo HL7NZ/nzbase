@@ -72,9 +72,9 @@
         }
       },
       {
-        "id": "Practitioner.extension:death-data",
+        "id": "Practitioner.extension:death-date",
         "path": "Practitioner.extension",
-        "sliceName": "death-data",
+        "sliceName": "death-date",
         "min": 0,
         "max": "1",
         "type": [
@@ -91,7 +91,7 @@
         "path": "Practitioner.extension",
         "sliceName": "educational-qualification",
         "min": 0,
-        "max": "1",
+        "max": "*",
         "type": [
           {
             "code": "Extension",
@@ -106,7 +106,7 @@
         "path": "Practitioner.extension",
         "sliceName": "ethnicity",
         "min": 0,
-        "max": "1",
+        "max": "6",
         "type": [
           {
             "code": "Extension",
@@ -150,7 +150,7 @@
         "path": "Practitioner.qualification.extension",
         "sliceName": "additional-authorisation",
         "min": 0,
-        "max": "1",
+        "max": "*",
         "type": [
           {
             "code": "Extension",
@@ -165,7 +165,7 @@
         "path": "Practitioner.qualification.extension",
         "sliceName": "condition-on-practice",
         "min": 0,
-        "max": "1",
+        "max": "*",
         "type": [
           {
             "code": "Extension",
@@ -225,7 +225,7 @@
         "path": "Practitioner.qualification.extension",
         "sliceName": "scope-of-practice",
         "min": 0,
-        "max": "1",
+        "max": "*",
         "type": [
           {
             "code": "Extension",

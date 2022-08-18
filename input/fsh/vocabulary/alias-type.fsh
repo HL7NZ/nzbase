@@ -19,7 +19,7 @@ Description:  "Used in Organization and Location to indicate what is the type of
 
 ValueSet : AliasType
 Id: location-alias-type
-Title: "All the possible alias types"
+Title: "Alias types"
 Description: "The complete set of alias types that apply to Locations and Organizations"
 
 * ^url = $alias-type-vs

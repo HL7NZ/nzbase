@@ -11,8 +11,8 @@ The [FHIR spec](http://hl7.org/fhir/terminology-module.html) has much more detai
 
 <table class='table table-bordered table-condensed'>
 <tr><th>ValueSet</th><th>Purpose</th><th>Canonical url</th></tr>
-<tr><td width='20%'>Additional activities that a Practitioner is authorised to perform</td><td><p>A coded type for additional authorisations</p></td><td><a href='ValueSet-practitioner-additional-authorisation-code.html'>https://nzhts.digital.health.nz/fhir/ValueSet/practitioner-additional-authorisation-code</a></td></tr>
-<tr><td width='20%'>All the possible alias types</td><td><p>The complete set of alias types that apply to Locations and Organizations</p></td><td><a href='ValueSet-location-alias-type.html'>https://nzhts.digital.health.nz/fhir/ValueSet/alias-type-code</a></td></tr>
+<tr><td width='20%'>Additional Practitioner authorisations</td><td><p>A coded type for additional authorisations</p></td><td><a href='ValueSet-practitioner-additional-authorisation-code.html'>https://nzhts.digital.health.nz/fhir/ValueSet/practitioner-additional-authorisation-code</a></td></tr>
+<tr><td width='20%'>Alias types</td><td><p>The complete set of alias types that apply to Locations and Organizations</p></td><td><a href='ValueSet-location-alias-type.html'>https://nzhts.digital.health.nz/fhir/ValueSet/alias-type-code</a></td></tr>
 <tr><td width='20%'>ContactPoint purpose</td><td><p>The purpose of a ContactPoint - what it is used for.</p></td><td><a href='ValueSet-contact-point-purpose.html'>https://nzhts.digital.health.nz/fhir/ValueSet/contact-point-purpose-code</a></td></tr>
 <tr><td width='20%'>Coverage Category</td><td><p>New Zealand codes for Coverage category types</p></td><td><a href='ValueSet-coverage-category.html'>https://nzhts.digital.health.nz/fhir/ValueSet/coverage-category-code</a></td></tr>
 <tr><td width='20%'>Coverage Type</td><td><p>New Zealand codes for Coverage Types</p></td><td><a href='ValueSet-coverage-type.html'>https://nzhts.digital.health.nz/fhir/ValueSet/coverage-type-code</a></td></tr>

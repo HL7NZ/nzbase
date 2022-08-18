@@ -374,7 +374,7 @@
         "reference": {
           "reference": "ValueSet/location-alias-type"
         },
-        "name": "All the possible alias types",
+        "name": "Alias types",
         "description": "The complete set of alias types that apply to Locations and Organizations",
         "exampleBoolean": false
       },
@@ -502,7 +502,7 @@
         "reference": {
           "reference": "ValueSet/practitioner-additional-authorisation-code"
         },
-        "name": "Additional activities that a Practitioner is authorised to perform",
+        "name": "Additional Practitioner authorisations",
         "description": "A coded type for additional authorisations",
         "exampleBoolean": false
       },
@@ -1128,6 +1128,14 @@
         },
         "name": "practitionerRole-creator",
         "description": "The creator of a practitioner role. Uses a contained resource.",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "PractitionerRole/practitionerRole-messaging-address"
+        },
+        "name": "practitionerRole-messaging-address",
+        "description": "Example of status reason",
         "exampleBoolean": true
       },
       {

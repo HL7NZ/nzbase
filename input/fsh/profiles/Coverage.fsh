@@ -16,7 +16,7 @@ Description:    "Coverage resource for use in NZ (Trial use)"
 * ^text.div = "<div xmlns='http://www.w3.org/1999/xhtml'>NZ Coverage profile</div>"
 
 //* type TU
-* type from $coverage-type-vs (preferred)
+* type from $coverage-type-vs (extensible)
 * class.type from $coverage-category-vs (extensible)
 
 //todo - decide if must support elements - aussies don't use it
