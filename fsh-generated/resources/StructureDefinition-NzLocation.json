@@ -62,21 +62,6 @@
         }
       },
       {
-        "id": "Location.extension:alias-type",
-        "path": "Location.extension",
-        "sliceName": "alias-type",
-        "min": 0,
-        "max": "1",
-        "type": [
-          {
-            "code": "Extension",
-            "profile": [
-              "http://hl7.org.nz/fhir/StructureDefinition/alias-type"
-            ]
-          }
-        ]
-      },
-      {
         "id": "Location.extension:dhb",
         "path": "Location.extension",
         "sliceName": "dhb",
@@ -132,6 +117,35 @@
             "code": "Extension",
             "profile": [
               "http://hl7.org.nz/fhir/StructureDefinition/pho"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Location.alias.extension",
+        "path": "Location.alias.extension",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "value",
+              "path": "url"
+            }
+          ],
+          "ordered": false,
+          "rules": "open"
+        }
+      },
+      {
+        "id": "Location.alias.extension:alias-type",
+        "path": "Location.alias.extension",
+        "sliceName": "alias-type",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://hl7.org.nz/fhir/StructureDefinition/alias-type"
             ]
           }
         ]

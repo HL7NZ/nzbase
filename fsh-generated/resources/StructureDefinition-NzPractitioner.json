@@ -106,7 +106,7 @@
         "path": "Practitioner.extension",
         "sliceName": "ethnicity",
         "min": 0,
-        "max": "6",
+        "max": "*",
         "type": [
           {
             "code": "Extension",
@@ -121,7 +121,7 @@
         "path": "Practitioner.extension",
         "sliceName": "iwi",
         "min": 0,
-        "max": "1",
+        "max": "*",
         "type": [
           {
             "code": "Extension",
@@ -171,21 +171,6 @@
             "code": "Extension",
             "profile": [
               "http://hl7.org.nz/fhir/StructureDefinition/condition-on-practice"
-            ]
-          }
-        ]
-      },
-      {
-        "id": "Practitioner.qualification.extension:educational-qualification",
-        "path": "Practitioner.qualification.extension",
-        "sliceName": "educational-qualification",
-        "min": 0,
-        "max": "1",
-        "type": [
-          {
-            "code": "Extension",
-            "profile": [
-              "http://hl7.org.nz/fhir/StructureDefinition/educational-qualification"
             ]
           }
         ]

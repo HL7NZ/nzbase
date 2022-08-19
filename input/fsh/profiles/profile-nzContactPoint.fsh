@@ -19,6 +19,7 @@ Description:    "This profile adds the Contact Point Purpose and EDI address ext
 * extension[cp-purpose] ^short = "The business reason this ContactPoint is being used"
 * extension[cp-purpose].url = $cpPurpose (exactly)
 
+/*
 
 * system.extension contains
     $cpEdi named cp-edi 0..*
@@ -26,3 +27,5 @@ Description:    "This profile adds the Contact Point Purpose and EDI address ext
     
 * system.extension[cp-edi] ^short = "Represents an EDI contact"
 * system.extension[cp-edi].url = $cpEdi (exactly)
+
+*/

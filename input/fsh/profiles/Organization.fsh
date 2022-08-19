@@ -10,7 +10,7 @@ Description:    "Organization resource for use in NZ"
 
 * extension contains
     $established named established 0..1 and
-    $funded-programme named funded-programme 0..1 
+    $funded-programme named funded-programme 0..* 
 
 * alias.extension contains
     $alias-type named alias-type 0..1 

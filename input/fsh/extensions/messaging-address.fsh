@@ -25,6 +25,8 @@ Description: "The address to where electronic communications might be sent. For 
 * ^context[+].type = #element
 * ^context[=].expression = "PractitionerRole"
 
+* ^context[+].type = #element
+* ^context[=].expression = "Practitioner"
 
 * extension contains
     provider 1..1 and

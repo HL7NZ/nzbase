@@ -99,7 +99,7 @@
         "path": "Patient.extension",
         "sliceName": "ethnicity",
         "min": 0,
-        "max": "6",
+        "max": "*",
         "type": [
           {
             "code": "Extension",
@@ -190,7 +190,7 @@
         "path": "Patient.extension",
         "sliceName": "iwi",
         "min": 0,
-        "max": "1",
+        "max": "*",
         "type": [
           {
             "code": "Extension",

@@ -93,7 +93,7 @@
 <td>
 <div>ContactPoint.system</div>
 </td>
-<td><p>Represents an Electronic Data Interchange (EDI) address. It is intended as an extension on ContactPoint.system, with the system value being &#39;other&#39;. The value of the extension is the EDI supplier, the actual EDI address is the value element.</p></td>
+<td><p>Represents an Electronic Data Interchange (EDI) address. It is intended as an extension on ContactPoint.system, with the system value being &#39;other&#39;. The value of the extension is the EDI supplier, the actual EDI address is the value element. Note that a mew extension &#39;messaging address&#39; is preferred.</p></td>
 <td></td>
 <td>active</td>
 </tr>
@@ -162,6 +162,7 @@
 <div>Organization</div>
 <div>HealthcareService</div>
 <div>PractitionerRole</div>
+<div>Practitioner</div>
 </td>
 <td><p>The address to where electronic communications might be sent. For historical reasons, there is an overlap with edi-address </p></td>
 <td></td>

@@ -33,13 +33,13 @@ Description:    "The base New Zealand Patient profile"
 * telecom only NzContactPoint
 
 * extension contains 
-    $ethnicity named ethnicity 0..6 and
+    $ethnicity named ethnicity 0..* and
     $nzCitizen named nzCitizen 0..1 and 
     $dhb named dhb 0..1 and 
     $domicile-code named domicile-code 0..1 and 
     $pho named pho 0..1 and 
     $sex-at-birth named sex-at-birth 0..1 and
-    $iwi named iwi 0..1
+    $iwi named iwi 0..*
 
 * extension[nzCitizen] ^short = "Is this person a New Zealand citizen"
 

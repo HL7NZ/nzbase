@@ -39,6 +39,10 @@
     {
       "type": "element",
       "expression": "PractitionerRole"
+    },
+    {
+      "type": "element",
+      "expression": "Practitioner"
     }
   ],
   "type": "Extension",

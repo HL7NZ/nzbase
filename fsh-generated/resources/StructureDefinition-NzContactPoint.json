@@ -61,36 +61,6 @@
             ]
           }
         ]
-      },
-      {
-        "id": "ContactPoint.system.extension",
-        "path": "ContactPoint.system.extension",
-        "slicing": {
-          "discriminator": [
-            {
-              "type": "value",
-              "path": "url"
-            }
-          ],
-          "ordered": false,
-          "rules": "open"
-        }
-      },
-      {
-        "id": "ContactPoint.system.extension:cp-edi",
-        "path": "ContactPoint.system.extension",
-        "sliceName": "cp-edi",
-        "short": "Represents an EDI contact",
-        "min": 0,
-        "max": "*",
-        "type": [
-          {
-            "code": "Extension",
-            "profile": [
-              "http://hl7.org.nz/fhir/StructureDefinition/edi-address"
-            ]
-          }
-        ]
       }
     ]
   }
