@@ -1,4 +1,4 @@
-
+/* in a separate file
 ValueSet: Iwi
 Id: iwi
 Title: "Iwi"
@@ -7,7 +7,7 @@ Description: "New Zealand iwi codes"
 
 * codes from system $iwi-cs
 
-
+*/
 
 CodeSystem: Iwi_code
 Id: iwi-code

@@ -620,14 +620,6 @@
       },
       {
         "reference": {
-          "reference": "CodeSystem/iwi-code"
-        },
-        "name": "NZ Iwi",
-        "description": "NZ Iwi Statistical Standard: 27 May 2022",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
           "reference": "CodeSystem/nz-residency-status"
         },
         "name": "NZ Residency status",
@@ -1201,6 +1193,10 @@
       {
         "code": "show-inherited-invariants",
         "value": "false"
+      },
+      {
+        "code": "default-version",
+        "value": "true"
       }
     ]
   }

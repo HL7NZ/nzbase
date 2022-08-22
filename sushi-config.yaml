@@ -14,6 +14,8 @@ license: CC0-1.0
 fhirVersion: 4.0.1
 parameters:
   show-inherited-invariants: false
+ # apply-version: false
+  default-version: true
 copyrightYear: 2021+
 # releaseLabel: Release
 releaseLabel: CI Build
