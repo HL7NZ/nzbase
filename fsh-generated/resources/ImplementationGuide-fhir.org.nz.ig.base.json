@@ -620,6 +620,14 @@
       },
       {
         "reference": {
+          "reference": "CodeSystem/iwi-code"
+        },
+        "name": "NZ Iwi",
+        "description": "NZ Iwi Statistical Standard: 27 May 2022. The version of this resource is actually 2.0.0 (A quirk of the publishing process changes this to the same as the Implementation Guide.)",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
           "reference": "CodeSystem/nz-residency-status"
         },
         "name": "NZ Residency status",
