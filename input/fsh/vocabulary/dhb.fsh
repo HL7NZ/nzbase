@@ -8,11 +8,63 @@ Description: "District Health Board Identifer. Assigned by the HPI."
 
 * codes from system $dhb-code-cs
 
+CodeSystem: Dhb_code
+Id: dhb-code
+Title: "NZ DHB"
+Description: "NZ District Health Board (HPI-ORG) Codes"
 
-Instance: Dhb-code
-InstanceOf: CodeSystem
-Usage: #definition
-* url = $dhb-code-cs
+* ^url = $dhb-code-cs
+* ^caseSensitive = true
+
+* ^url = "https://standards.digital.health.nz/ns/dhb-code"
+* ^version = "20200401"
+* ^status = #draft
+* ^experimental = false
+* ^date = "2022-08-25"
+* ^publisher = "Ministry of Health"
+* ^contact.telecom.system = #email
+* ^contact.telecom.value = "admin@hl7.org.nz"
+* ^copyright = "© 2020+ New Zealand Crown Copyright"
+
+* ^valueSet = "https://nzhts.digital.health.nz/fhir/ValueSet/dhb-code"
+* ^compositional = false
+* ^versionNeeded = false
+* ^content = #complete
+* #G00011-K "Auckland District Health Board"
+* #G00031-E "Bay of Plenty District Health Board"
+* #G00005-D "Canterbury District Health Board"
+* #G00036-D "Capital and Coast District Health Board"
+* #G00012-A "Counties Manukau District Health Board"
+* #G00032-G "Hawkes Bay District Health Board"
+* #G00006-F "Hutt Valley District Health Board"
+* #G00028-E "Lakes District Health Board"
+* #G00033-J "Mid Central District Health Board"
+* #G00038-H "Nelson Marlborough District Health Board"
+* #G00026-A "Northland District Health Board"
+* #G00025-K "South Canterbury District Health Board"
+* #G02328-E "Southern District Health Board"
+* #G00029-G "Tairawhiti District Health Board"
+* #G00030-C "Taranaki District Health Board"
+* #G00027-C "Waikato District Health Board"
+* #G00037-F "Wairarapa District Health Board"
+* #G00013-C "Waitemata District Health Board"
+* #G00039-K "West Coast District Health Board"
+* #G00035-B "Whanganui District Health Board"
+
+/*
+
+CodeSystem: DhbCode
+Id: dhb-code
+Title: "DHB Code"
+Description: "DHB Code"
+
+//Instance: Dhb-code
+//InstanceOf: CodeSystem
+//Usage: #definition
+
+* ^url = $dhb-code-cs
+* ^caseSensitive = true
+
 * version = "1.0"
 * name = "Dhb_code"
 * title = "District Health Board Code"
@@ -22,11 +74,12 @@ Usage: #definition
 * publisher = "New Zealand Ministry of Health"
 * description = "District Health Board code table."
 * purpose = "District Health Board code table."
-* caseSensitive = false
-* valueSet = "https://nzhts.digital.health.nz/fhir/ValueSet/dhb-code"
-* versionNeeded = true
-* content = #complete
-* count = 20
+
+//* valueSet = "https://nzhts.digital.health.nz/fhir/ValueSet/dhb-code"
+
+//* content = #complete
+//* count = 20
+
 * property[0].code = #THREE_DIGIT_CODE
 * property[=].description = "Three digit code."
 * property[=].type = #code
@@ -196,3 +249,6 @@ Usage: #definition
 * concept[=].property[=].valueCode = #4160
 * concept[=].property[+].code = #CHAR_CODE
 * concept[=].property[=].valueCode = #SRN
+
+
+*/

@@ -22,5 +22,6 @@
       "display": "Web forum"
     }
   ],
+  "caseSensitive": true,
   "count": 3
 }

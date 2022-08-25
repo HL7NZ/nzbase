@@ -24,5 +24,6 @@
       "display": "The citizenship status is unknown"
     }
   ],
+  "caseSensitive": true,
   "count": 3
 }

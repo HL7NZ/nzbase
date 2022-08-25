@@ -18,6 +18,7 @@ Description: "The code list represents the current practicing status of the Prov
 
 * ^url = https://standards.digital.health.nz/ns/practitioner-registration-status-code
 * ^jurisdiction.coding = urn:iso:std:iso:3166#NZ
+* ^caseSensitive = true
 
 * #current "A provider who holds or is deemed to hold a current practising certificate."
 * #inactive "A provider who is not practising"

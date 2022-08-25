@@ -38,10 +38,6 @@
       "display": "English"
     },
     {
-      "code": "12115",
-      "display": "Gaelic"
-    },
-    {
       "code": "12116",
       "display": "Irish"
     },
@@ -50,16 +46,8 @@
       "display": "Manx"
     },
     {
-      "code": "12118",
-      "display": "Orkney Islander"
-    },
-    {
       "code": "12119",
       "display": "Scottish (Scots)"
-    },
-    {
-      "code": "12120",
-      "display": "Shetland Islander"
     },
     {
       "code": "12121",
@@ -150,10 +138,6 @@
       "display": "Belorussian"
     },
     {
-      "code": "12917",
-      "display": "Corsican"
-    },
-    {
       "code": "12918",
       "display": "Cypriot Unspecified"
     },
@@ -180,10 +164,6 @@
     {
       "code": "12924",
       "display": "French"
-    },
-    {
-      "code": "12925",
-      "display": "Greenlander"
     },
     {
       "code": "12926",
@@ -219,15 +199,11 @@
     },
     {
       "code": "12934",
-      "display": "Romany / Gypsy"
+      "display": "Romani"
     },
     {
       "code": "12935",
       "display": "Russian"
-    },
-    {
-      "code": "12936",
-      "display": "Sardinian"
     },
     {
       "code": "12937",
@@ -258,16 +234,8 @@
       "display": "American (US)"
     },
     {
-      "code": "12944",
-      "display": "Burgher"
-    },
-    {
       "code": "12945",
       "display": "Canadian"
-    },
-    {
-      "code": "12946",
-      "display": "Falkland Islander / Kelper"
     },
     {
       "code": "12947",
@@ -275,7 +243,7 @@
     },
     {
       "code": "12948",
-      "display": "South African"
+      "display": "South African European"
     },
     {
       "code": "12949",
@@ -283,7 +251,7 @@
     },
     {
       "code": "12950",
-      "display": "Zimbabwean"
+      "display": "Zimbabwean European"
     },
     {
       "code": "12999",
@@ -303,51 +271,7 @@
     },
     {
       "code": "32100",
-      "display": "Cook Island Māori NFD"
-    },
-    {
-      "code": "32111",
-      "display": "Aitutaki Islander"
-    },
-    {
-      "code": "32112",
-      "display": "Atiu Islander"
-    },
-    {
-      "code": "32113",
-      "display": "Mangaia Islander"
-    },
-    {
-      "code": "32114",
-      "display": "Manihiki Islander"
-    },
-    {
-      "code": "32115",
-      "display": "Mauke Islander"
-    },
-    {
-      "code": "32116",
-      "display": "Mitiaro Islander"
-    },
-    {
-      "code": "32117",
-      "display": "Palmerston Islander"
-    },
-    {
-      "code": "32118",
-      "display": "Penrhyn Islander"
-    },
-    {
-      "code": "32119",
-      "display": "Pukapuka Islander"
-    },
-    {
-      "code": "32120",
-      "display": "Rakahanga Islander"
-    },
-    {
-      "code": "32121",
-      "display": "Rarotongan"
+      "display": "Cook Islands Māori"
     },
     {
       "code": "33111",
@@ -366,108 +290,24 @@
       "display": "Fijian (except Fiji Indian / Indo-Fijian)"
     },
     {
-      "code": "37111",
-      "display": "Admiralty Islander"
-    },
-    {
       "code": "37112",
-      "display": "Australian Aboriginal"
-    },
-    {
-      "code": "37113",
-      "display": "Austral Islander"
-    },
-    {
-      "code": "37114",
-      "display": "Belau / Palau Islander"
-    },
-    {
-      "code": "37115",
-      "display": "Bismark Archipelagoan"
-    },
-    {
-      "code": "37116",
-      "display": "Bougainvillean"
-    },
-    {
-      "code": "37117",
-      "display": "Caroline Islander"
-    },
-    {
-      "code": "37118",
-      "display": "Easter Islander"
-    },
-    {
-      "code": "37119",
-      "display": "Gambier Islander"
-    },
-    {
-      "code": "37120",
-      "display": "Guadalcanalian"
-    },
-    {
-      "code": "37121",
-      "display": "Guam Islander / Chamorro"
+      "display": "Indigenous Australian"
     },
     {
       "code": "37122",
       "display": "Hawaiian"
     },
     {
-      "code": "37123",
-      "display": "Kanaka / Kanak"
-    },
-    {
       "code": "37124",
       "display": "I-Kiribati / Gilbertese"
-    },
-    {
-      "code": "37125",
-      "display": "Malaitian"
-    },
-    {
-      "code": "37126",
-      "display": "Manus Islander"
-    },
-    {
-      "code": "37127",
-      "display": "Marianas Islander"
-    },
-    {
-      "code": "37128",
-      "display": "Marquesas Islander"
-    },
-    {
-      "code": "37129",
-      "display": "Marshall Islander"
     },
     {
       "code": "37130",
       "display": "Nauru Islander"
     },
     {
-      "code": "37131",
-      "display": "New Britain Islander"
-    },
-    {
-      "code": "37132",
-      "display": "New Georgian"
-    },
-    {
-      "code": "37133",
-      "display": "New Irelander"
-    },
-    {
-      "code": "37134",
-      "display": "Ocean Islander / Banaban"
-    },
-    {
       "code": "37135",
       "display": "Papuan / New Guinean / Irian Jayan"
-    },
-    {
-      "code": "37136",
-      "display": "Phoenix Islander"
     },
     {
       "code": "37137",
@@ -478,10 +318,6 @@
       "display": "Rotuman / Rotuman Islander"
     },
     {
-      "code": "37139",
-      "display": "Santa Cruz Islander"
-    },
-    {
       "code": "37140",
       "display": "Society Islander (including Tahitian)"
     },
@@ -490,32 +326,12 @@
       "display": "Solomon Islander"
     },
     {
-      "code": "37142",
-      "display": "Torres Strait Islander / Thursday Islander"
-    },
-    {
-      "code": "37143",
-      "display": "Tuamotu Islander"
-    },
-    {
       "code": "37144",
       "display": "Tuvalu Islander / Ellice Islander"
     },
     {
       "code": "37145",
       "display": "Vanuatu Islander / New Hebridean"
-    },
-    {
-      "code": "37146",
-      "display": "Wake Islander"
-    },
-    {
-      "code": "37147",
-      "display": "Wallis Islander"
-    },
-    {
-      "code": "37148",
-      "display": "Yap Islander"
     },
     {
       "code": "37199",
@@ -551,7 +367,7 @@
     },
     {
       "code": "41413",
-      "display": "Lao / Laotian"
+      "display": "Lao"
     },
     {
       "code": "41414",
@@ -560,6 +376,14 @@
     {
       "code": "41415",
       "display": "Thai / Tai / Siamese"
+    },
+    {
+      "code": "41416",
+      "display": "Karen"
+    },
+    {
+      "code": "41417",
+      "display": "Chin"
     },
     {
       "code": "41499",
@@ -610,10 +434,6 @@
       "display": "Fijian Indian / Indo-Fijian"
     },
     {
-      "code": "43113",
-      "display": "Gujarati"
-    },
-    {
       "code": "43114",
       "display": "Tamil"
     },
@@ -628,6 +448,14 @@
     {
       "code": "43117",
       "display": "Anglo Indian"
+    },
+    {
+      "code": "43118",
+      "display": "Malaysian Indian"
+    },
+    {
+      "code": "43119",
+      "display": "South African Indian"
     },
     {
       "code": "43199",
@@ -659,7 +487,7 @@
     },
     {
       "code": "44411",
-      "display": "Afghani"
+      "display": "Afghan"
     },
     {
       "code": "44412",
@@ -667,7 +495,7 @@
     },
     {
       "code": "44413",
-      "display": "Nepalese"
+      "display": "Nepali"
     },
     {
       "code": "44414",
@@ -680,6 +508,18 @@
     {
       "code": "44416",
       "display": "Eurasian"
+    },
+    {
+      "code": "44417",
+      "display": "Bhutanese"
+    },
+    {
+      "code": "44418",
+      "display": "Maldivian"
+    },
+    {
+      "code": "44419",
+      "display": "Mongolian"
     },
     {
       "code": "44499",
@@ -730,16 +570,8 @@
       "display": "Lebanese"
     },
     {
-      "code": "51121",
-      "display": "Libyan"
-    },
-    {
       "code": "51122",
       "display": "Moroccan"
-    },
-    {
-      "code": "51123",
-      "display": "Omani"
     },
     {
       "code": "51124",
@@ -750,16 +582,8 @@
       "display": "Syrian"
     },
     {
-      "code": "51126",
-      "display": "Tunisian"
-    },
-    {
       "code": "51127",
       "display": "Turkish (including Turkish Cypriot)"
-    },
-    {
-      "code": "51128",
-      "display": "Yemeni"
     },
     {
       "code": "51199",
@@ -790,48 +614,12 @@
       "display": "Colombian"
     },
     {
-      "code": "52116",
-      "display": "Costa Rican"
-    },
-    {
-      "code": "52117",
-      "display": "Creole (Latin America)"
-    },
-    {
       "code": "52118",
       "display": "Ecuadorian"
     },
     {
-      "code": "52119",
-      "display": "Guatemalan"
-    },
-    {
-      "code": "52120",
-      "display": "Guyanese"
-    },
-    {
-      "code": "52121",
-      "display": "Honduran"
-    },
-    {
-      "code": "52122",
-      "display": "Malvinian (Spanish-speaking Falkland Islander)"
-    },
-    {
       "code": "52123",
       "display": "Mexican"
-    },
-    {
-      "code": "52124",
-      "display": "Nicaraguan"
-    },
-    {
-      "code": "52125",
-      "display": "Panamanian"
-    },
-    {
-      "code": "52126",
-      "display": "Paraguayan"
     },
     {
       "code": "52127",
@@ -858,10 +646,6 @@
       "display": "African NFD"
     },
     {
-      "code": "53112",
-      "display": "Creole (US)"
-    },
-    {
       "code": "53113",
       "display": "Jamaican"
     },
@@ -878,12 +662,8 @@
       "display": "African American"
     },
     {
-      "code": "53117",
-      "display": "Ugandan"
-    },
-    {
       "code": "53118",
-      "display": "West Indian / Caribbean"
+      "display": "Caribbean"
     },
     {
       "code": "53119",
@@ -902,24 +682,32 @@
       "display": "Ghanaian"
     },
     {
+      "code": "53123",
+      "display": "Burundian"
+    },
+    {
+      "code": "53124",
+      "display": "Congolese"
+    },
+    {
+      "code": "53125",
+      "display": "Sudanese"
+    },
+    {
+      "code": "53126",
+      "display": "Zambian"
+    },
+    {
+      "code": "53127",
+      "display": "Other Zimbabwean"
+    },
+    {
       "code": "53199",
       "display": "Other African NEC"
     },
     {
-      "code": "61111",
-      "display": "Central American Indian"
-    },
-    {
-      "code": "61112",
-      "display": "Inuit / Eskimo"
-    },
-    {
       "code": "61113",
-      "display": "North American Indian"
-    },
-    {
-      "code": "61114",
-      "display": "South American Indian"
+      "display": "Indigehous North American"
     },
     {
       "code": "61115",
@@ -931,7 +719,7 @@
     },
     {
       "code": "61117",
-      "display": "South African Coloured"
+      "display": "Other South African"
     },
     {
       "code": "61118",
@@ -966,5 +754,6 @@
       "display": "Not stated"
     }
   ],
-  "count": 239
+  "caseSensitive": true,
+  "count": 186
 }

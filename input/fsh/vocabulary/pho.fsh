@@ -13,6 +13,7 @@ Title: "PHO"
 Description:  "Primary Healthcare Organization"
 
 * ^url = $pho-code-cs
+* ^caseSensitive = true
 
 * #G04587-F "Alliance Health Plus Trust"
 * #G05487-G "Auckland PHO Limited"

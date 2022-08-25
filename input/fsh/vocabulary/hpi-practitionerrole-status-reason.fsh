@@ -17,6 +17,7 @@ Description:  "The reason for the current status of PractitionerRole"
 
 * ^url = $pr-status-reason-cs
 * ^jurisdiction.coding = urn:iso:std:iso:3166#NZ
+* ^caseSensitive = true
 
 * #enteredInError "enteredInError"
 * #duplicate "duplicate"

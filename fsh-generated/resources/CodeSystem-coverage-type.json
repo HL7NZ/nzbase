@@ -26,5 +26,6 @@
       "display": "High User Health Card"
     }
   ],
+  "caseSensitive": true,
   "count": 4
 }

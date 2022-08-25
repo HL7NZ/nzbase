@@ -14,6 +14,7 @@ Title: "Domicile Code"
 Description: "Domicile Code"
 
 * ^url = $domicile-code-cs
+* ^caseSensitive = true
 
 * #0001 "Awanui"
 * #0002 "Mangonui East"

@@ -13,6 +13,7 @@ Title: "NZ Citizenship status"
 Description:  "Is this person a NZ Citizen"
 
 * ^url = $citizenship-status-cs
+* ^caseSensitive = true
 
 * #yes "Yes" "This patient is a citizen."
 * #no "No" "This patient is not a citizen."

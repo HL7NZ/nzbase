@@ -8738,5 +8738,6 @@
       "display": "Southern District Health Board"
     }
   ],
+  "caseSensitive": true,
   "count": 2182
 }

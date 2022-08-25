@@ -5,6 +5,7 @@ Id: alias-type
 Title: "Type of Alias"
 Description:  "Used in Organization and Location to indicate what is the type of Alias"
 
+* ^caseSensitive = true
 * ^url = $alias-type-cs
 
 * #aka "Aka" "The name by which the organisation or facility is also known as."

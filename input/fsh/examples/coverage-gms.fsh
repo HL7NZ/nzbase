@@ -7,7 +7,7 @@ Description: "GMS Coverage example"
 
 * status = #active
 
-* type.coding.system = "https://standards.digital.health.nz/ns/entitlement-type-code"
+* type.coding.system = $coverage-type-cs
 * type.coding.code = #gms
 * type.coding.display = "General Medical Subsidy"
 

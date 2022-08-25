@@ -130,5 +130,6 @@
       "display": "Whanganui Regional Health Network"
     }
   ],
+  "caseSensitive": true,
   "count": 30
 }

@@ -26,5 +26,6 @@
       "display": "Some other funded programme not otherwise defined"
     }
   ],
+  "caseSensitive": true,
   "count": 4
 }

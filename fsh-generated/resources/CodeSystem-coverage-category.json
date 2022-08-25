@@ -14,5 +14,6 @@
       "display": "A child under 6 years of age"
     }
   ],
+  "caseSensitive": true,
   "count": 1
 }

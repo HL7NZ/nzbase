@@ -15,6 +15,7 @@ Description: "A classification of the type or range of health services that a pr
 
 * ^url = "https://standards.digital.health.nz/ns/practitioner-scope-of-practice-code"
 * ^jurisdiction.coding = urn:iso:std:iso:3166#NZ
+* ^caseSensitive = true
 
 * #CHIR "Chiropractor"
 * #DEAA "Administering Local Anaesthetic in Dental Hygiene Practice"

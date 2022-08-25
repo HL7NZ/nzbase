@@ -131,5 +131,6 @@
       "definition": "The code is added only by the MoH or DHB from information provided by ImmigrationNZ data sharing"
     }
   ],
+  "caseSensitive": true,
   "count": 25
 }

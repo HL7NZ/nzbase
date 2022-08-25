@@ -16,6 +16,7 @@ Description: "Additional authorisations that a practitioner is authorised to pra
 
 * ^url = "https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code" 
 * ^jurisdiction.coding = urn:iso:std:iso:3166#NZ
+* ^caseSensitive = true
 
 * #CA01 "Cardiothoracic Surgery: Cardiothoracic Surgeon" "Alternate name."
 * #CA02 "Cardiothoracic Surgery: Transplant Surgeon" "Alternate name."

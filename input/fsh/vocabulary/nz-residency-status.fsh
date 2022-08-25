@@ -12,6 +12,7 @@ Id: nz-residency-status
 Title: "NZ Residency status"
 Description: "NZ Residency status"
 * ^url = $nz-residency-status-cs
+* ^caseSensitive = true
 
 * #yes "Permanent Resident" "Use this status if the person holds a residence class visa"
 * #no "Not a Permanent Resident" "Use this status for a person who is a NZ Citizen or does not hold a residence class visa"

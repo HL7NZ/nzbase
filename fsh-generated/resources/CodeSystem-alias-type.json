@@ -45,5 +45,6 @@
       "definition": "The name currently used for a facility."
     }
   ],
+  "caseSensitive": true,
   "count": 7
 }

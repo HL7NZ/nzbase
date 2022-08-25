@@ -4,7 +4,7 @@ Description: "Patient with building name in the address"
 Usage: #example
 
 * extension[+].url = "http://hl7.org.nz/fhir/StructureDefinition/dhb"
-* extension[=].valueCodeableConcept = $dhb-code-cs#G00026-A "Northland"
+* extension[=].valueCodeableConcept = $dhb-code-cs#G00026-A "Northland District Health Board"
 
 * name.family = "Doe"
 * name.given = "John"

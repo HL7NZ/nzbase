@@ -14,6 +14,7 @@ Title: "Coverage type"
 Description: "New Zealand codes for Coverage Types"
 
 * ^url = $coverage-type-cs
+* ^caseSensitive = true
 
 * #gms "General Medical Subsidy"
 * #acc "Accident Compensation Corporation"

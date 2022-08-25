@@ -13,6 +13,7 @@ Title: "Funded Programme"
 Description:  "Some sort of funded programme"
 
 * ^url = $funded-programme-cs
+* ^caseSensitive = true
 
 * #DENTAL_CHILD "Dental Care - Children up to age 13"
 * #DENTAL_ADULT_EMERGENCY "Dental Care – Adult Emergency"

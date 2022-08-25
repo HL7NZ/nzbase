@@ -30,6 +30,7 @@ Title: "Information Source"
 Description: "All possible sources of information"
 
 * ^url = $information-source-cs
+* ^caseSensitive = true
 
 * #BREG "Birth Register" "This code is added only after verification via MOH/DIA birth register matching"
 * #BRCT "Birth Certificate" "Birth Certificate"

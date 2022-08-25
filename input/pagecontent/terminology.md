@@ -43,13 +43,13 @@ The [FHIR spec](http://hl7.org/fhir/terminology-module.html) has much more detai
 
 <table class='table table-bordered table-condensed'>
 <tr><th>CodeSystem</th><th>Purpose</th><th>Canonical Url</th></tr>
-<tr><td width='20%'><a href='CodeSystem-Dhb-code.html'>District Health Board Code</a></td><td><p>District Health Board code table.</p></td><td>https://standards.digital.health.nz/ns/dhb-code</td></tr>
 <tr><td width='20%'><a href='CodeSystem-alias-type.html'>Type of Alias</a></td><td><p>Used in Organization and Location to indicate what is the type of Alias</p></td><td>https://standards.digital.health.nz/ns/alias-type-code</td></tr>
 <tr><td width='20%'><a href='CodeSystem-citizenship-status.html'>NZ Citizenship status</a></td><td><p>Is this person a NZ Citizen</p></td><td>https://standards.digital.health.nz/ns/nz-citizenship-status-code</td></tr>
 <tr><td width='20%'><a href='CodeSystem-contact-point-purpose.html'>ContactPoint purpose</a></td><td><p>The purpose of a ContactPoint - what it is used for.</p></td><td>https://standards.digital.health.nz/ns/contact-point-purpose-code</td></tr>
 <tr><td width='20%'><a href='CodeSystem-coverage-category.html'>Coverage category</a></td><td><p>New Zealand codes for Coverage category types</p></td><td>https://standards.digital.health.nz/ns/coverage-category-code</td></tr>
 <tr><td width='20%'><a href='CodeSystem-coverage-type.html'>Coverage type</a></td><td><p>New Zealand codes for Coverage Types</p></td><td>https://standards.digital.health.nz/ns/coverage-type-code</td></tr>
 <tr><td width='20%'><a href='CodeSystem-datum-code.html'>Datum codes</a></td><td><p>Possible datum codes</p></td><td>https://standards.digital.health.nz/ns/nz-datum-code</td></tr>
+<tr><td width='20%'><a href='CodeSystem-dhb-code.html'>NZ DHB</a></td><td><p>NZ District Health Board (HPI-ORG) Codes</p></td><td>https://standards.digital.health.nz/ns/dhb-code</td></tr>
 <tr><td width='20%'><a href='CodeSystem-domicile-code.html'>Domicile Code</a></td><td><p>Domicile Code</p></td><td>https://standards.digital.health.nz/ns/domicile-code</td></tr>
 <tr><td width='20%'><a href='CodeSystem-ethnicityL4.html'>Level 4 ethnicity codes</a></td><td><p>Codes to record a person’s ethnicity, drawn from Level 4 of the Ethnicity code system 
 described <a href="http://aria.stats.govt.nz/aria/#ClassificationView:uri=http://stats.govt.nz/cms/ClassificationVersion/YVqOcFHSlguKkT17">here</a></p></td><td>https://standards.digital.health.nz/ns/ethnic-group-level-4-code</td></tr>

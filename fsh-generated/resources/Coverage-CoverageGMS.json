@@ -14,7 +14,7 @@
   "type": {
     "coding": [
       {
-        "system": "https://standards.digital.health.nz/ns/entitlement-type-code",
+        "system": "https://standards.digital.health.nz/ns/coverage-type-code",
         "code": "gms",
         "display": "General Medical Subsidy"
       }

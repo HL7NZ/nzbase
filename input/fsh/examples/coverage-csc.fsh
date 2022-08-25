@@ -13,7 +13,7 @@ Description: "CSC Coverage example"
 
 * status = #active
 
-* type.coding.system = "https://standards.digital.health.nz/ns/entitlement-type-code"
+* type.coding.system = $coverage-type-cs
 * type.coding.code = #csc
 * type.coding.display = "Community Services Card"
 

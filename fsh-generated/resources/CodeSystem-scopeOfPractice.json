@@ -472,5 +472,6 @@
       ]
     }
   ],
+  "caseSensitive": true,
   "count": 113
 }

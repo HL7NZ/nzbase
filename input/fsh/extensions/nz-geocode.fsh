@@ -52,6 +52,7 @@ Description: "Possible datum codes"
 
 
 * ^url = $datum-code-cs
+* ^caseSensitive = true
 //* status = #draft
 //* content = #complete
 

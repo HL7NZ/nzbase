@@ -15,7 +15,7 @@ Title: "ContactPoint purpose"
 Description: "The purpose of a ContactPoint - what it is used for."
 
 * ^url = $contact-point-purpose-cs
-
+* ^caseSensitive = true
 
 * #rx "Prescription"
 * #vc "Video Conference"

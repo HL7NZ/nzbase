@@ -25,5 +25,6 @@
       "definition": "use this status if the residency status of the person cannot be determined or is unknown"
     }
   ],
+  "caseSensitive": true,
   "count": 3
 }
