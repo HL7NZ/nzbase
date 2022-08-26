@@ -1,7 +1,7 @@
 
-<div class "alert alert-warning">
-  This extension has been deprecated, and the [Messaging Address](StructureDefinition-messaging-address.html) extension should be used instead. The status will be changed to 'retired in the next version of this guide.
-</div>
+
+  This extension has been deprecated, and the [Messaging Address](StructureDefinition-messaging-address.html) extension should be used instead. The status will be changed to 'retired' in the next version of this guide.
+
 
 This extension allows an EDI address to be added to the ContactPoint.system element.
 

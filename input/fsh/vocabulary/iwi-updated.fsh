@@ -12,7 +12,7 @@ Description: "New Zealand iwi codes"
 CodeSystem: Iwi_code
 Id: iwi-code
 Title: "NZ Iwi"
-Description: "NZ Iwi Statistical Standard: 27 May 2022. The version of this resource is actually 2.0.0 (A quirk of the publishing process changes this to the same as the Implementation Guide.)"
+Description: "NZ Iwi Statistical Standard: 27 May 2022. The version of this resource is actually 2.0.0 "
 * ^url = $iwi-cs //"https://standards.digital.health.nz/ns/iwi-code"
 * ^version = "2.0.0"
 * ^status = #active

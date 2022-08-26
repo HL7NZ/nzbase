@@ -5,7 +5,7 @@
   "name": "Iwi_code",
   "id": "iwi-code",
   "title": "NZ Iwi",
-  "description": "NZ Iwi Statistical Standard: 27 May 2022. The version of this resource is actually 2.0.0 (A quirk of the publishing process changes this to the same as the Implementation Guide.)",
+  "description": "NZ Iwi Statistical Standard: 27 May 2022. The version of this resource is actually 2.0.0 ",
   "version": "2.0.0",
   "url": "https://standards.digital.health.nz/ns/iwi-code",
   "concept": [

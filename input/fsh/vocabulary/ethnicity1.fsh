@@ -7,6 +7,7 @@ Id: ethnicity
 Title: "Ethnicity of a person"
 Description: """
 Codes to record a person's ethnicity, drawn from [Level 4 of the Ethnicity code system](http://aria.stats.govt.nz/aria/#ClassificationView:uri=http://stats.govt.nz/cms/ClassificationVersion/YVqOcFHSlguKkT17)
+Note that the correct version of the ethicity code system is 2.1.0
 """
 
 * ^url = $ethnicity-code-vs 

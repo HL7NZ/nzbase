@@ -2,7 +2,7 @@
   "resourceType": "ImplementationGuide",
   "id": "fhir.org.nz.ig.base",
   "url": "http://fhir.org.nz/ig/base/ImplementationGuide/fhir.org.nz.ig.base",
-  "version": "1.2.0",
+  "version": "1.3-ballot",
   "name": "HL7FHIRNewZealandBaseImplementationGuide",
   "title": "HL7® FHIR® New Zealand Base Implementation Guide",
   "status": "active",
@@ -191,7 +191,7 @@
           "reference": "StructureDefinition/edi-address"
         },
         "name": "EDI Address",
-        "description": "Represents an Electronic Data Interchange (EDI) address. It is intended as an extension on ContactPoint.system, with the system value being 'other'. The value of the extension is the EDI supplier, the actual EDI address is the value element. Note that a mew extension 'messaging address' is preferred.",
+        "description": "Represents an Electronic Data Interchange (EDI) address. It is intended as an extension on ContactPoint.system, with the system value being 'other'. The value of the extension is the EDI supplier, the actual EDI address is the value element. Note that a new extension 'messaging address' is preferred.",
         "exampleBoolean": false
       },
       {
@@ -244,9 +244,9 @@
       },
       {
         "reference": {
-          "reference": "StructureDefinition/nz-residency-status"
+          "reference": "StructureDefinition/nz-residency"
         },
-        "name": "NZResidencyStatus",
+        "name": "NZResidency",
         "description": "NZ Residency status",
         "exampleBoolean": false
       },
@@ -447,7 +447,7 @@
           "reference": "ValueSet/ethnicity"
         },
         "name": "Ethnicity of a person",
-        "description": "Codes to record a person's ethnicity, drawn from [Level 4 of the Ethnicity code system](http://aria.stats.govt.nz/aria/#ClassificationView:uri=http://stats.govt.nz/cms/ClassificationVersion/YVqOcFHSlguKkT17)",
+        "description": "Codes to record a person's ethnicity, drawn from [Level 4 of the Ethnicity code system](http://aria.stats.govt.nz/aria/#ClassificationView:uri=http://stats.govt.nz/cms/ClassificationVersion/YVqOcFHSlguKkT17)\nNote that the correct version of the ethicity code system is 2.1.0",
         "exampleBoolean": false
       },
       {
@@ -484,7 +484,7 @@
       },
       {
         "reference": {
-          "reference": "ValueSet/nz-residency-status"
+          "reference": "ValueSet/nz-residency"
         },
         "name": "NZ Residency status",
         "description": "Is the person a NZ resident",
@@ -631,12 +631,12 @@
           "reference": "CodeSystem/iwi-code"
         },
         "name": "NZ Iwi",
-        "description": "NZ Iwi Statistical Standard: 27 May 2022. The version of this resource is actually 2.0.0 (A quirk of the publishing process changes this to the same as the Implementation Guide.)",
+        "description": "NZ Iwi Statistical Standard: 27 May 2022. The version of this resource is actually 2.0.0 ",
         "exampleBoolean": false
       },
       {
         "reference": {
-          "reference": "CodeSystem/nz-residency-status"
+          "reference": "CodeSystem/nz-residency"
         },
         "name": "NZ Residency status",
         "description": "NZ Residency status",
@@ -1029,9 +1029,9 @@
       },
       {
         "reference": {
-          "reference": "Patient/patient-nz-residency-status"
+          "reference": "Patient/patient-nz-residency"
         },
-        "name": "patient-nz-residency-status",
+        "name": "patient-nz-residency",
         "description": "Example of citizenship",
         "exampleBoolean": true
       },

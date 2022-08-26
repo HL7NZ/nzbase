@@ -1,17 +1,17 @@
-ValueSet: NZResidencyStatus
-Id: nz-residency-status
+ValueSet: NZResidency
+Id: nz-residency
 Title: "NZ Residency status"
 Description: "Is the person a NZ resident"
 
-* ^url = $nz-residency-status-vs
+* ^url = $nz-residency-vs
 
-* codes from system $nz-residency-status-cs
+* codes from system $nz-residency-cs
 
-CodeSystem: NZResidencyStatus
-Id: nz-residency-status
+CodeSystem: NZResidency
+Id: nz-residency
 Title: "NZ Residency status"
 Description: "NZ Residency status"
-* ^url = $nz-residency-status-cs
+* ^url = $nz-residency-cs
 * ^caseSensitive = true
 
 * #yes "Permanent Resident" "Use this status if the person holds a residence class visa"

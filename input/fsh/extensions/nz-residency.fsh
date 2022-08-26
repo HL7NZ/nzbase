@@ -1,5 +1,5 @@
-Extension: NZResidencyStatus
-Id: nz-residency-status
+Extension: NZResidency
+Id: nz-residency
 Description: "NZ Residency status"
 
 /*
@@ -17,7 +17,7 @@ A person who holds a residence class visa is eligible to receive services funded
 */
 
 
-* ^url = "http://hl7.org.nz/fhir/StructureDefinition/nz-residency-status"
+* ^url = "http://hl7.org.nz/fhir/StructureDefinition/nz-residency"
 * ^jurisdiction.coding = urn:iso:std:iso:3166#NZ
 * ^status = #active
 * ^context.type = #element
@@ -29,7 +29,7 @@ A person who holds a residence class visa is eligible to receive services funded
 
 * extension[status] ^definition = "Residency Status"
 * extension[status].value[x] only CodeableConcept
-* extension[status].valueCodeableConcept from $nz-residency-status-vs (preferred)
+* extension[status].valueCodeableConcept from $nz-residency-vs (preferred)
 
 * extension[source] ^definition = "The source of information concerning the residency"
 * extension[source].value[x] only CodeableConcept

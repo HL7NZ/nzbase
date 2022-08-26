@@ -45,7 +45,7 @@ Alias: $pho-code-vs = https://nzhts.digital.health.nz/fhir/ValueSet/pho-code
 Alias: $iso3166-1-2 = http://hl7.org/fhir/ValueSet/iso3166-1-2
 
 Alias: $dhb-code-vs = https://nzhts.digital.health.nz/fhir/ValueSet/dhb-code
-Alias: $nz-residency-status-vs = https://nzhts.digital.health.nz/fhir/ValueSet/nz-residency-status-code
+Alias: $nz-residency-vs = https://nzhts.digital.health.nz/fhir/ValueSet/nz-residency-code
 
 Alias: $citizenship-status-vs = https://nzhts.digital.health.nz/fhir/ValueSet/nz-citizenship-status-code
 //Alias: $ethnic-group-4 = http:/hl7.org.nz/fhir/ValueSet/ethnic-group-level-4-code
@@ -83,7 +83,7 @@ Alias: $pho-code-cs = https://standards.digital.health.nz/ns/pho-code
 Alias: $domicile-code-cs = https://standards.digital.health.nz/ns/domicile-code
 Alias: $funded-programme-cs = https://standards.digital.health.nz/ns/funded-programme-code
 Alias: $information-source-cs = https://standards.digital.health.nz/ns/information-source-code
-Alias: $nz-residency-status-cs = https://standards.digital.health.nz/ns/nz-residency-status-code
+Alias: $nz-residency-cs = https://standards.digital.health.nz/ns/nz-residency-code
 Alias: $citizenship-status-cs = https://standards.digital.health.nz/ns/nz-citizenship-status-code
 Alias: $ethnicity-code-cs = https://standards.digital.health.nz/ns/ethnic-group-level-4-code
 Alias: $condition-on-practice-cs = https://standards.digital.health.nz/ns/condition-on-practice-code

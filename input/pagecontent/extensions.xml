@@ -84,7 +84,7 @@
 <td>
 <div>ContactPoint.system</div>
 </td>
-<td><p>Represents an Electronic Data Interchange (EDI) address. It is intended as an extension on ContactPoint.system, with the system value being &#39;other&#39;. The value of the extension is the EDI supplier, the actual EDI address is the value element. Note that a mew extension &#39;messaging address&#39; is preferred.</p></td>
+<td><p>Represents an Electronic Data Interchange (EDI) address. It is intended as an extension on ContactPoint.system, with the system value being &#39;other&#39;. The value of the extension is the EDI supplier, the actual EDI address is the value element. Note that a new extension &#39;messaging address&#39; is preferred.</p></td>
 <td></td>
 </tr>
 <tr>
@@ -195,8 +195,8 @@
 <td></td>
 </tr>
 <tr>
-<td><a href='StructureDefinition-nz-residency-status.html'>nz-residency-status</a></td>
-<td>http://hl7.org.nz/fhir/StructureDefinition/nz-residency-status</td>
+<td><a href='StructureDefinition-nz-residency.html'>nz-residency</a></td>
+<td>http://hl7.org.nz/fhir/StructureDefinition/nz-residency</td>
 <td>
 <div>Patient</div>
 </td>

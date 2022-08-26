@@ -6,7 +6,7 @@
     "status": "additional"
   },
   "url": "http://hl7.org.nz/fhir/StructureDefinition/NzAddress",
-  "version": "1.2.0",
+  "version": "1.3-ballot",
   "name": "NzAddress",
   "title": "Common NZ Address datatype",
   "status": "active",

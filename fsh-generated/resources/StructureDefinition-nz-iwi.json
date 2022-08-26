@@ -2,7 +2,7 @@
   "resourceType": "StructureDefinition",
   "id": "nz-iwi",
   "url": "http://hl7.org.nz/fhir/StructureDefinition/nz-iwi",
-  "version": "1.2.0",
+  "version": "1.3-ballot",
   "name": "Nz_iwi",
   "status": "active",
   "description": "Persons Iwi affiliation",

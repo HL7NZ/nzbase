@@ -1,7 +1,7 @@
 Extension: Edi_address
 Id: edi-address
 Title: "EDI Address"
-Description: "Represents an Electronic Data Interchange (EDI) address. It is intended as an extension on ContactPoint.system, with the system value being 'other'. The value of the extension is the EDI supplier, the actual EDI address is the value element. Note that a mew extension 'messaging address' is preferred."
+Description: "Represents an Electronic Data Interchange (EDI) address. It is intended as an extension on ContactPoint.system, with the system value being 'other'. The value of the extension is the EDI supplier, the actual EDI address is the value element. Note that a new extension 'messaging address' is preferred."
 
 
 

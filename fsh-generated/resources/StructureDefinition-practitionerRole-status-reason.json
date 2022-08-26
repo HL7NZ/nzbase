@@ -2,7 +2,7 @@
   "resourceType": "StructureDefinition",
   "id": "practitionerRole-status-reason",
   "url": "http://hl7.org.nz/fhir/StructureDefinition/practitionerRole-status-reason",
-  "version": "1.2.0",
+  "version": "1.3-ballot",
   "name": "PractitionerRoleStatusReason",
   "status": "active",
   "description": "The reason for the status. Generally only used for inactive resources.",
