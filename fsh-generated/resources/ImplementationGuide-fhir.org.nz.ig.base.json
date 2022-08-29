@@ -2,7 +2,7 @@
   "resourceType": "ImplementationGuide",
   "id": "fhir.org.nz.ig.base",
   "url": "http://fhir.org.nz/ig/base/ImplementationGuide/fhir.org.nz.ig.base",
-  "version": "1.3-ballot",
+  "version": "2.0-ballot",
   "name": "HL7FHIRNewZealandBaseImplementationGuide",
   "title": "HL7® FHIR® New Zealand Base Implementation Guide",
   "status": "active",
@@ -1204,8 +1204,8 @@
         "value": "false"
       },
       {
-        "code": "default-version",
-        "value": "true"
+        "code": "apply-version",
+        "value": "false"
       }
     ]
   }

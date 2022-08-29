@@ -5,7 +5,7 @@
   "id": "dod-information-source",
   "title": "Death date Information Source",
   "description": "The source from where the date of death was sourced",
-  "version": "1.3-ballot",
+  "version": "2.0-ballot",
   "url": "https://nzhts.digital.health.nz/fhir/ValueSet/dod-information-source-code",
   "compose": {
     "include": [

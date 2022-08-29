@@ -5,7 +5,7 @@
   "id": "nz-residency",
   "title": "NZ Residency status",
   "description": "Is the person a NZ resident",
-  "version": "1.3-ballot",
+  "version": "2.0-ballot",
   "url": "https://nzhts.digital.health.nz/fhir/ValueSet/nz-residency-code",
   "compose": {
     "include": [
