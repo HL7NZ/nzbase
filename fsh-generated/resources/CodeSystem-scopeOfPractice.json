@@ -438,10 +438,6 @@
       "display": "Clinical Psychologist"
     },
     {
-      "code": "PSCLPSED",
-      "display": "Clinical and Educational"
-    },
-    {
       "code": "PSCO",
       "display": "Counselling Psychologist"
     },
@@ -545,5 +541,5 @@
     }
   ],
   "caseSensitive": true,
-  "count": 131
+  "count": 130
 }

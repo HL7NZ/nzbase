@@ -129,7 +129,6 @@ Description: "A classification of the type or range of health services that a pr
 * #PBIN "Interim Psychotherapist"
 * #PSCE "Clinical and Educational"
 * #PSCL "Clinical Psychologist"
-* #PSCLPSED "Clinical and Educational"
 * #PSCO "Counselling Psychologist"
 * #PSED "Educational Psychologist"
 * #PSHE "Health Psychologist"
