@@ -6,7 +6,7 @@
   "id": "dhb-code",
   "title": "NZ DHB",
   "description": "NZ District Health Board (HPI-ORG) Codes",
-  "version": "20200401",
+  "version": "1.0.0",
   "url": "https://standards.digital.health.nz/ns/dhb-code",
   "concept": [
     {

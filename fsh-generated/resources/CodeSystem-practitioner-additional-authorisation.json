@@ -6,7 +6,7 @@
   "id": "practitioner-additional-authorisation",
   "title": "Additional Authorisation",
   "description": "Additional authorisations that a practitioner is authorised to practice or prescribe.",
-  "version": "2.0-ballot",
+  "version": "1.0.0",
   "url": "https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code",
   "concept": [
     {

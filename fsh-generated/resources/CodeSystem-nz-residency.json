@@ -6,7 +6,7 @@
   "id": "nz-residency",
   "title": "NZ Residency status",
   "description": "NZ Residency status",
-  "version": "2.0-ballot",
+  "version": "1.0.0",
   "url": "https://standards.digital.health.nz/ns/nz-residency-code",
   "concept": [
     {

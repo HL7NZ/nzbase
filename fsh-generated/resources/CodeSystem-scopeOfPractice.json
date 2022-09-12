@@ -6,7 +6,7 @@
   "id": "scopeOfPractice",
   "title": "Scope of practice",
   "description": "A classification of the type or range of health services that a practitioner is authorised to provide, as determined by the Responsible Authority or other statutory authority (e.g. PHARMAC), that is, what the practitioner can or cannot do. It includes Scope of Practice as defined by the Health Practitioners Competence Assurance Act 2003, any special authorisations granted, and any conditions or limitations imposed by the Responsible Authority.",
-  "version": "2.0-ballot",
+  "version": "1.0.0",
   "url": "https://standards.digital.health.nz/ns/practitioner-scope-of-practice-code",
   "concept": [
     {
@@ -70,6 +70,10 @@
       "display": "Orthodontic Auxiliary Practice"
     },
     {
+      "code": "DEOH",
+      "display": "Oral Health Practice"
+    },
+    {
       "code": "DEOM",
       "display": "Oral Medicine Specialists"
     },
@@ -99,7 +103,7 @@
     },
     {
       "code": "DEPH",
-      "display": "Public Health Dentistry (or Community Dentistry) Specialists"
+      "display": "Public Health Dentistry(or Community Dentistry) Specialists"
     },
     {
       "code": "DEPS",
@@ -138,16 +142,16 @@
       "display": "Anaesthetic Technician"
     },
     {
-      "code": "LTPA",
-      "display": "Medical Laboratory Pre-Analytical Technician"
-    },
-    {
       "code": "LTLS",
       "display": "Medical Laboratory Scientist"
     },
     {
       "code": "LTLT",
       "display": "Medical Laboratory Technician"
+    },
+    {
+      "code": "LTPA",
+      "display": "Medical Laboratory Pre-Analytical Technician"
     },
     {
       "code": "MCAM",
@@ -187,7 +191,7 @@
     },
     {
       "code": "MCFP",
-      "display": "Vocational Scope of Family Planning/Reproductive Health"
+      "display": "Vocational Scope of Family Planning / Reproductive Health"
     },
     {
       "code": "MCGE",
@@ -342,32 +346,124 @@
       "display": "Registered Nurse"
     },
     {
-      "code": "OCCT",
-      "display": "Occupational Therapist"
-    },
-    {
       "code": "OPDI",
-      "display": "Optical Dispensing (Dispensing Optician)"
+      "display": "Optical Dispensing(Dispensing Optician)"
     },
     {
       "code": "OPED",
-      "display": "Educator in Optometry (Educator Optometrist)"
+      "display": "Educator in Optometry(Educator Optometrist)"
     },
     {
       "code": "OPET",
-      "display": "Educator in Optometry (TPA Endorsement) (Educator Optometrist with Therapeutic Pharmaceutical Agents (TPA) Endorsement)"
+      "display": "Educator in Optometry(TPA Endorsement)(Educator Optometrist with Therapeutic Pharmaceutical Agents(TPA) Endorsement)"
+    },
+    {
+      "code": "OPLS",
+      "display": "Ophthalmic Laser Surgeries"
+    },
+    {
+      "code": "OPPO",
+      "display": "Provisional Optometrist"
     },
     {
       "code": "OPTE",
-      "display": "Optometry (TPA Endorsement) (Optometrist with Therapeutic Pharmaceutical Agents (TPA) Endorsement)"
+      "display": "Optometry(TPA Endorsement)(Optometrist with Therapeutic Pharmaceutical Agents(TPA) Endorsement)"
     },
     {
       "code": "OPTP",
-      "display": "Optometry (Optometrist)"
+      "display": "Optometry(Optometrist)"
     },
     {
       "code": "OSTE",
       "display": "Osteopath"
+    },
+    {
+      "code": "OCCT",
+      "display": "Occupational Therapist"
+    },
+    {
+      "code": "OSED",
+      "display": "Osteopath - Educator"
+    },
+    {
+      "code": "OSGE",
+      "display": "Osteopath -Gerontology"
+    },
+    {
+      "code": "OSPM",
+      "display": "Osteopath -Pain Management"
+    },
+    {
+      "code": "OSSP",
+      "display": "Osteopath - Special Purpose"
+    },
+    {
+      "code": "OSTO",
+      "display": "Trainee Osteopath"
+    },
+    {
+      "code": "OSVO",
+      "display": "Visiting Osteopath Presenter"
+    },
+    {
+      "code": "OSWA",
+      "display": "Osteopath -Western Medical Acupuncture"
+    },
+    {
+      "code": "OSCA",
+      "display": "Osteopath -Child and Adolescent Health"
+    },
+    {
+      "code": "PAPS",
+      "display": "Paramedic"
+    },
+    {
+      "code": "PBPS",
+      "display": "Psychotherapist"
+    },
+    {
+      "code": "PBCA",
+      "display": "Psychotherapist with Child and Adolescent Specialism"
+    },
+    {
+      "code": "PBIN",
+      "display": "Interim Psychotherapist"
+    },
+    {
+      "code": "PSCE",
+      "display": "Clinical and Educational"
+    },
+    {
+      "code": "PSCL",
+      "display": "Clinical Psychologist"
+    },
+    {
+      "code": "PSCLPSED",
+      "display": "Clinical and Educational"
+    },
+    {
+      "code": "PSCO",
+      "display": "Counselling Psychologist"
+    },
+    {
+      "code": "PSED",
+      "display": "Educational Psychologist"
+    },
+    {
+      "code": "PSHE",
+      "display": "Health Psychologist"
+    },
+    {
+      "code": "PSIT",
+      "display": "Trainee or Intern Psychologist"
+    },
+    {
+      "code": "PSNE",
+      "display": "Neuropsychologist"
+    },
+    {
+      "code": "PSYC",
+      "display": "Psychologist"
     },
     {
       "code": "PHAR",
@@ -380,10 +476,6 @@
     {
       "code": "PHPP",
       "display": "Pharmacist Prescriber"
-    },
-    {
-      "code": "PHSO",
-      "display": "Physiotherapist"
     },
     {
       "code": "PODI",
@@ -403,31 +495,11 @@
     },
     {
       "code": "POVD",
-      "display": "Visiting Podiatrist Educator/Presenter"
+      "display": "Visiting Podiatrist Educator/ Presenter"
     },
     {
-      "code": "PSCE",
-      "display": "Clinical and Educational"
-    },
-    {
-      "code": "PSCL",
-      "display": "Clinical Psychologist"
-    },
-    {
-      "code": "PSCO",
-      "display": "Counselling Psychologist"
-    },
-    {
-      "code": "PSED",
-      "display": "Educational Psychologist"
-    },
-    {
-      "code": "PSIT",
-      "display": "Trainee or Intern Psychologist"
-    },
-    {
-      "code": "PSYC",
-      "display": "Psychologist"
+      "code": "PHSO",
+      "display": "Physiotherapist"
     },
     {
       "code": "RTMR",
@@ -447,11 +519,11 @@
     },
     {
       "code": "RTTE",
-      "display": "Medical Radiation Technologist"
+      "display": "Medical Imaging Technologist"
     },
     {
       "code": "RTTM",
-      "display": "Trainee Magnetic Resonance Imaging (MRI) Technologist"
+      "display": "Trainee Magnetic Resonance Imaging(MRI) Technologist"
     },
     {
       "code": "RTTN",
@@ -473,5 +545,5 @@
     }
   ],
   "caseSensitive": true,
-  "count": 113
+  "count": 131
 }

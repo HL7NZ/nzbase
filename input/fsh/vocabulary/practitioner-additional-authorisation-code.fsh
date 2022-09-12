@@ -6,6 +6,7 @@ Description: "A coded type for additional authorisations"
 
 * ^url = "https://nzhts.digital.health.nz/fhir/ValueSet/practitioner-additional-authorisation-code"
 * ^jurisdiction.coding = urn:iso:std:iso:3166#NZ
+* ^version = "1.0.0"
 
 * codes from system https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code
 
@@ -17,6 +18,7 @@ Description: "Additional authorisations that a practitioner is authorised to pra
 * ^url = "https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code" 
 * ^jurisdiction.coding = urn:iso:std:iso:3166#NZ
 * ^caseSensitive = true
+* ^version = "1.0.0"
 
 * #CA01 "Cardiothoracic Surgery: Cardiothoracic Surgeon" "Alternate name."
 * #CA02 "Cardiothoracic Surgery: Transplant Surgeon" "Alternate name."

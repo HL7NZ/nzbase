@@ -6,7 +6,7 @@
   "id": "information-source",
   "title": "Information Source",
   "description": "All possible sources of information",
-  "version": "2.0-ballot",
+  "version": "1.0.0",
   "url": "https://standards.digital.health.nz/ns/information-source-code",
   "concept": [
     {

@@ -5,6 +5,7 @@ Title: "Information Source"
 Description: "The source from where the value of this item was sourced"
 
 * ^url = $information-source-vs
+* ^version = "1.0.0"
 * codes from system $information-source-cs
 
 
@@ -14,6 +15,7 @@ Title: "Death date Information Source"
 Description: "The source from where the date of death was sourced"
 
 * ^url = $dod-information-source-vs
+* ^version = "1.0.0"
 
 * $information-source-cs#DREG "Death Register"
 * $information-source-cs#OSEAOFF "Death Overseas Official"
@@ -31,6 +33,7 @@ Description: "All possible sources of information"
 
 * ^url = $information-source-cs
 * ^caseSensitive = true
+* ^version = "1.0.0"
 
 * #BREG "Birth Register" "This code is added only after verification via MOH/DIA birth register matching"
 * #BRCT "Birth Certificate" "Birth Certificate"

@@ -5,7 +5,7 @@
   "id": "coverage-category",
   "title": "Coverage Category",
   "description": "New Zealand codes for Coverage category types",
-  "version": "2.0-ballot",
+  "version": "1.0.0",
   "url": "https://nzhts.digital.health.nz/fhir/ValueSet/coverage-category-code",
   "compose": {
     "include": [

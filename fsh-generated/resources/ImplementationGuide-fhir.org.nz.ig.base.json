@@ -2,7 +2,7 @@
   "resourceType": "ImplementationGuide",
   "id": "fhir.org.nz.ig.base",
   "url": "http://fhir.org.nz/ig/base/ImplementationGuide/fhir.org.nz.ig.base",
-  "version": "2.0-ballot",
+  "version": "2.0-rc1",
   "name": "HL7FHIRNewZealandBaseImplementationGuide",
   "title": "HL7® FHIR® New Zealand Base Implementation Guide",
   "status": "active",
@@ -447,7 +447,7 @@
           "reference": "ValueSet/ethnicity"
         },
         "name": "Ethnicity of a person",
-        "description": "Codes to record a person's ethnicity, drawn from [Level 4 of the Ethnicity code system](http://aria.stats.govt.nz/aria/#ClassificationView:uri=http://stats.govt.nz/cms/ClassificationVersion/YVqOcFHSlguKkT17)\nNote that the correct version of the ethicity code system is 2.1.0",
+        "description": "Codes to record a person's ethnicity, drawn from [Level 4 of the Ethnicity code system](http://aria.stats.govt.nz/aria/#ClassificationView:uri=http://stats.govt.nz/cms/ClassificationVersion/YVqOcFHSlguKkT17)",
         "exampleBoolean": false
       },
       {
@@ -471,7 +471,7 @@
           "reference": "ValueSet/iwi"
         },
         "name": "Iwi",
-        "description": "New Zealand iwi codes",
+        "description": "New Zealand iwi codes.  The 2 digit codes are abstract codes and provided in the expansion for navigational purposes. A user should not select an abstract code directly as a proper value.",
         "exampleBoolean": false
       },
       {
@@ -631,7 +631,7 @@
           "reference": "CodeSystem/iwi-code"
         },
         "name": "NZ Iwi",
-        "description": "NZ Iwi Statistical Standard: 27 May 2022. The version of this resource is actually 2.0.0 ",
+        "description": "NZ Iwi Statistical Standard: 27 May 2022.",
         "exampleBoolean": false
       },
       {
@@ -1176,11 +1176,6 @@
         {
           "nameUrl": "StructureDefinition-nzpatient-summary.html",
           "title": "Structure Definition Nzpatient Summary",
-          "generation": "markdown"
-        },
-        {
-          "nameUrl": "termaudit.html",
-          "title": "Termaudit",
           "generation": "markdown"
         },
         {

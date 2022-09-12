@@ -7,6 +7,7 @@ Description:  "Used in Organization and Location to indicate what is the type of
 
 * ^caseSensitive = true
 * ^url = $alias-type-cs
+* ^version = "1.0.0"
 
 * #aka "Aka" "The name by which the organisation or facility is also known as."
 * #old "Old" "The previous legal name(s) of the organisation/facility."
@@ -24,7 +25,7 @@ Title: "Alias types"
 Description: "The complete set of alias types that apply to Locations and Organizations"
 
 * ^url = $alias-type-vs
-
+* ^version = "1.0.0"
 * codes from system $alias-type-cs
 
 /* 

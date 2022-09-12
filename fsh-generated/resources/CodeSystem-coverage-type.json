@@ -6,7 +6,7 @@
   "id": "coverage-type",
   "title": "Coverage type",
   "description": "New Zealand codes for Coverage Types",
-  "version": "2.0-ballot",
+  "version": "1.0.0",
   "url": "https://standards.digital.health.nz/ns/coverage-type-code",
   "concept": [
     {

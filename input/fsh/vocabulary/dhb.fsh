@@ -5,7 +5,7 @@ Description: "District Health Board Identifer. Assigned by the HPI."
 
 * ^url = $dhb-code-vs
 * ^jurisdiction.coding = urn:iso:std:iso:3166#NZ
-
+* ^version = "1.0.0"
 * codes from system $dhb-code-cs
 
 CodeSystem: Dhb_code
@@ -17,7 +17,7 @@ Description: "NZ District Health Board (HPI-ORG) Codes"
 * ^caseSensitive = true
 
 * ^url = "https://standards.digital.health.nz/ns/dhb-code"
-* ^version = "20200401"
+* ^version = "1.0.0"
 * ^status = #draft
 * ^experimental = false
 * ^date = "2022-08-25"

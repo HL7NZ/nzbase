@@ -4,6 +4,7 @@ Title: "Funded Programme"
 Description:  "Some sort of funded programme"
 
 * ^url = $funded-programme-vs
+* ^version = "1.0.0"
 * codes from system $funded-programme-cs
 
 
@@ -14,6 +15,7 @@ Description:  "Some sort of funded programme"
 
 * ^url = $funded-programme-cs
 * ^caseSensitive = true
+* ^version = "1.0.0"
 
 * #DENTAL_CHILD "Dental Care - Children up to age 13"
 * #DENTAL_ADULT_EMERGENCY "Dental Care – Adult Emergency"

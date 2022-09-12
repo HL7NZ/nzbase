@@ -4,6 +4,7 @@ Title: "NZ Citizenship status"
 Description:  "Citizenship status"
 
 * ^url = $citizenship-status-vs
+* ^version = "1.0.0"
 * codes from system $citizenship-status-cs
 
 
@@ -14,6 +15,7 @@ Description:  "Is this person a NZ Citizen"
 
 * ^url = $citizenship-status-cs
 * ^caseSensitive = true
+* ^version = "1.0.0"
 
 * #yes "Yes" "This patient is a citizen."
 * #no "No" "This patient is not a citizen."

@@ -5,7 +5,7 @@
   "id": "pho",
   "title": "PHO",
   "description": "Primary Healthcare Organization",
-  "version": "2.0-ballot",
+  "version": "1.0.0",
   "url": "https://nzhts.digital.health.nz/fhir/ValueSet/pho-code",
   "compose": {
     "include": [

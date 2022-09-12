@@ -7,7 +7,7 @@ Description: "The code list represents the current practicing status of the Prov
 
 * ^url = https://nzhts.digital.health.nz/fhir/ValueSet/practitioner-registration-status-code
 * ^jurisdiction.coding = urn:iso:std:iso:3166#NZ
-
+* ^version = "2.0"
 
 * codes from system https://standards.digital.health.nz/ns/practitioner-registration-status-code
 
@@ -19,6 +19,7 @@ Description: "The code list represents the current practicing status of the Prov
 * ^url = https://standards.digital.health.nz/ns/practitioner-registration-status-code
 * ^jurisdiction.coding = urn:iso:std:iso:3166#NZ
 * ^caseSensitive = true
+* ^version = "2.0"
 
 * #current "A provider who holds or is deemed to hold a current practising certificate."
 * #inactive "A provider who is not practising"

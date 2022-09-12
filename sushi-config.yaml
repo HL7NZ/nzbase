@@ -2,7 +2,7 @@
 id: fhir.org.nz.ig.base
 #id: hl7.fhir.nz.base
 canonical: http://fhir.org.nz/ig/base
-version: 2.0-ballot
+version: 2.0-rc1
 name: HL7FHIRNewZealandBaseImplementationGuide
 title: HL7® FHIR® New Zealand Base Implementation Guide
 status: active
