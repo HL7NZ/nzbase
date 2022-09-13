@@ -11,7 +11,7 @@
   "concept": [
     {
       "code": "10000",
-      "display": "European NFD"
+      "display": "European nfd"
     },
     {
       "code": "11111",
@@ -19,11 +19,11 @@
     },
     {
       "code": "12100",
-      "display": "British NFD"
+      "display": "British nfd"
     },
     {
       "code": "12111",
-      "display": "Celtic"
+      "display": "Celtic nfd"
     },
     {
       "code": "12112",
@@ -47,7 +47,7 @@
     },
     {
       "code": "12119",
-      "display": "Scottish (Scots)"
+      "display": "Scottish"
     },
     {
       "code": "12121",
@@ -55,15 +55,15 @@
     },
     {
       "code": "12199",
-      "display": "British NEC"
+      "display": "British nec"
     },
     {
       "code": "12211",
-      "display": "Dutch/Netherlands"
+      "display": "Dutch"
     },
     {
       "code": "12311",
-      "display": "Greek (including Greek Cypriot)"
+      "display": "Greek"
     },
     {
       "code": "12411",
@@ -71,11 +71,11 @@
     },
     {
       "code": "12500",
-      "display": "South Slav (formerly Yugoslav groups) NFD"
+      "display": "South Slav nfd"
     },
     {
       "code": "12511",
-      "display": "Croat/Croatian"
+      "display": "Croatian"
     },
     {
       "code": "12512",
@@ -87,11 +87,11 @@
     },
     {
       "code": "12514",
-      "display": "Serb/Serbian"
+      "display": "Serbian"
     },
     {
       "code": "12515",
-      "display": "Slovene/Slovenian"
+      "display": "Slovenian"
     },
     {
       "code": "12516",
@@ -99,7 +99,7 @@
     },
     {
       "code": "12599",
-      "display": "South Slav (formerly Yugoslav groups) NEC"
+      "display": "South Slav nec"
     },
     {
       "code": "12611",
@@ -139,7 +139,7 @@
     },
     {
       "code": "12918",
-      "display": "Cypriot Unspecified"
+      "display": "Cypriot nfd"
     },
     {
       "code": "12919",
@@ -171,7 +171,7 @@
     },
     {
       "code": "12927",
-      "display": "Icelander"
+      "display": "Icelandic"
     },
     {
       "code": "12928",
@@ -195,7 +195,7 @@
     },
     {
       "code": "12933",
-      "display": "Romanian / Rumanian"
+      "display": "Romanian"
     },
     {
       "code": "12934",
@@ -207,7 +207,7 @@
     },
     {
       "code": "12937",
-      "display": "Slavic / Slav"
+      "display": "Slavic"
     },
     {
       "code": "12938",
@@ -231,7 +231,7 @@
     },
     {
       "code": "12943",
-      "display": "American (US)"
+      "display": "American"
     },
     {
       "code": "12945",
@@ -255,7 +255,7 @@
     },
     {
       "code": "12999",
-      "display": "European NEC"
+      "display": "European nec"
     },
     {
       "code": "21111",
@@ -263,7 +263,7 @@
     },
     {
       "code": "30000",
-      "display": "Pacific peoples NFD"
+      "display": "Pacific Peoples nfd"
     },
     {
       "code": "31111",
@@ -271,7 +271,7 @@
     },
     {
       "code": "32100",
-      "display": "Cook Islands Māori"
+      "display": "Cook Islands Maori"
     },
     {
       "code": "33111",
@@ -287,7 +287,7 @@
     },
     {
       "code": "36111",
-      "display": "Fijian (except Fiji Indian / Indo-Fijian)"
+      "display": "Fijian"
     },
     {
       "code": "37112",
@@ -299,15 +299,15 @@
     },
     {
       "code": "37124",
-      "display": "I-Kiribati / Gilbertese"
+      "display": "Kiribati"
     },
     {
       "code": "37130",
-      "display": "Nauru Islander"
+      "display": "Nauruan"
     },
     {
       "code": "37135",
-      "display": "Papuan / New Guinean / Irian Jayan"
+      "display": "Papua New Guinean"
     },
     {
       "code": "37137",
@@ -315,11 +315,11 @@
     },
     {
       "code": "37138",
-      "display": "Rotuman / Rotuman Islander"
+      "display": "Rotuman"
     },
     {
       "code": "37140",
-      "display": "Society Islander (including Tahitian)"
+      "display": "Tahitian"
     },
     {
       "code": "37141",
@@ -327,23 +327,23 @@
     },
     {
       "code": "37144",
-      "display": "Tuvalu Islander / Ellice Islander"
+      "display": "Tuvaluan"
     },
     {
       "code": "37145",
-      "display": "Vanuatu Islander / New Hebridean"
+      "display": "Ni Vanuatu"
     },
     {
       "code": "37199",
-      "display": "Other Pacific peoples NEC"
+      "display": "Pacific Peoples nec"
     },
     {
       "code": "40000",
-      "display": "Asian NFD"
+      "display": "Asian nfd"
     },
     {
       "code": "41000",
-      "display": "Southeast Asian NFD"
+      "display": "Southeast Asian nfd"
     },
     {
       "code": "41111",
@@ -351,7 +351,7 @@
     },
     {
       "code": "41211",
-      "display": "Khmer / Kampuchean / Cambodian"
+      "display": "Cambodian"
     },
     {
       "code": "41311",
@@ -363,7 +363,7 @@
     },
     {
       "code": "41412",
-      "display": "Indonesian (including Javanese / Sundanese / Sumatran)"
+      "display": "Indonesian"
     },
     {
       "code": "41413",
@@ -371,11 +371,11 @@
     },
     {
       "code": "41414",
-      "display": "Malay / Malayan"
+      "display": "Malay"
     },
     {
       "code": "41415",
-      "display": "Thai / Tai / Siamese"
+      "display": "Thai"
     },
     {
       "code": "41416",
@@ -387,11 +387,11 @@
     },
     {
       "code": "41499",
-      "display": "Other Southeast Asian NEC"
+      "display": "Southeast Asian nec"
     },
     {
       "code": "42100",
-      "display": "Chinese NFD"
+      "display": "Chinese nfd"
     },
     {
       "code": "42111",
@@ -399,7 +399,7 @@
     },
     {
       "code": "42112",
-      "display": "Kampuchean Chinese"
+      "display": "Cambodian Chinese"
     },
     {
       "code": "42113",
@@ -415,15 +415,15 @@
     },
     {
       "code": "42116",
-      "display": "Taiwanese Chinese"
+      "display": "Taiwanese"
     },
     {
       "code": "42199",
-      "display": "Chinese NEC"
+      "display": "Chinese nec"
     },
     {
       "code": "43100",
-      "display": "Indian NFD"
+      "display": "Indian nfd"
     },
     {
       "code": "43111",
@@ -431,11 +431,11 @@
     },
     {
       "code": "43112",
-      "display": "Fijian Indian / Indo-Fijian"
+      "display": "Fijian Indian"
     },
     {
       "code": "43114",
-      "display": "Tamil"
+      "display": "Indian Tamil"
     },
     {
       "code": "43115",
@@ -459,11 +459,11 @@
     },
     {
       "code": "43199",
-      "display": "Indian NEC"
+      "display": "Indian nec"
     },
     {
       "code": "44100",
-      "display": "Sri Lankan NFD"
+      "display": "Sri Lankan nfd"
     },
     {
       "code": "44111",
@@ -475,7 +475,7 @@
     },
     {
       "code": "44199",
-      "display": "Sri Lankan NEC"
+      "display": "Sri Lankan nec"
     },
     {
       "code": "44211",
@@ -523,11 +523,11 @@
     },
     {
       "code": "44499",
-      "display": "Other Asian NEC"
+      "display": "Asian nec"
     },
     {
       "code": "51100",
-      "display": "Middle Eastern NFD"
+      "display": "Middle Eastern nfd"
     },
     {
       "code": "51111",
@@ -547,7 +547,7 @@
     },
     {
       "code": "51115",
-      "display": "Iranian / Persian"
+      "display": "Iranian/Persian"
     },
     {
       "code": "51116",
@@ -555,7 +555,7 @@
     },
     {
       "code": "51117",
-      "display": "Israeli / Jewish / Hebrew"
+      "display": "Israeli/Jewish"
     },
     {
       "code": "51118",
@@ -583,15 +583,15 @@
     },
     {
       "code": "51127",
-      "display": "Turkish (including Turkish Cypriot)"
+      "display": "Turkish"
     },
     {
       "code": "51199",
-      "display": "Middle Eastern NEC"
+      "display": "Middle Eastern nec"
     },
     {
       "code": "52100",
-      "display": "Latin American / Hispanic NFD"
+      "display": "Latin American nfd"
     },
     {
       "code": "52111",
@@ -639,11 +639,11 @@
     },
     {
       "code": "52199",
-      "display": "Latin American / Hispanic NEC"
+      "display": "Latin American nec"
     },
     {
       "code": "53100",
-      "display": "African NFD"
+      "display": "African nfd"
     },
     {
       "code": "53113",
@@ -703,11 +703,11 @@
     },
     {
       "code": "53199",
-      "display": "Other African NEC"
+      "display": "African nec"
     },
     {
       "code": "61113",
-      "display": "Indigehous North American"
+      "display": "Indigehous American"
     },
     {
       "code": "61115",
@@ -715,7 +715,7 @@
     },
     {
       "code": "61116",
-      "display": "Seychelles Islander"
+      "display": "Seychellois"
     },
     {
       "code": "61117",
@@ -727,15 +727,15 @@
     },
     {
       "code": "61199",
-      "display": "Other NEC"
+      "display": "Other Ethnicity nec"
     },
     {
       "code": "94444",
-      "display": "Don't know"
+      "display": "Don't Know"
     },
     {
       "code": "95555",
-      "display": "Refused to answer"
+      "display": "Refused to Answer"
     },
     {
       "code": "96666",
@@ -743,7 +743,7 @@
     },
     {
       "code": "97777",
-      "display": "Response unidentifiable"
+      "display": "Response Unidentifiable"
     },
     {
       "code": "98888",
@@ -751,7 +751,7 @@
     },
     {
       "code": "99999",
-      "display": "Not stated"
+      "display": "Not Stated"
     }
   ],
   "caseSensitive": true,
