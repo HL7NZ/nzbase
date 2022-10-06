@@ -2,7 +2,7 @@
   "resourceType": "ImplementationGuide",
   "id": "fhir.org.nz.ig.base",
   "url": "http://fhir.org.nz/ig/base/ImplementationGuide/fhir.org.nz.ig.base",
-  "version": "2.0-rc1",
+  "version": "2.1-rc1",
   "name": "HL7FHIRNewZealandBaseImplementationGuide",
   "title": "HL7® FHIR® New Zealand Base Implementation Guide",
   "status": "active",

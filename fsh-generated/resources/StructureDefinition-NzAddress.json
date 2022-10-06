@@ -6,7 +6,7 @@
     "status": "additional"
   },
   "url": "http://hl7.org.nz/fhir/StructureDefinition/NzAddress",
-  "version": "2.0-rc1",
+  "version": "2.1-rc1",
   "name": "NzAddress",
   "title": "Common NZ Address datatype",
   "status": "active",

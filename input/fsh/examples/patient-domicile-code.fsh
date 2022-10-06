@@ -6,7 +6,7 @@ Description: "Example of Domicile code"
 Usage: #example
 
 * extension[+].url = "http://hl7.org.nz/fhir/StructureDefinition/domicile-code"
-* extension[=].valueCodeableConcept = $csDomCode#0040 "Waipu"
+* extension[=].valueCodeableConcept = $csDomCode#0125 "Waipu"
 
 * name.family = "Doe"
 * name.given = "John"

@@ -7,7 +7,7 @@
       "valueCodeableConcept": {
         "coding": [
           {
-            "code": "0040",
+            "code": "0125",
             "system": "https://standards.digital.health.nz/ns/domicile-code",
             "display": "Waipu"
           }

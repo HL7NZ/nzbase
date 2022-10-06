@@ -4,7 +4,7 @@ Title: "NZ Residency status"
 Description: "Is the person a NZ resident"
 
 * ^url = $nz-residency-vs
-* ^version = "1.0.0"
+* ^version = "1.1.0"
 
 * codes from system $nz-residency-cs
 
@@ -14,7 +14,7 @@ Title: "NZ Residency status"
 Description: "NZ Residency status"
 * ^url = $nz-residency-cs
 * ^caseSensitive = true
-* ^version = "1.0.0"
+* ^version = "1.1.0"
 
 * #yes "Permanent Resident" "Use this status if the person holds a residence class visa"
 * #no "Not a Permanent Resident" "Use this status for a person who is a NZ Citizen or does not hold a residence class visa"
