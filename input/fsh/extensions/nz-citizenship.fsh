@@ -4,7 +4,7 @@ Title: "NZ Citizenship"
 Description: "New Zealand citizenship"
 * ^url = "http://hl7.org.nz/fhir/StructureDefinition/nz-citizenship"
 
-* ^version = "0.1.0"
+* ^version = "1.1.0"
 * ^status = #active
 * ^date = "2020-07-20"
 * ^publisher = "HL7 New Zealand"

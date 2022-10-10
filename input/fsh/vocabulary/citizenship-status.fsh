@@ -17,8 +17,8 @@ Description:  "Is this person a NZ Citizen"
 * ^caseSensitive = true
 * ^version = "1.1.0"
 
-* #yes "Yes" "This patient is a citizen."
-* #no "No" "This patient is not a citizen."
+* #yes "Yes" "This person is a citizen."
+* #no "No" "This person is not a citizen."
 * #unknown "The citizenship status is unknown"
 
 

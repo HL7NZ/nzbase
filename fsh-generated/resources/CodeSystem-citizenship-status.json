@@ -12,12 +12,12 @@
     {
       "code": "yes",
       "display": "Yes",
-      "definition": "This patient is a citizen."
+      "definition": "This person is a citizen."
     },
     {
       "code": "no",
       "display": "No",
-      "definition": "This patient is not a citizen."
+      "definition": "This person is not a citizen."
     },
     {
       "code": "unknown",

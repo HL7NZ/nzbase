@@ -2,7 +2,7 @@
   "resourceType": "StructureDefinition",
   "id": "alias-type",
   "url": "http://hl7.org.nz/fhir/StructureDefinition/alias-type",
-  "version": "2.1-rc1",
+  "version": "2.1-rc2",
   "name": "AliasType",
   "status": "active",
   "description": "Used to indicate what sort of alias is being used in a Location or Organization - eg that it is a legal name.",

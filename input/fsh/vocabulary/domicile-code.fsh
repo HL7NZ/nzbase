@@ -5,7 +5,7 @@ Title: "Domicile Code"
 Description: "Domicile Code"
 
 * ^url = $domicile-code-vs
-* ^version = "1.1"
+* ^version = "3.0"
 * codes from system $domicile-code-cs
 
 CodeSystem: DomicileCode
@@ -15,7 +15,7 @@ Description: "Domicile Code"
 
 * ^url = $domicile-code-cs
 * ^caseSensitive = true
-* ^version = "1.1"
+* ^version = "3.0"
 
 * #0001 "Awanui"
 * #0002 "Karikari Peninsula-Maungataniwha"
