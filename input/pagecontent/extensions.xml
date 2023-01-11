@@ -232,6 +232,42 @@
 <td><p>Indicates if an unusual dose quantity has been prescribed deliberately.</p></td>
 </tr>
 <tr>
+<td><a href='StructureDefinition-nzf-atc.html'>nzf-atc</a></td>
+<td>http://hl7.org.nz/fhir/StructureDefinition/nzf-atc</td>
+<td>
+<div>Medication</div>
+</td>
+<td><p>Anatomical Therapeutic Chemical (ATC) Classification - see https://www.who.int/tools/atc-ddd-toolkit/atc-classification</p></td>
+<td></td>
+</tr>
+<tr>
+<td><a href='StructureDefinition-nzf-nzmt-type.html'>nzf-nzmt-type</a></td>
+<td>http://hl7.org.nz/fhir/StructureDefinition/nzf-nzmt-type</td>
+<td>
+<div>Medication</div>
+</td>
+<td><p>Type of NZMT record (e.g. MP, MPUU)</p></td>
+<td></td>
+</tr>
+<tr>
+<td><a href='StructureDefinition-nzf-prescribe-by-brand.html'>nzf-prescribe-by-brand</a></td>
+<td>http://hl7.org.nz/fhir/StructureDefinition/nzf-prescribe-by-brand</td>
+<td>
+<div>Medication</div>
+</td>
+<td><p>True if can be prescribed by brand</p></td>
+<td></td>
+</tr>
+<tr>
+<td><a href='StructureDefinition-nzf-related-medication.html'>nzf-related-medication</a></td>
+<td>http://hl7.org.nz/fhir/StructureDefinition/nzf-related-medication</td>
+<td>
+<div>Medication</div>
+</td>
+<td><p>A related medication within the NZMT hierarchy</p></td>
+<td></td>
+</tr>
+<tr>
 <td><a href='StructureDefinition-pho.html'>pho</a></td>
 <td>http://hl7.org.nz/fhir/StructureDefinition/pho</td>
 <td>

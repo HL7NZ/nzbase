@@ -100,3 +100,14 @@ Alias: $coverage-category-cs = https://standards.digital.health.nz/ns/coverage-c
 Alias: $contact-point-purpose-cs = https://standards.digital.health.nz/ns/contact-point-purpose-code
 
 // Alias: $nhi-use-cs = https://standards.digital.health.nz/ns/nhi-use-code
+
+
+//Aliases for R3 artifacts
+//These were added by copying from the MDR repo
+
+Alias: $atc-code = https://nzhts.digital.health.nz/fhir/ValueSet/atc-code
+Alias: $nzmt-type = https://nzhts.digital.health.nz/fhir/ValueSet/nzmt-type
+Alias: $nzf-atc = http://hl7.org.nz/fhir/StructureDefinition/nzf-atc
+Alias: $nzf-nzmt-type = http://hl7.org.nz/fhir/StructureDefinition/nzf-nzmt-type
+Alias: $nzf-prescribe-by-brand = http://hl7.org.nz/fhir/StructureDefinition/nzf-prescribe-by-brand
+Alias: $nzf-related-medication = http://hl7.org.nz/fhir/StructureDefinition/nzf-related-medication

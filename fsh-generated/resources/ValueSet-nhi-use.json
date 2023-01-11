@@ -5,7 +5,7 @@
   "id": "nhi-use",
   "title": "Valid use values for NHI",
   "description": "NHI Use codes",
-  "version": "2.1-rc2",
+  "version": "2.1.0",
   "url": "https://nzhts.digital.health.nz/fhir/ValueSet/nhi-use-code",
   "compose": {
     "include": [

@@ -1,8 +1,8 @@
 {
   "resourceType": "ImplementationGuide",
   "id": "fhir.org.nz.ig.base",
-  "url": "http://fhir.org.nz/ig/base/ImplementationGuide/fhir.org.nz.ig.base",
-  "version": "2.1-rc2",
+  "url": "http://hl7.org.nz/fhir/ImplementationGuide/fhir.org.nz.ig.base",
+  "version": "2.1.0",
   "name": "HL7FHIRNewZealandBaseImplementationGuide",
   "title": "HL7® FHIR® New Zealand Base Implementation Guide",
   "status": "active",
@@ -72,6 +72,22 @@
         },
         "name": "Location resource for use in NZ",
         "description": "Location resource for use in NZ",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/NzMedication"
+        },
+        "name": "Medication resource for use in NZ",
+        "description": "Medication resource for use in NZ",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/NzMedicationDispense"
+        },
+        "name": "Medication Dispense resource for use in NZ",
+        "description": "Medication Dispense resource for use in NZ",
         "exampleBoolean": false
       },
       {
@@ -304,6 +320,38 @@
         },
         "name": "NZePS Unusual Dose Quantity Indicator",
         "description": "NZePS Unusual Dose Quantity Indicator",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/nzf-atc"
+        },
+        "name": "Nzf_atc",
+        "description": "Anatomical Therapeutic Chemical (ATC) Classification - see https://www.who.int/tools/atc-ddd-toolkit/atc-classification",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/nzf-nzmt-type"
+        },
+        "name": "Nzf_nzmt_type",
+        "description": "Type of NZMT record (e.g. MP, MPUU)",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/nzf-prescribe-by-brand"
+        },
+        "name": "Nzf_prescribe_by_brand",
+        "description": "True if can be prescribed by brand",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/nzf-related-medication"
+        },
+        "name": "Nzf_related_medication",
+        "description": "A related medication within the NZMT hierarchy",
         "exampleBoolean": false
       },
       {
@@ -1192,7 +1240,7 @@
       },
       {
         "code": "releaselabel",
-        "value": "CI Build"
+        "value": "Draft"
       },
       {
         "code": "show-inherited-invariants",

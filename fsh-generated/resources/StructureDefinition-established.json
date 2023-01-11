@@ -2,7 +2,7 @@
   "resourceType": "StructureDefinition",
   "id": "established",
   "url": "http://hl7.org.nz/fhir/StructureDefinition/established",
-  "version": "2.1-rc2",
+  "version": "2.1.0",
   "name": "Established",
   "status": "active",
   "description": "The period over which the location or Organization is open",

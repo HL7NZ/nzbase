@@ -6,7 +6,7 @@
   "id": "datum-code",
   "title": "Datum codes",
   "description": "Possible datum codes",
-  "version": "2.1-rc2",
+  "version": "2.1.0",
   "url": "https://standards.digital.health.nz/ns/nz-datum-code",
   "concept": [
     {

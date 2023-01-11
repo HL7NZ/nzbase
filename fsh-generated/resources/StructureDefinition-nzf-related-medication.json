@@ -1,0 +1,131 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "nzf-related-medication",
+  "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-related-medication",
+  "version": "0.1.0",
+  "name": "Nzf_related_medication",
+  "status": "draft",
+  "date": "2022-08-25T23:28:05+00:00",
+  "publisher": "New Zealand Medicines Formulary LP",
+  "contact": [
+    {
+      "name": "New Zealand Medicines Formulary LP",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "mailto:reuben@illuminsoftware.com"
+        }
+      ]
+    }
+  ],
+  "description": "A related medication within the NZMT hierarchy",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "code": "NZ",
+          "system": "urn:iso:std:iso:3166"
+        }
+      ]
+    }
+  ],
+  "fhirVersion": "4.0.1",
+  "mapping": [
+    {
+      "identity": "rim",
+      "uri": "http://hl7.org/v3",
+      "name": "RIM Mapping"
+    }
+  ],
+  "kind": "complex-type",
+  "abstract": false,
+  "context": [
+    {
+      "type": "element",
+      "expression": "Medication"
+    }
+  ],
+  "type": "Extension",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Extension",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Extension",
+        "path": "Extension",
+        "definition": "A related medication within the NZMT hierarchy"
+      },
+      {
+        "id": "Extension.extension",
+        "path": "Extension.extension",
+        "min": 2
+      },
+      {
+        "id": "Extension.extension:code",
+        "path": "Extension.extension",
+        "sliceName": "code",
+        "short": "The NZMT code of the related medication",
+        "definition": "The NZMT code of the related medication",
+        "min": 1,
+        "max": "1"
+      },
+      {
+        "id": "Extension.extension:code.extension",
+        "path": "Extension.extension.extension",
+        "max": "0"
+      },
+      {
+        "id": "Extension.extension:code.url",
+        "path": "Extension.extension.url",
+        "fixedUri": "code"
+      },
+      {
+        "id": "Extension.extension:code.value[x]",
+        "path": "Extension.extension.value[x]",
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ]
+      },
+      {
+        "id": "Extension.extension:type",
+        "path": "Extension.extension",
+        "sliceName": "type",
+        "short": "The NZMT type of the related medication",
+        "definition": "The NZMT type of the related medication",
+        "min": 1,
+        "max": "1"
+      },
+      {
+        "id": "Extension.extension:type.extension",
+        "path": "Extension.extension.extension",
+        "max": "0"
+      },
+      {
+        "id": "Extension.extension:type.url",
+        "path": "Extension.extension.url",
+        "fixedUri": "type"
+      },
+      {
+        "id": "Extension.extension:type.value[x]",
+        "path": "Extension.extension.value[x]",
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ]
+      },
+      {
+        "id": "Extension.url",
+        "path": "Extension.url",
+        "fixedUri": "http://hl7.org.nz/fhir/StructureDefinition/nzf-related-medication"
+      },
+      {
+        "id": "Extension.value[x]",
+        "path": "Extension.value[x]",
+        "max": "0"
+      }
+    ]
+  }
+}

@@ -34,6 +34,16 @@
 <td><p>Location resource for use in NZ</p></td>
 </tr>
 <tr>
+<td><a href='StructureDefinition-NzMedication.html'>NzMedication</a></td>
+<td>http://hl7.org.nz/fhir/StructureDefinition/NzMedication</td>
+<td><p>Medication resource for use in NZ</p></td>
+</tr>
+<tr>
+<td><a href='StructureDefinition-NzMedicationDispense.html'>NzMedicationDispense</a></td>
+<td>http://hl7.org.nz/fhir/StructureDefinition/NzMedicationDispense</td>
+<td><p>Medication Dispense resource for use in NZ</p></td>
+</tr>
+<tr>
 <td><a href='StructureDefinition-NzMedicationRequest.html'>NzMedicationRequest</a></td>
 <td>http://hl7.org.nz/fhir/StructureDefinition/NzMedicationRequest</td>
 <td><p>MedicationRequest resource for use in NZ</p></td>
