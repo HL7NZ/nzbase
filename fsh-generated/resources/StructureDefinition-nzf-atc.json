@@ -4,7 +4,7 @@
   "url": "http://hl7.org.nz/fhir/StructureDefinition/nzf-atc",
   "version": "0.1.0",
   "name": "Nzf_atc",
-  "status": "draft",
+  "status": "active",
   "date": "2022-08-25T23:28:05+00:00",
   "publisher": "New Zealand Medicines Formulary LP",
   "contact": [

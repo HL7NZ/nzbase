@@ -5,7 +5,7 @@
   "id": "datumCode",
   "title": "Datum code",
   "description": "Datum codes used",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "url": "https://nzhts.digital.health.nz/fhir/ValueSet/nz-datum-code",
   "jurisdiction": [
     {

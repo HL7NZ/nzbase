@@ -3,7 +3,7 @@ Id: nzf-atc
 Description: "Anatomical Therapeutic Chemical (ATC) Classification - see https://www.who.int/tools/atc-ddd-toolkit/atc-classification"
 * ^url = "http://hl7.org.nz/fhir/StructureDefinition/nzf-atc"
 * ^version = "0.1.0"
-* ^status = #draft
+* ^status = #active
 * ^date = "2022-08-25T23:28:05+00:00"
 * ^publisher = "New Zealand Medicines Formulary LP"
 * ^contact.name = "New Zealand Medicines Formulary LP"

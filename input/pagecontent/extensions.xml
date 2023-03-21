@@ -246,25 +246,7 @@
 <td>
 <div>Medication</div>
 </td>
-<td><p>Type of NZMT record (e.g. MP, MPUU)</p></td>
-<td></td>
-</tr>
-<tr>
-<td><a href='StructureDefinition-nzf-prescribe-by-brand.html'>nzf-prescribe-by-brand</a></td>
-<td>http://hl7.org.nz/fhir/StructureDefinition/nzf-prescribe-by-brand</td>
-<td>
-<div>Medication</div>
-</td>
-<td><p>True if can be prescribed by brand</p></td>
-<td></td>
-</tr>
-<tr>
-<td><a href='StructureDefinition-nzf-related-medication.html'>nzf-related-medication</a></td>
-<td>http://hl7.org.nz/fhir/StructureDefinition/nzf-related-medication</td>
-<td>
-<div>Medication</div>
-</td>
-<td><p>A related medication within the NZMT hierarchy</p></td>
+<td><p>The NZ Medicines Terminology (NZMT) Data Class – MP (Medicinal Product), MPUU (Medicinal Product Unit of Use), MPP (Medicinal Product Pack), TP (Trade Product), TPUU (Trade Product Unit of Use), TPP (Trade Product Pack) or CTPP (Containered Trade Product Pack) – that the Medication is a member of.</p></td>
 <td></td>
 </tr>
 <tr>

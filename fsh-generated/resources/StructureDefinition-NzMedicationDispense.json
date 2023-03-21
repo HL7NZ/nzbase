@@ -12,7 +12,7 @@
     }
   ],
   "url": "http://hl7.org.nz/fhir/StructureDefinition/NzMedicationDispense",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "name": "NzMedicationDispense",
   "title": "Medication Dispense resource for use in NZ",
   "status": "draft",

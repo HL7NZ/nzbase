@@ -2,7 +2,7 @@
   "resourceType": "StructureDefinition",
   "id": "educational-qualification",
   "url": "http://hl7.org.nz/fhir/StructureDefinition/educational-qualification",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "name": "EducationalQualification",
   "status": "active",
   "description": "Educational qualifications a practitioner has. These may or may not be related to registration information.",
