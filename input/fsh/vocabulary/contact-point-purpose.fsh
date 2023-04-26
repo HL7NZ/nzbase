@@ -21,3 +21,7 @@ Description: "The purpose of a ContactPoint - what it is used for."
 * #rx "Prescription"
 * #vc "Video Conference"
 * #wf "Web forum"
+
+* #ob "Online booking"
+* #vob "Vaccination online booking"
+* #www "Website"

@@ -20,8 +20,20 @@
     {
       "code": "wf",
       "display": "Web forum"
+    },
+    {
+      "code": "ob",
+      "display": "Online booking"
+    },
+    {
+      "code": "vob",
+      "display": "Vaccination online booking"
+    },
+    {
+      "code": "www",
+      "display": "Website"
     }
   ],
   "caseSensitive": true,
-  "count": 3
+  "count": 6
 }
