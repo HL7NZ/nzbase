@@ -49,6 +49,15 @@
 <td></td>
 </tr>
 <tr>
+<td><a href='StructureDefinition-country-name.html'>country-name</a></td>
+<td>http://hl7.org.nz/fhir/StructureDefinition/country-name</td>
+<td>
+<div>Address</div>
+</td>
+<td><p>The display name for a country in an address.</p></td>
+<td></td>
+</tr>
+<tr>
 <td><a href='StructureDefinition-death-date.html'>death-date</a></td>
 <td>http://hl7.org.nz/fhir/StructureDefinition/death-date</td>
 <td>

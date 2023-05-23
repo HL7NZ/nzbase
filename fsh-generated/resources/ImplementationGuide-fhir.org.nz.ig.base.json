@@ -180,6 +180,14 @@
       },
       {
         "reference": {
+          "reference": "StructureDefinition/country-name"
+        },
+        "name": "Country Name",
+        "description": "The display name for a country in an address.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
           "reference": "StructureDefinition/death-date"
         },
         "name": "Date of death",
