@@ -200,7 +200,7 @@ described [here](http://aria.stats.govt.nz/aria/#ClassificationView:uri=http://s
 * #53126 "Zambian"
 * #53127 "Other Zimbabwean"
 * #53199 "African nec"
-* #61113 "Indigehous American"
+* #61113 "Indigenous American"
 * #61115 "Mauritian"
 * #61116 "Seychellois"
 * #61117 "Other South African"
