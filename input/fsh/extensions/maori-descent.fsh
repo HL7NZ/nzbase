@@ -6,3 +6,4 @@ Description: "Code indicting whether the person is of Māori descent"
 * ^context.expression = "Patient"
 * value[x] only CodeableConcept
 * valueCodeableConcept from https://nzhts.digital.health.nz/fhir/ValueSet/maori-descent (preferred)
+
