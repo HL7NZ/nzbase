@@ -6,7 +6,6 @@
   "id": "pho-status",
   "title": "PHO",
   "description": "Primary Healthcare Organization",
-  "version": "1.0.0",
   "url": "https://standards.digital.health.nz/ns/pho-code",
   "concept": [
     {
@@ -131,5 +130,6 @@
     }
   ],
   "caseSensitive": true,
+  "version": "1.0.0",
   "count": 30
 }

@@ -1,18 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "NzHealthcareService",
-  "extension": [
-    {
-      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-category",
-      "valueString": "Base.Entities"
-    },
-    {
-      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-security-category",
-      "valueCode": "business"
-    }
-  ],
   "url": "http://hl7.org.nz/fhir/StructureDefinition/NzHealthcareService",
-  "version": "2.1.1",
   "name": "NzHealthcareService",
   "title": "HealthcareService resource for use in NZ",
   "status": "draft",

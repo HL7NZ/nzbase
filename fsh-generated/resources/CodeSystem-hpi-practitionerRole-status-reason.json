@@ -6,7 +6,6 @@
   "id": "hpi-practitionerRole-status-reason",
   "title": "PractitionerRole status reason",
   "description": "The reason for the current status of PractitionerRole",
-  "version": "1.0.0",
   "url": "https://standards.digital.health.nz/ns/hpi-practitioner-role-status-reason-code",
   "concept": [
     {
@@ -37,5 +36,6 @@
     }
   ],
   "caseSensitive": true,
+  "version": "1.0.0",
   "count": 4
 }

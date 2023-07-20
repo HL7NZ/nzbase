@@ -5,7 +5,6 @@
   "id": "contact-point-purpose",
   "title": "ContactPoint purpose",
   "description": "The purpose of a ContactPoint - what it is used for.",
-  "version": "1.0.0",
   "url": "https://nzhts.digital.health.nz/fhir/ValueSet/contact-point-purpose-code",
   "jurisdiction": [
     {
@@ -17,6 +16,7 @@
       ]
     }
   ],
+  "version": "1.0.0",
   "compose": {
     "include": [
       {

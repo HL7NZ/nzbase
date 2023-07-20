@@ -6,7 +6,6 @@
   "id": "nz-residency",
   "title": "NZ Residency status",
   "description": "NZ Residency status",
-  "version": "1.1.0",
   "url": "https://standards.digital.health.nz/ns/nz-residency-code",
   "concept": [
     {
@@ -26,5 +25,6 @@
     }
   ],
   "caseSensitive": true,
+  "version": "1.1.0",
   "count": 3
 }

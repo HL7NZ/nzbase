@@ -6,7 +6,6 @@
   "id": "dhb-code",
   "title": "NZ DHB",
   "description": "NZ District Health Board (HPI-ORG) Codes",
-  "version": "1.0.0",
   "url": "https://standards.digital.health.nz/ns/dhb-code",
   "concept": [
     {
@@ -91,6 +90,7 @@
     }
   ],
   "caseSensitive": true,
+  "version": "1.0.0",
   "experimental": false,
   "date": "2022-08-25",
   "publisher": "Ministry of Health",

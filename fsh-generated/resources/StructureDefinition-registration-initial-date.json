@@ -2,7 +2,6 @@
   "resourceType": "StructureDefinition",
   "id": "registration-initial-date",
   "url": "http://hl7.org.nz/fhir/StructureDefinition/registration-initial-date",
-  "version": "2.1.1",
   "name": "RegistrationInitialDate",
   "status": "active",
   "description": "The date the practitioner first became registered with the Responsible Authority or professional body",

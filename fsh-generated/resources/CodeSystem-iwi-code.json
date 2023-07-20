@@ -6,7 +6,6 @@
   "id": "iwi-code",
   "title": "NZ Iwi",
   "description": "NZ Iwi Statistical Standard: 27 May 2022.",
-  "version": "2.0.0",
   "url": "https://standards.digital.health.nz/ns/iwi-code",
   "concept": [
     {
@@ -842,6 +841,7 @@
       "display": "Not Stated"
     }
   ],
+  "version": "2.0.0",
   "date": "2022-05-10",
   "publisher": "Stats NZ",
   "contact": [

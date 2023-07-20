@@ -28,114 +28,26 @@
     "resource": [
       {
         "reference": {
-          "reference": "StructureDefinition/NzAddress"
+          "reference": "StructureDefinition/contactpoint-purpose"
         },
-        "name": "Common NZ Address datatype",
-        "description": "Adds building name, suburb, domicile code and geocode to the Address datatype",
+        "name": "A specific purpose for which this ContactPoint dataType would be used",
+        "description": "A specific purpose for which this ContactPoint dataType would be used. An example would be to indicate that this ContactPoint is used for video conferencing.",
         "exampleBoolean": false
       },
       {
         "reference": {
-          "reference": "StructureDefinition/NzCondition"
+          "reference": "CodeSystem/practitioner-additional-authorisation"
         },
-        "name": "Condition resource for use in NZ",
-        "description": "This profile adds the Long-Term Condition extension to the base Condition resource",
+        "name": "Additional Authorisation",
+        "description": "Additional authorisations that a practitioner is authorised to practice or prescribe.",
         "exampleBoolean": false
       },
       {
         "reference": {
-          "reference": "StructureDefinition/NzContactPoint"
+          "reference": "ValueSet/practitioner-additional-authorisation-code"
         },
-        "name": "Common NZ ContactPoint datatype",
-        "description": "This profile adds the Contact Point Purpose and EDI address extensions to the standard data type",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "StructureDefinition/NzCoverage"
-        },
-        "name": "Coverage resource for use in NZ (Trial use)",
-        "description": "Coverage resource for use in NZ (Trial use)",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "StructureDefinition/NzHealthcareService"
-        },
-        "name": "HealthcareService resource for use in NZ",
-        "description": "HealthcareService resource for use in NZ",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "StructureDefinition/NzLocation"
-        },
-        "name": "Location resource for use in NZ",
-        "description": "Location resource for use in NZ",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "StructureDefinition/NzMedication"
-        },
-        "name": "Medication resource for use in NZ",
-        "description": "Medication resource for use in NZ",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "StructureDefinition/NzMedicationDispense"
-        },
-        "name": "Medication Dispense resource for use in NZ",
-        "description": "Medication Dispense resource for use in NZ",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "StructureDefinition/NzMedicationRequest"
-        },
-        "name": "MedicationRequest resource for use in NZ",
-        "description": "MedicationRequest resource for use in NZ",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "StructureDefinition/NzMedicationStatement"
-        },
-        "name": "MedicationStatement resource for use in NZ",
-        "description": "MedicationStatement resource for use in NZ",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "StructureDefinition/NzOrganization"
-        },
-        "name": "Organization resource for use in NZ",
-        "description": "Organization resource for use in NZ",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "StructureDefinition/NzPatient"
-        },
-        "name": "NZ Patient",
-        "description": "The base New Zealand Patient profile",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "StructureDefinition/NzPractitioner"
-        },
-        "name": "Practitioner resource for use in NZ",
-        "description": "Practitioner resource for use in NZ",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "StructureDefinition/NzPractitionerRole"
-        },
-        "name": "PractitionerRole resource for use in NZ",
-        "description": "PractitionerRole resource for use in NZ",
+        "name": "Additional Practitioner authorisations",
+        "description": "A coded type for additional authorisations",
         "exampleBoolean": false
       },
       {
@@ -144,6 +56,14 @@
         },
         "name": "AdditionalAuthorisation",
         "description": "Additional authorisations that a practitioner is authorised to perform",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/location-alias-type"
+        },
+        "name": "Alias types",
+        "description": "The complete set of alias types that apply to Locations and Organizations",
         "exampleBoolean": false
       },
       {
@@ -164,6 +84,38 @@
       },
       {
         "reference": {
+          "reference": "StructureDefinition/NzAddress"
+        },
+        "name": "Common NZ Address datatype",
+        "description": "Adds building name, suburb, domicile code and geocode to the Address datatype",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/NzContactPoint"
+        },
+        "name": "Common NZ ContactPoint datatype",
+        "description": "This profile adds the Contact Point Purpose and EDI address extensions to the standard data type",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/NzCondition"
+        },
+        "name": "Condition resource for use in NZ",
+        "description": "This profile adds the Long-Term Condition extension to the base Condition resource",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "Condition/condition-long-term-condition"
+        },
+        "name": "condition-long-term-condition",
+        "description": "Example of long term condition",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
           "reference": "StructureDefinition/condition-on-practice"
         },
         "name": "ConditionOnPractice",
@@ -172,10 +124,18 @@
       },
       {
         "reference": {
-          "reference": "StructureDefinition/contactpoint-purpose"
+          "reference": "ValueSet/contact-point-purpose"
         },
-        "name": "A specific purpose for which this ContactPoint dataType would be used",
-        "description": "A specific purpose for which this ContactPoint dataType would be used. An example would be to indicate that this ContactPoint is used for video conferencing.",
+        "name": "ContactPoint purpose",
+        "description": "The purpose of a ContactPoint - what it is used for.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/contact-point-purpose"
+        },
+        "name": "ContactPoint purpose",
+        "description": "The purpose of a ContactPoint - what it is used for.",
         "exampleBoolean": false
       },
       {
@@ -188,10 +148,106 @@
       },
       {
         "reference": {
+          "reference": "ValueSet/coverage-category"
+        },
+        "name": "Coverage Category",
+        "description": "New Zealand codes for Coverage category types",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/coverage-category"
+        },
+        "name": "Coverage category",
+        "description": "New Zealand codes for Coverage category types",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/NzCoverage"
+        },
+        "name": "Coverage resource for use in NZ (Trial use)",
+        "description": "Coverage resource for use in NZ (Trial use)",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/coverage-type"
+        },
+        "name": "Coverage Type",
+        "description": "New Zealand codes for Coverage Types",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/coverage-type"
+        },
+        "name": "Coverage type",
+        "description": "New Zealand codes for Coverage Types",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "Coverage/CoverageCSC"
+        },
+        "name": "CoverageCSC",
+        "description": "CSC Coverage example",
+        "exampleCanonical": "http://hl7.org.nz/fhir/StructureDefinition/NzCoverage"
+      },
+      {
+        "reference": {
+          "reference": "Coverage/CoverageGMS"
+        },
+        "name": "CoverageGMS",
+        "description": "GMS Coverage example",
+        "exampleCanonical": "http://hl7.org.nz/fhir/StructureDefinition/NzCoverage"
+      },
+      {
+        "reference": {
+          "reference": "Coverage/CoverageHUHC"
+        },
+        "name": "CoverageHUHC",
+        "description": "HUHC Coverage example",
+        "exampleCanonical": "http://hl7.org.nz/fhir/StructureDefinition/NzCoverage"
+      },
+      {
+        "reference": {
           "reference": "StructureDefinition/death-date"
         },
         "name": "Date of death",
         "description": "The date of death of the individual, plus the source of that information",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/datumCode"
+        },
+        "name": "Datum code",
+        "description": "Datum codes used",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/datum-code"
+        },
+        "name": "Datum codes",
+        "description": "Possible datum codes",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/dod-information-source"
+        },
+        "name": "Death date Information Source",
+        "description": "The source from where the date of death was sourced",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/dhb"
+        },
+        "name": "District Health Board Identifer",
+        "description": "District Health Board Identifer. Assigned by the HPI.",
         "exampleBoolean": false
       },
       {
@@ -204,10 +260,18 @@
       },
       {
         "reference": {
-          "reference": "StructureDefinition/domicile-code"
+          "reference": "ValueSet/domicile-code"
         },
-        "name": "NZ Domicile Code",
-        "description": "NZ Domicile Code. Derived from a patient's primary physical, home address.",
+        "name": "Domicile Code",
+        "description": "Domicile Code",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/domicile-code"
+        },
+        "name": "Domicile Code",
+        "description": "Domicile Code",
         "exampleBoolean": false
       },
       {
@@ -236,10 +300,70 @@
       },
       {
         "reference": {
+          "reference": "ValueSet/ethnicity"
+        },
+        "name": "Ethnicity of a person",
+        "description": "Codes to record a person's ethnicity, drawn from [Level 4 of the Ethnicity code system](http://aria.stats.govt.nz/aria/#ClassificationView:uri=http://stats.govt.nz/cms/ClassificationVersion/YVqOcFHSlguKkT17)",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
           "reference": "StructureDefinition/funded-programme"
         },
         "name": "Funded Healthcare Programme",
         "description": "Funded NZ Healthcare Programmes",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/funded-programme"
+        },
+        "name": "Funded Programme",
+        "description": "Some sort of funded programme",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/funded-programme"
+        },
+        "name": "Funded Programme",
+        "description": "Some sort of funded programme",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/NzHealthcareService"
+        },
+        "name": "HealthcareService resource for use in NZ",
+        "description": "HealthcareService resource for use in NZ",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/hpiFacility"
+        },
+        "name": "hpiFacility",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/hpiOrganization"
+        },
+        "name": "hpiOrganization",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/hpipractitionerrole"
+        },
+        "name": "hpipractitionerrole",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/hpiProvider"
+        },
+        "name": "hpiProvider",
         "exampleBoolean": false
       },
       {
@@ -252,10 +376,122 @@
       },
       {
         "reference": {
+          "reference": "ValueSet/information-source"
+        },
+        "name": "Information Source",
+        "description": "The source from where the value of this item was sourced",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/information-source"
+        },
+        "name": "Information Source",
+        "description": "All possible sources of information",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/iwi"
+        },
+        "name": "Iwi",
+        "description": "New Zealand iwi codes.  The 2 digit codes are abstract codes and provided in the expansion for navigational purposes. A user should not select an abstract code directly as a proper value.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/ethnicityL4"
+        },
+        "name": "Level 4 ethnicity codes",
+        "description": "Codes to record a person’s ethnicity, drawn from Level 4 of the Ethnicity code system \ndescribed [here](http://aria.stats.govt.nz/aria/#ClassificationView:uri=http://stats.govt.nz/cms/ClassificationVersion/YVqOcFHSlguKkT17)",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/NzLocation"
+        },
+        "name": "Location resource for use in NZ",
+        "description": "Location resource for use in NZ",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "Location/location-alias-type"
+        },
+        "name": "location-alias-type",
+        "description": "A location with an alias type against the alias.",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Location/location-established"
+        },
+        "name": "location-established",
+        "description": "A location with the date established",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
           "reference": "StructureDefinition/long-term-condition"
         },
         "name": "Long Term Condition Indicator",
         "description": "Long Term Condition Indicator. A long term condition can be  defined as any ongoing, long term or recurring conditions that can have a significant impact on people’s lives.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/NzMedicationDispense"
+        },
+        "name": "Medication Dispense resource for use in NZ",
+        "description": "Medication Dispense resource for use in NZ",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/NzMedication"
+        },
+        "name": "Medication resource for use in NZ",
+        "description": "Medication resource for use in NZ",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/NzMedicationRequest"
+        },
+        "name": "MedicationRequest resource for use in NZ",
+        "description": "MedicationRequest resource for use in NZ",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "MedicationRequest/medicationrequest-nzeps-long-term-medication"
+        },
+        "name": "medicationrequest-nzeps-long-term-medication",
+        "description": "Example of long term medication",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "MedicationRequest/medicationrequest-nzeps-supply-period-reason"
+        },
+        "name": "medicationrequest-nzeps-supply-period-reason",
+        "description": "Example of supply period reason",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "MedicationRequest/medicationrequest-nzeps-unusual-dose-quantity"
+        },
+        "name": "medicationrequest-nzeps-unusual-dose-quantity",
+        "description": "Example of sunusual does quantity",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/NzMedicationStatement"
+        },
+        "name": "MedicationStatement resource for use in NZ",
+        "description": "MedicationStatement resource for use in NZ",
         "exampleBoolean": false
       },
       {
@@ -268,10 +504,9 @@
       },
       {
         "reference": {
-          "reference": "StructureDefinition/nz-residency"
+          "reference": "NamingSystem/nhi"
         },
-        "name": "NZResidency",
-        "description": "NZ Residency status",
+        "name": "nhi",
         "exampleBoolean": false
       },
       {
@@ -280,6 +515,38 @@
         },
         "name": "NZ Citizenship",
         "description": "New Zealand citizenship",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/citizenship-status"
+        },
+        "name": "NZ Citizenship status",
+        "description": "Citizenship status",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/citizenship-status"
+        },
+        "name": "NZ Citizenship status",
+        "description": "Is this person a NZ Citizen",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/dhb-code"
+        },
+        "name": "NZ DHB",
+        "description": "NZ District Health Board (HPI-ORG) Codes",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/domicile-code"
+        },
+        "name": "NZ Domicile Code",
+        "description": "NZ Domicile Code. Derived from a patient's primary physical, home address.",
         "exampleBoolean": false
       },
       {
@@ -300,10 +567,70 @@
       },
       {
         "reference": {
-          "reference": "StructureDefinition/nz-iwi"
+          "reference": "CodeSystem/iwi-code"
         },
-        "name": "Nz_iwi",
-        "description": "Persons Iwi affiliation",
+        "name": "NZ Iwi",
+        "description": "NZ Iwi Statistical Standard: 27 May 2022.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/NzPatient"
+        },
+        "name": "NZ Patient",
+        "description": "The base New Zealand Patient profile",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/nz-residency"
+        },
+        "name": "NZ Residency status",
+        "description": "Is the person a NZ resident",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/nz-residency"
+        },
+        "name": "NZ Residency status",
+        "description": "NZ Residency status",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/suburb"
+        },
+        "name": "NZ Suburb",
+        "description": "Suburb element of a NZ Address.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/nzbn"
+        },
+        "name": "nzbn",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/nzchrir"
+        },
+        "name": "nzchrir",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/nzdental"
+        },
+        "name": "nzdental",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/nzdiet"
+        },
+        "name": "nzdiet",
         "exampleBoolean": false
       },
       {
@@ -344,509 +671,6 @@
         },
         "name": "Nzf_nzmt_type",
         "description": "The NZ Medicines Terminology (NZMT) Data Class – MP (Medicinal Product), MPUU (Medicinal Product Unit of Use), MPP (Medicinal Product Pack), TP (Trade Product), TPUU (Trade Product Unit of Use), TPP (Trade Product Pack) or CTPP (Containered Trade Product Pack) – that the Medication is a member of.",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "StructureDefinition/pho"
-        },
-        "name": "Primary Healthcare Organisation",
-        "description": "Primary Healthcare Organisation associated with a General Practice linked to a NZ Healthcare Service, Location (Facility) or Patient (GP).",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "StructureDefinition/practitionerRole-creator"
-        },
-        "name": "PractitionerRoleCreator",
-        "description": "The organisation and person that created this role",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "StructureDefinition/practitionerRole-status-reason"
-        },
-        "name": "PractitionerRoleStatusReason",
-        "description": "The reason for the status. Generally only used for inactive resources.",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "StructureDefinition/registration-initial-date"
-        },
-        "name": "RegistrationInitialDate",
-        "description": "The date the practitioner first became registered with the Responsible Authority or professional body",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "StructureDefinition/registration-status-code"
-        },
-        "name": "RegistrationStatusCode",
-        "description": "An indicator of the practicing status of the practitioner as supplied by their Responsible Authority or professional body.",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "StructureDefinition/scope-of-practice"
-        },
-        "name": "ScopeOfPractice",
-        "description": "The type or range of health services a practitioner is authorised to perform, as determined by the Responsible Authority or professional body.",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "StructureDefinition/sex-at-birth"
-        },
-        "name": "Sex At Birth",
-        "description": "A person’s sex at the time of their birth (considered to be immutable).",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "StructureDefinition/suburb"
-        },
-        "name": "NZ Suburb",
-        "description": "Suburb element of a NZ Address.",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "ValueSet/location-alias-type"
-        },
-        "name": "Alias types",
-        "description": "The complete set of alias types that apply to Locations and Organizations",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "ValueSet/citizenship-status"
-        },
-        "name": "NZ Citizenship status",
-        "description": "Citizenship status",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "ValueSet/contact-point-purpose"
-        },
-        "name": "ContactPoint purpose",
-        "description": "The purpose of a ContactPoint - what it is used for.",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "ValueSet/coverage-category"
-        },
-        "name": "Coverage Category",
-        "description": "New Zealand codes for Coverage category types",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "ValueSet/coverage-type"
-        },
-        "name": "Coverage Type",
-        "description": "New Zealand codes for Coverage Types",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "ValueSet/dhb"
-        },
-        "name": "District Health Board Identifer",
-        "description": "District Health Board Identifer. Assigned by the HPI.",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "ValueSet/datumCode"
-        },
-        "name": "Datum code",
-        "description": "Datum codes used",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "ValueSet/dod-information-source"
-        },
-        "name": "Death date Information Source",
-        "description": "The source from where the date of death was sourced",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "ValueSet/domicile-code"
-        },
-        "name": "Domicile Code",
-        "description": "Domicile Code",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "ValueSet/ethnicity"
-        },
-        "name": "Ethnicity of a person",
-        "description": "Codes to record a person's ethnicity, drawn from [Level 4 of the Ethnicity code system](http://aria.stats.govt.nz/aria/#ClassificationView:uri=http://stats.govt.nz/cms/ClassificationVersion/YVqOcFHSlguKkT17)",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "ValueSet/funded-programme"
-        },
-        "name": "Funded Programme",
-        "description": "Some sort of funded programme",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "ValueSet/information-source"
-        },
-        "name": "Information Source",
-        "description": "The source from where the value of this item was sourced",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "ValueSet/iwi"
-        },
-        "name": "Iwi",
-        "description": "New Zealand iwi codes.  The 2 digit codes are abstract codes and provided in the expansion for navigational purposes. A user should not select an abstract code directly as a proper value.",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "ValueSet/nhi-use"
-        },
-        "name": "Valid use values for NHI",
-        "description": "NHI Use codes",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "ValueSet/nz-residency"
-        },
-        "name": "NZ Residency status",
-        "description": "Is the person a NZ resident",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "ValueSet/pho"
-        },
-        "name": "PHO",
-        "description": "Primary Healthcare Organization",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "ValueSet/practitioner-additional-authorisation-code"
-        },
-        "name": "Additional Practitioner authorisations",
-        "description": "A coded type for additional authorisations",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "ValueSet/practitioner-registration-status-code"
-        },
-        "name": "Registration Status of Practitioners",
-        "description": "The code list represents the current practicing status of the Provider Person as per their registration with an RA.",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "ValueSet/hpi-practitionerrole-status-reason"
-        },
-        "name": "PractitionerRole status reason",
-        "description": "The reason for the current status of PractitionerRole",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "ValueSet/practitioner-scope-of-practice"
-        },
-        "name": "Scope of practice",
-        "description": "A coded type for professional scope of practice.",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "CodeSystem/practitioner-additional-authorisation"
-        },
-        "name": "Additional Authorisation",
-        "description": "Additional authorisations that a practitioner is authorised to practice or prescribe.",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "CodeSystem/alias-type"
-        },
-        "name": "Type of Alias",
-        "description": "Used in Organization and Location to indicate what is the type of Alias",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "CodeSystem/citizenship-status"
-        },
-        "name": "NZ Citizenship status",
-        "description": "Is this person a NZ Citizen",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "CodeSystem/contact-point-purpose"
-        },
-        "name": "ContactPoint purpose",
-        "description": "The purpose of a ContactPoint - what it is used for.",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "CodeSystem/coverage-category"
-        },
-        "name": "Coverage category",
-        "description": "New Zealand codes for Coverage category types",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "CodeSystem/coverage-type"
-        },
-        "name": "Coverage type",
-        "description": "New Zealand codes for Coverage Types",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "CodeSystem/datum-code"
-        },
-        "name": "Datum codes",
-        "description": "Possible datum codes",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "CodeSystem/dhb-code"
-        },
-        "name": "NZ DHB",
-        "description": "NZ District Health Board (HPI-ORG) Codes",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "CodeSystem/domicile-code"
-        },
-        "name": "Domicile Code",
-        "description": "Domicile Code",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "CodeSystem/ethnicityL4"
-        },
-        "name": "Level 4 ethnicity codes",
-        "description": "Codes to record a person’s ethnicity, drawn from Level 4 of the Ethnicity code system \ndescribed [here](http://aria.stats.govt.nz/aria/#ClassificationView:uri=http://stats.govt.nz/cms/ClassificationVersion/YVqOcFHSlguKkT17)",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "CodeSystem/funded-programme"
-        },
-        "name": "Funded Programme",
-        "description": "Some sort of funded programme",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "CodeSystem/information-source"
-        },
-        "name": "Information Source",
-        "description": "All possible sources of information",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "CodeSystem/iwi-code"
-        },
-        "name": "NZ Iwi",
-        "description": "NZ Iwi Statistical Standard: 27 May 2022.",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "CodeSystem/nz-residency"
-        },
-        "name": "NZ Residency status",
-        "description": "NZ Residency status",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "CodeSystem/pho-status"
-        },
-        "name": "PHO",
-        "description": "Primary Healthcare Organization",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "CodeSystem/practitioner-registration-status-code"
-        },
-        "name": "Registration Status of Practitioners",
-        "description": "The code list represents the current practicing status of the Provider Person as per their registration with an RA.",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "CodeSystem/hpi-practitionerRole-status-reason"
-        },
-        "name": "PractitionerRole status reason",
-        "description": "The reason for the current status of PractitionerRole",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "CodeSystem/scopeOfPractice"
-        },
-        "name": "Scope of practice",
-        "description": "A classification of the type or range of health services that a practitioner is authorised to provide, as determined by the Responsible Authority or other statutory authority (e.g. PHARMAC), that is, what the practitioner can or cannot do. It includes Scope of Practice as defined by the Health Practitioners Competence Assurance Act 2003, any special authorisations granted, and any conditions or limitations imposed by the Responsible Authority.",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "Coverage/CoverageCSC"
-        },
-        "name": "CoverageCSC",
-        "description": "CSC Coverage example",
-        "exampleCanonical": "http://hl7.org.nz/fhir/StructureDefinition/NzCoverage"
-      },
-      {
-        "reference": {
-          "reference": "Coverage/CoverageGMS"
-        },
-        "name": "CoverageGMS",
-        "description": "GMS Coverage example",
-        "exampleCanonical": "http://hl7.org.nz/fhir/StructureDefinition/NzCoverage"
-      },
-      {
-        "reference": {
-          "reference": "Coverage/CoverageHUHC"
-        },
-        "name": "CoverageHUHC",
-        "description": "HUHC Coverage example",
-        "exampleCanonical": "http://hl7.org.nz/fhir/StructureDefinition/NzCoverage"
-      },
-      {
-        "reference": {
-          "reference": "Condition/condition-long-term-condition"
-        },
-        "name": "condition-long-term-condition",
-        "description": "Example of long term condition",
-        "exampleBoolean": true
-      },
-      {
-        "reference": {
-          "reference": "NamingSystem/hpiFacility"
-        },
-        "name": "hpiFacility",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "NamingSystem/hpiOrganization"
-        },
-        "name": "hpiOrganization",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "NamingSystem/hpiProvider"
-        },
-        "name": "hpiProvider",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "NamingSystem/hpipractitionerrole"
-        },
-        "name": "hpipractitionerrole",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "Location/location-alias-type"
-        },
-        "name": "location-alias-type",
-        "description": "A location with an alias type against the alias.",
-        "exampleBoolean": true
-      },
-      {
-        "reference": {
-          "reference": "Location/location-established"
-        },
-        "name": "location-established",
-        "description": "A location with the date established",
-        "exampleBoolean": true
-      },
-      {
-        "reference": {
-          "reference": "MedicationRequest/medicationrequest-nzeps-long-term-medication"
-        },
-        "name": "medicationrequest-nzeps-long-term-medication",
-        "description": "Example of long term medication",
-        "exampleBoolean": true
-      },
-      {
-        "reference": {
-          "reference": "MedicationRequest/medicationrequest-nzeps-supply-period-reason"
-        },
-        "name": "medicationrequest-nzeps-supply-period-reason",
-        "description": "Example of supply period reason",
-        "exampleBoolean": true
-      },
-      {
-        "reference": {
-          "reference": "MedicationRequest/medicationrequest-nzeps-unusual-dose-quantity"
-        },
-        "name": "medicationrequest-nzeps-unusual-dose-quantity",
-        "description": "Example of sunusual does quantity",
-        "exampleBoolean": true
-      },
-      {
-        "reference": {
-          "reference": "NamingSystem/nhi"
-        },
-        "name": "nhi",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "NamingSystem/nzbn"
-        },
-        "name": "nzbn",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "NamingSystem/nzchrir"
-        },
-        "name": "nzchrir",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "NamingSystem/nzdental"
-        },
-        "name": "nzdental",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "NamingSystem/nzdiet"
-        },
-        "name": "nzdiet",
         "exampleBoolean": false
       },
       {
@@ -942,9 +766,33 @@
       },
       {
         "reference": {
+          "reference": "StructureDefinition/nz-residency"
+        },
+        "name": "NZResidency",
+        "description": "NZ Residency status",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
           "reference": "NamingSystem/nzscience"
         },
         "name": "nzscience",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/nz-iwi"
+        },
+        "name": "Nz_iwi",
+        "description": "Persons Iwi affiliation",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/NzOrganization"
+        },
+        "name": "Organization resource for use in NZ",
+        "description": "Organization resource for use in NZ",
         "exampleBoolean": false
       },
       {
@@ -1101,6 +949,30 @@
       },
       {
         "reference": {
+          "reference": "ValueSet/pho"
+        },
+        "name": "PHO",
+        "description": "Primary Healthcare Organization",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/pho-status"
+        },
+        "name": "PHO",
+        "description": "Primary Healthcare Organization",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/NzPractitioner"
+        },
+        "name": "Practitioner resource for use in NZ",
+        "description": "Practitioner resource for use in NZ",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
           "reference": "Practitioner/practitioner-additional-authorisation"
         },
         "name": "practitioner-additional-authorisation",
@@ -1165,6 +1037,30 @@
       },
       {
         "reference": {
+          "reference": "StructureDefinition/NzPractitionerRole"
+        },
+        "name": "PractitionerRole resource for use in NZ",
+        "description": "PractitionerRole resource for use in NZ",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/hpi-practitionerrole-status-reason"
+        },
+        "name": "PractitionerRole status reason",
+        "description": "The reason for the current status of PractitionerRole",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/hpi-practitionerRole-status-reason"
+        },
+        "name": "PractitionerRole status reason",
+        "description": "The reason for the current status of PractitionerRole",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
           "reference": "PractitionerRole/practitionerRole-creator"
         },
         "name": "practitionerRole-creator",
@@ -1186,6 +1082,110 @@
         "name": "practitionerRole-status-reason",
         "description": "Example of status reason",
         "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/practitionerRole-creator"
+        },
+        "name": "PractitionerRoleCreator",
+        "description": "The organisation and person that created this role",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/practitionerRole-status-reason"
+        },
+        "name": "PractitionerRoleStatusReason",
+        "description": "The reason for the status. Generally only used for inactive resources.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/pho"
+        },
+        "name": "Primary Healthcare Organisation",
+        "description": "Primary Healthcare Organisation associated with a General Practice linked to a NZ Healthcare Service, Location (Facility) or Patient (GP).",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/practitioner-registration-status-code"
+        },
+        "name": "Registration Status of Practitioners",
+        "description": "The code list represents the current practicing status of the Provider Person as per their registration with an RA.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/practitioner-registration-status-code"
+        },
+        "name": "Registration Status of Practitioners",
+        "description": "The code list represents the current practicing status of the Provider Person as per their registration with an RA.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/registration-initial-date"
+        },
+        "name": "RegistrationInitialDate",
+        "description": "The date the practitioner first became registered with the Responsible Authority or professional body",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/registration-status-code"
+        },
+        "name": "RegistrationStatusCode",
+        "description": "An indicator of the practicing status of the practitioner as supplied by their Responsible Authority or professional body.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/practitioner-scope-of-practice"
+        },
+        "name": "Scope of practice",
+        "description": "A coded type for professional scope of practice.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/scopeOfPractice"
+        },
+        "name": "Scope of practice",
+        "description": "A classification of the type or range of health services that a practitioner is authorised to provide, as determined by the Responsible Authority or other statutory authority (e.g. PHARMAC), that is, what the practitioner can or cannot do. It includes Scope of Practice as defined by the Health Practitioners Competence Assurance Act 2003, any special authorisations granted, and any conditions or limitations imposed by the Responsible Authority.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/scope-of-practice"
+        },
+        "name": "ScopeOfPractice",
+        "description": "The type or range of health services a practitioner is authorised to perform, as determined by the Responsible Authority or professional body.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/sex-at-birth"
+        },
+        "name": "Sex At Birth",
+        "description": "A person’s sex at the time of their birth (considered to be immutable).",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/alias-type"
+        },
+        "name": "Type of Alias",
+        "description": "Used in Organization and Location to indicate what is the type of Alias",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/nhi-use"
+        },
+        "name": "Valid use values for NHI",
+        "description": "NHI Use codes",
+        "exampleBoolean": false
       }
     ],
     "page": {

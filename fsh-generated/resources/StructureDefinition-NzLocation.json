@@ -1,18 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "NzLocation",
-  "extension": [
-    {
-      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-category",
-      "valueString": "Base.Entities"
-    },
-    {
-      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-security-category",
-      "valueCode": "business"
-    }
-  ],
   "url": "http://hl7.org.nz/fhir/StructureDefinition/NzLocation",
-  "version": "2.1.1",
   "name": "NzLocation",
   "title": "Location resource for use in NZ",
   "status": "draft",

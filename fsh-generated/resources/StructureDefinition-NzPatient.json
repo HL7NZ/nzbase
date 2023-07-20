@@ -5,18 +5,7 @@
     "status": "additional",
     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">NZ Patient profile</div>"
   },
-  "extension": [
-    {
-      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-category",
-      "valueString": "Base.Individuals"
-    },
-    {
-      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-security-category",
-      "valueCode": "patient"
-    }
-  ],
   "url": "http://hl7.org.nz/fhir/StructureDefinition/NzPatient",
-  "version": "2.1.1",
   "name": "NzPatient",
   "title": "NZ Patient",
   "status": "active",

@@ -1,18 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "NzMedication",
-  "extension": [
-    {
-      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-category",
-      "valueString": "Clinical.Medications"
-    },
-    {
-      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-security-category",
-      "valueCode": "business"
-    }
-  ],
   "url": "http://hl7.org.nz/fhir/StructureDefinition/NzMedication",
-  "version": "2.1.1",
   "name": "NzMedication",
   "title": "Medication resource for use in NZ",
   "status": "draft",

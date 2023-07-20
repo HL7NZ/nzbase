@@ -6,7 +6,6 @@
   "id": "funded-programme",
   "title": "Funded Programme",
   "description": "Some sort of funded programme",
-  "version": "1.0.0",
   "url": "https://standards.digital.health.nz/ns/funded-programme-code",
   "concept": [
     {
@@ -27,5 +26,6 @@
     }
   ],
   "caseSensitive": true,
+  "version": "1.0.0",
   "count": 4
 }

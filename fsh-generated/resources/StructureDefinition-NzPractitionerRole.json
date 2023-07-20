@@ -1,18 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "NzPractitionerRole",
-  "extension": [
-    {
-      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-category",
-      "valueString": "Base.Individuals"
-    },
-    {
-      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-security-category",
-      "valueCode": "individual"
-    }
-  ],
   "url": "http://hl7.org.nz/fhir/StructureDefinition/NzPractitionerRole",
-  "version": "2.1.1",
   "name": "NzPractitionerRole",
   "title": "PractitionerRole resource for use in NZ",
   "status": "draft",

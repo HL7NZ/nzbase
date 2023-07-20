@@ -5,8 +5,8 @@
   "id": "domicile-code",
   "title": "Domicile Code",
   "description": "Domicile Code",
-  "version": "3.0",
   "url": "https://nzhts.digital.health.nz/fhir/ValueSet/domicile-code",
+  "version": "3.0",
   "compose": {
     "include": [
       {

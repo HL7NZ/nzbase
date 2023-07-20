@@ -5,7 +5,6 @@
   "id": "practitioner-additional-authorisation-code",
   "title": "Additional Practitioner authorisations",
   "description": "A coded type for additional authorisations",
-  "version": "1.0.0",
   "url": "https://nzhts.digital.health.nz/fhir/ValueSet/practitioner-additional-authorisation-code",
   "jurisdiction": [
     {
@@ -17,6 +16,7 @@
       ]
     }
   ],
+  "version": "1.0.0",
   "compose": {
     "include": [
       {

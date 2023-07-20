@@ -2,7 +2,6 @@
   "resourceType": "StructureDefinition",
   "id": "additional-authorisation",
   "url": "http://hl7.org.nz/fhir/StructureDefinition/additional-authorisation",
-  "version": "2.1.1",
   "name": "AdditionalAuthorisation",
   "status": "active",
   "description": "Additional authorisations that a practitioner is authorised to perform",
@@ -369,53 +368,6 @@
       {
         "id": "Extension.extension:code.value[x]",
         "path": "Extension.extension.value[x]",
-        "slicing": {
-          "discriminator": [
-            {
-              "type": "type",
-              "path": "$this"
-            }
-          ],
-          "ordered": false,
-          "rules": "open"
-        },
-        "short": "Value of extension",
-        "definition": "Value of extension - must be one of a constrained set of the data types (see [Extensibility](extensibility.html) for a list).",
-        "min": 0,
-        "max": "1",
-        "base": {
-          "path": "Extension.value[x]",
-          "min": 0,
-          "max": "1"
-        },
-        "type": [
-          {
-            "code": "CodeableConcept"
-          }
-        ],
-        "constraint": [
-          {
-            "key": "ele-1",
-            "severity": "error",
-            "human": "All FHIR elements must have a @value or children",
-            "expression": "hasValue() or (children().count() > id.count())",
-            "xpath": "@value|f:*|h:div",
-            "source": "http://hl7.org/fhir/StructureDefinition/Element"
-          }
-        ],
-        "isModifier": false,
-        "isSummary": false,
-        "mapping": [
-          {
-            "identity": "rim",
-            "map": "N/A"
-          }
-        ]
-      },
-      {
-        "id": "Extension.extension:code.value[x]:valueCodeableConcept",
-        "path": "Extension.extension.value[x]",
-        "sliceName": "valueCodeableConcept",
         "short": "Value of extension",
         "definition": "Value of extension - must be one of a constrained set of the data types (see [Extensibility](extensibility.html) for a list).",
         "min": 0,
@@ -920,27 +872,11 @@
       {
         "id": "Extension.extension:code.value[x]",
         "path": "Extension.extension.value[x]",
-        "slicing": {
-          "discriminator": [
-            {
-              "type": "type",
-              "path": "$this"
-            }
-          ],
-          "ordered": false,
-          "rules": "open"
-        },
         "type": [
           {
             "code": "CodeableConcept"
           }
-        ]
-      },
-      {
-        "id": "Extension.extension:code.valueCodeableConcept",
-        "path": "Extension.extension.valueCodeableConcept",
-        "min": 0,
-        "max": "1",
+        ],
         "binding": {
           "strength": "preferred",
           "valueSet": "https://nzhts.digital.health.nz/fhir/ValueSet/practitioner-additional-authorisation-code"

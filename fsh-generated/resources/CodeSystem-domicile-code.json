@@ -6,7 +6,6 @@
   "id": "domicile-code",
   "title": "Domicile Code",
   "description": "Domicile Code",
-  "version": "3.0",
   "url": "https://standards.digital.health.nz/ns/domicile-code",
   "concept": [
     {
@@ -8247,5 +8246,6 @@
     }
   ],
   "caseSensitive": true,
+  "version": "3.0",
   "count": 2059
 }

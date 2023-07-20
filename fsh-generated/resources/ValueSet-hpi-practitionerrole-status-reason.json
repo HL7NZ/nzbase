@@ -5,7 +5,6 @@
   "id": "hpi-practitionerrole-status-reason",
   "title": "PractitionerRole status reason",
   "description": "The reason for the current status of PractitionerRole",
-  "version": "1.0.0",
   "url": "https://nzhts.digital.health.nz/fhir/ValueSet/hpi-practitioner-role-status-reason-code",
   "jurisdiction": [
     {
@@ -17,6 +16,7 @@
       ]
     }
   ],
+  "version": "1.0.0",
   "compose": {
     "include": [
       {

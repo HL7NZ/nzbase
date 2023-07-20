@@ -5,18 +5,7 @@
     "status": "additional",
     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">NZ Coverage profile</div>"
   },
-  "extension": [
-    {
-      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-category",
-      "valueString": "Financial.Support"
-    },
-    {
-      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-security-category",
-      "valueCode": "patient"
-    }
-  ],
   "url": "http://hl7.org.nz/fhir/StructureDefinition/NzCoverage",
-  "version": "2.1.1",
   "name": "NzCoverage",
   "title": "Coverage resource for use in NZ (Trial use)",
   "status": "draft",

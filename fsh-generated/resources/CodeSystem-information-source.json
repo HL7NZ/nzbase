@@ -6,7 +6,6 @@
   "id": "information-source",
   "title": "Information Source",
   "description": "All possible sources of information",
-  "version": "1.0.0",
   "url": "https://standards.digital.health.nz/ns/information-source-code",
   "concept": [
     {
@@ -132,5 +131,6 @@
     }
   ],
   "caseSensitive": true,
+  "version": "1.0.0",
   "count": 25
 }
