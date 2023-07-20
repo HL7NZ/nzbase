@@ -50,6 +50,7 @@
 [location-alias-type]: Location-location-alias-type.html
 [location-established]: Location-location-established.html
 [Long_term_condition]: StructureDefinition-long-term-condition.html
+[MaoriDescent]: StructureDefinition-maori-descent-code.html
 [NzMedicationDispense]: StructureDefinition-NzMedicationDispense.html
 [NzMedication]: StructureDefinition-NzMedication.html
 [NzMedicationRequest]: StructureDefinition-NzMedicationRequest.html
@@ -58,6 +59,8 @@
 [medicationrequest-nzeps-unusual-dose-quantity]: MedicationRequest-medicationrequest-nzeps-unusual-dose-quantity.html
 [NzMedicationStatement]: StructureDefinition-NzMedicationStatement.html
 [Messaging_address]: StructureDefinition-messaging-address.html
+[MaoriDescentValues]: ValueSet-maori-descent-valueset.html
+[MaoriDescent]: CodeSystem-maori-descent-codesystem.html
 [nhi]: NamingSystem-nhi.html
 [Nz_citizenship]: StructureDefinition-nz-citizenship.html
 [CitizenshipStatus]: ValueSet-citizenship-status.html

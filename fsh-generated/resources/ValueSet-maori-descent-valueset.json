@@ -1,0 +1,17 @@
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "MaoriDescentValues",
+  "id": "maori-descent-valueset",
+  "title": "Māori Descent",
+  "description": "A code indicating whether a person is of Māori descent",
+  "url": "https://nzhts.digital.health.nz/fhir/ValueSet/maori-descent",
+  "version": "1.0.0",
+  "compose": {
+    "include": [
+      {
+        "system": "https://standards.digital.health.nz/ns/maori-descent-code"
+      }
+    ]
+  }
+}

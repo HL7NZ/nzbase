@@ -1,0 +1,39 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "active",
+  "content": "complete",
+  "name": "MaoriDescent",
+  "id": "maori-descent-codesystem",
+  "title": "Māori Descent",
+  "description": "Codes for classifying Māori descent. Defined by Stats NZ - Census Māori descent v2.0.0",
+  "url": "https://standards.digital.health.nz/ns/maori-descent-code",
+  "concept": [
+    {
+      "code": "1",
+      "display": "Māori Descent"
+    },
+    {
+      "code": "2",
+      "display": "No Māori Descent"
+    },
+    {
+      "code": "4",
+      "display": "Don't Know"
+    },
+    {
+      "code": "7",
+      "display": "Response Unidentifiable"
+    },
+    {
+      "code": "9",
+      "display": "Not Stated"
+    }
+  ],
+  "version": "2.0.0",
+  "publisher": "Stats NZ",
+  "caseSensitive": true,
+  "valueSet": "https://nzhts.digital.health.nz/fhir/ValueSet/maori-descent",
+  "compositional": false,
+  "versionNeeded": false,
+  "count": 5
+}

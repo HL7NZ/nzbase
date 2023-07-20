@@ -440,6 +440,14 @@
       },
       {
         "reference": {
+          "reference": "StructureDefinition/maori-descent-code"
+        },
+        "name": "MaoriDescent",
+        "description": "Code indicting whether the person is of Māori descent",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
           "reference": "StructureDefinition/NzMedicationDispense"
         },
         "name": "Medication Dispense resource for use in NZ",
@@ -500,6 +508,22 @@
         },
         "name": "Messaging Address",
         "description": "The address to where electronic communications might be sent. For historical reasons, there is an overlap with edi-address.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/maori-descent-valueset"
+        },
+        "name": "Māori Descent",
+        "description": "A code indicating whether a person is of Māori descent",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/maori-descent-codesystem"
+        },
+        "name": "Māori Descent",
+        "description": "Codes for classifying Māori descent. Defined by Stats NZ - Census Māori descent v2.0.0",
         "exampleBoolean": false
       },
       {
