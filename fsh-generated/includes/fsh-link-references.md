@@ -50,7 +50,7 @@
 [location-alias-type]: Location-location-alias-type.html
 [location-established]: Location-location-established.html
 [Long_term_condition]: StructureDefinition-long-term-condition.html
-[MaoriDescent]: StructureDefinition-maori-descent-code.html
+[MaoriDescent]: StructureDefinition-maori-descent.html
 [NzMedicationDispense]: StructureDefinition-NzMedicationDispense.html
 [NzMedication]: StructureDefinition-NzMedication.html
 [NzMedicationRequest]: StructureDefinition-NzMedicationRequest.html

@@ -148,7 +148,7 @@
 <td><p>Long term condition indicator (see https://www.health.govt.nz/our-work/diseases-and-conditions/long-term-conditions).</p></td>
 </tr>
 <tr>
-<td><a href='StructureDefinition-maori-descent-code.html'>maori-descent-code</a></td>
+<td><a href='StructureDefinition-maori-descent.html'>maori-descent</a></td>
 <td>http://hl7.org.nz/fhir/StructureDefinition/maori-descent</td>
 <td>
 <div>Patient</div>

@@ -440,7 +440,7 @@
       },
       {
         "reference": {
-          "reference": "StructureDefinition/maori-descent-code"
+          "reference": "StructureDefinition/maori-descent"
         },
         "name": "MaoriDescent",
         "description": "Code indicting whether the person is of Māori descent",

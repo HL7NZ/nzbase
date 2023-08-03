@@ -1,6 +1,6 @@
 {
   "resourceType": "StructureDefinition",
-  "id": "maori-descent-code",
+  "id": "maori-descent",
   "url": "http://hl7.org.nz/fhir/StructureDefinition/maori-descent",
   "name": "MaoriDescent",
   "status": "active",
