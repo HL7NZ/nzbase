@@ -12,6 +12,7 @@ These are identifiers defined in this IG. They are defined using <a href='http:/
 <tr><td>HPI providers</td><td><div>https://standards.digital.health.nz/ns/hpi-person-id</div></td><td><ul><li>https://standards.digital.health.nz/id/hpi-person (uri) Deprecated</li><li>2.16.840.1.113883.2.18.3.1 (oid) </li></ul></td><td>HISO</td></tr>
 <tr><td>HPI PractitionerRole id</td><td><div>https://standards.digital.health.nz/ns/hpi-practitionerrole-id</div></td><td></td><td>HISO</td></tr>
 <tr><td>NHI number</td><td><div>https://standards.digital.health.nz/ns/nhi-id</div></td><td><ul><li>https://standards.digital.health.nz/id/nhi (uri) Deprecated</li><li>2.16.840.1.113883.2.18.2 (oid) </li></ul></td><td>HISO</td></tr>
+<tr><td>ACC 45 number</td><td><div>https://standards.digital.health.nz/ns/acc-45-number</div></td><td></td><td>HISO</td></tr>
 <tr><td>New Zealand Business Number</td><td><div>https://standards.digital.health.nz/ns/hpi-nzbn</div></td><td></td><td>HISO</td></tr>
 <tr><td>Chiropractic Board Register number</td><td><div>https://standards.digital.health.nz/ns/chiropractic-board-id</div></td><td><ul><li>2.16.840.1.113883.2.18.70.1 (oid) </li></ul></td><td>HISO</td></tr>
 <tr><td>Dental Council Register Number</td><td><div>https://standards.digital.health.nz/ns/dental-council-id</div></td><td><ul><li>2.16.840.1.113883.2.18.70.2 (oid) </li></ul></td><td>HISO</td></tr>

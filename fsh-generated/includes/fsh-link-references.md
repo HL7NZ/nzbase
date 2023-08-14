@@ -74,6 +74,7 @@
 [NZResidency]: ValueSet-nz-residency.html
 [NZResidency]: CodeSystem-nz-residency.html
 [Suburb]: StructureDefinition-suburb.html
+[nzACC45]: NamingSystem-nzACC45.html
 [nzbn]: NamingSystem-nzbn.html
 [nzchrir]: NamingSystem-nzchrir.html
 [nzdental]: NamingSystem-nzdental.html

@@ -631,6 +631,13 @@
       },
       {
         "reference": {
+          "reference": "NamingSystem/nzACC45"
+        },
+        "name": "nzACC45",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
           "reference": "NamingSystem/nzbn"
         },
         "name": "nzbn",

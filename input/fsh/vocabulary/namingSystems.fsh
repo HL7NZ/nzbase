@@ -516,6 +516,24 @@ Usage: #definition
 * uniqueId.value = "https://standards.digital.health.nz/ns/medical-radiation-technologists-board-id"
 * uniqueId.preferred = true
 
+
+Instance: nzACC45
+InstanceOf: NamingSystem
+Usage: #definition
+
+* name = "NZACC45"
+* description = "ACC 45 number"
+* status = #active
+* kind = #identifier
+* date = "2023-08-14"
+* responsible = "HISO"
+
+* uniqueId.type = #uri
+* uniqueId.value = "https://standards.digital.health.nz/ns/acc-45-number"
+* uniqueId.preferred = true
+
+
+
 /*
 Instance: nzFacilitylegacy
 InstanceOf: NamingSystem

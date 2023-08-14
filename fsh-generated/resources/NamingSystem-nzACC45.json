@@ -1,0 +1,17 @@
+{
+  "resourceType": "NamingSystem",
+  "id": "nzACC45",
+  "name": "NZACC45",
+  "description": "ACC 45 number",
+  "status": "active",
+  "kind": "identifier",
+  "date": "2023-08-14",
+  "responsible": "HISO",
+  "uniqueId": [
+    {
+      "type": "uri",
+      "value": "https://standards.digital.health.nz/ns/acc-45-number",
+      "preferred": true
+    }
+  ]
+}
