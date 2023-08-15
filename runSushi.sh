@@ -13,7 +13,7 @@ echo "Creating Profiles and extensions summary pages..."
 echo "Making terminology summary"   # will copy into IG input folder
 ../scripts/makeTerminologySummary.js nzbase
 
-echo "Making NamingSystem summary summary"   # will copy into IG input folder
+echo "Making NamingSystem summary"   # will copy into IG input folder
 ../scripts/makeNamingSystemSummary.js nzbase
 
 # uncomment to run terminology audit
