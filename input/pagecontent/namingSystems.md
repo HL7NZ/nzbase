@@ -33,3 +33,4 @@ These are identifiers defined in this IG. They are defined using <a href='http:/
 <tr><td>Psychotherapists Board register Number</td><td><div>https://standards.digital.health.nz/ns/psychotherapists-board-id</div></td><td><ul><li>2.16.840.1.113883.2.18.70.7 (oid) </li></ul></td><td>HISO</td></tr>
 </table>
 <br/><br/>
+
