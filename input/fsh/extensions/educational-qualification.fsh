@@ -20,7 +20,8 @@ Description: "Educational qualifications a practitioner has. These may or may no
     year 0..1 and
     institution 0..1 and
     city 0..1 and
-    country 0..1 
+    country 0..1 and 
+    country-name 0..1
 * ^status = #active
 
 // definitions of sub-extensions
@@ -50,6 +51,11 @@ Description: "Educational qualifications a practitioner has. These may or may no
 * extension[city].value[x] only string
 
 * extension[country].url = "country" (exactly)
-* extension[country] ^definition = "The country where the institution is located"
-* extension[country] ^short = "The country where the institution is located"
+* extension[country] ^definition = "The country (as iso country code) where the institution is located"
+* extension[country] ^short = "The country (as iso country code) where the institution is located"
 * extension[country].value[x] only string
+
+* extension[country-name].url = "country-name" (exactly)
+* extension[country-name] ^definition = "The country name (as text) where the institution is located"
+* extension[country-name] ^short = "The country name (as text) where the institution is located"
+* extension[country-name].value[x] only string
