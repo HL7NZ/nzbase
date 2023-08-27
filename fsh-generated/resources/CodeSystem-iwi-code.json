@@ -93,6 +93,10 @@
       "display": "Ngāti Torehina ki Mata-ure ō Hau"
     },
     {
+      "code": "0121",
+      "display": "Ngāti Kahu ki Whangaroa"
+    },
+    {
       "code": "02",
       "display": "Hauraki (Coromandel) Region Iwi"
     },
@@ -859,5 +863,5 @@
   "valueSet": "https://nzhts.digital.health.nz/fhir/ValueSet/iwi-code",
   "compositional": false,
   "versionNeeded": false,
-  "count": 208
+  "count": 209
 }
