@@ -23,6 +23,9 @@
       <extension url="country">
         <valueString value="NZ"/>
       </extension>
+      <extension url="country-name">
+        <valueString value="New Zealand"/>
+      </extension>
     </extension>
     ...
   </qualification>
