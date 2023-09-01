@@ -104,6 +104,7 @@
 [organization-edi-address]: Organization-organization-edi-address.html
 [organization-funded-programme]: Organization-organization-funded-programme.html
 [organization-moh]: Organization-organization-moh.html
+[OriginalText]: StructureDefinition-gender-original-text.html
 [patient-address-building-name]: Patient-patient-address-building-name.html
 [patient-address-suburb]: Patient-patient-address-suburb.html
 [patient-building-name]: Patient-patient-building-name.html

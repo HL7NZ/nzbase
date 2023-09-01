@@ -128,6 +128,15 @@
 <td><p>Details of a NZ Healthcare Funded Programme relevant to its implementation status at an individual organisation, facility or service.</p></td>
 </tr>
 <tr>
+<td><a href='StructureDefinition-gender-original-text.html'>gender-original-text</a></td>
+<td>http://hl7.org.nz/fhir/StructureDefinition/gender-original-text</td>
+<td>
+<div>Patient.gender</div>
+</td>
+<td><p>The uncoded original text that was provided by the patient as their Gender</p></td>
+<td></td>
+</tr>
+<tr>
 <td><a href='StructureDefinition-information-source.html'>information-source</a></td>
 <td>http://hl7.org.nz/fhir/StructureDefinition/information-source</td>
 <td>

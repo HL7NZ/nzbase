@@ -852,6 +852,14 @@
       },
       {
         "reference": {
+          "reference": "StructureDefinition/gender-original-text"
+        },
+        "name": "OriginalText",
+        "description": "The uncoded original text that was provided by the patient as their Gender",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
           "reference": "Patient/patient-address-building-name"
         },
         "name": "patient-address-building-name",
