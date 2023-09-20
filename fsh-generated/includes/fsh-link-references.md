@@ -32,7 +32,6 @@
 [Edi_address]: StructureDefinition-edi-address.html
 [EducationalQualification]: StructureDefinition-educational-qualification.html
 [Established]: StructureDefinition-established.html
-[Ethnicity]: ValueSet-ethnicity.html
 [Funded_programme]: StructureDefinition-funded-programme.html
 [FundedProgramme]: ValueSet-funded-programme.html
 [FundedProgramme]: CodeSystem-funded-programme.html
@@ -45,7 +44,6 @@
 [InformationSource]: ValueSet-information-source.html
 [InformationSource]: CodeSystem-information-source.html
 [Iwi]: ValueSet-iwi.html
-[EthnicityL4]: CodeSystem-ethnicityL4.html
 [NzLocation]: StructureDefinition-NzLocation.html
 [location-alias-type]: Location-location-alias-type.html
 [location-established]: Location-location-established.html
@@ -67,6 +65,7 @@
 [CitizenshipStatus]: CodeSystem-citizenship-status.html
 [Dhb_code]: CodeSystem-dhb-code.html
 [Domicile_code]: StructureDefinition-domicile-code.html
+[NZ_ethnic_group_codes]: CodeSystem-Ethnicity.html
 [Nz_ethnicity]: StructureDefinition-nz-ethnicity.html
 [Nz_geocode]: StructureDefinition-nz-geocode.html
 [Iwi_code]: CodeSystem-iwi-code.html
