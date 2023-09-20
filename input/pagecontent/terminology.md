@@ -19,6 +19,7 @@ The [FHIR spec](http://hl7.org/fhir/terminology-module.html) has much more detai
 <tr><td width='20%'><a href='ValueSet-dhb.html'>District Health Board Identifer</a></td><td><p>District Health Board Identifer. Assigned by the HPI.</p></td><td>https://nzhts.digital.health.nz/fhir/ValueSet/dhb-code</td></tr>
 <tr><td width='20%'><a href='ValueSet-dod-information-source.html'>Death date Information Source</a></td><td><p>The source from where the date of death was sourced</p></td><td>https://nzhts.digital.health.nz/fhir/ValueSet/dod-information-source-code</td></tr>
 <tr><td width='20%'><a href='ValueSet-domicile-code.html'>Domicile Code</a></td><td><p>Domicile Code</p></td><td>https://nzhts.digital.health.nz/fhir/ValueSet/domicile-code</td></tr>
+<tr><td width='20%'><a href='ValueSet-ethnicity.html'>Ethnicity of a person</a></td><td><p>Codes to record a person&#39;s ethnicity, drawn from <a href="http://aria.stats.govt.nz/aria/#ClassificationView:uri=http://stats.govt.nz/cms/ClassificationVersion/YVqOcFHSlguKkT17">Level 4 of the Ethnicity code system</a></p></td><td>https://nzhts.digital.health.nz/fhir/ValueSet/ethnic-group-level-4-code</td></tr>
 <tr><td width='20%'><a href='ValueSet-funded-programme.html'>Funded Programme</a></td><td><p>Some sort of funded programme</p></td><td>https://nzhts.digital.health.nz/fhir/ValueSet/funded-programme-code</td></tr>
 <tr><td width='20%'><a href='ValueSet-hpi-practitionerrole-status-reason.html'>PractitionerRole status reason</a></td><td><p>The reason for the current status of PractitionerRole</p></td><td>https://nzhts.digital.health.nz/fhir/ValueSet/hpi-practitioner-role-status-reason-code</td></tr>
 <tr><td width='20%'><a href='ValueSet-information-source.html'>Information Source</a></td><td><p>The source from where the value of this item was sourced</p></td><td>https://nzhts.digital.health.nz/fhir/ValueSet/information-source-code</td></tr>
@@ -43,7 +44,7 @@ The [FHIR spec](http://hl7.org/fhir/terminology-module.html) has much more detai
 
 <table class='table table-bordered table-condensed'>
 <tr><th>CodeSystem</th><th>Purpose</th><th>Canonical Url</th></tr>
-<tr><td width='20%'><a href='CodeSystem-Ethnicity.html'>NZ ethnic group codes</a></td><td><p>A FHIR CodeSystem of Australian and Ethnicity New Zealand Standard Classification</p></td><td>https://standards.digital.health.nz/ns/nz-ethnic-group-codes</td></tr>
+<tr><td width='20%'><a href='CodeSystem-Ethnicity.html'>NZ ethnic group codes</a></td><td><p>A FHIR CodeSystem of Australian and Ethnicity New Zealand Standard Classification</p></td><td>https://standards.digital.health.nz/ns/ethnic-group-level-4-code</td></tr>
 <tr><td width='20%'><a href='CodeSystem-alias-type.html'>Type of Alias</a></td><td><p>Used in Organization and Location to indicate what is the type of Alias</p></td><td>https://standards.digital.health.nz/ns/alias-type-code</td></tr>
 <tr><td width='20%'><a href='CodeSystem-citizenship-status.html'>NZ Citizenship status</a></td><td><p>Is this person a NZ Citizen</p></td><td>https://standards.digital.health.nz/ns/nz-citizenship-status-code</td></tr>
 <tr><td width='20%'><a href='CodeSystem-contact-point-purpose.html'>ContactPoint purpose</a></td><td><p>The purpose of a ContactPoint - what it is used for.</p></td><td>https://standards.digital.health.nz/ns/contact-point-purpose-code</td></tr>

@@ -6,16 +6,8 @@
   "id": "Ethnicity",
   "title": "NZ ethnic group codes",
   "description": "A FHIR CodeSystem of Australian and Ethnicity New Zealand Standard Classification",
-  "url": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
+  "url": "https://standards.digital.health.nz/ns/ethnic-group-level-4-code",
   "concept": [
-    {
-      "code": "Ethnicity",
-      "display": "Ethnicity New Zealand Standard Classification"
-    },
-    {
-      "code": "96666",
-      "display": "Repeated Value"
-    },
     {
       "code": "351",
       "display": "Tokelauan"

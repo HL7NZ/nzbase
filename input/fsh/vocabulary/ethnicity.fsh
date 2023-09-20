@@ -1,10 +1,24 @@
+
+
+ValueSet: Ethnicity
+Id: ethnicity
+Title: "Ethnicity of a person"
+Description: """
+Codes to record a person's ethnicity, drawn from [Level 4 of the Ethnicity code system](http://aria.stats.govt.nz/aria/#ClassificationView:uri=http://stats.govt.nz/cms/ClassificationVersion/YVqOcFHSlguKkT17)
+"""
+
+* ^url = $ethnicity-code-vs 
+* ^version = "2.1.0"
+* codes from system $ethnicity-code-cs
+
+
 CodeSystem: NZ_ethnic_group_codes
 Id: Ethnicity
 Title: "NZ ethnic group codes"
 Description: "A FHIR CodeSystem of Australian and Ethnicity New Zealand Standard Classification"
 * ^meta.versionId = "1"
 * ^meta.lastUpdated = "2023-07-23T21:32:16.962+12:00"
-* ^url = "https://standards.digital.health.nz/ns/nz-ethnic-group-codes"
+* ^url = $ethnicity-code-cs
 * ^version = "2.1.0"
 * ^status = #active
 * ^experimental = false
@@ -14,8 +28,7 @@ Description: "A FHIR CodeSystem of Australian and Ethnicity New Zealand Standard
 * ^versionNeeded = false
 * ^content = #complete
 * ^count = 263
-* #Ethnicity "Ethnicity New Zealand Standard Classification"
-* #96666 "Repeated Value"
+
 * #351 "Tokelauan"
 * #111 "New Zealand European"
 * #31111 "Samoan"
