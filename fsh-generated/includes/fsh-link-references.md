@@ -33,6 +33,7 @@
 [EducationalQualification]: StructureDefinition-educational-qualification.html
 [Established]: StructureDefinition-established.html
 [Ethnicity]: ValueSet-ethnicity.html
+[EthnicityFull]: ValueSet-ethnicityFull.html
 [Funded_programme]: StructureDefinition-funded-programme.html
 [FundedProgramme]: ValueSet-funded-programme.html
 [FundedProgramme]: CodeSystem-funded-programme.html
@@ -45,6 +46,7 @@
 [InformationSource]: ValueSet-information-source.html
 [InformationSource]: CodeSystem-information-source.html
 [Iwi]: ValueSet-iwi.html
+[EthnicityL4]: CodeSystem-ethnicityL4.html
 [NzLocation]: StructureDefinition-NzLocation.html
 [location-alias-type]: Location-location-alias-type.html
 [location-established]: Location-location-established.html

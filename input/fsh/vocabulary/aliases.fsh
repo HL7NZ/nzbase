@@ -48,7 +48,7 @@ Alias: $dhb-code-vs = https://nzhts.digital.health.nz/fhir/ValueSet/dhb-code
 Alias: $nz-residency-vs = https://nzhts.digital.health.nz/fhir/ValueSet/nz-residency-code
 
 Alias: $citizenship-status-vs = https://nzhts.digital.health.nz/fhir/ValueSet/nz-citizenship-status-code
-//Alias: $ethnic-group-4 = http:/hl7.org.nz/fhir/ValueSet/ethnic-group-level-4-code
+
 
 Alias: $practitioner-reg-status = https://nzhts.digital.health.nz/fhir/ValueSet/practitioner-registration-status-code
 Alias: $practitioner-scope-practice = https://nzhts.digital.health.nz/fhir/ValueSet/practitioner-scope-of-practice-code
@@ -61,6 +61,8 @@ Alias: $information-source-vs = https://nzhts.digital.health.nz/fhir/ValueSet/in
 Alias: $dod-information-source-vs = https://nzhts.digital.health.nz/fhir/ValueSet/dod-information-source-code
 
 Alias: $ethnicity-code-vs = https://nzhts.digital.health.nz/fhir/ValueSet/ethnic-group-level-4-code
+Alias: $ethnicity-code-all-vs = https://nzhts.digital.health.nz/fhir/ValueSet/nz-ethnic-group-code
+
 Alias: $condition-on-practice-vs = https://nzhts.digital.health.nz/fhir/ValueSet/condition-on-practice-code
 Alias: $alias-type-vs = https://nzhts.digital.health.nz/fhir/ValueSet/alias-type-code
 Alias: $pr-status-reason-vs = https://nzhts.digital.health.nz/fhir/ValueSet/hpi-practitioner-role-status-reason-code
@@ -86,6 +88,7 @@ Alias: $information-source-cs = https://standards.digital.health.nz/ns/informati
 Alias: $nz-residency-cs = https://standards.digital.health.nz/ns/nz-residency-code
 Alias: $citizenship-status-cs = https://standards.digital.health.nz/ns/nz-citizenship-status-code
 Alias: $ethnicity-code-cs = https://standards.digital.health.nz/ns/ethnic-group-level-4-code
+Alias: $ethnicity-code-all-cs = https://standards.digital.health.nz/ns/nz-ethnic-group-codes
 Alias: $condition-on-practice-cs = https://standards.digital.health.nz/ns/condition-on-practice-code
 Alias: $alias-type-cs = https://standards.digital.health.nz/ns/alias-type-code
 Alias: $pr-status-reason-cs = https://standards.digital.health.nz/ns/hpi-practitioner-role-status-reason-code

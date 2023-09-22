@@ -308,6 +308,14 @@
       },
       {
         "reference": {
+          "reference": "ValueSet/ethnicityFull"
+        },
+        "name": "Ethnicity of a person",
+        "description": "Codes to record a person's ethnicity, drawn from [All of the Ethnicity code system](http://aria.stats.govt.nz/aria/#ClassificationView:uri=http://stats.govt.nz/cms/ClassificationVersion/YVqOcFHSlguKkT17)",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
           "reference": "StructureDefinition/funded-programme"
         },
         "name": "Funded Healthcare Programme",
@@ -396,6 +404,14 @@
         },
         "name": "Iwi",
         "description": "New Zealand iwi codes.  The 2 digit codes are abstract codes and provided in the expansion for navigational purposes. A user should not select an abstract code directly as a proper value.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/ethnicityL4"
+        },
+        "name": "Level 4 ethnicity codes",
+        "description": "Codes to record a person’s ethnicity, drawn from Level 4 of the Ethnicity code system \ndescribed [here](http://aria.stats.govt.nz/aria/#ClassificationView:uri=http://stats.govt.nz/cms/ClassificationVersion/YVqOcFHSlguKkT17)",
         "exampleBoolean": false
       },
       {
