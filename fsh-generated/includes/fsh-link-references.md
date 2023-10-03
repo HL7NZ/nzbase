@@ -32,8 +32,8 @@
 [Edi_address]: StructureDefinition-edi-address.html
 [EducationalQualification]: StructureDefinition-educational-qualification.html
 [Established]: StructureDefinition-established.html
+[Ethnicityfull]: ValueSet-ethnicityfull.html
 [Ethnicity]: ValueSet-ethnicity.html
-[EthnicityFull]: ValueSet-ethnicityFull.html
 [Funded_programme]: StructureDefinition-funded-programme.html
 [FundedProgramme]: ValueSet-funded-programme.html
 [FundedProgramme]: CodeSystem-funded-programme.html

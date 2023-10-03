@@ -300,18 +300,18 @@
       },
       {
         "reference": {
-          "reference": "ValueSet/ethnicity"
+          "reference": "ValueSet/ethnicityfull"
         },
-        "name": "Ethnicity of a person",
-        "description": "Codes to record a person's ethnicity, drawn from [Level 4 of the Ethnicity code system](http://aria.stats.govt.nz/aria/#ClassificationView:uri=http://stats.govt.nz/cms/ClassificationVersion/YVqOcFHSlguKkT17)",
+        "name": "Ethnicity of a person (full)",
+        "description": "Codes to record a person's ethnicity, drawn from [All of the Ethnicity code system](http://aria.stats.govt.nz/aria/#ClassificationView:uri=http://stats.govt.nz/cms/ClassificationVersion/YVqOcFHSlguKkT17)",
         "exampleBoolean": false
       },
       {
         "reference": {
-          "reference": "ValueSet/ethnicityFull"
+          "reference": "ValueSet/ethnicity"
         },
-        "name": "Ethnicity of a person",
-        "description": "Codes to record a person's ethnicity, drawn from [All of the Ethnicity code system](http://aria.stats.govt.nz/aria/#ClassificationView:uri=http://stats.govt.nz/cms/ClassificationVersion/YVqOcFHSlguKkT17)",
+        "name": "Ethnicity of a person (L4)",
+        "description": "Codes to record a person's ethnicity, drawn from [Level 4 of the Ethnicity code system](http://aria.stats.govt.nz/aria/#ClassificationView:uri=http://stats.govt.nz/cms/ClassificationVersion/YVqOcFHSlguKkT17)",
         "exampleBoolean": false
       },
       {
