@@ -36,6 +36,6 @@ Description: "District Health Board relating to a NZ Healthcare Service, Locatio
 
 * value[x] ^example[0].label = "Waikato DHB"
 * value[x] ^example[0].valueCodeableConcept.coding[0].version = "1.0"
-* value[x] ^example[0].valueCodeableConcept.coding[0] = $dhb-code-cs#G00027-C "Waikato"
+* value[x] ^example[0].valueCodeableConcept.coding[0] = $dhb-code-cs#G00027-C "Waikato District Health Board"
 * value[x] ^isModifier = false
 * value[x] ^binding.description = "NZ HPI-ORG Values for DHBs"
