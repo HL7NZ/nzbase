@@ -40,6 +40,9 @@ Alias: $cpEdi = http://hl7.org.nz/fhir/StructureDefinition/edi-address
 Alias: $practitionerRole-creator = http://hl7.org.nz/fhir/StructureDefinition/practitionerRole-creator
 Alias: $practitionerRole-status-reason = http://hl7.org.nz/fhir/StructureDefinition/practitionerRole-status-reason
 
+Alias: $genderOriginalText = http://hl7.org.nz/fhir/StructureDefinition/gender-original-text
+
+
 //===============   Aliases for ValueSets  ===============
 Alias: $pho-code-vs = https://nzhts.digital.health.nz/fhir/ValueSet/pho-code
 Alias: $iso3166-1-2 = http://hl7.org/fhir/ValueSet/iso3166-1-2
