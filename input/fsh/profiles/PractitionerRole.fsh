@@ -7,6 +7,7 @@ Description:    "PractitionerRole resource for use in NZ"
 * ^url = "http://hl7.org.nz/fhir/StructureDefinition/NzPractitionerRole"
 * ^jurisdiction.coding = urn:iso:std:iso:3166#NZ
 * ^status = #draft
+* ^version = "1.0.0"
 
 * extension contains
     $practitionerRole-creator named practitionerRole-creator 0..1 and

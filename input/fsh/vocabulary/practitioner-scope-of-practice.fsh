@@ -21,6 +21,7 @@ Description: "A classification of the type or range of health services that a pr
 * ^jurisdiction.coding = urn:iso:std:iso:3166#NZ
 * ^caseSensitive = true
 * ^version = "1.0.0"
+* ^experimental = false
 
 * #CHIR "Chiropractor"
 * #DEAA "Administering Local Anaesthetic in Dental Hygiene Practice"

@@ -20,6 +20,7 @@ Description:  "The reason for the current status of PractitionerRole"
 * ^jurisdiction.coding = urn:iso:std:iso:3166#NZ
 * ^caseSensitive = true
 * ^version = "1.0.0"
+* ^experimental = false
 
 * #enteredInError "enteredInError"
 * #duplicate "duplicate"

@@ -2,6 +2,7 @@
   "resourceType": "StructureDefinition",
   "id": "NzLocation",
   "url": "http://hl7.org.nz/fhir/StructureDefinition/NzLocation",
+  "version": "1.0.0",
   "name": "NzLocation",
   "title": "Location resource for use in NZ",
   "status": "draft",

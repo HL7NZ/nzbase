@@ -21,7 +21,7 @@ Description:    "The base New Zealand Patient profile"
 
 * ^url = "http://hl7.org.nz/fhir/StructureDefinition/NzPatient"
 * ^jurisdiction.coding = urn:iso:std:iso:3166#NZ
-
+* ^version = "1.0.0"
 
 * ^purpose = "Describe the Base New Zealand Patient resource profileI"
 * ^text.status = #additional

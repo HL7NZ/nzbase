@@ -16,6 +16,7 @@ Description:  "Primary Healthcare Organization"
 * ^url = $pho-code-cs
 * ^caseSensitive = true
 * ^version = "1.0.0"
+* ^experimental = false
 
 * #G04587-F "Alliance Health Plus Trust"
 * #G05487-G "Auckland PHO Limited"

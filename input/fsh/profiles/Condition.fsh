@@ -7,6 +7,7 @@ Description:    "This profile adds the Long-Term Condition extension to the base
 * ^url = "http://hl7.org.nz/fhir/StructureDefinition/NzCondition"
 * ^jurisdiction.coding = urn:iso:std:iso:3166#NZ
 * ^status = #draft
+* ^version = "1.0.0"
 
 * extension contains
     $long-term-condition named long-term-condition 0..1

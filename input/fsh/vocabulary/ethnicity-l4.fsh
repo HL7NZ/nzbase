@@ -18,6 +18,7 @@ described [here](http://aria.stats.govt.nz/aria/#ClassificationView:uri=http://s
 """
 
 * ^url = $ethnicity-code-cs
+* ^experimental = false
 
 * #10000 "European NFD"
 * #11111 "New Zealand European"

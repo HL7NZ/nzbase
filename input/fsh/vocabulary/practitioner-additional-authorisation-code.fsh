@@ -19,6 +19,7 @@ Description: "Additional authorisations that a practitioner is authorised to pra
 * ^jurisdiction.coding = urn:iso:std:iso:3166#NZ
 * ^caseSensitive = true
 * ^version = "1.0.0"
+* ^experimental = false
 
 * #CA01 "Cardiothoracic Surgery: Cardiothoracic Surgeon" "Alternate name."
 * #CA02 "Cardiothoracic Surgery: Transplant Surgeon" "Alternate name."

@@ -20,6 +20,7 @@ Description: "The code list represents the current practicing status of the Prov
 * ^jurisdiction.coding = urn:iso:std:iso:3166#NZ
 * ^caseSensitive = true
 * ^version = "2.0"
+* ^experimental = false
 
 * #current "A provider who holds or is deemed to hold a current practising certificate."
 * #inactive "A provider who is not practising"

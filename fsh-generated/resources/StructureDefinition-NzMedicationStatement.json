@@ -2,6 +2,7 @@
   "resourceType": "StructureDefinition",
   "id": "NzMedicationStatement",
   "url": "http://hl7.org.nz/fhir/StructureDefinition/NzMedicationStatement",
+  "version": "1.0.0",
   "name": "NzMedicationStatement",
   "title": "MedicationStatement resource for use in NZ",
   "status": "draft",

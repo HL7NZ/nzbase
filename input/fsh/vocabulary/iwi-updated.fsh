@@ -36,6 +36,7 @@ Description: "NZ Iwi Statistical Standard: 27 May 2022."
 * ^compositional = false
 * ^versionNeeded = false
 * ^content = #complete
+* ^experimental = false
 
 * #01 "Te Tai Tokerau/Tāmaki-makaurau (Northland/Auckland) Region Iwi"
 * #0101 "Te Aupōuri"

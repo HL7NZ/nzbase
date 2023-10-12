@@ -7,6 +7,7 @@ Description:    "Coverage resource for use in NZ (Trial use)"
 * ^url = "http://hl7.org.nz/fhir/StructureDefinition/NzCoverage"
 * ^jurisdiction.coding = urn:iso:std:iso:3166#NZ
 * ^status = #draft
+* ^version = "1.0.0"
 
 //* ^extension[+].url = "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"
 //* ^extension[=].valueCode = #trial-use

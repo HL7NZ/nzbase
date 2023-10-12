@@ -2,6 +2,7 @@
   "resourceType": "StructureDefinition",
   "id": "NzPractitionerRole",
   "url": "http://hl7.org.nz/fhir/StructureDefinition/NzPractitionerRole",
+  "version": "1.0.0",
   "name": "NzPractitionerRole",
   "title": "PractitionerRole resource for use in NZ",
   "status": "draft",

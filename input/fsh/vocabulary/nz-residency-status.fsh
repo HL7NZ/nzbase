@@ -15,6 +15,7 @@ Description: "NZ Residency status"
 * ^url = $nz-residency-cs
 * ^caseSensitive = true
 * ^version = "1.1.0"
+* ^experimental = false
 
 * #yes "Permanent Resident" "Use this status if the person holds a residence class visa"
 * #no "Not a Permanent Resident" "Use this status for a person who is a NZ Citizen or does not hold a residence class visa"

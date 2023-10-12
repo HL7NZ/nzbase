@@ -2,6 +2,7 @@
   "resourceType": "StructureDefinition",
   "id": "NzOrganization",
   "url": "http://hl7.org.nz/fhir/StructureDefinition/NzOrganization",
+  "version": "1.0.0",
   "name": "NzOrganization",
   "title": "Organization resource for use in NZ",
   "status": "draft",

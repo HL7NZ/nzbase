@@ -7,6 +7,7 @@ Description:    "This profile adds the Contact Point Purpose and EDI address ext
 
 * ^jurisdiction.coding = urn:iso:std:iso:3166#NZ
 * ^url = "http://hl7.org.nz/fhir/StructureDefinition/NzContactpoint"
+* ^version = "1.0.0"
 
 * ^text.div = "<div xmlns='http://www.w3.org/1999/xhtml'>NZ ContactPoint datatype profile</div>"
 * ^text.status = #additional

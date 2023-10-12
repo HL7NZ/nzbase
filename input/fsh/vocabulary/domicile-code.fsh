@@ -16,6 +16,7 @@ Description: "Domicile Code"
 * ^url = $domicile-code-cs
 * ^caseSensitive = true
 * ^version = "3.0"
+* ^experimental = false
 
 * #0001 "Awanui"
 * #0002 "Karikari Peninsula-Maungataniwha"

@@ -6,6 +6,8 @@ Description: "District Health Board Identifer. Assigned by the HPI."
 * ^url = $dhb-code-vs
 * ^jurisdiction.coding = urn:iso:std:iso:3166#NZ
 * ^version = "1.0.0"
+* ^experimental = false
+
 * codes from system $dhb-code-cs
 
 CodeSystem: Dhb_code
@@ -30,6 +32,8 @@ Description: "NZ District Health Board (HPI-ORG) Codes"
 * ^compositional = false
 * ^versionNeeded = false
 * ^content = #complete
+* ^experimental = false
+
 * #G00011-K "Auckland District Health Board"
 * #G00031-E "Bay of Plenty District Health Board"
 * #G00005-D "Canterbury District Health Board"

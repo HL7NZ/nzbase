@@ -35,5 +35,6 @@
   "valueSet": "https://nzhts.digital.health.nz/fhir/ValueSet/maori-descent",
   "compositional": false,
   "versionNeeded": false,
+  "experimental": false,
   "count": 5
 }

@@ -18,6 +18,7 @@ Description: "Codes for classifying Māori descent. Defined by Stats NZ - Census
 * ^valueSet = "https://nzhts.digital.health.nz/fhir/ValueSet/maori-descent"
 * ^compositional = false
 * ^versionNeeded = false
+* ^experimental = false
 
 * #1 "Māori Descent"
 * #2 "No Māori Descent"

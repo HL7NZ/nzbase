@@ -46,5 +46,6 @@
   ],
   "caseSensitive": true,
   "version": "1.0.0",
+  "experimental": false,
   "count": 7
 }

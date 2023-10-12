@@ -2,6 +2,7 @@
   "resourceType": "StructureDefinition",
   "id": "NzHealthcareService",
   "url": "http://hl7.org.nz/fhir/StructureDefinition/NzHealthcareService",
+  "version": "1.0.0",
   "name": "NzHealthcareService",
   "title": "HealthcareService resource for use in NZ",
   "status": "draft",

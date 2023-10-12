@@ -6,6 +6,7 @@
     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">NZ Coverage profile</div>"
   },
   "url": "http://hl7.org.nz/fhir/StructureDefinition/NzCoverage",
+  "version": "1.0.0",
   "name": "NzCoverage",
   "title": "Coverage resource for use in NZ (Trial use)",
   "status": "draft",

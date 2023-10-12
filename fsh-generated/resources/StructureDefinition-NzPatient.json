@@ -6,6 +6,7 @@
     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">NZ Patient profile</div>"
   },
   "url": "http://hl7.org.nz/fhir/StructureDefinition/NzPatient",
+  "version": "1.0.0",
   "name": "NzPatient",
   "title": "NZ Patient",
   "status": "active",

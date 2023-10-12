@@ -6,6 +6,7 @@
     "status": "additional"
   },
   "url": "http://hl7.org.nz/fhir/StructureDefinition/NzContactpoint",
+  "version": "1.0.0",
   "name": "NzContactPoint",
   "title": "Common NZ ContactPoint datatype",
   "status": "active",

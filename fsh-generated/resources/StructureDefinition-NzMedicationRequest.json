@@ -2,6 +2,7 @@
   "resourceType": "StructureDefinition",
   "id": "NzMedicationRequest",
   "url": "http://hl7.org.nz/fhir/StructureDefinition/NzMedicationRequest",
+  "version": "1.0.0",
   "name": "NzMedicationRequest",
   "title": "MedicationRequest resource for use in NZ",
   "status": "draft",

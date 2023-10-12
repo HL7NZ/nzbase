@@ -2,6 +2,7 @@
   "resourceType": "StructureDefinition",
   "id": "NzCondition",
   "url": "http://hl7.org.nz/fhir/StructureDefinition/NzCondition",
+  "version": "1.0.0",
   "name": "NzCondition",
   "title": "Condition resource for use in NZ",
   "status": "draft",

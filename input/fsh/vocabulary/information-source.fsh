@@ -34,6 +34,7 @@ Description: "All possible sources of information"
 * ^url = $information-source-cs
 * ^caseSensitive = true
 * ^version = "1.0.0"
+* ^experimental = false
 
 * #BREG "Birth Register" "This code is added only after verification via MOH/DIA birth register matching"
 * #BRCT "Birth Certificate" "Birth Certificate"

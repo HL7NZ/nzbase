@@ -7,6 +7,7 @@ Description:    "Organization resource for use in NZ"
 * ^url = "http://hl7.org.nz/fhir/StructureDefinition/NzOrganization"
 * ^jurisdiction.coding = urn:iso:std:iso:3166#NZ
 * ^status = #draft
+* ^version = "1.0.0"
 
 * extension contains
     $established named established 0..1 and

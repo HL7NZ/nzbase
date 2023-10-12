@@ -5,6 +5,7 @@ Description:  "Citizenship status"
 
 * ^url = $citizenship-status-vs
 * ^version = "1.1.0"
+
 * codes from system $citizenship-status-cs
 
 
@@ -16,6 +17,7 @@ Description:  "Is this person a NZ Citizen"
 * ^url = $citizenship-status-cs
 * ^caseSensitive = true
 * ^version = "1.1.0"
+* ^experimental = false
 
 * #yes "Yes" "This person is a citizen."
 * #no "No" "This person is not a citizen."
