@@ -9,6 +9,10 @@ Description:    "MedicationStatement resource for use in NZ"
 * ^status = #draft
 * ^version = "1.0.0"
 
+* medicationCodeableConcept only CodeableConcept
+
+* medicationCodeableConcept from http://nzmt.org.nz/vs (preferred)
+
 * extension contains
     $nzeps-long-term-medication named nzeps-long-term-medication 0..1 
 

@@ -8,3 +8,7 @@ Description:    "Medication Dispense resource for use in NZ"
 * ^jurisdiction.coding = urn:iso:std:iso:3166#NZ
 * ^status = #draft
 * ^version = "1.0.0"
+
+* medicationCodeableConcept only CodeableConcept
+
+* medicationCodeableConcept from http://nzmt.org.nz/vs (preferred)
