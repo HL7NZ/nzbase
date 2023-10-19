@@ -42,6 +42,7 @@ Alias: $practitionerRole-status-reason = http://hl7.org.nz/fhir/StructureDefinit
 
 Alias: $genderOriginalText = http://hl7.org.nz/fhir/StructureDefinition/gender-original-text
 
+Alias: $accPatientOccupation = http://hl7.org.nz/fhir/StructureDefinition/acc-patient-occupation
 
 //===============   Aliases for ValueSets  ===============
 Alias: $pho-code-vs = https://nzhts.digital.health.nz/fhir/ValueSet/pho-code
@@ -81,6 +82,7 @@ Alias: $contact-point-purpose-vs = https://nzhts.digital.health.nz/fhir/ValueSet
 
 Alias: $nhi-use-vs = https://nzhts.digital.health.nz/fhir/ValueSet/nhi-use-code
 
+Alias: $acc-occupation-code-vs = https://nzhts.digital.health.nz/fhir/ValueSet/acc-patient-occupation-code
 
 //================  Aliases for CodeSystems  ==============
 Alias: $dhb-code-cs = https://standards.digital.health.nz/ns/dhb-code
@@ -104,6 +106,8 @@ Alias: $coverage-type-cs = https://standards.digital.health.nz/ns/coverage-type-
 Alias: $coverage-category-cs = https://standards.digital.health.nz/ns/coverage-category-code
 
 Alias: $contact-point-purpose-cs = https://standards.digital.health.nz/ns/contact-point-purpose-code
+
+Alias: $acc-occupation-code-cs = https://standards.digital.health.nz/ns/acc-patient-occupation-code
 
 // Alias: $nhi-use-cs = https://standards.digital.health.nz/ns/nhi-use-code
 

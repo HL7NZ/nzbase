@@ -11,6 +11,7 @@ Alias: $nz-geocode = http://hl7.org.nz/fhir/StructureDefinition/nz-geocode
 Alias: $pho = http://hl7.org.nz/fhir/StructureDefinition/pho
 Alias: $sex-at-birth = http://hl7.org.nz/fhir/StructureDefinition/sex-at-birth
 Alias: $suburb = http://hl7.org.nz/fhir/StructureDefinition/suburb
+Alias: $accPatientOccupation = http://hl7.org.nz/fhir/StructureDefinition/acc-patient-occupation
 */
 
 Profile:        NzPatient
@@ -42,7 +43,8 @@ Description:    "The base New Zealand Patient profile"
     $domicile-code named domicile-code 0..1 and 
     $pho named pho 0..1 and 
     $sex-at-birth named sex-at-birth 0..1 and
-    $iwi named iwi 0..*
+    $iwi named iwi 0..* and
+    $accPatientOccupation named acc-patient-occupation 0..1
 
 * extension[nzCitizen] ^short = "Is this person a New Zealand citizen"
 

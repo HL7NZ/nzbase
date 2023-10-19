@@ -1,6 +1,6 @@
-Extension: OriginalText
+Extension: GenderOriginalText
 Id: gender-original-text
-Description: "The uncoded original text that was provided by the patient as their Gender"
+Description: "Text provided by the person with the choice of 'Another gender' (The FHIR AdministrativeGender CodeSystem codes this as '[other](http://hl7.org/fhir/R4B/codesystem-administrative-gender.html)')."
 
 * ^url = "http://hl7.org.nz/fhir/StructureDefinition/gender-original-text"
 //* ^jurisdiction.coding = urn:iso:std:iso:3166#NZ
