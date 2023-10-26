@@ -3,6 +3,17 @@
 <tr><th>Id</th><th>Canonical url</th><th>Context of Use</th><th>Description</th><th>Purpose</th>
 </tr>
 <tr>
+<td><a href='StructureDefinition-acc-patient-occupation.html'>acc-patient-occupation</a></td>
+<td>http://hl7.org.nz/fhir/StructureDefinition/acc-patient-occupation</td>
+<td>
+<div>Patient</div>
+</td>
+<td><p>Codes to describe a patient&#39;s occupation, using ACC&#39;s patient occupation codeset. </p>
+
+<p>Note that the current ValueSet binding contains codes from NZSC099. ACC are planning to update this ValueSet to base the codes on ANZSCO at the request of Stats NZ (Timing TBC), so the binding strength has been left as &#39;example&#39;.</p></td>
+<td></td>
+</tr>
+<tr>
 <td><a href='StructureDefinition-additional-authorisation.html'>additional-authorisation</a></td>
 <td>http://hl7.org.nz/fhir/StructureDefinition/additional-authorisation</td>
 <td>
@@ -133,7 +144,7 @@
 <td>
 <div>Patient.gender</div>
 </td>
-<td><p>The uncoded original text that was provided by the patient as their Gender</p></td>
+<td><p>Text provided by the person with the choice of &#39;Another gender&#39; (The FHIR AdministrativeGender CodeSystem codes this as &#39;<a href="http://hl7.org/fhir/R4B/codesystem-administrative-gender.html">other</a>&#39;).</p></td>
 <td></td>
 </tr>
 <tr>
