@@ -21,7 +21,7 @@ Description:  "Is this person a NZ Citizen"
 
 * #yes "Yes" "This person is a citizen."
 * #no "No" "This person is not a citizen."
-* #unknown "The citizenship status is unknown"
+* #unknown "Unknown" "The citizenship status is unknown."
 
 
 

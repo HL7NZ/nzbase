@@ -39,6 +39,7 @@ Id: datumCode
 Title: "Datum code"
 Description: "Datum codes used"
 
+* ^version = "1.0.0"
 * ^url = $datum-code-vs
 * ^jurisdiction.coding = urn:iso:std:iso:3166#NZ
 
@@ -50,7 +51,7 @@ Id: datum-code
 Title: "Datum codes"
 Description: "Possible datum codes"
 
-
+* ^version = "1.0.0"
 * ^url = $datum-code-cs
 * ^caseSensitive = true
 //* status = #draft

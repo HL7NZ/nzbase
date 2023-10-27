@@ -27,4 +27,9 @@ Description: "The code list represents the current practicing status of the Prov
 * #removed "A provider who has been removed from the register – this includes voluntary removal, de-registration and deceased"
 * #suspended "A provider who is suspended from practising by a Responsible Authority"
 
-
+// should probably have display values as below, will check with HIP team
+//
+// * #current "Current" "A provider who holds or is deemed to hold a current practising certificate."
+// * #inactive "Inactive" "A provider who is not practising"
+// * #removed "Removed" "A provider who has been removed from the register – this includes voluntary removal, de-registration and deceased"
+// * #suspended "Suspended" "A provider who is suspended from practising by a Responsible Authority"
