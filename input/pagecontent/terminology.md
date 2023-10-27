@@ -11,6 +11,7 @@ The [FHIR spec](http://hl7.org/fhir/terminology-module.html) has much more detai
 
 <table class='table table-bordered table-condensed'>
 <tr><th>ValueSet</th><th>Purpose</th><th>Canonical url</th></tr>
+<tr><td width='20%'><a href='ValueSet-acc-patient-occupation-valueset.html'>ACC Patient Occupation</a></td><td><p>ValueSet of codes for classifying patient occupations, drawn from the ACC codeset</p></td><td>https://nzhts.digital.health.nz/fhir/ValueSet/acc-patient-occupation-code</td></tr>
 <tr><td width='20%'><a href='ValueSet-citizenship-status.html'>NZ Citizenship status</a></td><td><p>Citizenship status</p></td><td>https://nzhts.digital.health.nz/fhir/ValueSet/nz-citizenship-status-code</td></tr>
 <tr><td width='20%'><a href='ValueSet-contact-point-purpose.html'>ContactPoint purpose</a></td><td><p>The purpose of a ContactPoint - what it is used for.</p></td><td>https://nzhts.digital.health.nz/fhir/ValueSet/contact-point-purpose-code</td></tr>
 <tr><td width='20%'><a href='ValueSet-coverage-category.html'>Coverage Category</a></td><td><p>New Zealand codes for Coverage category types</p></td><td>https://nzhts.digital.health.nz/fhir/ValueSet/coverage-category-code</td></tr>
@@ -46,6 +47,7 @@ The [FHIR spec](http://hl7.org/fhir/terminology-module.html) has much more detai
 <table class='table table-bordered table-condensed'>
 <tr><th>CodeSystem</th><th>Purpose</th><th>Canonical Url</th></tr>
 <tr><td width='20%'><a href='CodeSystem-Ethnicity.html'>NZ ethnic group codes</a></td><td><p>A FHIR CodeSystem of Australian and Ethnicity New Zealand Standard Classification</p></td><td>https://standards.digital.health.nz/ns/nz-ethnic-group-codes</td></tr>
+<tr><td width='20%'><a href='CodeSystem-acc-patient-occupation-codesystem.html'>ACC Patient Occupation CodeSystem</a></td><td><p>Codes for classifying patient occupations, drawn from the ACC codeset</p></td><td>https://standards.digital.health.nz/ns/acc-patient-occupation-code</td></tr>
 <tr><td width='20%'><a href='CodeSystem-alias-type.html'>Type of Alias</a></td><td><p>Used in Organization and Location to indicate what is the type of Alias</p></td><td>https://standards.digital.health.nz/ns/alias-type-code</td></tr>
 <tr><td width='20%'><a href='CodeSystem-citizenship-status.html'>NZ Citizenship status</a></td><td><p>Is this person a NZ Citizen</p></td><td>https://standards.digital.health.nz/ns/nz-citizenship-status-code</td></tr>
 <tr><td width='20%'><a href='CodeSystem-contact-point-purpose.html'>ContactPoint purpose</a></td><td><p>The purpose of a ContactPoint - what it is used for.</p></td><td>https://standards.digital.health.nz/ns/contact-point-purpose-code</td></tr>
