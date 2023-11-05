@@ -48,6 +48,15 @@ Description:    "The base New Zealand Patient profile"
     $messagingAddress named messaging-address 0..* and
     $nzResidency named nz-residency 0..1 
 
+* deceasedDateTime.extension contains
+    $information-source named information-source 0..1
+
+* name.extension contains
+    $information-source named information-source 0..1
+
+* birthDate.extension contains
+    $information-source named information-source 0..1
+
 * extension[nzCitizen] ^short = "Is this person a New Zealand citizen"
 
 /* Using 'pure' slicing
