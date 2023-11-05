@@ -35,6 +35,7 @@ Alias: $practitionerRole-status-reason = http://hl7.org.nz/fhir/StructureDefinit
 Alias: $genderOriginalText = http://hl7.org.nz/fhir/StructureDefinition/gender-original-text
 Alias: $accPatientOccupation = http://hl7.org.nz/fhir/StructureDefinition/acc-patient-occupation
 Alias: $messagingAddress = http://hl7.org.nz/fhir/StructureDefinition/messaging-address
+Alias: $nzResidency = http://hl7.org.nz/fhir/StructureDefinition/nz-residency
 
 //===============   Aliases for ValueSets  ===============
 Alias: $pho-code-vs = https://nzhts.digital.health.nz/fhir/ValueSet/pho-code

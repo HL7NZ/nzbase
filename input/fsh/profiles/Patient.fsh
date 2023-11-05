@@ -45,7 +45,8 @@ Description:    "The base New Zealand Patient profile"
     $sex-at-birth named sex-at-birth 0..1 and
     $iwi named iwi 0..* and
     $accPatientOccupation named acc-patient-occupation 0..1 and
-    $messagingAddress named messaging-address 0..* 
+    $messagingAddress named messaging-address 0..* and
+    $nzResidency named nz-residency 0..1 
 
 * extension[nzCitizen] ^short = "Is this person a New Zealand citizen"
 
