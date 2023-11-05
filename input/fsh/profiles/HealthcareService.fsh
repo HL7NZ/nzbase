@@ -12,4 +12,5 @@ Description:    "HealthcareService resource for use in NZ"
 * extension contains
     $dhb named dhb 0..1 and
     $funded-programme named funded-programme 0..* and
+    $pho named pho 0..1 and
     $messagingAddress named messaging-address 0..* 
