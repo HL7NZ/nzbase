@@ -11,4 +11,5 @@ Description:    "PractitionerRole resource for use in NZ"
 
 * extension contains
     $practitionerRole-creator named practitionerRole-creator 0..1 and
-    $practitionerRole-status-reason named practitionerRole-status-reason 0..1 
+    $practitionerRole-status-reason named practitionerRole-status-reason 0..1 and
+    $messagingAddress named messaging-address 0..* 

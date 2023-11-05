@@ -14,7 +14,9 @@ Description:    "Location resource for use in NZ"
     $dhb named dhb 0..1 and
     $established named established 0..1 and
     $funded-programme named funded-programme 0..1 and 
-    $pho named pho 0..1
+    $pho named pho 0..1 and
+    $messagingAddress named messaging-address 0..* 
+    
 
 * alias.extension contains
   $alias-type named alias-type 0..1

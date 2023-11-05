@@ -3,7 +3,7 @@ Id: messaging-address
 Title: "Messaging Address"
 Description: "The address to where electronic communications might be sent. For historical reasons, there is an overlap with edi-address."
 
-* ^url = "http://hl7.org.nz/fhir/StructureDefinition/messaging-address"
+* ^url = $messagingAddress
 
 * ^version = "0.1.0"
 * ^status = #active

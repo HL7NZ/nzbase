@@ -13,7 +13,8 @@ Description:    "Practitioner resource for use in NZ"
     $death-date named death-date 0..1 and
     $educational-qualification named educational-qualification 0..* and
     $ethnicity named ethnicity 0..* and
-    $iwi named iwi 0..*
+    $iwi named iwi 0..* and
+    $messagingAddress named messaging-address 0..* 
 
 * qualification.extension contains
     $additional-authorisation named additional-authorisation 0..* and

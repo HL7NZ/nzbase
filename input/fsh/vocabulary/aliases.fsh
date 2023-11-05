@@ -12,13 +12,10 @@ Alias: $nz-geocode = http://hl7.org.nz/fhir/StructureDefinition/nz-geocode
 Alias: $pho = http://hl7.org.nz/fhir/StructureDefinition/pho
 Alias: $sex-at-birth = http://hl7.org.nz/fhir/StructureDefinition/sex-at-birth
 Alias: $suburb = http://hl7.org.nz/fhir/StructureDefinition/suburb
-
-
 Alias: $alias-type = http://hl7.org.nz/fhir/StructureDefinition/alias-type
 Alias: $established = http://hl7.org.nz/fhir/StructureDefinition/established
 Alias: $funded-programme = http://hl7.org.nz/fhir/StructureDefinition/funded-programme
 Alias: $pho = http://hl7.org.nz/fhir/StructureDefinition/pho
-
 Alias: $additional-authorisation = http://hl7.org.nz/fhir/StructureDefinition/additional-authorisation
 Alias: $condition-on-practice = http://hl7.org.nz/fhir/StructureDefinition/condition-on-practice
 Alias: $death-date = http://hl7.org.nz/fhir/StructureDefinition/death-date
@@ -28,21 +25,16 @@ Alias: $registration-status-code = http://hl7.org.nz/fhir/StructureDefinition/re
 Alias: $scope-of-practice = http://hl7.org.nz/fhir/StructureDefinition/scope-of-practice
 Alias: $registration-initial-date = http://hl7.org.nz/fhir/StructureDefinition/registration-initial-date
 Alias: $long-term-condition = http://hl7.org.nz/fhir/StructureDefinition/long-term-condition
-
 Alias: $nzeps-long-term-medication = http://hl7.org.nz/fhir/StructureDefinition/nzeps-long-term-medication
 Alias: $nzeps-supply-period-reason = http://hl7.org.nz/fhir/StructureDefinition/nzeps-supply-period-reason
 Alias: $nzeps-unusual-dose-quantity = http://hl7.org.nz/fhir/StructureDefinition/nzeps-unusual-dose-quantity
-
-
 Alias: $cpPurpose = http://hl7.org.nz/fhir/StructureDefinition/contactpoint-purpose
 Alias: $cpEdi = http://hl7.org.nz/fhir/StructureDefinition/edi-address
-
 Alias: $practitionerRole-creator = http://hl7.org.nz/fhir/StructureDefinition/practitionerRole-creator
 Alias: $practitionerRole-status-reason = http://hl7.org.nz/fhir/StructureDefinition/practitionerRole-status-reason
-
 Alias: $genderOriginalText = http://hl7.org.nz/fhir/StructureDefinition/gender-original-text
-
 Alias: $accPatientOccupation = http://hl7.org.nz/fhir/StructureDefinition/acc-patient-occupation
+Alias: $messagingAddress = http://hl7.org.nz/fhir/StructureDefinition/messaging-address
 
 //===============   Aliases for ValueSets  ===============
 Alias: $pho-code-vs = https://nzhts.digital.health.nz/fhir/ValueSet/pho-code
