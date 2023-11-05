@@ -1,6 +1,6 @@
 Extension: MaoriDescent
 Id: maori-descent
-Description: "Code indicting whether the person is of Māori descent"
+Description: "Code indicating whether the person is of Māori descent"
 * ^url = "http://hl7.org.nz/fhir/StructureDefinition/maori-descent"
 * ^context.type = #element
 * ^context.expression = "Patient"
