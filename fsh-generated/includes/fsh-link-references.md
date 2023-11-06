@@ -1,4 +1,7 @@
 [Contactpoint_purpose]: StructureDefinition-contactpoint-purpose.html
+[AccPatientOccupationValueSet]: ValueSet-acc-patient-occupation-valueset.html
+[AccPatientOccupationCodeSystem]: CodeSystem-acc-patient-occupation-codesystem.html
+[AccPatientOccupation]: StructureDefinition-acc-patient-occupation.html
 [AdditionalAuthorisation]: CodeSystem-practitioner-additional-authorisation.html
 [PractitionerAdditionalAuthorisationCode]: ValueSet-practitioner-additional-authorisation-code.html
 [AdditionalAuthorisation]: StructureDefinition-additional-authorisation.html
@@ -37,6 +40,7 @@
 [Funded_programme]: StructureDefinition-funded-programme.html
 [FundedProgramme]: ValueSet-funded-programme.html
 [FundedProgramme]: CodeSystem-funded-programme.html
+[GenderOriginalText]: StructureDefinition-gender-original-text.html
 [NzHealthcareService]: StructureDefinition-NzHealthcareService.html
 [hpiFacility]: NamingSystem-hpiFacility.html
 [hpiOrganization]: NamingSystem-hpiOrganization.html
@@ -106,7 +110,6 @@
 [organization-edi-address]: Organization-organization-edi-address.html
 [organization-funded-programme]: Organization-organization-funded-programme.html
 [organization-moh]: Organization-organization-moh.html
-[OriginalText]: StructureDefinition-gender-original-text.html
 [patient-address-building-name]: Patient-patient-address-building-name.html
 [patient-address-suburb]: Patient-patient-address-suburb.html
 [patient-building-name]: Patient-patient-building-name.html

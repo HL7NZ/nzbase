@@ -20,7 +20,8 @@
     },
     {
       "code": "unknown",
-      "display": "The citizenship status is unknown"
+      "display": "Unknown",
+      "definition": "The citizenship status is unknown."
     }
   ],
   "caseSensitive": true,

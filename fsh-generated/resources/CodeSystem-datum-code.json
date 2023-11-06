@@ -19,6 +19,7 @@
       "definition": "Nz official datum, used by MoH address service"
     }
   ],
+  "version": "1.0.0",
   "caseSensitive": true,
   "count": 2
 }

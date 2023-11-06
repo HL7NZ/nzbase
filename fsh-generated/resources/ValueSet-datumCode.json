@@ -6,6 +6,7 @@
   "title": "Datum code",
   "description": "Datum codes used",
   "url": "https://nzhts.digital.health.nz/fhir/ValueSet/nz-datum-code",
+  "version": "1.0.0",
   "jurisdiction": [
     {
       "coding": [

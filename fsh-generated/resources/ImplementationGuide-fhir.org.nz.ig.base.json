@@ -36,6 +36,30 @@
       },
       {
         "reference": {
+          "reference": "ValueSet/acc-patient-occupation-valueset"
+        },
+        "name": "ACC Patient Occupation",
+        "description": "ValueSet of codes for classifying patient occupations, drawn from the ACC codeset",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/acc-patient-occupation-codesystem"
+        },
+        "name": "ACC Patient Occupation CodeSystem",
+        "description": "Codes for classifying patient occupations, drawn from the ACC codeset",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/acc-patient-occupation"
+        },
+        "name": "AccPatientOccupation",
+        "description": "Codes to describe a patient's occupation, using ACC's patient occupation codeset. \n\nNote that the current ValueSet binding contains codes from NZSC099. ACC are planning to update this ValueSet to base the codes on ANZSCO at the request of Stats NZ (Timing TBC), so the binding strength has been left as 'example'.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
           "reference": "CodeSystem/practitioner-additional-authorisation"
         },
         "name": "Additional Authorisation",
@@ -340,6 +364,14 @@
       },
       {
         "reference": {
+          "reference": "StructureDefinition/gender-original-text"
+        },
+        "name": "GenderOriginalText",
+        "description": "Text provided by the person with the choice of 'Another gender' (The FHIR AdministrativeGender CodeSystem codes this as '[other](http://hl7.org/fhir/R4B/codesystem-administrative-gender.html)').",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
           "reference": "StructureDefinition/NzHealthcareService"
         },
         "name": "HealthcareService resource for use in NZ",
@@ -351,6 +383,7 @@
           "reference": "NamingSystem/hpiFacility"
         },
         "name": "hpiFacility",
+        "description": "HPI facilities",
         "exampleBoolean": false
       },
       {
@@ -358,6 +391,7 @@
           "reference": "NamingSystem/hpiOrganization"
         },
         "name": "hpiOrganization",
+        "description": "HPI organizations",
         "exampleBoolean": false
       },
       {
@@ -365,6 +399,7 @@
           "reference": "NamingSystem/hpipractitionerrole"
         },
         "name": "hpipractitionerrole",
+        "description": "HPI PractitionerRole id",
         "exampleBoolean": false
       },
       {
@@ -372,6 +407,7 @@
           "reference": "NamingSystem/hpiProvider"
         },
         "name": "hpiProvider",
+        "description": "HPI providers",
         "exampleBoolean": false
       },
       {
@@ -443,7 +479,7 @@
           "reference": "StructureDefinition/long-term-condition"
         },
         "name": "Long Term Condition Indicator",
-        "description": "Long Term Condition Indicator. A long term condition can be  defined as any ongoing, long term or recurring conditions that can have a significant impact on people’s lives.",
+        "description": "Long Term Condition Indicator. A long term condition can be defined as any ongoing, long term or recurring conditions that can have a significant impact on people’s lives.",
         "exampleBoolean": false
       },
       {
@@ -451,7 +487,7 @@
           "reference": "StructureDefinition/maori-descent"
         },
         "name": "MaoriDescent",
-        "description": "Code indicting whether the person is of Māori descent",
+        "description": "Code indicating whether the person is of Māori descent",
         "exampleBoolean": false
       },
       {
@@ -539,6 +575,7 @@
           "reference": "NamingSystem/nhi"
         },
         "name": "nhi",
+        "description": "NHI number",
         "exampleBoolean": false
       },
       {
@@ -650,6 +687,7 @@
           "reference": "NamingSystem/nzACC45"
         },
         "name": "nzACC45",
+        "description": "ACC 45 number",
         "exampleBoolean": false
       },
       {
@@ -657,6 +695,7 @@
           "reference": "NamingSystem/nzbn"
         },
         "name": "nzbn",
+        "description": "New Zealand Business Number",
         "exampleBoolean": false
       },
       {
@@ -664,6 +703,7 @@
           "reference": "NamingSystem/nzchrir"
         },
         "name": "nzchrir",
+        "description": "Chiropractic Board Register number",
         "exampleBoolean": false
       },
       {
@@ -671,6 +711,7 @@
           "reference": "NamingSystem/nzdental"
         },
         "name": "nzdental",
+        "description": "Dental Council Register Number",
         "exampleBoolean": false
       },
       {
@@ -678,6 +719,7 @@
           "reference": "NamingSystem/nzdiet"
         },
         "name": "nzdiet",
+        "description": "Dietitians Board Register Number",
         "exampleBoolean": false
       },
       {
@@ -725,6 +767,7 @@
           "reference": "NamingSystem/nzmc"
         },
         "name": "nzmc",
+        "description": "Medical Council of New Zealand Register Number",
         "exampleBoolean": false
       },
       {
@@ -732,6 +775,7 @@
           "reference": "NamingSystem/nzmwife"
         },
         "name": "nzmwife",
+        "description": "Midwifery Council Register Number",
         "exampleBoolean": false
       },
       {
@@ -739,6 +783,7 @@
           "reference": "NamingSystem/nznc"
         },
         "name": "nznc",
+        "description": "Nursing Council of New Zealand Register Number",
         "exampleBoolean": false
       },
       {
@@ -746,6 +791,7 @@
           "reference": "NamingSystem/nzocc"
         },
         "name": "nzocc",
+        "description": "Occupational Therapy Board Register Number",
         "exampleBoolean": false
       },
       {
@@ -753,6 +799,7 @@
           "reference": "NamingSystem/nzopt"
         },
         "name": "nzopt",
+        "description": "Optometrists & Dispensing Opticians Board Register Number",
         "exampleBoolean": false
       },
       {
@@ -760,6 +807,7 @@
           "reference": "NamingSystem/nzost"
         },
         "name": "nzost",
+        "description": "Osteopathic Council Register Number",
         "exampleBoolean": false
       },
       {
@@ -767,6 +815,7 @@
           "reference": "NamingSystem/nzparamed"
         },
         "name": "nzparamed",
+        "description": "Paramedic Council Register Number",
         "exampleBoolean": false
       },
       {
@@ -774,6 +823,7 @@
           "reference": "NamingSystem/nzpharm"
         },
         "name": "nzpharm",
+        "description": "Pharmacy Council of New Zealand Register Number",
         "exampleBoolean": false
       },
       {
@@ -781,6 +831,7 @@
           "reference": "NamingSystem/nzphysio"
         },
         "name": "nzphysio",
+        "description": "Physiotherapy Board Register Number",
         "exampleBoolean": false
       },
       {
@@ -788,6 +839,7 @@
           "reference": "NamingSystem/nzpod"
         },
         "name": "nzpod",
+        "description": "Podiatrists Board Register Number",
         "exampleBoolean": false
       },
       {
@@ -795,6 +847,7 @@
           "reference": "NamingSystem/nzpsycho"
         },
         "name": "nzpsycho",
+        "description": "Psychotherapists Board register Number",
         "exampleBoolean": false
       },
       {
@@ -802,6 +855,7 @@
           "reference": "NamingSystem/nzpsyhc"
         },
         "name": "nzpsyhc",
+        "description": "Psychologists Board Register Number",
         "exampleBoolean": false
       },
       {
@@ -809,6 +863,7 @@
           "reference": "NamingSystem/nzrad"
         },
         "name": "nzrad",
+        "description": "Medical Radiation Technologists Board Register Number",
         "exampleBoolean": false
       },
       {
@@ -824,6 +879,7 @@
           "reference": "NamingSystem/nzscience"
         },
         "name": "nzscience",
+        "description": "Medical Sciences Council Register Number",
         "exampleBoolean": false
       },
       {
@@ -865,14 +921,6 @@
         "name": "organization-moh",
         "description": "Ministrt Of Health",
         "exampleBoolean": true
-      },
-      {
-        "reference": {
-          "reference": "StructureDefinition/gender-original-text"
-        },
-        "name": "OriginalText",
-        "description": "The uncoded original text that was provided by the patient as their Gender",
-        "exampleBoolean": false
       },
       {
         "reference": {

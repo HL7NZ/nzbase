@@ -1,0 +1,17 @@
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "AccPatientOccupationValueSet",
+  "id": "acc-patient-occupation-valueset",
+  "title": "ACC Patient Occupation",
+  "description": "ValueSet of codes for classifying patient occupations, drawn from the ACC codeset",
+  "url": "https://nzhts.digital.health.nz/fhir/ValueSet/acc-patient-occupation-code",
+  "version": "1.0.0",
+  "compose": {
+    "include": [
+      {
+        "system": "https://standards.digital.health.nz/ns/acc-patient-occupation-code"
+      }
+    ]
+  }
+}

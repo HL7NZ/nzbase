@@ -164,8 +164,8 @@
 <td>
 <div>Condition</div>
 </td>
-<td><p>Long Term Condition Indicator. A long term condition can be  defined as any ongoing, long term or recurring conditions that can have a significant impact on people’s lives.</p></td>
-<td><p>Long term condition indicator (see https://www.health.govt.nz/our-work/diseases-and-conditions/long-term-conditions).</p></td>
+<td><p>Long Term Condition Indicator. A long term condition can be defined as any ongoing, long term or recurring conditions that can have a significant impact on people’s lives.</p></td>
+<td><p>For more info see <a href="https://www.tewhatuora.govt.nz/for-the-health-sector/health-sector-guidance/diseases-and-conditions/long-term-conditions">https://www.tewhatuora.govt.nz/for-the-health-sector/health-sector-guidance/diseases-and-conditions/long-term-conditions</a>.</p></td>
 </tr>
 <tr>
 <td><a href='StructureDefinition-maori-descent.html'>maori-descent</a></td>
@@ -173,7 +173,7 @@
 <td>
 <div>Patient</div>
 </td>
-<td><p>Code indicting whether the person is of Māori descent</p></td>
+<td><p>Code indicating whether the person is of Māori descent</p></td>
 <td></td>
 </tr>
 <tr>
