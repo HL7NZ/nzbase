@@ -9,9 +9,9 @@ Description: "A code indicating whether a person is of Māori descent"
 CodeSystem: MaoriDescent
 Id: maori-descent-codesystem
 Title: "Māori Descent"
-Description: "Codes for classifying Māori descent. Defined by Stats NZ - Census Māori descent v2.0.0"
+Description: "Codes for classifying Māori descent. Defined by Stats NZ - Māori descent v1.0.0"
 * ^url = "https://standards.digital.health.nz/ns/maori-descent-code"
-* ^version = "2.0.0"
+* ^version = "1.0.0"
 * ^status = #active
 * ^publisher = "Stats NZ"
 * ^caseSensitive = true
@@ -23,5 +23,7 @@ Description: "Codes for classifying Māori descent. Defined by Stats NZ - Census
 * #1 "Māori Descent"
 * #2 "No Māori Descent"
 * #4 "Don't Know"
+* #5 "Refused to Answer"
 * #7 "Response Unidentifiable"
+* #8 "Response Outside Scope"
 * #9 "Not Stated"

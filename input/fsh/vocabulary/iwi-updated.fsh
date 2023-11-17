@@ -16,14 +16,14 @@ Description: "New Zealand iwi codes.  The 2 digit codes are abstract codes and p
 * ^url = $iwi-vs
 
 * codes from system $iwi-cs
-* ^version = "2.0.0"
+* ^version = "2.1.0"
 
 CodeSystem: Iwi_code
 Id: iwi-code
 Title: "NZ Iwi"
-Description: "NZ Iwi Statistical Standard: 27 May 2022."
+Description: "NZ Iwi Statistical Standard"
 * ^url = $iwi-cs //"https://standards.digital.health.nz/ns/iwi-code"
-* ^version = "2.0.0"
+* ^version = "2.1.0"
 * ^status = #active
 
 * ^date = "2022-05-10"
