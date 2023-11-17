@@ -1,9 +1,7 @@
 ValueSet: Ethnicityfull
 Id: ethnicityfull
 Title: "Ethnicity of a person (full)"
-Description: """
-Codes to record a person's ethnicity, drawn from [All of the Ethnicity code system](http://aria.stats.govt.nz/aria/#ClassificationView:uri=http://stats.govt.nz/cms/ClassificationVersion/YVqOcFHSlguKkT17)
-"""
+Description: "Ethnicity New Zealand Standard Classification 2005. Ethnicity is the ethnic group or groups that people identify with or feel they belong to."
 
 * ^url = $ethnicity-code-all-vs
 * ^version = "2.1.0"
@@ -13,7 +11,7 @@ Codes to record a person's ethnicity, drawn from [All of the Ethnicity code syst
 CodeSystem: NZ_ethnic_group_codes
 Id: Ethnicity
 Title: "NZ ethnic group codes"
-Description: "A FHIR CodeSystem of Australian and Ethnicity New Zealand Standard Classification"
+Description: "Ethnicity New Zealand Standard Classification 2005. Ethnicity is the ethnic group or groups that people identify with or feel they belong to."
 * ^meta.versionId = "1"
 * ^meta.lastUpdated = "2023-07-23T21:32:16.962+12:00"
 * ^url = $ethnicity-code-all-cs
