@@ -6,10 +6,7 @@ Description: "Educational qualifications a practitioner has. These may or may no
 * ^jurisdiction.coding = urn:iso:std:iso:3166#NZ
 * ^version = "1.0.0"
 * ^context[0].type = #element
-* ^context[0].expression = "Practitioner.qualification"
-
-* ^context[+].type = #element
-* ^context[=].expression = "Practitioner"
+* ^context[0].expression = "Practitioner"
 
 //* ^context.type = #element
 //* ^context.expression = "Practitioner"
