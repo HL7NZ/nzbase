@@ -3,7 +3,7 @@
 ValueSet : PractitionerRoleStatusReason
 Id: hpi-practitionerrole-status-reason
 Title: "PractitionerRole status reason"
-Description: "The reason for the current status of PractitionerRole"
+Description: "The reason for the change in status of PractitionerRole"
 
 * ^url = $pr-status-reason-vs
 * ^jurisdiction.coding = urn:iso:std:iso:3166#NZ
@@ -14,7 +14,7 @@ Description: "The reason for the current status of PractitionerRole"
 CodeSystem:  PractitionerRoleStatusReason
 Id: hpi-practitionerRole-status-reason
 Title: "PractitionerRole status reason"
-Description:  "The reason for the current status of PractitionerRole"
+Description:  "The reason for the change in status of PractitionerRole"
 
 * ^url = $pr-status-reason-cs
 * ^jurisdiction.coding = urn:iso:std:iso:3166#NZ

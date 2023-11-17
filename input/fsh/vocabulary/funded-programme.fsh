@@ -1,7 +1,7 @@
 ValueSet : FundedProgramme
 Id: funded-programme
 Title: "Funded Programme"
-Description:  "Some sort of funded programme"
+Description:  "Codes to describe NZ-specific types of funded programmes."
 
 * ^url = $funded-programme-vs
 * ^version = "1.0.0"
@@ -11,7 +11,7 @@ Description:  "Some sort of funded programme"
 CodeSystem:  FundedProgramme
 Id: funded-programme
 Title: "Funded Programme"
-Description:  "Some sort of funded programme"
+Description:  "Codes to describe NZ-specific types of funded programmes."
 
 * ^url = $funded-programme-cs
 * ^caseSensitive = true
