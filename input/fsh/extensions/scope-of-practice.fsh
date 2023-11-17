@@ -4,7 +4,7 @@ Description: "The type or range of health services a practitioner is authorised 
 
 * ^url = "http://hl7.org.nz/fhir/StructureDefinition/scope-of-practice"
 * ^jurisdiction.coding = urn:iso:std:iso:3166#NZ
-
+* ^version = "1.0.0"
 * ^context.type = #element
 * ^context.expression = "Practitioner.qualification"
 

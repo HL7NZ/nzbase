@@ -4,7 +4,7 @@ Description: "The reason for the status. Generally only used for inactive resour
 
 * ^url = "http://hl7.org.nz/fhir/StructureDefinition/practitionerRole-status-reason"
 * ^jurisdiction.coding = urn:iso:std:iso:3166#NZ
-
+* ^version = "1.0.0"
 * ^context.type = #element
 * ^context.expression = "PractitionerRole"
 

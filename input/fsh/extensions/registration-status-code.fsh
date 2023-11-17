@@ -4,7 +4,7 @@ Description: "An indicator of the practicing status of the practitioner as suppl
 
 * ^url = "http://hl7.org.nz/fhir/StructureDefinition/registration-status-code"
 * ^jurisdiction.coding = urn:iso:std:iso:3166#NZ
-
+* ^version = "1.0.0"
 * ^context.type = #element
 * ^context.expression = "Practitioner.qualification"
 

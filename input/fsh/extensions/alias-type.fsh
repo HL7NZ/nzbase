@@ -4,7 +4,7 @@ Description: "Used to indicate what sort of alias is being used in a Location or
 
 * ^url = "http://hl7.org.nz/fhir/StructureDefinition/alias-type"
 * ^jurisdiction.coding = urn:iso:std:iso:3166#NZ
-
+* ^version = "1.0.0"
 * ^status = #active
 
 * ^context[+].type = #element

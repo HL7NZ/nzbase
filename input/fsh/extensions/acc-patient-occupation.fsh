@@ -6,7 +6,7 @@ Note that the current ValueSet binding contains codes from NZSC099. ACC are plan
 
 * ^url = "http://hl7.org.nz/fhir/StructureDefinition/acc-patient-occupation"
 // * ^jurisdiction.coding = urn:iso:std:iso:3166#NZ
-
+* ^version = "1.0.0"
 * ^status = #active
 * ^context[0].type = #element
 * ^context[0].expression = "Patient"

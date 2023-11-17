@@ -4,7 +4,7 @@ Description: "A full description of the conditions the health practitioner is su
 
 * ^url = "http://hl7.org.nz/fhir/StructureDefinition/condition-on-practice"
 * ^jurisdiction.coding = urn:iso:std:iso:3166#NZ
-
+* ^version = "1.0.0"
 * ^context.type = #element
 * ^context.expression = "Practitioner.qualification"
 

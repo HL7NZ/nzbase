@@ -4,7 +4,7 @@ Description: "Persons Iwi affiliation"
 
 * ^url = "http://hl7.org.nz/fhir/StructureDefinition/nz-iwi"
 * ^jurisdiction.coding = urn:iso:std:iso:3166#NZ
-
+* ^version = "1.0.0"
 * ^status = #active
 * ^context[0].type = #element
 * ^context[0].expression = "Patient"

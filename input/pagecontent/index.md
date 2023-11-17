@@ -18,6 +18,7 @@ By default, FHIR supports macrons (and all diacritics) as commonly used by Te Re
 
 Macrons are supported as FHIR uses UTF-8 for all encoding formats (JSON, XML, and RDF), and macrons are explicitly allowed by the relevant FHIR datatypes where macrons could appear.
 
+## Overview of IG Sections
 
 The following tabs are available from the navbar at the top.
 
