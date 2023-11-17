@@ -120,7 +120,7 @@ Title: "Valid use values for NHI"
 Description:  "NHI Use codes"
 
 * ^url = $nhi-use-vs
-
+* ^version = "1.0.0"
 * http://hl7.org/fhir/identifier-use#official
 * http://hl7.org/fhir/identifier-use#old
 
