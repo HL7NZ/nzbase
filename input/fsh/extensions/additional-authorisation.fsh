@@ -1,6 +1,8 @@
 Extension: AdditionalAuthorisation
 Id: additional-authorisation
-Description: "Additional authorisations that a practitioner is authorised to perform"
+Description: "Additional authorisations that a practitioner is authorised to perform in addition to their registration and scope of practice. Examples include:
+* Prescribing authorisation for a nurse practitioner
+* Authorisation to administer immunisations"
 
 * ^url = "http://hl7.org.nz/fhir/StructureDefinition/additional-authorisation"
 * ^jurisdiction.coding = urn:iso:std:iso:3166#NZ
