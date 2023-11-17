@@ -5,7 +5,7 @@ Description: """
 Codes to record a person's ethnicity, drawn from [Level 4 of the Ethnicity code system](http://aria.stats.govt.nz/aria/#ClassificationView:uri=http://stats.govt.nz/cms/ClassificationVersion/YVqOcFHSlguKkT17)
 """
 
-* ^version = "1.0.0"
+* ^version = "2.1.0"
 * ^url = $ethnicity-code-vs 
 
 * codes from system $ethnicity-code-cs
