@@ -16,7 +16,7 @@ Description:  "Used in Organization and Location to indicate what is the type of
 * #legal "Legal" "The name as recorded in the official register eg Register of Companies."
 * #short "Short" "An abbreviated name by which the organisation or facility is known."
 * #trade-as "Trading as" "Used when the organisation/facility has a separate trading name."
-* #current "Current unverified or unofficial name" "The name currently used for a facility."
+* #current "Current" "The name currently used for a facility."
 
 
 
