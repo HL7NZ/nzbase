@@ -19,7 +19,9 @@
 <td>
 <div>Practitioner.qualification</div>
 </td>
-<td><p>Additional authorisations that a practitioner is authorised to perform</p></td>
+<td><p>Additional authorisations that a practitioner is authorised to perform in addition to their registration and scope of practice. Examples include:
+<em> Prescribing authorisation for a nurse practitioner
+</em> Authorisation to administer immunisations</p></td>
 <td></td>
 </tr>
 <tr>
@@ -111,7 +113,6 @@
 <td><a href='StructureDefinition-educational-qualification.html'>educational-qualification</a></td>
 <td>http://hl7.org.nz/fhir/StructureDefinition/educational-qualification</td>
 <td>
-<div>Practitioner.qualification</div>
 <div>Practitioner</div>
 </td>
 <td><p>Educational qualifications a practitioner has. These may or may not be related to registration information.</p></td>
