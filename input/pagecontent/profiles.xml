@@ -73,5 +73,10 @@
 <td>http://hl7.org.nz/fhir/StructureDefinition/NzPractitionerRole</td>
 <td><p>PractitionerRole resource for use in NZ</p></td>
 </tr>
+<tr>
+<td><a href='StructureDefinition-NzRelatedPerson.html'>NzRelatedPerson</a></td>
+<td>http://hl7.org.nz/fhir/StructureDefinition/NzRelatedPerson</td>
+<td><p>The base New Zealand RelatedPerson profile</p></td>
+</tr>
 </table>
 </div>
