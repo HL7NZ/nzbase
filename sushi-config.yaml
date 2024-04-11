@@ -16,10 +16,6 @@ publisher:
 description: New Zealand base profiles
 license: CC0-1.0
 fhirVersion: 4.0.1
-parameters:
-  show-inherited-invariants: false
-  apply-version: false
-  # default-version: true
 copyrightYear: 2021+
 # releaseLabel: Release
 releaseLabel: Draft
@@ -52,3 +48,10 @@ menu:
     Artifacts (Json): definitions.json.zip
     Artifacts (Xml): definitions.xml.zip
   # Terminology Audit: termaudit.html
+
+parameters:
+  show-inherited-invariants: false
+  apply-version: false
+  # default-version: true
+  special-url: 
+    - 'https://standards.digital.health.nz/ns/nz-ethnic-group-codes'
