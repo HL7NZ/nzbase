@@ -537,13 +537,18 @@ InstanceOf: NamingSystem
 Usage: #definition
 * status = #active
 * usage = "Used in New Zealand for identifying education facilities"
+
 * uniqueId[0].period.start = "2024-07-20"
-* uniqueId[=].preferred = false
-* uniqueId[=].value = "https://catalogue.data.govt.nz/api/3"
-* uniqueId[=].type = #uri
-* uniqueId[+].period.start = "2024-07-20"
 * uniqueId[=].preferred = true
 * uniqueId[=].value = "https://standards.digital.health.nz/ns/moe-facility-id"
+* uniqueId[=].type = #uri
+* uniqueId[+].period.start = "2024-07-20"
+* uniqueId[=].preferred = false
+* uniqueId[=].value = "https://www.educationcounts.govt.nz/directories/list-of-nz-schools"
+* uniqueId[=].type = #uri
+* uniqueId[+].period.start = "2024-07-20"
+* uniqueId[=].preferred = false
+* uniqueId[=].value = "https://catalogue.data.govt.nz/api/3"
 * uniqueId[=].type = #uri
 * publisher = "HL7 New Zealand"
 * description = "New Zealand Ministry of Education - Facility Identifier."
