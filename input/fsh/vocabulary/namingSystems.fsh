@@ -532,6 +532,32 @@ Usage: #definition
 * uniqueId.value = "https://standards.digital.health.nz/ns/acc-45-number"
 * uniqueId.preferred = true
 
+Instance: moeFacilityId
+InstanceOf: NamingSystem
+Usage: #definition
+* status = #active
+* usage = "Used in New Zealand for identifying education facilities"
+* uniqueId[0].period.start = "2024-07-20"
+* uniqueId[=].preferred = false
+* uniqueId[=].value = "https://catalogue.data.govt.nz/api/3"
+* uniqueId[=].type = #uri
+* uniqueId[+].period.start = "2024-07-20"
+* uniqueId[=].preferred = true
+* uniqueId[=].value = "https://standards.digital.health.nz/ns/moe-facility-id"
+* uniqueId[=].type = #uri
+* publisher = "HL7 New Zealand"
+* description = "New Zealand Ministry of Education - Facility Identifier."
+* name = "Moe_facility_id"
+* kind = #identifier
+* type.text = "moe-facility"
+* type =  http://terminology.hl7.org/CodeSystem/v2-0203#FI "Facility ID"
+* contact.name = "HL7 New Zealand"
+* contact.telecom.system = #url
+* contact.telecom.value = "http://hl7.org.nz"
+* responsible = "New Zealand Health Information Standards Organisation (HISO)"
+* jurisdiction = urn:iso:std:iso:3166#NZ
+* date = "2024-07-20"
+
 
 
 /*
