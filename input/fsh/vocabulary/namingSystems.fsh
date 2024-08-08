@@ -532,37 +532,68 @@ Usage: #definition
 * uniqueId.value = "https://standards.digital.health.nz/ns/acc-45-number"
 * uniqueId.preferred = true
 
-Instance: moeFacilityId
+Instance: moe-facility-id
 InstanceOf: NamingSystem
 Usage: #definition
 * status = #active
-* usage = "Used in New Zealand for identifying education facilities"
-
-* uniqueId[0].period.start = "2024-07-20"
-* uniqueId[=].preferred = true
-* uniqueId[=].value = "https://standards.digital.health.nz/ns/moe-facility-id"
-* uniqueId[=].type = #uri
-* uniqueId[+].period.start = "2024-07-20"
-* uniqueId[=].preferred = false
-* uniqueId[=].value = "https://www.educationcounts.govt.nz/directories/list-of-nz-schools"
-* uniqueId[=].type = #uri
-* uniqueId[+].period.start = "2024-07-20"
-* uniqueId[=].preferred = false
-* uniqueId[=].value = "https://catalogue.data.govt.nz/api/3"
-* uniqueId[=].type = #uri
-* publisher = "HL7 New Zealand"
-* description = "New Zealand Ministry of Education - Facility Identifier."
-* name = "Moe_facility_id"
 * kind = #identifier
+* uniqueId.preferred = true
+* uniqueId.value = "https://standards.digital.health.nz/ns/moe-facility-id"
+* uniqueId.period.start = "2024-07-20"
+* uniqueId.type = #uri
+* contact.name = "HL7 New Zealand"
+* contact.telecom.value = "http://hl7.org.nz"
+* contact.telecom.system = #url
 * type.text = "moe-facility"
 * type =  http://terminology.hl7.org/CodeSystem/v2-0203#FI "Facility ID"
-* contact.name = "HL7 New Zealand"
-* contact.telecom.system = #url
-* contact.telecom.value = "http://hl7.org.nz"
-* responsible = "New Zealand Health Information Standards Organisation (HISO)"
-* jurisdiction = urn:iso:std:iso:3166#NZ
 * date = "2024-07-20"
+* publisher = "HL7 New Zealand"
+* jurisdiction = urn:iso:std:iso:3166#NZ
+* description = "This identifier, known as the 'MoE Number' or 'School Number', is used by the education sector to identify an NZ education institution. These identifiers can be looked up at the \\[[educationcounts.govt.nz](http://educationcounts.govt.nz)\\]([https://www.educationcounts.govt.nz/directories/list-of-nz-schools](https://www.educationcounts.govt.nz/directories/list-of-nz-schools)) website."
+* responsible = "New Zealand Health Information Standards Organisation (HISO)"
+* name = "Moe_facility_id"
 
+Instance: nz-address-id
+InstanceOf: NamingSystem
+Usage: #definition
+* status = #active
+* kind = #identifier
+* uniqueId.preferred = true
+* uniqueId.value = "https://standards.digital.health.nz/ns/nz-address-id"
+* uniqueId.period.start = "2024-08-05"
+* uniqueId.type = #uri
+* contact.name = "HL7 New Zealand"
+* contact.telecom.value = "http://hl7.org.nz"
+* contact.telecom.system = #url
+* type.text = "nz-address-id"
+* type = http://terminology.hl7.org/CodeSystem/v2-0203#U "Unspecified identifier"
+* date = "2024-08-05"
+* publisher = "HL7 New Zealand"
+* jurisdiction = urn:iso:std:iso:3166#NZ
+* description = "New Zealand Street Address Mapping Identifier"
+* responsible = "New Zealand Health Information Standards Organisation (HISO)"
+* name = "Nz_address_id"
+
+Instance: rheumatic-fever-ccs-id
+InstanceOf: NamingSystem
+Usage: #definition
+* status = #active
+* kind = #identifier
+* uniqueId.preferred = true
+* uniqueId.value = "https://standards.digital.health.nz/ns/rf-ccs-id"
+* uniqueId.period.start = "2024-08-05"
+* uniqueId.type = #uri
+* contact.name = "HL7 New Zealand"
+* contact.telecom.value = "http://hl7.org.nz"
+* contact.telecom.system = #url
+* type.text = "rf-ccs-id"
+* type = http://terminology.hl7.org/CodeSystem/v2-0203#U "Unspecified identifier"
+* date = "2024-08-05"
+* publisher = "HL7 New Zealand"
+* jurisdiction = urn:iso:std:iso:3166#NZ
+* description = "Identifier assigned by the Rhuematic Fever Care Coordination System, used on CarePlan, Condition, CareTeam, and Observation resources."
+* responsible = "New Zealand Health Information Standards Organisation (HISO)"
+* name = "Rheumatic_fever_ccs_id"
 
 
 /*
