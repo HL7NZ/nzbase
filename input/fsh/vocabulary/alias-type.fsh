@@ -7,7 +7,7 @@ Description:  "Used in Organization and Location to indicate what is the type of
 
 * ^caseSensitive = true
 * ^url = $alias-type-cs
-* ^version = "1.0.0"
+* ^version = "2.0.0"
 * ^experimental = false
 
 * #aka "Aka" "The name by which the organisation or facility is also known as."
