@@ -591,7 +591,7 @@ Usage: #definition
 * date = "2024-08-05"
 * publisher = "HL7 New Zealand"
 * jurisdiction = urn:iso:std:iso:3166#NZ
-* description = "Identifier assigned by the Rhuematic Fever Care Coordination System, used on CarePlan, Condition, CareTeam, and Observation resources."
+* description = "Identifier assigned by the Rheumatic Fever Care Coordination System, used on CarePlan, Condition, CareTeam, and Observation resources."
 * responsible = "New Zealand Health Information Standards Organisation (HISO)"
 * name = "Rheumatic_fever_ccs_id"
 
