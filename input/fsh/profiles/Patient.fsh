@@ -36,9 +36,6 @@ Description:    "The base New Zealand Patient profile"
 * gender.extension contains
     $genderOriginalText named genderOriginalText 0..1
 
-* extension contains
-    http://hl7.org/fhir/StructureDefinition/patient-interpreterRequired named interpreter-required 0..1
-
 * extension contains 
     $ethnicity named ethnicity 0..* and
     $nzCitizen named nzCitizen 0..1 and 
@@ -49,7 +46,8 @@ Description:    "The base New Zealand Patient profile"
     $iwi named iwi 0..* and
     $accPatientOccupation named acc-patient-occupation 0..1 and
     $messagingAddress named messaging-address 0..* and
-    $nzResidency named nz-residency 0..1 
+    $nzResidency named nz-residency 0..1 and
+    http://hl7.org/fhir/StructureDefinition/patient-interpreterRequired named interpreter-required 0..1
 
 * deceasedDateTime.extension contains
     $information-source named information-source 0..1
