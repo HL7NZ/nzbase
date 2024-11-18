@@ -6,7 +6,7 @@
   "title": "Iwi",
   "description": "New Zealand iwi codes.  The 2 digit codes are abstract codes and provided in the expansion for navigational purposes. A user should not select an abstract code directly as a proper value.",
   "url": "https://nzhts.digital.health.nz/fhir/ValueSet/iwi-code",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "compose": {
     "include": [
       {

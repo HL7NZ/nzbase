@@ -13,10 +13,6 @@
       "display": "Chiropractor"
     },
     {
-      "code": "DEAA",
-      "display": "Administering Local Anaesthetic in Dental Hygiene Practice"
-    },
-    {
       "code": "DEAC",
       "display": "Adult Care in Dental Therapy Practice"
     },
@@ -25,16 +21,8 @@
       "display": "Clinical Dental Technology Practice"
     },
     {
-      "code": "DEDA",
-      "display": "Dental Auxiliary Practice"
-    },
-    {
       "code": "DEDH",
       "display": "Dental Hygiene Practice"
-    },
-    {
-      "code": "DEDR",
-      "display": "Diagnostic Radiography in Dental Therapy Practice"
     },
     {
       "code": "DEDT",
@@ -45,10 +33,6 @@
       "display": "Endodontic Specialists"
     },
     {
-      "code": "DEEO",
-      "display": "Extra Oral Radiography Practice in Dental Hygiene, Dental Auxiliary and Orthodontic Auxiliary Practice"
-    },
-    {
       "code": "DEGD",
       "display": "General Dental Therapy Practice"
     },
@@ -57,20 +41,12 @@
       "display": "Implant over dentures in clinical dental technology practice"
     },
     {
-      "code": "DEIO",
-      "display": "Intra Oral Radiography in Dental Hygiene, Dental Auxiliary and Orthodontic Auxiliary Practice"
-    },
-    {
       "code": "DENT",
       "display": "General Dental Practice"
     },
     {
       "code": "DEOA",
       "display": "Orthodontic Auxiliary Practice"
-    },
-    {
-      "code": "DEOH",
-      "display": "Oral Health Practice"
     },
     {
       "code": "DEOM",
@@ -93,24 +69,16 @@
       "display": "Paediatric Dentistry Specialists"
     },
     {
-      "code": "DEPD",
-      "display": "Pulpotomies in Dental Therapy Practice"
-    },
-    {
       "code": "DEPE",
       "display": "Periodontic Specialists"
     },
     {
       "code": "DEPH",
-      "display": "Public Health Dentistry(or Community Dentistry) Specialists"
+      "display": "Public Health Dentistry (or Community Dentistry) Specialists"
     },
     {
       "code": "DEPS",
       "display": "Prosthodontic Specialists"
-    },
-    {
-      "code": "DERD",
-      "display": "Radiography in Dental Therapy Practice"
     },
     {
       "code": "DERE",
@@ -125,14 +93,6 @@
       "display": "Orthodontic Specialists"
     },
     {
-      "code": "DESS",
-      "display": "Stainless Steel Crowns in Dental Therapy Practice"
-    },
-    {
-      "code": "DEUO",
-      "display": "Undertaking Orthodontic Procedures in Dental Hygiene Practice"
-    },
-    {
       "code": "DIET",
       "display": "Dietitian"
     },
@@ -141,16 +101,16 @@
       "display": "Anaesthetic Technician"
     },
     {
+      "code": "LTPA",
+      "display": "Medical Laboratory Pre-Analytical Technician"
+    },
+    {
       "code": "LTLS",
       "display": "Medical Laboratory Scientist"
     },
     {
       "code": "LTLT",
       "display": "Medical Laboratory Technician"
-    },
-    {
-      "code": "LTPA",
-      "display": "Medical Laboratory Pre-Analytical Technician"
     },
     {
       "code": "MCAM",
@@ -190,7 +150,7 @@
     },
     {
       "code": "MCFP",
-      "display": "Vocational Scope of Family Planning / Reproductive Health"
+      "display": "Vocational Scope of Family Planning/Reproductive Health"
     },
     {
       "code": "MCGE",
@@ -345,16 +305,124 @@
       "display": "Registered Nurse"
     },
     {
+      "code": "OCCT",
+      "display": "Occupational Therapist"
+    },
+    {
       "code": "OPDI",
-      "display": "Optical Dispensing(Dispensing Optician)"
+      "display": "Optical Dispensing (Dispensing Optician)"
     },
     {
       "code": "OPED",
-      "display": "Educator in Optometry(Educator Optometrist)"
+      "display": "Educator in Optometry (Educator Optometrist)"
     },
     {
       "code": "OPET",
-      "display": "Educator in Optometry(TPA Endorsement)(Educator Optometrist with Therapeutic Pharmaceutical Agents(TPA) Endorsement)"
+      "display": "Educator in Optometry (TPA Endorsement) (Educator Optometrist with Therapeutic Pharmaceutical Agents (TPA) Endorsement)"
+    },
+    {
+      "code": "OPTP",
+      "display": "Optometry (Optometrist)"
+    },
+    {
+      "code": "OSTE",
+      "display": "Osteopath"
+    },
+    {
+      "code": "PHAR",
+      "display": "Pharmacist"
+    },
+    {
+      "code": "PHIN",
+      "display": "Intern Pharmacist"
+    },
+    {
+      "code": "PHPP",
+      "display": "Pharmacist Prescriber"
+    },
+    {
+      "code": "PHSO",
+      "display": "Physiotherapist"
+    },
+    {
+      "code": "PODI",
+      "display": "Podiatrist"
+    },
+    {
+      "code": "PODP",
+      "display": "Podiatric Prescriber"
+    },
+    {
+      "code": "PODR",
+      "display": "Podiatric Radiographic Imager"
+    },
+    {
+      "code": "PODS",
+      "display": "Podiatric Surgeon"
+    },
+    {
+      "code": "POVD",
+      "display": "Visiting Podiatrist Educator/Presenter"
+    },
+    {
+      "code": "PSCE",
+      "display": "Clinical and Educational"
+    },
+    {
+      "code": "PSCL",
+      "display": "Clinical Psychologist"
+    },
+    {
+      "code": "PSCO",
+      "display": "Counselling Psychologist"
+    },
+    {
+      "code": "PSED",
+      "display": "Educational Psychologist"
+    },
+    {
+      "code": "PSIT",
+      "display": "Trainee or Intern Psychologist"
+    },
+    {
+      "code": "PSYC",
+      "display": "Psychologist"
+    },
+    {
+      "code": "RTMR",
+      "display": "Magnetic Resonance Technologist"
+    },
+    {
+      "code": "RTMS",
+      "display": "Sonographer"
+    },
+    {
+      "code": "RTMT",
+      "display": "Nuclear Medicine Technologist"
+    },
+    {
+      "code": "RTRT",
+      "display": "Radiation Therapist"
+    },
+    {
+      "code": "RTTE",
+      "display": "Medical Radiation Technologist"
+    },
+    {
+      "code": "RTTM",
+      "display": "Trainee Magnetic Resonance Imaging (MRI) Technologist"
+    },
+    {
+      "code": "RTTN",
+      "display": "Trainee Nuclear Medicine Technologist"
+    },
+    {
+      "code": "RTTS",
+      "display": "Trainee Sonographer"
+    },
+    {
+      "code": "DEOH",
+      "display": "Oral Health Practice"
     },
     {
       "code": "OPLS",
@@ -365,20 +433,8 @@
       "display": "Provisional Optometrist"
     },
     {
-      "code": "OPTE",
-      "display": "Optometry(TPA Endorsement)(Optometrist with Therapeutic Pharmaceutical Agents(TPA) Endorsement)"
-    },
-    {
-      "code": "OPTP",
-      "display": "Optometry(Optometrist)"
-    },
-    {
-      "code": "OSTE",
-      "display": "Osteopath"
-    },
-    {
-      "code": "OCCT",
-      "display": "Occupational Therapist"
+      "code": "OSCA",
+      "display": "Osteopath -Child and Adolescent Health"
     },
     {
       "code": "OSED",
@@ -409,16 +465,8 @@
       "display": "Osteopath -Western Medical Acupuncture"
     },
     {
-      "code": "OSCA",
-      "display": "Osteopath -Child and Adolescent Health"
-    },
-    {
       "code": "PAPS",
       "display": "Paramedic"
-    },
-    {
-      "code": "PBPS",
-      "display": "Psychotherapist"
     },
     {
       "code": "PBCA",
@@ -429,104 +477,29 @@
       "display": "Interim Psychotherapist"
     },
     {
-      "code": "PSCE",
-      "display": "Clinical and Educational"
-    },
-    {
-      "code": "PSCL",
-      "display": "Clinical Psychologist"
-    },
-    {
-      "code": "PSCO",
-      "display": "Counselling Psychologist"
-    },
-    {
-      "code": "PSED",
-      "display": "Educational Psychologist"
+      "code": "PBPS",
+      "display": "Psychotherapist"
     },
     {
       "code": "PSHE",
       "display": "Health Psychologist"
     },
     {
-      "code": "PSIT",
-      "display": "Trainee or Intern Psychologist"
-    },
-    {
       "code": "PSNE",
       "display": "Neuropsychologist"
-    },
+    }
+  ],
+  "version": "2.0.0",
+  "date": "2023-11-22T11:59:31.000Z",
+  "publisher": "HISO",
+  "contact": [
     {
-      "code": "PSYC",
-      "display": "Psychologist"
-    },
-    {
-      "code": "PHAR",
-      "display": "Pharmacist"
-    },
-    {
-      "code": "PHIN",
-      "display": "Intern Pharmacist"
-    },
-    {
-      "code": "PHPP",
-      "display": "Pharmacist Prescriber"
-    },
-    {
-      "code": "PODI",
-      "display": "Podiatrist"
-    },
-    {
-      "code": "PODP",
-      "display": "Podiatric Prescriber"
-    },
-    {
-      "code": "PODR",
-      "display": "Podiatric Radiographic Imager"
-    },
-    {
-      "code": "PODS",
-      "display": "Podiatric Surgeon"
-    },
-    {
-      "code": "POVD",
-      "display": "Visiting Podiatrist Educator/ Presenter"
-    },
-    {
-      "code": "PHSO",
-      "display": "Physiotherapist"
-    },
-    {
-      "code": "RTMR",
-      "display": "Magnetic Resonance Technologist"
-    },
-    {
-      "code": "RTMS",
-      "display": "Sonographer"
-    },
-    {
-      "code": "RTMT",
-      "display": "Nuclear Medicine Technologist"
-    },
-    {
-      "code": "RTRT",
-      "display": "Radiation Therapist"
-    },
-    {
-      "code": "RTTE",
-      "display": "Medical Imaging Technologist"
-    },
-    {
-      "code": "RTTM",
-      "display": "Trainee Magnetic Resonance Imaging(MRI) Technologist"
-    },
-    {
-      "code": "RTTN",
-      "display": "Trainee Nuclear Medicine Technologist"
-    },
-    {
-      "code": "RTTS",
-      "display": "Trainee Sonographer"
+      "name": "HISO",
+      "telecom": [
+        {
+          "system": "email"
+        }
+      ]
     }
   ],
   "jurisdiction": [
@@ -540,7 +513,6 @@
     }
   ],
   "caseSensitive": true,
-  "version": "1.0.0",
-  "experimental": false,
-  "count": 130
+  "valueSet": "https://nzhts.digital.health.nz/fhir/ValueSet/practitioner-scope-of-practice-code",
+  "count": 120
 }

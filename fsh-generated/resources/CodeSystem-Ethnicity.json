@@ -5,7 +5,7 @@
   "name": "NZ_ethnic_group_codes",
   "id": "Ethnicity",
   "title": "NZ ethnic group codes",
-  "description": "A FHIR CodeSystem of Australian and Ethnicity New Zealand Standard Classification",
+  "description": "Ethnicity New Zealand Standard Classification 2005. Ethnicity is the ethnic group or groups that people identify with or feel they belong to.",
   "url": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
   "concept": [
     {

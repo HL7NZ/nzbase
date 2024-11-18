@@ -1,0 +1,52 @@
+{
+  "resourceType": "NamingSystem",
+  "id": "moe-facility-id",
+  "status": "active",
+  "kind": "identifier",
+  "uniqueId": [
+    {
+      "preferred": true,
+      "value": "https://standards.digital.health.nz/ns/moe-facility-id",
+      "period": {
+        "start": "2024-07-20"
+      },
+      "type": "uri"
+    }
+  ],
+  "contact": [
+    {
+      "name": "HL7 New Zealand",
+      "telecom": [
+        {
+          "value": "http://hl7.org.nz",
+          "system": "url"
+        }
+      ]
+    }
+  ],
+  "type": {
+    "text": "moe-facility",
+    "coding": [
+      {
+        "code": "FI",
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+        "display": "Facility ID"
+      }
+    ]
+  },
+  "date": "2024-07-20",
+  "publisher": "HL7 New Zealand",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "code": "NZ",
+          "system": "urn:iso:std:iso:3166"
+        }
+      ]
+    }
+  ],
+  "description": "This identifier, known as the 'MoE Number' or 'School Number', is used by the education sector to identify an NZ education institution. These identifiers can be looked up at the \\[[educationcounts.govt.nz](http://educationcounts.govt.nz)\\]([https://www.educationcounts.govt.nz/directories/list-of-nz-schools](https://www.educationcounts.govt.nz/directories/list-of-nz-schools)) website.",
+  "responsible": "New Zealand Health Information Standards Organisation (HISO)",
+  "name": "Moe_facility_id"
+}

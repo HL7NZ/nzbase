@@ -9,7 +9,7 @@
  */
 let fs = require('fs');
 
-let srchString = 'HL7® FHIR® New Zealand Base Implementation Guide - Local Development build (v2.0.0). See the <a href="http://fhir.org.nz/ig/base/history.html">Directory of published versions</a>'
+let srchString = 'HL7® FHIR® New Zealand Base Implementation Guide - Local Development build (v3.0.0). See the <a href="http://fhir.org.nz/ig/base/history.html">Directory of published versions</a>'
                   //HL7® FHIR® New Zealand Base Implementation Guide - Local Development build (v1.0.0). See the <a href="http://hl7.org.nz/fhir/ig/base/history.html">Directory of published versions</a>
 
 let replString = 'HL7® FHIR® New Zealand Base Implementation Guide, published by HL7 New Zealand'

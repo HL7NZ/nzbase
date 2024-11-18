@@ -4,7 +4,7 @@
   "name": "FundedProgramme",
   "id": "funded-programme",
   "title": "Funded Programme",
-  "description": "Some sort of funded programme",
+  "description": "Codes to describe NZ-specific types of funded programmes.",
   "url": "https://nzhts.digital.health.nz/fhir/ValueSet/funded-programme-code",
   "version": "1.0.0",
   "compose": {

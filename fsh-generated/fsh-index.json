@@ -1,0 +1,1298 @@
+[
+  {
+    "outputFile": "CodeSystem-Ethnicity.json",
+    "fshName": "NZ_ethnic_group_codes",
+    "fshType": "CodeSystem",
+    "fshFile": "vocabulary/ethnicityFull.fsh",
+    "startLine": 11,
+    "endLine": 286
+  },
+  {
+    "outputFile": "CodeSystem-acc-patient-occupation-codesystem.json",
+    "fshName": "AccPatientOccupationCodeSystem",
+    "fshType": "CodeSystem",
+    "fshFile": "vocabulary/acc-patient-ocupation.fsh",
+    "startLine": 13,
+    "endLine": 6932
+  },
+  {
+    "outputFile": "CodeSystem-alias-type.json",
+    "fshName": "AliasType",
+    "fshType": "CodeSystem",
+    "fshFile": "vocabulary/alias-type.fsh",
+    "startLine": 3,
+    "endLine": 19
+  },
+  {
+    "outputFile": "CodeSystem-citizenship-status.json",
+    "fshName": "CitizenshipStatus",
+    "fshType": "CodeSystem",
+    "fshFile": "vocabulary/citizenship-status.fsh",
+    "startLine": 12,
+    "endLine": 24
+  },
+  {
+    "outputFile": "CodeSystem-contact-point-purpose.json",
+    "fshName": "ContactPointPurpose",
+    "fshType": "CodeSystem",
+    "fshFile": "vocabulary/contact-point-purpose.fsh",
+    "startLine": 13,
+    "endLine": 29
+  },
+  {
+    "outputFile": "CodeSystem-coverage-category.json",
+    "fshName": "CoverageCategory",
+    "fshType": "CodeSystem",
+    "fshFile": "vocabulary/coverage-category.fsh",
+    "startLine": 12,
+    "endLine": 21
+  },
+  {
+    "outputFile": "CodeSystem-coverage-type.json",
+    "fshName": "CoverageType",
+    "fshType": "CodeSystem",
+    "fshFile": "vocabulary/coverage-type.fsh",
+    "startLine": 13,
+    "endLine": 25
+  },
+  {
+    "outputFile": "CodeSystem-datum-code.json",
+    "fshName": "DatumCode",
+    "fshType": "CodeSystem",
+    "fshFile": "extensions/nz-geocode.fsh",
+    "startLine": 49,
+    "endLine": 61
+  },
+  {
+    "outputFile": "CodeSystem-dhb-code.json",
+    "fshName": "Dhb_code",
+    "fshType": "CodeSystem",
+    "fshFile": "vocabulary/dhb.fsh",
+    "startLine": 13,
+    "endLine": 56
+  },
+  {
+    "outputFile": "CodeSystem-domicile-code.json",
+    "fshName": "DomicileCode",
+    "fshType": "CodeSystem",
+    "fshFile": "vocabulary/domicile-code.fsh",
+    "startLine": 11,
+    "endLine": 2079
+  },
+  {
+    "outputFile": "CodeSystem-ethnicityL4.json",
+    "fshName": "EthnicityL4",
+    "fshType": "CodeSystem",
+    "fshFile": "vocabulary/ethnicity-l4.fsh",
+    "startLine": 13,
+    "endLine": 210
+  },
+  {
+    "outputFile": "CodeSystem-funded-programme.json",
+    "fshName": "FundedProgramme",
+    "fshType": "CodeSystem",
+    "fshFile": "vocabulary/funded-programme.fsh",
+    "startLine": 11,
+    "endLine": 24
+  },
+  {
+    "outputFile": "CodeSystem-hpi-practitionerRole-status-reason.json",
+    "fshName": "PractitionerRoleStatusReason",
+    "fshType": "CodeSystem",
+    "fshFile": "vocabulary/hpi-practitionerrole-status-reason.fsh",
+    "startLine": 14,
+    "endLine": 28
+  },
+  {
+    "outputFile": "CodeSystem-information-source.json",
+    "fshName": "InformationSource",
+    "fshType": "CodeSystem",
+    "fshFile": "vocabulary/information-source.fsh",
+    "startLine": 29,
+    "endLine": 63
+  },
+  {
+    "outputFile": "CodeSystem-iwi-code.json",
+    "fshName": "Iwi_code",
+    "fshType": "CodeSystem",
+    "fshFile": "vocabulary/iwi-updated.fsh",
+    "startLine": 21,
+    "endLine": 249
+  },
+  {
+    "outputFile": "CodeSystem-maori-descent-codesystem.json",
+    "fshName": "MaoriDescent",
+    "fshType": "CodeSystem",
+    "fshFile": "vocabulary/maori-descent.fsh",
+    "startLine": 9,
+    "endLine": 29
+  },
+  {
+    "outputFile": "CodeSystem-nz-residency.json",
+    "fshName": "NZResidency",
+    "fshType": "CodeSystem",
+    "fshFile": "vocabulary/nz-residency-status.fsh",
+    "startLine": 11,
+    "endLine": 22
+  },
+  {
+    "outputFile": "CodeSystem-pho-status.json",
+    "fshName": "PHO",
+    "fshType": "CodeSystem",
+    "fshFile": "vocabulary/pho.fsh",
+    "startLine": 11,
+    "endLine": 50
+  },
+  {
+    "outputFile": "CodeSystem-practitioner-additional-authorisation.json",
+    "fshName": "AdditionalAuthorisation",
+    "fshType": "CodeSystem",
+    "fshFile": "vocabulary/practitioner-additional-authorisation-code.fsh",
+    "startLine": 13,
+    "endLine": 67
+  },
+  {
+    "outputFile": "CodeSystem-practitioner-registration-status-code.json",
+    "fshName": "PractitionerRegistrationStatusCode",
+    "fshType": "CodeSystem",
+    "fshFile": "vocabulary/practitioner-registration-status-code.fsh",
+    "startLine": 14,
+    "endLine": 28
+  },
+  {
+    "outputFile": "CodeSystem-scopeOfPractice.json",
+    "fshName": "ScopeOfPractice",
+    "fshType": "CodeSystem",
+    "fshFile": "vocabulary/practitioner-scope-of-practice.fsh",
+    "startLine": 13,
+    "endLine": 149
+  },
+  {
+    "outputFile": "Condition-condition-long-term-condition.json",
+    "fshName": "condition-long-term-condition",
+    "fshType": "Instance",
+    "fshFile": "examples/condition-long-term-condition.fsh",
+    "startLine": 2,
+    "endLine": 11
+  },
+  {
+    "outputFile": "Coverage-CoverageCSC.json",
+    "fshName": "CoverageCSC",
+    "fshType": "Instance",
+    "fshFile": "examples/coverage-csc.fsh",
+    "startLine": 3,
+    "endLine": 28
+  },
+  {
+    "outputFile": "Coverage-CoverageGMS.json",
+    "fshName": "CoverageGMS",
+    "fshType": "Instance",
+    "fshFile": "examples/coverage-gms.fsh",
+    "startLine": 1,
+    "endLine": 28
+  },
+  {
+    "outputFile": "Coverage-CoverageHUHC.json",
+    "fshName": "CoverageHUHC",
+    "fshType": "Instance",
+    "fshFile": "examples/coverage-HUHC.fsh",
+    "startLine": 3,
+    "endLine": 28
+  },
+  {
+    "outputFile": "Location-location-alias-type.json",
+    "fshName": "location-alias-type",
+    "fshType": "Instance",
+    "fshFile": "examples/location-alias-type.fsh",
+    "startLine": 1,
+    "endLine": 10
+  },
+  {
+    "outputFile": "Location-location-established.json",
+    "fshName": "location-established",
+    "fshType": "Instance",
+    "fshFile": "examples/location-established.fsh",
+    "startLine": 1,
+    "endLine": 10
+  },
+  {
+    "outputFile": "MedicationRequest-medicationrequest-nzeps-long-term-medication.json",
+    "fshName": "medicationrequest-nzeps-long-term-medication",
+    "fshType": "Instance",
+    "fshFile": "examples/medicationrequest-nzeps-long-term-medication.fsh",
+    "startLine": 2,
+    "endLine": 13
+  },
+  {
+    "outputFile": "MedicationRequest-medicationrequest-nzeps-supply-period-reason.json",
+    "fshName": "medicationrequest-nzeps-supply-period-reason",
+    "fshType": "Instance",
+    "fshFile": "examples/medicationrequest-nzeps-supply-period-reason.fsh",
+    "startLine": 1,
+    "endLine": 13
+  },
+  {
+    "outputFile": "MedicationRequest-medicationrequest-nzeps-unusual-dose-quantity.json",
+    "fshName": "medicationrequest-nzeps-unusual-dose-quantity",
+    "fshType": "Instance",
+    "fshFile": "examples/medicationrequest-nzeps-unusual-dose-quantity.fsh",
+    "startLine": 1,
+    "endLine": 13
+  },
+  {
+    "outputFile": "NamingSystem-hpiFacility.json",
+    "fshName": "hpiFacility",
+    "fshType": "Instance",
+    "fshFile": "vocabulary/namingSystems.fsh",
+    "startLine": 85,
+    "endLine": 113
+  },
+  {
+    "outputFile": "NamingSystem-hpiOrganization.json",
+    "fshName": "hpiOrganization",
+    "fshType": "Instance",
+    "fshFile": "vocabulary/namingSystems.fsh",
+    "startLine": 48,
+    "endLine": 78
+  },
+  {
+    "outputFile": "NamingSystem-hpiProvider.json",
+    "fshName": "hpiProvider",
+    "fshType": "Instance",
+    "fshFile": "vocabulary/namingSystems.fsh",
+    "startLine": 23,
+    "endLine": 46
+  },
+  {
+    "outputFile": "NamingSystem-hpipractitionerrole.json",
+    "fshName": "hpipractitionerrole",
+    "fshType": "Instance",
+    "fshFile": "vocabulary/namingSystems.fsh",
+    "startLine": 117,
+    "endLine": 132
+  },
+  {
+    "outputFile": "NamingSystem-moe-facility-id.json",
+    "fshName": "moe-facility-id",
+    "fshType": "Instance",
+    "fshFile": "vocabulary/namingSystems.fsh",
+    "startLine": 535,
+    "endLine": 554
+  },
+  {
+    "outputFile": "NamingSystem-nhi.json",
+    "fshName": "nhi",
+    "fshType": "Instance",
+    "fshFile": "vocabulary/namingSystems.fsh",
+    "startLine": 1,
+    "endLine": 21
+  },
+  {
+    "outputFile": "NamingSystem-nz-address-id.json",
+    "fshName": "nz-address-id",
+    "fshType": "Instance",
+    "fshFile": "vocabulary/namingSystems.fsh",
+    "startLine": 556,
+    "endLine": 575
+  },
+  {
+    "outputFile": "NamingSystem-nzACC45.json",
+    "fshName": "nzACC45",
+    "fshType": "Instance",
+    "fshFile": "vocabulary/namingSystems.fsh",
+    "startLine": 520,
+    "endLine": 533
+  },
+  {
+    "outputFile": "NamingSystem-nzbn.json",
+    "fshName": "nzbn",
+    "fshType": "Instance",
+    "fshFile": "vocabulary/namingSystems.fsh",
+    "startLine": 222,
+    "endLine": 237
+  },
+  {
+    "outputFile": "NamingSystem-nzchrir.json",
+    "fshName": "nzchrir",
+    "fshType": "Instance",
+    "fshFile": "vocabulary/namingSystems.fsh",
+    "startLine": 240,
+    "endLine": 258
+  },
+  {
+    "outputFile": "NamingSystem-nzdental.json",
+    "fshName": "nzdental",
+    "fshType": "Instance",
+    "fshFile": "vocabulary/namingSystems.fsh",
+    "startLine": 261,
+    "endLine": 279
+  },
+  {
+    "outputFile": "NamingSystem-nzdiet.json",
+    "fshName": "nzdiet",
+    "fshType": "Instance",
+    "fshFile": "vocabulary/namingSystems.fsh",
+    "startLine": 282,
+    "endLine": 300
+  },
+  {
+    "outputFile": "NamingSystem-nzmc.json",
+    "fshName": "nzmc",
+    "fshType": "Instance",
+    "fshFile": "vocabulary/namingSystems.fsh",
+    "startLine": 136,
+    "endLine": 154
+  },
+  {
+    "outputFile": "NamingSystem-nzmwife.json",
+    "fshName": "nzmwife",
+    "fshType": "Instance",
+    "fshFile": "vocabulary/namingSystems.fsh",
+    "startLine": 202,
+    "endLine": 220
+  },
+  {
+    "outputFile": "NamingSystem-nznc.json",
+    "fshName": "nznc",
+    "fshType": "Instance",
+    "fshFile": "vocabulary/namingSystems.fsh",
+    "startLine": 157,
+    "endLine": 175
+  },
+  {
+    "outputFile": "NamingSystem-nzocc.json",
+    "fshName": "nzocc",
+    "fshType": "Instance",
+    "fshFile": "vocabulary/namingSystems.fsh",
+    "startLine": 363,
+    "endLine": 381
+  },
+  {
+    "outputFile": "NamingSystem-nzopt.json",
+    "fshName": "nzopt",
+    "fshType": "Instance",
+    "fshFile": "vocabulary/namingSystems.fsh",
+    "startLine": 404,
+    "endLine": 422
+  },
+  {
+    "outputFile": "NamingSystem-nzost.json",
+    "fshName": "nzost",
+    "fshType": "Instance",
+    "fshFile": "vocabulary/namingSystems.fsh",
+    "startLine": 424,
+    "endLine": 442
+  },
+  {
+    "outputFile": "NamingSystem-nzparamed.json",
+    "fshName": "nzparamed",
+    "fshType": "Instance",
+    "fshFile": "vocabulary/namingSystems.fsh",
+    "startLine": 344,
+    "endLine": 361
+  },
+  {
+    "outputFile": "NamingSystem-nzpharm.json",
+    "fshName": "nzpharm",
+    "fshType": "Instance",
+    "fshFile": "vocabulary/namingSystems.fsh",
+    "startLine": 178,
+    "endLine": 199
+  },
+  {
+    "outputFile": "NamingSystem-nzphysio.json",
+    "fshName": "nzphysio",
+    "fshType": "Instance",
+    "fshFile": "vocabulary/namingSystems.fsh",
+    "startLine": 444,
+    "endLine": 462
+  },
+  {
+    "outputFile": "NamingSystem-nzpod.json",
+    "fshName": "nzpod",
+    "fshType": "Instance",
+    "fshFile": "vocabulary/namingSystems.fsh",
+    "startLine": 464,
+    "endLine": 480
+  },
+  {
+    "outputFile": "NamingSystem-nzpsycho.json",
+    "fshName": "nzpsycho",
+    "fshType": "Instance",
+    "fshFile": "vocabulary/namingSystems.fsh",
+    "startLine": 384,
+    "endLine": 402
+  },
+  {
+    "outputFile": "NamingSystem-nzpsyhc.json",
+    "fshName": "nzpsyhc",
+    "fshType": "Instance",
+    "fshFile": "vocabulary/namingSystems.fsh",
+    "startLine": 482,
+    "endLine": 500
+  },
+  {
+    "outputFile": "NamingSystem-nzrad.json",
+    "fshName": "nzrad",
+    "fshType": "Instance",
+    "fshFile": "vocabulary/namingSystems.fsh",
+    "startLine": 502,
+    "endLine": 517
+  },
+  {
+    "outputFile": "NamingSystem-nzscience.json",
+    "fshName": "nzscience",
+    "fshType": "Instance",
+    "fshFile": "vocabulary/namingSystems.fsh",
+    "startLine": 325,
+    "endLine": 342
+  },
+  {
+    "outputFile": "NamingSystem-rheumatic-fever-ccs-id.json",
+    "fshName": "rheumatic-fever-ccs-id",
+    "fshType": "Instance",
+    "fshFile": "vocabulary/namingSystems.fsh",
+    "startLine": 577,
+    "endLine": 596
+  },
+  {
+    "outputFile": "Organization-organization-edi-address.json",
+    "fshName": "organization-edi-address",
+    "fshType": "Instance",
+    "fshFile": "examples/organization-edi-address.fsh",
+    "startLine": 1,
+    "endLine": 11
+  },
+  {
+    "outputFile": "Organization-organization-funded-programme.json",
+    "fshName": "organization-funded-programme",
+    "fshType": "Instance",
+    "fshFile": "examples/organization-funded-programme.fsh",
+    "startLine": 4,
+    "endLine": 21
+  },
+  {
+    "outputFile": "Organization-organization-moh.json",
+    "fshName": "organization-moh",
+    "fshType": "Instance",
+    "fshFile": "examples/organization-moh.fsh",
+    "startLine": 3,
+    "endLine": 8
+  },
+  {
+    "outputFile": "Patient-patient-address-building-name.json",
+    "fshName": "patient-address-building-name",
+    "fshType": "Instance",
+    "fshFile": "examples/address-building-name.fsh",
+    "startLine": 1,
+    "endLine": 17
+  },
+  {
+    "outputFile": "Patient-patient-address-suburb.json",
+    "fshName": "patient-address-suburb",
+    "fshType": "Instance",
+    "fshFile": "examples/address-suburb.fsh",
+    "startLine": 1,
+    "endLine": 19
+  },
+  {
+    "outputFile": "Patient-patient-building-name.json",
+    "fshName": "patient-building-name",
+    "fshType": "Instance",
+    "fshFile": "examples/patient-building-name.fsh",
+    "startLine": 2,
+    "endLine": 18
+  },
+  {
+    "outputFile": "Patient-patient-deceased-information-source.json",
+    "fshName": "patient-deceased-information-source",
+    "fshType": "Instance",
+    "fshFile": "examples/patient-deceased-information-source.fsh",
+    "startLine": 3,
+    "endLine": 16
+  },
+  {
+    "outputFile": "Patient-patient-dhb.json",
+    "fshName": "patient-dhb",
+    "fshType": "Instance",
+    "fshFile": "examples/patient-dhb.fsh",
+    "startLine": 2,
+    "endLine": 14
+  },
+  {
+    "outputFile": "Patient-patient-domicile-code.json",
+    "fshName": "patient-domicile-code",
+    "fshType": "Instance",
+    "fshFile": "examples/patient-domicile-code.fsh",
+    "startLine": 3,
+    "endLine": 15
+  },
+  {
+    "outputFile": "Patient-patient-information-source.json",
+    "fshName": "patient-information-source",
+    "fshType": "Instance",
+    "fshFile": "examples/patient-information-source.fsh",
+    "startLine": 3,
+    "endLine": 18
+  },
+  {
+    "outputFile": "Patient-patient-messaging-address.json",
+    "fshName": "patient-messaging-address",
+    "fshType": "Instance",
+    "fshFile": "examples/patient-messaging-address.fsh",
+    "startLine": 2,
+    "endLine": 18
+  },
+  {
+    "outputFile": "Patient-patient-nhi.json",
+    "fshName": "patient-nhi",
+    "fshType": "Instance",
+    "fshFile": "examples/patient-nhi.fsh",
+    "startLine": 3,
+    "endLine": 41
+  },
+  {
+    "outputFile": "Patient-patient-nz-citizenship.json",
+    "fshName": "patient-nz-citizenship",
+    "fshType": "Instance",
+    "fshFile": "examples/patient-nz-citizenship.fsh",
+    "startLine": 5,
+    "endLine": 21
+  },
+  {
+    "outputFile": "Patient-patient-nz-ethnicity.json",
+    "fshName": "patient-nz-ethnicity",
+    "fshType": "Instance",
+    "fshFile": "examples/patient-nz-ethnicity.fsh",
+    "startLine": 3,
+    "endLine": 18
+  },
+  {
+    "outputFile": "Patient-patient-nz-geocode.json",
+    "fshName": "patient-nz-geocode",
+    "fshType": "Instance",
+    "fshFile": "examples/patient-nz-geocode.fsh",
+    "startLine": 2,
+    "endLine": 20
+  },
+  {
+    "outputFile": "Patient-patient-nz-residency.json",
+    "fshName": "patient-nz-residency",
+    "fshType": "Instance",
+    "fshFile": "examples/patient-nz-residency-status.fsh",
+    "startLine": 5,
+    "endLine": 21
+  },
+  {
+    "outputFile": "Patient-patient-pho.json",
+    "fshName": "patient-pho",
+    "fshType": "Instance",
+    "fshFile": "examples/patient-pho.fsh",
+    "startLine": 1,
+    "endLine": 13
+  },
+  {
+    "outputFile": "Patient-patient-sex-at-birth.json",
+    "fshName": "patient-sex-at-birth",
+    "fshType": "Instance",
+    "fshFile": "examples/patient-sex-at-birth.fsh",
+    "startLine": 2,
+    "endLine": 14
+  },
+  {
+    "outputFile": "Patient-patient-suburb.json",
+    "fshName": "patient-suburb",
+    "fshType": "Instance",
+    "fshFile": "examples/patient-building-suburb.fsh",
+    "startLine": 2,
+    "endLine": 18
+  },
+  {
+    "outputFile": "Practitioner-practitioner-additional-authorisation.json",
+    "fshName": "practitioner-additional-authorisation",
+    "fshType": "Instance",
+    "fshFile": "examples/practitioner-additional-authorisation.fsh",
+    "startLine": 3,
+    "endLine": 27
+  },
+  {
+    "outputFile": "Practitioner-practitioner-condition-on-practice.json",
+    "fshName": "practitioner-condition-on-practice",
+    "fshType": "Instance",
+    "fshFile": "examples/practitioner-condition-on-practice.fsh",
+    "startLine": 2,
+    "endLine": 21
+  },
+  {
+    "outputFile": "Practitioner-practitioner-death-date.json",
+    "fshName": "practitioner-death-date",
+    "fshType": "Instance",
+    "fshFile": "examples/practitioner-death-date.fsh",
+    "startLine": 2,
+    "endLine": 17
+  },
+  {
+    "outputFile": "Practitioner-practitioner-edi-address.json",
+    "fshName": "practitioner-edi-address",
+    "fshType": "Instance",
+    "fshFile": "examples/practitioner-edi-address.fsh",
+    "startLine": 2,
+    "endLine": 16
+  },
+  {
+    "outputFile": "Practitioner-practitioner-educational-qualification.json",
+    "fshName": "practitioner-educational-qualification",
+    "fshType": "Instance",
+    "fshFile": "examples/practitioner-educational-qualification.fsh",
+    "startLine": 1,
+    "endLine": 42
+  },
+  {
+    "outputFile": "Practitioner-practitioner-registration-initial-date.json",
+    "fshName": "practitioner-registration-initial-date",
+    "fshType": "Instance",
+    "fshFile": "examples/practitioner-registration-initial-date.fsh",
+    "startLine": 2,
+    "endLine": 16
+  },
+  {
+    "outputFile": "Practitioner-practitioner-registration-status-code.json",
+    "fshName": "practitioner-registration-status-code",
+    "fshType": "Instance",
+    "fshFile": "examples/practitioner-registration-status-code.fsh",
+    "startLine": 3,
+    "endLine": 22
+  },
+  {
+    "outputFile": "Practitioner-practitioner-scope-of-practice.json",
+    "fshName": "practitioner-scope-of-practice",
+    "fshType": "Instance",
+    "fshFile": "examples/practitioner-scope-of-practice.fsh",
+    "startLine": 3,
+    "endLine": 22
+  },
+  {
+    "outputFile": "PractitionerRole-practitionerRole-creator.json",
+    "fshName": "practitionerRole-creator",
+    "fshType": "Instance",
+    "fshFile": "examples/practitionerRole-practitionerRole-creator.fsh",
+    "startLine": 2,
+    "endLine": 17
+  },
+  {
+    "outputFile": "PractitionerRole-practitionerRole-messaging-address.json",
+    "fshName": "practitionerRole-messaging-address",
+    "fshType": "Instance",
+    "fshFile": "examples/practitionerRole-messaging-address.fsh",
+    "startLine": 1,
+    "endLine": 13
+  },
+  {
+    "outputFile": "PractitionerRole-practitionerRole-status-reason.json",
+    "fshName": "practitionerRole-status-reason",
+    "fshType": "Instance",
+    "fshFile": "examples/practitionerRole-status-reason-code.fsh",
+    "startLine": 1,
+    "endLine": 9
+  },
+  {
+    "outputFile": "StructureDefinition-NzAddress.json",
+    "fshName": "NzAddress",
+    "fshType": "Profile",
+    "fshFile": "profiles/profile-nzAddress.fsh",
+    "startLine": 10,
+    "endLine": 43
+  },
+  {
+    "outputFile": "StructureDefinition-NzCondition.json",
+    "fshName": "NzCondition",
+    "fshType": "Profile",
+    "fshFile": "profiles/Condition.fsh",
+    "startLine": 1,
+    "endLine": 13
+  },
+  {
+    "outputFile": "StructureDefinition-NzContactPoint.json",
+    "fshName": "NzContactPoint",
+    "fshType": "Profile",
+    "fshFile": "profiles/profile-nzContactPoint.fsh",
+    "startLine": 2,
+    "endLine": 21
+  },
+  {
+    "outputFile": "StructureDefinition-NzCoverage.json",
+    "fshName": "NzCoverage",
+    "fshType": "Profile",
+    "fshFile": "profiles/Coverage.fsh",
+    "startLine": 1,
+    "endLine": 21
+  },
+  {
+    "outputFile": "StructureDefinition-NzHealthcareService.json",
+    "fshName": "NzHealthcareService",
+    "fshType": "Profile",
+    "fshFile": "profiles/HealthcareService.fsh",
+    "startLine": 1,
+    "endLine": 16
+  },
+  {
+    "outputFile": "StructureDefinition-NzLocation.json",
+    "fshName": "NzLocation",
+    "fshType": "Profile",
+    "fshFile": "profiles/Location.fsh",
+    "startLine": 1,
+    "endLine": 22
+  },
+  {
+    "outputFile": "StructureDefinition-NzMedication.json",
+    "fshName": "NzMedication",
+    "fshType": "Profile",
+    "fshFile": "profiles/NzMedication.fsh",
+    "startLine": 1,
+    "endLine": 19
+  },
+  {
+    "outputFile": "StructureDefinition-NzMedicationDispense.json",
+    "fshName": "NzMedicationDispense",
+    "fshType": "Profile",
+    "fshFile": "profiles/NzMedicationDispense.fsh",
+    "startLine": 1,
+    "endLine": 14
+  },
+  {
+    "outputFile": "StructureDefinition-NzMedicationRequest.json",
+    "fshName": "NzMedicationRequest",
+    "fshType": "Profile",
+    "fshFile": "profiles/MedicationRequest.fsh",
+    "startLine": 1,
+    "endLine": 19
+  },
+  {
+    "outputFile": "StructureDefinition-NzMedicationStatement.json",
+    "fshName": "NzMedicationStatement",
+    "fshType": "Profile",
+    "fshFile": "profiles/MedicationStatement.fsh",
+    "startLine": 1,
+    "endLine": 17
+  },
+  {
+    "outputFile": "StructureDefinition-NzOrganization.json",
+    "fshName": "NzOrganization",
+    "fshType": "Profile",
+    "fshFile": "profiles/Organization.fsh",
+    "startLine": 1,
+    "endLine": 18
+  },
+  {
+    "outputFile": "StructureDefinition-NzPatient.json",
+    "fshName": "NzPatient",
+    "fshType": "Profile",
+    "fshFile": "profiles/Patient.fsh",
+    "startLine": 17,
+    "endLine": 110
+  },
+  {
+    "outputFile": "StructureDefinition-NzPractitioner.json",
+    "fshName": "NzPractitioner",
+    "fshType": "Profile",
+    "fshFile": "profiles/Practitioner.fsh",
+    "startLine": 1,
+    "endLine": 25
+  },
+  {
+    "outputFile": "StructureDefinition-NzPractitionerRole.json",
+    "fshName": "NzPractitionerRole",
+    "fshType": "Profile",
+    "fshFile": "profiles/PractitionerRole.fsh",
+    "startLine": 1,
+    "endLine": 15
+  },
+  {
+    "outputFile": "StructureDefinition-NzRelatedPerson.json",
+    "fshName": "NzRelatedPerson",
+    "fshType": "Profile",
+    "fshFile": "profiles/RelatedPerson.fsh",
+    "startLine": 1,
+    "endLine": 13
+  },
+  {
+    "outputFile": "StructureDefinition-acc-patient-occupation.json",
+    "fshName": "AccPatientOccupation",
+    "fshType": "Extension",
+    "fshFile": "extensions/acc-patient-occupation.fsh",
+    "startLine": 1,
+    "endLine": 15
+  },
+  {
+    "outputFile": "StructureDefinition-additional-authorisation.json",
+    "fshName": "AdditionalAuthorisation",
+    "fshType": "Extension",
+    "fshFile": "extensions/additional-authorisation.fsh",
+    "startLine": 1,
+    "endLine": 27
+  },
+  {
+    "outputFile": "StructureDefinition-alias-type.json",
+    "fshName": "AliasType",
+    "fshType": "Extension",
+    "fshFile": "extensions/alias-type.fsh",
+    "startLine": 1,
+    "endLine": 21
+  },
+  {
+    "outputFile": "StructureDefinition-building-name.json",
+    "fshName": "Building_name",
+    "fshType": "Extension",
+    "fshFile": "extensions/building-name.fsh",
+    "startLine": 1,
+    "endLine": 17
+  },
+  {
+    "outputFile": "StructureDefinition-condition-on-practice.json",
+    "fshName": "ConditionOnPractice",
+    "fshType": "Extension",
+    "fshFile": "extensions/condition-on-practice.fsh",
+    "startLine": 1,
+    "endLine": 24
+  },
+  {
+    "outputFile": "StructureDefinition-contactpoint-purpose.json",
+    "fshName": "Contactpoint_purpose",
+    "fshType": "Extension",
+    "fshFile": "extensions/contact-purpose.fsh",
+    "startLine": 1,
+    "endLine": 22
+  },
+  {
+    "outputFile": "StructureDefinition-country-name.json",
+    "fshName": "Country_name",
+    "fshType": "Extension",
+    "fshFile": "extensions/country-name.fsh",
+    "startLine": 1,
+    "endLine": 17
+  },
+  {
+    "outputFile": "StructureDefinition-death-date.json",
+    "fshName": "Death_date",
+    "fshType": "Extension",
+    "fshFile": "extensions/death-date.fsh",
+    "startLine": 1,
+    "endLine": 39
+  },
+  {
+    "outputFile": "StructureDefinition-dhb.json",
+    "fshName": "Dhb",
+    "fshType": "Extension",
+    "fshFile": "extensions/dhb.fsh",
+    "startLine": 1,
+    "endLine": 41
+  },
+  {
+    "outputFile": "StructureDefinition-domicile-code.json",
+    "fshName": "Domicile_code",
+    "fshType": "Extension",
+    "fshFile": "extensions/domicile-code.fsh",
+    "startLine": 1,
+    "endLine": 25
+  },
+  {
+    "outputFile": "StructureDefinition-edi-address.json",
+    "fshName": "Edi_address",
+    "fshType": "Extension",
+    "fshFile": "extensions/edi-address.fsh",
+    "startLine": 1,
+    "endLine": 25
+  },
+  {
+    "outputFile": "StructureDefinition-educational-qualification.json",
+    "fshName": "EducationalQualification",
+    "fshType": "Extension",
+    "fshFile": "extensions/educational-qualification.fsh",
+    "startLine": 1,
+    "endLine": 58
+  },
+  {
+    "outputFile": "StructureDefinition-established.json",
+    "fshName": "Established",
+    "fshType": "Extension",
+    "fshFile": "extensions/established.fsh",
+    "startLine": 1,
+    "endLine": 17
+  },
+  {
+    "outputFile": "StructureDefinition-funded-programme.json",
+    "fshName": "Funded_programme",
+    "fshType": "Extension",
+    "fshFile": "extensions/funded-programme.fsh",
+    "startLine": 1,
+    "endLine": 47
+  },
+  {
+    "outputFile": "StructureDefinition-gender-original-text.json",
+    "fshName": "GenderOriginalText",
+    "fshType": "Extension",
+    "fshFile": "extensions/gender-original-text.fsh",
+    "startLine": 1,
+    "endLine": 12
+  },
+  {
+    "outputFile": "StructureDefinition-information-source.json",
+    "fshName": "Information_source",
+    "fshType": "Extension",
+    "fshFile": "extensions/Information-source.fsh",
+    "startLine": 1,
+    "endLine": 35
+  },
+  {
+    "outputFile": "StructureDefinition-long-term-condition.json",
+    "fshName": "Long_term_condition",
+    "fshType": "Extension",
+    "fshFile": "extensions/long-term-condition.fsh",
+    "startLine": 1,
+    "endLine": 31
+  },
+  {
+    "outputFile": "StructureDefinition-maori-descent.json",
+    "fshName": "MaoriDescent",
+    "fshType": "Extension",
+    "fshFile": "extensions/maori-descent.fsh",
+    "startLine": 1,
+    "endLine": 9
+  },
+  {
+    "outputFile": "StructureDefinition-messaging-address.json",
+    "fshName": "Messaging_address",
+    "fshType": "Extension",
+    "fshFile": "extensions/messaging-address.fsh",
+    "startLine": 1,
+    "endLine": 39
+  },
+  {
+    "outputFile": "StructureDefinition-nz-citizenship.json",
+    "fshName": "Nz_citizenship",
+    "fshType": "Extension",
+    "fshFile": "extensions/nz-citizenship.fsh",
+    "startLine": 1,
+    "endLine": 31
+  },
+  {
+    "outputFile": "StructureDefinition-nz-ethnicity.json",
+    "fshName": "Nz_ethnicity",
+    "fshType": "Extension",
+    "fshFile": "extensions/nz-ethnicity.fsh",
+    "startLine": 1,
+    "endLine": 31
+  },
+  {
+    "outputFile": "StructureDefinition-nz-geocode.json",
+    "fshName": "Nz_geocode",
+    "fshType": "Extension",
+    "fshFile": "extensions/nz-geocode.fsh",
+    "startLine": 1,
+    "endLine": 35
+  },
+  {
+    "outputFile": "StructureDefinition-nz-iwi.json",
+    "fshName": "Nz_iwi",
+    "fshType": "Extension",
+    "fshFile": "extensions/nz-iwi.fsh",
+    "startLine": 1,
+    "endLine": 18
+  },
+  {
+    "outputFile": "StructureDefinition-nz-residency.json",
+    "fshName": "NZResidency",
+    "fshType": "Extension",
+    "fshFile": "extensions/nz-residency.fsh",
+    "startLine": 1,
+    "endLine": 37
+  },
+  {
+    "outputFile": "StructureDefinition-nzeps-long-term-medication.json",
+    "fshName": "Nzeps_long_term_medication",
+    "fshType": "Extension",
+    "fshFile": "extensions/nzeps-long_term-medication.fsh",
+    "startLine": 1,
+    "endLine": 32
+  },
+  {
+    "outputFile": "StructureDefinition-nzeps-supply-period-reason.json",
+    "fshName": "Nzeps_supply_period_reason",
+    "fshType": "Extension",
+    "fshFile": "extensions/nzeps-supply-period-reason.fsh",
+    "startLine": 1,
+    "endLine": 30
+  },
+  {
+    "outputFile": "StructureDefinition-nzeps-unusual-dose-quantity.json",
+    "fshName": "Nzeps_unusual_dose_quantity",
+    "fshType": "Extension",
+    "fshFile": "extensions/nzeps-unusual-dose-quantity.fsh",
+    "startLine": 1,
+    "endLine": 29
+  },
+  {
+    "outputFile": "StructureDefinition-nzf-atc.json",
+    "fshName": "Nzf_atc",
+    "fshType": "Extension",
+    "fshFile": "extensions/nzf-atc.fsh",
+    "startLine": 1,
+    "endLine": 17
+  },
+  {
+    "outputFile": "StructureDefinition-nzf-nzmt-type.json",
+    "fshName": "Nzf_nzmt_type",
+    "fshType": "Extension",
+    "fshFile": "extensions/nzf-nzmt-type.fsh",
+    "startLine": 1,
+    "endLine": 19
+  },
+  {
+    "outputFile": "StructureDefinition-pho.json",
+    "fshName": "Pho",
+    "fshType": "Extension",
+    "fshFile": "extensions/pho.fsh",
+    "startLine": 1,
+    "endLine": 41
+  },
+  {
+    "outputFile": "StructureDefinition-practitionerRole-creator.json",
+    "fshName": "PractitionerRoleCreator",
+    "fshType": "Extension",
+    "fshFile": "extensions/practitionerRole-creator.fsh",
+    "startLine": 1,
+    "endLine": 24
+  },
+  {
+    "outputFile": "StructureDefinition-practitionerRole-status-reason.json",
+    "fshName": "PractitionerRoleStatusReason",
+    "fshType": "Extension",
+    "fshFile": "extensions/practitionerRole-status-reason.fsh",
+    "startLine": 1,
+    "endLine": 14
+  },
+  {
+    "outputFile": "StructureDefinition-registration-initial-date.json",
+    "fshName": "RegistrationInitialDate",
+    "fshType": "Extension",
+    "fshFile": "extensions/registration-initial-date.fsh",
+    "startLine": 1,
+    "endLine": 13
+  },
+  {
+    "outputFile": "StructureDefinition-registration-status-code.json",
+    "fshName": "RegistrationStatusCode",
+    "fshType": "Extension",
+    "fshFile": "extensions/registration-status-code.fsh",
+    "startLine": 1,
+    "endLine": 22
+  },
+  {
+    "outputFile": "StructureDefinition-scope-of-practice.json",
+    "fshName": "ScopeOfPractice",
+    "fshType": "Extension",
+    "fshFile": "extensions/scope-of-practice.fsh",
+    "startLine": 1,
+    "endLine": 28
+  },
+  {
+    "outputFile": "StructureDefinition-sex-at-birth.json",
+    "fshName": "Sex_at_birth",
+    "fshType": "Extension",
+    "fshFile": "extensions/sex-at-birth.fsh",
+    "startLine": 5,
+    "endLine": 27
+  },
+  {
+    "outputFile": "StructureDefinition-suburb.json",
+    "fshName": "Suburb",
+    "fshType": "Extension",
+    "fshFile": "extensions/suburb.fsh",
+    "startLine": 1,
+    "endLine": 36
+  },
+  {
+    "outputFile": "ValueSet-acc-patient-occupation-valueset.json",
+    "fshName": "AccPatientOccupationValueSet",
+    "fshType": "ValueSet",
+    "fshFile": "vocabulary/acc-patient-ocupation.fsh",
+    "startLine": 3,
+    "endLine": 9
+  },
+  {
+    "outputFile": "ValueSet-citizenship-status.json",
+    "fshName": "CitizenshipStatus",
+    "fshType": "ValueSet",
+    "fshFile": "vocabulary/citizenship-status.fsh",
+    "startLine": 1,
+    "endLine": 9
+  },
+  {
+    "outputFile": "ValueSet-contact-point-purpose.json",
+    "fshName": "ContactPointPurpose",
+    "fshType": "ValueSet",
+    "fshFile": "vocabulary/contact-point-purpose.fsh",
+    "startLine": 1,
+    "endLine": 10
+  },
+  {
+    "outputFile": "ValueSet-coverage-category.json",
+    "fshName": "CoverageCategory",
+    "fshType": "ValueSet",
+    "fshFile": "vocabulary/coverage-category.fsh",
+    "startLine": 2,
+    "endLine": 9
+  },
+  {
+    "outputFile": "ValueSet-coverage-type.json",
+    "fshName": "CoverageType",
+    "fshType": "ValueSet",
+    "fshFile": "vocabulary/coverage-type.fsh",
+    "startLine": 2,
+    "endLine": 10
+  },
+  {
+    "outputFile": "ValueSet-datumCode.json",
+    "fshName": "DatumCode",
+    "fshType": "ValueSet",
+    "fshFile": "extensions/nz-geocode.fsh",
+    "startLine": 37,
+    "endLine": 46
+  },
+  {
+    "outputFile": "ValueSet-dhb.json",
+    "fshName": "DHB",
+    "fshType": "ValueSet",
+    "fshFile": "vocabulary/dhb.fsh",
+    "startLine": 1,
+    "endLine": 11
+  },
+  {
+    "outputFile": "ValueSet-dod-information-source.json",
+    "fshName": "DodInformationSource",
+    "fshType": "ValueSet",
+    "fshFile": "vocabulary/information-source.fsh",
+    "startLine": 12,
+    "endLine": 25
+  },
+  {
+    "outputFile": "ValueSet-domicile-code.json",
+    "fshName": "DomicileCode",
+    "fshType": "ValueSet",
+    "fshFile": "vocabulary/domicile-code.fsh",
+    "startLine": 2,
+    "endLine": 9
+  },
+  {
+    "outputFile": "ValueSet-ethnicity.json",
+    "fshName": "Ethnicity",
+    "fshType": "ValueSet",
+    "fshFile": "vocabulary/ethnicity-l4.fsh",
+    "startLine": 1,
+    "endLine": 11
+  },
+  {
+    "outputFile": "ValueSet-ethnicityfull.json",
+    "fshName": "Ethnicityfull",
+    "fshType": "ValueSet",
+    "fshFile": "vocabulary/ethnicityFull.fsh",
+    "startLine": 1,
+    "endLine": 8
+  },
+  {
+    "outputFile": "ValueSet-funded-programme.json",
+    "fshName": "FundedProgramme",
+    "fshType": "ValueSet",
+    "fshFile": "vocabulary/funded-programme.fsh",
+    "startLine": 1,
+    "endLine": 8
+  },
+  {
+    "outputFile": "ValueSet-hpi-practitionerrole-status-reason.json",
+    "fshName": "PractitionerRoleStatusReason",
+    "fshType": "ValueSet",
+    "fshFile": "vocabulary/hpi-practitionerrole-status-reason.fsh",
+    "startLine": 3,
+    "endLine": 12
+  },
+  {
+    "outputFile": "ValueSet-information-source.json",
+    "fshName": "InformationSource",
+    "fshType": "ValueSet",
+    "fshFile": "vocabulary/information-source.fsh",
+    "startLine": 2,
+    "endLine": 9
+  },
+  {
+    "outputFile": "ValueSet-iwi.json",
+    "fshName": "Iwi",
+    "fshType": "ValueSet",
+    "fshFile": "vocabulary/iwi-updated.fsh",
+    "startLine": 12,
+    "endLine": 19
+  },
+  {
+    "outputFile": "ValueSet-location-alias-type.json",
+    "fshName": "AliasType",
+    "fshType": "ValueSet",
+    "fshFile": "vocabulary/alias-type.fsh",
+    "startLine": 23,
+    "endLine": 30
+  },
+  {
+    "outputFile": "ValueSet-maori-descent-valueset.json",
+    "fshName": "MaoriDescentValues",
+    "fshType": "ValueSet",
+    "fshFile": "vocabulary/maori-descent.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
+    "outputFile": "ValueSet-nhi-use.json",
+    "fshName": "NHIUse",
+    "fshType": "ValueSet",
+    "fshFile": "profiles/Patient.fsh",
+    "startLine": 118,
+    "endLine": 126
+  },
+  {
+    "outputFile": "ValueSet-nz-residency.json",
+    "fshName": "NZResidency",
+    "fshType": "ValueSet",
+    "fshFile": "vocabulary/nz-residency-status.fsh",
+    "startLine": 1,
+    "endLine": 9
+  },
+  {
+    "outputFile": "ValueSet-pho.json",
+    "fshName": "PHO",
+    "fshType": "ValueSet",
+    "fshFile": "vocabulary/pho.fsh",
+    "startLine": 1,
+    "endLine": 8
+  },
+  {
+    "outputFile": "ValueSet-practitioner-additional-authorisation-code.json",
+    "fshName": "PractitionerAdditionalAuthorisationCode",
+    "fshType": "ValueSet",
+    "fshFile": "vocabulary/practitioner-additional-authorisation-code.fsh",
+    "startLine": 2,
+    "endLine": 11
+  },
+  {
+    "outputFile": "ValueSet-practitioner-registration-status-code.json",
+    "fshName": "PractitionerRegistrationStatusCode",
+    "fshType": "ValueSet",
+    "fshFile": "vocabulary/practitioner-registration-status-code.fsh",
+    "startLine": 3,
+    "endLine": 12
+  },
+  {
+    "outputFile": "ValueSet-practitioner-scope-of-practice.json",
+    "fshName": "PractitionerScopeOfPractice",
+    "fshType": "ValueSet",
+    "fshFile": "vocabulary/practitioner-scope-of-practice.fsh",
+    "startLine": 1,
+    "endLine": 10
+  }
+]

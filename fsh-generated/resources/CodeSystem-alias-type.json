@@ -40,7 +40,7 @@
     },
     {
       "code": "current",
-      "display": "Current unverified or unofficial name",
+      "display": "Current",
       "definition": "The name currently used for a facility."
     }
   ],

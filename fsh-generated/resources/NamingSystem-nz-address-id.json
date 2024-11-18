@@ -1,0 +1,52 @@
+{
+  "resourceType": "NamingSystem",
+  "id": "nz-address-id",
+  "status": "active",
+  "kind": "identifier",
+  "uniqueId": [
+    {
+      "preferred": true,
+      "value": "https://standards.digital.health.nz/ns/nz-address-id",
+      "period": {
+        "start": "2024-08-05"
+      },
+      "type": "uri"
+    }
+  ],
+  "contact": [
+    {
+      "name": "HL7 New Zealand",
+      "telecom": [
+        {
+          "value": "http://hl7.org.nz",
+          "system": "url"
+        }
+      ]
+    }
+  ],
+  "type": {
+    "text": "nz-address-id",
+    "coding": [
+      {
+        "code": "U",
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+        "display": "Unspecified identifier"
+      }
+    ]
+  },
+  "date": "2024-08-05",
+  "publisher": "HL7 New Zealand",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "code": "NZ",
+          "system": "urn:iso:std:iso:3166"
+        }
+      ]
+    }
+  ],
+  "description": "New Zealand Street Address Mapping Identifier",
+  "responsible": "New Zealand Health Information Standards Organisation (HISO)",
+  "name": "Nz_address_id"
+}

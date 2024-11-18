@@ -64,6 +64,7 @@
 [medicationrequest-nzeps-unusual-dose-quantity]: MedicationRequest-medicationrequest-nzeps-unusual-dose-quantity.html
 [NzMedicationStatement]: StructureDefinition-NzMedicationStatement.html
 [Messaging_address]: StructureDefinition-messaging-address.html
+[moe-facility-id]: NamingSystem-moe-facility-id.html
 [MaoriDescentValues]: ValueSet-maori-descent-valueset.html
 [MaoriDescent]: CodeSystem-maori-descent-codesystem.html
 [nhi]: NamingSystem-nhi.html
@@ -77,9 +78,11 @@
 [Nz_geocode]: StructureDefinition-nz-geocode.html
 [Iwi_code]: CodeSystem-iwi-code.html
 [NzPatient]: StructureDefinition-NzPatient.html
+[NzRelatedPerson]: StructureDefinition-NzRelatedPerson.html
 [NZResidency]: ValueSet-nz-residency.html
 [NZResidency]: CodeSystem-nz-residency.html
 [Suburb]: StructureDefinition-suburb.html
+[nz-address-id]: NamingSystem-nz-address-id.html
 [nzACC45]: NamingSystem-nzACC45.html
 [nzbn]: NamingSystem-nzbn.html
 [nzchrir]: NamingSystem-nzchrir.html
@@ -150,6 +153,7 @@
 [PractitionerRegistrationStatusCode]: CodeSystem-practitioner-registration-status-code.html
 [RegistrationInitialDate]: StructureDefinition-registration-initial-date.html
 [RegistrationStatusCode]: StructureDefinition-registration-status-code.html
+[rheumatic-fever-ccs-id]: NamingSystem-rheumatic-fever-ccs-id.html
 [PractitionerScopeOfPractice]: ValueSet-practitioner-scope-of-practice.html
 [ScopeOfPractice]: CodeSystem-scopeOfPractice.html
 [ScopeOfPractice]: StructureDefinition-scope-of-practice.html

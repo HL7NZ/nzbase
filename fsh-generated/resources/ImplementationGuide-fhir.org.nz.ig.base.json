@@ -2,7 +2,7 @@
   "resourceType": "ImplementationGuide",
   "id": "fhir.org.nz.ig.base",
   "url": "http://hl7.org.nz/fhir/ImplementationGuide/fhir.org.nz.ig.base",
-  "version": "2.1.2",
+  "version": "3.1.0",
   "name": "HL7FHIRNewZealandBaseImplementationGuide",
   "title": "HL7® FHIR® New Zealand Base Implementation Guide",
   "status": "active",
@@ -79,7 +79,7 @@
           "reference": "StructureDefinition/additional-authorisation"
         },
         "name": "AdditionalAuthorisation",
-        "description": "Additional authorisations that a practitioner is authorised to perform",
+        "description": "Additional authorisations that a practitioner is authorised to perform in addition to their registration and scope of practice. Examples include:\n* Prescribing authorisation for a nurse practitioner\n* Authorisation to administer immunisations",
         "exampleBoolean": false
       },
       {
@@ -327,7 +327,7 @@
           "reference": "ValueSet/ethnicityfull"
         },
         "name": "Ethnicity of a person (full)",
-        "description": "Codes to record a person's ethnicity, drawn from [All of the Ethnicity code system](http://aria.stats.govt.nz/aria/#ClassificationView:uri=http://stats.govt.nz/cms/ClassificationVersion/YVqOcFHSlguKkT17)",
+        "description": "Ethnicity New Zealand Standard Classification 2005. Ethnicity is the ethnic group or groups that people identify with or feel they belong to.",
         "exampleBoolean": false
       },
       {
@@ -351,7 +351,7 @@
           "reference": "ValueSet/funded-programme"
         },
         "name": "Funded Programme",
-        "description": "Some sort of funded programme",
+        "description": "Codes to describe NZ-specific types of funded programmes.",
         "exampleBoolean": false
       },
       {
@@ -359,7 +359,7 @@
           "reference": "CodeSystem/funded-programme"
         },
         "name": "Funded Programme",
-        "description": "Some sort of funded programme",
+        "description": "Codes to describe NZ-specific types of funded programmes.",
         "exampleBoolean": false
       },
       {
@@ -556,6 +556,14 @@
       },
       {
         "reference": {
+          "reference": "NamingSystem/moe-facility-id"
+        },
+        "name": "moe-facility-id",
+        "description": "This identifier, known as the 'MoE Number' or 'School Number', is used by the education sector to identify an NZ education institution. These identifiers can be looked up at the \\[[educationcounts.govt.nz](http://educationcounts.govt.nz)\\]([https://www.educationcounts.govt.nz/directories/list-of-nz-schools](https://www.educationcounts.govt.nz/directories/list-of-nz-schools)) website.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
           "reference": "ValueSet/maori-descent-valueset"
         },
         "name": "Māori Descent",
@@ -567,7 +575,7 @@
           "reference": "CodeSystem/maori-descent-codesystem"
         },
         "name": "Māori Descent",
-        "description": "Codes for classifying Māori descent. Defined by Stats NZ - Census Māori descent v2.0.0",
+        "description": "Codes for classifying Māori descent. Defined by Stats NZ - Māori descent v1.0.0",
         "exampleBoolean": false
       },
       {
@@ -623,7 +631,7 @@
           "reference": "CodeSystem/Ethnicity"
         },
         "name": "NZ ethnic group codes",
-        "description": "A FHIR CodeSystem of Australian and Ethnicity New Zealand Standard Classification",
+        "description": "Ethnicity New Zealand Standard Classification 2005. Ethnicity is the ethnic group or groups that people identify with or feel they belong to.",
         "exampleBoolean": false
       },
       {
@@ -647,7 +655,7 @@
           "reference": "CodeSystem/iwi-code"
         },
         "name": "NZ Iwi",
-        "description": "NZ Iwi Statistical Standard: 27 May 2022.",
+        "description": "NZ Iwi Statistical Standard",
         "exampleBoolean": false
       },
       {
@@ -656,6 +664,14 @@
         },
         "name": "NZ Patient",
         "description": "The base New Zealand Patient profile",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/NzRelatedPerson"
+        },
+        "name": "NZ RelatedPerson",
+        "description": "The base New Zealand RelatedPerson profile",
         "exampleBoolean": false
       },
       {
@@ -680,6 +696,14 @@
         },
         "name": "NZ Suburb",
         "description": "Suburb element of a NZ Address.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/nz-address-id"
+        },
+        "name": "nz-address-id",
+        "description": "New Zealand Street Address Mapping Identifier",
         "exampleBoolean": false
       },
       {
@@ -1151,7 +1175,7 @@
           "reference": "ValueSet/hpi-practitionerrole-status-reason"
         },
         "name": "PractitionerRole status reason",
-        "description": "The reason for the current status of PractitionerRole",
+        "description": "The reason for the change in status of PractitionerRole",
         "exampleBoolean": false
       },
       {
@@ -1159,7 +1183,7 @@
           "reference": "CodeSystem/hpi-practitionerRole-status-reason"
         },
         "name": "PractitionerRole status reason",
-        "description": "The reason for the current status of PractitionerRole",
+        "description": "The reason for the change in status of PractitionerRole",
         "exampleBoolean": false
       },
       {
@@ -1240,6 +1264,14 @@
         },
         "name": "RegistrationStatusCode",
         "description": "An indicator of the practicing status of the practitioner as supplied by their Responsible Authority or professional body.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/rheumatic-fever-ccs-id"
+        },
+        "name": "rheumatic-fever-ccs-id",
+        "description": "Identifier assigned by the Rheumatic Fever Care Coordination System, used on CarePlan, Condition, CareTeam, and Observation resources.",
         "exampleBoolean": false
       },
       {
@@ -1344,6 +1376,10 @@
       {
         "code": "apply-version",
         "value": "false"
+      },
+      {
+        "code": "special-url",
+        "value": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes"
       }
     ]
   }
