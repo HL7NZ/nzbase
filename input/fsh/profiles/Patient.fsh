@@ -80,7 +80,7 @@ Description:    "The base New Zealand Patient profile"
 // because it is an open slice, identifiers with other system identifiers and uses are also allowed
     
 * identifier[NHI].system = "https://standards.digital.health.nz/ns/nhi-id" (exactly)
-* identifier[NHI].use = #offical (exactly)
+* identifier[NHI].use = #official (exactly)
 * identifier[NHI].use ^short = "fixed to official"
 * identifier[NHI] ^short = "The currently active NHI "
 * identifier[NHI] ^definition = "The NHI number is a unique number for all New Zealanders, assigned at birth"
