@@ -1,4 +1,4 @@
-Instance: nhi
+Instance: nhi-id
 InstanceOf: NamingSystem
 Usage: #definition
 
@@ -20,7 +20,7 @@ Usage: #definition
 * uniqueId[2].type = #oid
 * uniqueId[2].value = "2.16.840.1.113883.2.18.2"
 
-Instance: hpiProvider
+Instance: hpi-person-id
 InstanceOf: NamingSystem
 Usage: #definition
 
@@ -42,10 +42,10 @@ Usage: #definition
 * uniqueId[1].value = "https://standards.digital.health.nz/id/hpi-person"
 * uniqueId[1].comment = "Deprecated"
 
-* uniqueId[2].type = #oid
+* uniqueId[2].type = #oidF
 * uniqueId[2].value = "2.16.840.1.113883.2.18.3.1"
 
-Instance: hpiOrganization
+Instance: hpi-organization-id
 InstanceOf: NamingSystem
 Usage: #definition
 
@@ -82,7 +82,7 @@ Usage: #definition
 
 
 
-Instance: hpiFacility
+Instance: hpi-facility-id
 InstanceOf: NamingSystem
 Usage: #definition
 * type.coding = http://terminology.hl7.org/CodeSystem/v2-0203#NPI "National provider identifier"
@@ -133,7 +133,7 @@ Usage: #definition
 
 
 //------------
-Instance: nzmc
+Instance: nmedical-council-id
 InstanceOf: NamingSystem
 Usage: #definition
 * type.coding = http://terminology.hl7.org/CodeSystem/v2-0203#NPI "National provider identifier"
@@ -154,7 +154,7 @@ Usage: #definition
 * uniqueId[1].value = "2.16.840.1.113883.2.18.41"
 
 
-Instance: nznc
+Instance: nursing-council-id
 InstanceOf: NamingSystem
 Usage: #definition
 * type.coding = http://terminology.hl7.org/CodeSystem/v2-0203#NPI "National provider identifier"
@@ -175,7 +175,7 @@ Usage: #definition
 * uniqueId[1].value = "2.16.840.1.113883.2.18.42"
 
 
-Instance: nzpharm
+Instance: pharmacy-council-id
 InstanceOf: NamingSystem
 Usage: #definition
 * type.coding = http://terminology.hl7.org/CodeSystem/v2-0203#NPI "National provider identifier"
@@ -199,7 +199,7 @@ Usage: #definition
 * uniqueId[2].value = "2.16.840.1.113883.2.18.9"
 
 
-Instance: nzmwife
+Instance: midwifery-council-id
 InstanceOf: NamingSystem
 Usage: #definition
 * type.coding = http://terminology.hl7.org/CodeSystem/v2-0203#NPI "National provider identifier"
@@ -219,7 +219,7 @@ Usage: #definition
 * uniqueId[1].type = #oid
 * uniqueId[1].value = "2.16.840.1.113883.2.18.70.5"
 
-Instance: nzbn
+Instance: hpi-nzbn
 InstanceOf: NamingSystem
 Usage: #definition
 * type.coding = http://terminology.hl7.org/CodeSystem/v2-0203#NPI "National provider identifier"
@@ -237,7 +237,7 @@ Usage: #definition
 * uniqueId.preferred = true
 
 
-Instance: nzchrir
+Instance: chiropractic-board-id
 InstanceOf: NamingSystem
 Usage: #definition
 * type.coding = http://terminology.hl7.org/CodeSystem/v2-0203#NPI "National provider identifier"
@@ -258,7 +258,7 @@ Usage: #definition
 * uniqueId[1].value = "2.16.840.1.113883.2.18.70.1"
 
 
-Instance: nzdental
+Instance: dental-council-id
 InstanceOf: NamingSystem
 Usage: #definition
 
@@ -279,7 +279,7 @@ Usage: #definition
 * uniqueId[1].value = "2.16.840.1.113883.2.18.70.2"
 
 
-Instance: nzdiet
+Instance: dietitians-board-id
 InstanceOf: NamingSystem
 Usage: #definition
 
@@ -322,7 +322,7 @@ Usage: #definition
 
 */
 
-Instance: nzscience
+Instance: medical-sciences-council-id
 InstanceOf: NamingSystem
 Usage: #definition
 
@@ -341,7 +341,7 @@ Usage: #definition
 * uniqueId.value = "https://standards.digital.health.nz/ns/medical-sciences-council-id"
 * uniqueId.preferred = true
 
-Instance: nzparamed
+Instance: paramedic-council-id
 InstanceOf: NamingSystem
 Usage: #definition
 
@@ -360,7 +360,7 @@ Usage: #definition
 * uniqueId.value = "https://standards.digital.health.nz/ns/paramedic-council-id"
 * uniqueId.preferred = true
 
-Instance: nzocc
+Instance: occupational-therapy-board-id
 InstanceOf: NamingSystem
 Usage: #definition
 
@@ -381,7 +381,7 @@ Usage: #definition
 * uniqueId[1].value = "2.16.840.1.113883.2.18.70.13"
 
 
-Instance: nzpsycho
+Instance: psychotherapists-board-id
 InstanceOf: NamingSystem
 Usage: #definition
 
@@ -401,7 +401,7 @@ Usage: #definition
 * uniqueId[1].type = #oid
 * uniqueId[1].value = "2.16.840.1.113883.2.18.70.7"
 
-Instance: nzopt
+Instance: optometrists-dispensing-opticians-board-id
 InstanceOf: NamingSystem
 Usage: #definition
 
@@ -421,7 +421,7 @@ Usage: #definition
 * uniqueId[1].type = #oid
 * uniqueId[1].value = "2.16.840.1.113883.2.18.70.12"
 
-Instance: nzost
+Instance: osteopathic-council-id
 InstanceOf: NamingSystem
 Usage: #definition
 
@@ -441,7 +441,7 @@ Usage: #definition
 * uniqueId[1].type = #oid
 * uniqueId[1].value = "2.16.840.1.113883.2.18.70.6"
 
-Instance: nzphysio
+Instance: physiotherapy-board-id
 InstanceOf: NamingSystem
 Usage: #definition
 
@@ -461,7 +461,7 @@ Usage: #definition
 * uniqueId[1].type = #oid
 * uniqueId[1].value = "2.16.840.1.113883.2.18.70.7"
 
-Instance: nzpod
+Instance: podiatrists-board-id
 InstanceOf: NamingSystem
 Usage: #definition
 
@@ -479,7 +479,7 @@ Usage: #definition
 * uniqueId[1].type = #oid
 * uniqueId[1].value = "2.16.840.1.113883.2.18.70.8"
 
-Instance: nzpsyhc
+Instance: psychologists-board-id
 InstanceOf: NamingSystem
 Usage: #definition
 * type.coding = http://terminology.hl7.org/CodeSystem/v2-0203#NPI "National provider identifier"
@@ -499,7 +499,7 @@ Usage: #definition
 * uniqueId[1].type = #oid
 * uniqueId[1].value = "2.16.840.1.113883.2.18.70.9"
 
-Instance: nzrad
+Instance: medical-radiation-technologists-board-id
 InstanceOf: NamingSystem
 Usage: #definition
 
@@ -517,7 +517,7 @@ Usage: #definition
 * uniqueId.preferred = true
 
 
-Instance: nzACC45
+Instance: acc45-id
 InstanceOf: NamingSystem
 Usage: #definition
 
