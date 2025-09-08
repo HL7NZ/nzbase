@@ -42,7 +42,7 @@ Usage: #definition
 * uniqueId[1].value = "https://standards.digital.health.nz/id/hpi-person"
 * uniqueId[1].comment = "Deprecated"
 
-* uniqueId[2].type = #oidF
+* uniqueId[2].type = #oid
 * uniqueId[2].value = "2.16.840.1.113883.2.18.3.1"
 
 Instance: hpi-organization-id
