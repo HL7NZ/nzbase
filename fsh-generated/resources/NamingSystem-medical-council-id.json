@@ -1,6 +1,6 @@
 {
   "resourceType": "NamingSystem",
-  "id": "nzmc",
+  "id": "medical-council-id",
   "type": {
     "coding": [
       {

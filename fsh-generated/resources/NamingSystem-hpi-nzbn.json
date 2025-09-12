@@ -1,12 +1,6 @@
 {
   "resourceType": "NamingSystem",
-  "id": "nzost",
-  "name": "NZOst",
-  "description": "Osteopathic Council Register Number",
-  "status": "active",
-  "kind": "identifier",
-  "date": "2020-07-14",
-  "responsible": "HISO",
+  "id": "hpi-nzbn",
   "type": {
     "coding": [
       {
@@ -26,15 +20,17 @@
       ]
     }
   ],
+  "name": "NBN",
+  "description": "New Zealand Business Number",
+  "status": "active",
+  "kind": "identifier",
+  "date": "2020-07-14",
+  "responsible": "HISO",
   "uniqueId": [
     {
       "type": "uri",
-      "value": "https://standards.digital.health.nz/ns/osteopathic-council-id",
+      "value": "https://standards.digital.health.nz/ns/hpi-nzbn",
       "preferred": true
-    },
-    {
-      "type": "oid",
-      "value": "2.16.840.1.113883.2.18.70.6"
     }
   ]
 }

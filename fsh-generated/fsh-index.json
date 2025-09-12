@@ -240,36 +240,100 @@
     "endLine": 13
   },
   {
-    "outputFile": "NamingSystem-hpiFacility.json",
-    "fshName": "hpiFacility",
+    "outputFile": "NamingSystem-acc45-id.json",
+    "fshName": "acc45-id",
+    "fshType": "Instance",
+    "fshFile": "vocabulary/namingSystems.fsh",
+    "startLine": 520,
+    "endLine": 533
+  },
+  {
+    "outputFile": "NamingSystem-chiropractic-board-id.json",
+    "fshName": "chiropractic-board-id",
+    "fshType": "Instance",
+    "fshFile": "vocabulary/namingSystems.fsh",
+    "startLine": 240,
+    "endLine": 258
+  },
+  {
+    "outputFile": "NamingSystem-dental-council-id.json",
+    "fshName": "dental-council-id",
+    "fshType": "Instance",
+    "fshFile": "vocabulary/namingSystems.fsh",
+    "startLine": 261,
+    "endLine": 279
+  },
+  {
+    "outputFile": "NamingSystem-dietitians-board-id.json",
+    "fshName": "dietitians-board-id",
+    "fshType": "Instance",
+    "fshFile": "vocabulary/namingSystems.fsh",
+    "startLine": 282,
+    "endLine": 300
+  },
+  {
+    "outputFile": "NamingSystem-hpi-facility-id.json",
+    "fshName": "hpi-facility-id",
     "fshType": "Instance",
     "fshFile": "vocabulary/namingSystems.fsh",
     "startLine": 85,
     "endLine": 113
   },
   {
-    "outputFile": "NamingSystem-hpiOrganization.json",
-    "fshName": "hpiOrganization",
+    "outputFile": "NamingSystem-hpi-nzbn.json",
+    "fshName": "hpi-nzbn",
+    "fshType": "Instance",
+    "fshFile": "vocabulary/namingSystems.fsh",
+    "startLine": 222,
+    "endLine": 237
+  },
+  {
+    "outputFile": "NamingSystem-hpi-organisation-id.json",
+    "fshName": "hpi-organisation-id",
     "fshType": "Instance",
     "fshFile": "vocabulary/namingSystems.fsh",
     "startLine": 48,
     "endLine": 78
   },
   {
-    "outputFile": "NamingSystem-hpiProvider.json",
-    "fshName": "hpiProvider",
+    "outputFile": "NamingSystem-hpi-person-id.json",
+    "fshName": "hpi-person-id",
     "fshType": "Instance",
     "fshFile": "vocabulary/namingSystems.fsh",
     "startLine": 23,
     "endLine": 46
   },
   {
-    "outputFile": "NamingSystem-hpipractitionerrole.json",
-    "fshName": "hpipractitionerrole",
+    "outputFile": "NamingSystem-medical-council-id.json",
+    "fshName": "medical-council-id",
     "fshType": "Instance",
     "fshFile": "vocabulary/namingSystems.fsh",
-    "startLine": 117,
-    "endLine": 132
+    "startLine": 136,
+    "endLine": 154
+  },
+  {
+    "outputFile": "NamingSystem-medical-radiation-technologists-board-id.json",
+    "fshName": "medical-radiation-technologists-board-id",
+    "fshType": "Instance",
+    "fshFile": "vocabulary/namingSystems.fsh",
+    "startLine": 502,
+    "endLine": 517
+  },
+  {
+    "outputFile": "NamingSystem-medical-sciences-council-id.json",
+    "fshName": "medical-sciences-council-id",
+    "fshType": "Instance",
+    "fshFile": "vocabulary/namingSystems.fsh",
+    "startLine": 325,
+    "endLine": 342
+  },
+  {
+    "outputFile": "NamingSystem-midwifery-council-id.json",
+    "fshName": "midwifery-council-id",
+    "fshType": "Instance",
+    "fshFile": "vocabulary/namingSystems.fsh",
+    "startLine": 202,
+    "endLine": 220
   },
   {
     "outputFile": "NamingSystem-moe-facility-id.json",
@@ -280,12 +344,20 @@
     "endLine": 554
   },
   {
-    "outputFile": "NamingSystem-nhi.json",
-    "fshName": "nhi",
+    "outputFile": "NamingSystem-nhi-id.json",
+    "fshName": "nhi-id",
     "fshType": "Instance",
     "fshFile": "vocabulary/namingSystems.fsh",
     "startLine": 1,
     "endLine": 21
+  },
+  {
+    "outputFile": "NamingSystem-nursing-council-id.json",
+    "fshName": "nursing-council-id",
+    "fshType": "Instance",
+    "fshFile": "vocabulary/namingSystems.fsh",
+    "startLine": 157,
+    "endLine": 175
   },
   {
     "outputFile": "NamingSystem-nz-address-id.json",
@@ -296,156 +368,76 @@
     "endLine": 575
   },
   {
-    "outputFile": "NamingSystem-nzACC45.json",
-    "fshName": "nzACC45",
-    "fshType": "Instance",
-    "fshFile": "vocabulary/namingSystems.fsh",
-    "startLine": 520,
-    "endLine": 533
-  },
-  {
-    "outputFile": "NamingSystem-nzbn.json",
-    "fshName": "nzbn",
-    "fshType": "Instance",
-    "fshFile": "vocabulary/namingSystems.fsh",
-    "startLine": 222,
-    "endLine": 237
-  },
-  {
-    "outputFile": "NamingSystem-nzchrir.json",
-    "fshName": "nzchrir",
-    "fshType": "Instance",
-    "fshFile": "vocabulary/namingSystems.fsh",
-    "startLine": 240,
-    "endLine": 258
-  },
-  {
-    "outputFile": "NamingSystem-nzdental.json",
-    "fshName": "nzdental",
-    "fshType": "Instance",
-    "fshFile": "vocabulary/namingSystems.fsh",
-    "startLine": 261,
-    "endLine": 279
-  },
-  {
-    "outputFile": "NamingSystem-nzdiet.json",
-    "fshName": "nzdiet",
-    "fshType": "Instance",
-    "fshFile": "vocabulary/namingSystems.fsh",
-    "startLine": 282,
-    "endLine": 300
-  },
-  {
-    "outputFile": "NamingSystem-nzmc.json",
-    "fshName": "nzmc",
-    "fshType": "Instance",
-    "fshFile": "vocabulary/namingSystems.fsh",
-    "startLine": 136,
-    "endLine": 154
-  },
-  {
-    "outputFile": "NamingSystem-nzmwife.json",
-    "fshName": "nzmwife",
-    "fshType": "Instance",
-    "fshFile": "vocabulary/namingSystems.fsh",
-    "startLine": 202,
-    "endLine": 220
-  },
-  {
-    "outputFile": "NamingSystem-nznc.json",
-    "fshName": "nznc",
-    "fshType": "Instance",
-    "fshFile": "vocabulary/namingSystems.fsh",
-    "startLine": 157,
-    "endLine": 175
-  },
-  {
-    "outputFile": "NamingSystem-nzocc.json",
-    "fshName": "nzocc",
+    "outputFile": "NamingSystem-occupational-therapy-board-id.json",
+    "fshName": "occupational-therapy-board-id",
     "fshType": "Instance",
     "fshFile": "vocabulary/namingSystems.fsh",
     "startLine": 363,
     "endLine": 381
   },
   {
-    "outputFile": "NamingSystem-nzopt.json",
-    "fshName": "nzopt",
+    "outputFile": "NamingSystem-optometrists-dispensing-opticians-board-id.json",
+    "fshName": "optometrists-dispensing-opticians-board-id",
     "fshType": "Instance",
     "fshFile": "vocabulary/namingSystems.fsh",
     "startLine": 404,
     "endLine": 422
   },
   {
-    "outputFile": "NamingSystem-nzost.json",
-    "fshName": "nzost",
+    "outputFile": "NamingSystem-osteopathic-council-id.json",
+    "fshName": "osteopathic-council-id",
     "fshType": "Instance",
     "fshFile": "vocabulary/namingSystems.fsh",
     "startLine": 424,
     "endLine": 442
   },
   {
-    "outputFile": "NamingSystem-nzparamed.json",
-    "fshName": "nzparamed",
+    "outputFile": "NamingSystem-paramedic-council-id.json",
+    "fshName": "paramedic-council-id",
     "fshType": "Instance",
     "fshFile": "vocabulary/namingSystems.fsh",
     "startLine": 344,
     "endLine": 361
   },
   {
-    "outputFile": "NamingSystem-nzpharm.json",
-    "fshName": "nzpharm",
+    "outputFile": "NamingSystem-pharmacy-council-id.json",
+    "fshName": "pharmacy-council-id",
     "fshType": "Instance",
     "fshFile": "vocabulary/namingSystems.fsh",
     "startLine": 178,
     "endLine": 199
   },
   {
-    "outputFile": "NamingSystem-nzphysio.json",
-    "fshName": "nzphysio",
+    "outputFile": "NamingSystem-physiotherapy-board-id.json",
+    "fshName": "physiotherapy-board-id",
     "fshType": "Instance",
     "fshFile": "vocabulary/namingSystems.fsh",
     "startLine": 444,
     "endLine": 462
   },
   {
-    "outputFile": "NamingSystem-nzpod.json",
-    "fshName": "nzpod",
+    "outputFile": "NamingSystem-podiatrists-board-id.json",
+    "fshName": "podiatrists-board-id",
     "fshType": "Instance",
     "fshFile": "vocabulary/namingSystems.fsh",
     "startLine": 464,
     "endLine": 480
   },
   {
-    "outputFile": "NamingSystem-nzpsycho.json",
-    "fshName": "nzpsycho",
-    "fshType": "Instance",
-    "fshFile": "vocabulary/namingSystems.fsh",
-    "startLine": 384,
-    "endLine": 402
-  },
-  {
-    "outputFile": "NamingSystem-nzpsyhc.json",
-    "fshName": "nzpsyhc",
+    "outputFile": "NamingSystem-psychologists-board-id.json",
+    "fshName": "psychologists-board-id",
     "fshType": "Instance",
     "fshFile": "vocabulary/namingSystems.fsh",
     "startLine": 482,
     "endLine": 500
   },
   {
-    "outputFile": "NamingSystem-nzrad.json",
-    "fshName": "nzrad",
+    "outputFile": "NamingSystem-psychotherapists-board-id.json",
+    "fshName": "psychotherapists-board-id",
     "fshType": "Instance",
     "fshFile": "vocabulary/namingSystems.fsh",
-    "startLine": 502,
-    "endLine": 517
-  },
-  {
-    "outputFile": "NamingSystem-nzscience.json",
-    "fshName": "nzscience",
-    "fshType": "Instance",
-    "fshFile": "vocabulary/namingSystems.fsh",
-    "startLine": 325,
-    "endLine": 342
+    "startLine": 384,
+    "endLine": 402
   },
   {
     "outputFile": "NamingSystem-rheumatic-fever-ccs-id.json",

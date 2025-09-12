@@ -1,6 +1,6 @@
 {
   "resourceType": "NamingSystem",
-  "id": "hpiFacility",
+  "id": "psychologists-board-id",
   "type": {
     "coding": [
       {
@@ -20,8 +20,8 @@
       ]
     }
   ],
-  "name": "HPIFacility",
-  "description": "HPI facilities",
+  "name": "NZPsych",
+  "description": "Psychologists Board Register Number",
   "status": "active",
   "kind": "identifier",
   "date": "2020-07-14",
@@ -29,25 +29,12 @@
   "uniqueId": [
     {
       "type": "uri",
-      "value": "https://standards.digital.health.nz/ns/hpi-facility-id",
+      "value": "https://standards.digital.health.nz/ns/psychologists-board-id",
       "preferred": true
     },
     {
-      "type": "uri",
-      "value": "https://standards.digital.health.nz/ns/moh-facility-id"
-    },
-    {
-      "type": "uri",
-      "value": "https://standards.digital.health.nz/id/hpi-facility",
-      "comment": "Deprecated"
-    },
-    {
       "type": "oid",
-      "value": "2.16.840.1.113883.2.18.3.2"
-    },
-    {
-      "type": "uri",
-      "value": "https://standards.digital.health.nz/ns/nzhis-facility-id"
+      "value": "2.16.840.1.113883.2.18.70.9"
     }
   ]
 }

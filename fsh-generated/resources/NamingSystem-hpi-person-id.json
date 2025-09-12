@@ -1,8 +1,8 @@
 {
   "resourceType": "NamingSystem",
-  "id": "hpiOrganization",
-  "name": "HPIOrganization",
-  "description": "HPI organizations",
+  "id": "hpi-person-id",
+  "name": "HPIProvider",
+  "description": "HPI providers",
   "status": "active",
   "kind": "identifier",
   "date": "2020-07-14",
@@ -29,27 +29,17 @@
   "uniqueId": [
     {
       "type": "uri",
-      "value": "https://standards.digital.health.nz/ns/hpi-organisation-id",
+      "value": "https://standards.digital.health.nz/ns/hpi-person-id",
       "preferred": true
     },
     {
       "type": "uri",
-      "value": "https://standards.digital.health.nz/ns/moh-agency-id",
-      "comment": "NZHIS Agency code. Deprecated"
-    },
-    {
-      "type": "uri",
-      "value": "https://standards.digital.health.nz/id/hpi-organisation",
+      "value": "https://standards.digital.health.nz/id/hpi-person",
       "comment": "Deprecated"
     },
     {
       "type": "oid",
-      "value": "2.16.840.1.113883.2.18.3.3"
-    },
-    {
-      "type": "uri",
-      "value": "https://standards.digital.health.nz/ns/nzhis-agency-id",
-      "comment": "Deprecated"
+      "value": "2.16.840.1.113883.2.18.3.1"
     }
   ]
 }

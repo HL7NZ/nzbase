@@ -1,6 +1,12 @@
 {
   "resourceType": "NamingSystem",
-  "id": "nzmwife",
+  "id": "occupational-therapy-board-id",
+  "name": "NZOCC",
+  "description": "Occupational Therapy Board Register Number",
+  "status": "active",
+  "kind": "identifier",
+  "date": "2020-07-14",
+  "responsible": "HISO",
   "type": {
     "coding": [
       {
@@ -20,21 +26,15 @@
       ]
     }
   ],
-  "name": "NZMidwife",
-  "description": "Midwifery Council Register Number",
-  "status": "active",
-  "kind": "identifier",
-  "date": "2020-07-14",
-  "responsible": "HISO",
   "uniqueId": [
     {
       "type": "uri",
-      "value": "https://standards.digital.health.nz/ns/midwifery-council-id",
+      "value": "https://standards.digital.health.nz/ns/occupational-therapy-board-id",
       "preferred": true
     },
     {
       "type": "oid",
-      "value": "2.16.840.1.113883.2.18.70.5"
+      "value": "2.16.840.1.113883.2.18.70.13"
     }
   ]
 }

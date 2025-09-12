@@ -1,12 +1,6 @@
 {
   "resourceType": "NamingSystem",
-  "id": "nzocc",
-  "name": "NZOCC",
-  "description": "Occupational Therapy Board Register Number",
-  "status": "active",
-  "kind": "identifier",
-  "date": "2020-07-14",
-  "responsible": "HISO",
+  "id": "chiropractic-board-id",
   "type": {
     "coding": [
       {
@@ -26,15 +20,21 @@
       ]
     }
   ],
+  "name": "NZChiro",
+  "description": "Chiropractic Board Register number",
+  "status": "active",
+  "kind": "identifier",
+  "date": "2020-07-14",
+  "responsible": "HISO",
   "uniqueId": [
     {
       "type": "uri",
-      "value": "https://standards.digital.health.nz/ns/occupational-therapy-board-id",
+      "value": "https://standards.digital.health.nz/ns/chiropractic-board-id",
       "preferred": true
     },
     {
       "type": "oid",
-      "value": "2.16.840.1.113883.2.18.70.13"
+      "value": "2.16.840.1.113883.2.18.70.1"
     }
   ]
 }

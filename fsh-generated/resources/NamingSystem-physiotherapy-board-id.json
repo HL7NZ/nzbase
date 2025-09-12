@@ -1,6 +1,12 @@
 {
   "resourceType": "NamingSystem",
-  "id": "nzbn",
+  "id": "physiotherapy-board-id",
+  "name": "NZPhysio",
+  "description": "Physiotherapy Board Register Number",
+  "status": "active",
+  "kind": "identifier",
+  "date": "2020-07-14",
+  "responsible": "HISO",
   "type": {
     "coding": [
       {
@@ -20,17 +26,15 @@
       ]
     }
   ],
-  "name": "NBN",
-  "description": "New Zealand Business Number",
-  "status": "active",
-  "kind": "identifier",
-  "date": "2020-07-14",
-  "responsible": "HISO",
   "uniqueId": [
     {
       "type": "uri",
-      "value": "https://standards.digital.health.nz/ns/hpi-nzbn",
+      "value": "https://standards.digital.health.nz/ns/physiotherapy-board-id",
       "preferred": true
+    },
+    {
+      "type": "oid",
+      "value": "2.16.840.1.113883.2.18.70.7"
     }
   ]
 }

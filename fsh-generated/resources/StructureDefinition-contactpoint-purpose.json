@@ -32,13 +32,6 @@
   ],
   "copyright": "HL7 New Zealand© 2020+; Licensed Under Creative Commons No Rights Reserved.",
   "fhirVersion": "4.0.1",
-  "mapping": [
-    {
-      "identity": "rim",
-      "uri": "http://hl7.org/v3",
-      "name": "RIM Mapping"
-    }
-  ],
   "kind": "complex-type",
   "abstract": false,
   "context": [

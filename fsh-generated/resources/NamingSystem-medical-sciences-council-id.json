@@ -1,8 +1,8 @@
 {
   "resourceType": "NamingSystem",
-  "id": "nzrad",
-  "name": "NZRadiologist",
-  "description": "Medical Radiation Technologists Board Register Number",
+  "id": "medical-sciences-council-id",
+  "name": "NZScience",
+  "description": "Medical Sciences Council Register Number",
   "status": "active",
   "kind": "identifier",
   "date": "2020-07-14",
@@ -29,7 +29,7 @@
   "uniqueId": [
     {
       "type": "uri",
-      "value": "https://standards.digital.health.nz/ns/medical-radiation-technologists-board-id",
+      "value": "https://standards.digital.health.nz/ns/medical-sciences-council-id",
       "preferred": true
     }
   ]

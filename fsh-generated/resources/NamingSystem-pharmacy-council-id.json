@@ -1,6 +1,6 @@
 {
   "resourceType": "NamingSystem",
-  "id": "nznc",
+  "id": "pharmacy-council-id",
   "type": {
     "coding": [
       {
@@ -20,8 +20,8 @@
       ]
     }
   ],
-  "name": "NZNC",
-  "description": "Nursing Council of New Zealand Register Number",
+  "name": "NZMC",
+  "description": "Pharmacy Council of New Zealand Register Number",
   "status": "active",
   "kind": "identifier",
   "date": "2020-07-14",
@@ -29,12 +29,16 @@
   "uniqueId": [
     {
       "type": "uri",
-      "value": "https://standards.digital.health.nz/ns/nursing-council-id",
+      "value": "https://standards.digital.health.nz/ns/pharmacy-council-id",
       "preferred": true
     },
     {
       "type": "oid",
-      "value": "2.16.840.1.113883.2.18.42"
+      "value": "2.16.840.1.113883.2.18.68"
+    },
+    {
+      "type": "oid",
+      "value": "2.16.840.1.113883.2.18.9"
     }
   ]
 }

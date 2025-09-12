@@ -52,6 +52,14 @@
       },
       {
         "reference": {
+          "reference": "NamingSystem/acc45-id"
+        },
+        "name": "acc45-id",
+        "description": "ACC 45 number",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
           "reference": "StructureDefinition/acc-patient-occupation"
         },
         "name": "AccPatientOccupation",
@@ -104,6 +112,14 @@
         },
         "name": "Building Name",
         "description": "The name of a building cited in an address.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/chiropractic-board-id"
+        },
+        "name": "chiropractic-board-id",
+        "description": "Chiropractic Board Register number",
         "exampleBoolean": false
       },
       {
@@ -268,6 +284,22 @@
       },
       {
         "reference": {
+          "reference": "NamingSystem/dental-council-id"
+        },
+        "name": "dental-council-id",
+        "description": "Dental Council Register Number",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/dietitians-board-id"
+        },
+        "name": "dietitians-board-id",
+        "description": "Dietitians Board Register Number",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
           "reference": "ValueSet/dhb"
         },
         "name": "District Health Board Identifer",
@@ -380,33 +412,33 @@
       },
       {
         "reference": {
-          "reference": "NamingSystem/hpiFacility"
+          "reference": "NamingSystem/hpi-facility-id"
         },
-        "name": "hpiFacility",
+        "name": "hpi-facility-id",
         "description": "HPI facilities",
         "exampleBoolean": false
       },
       {
         "reference": {
-          "reference": "NamingSystem/hpiOrganization"
+          "reference": "NamingSystem/hpi-nzbn"
         },
-        "name": "hpiOrganization",
+        "name": "hpi-nzbn",
+        "description": "New Zealand Business Number",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/hpi-organisation-id"
+        },
+        "name": "hpi-organisation-id",
         "description": "HPI organizations",
         "exampleBoolean": false
       },
       {
         "reference": {
-          "reference": "NamingSystem/hpipractitionerrole"
+          "reference": "NamingSystem/hpi-person-id"
         },
-        "name": "hpipractitionerrole",
-        "description": "HPI PractitionerRole id",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "NamingSystem/hpiProvider"
-        },
-        "name": "hpiProvider",
+        "name": "hpi-person-id",
         "description": "HPI providers",
         "exampleBoolean": false
       },
@@ -492,6 +524,30 @@
       },
       {
         "reference": {
+          "reference": "NamingSystem/medical-council-id"
+        },
+        "name": "medical-council-id",
+        "description": "Medical Council of New Zealand Register Number",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/medical-radiation-technologists-board-id"
+        },
+        "name": "medical-radiation-technologists-board-id",
+        "description": "Medical Radiation Technologists Board Register Number",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/medical-sciences-council-id"
+        },
+        "name": "medical-sciences-council-id",
+        "description": "Medical Sciences Council Register Number",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
           "reference": "StructureDefinition/NzMedicationDispense"
         },
         "name": "Medication Dispense resource for use in NZ",
@@ -556,6 +612,14 @@
       },
       {
         "reference": {
+          "reference": "NamingSystem/midwifery-council-id"
+        },
+        "name": "midwifery-council-id",
+        "description": "Midwifery Council Register Number",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
           "reference": "NamingSystem/moe-facility-id"
         },
         "name": "moe-facility-id",
@@ -580,10 +644,18 @@
       },
       {
         "reference": {
-          "reference": "NamingSystem/nhi"
+          "reference": "NamingSystem/nhi-id"
         },
-        "name": "nhi",
+        "name": "nhi-id",
         "description": "NHI number",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/nursing-council-id"
+        },
+        "name": "nursing-council-id",
+        "description": "Nursing Council of New Zealand Register Number",
         "exampleBoolean": false
       },
       {
@@ -708,46 +780,6 @@
       },
       {
         "reference": {
-          "reference": "NamingSystem/nzACC45"
-        },
-        "name": "nzACC45",
-        "description": "ACC 45 number",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "NamingSystem/nzbn"
-        },
-        "name": "nzbn",
-        "description": "New Zealand Business Number",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "NamingSystem/nzchrir"
-        },
-        "name": "nzchrir",
-        "description": "Chiropractic Board Register number",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "NamingSystem/nzdental"
-        },
-        "name": "nzdental",
-        "description": "Dental Council Register Number",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "NamingSystem/nzdiet"
-        },
-        "name": "nzdiet",
-        "description": "Dietitians Board Register Number",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
           "reference": "StructureDefinition/nzeps-long-term-medication"
         },
         "name": "NZePS Long Term Medication Indicator",
@@ -788,110 +820,6 @@
       },
       {
         "reference": {
-          "reference": "NamingSystem/nzmc"
-        },
-        "name": "nzmc",
-        "description": "Medical Council of New Zealand Register Number",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "NamingSystem/nzmwife"
-        },
-        "name": "nzmwife",
-        "description": "Midwifery Council Register Number",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "NamingSystem/nznc"
-        },
-        "name": "nznc",
-        "description": "Nursing Council of New Zealand Register Number",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "NamingSystem/nzocc"
-        },
-        "name": "nzocc",
-        "description": "Occupational Therapy Board Register Number",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "NamingSystem/nzopt"
-        },
-        "name": "nzopt",
-        "description": "Optometrists & Dispensing Opticians Board Register Number",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "NamingSystem/nzost"
-        },
-        "name": "nzost",
-        "description": "Osteopathic Council Register Number",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "NamingSystem/nzparamed"
-        },
-        "name": "nzparamed",
-        "description": "Paramedic Council Register Number",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "NamingSystem/nzpharm"
-        },
-        "name": "nzpharm",
-        "description": "Pharmacy Council of New Zealand Register Number",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "NamingSystem/nzphysio"
-        },
-        "name": "nzphysio",
-        "description": "Physiotherapy Board Register Number",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "NamingSystem/nzpod"
-        },
-        "name": "nzpod",
-        "description": "Podiatrists Board Register Number",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "NamingSystem/nzpsycho"
-        },
-        "name": "nzpsycho",
-        "description": "Psychotherapists Board register Number",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "NamingSystem/nzpsyhc"
-        },
-        "name": "nzpsyhc",
-        "description": "Psychologists Board Register Number",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "NamingSystem/nzrad"
-        },
-        "name": "nzrad",
-        "description": "Medical Radiation Technologists Board Register Number",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
           "reference": "StructureDefinition/nz-residency"
         },
         "name": "NZResidency",
@@ -900,18 +828,26 @@
       },
       {
         "reference": {
-          "reference": "NamingSystem/nzscience"
-        },
-        "name": "nzscience",
-        "description": "Medical Sciences Council Register Number",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
           "reference": "StructureDefinition/nz-iwi"
         },
         "name": "Nz_iwi",
         "description": "Persons Iwi affiliation",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/occupational-therapy-board-id"
+        },
+        "name": "occupational-therapy-board-id",
+        "description": "Occupational Therapy Board Register Number",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/optometrists-dispensing-opticians-board-id"
+        },
+        "name": "optometrists-dispensing-opticians-board-id",
+        "description": "Optometrists & Dispensing Opticians Board Register Number",
         "exampleBoolean": false
       },
       {
@@ -945,6 +881,22 @@
         "name": "organization-moh",
         "description": "Ministrt Of Health",
         "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/osteopathic-council-id"
+        },
+        "name": "osteopathic-council-id",
+        "description": "Osteopathic Council Register Number",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/paramedic-council-id"
+        },
+        "name": "paramedic-council-id",
+        "description": "Paramedic Council Register Number",
+        "exampleBoolean": false
       },
       {
         "reference": {
@@ -1076,6 +1028,14 @@
       },
       {
         "reference": {
+          "reference": "NamingSystem/pharmacy-council-id"
+        },
+        "name": "pharmacy-council-id",
+        "description": "Pharmacy Council of New Zealand Register Number",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
           "reference": "ValueSet/pho"
         },
         "name": "PHO",
@@ -1088,6 +1048,22 @@
         },
         "name": "PHO",
         "description": "Primary Healthcare Organization",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/physiotherapy-board-id"
+        },
+        "name": "physiotherapy-board-id",
+        "description": "Physiotherapy Board Register Number",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/podiatrists-board-id"
+        },
+        "name": "podiatrists-board-id",
+        "description": "Podiatrists Board Register Number",
         "exampleBoolean": false
       },
       {
@@ -1232,6 +1208,22 @@
         },
         "name": "Primary Healthcare Organisation",
         "description": "Primary Healthcare Organisation associated with a General Practice linked to a NZ Healthcare Service, Location (Facility) or Patient (GP).",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/psychologists-board-id"
+        },
+        "name": "psychologists-board-id",
+        "description": "Psychologists Board Register Number",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/psychotherapists-board-id"
+        },
+        "name": "psychotherapists-board-id",
+        "description": "Psychotherapists Board register Number",
         "exampleBoolean": false
       },
       {

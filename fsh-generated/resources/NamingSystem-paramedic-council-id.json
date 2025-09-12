@@ -1,6 +1,6 @@
 {
   "resourceType": "NamingSystem",
-  "id": "nzparamed",
+  "id": "paramedic-council-id",
   "name": "NZParamed",
   "description": "Paramedic Council Register Number",
   "status": "active",

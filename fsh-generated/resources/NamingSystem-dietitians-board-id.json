@@ -1,8 +1,8 @@
 {
   "resourceType": "NamingSystem",
-  "id": "nzdental",
-  "name": "NZDental",
-  "description": "Dental Council Register Number",
+  "id": "dietitians-board-id",
+  "name": "NZDiet",
+  "description": "Dietitians Board Register Number",
   "status": "active",
   "kind": "identifier",
   "date": "2020-07-14",
@@ -29,12 +29,12 @@
   "uniqueId": [
     {
       "type": "uri",
-      "value": "https://standards.digital.health.nz/ns/dental-council-id",
+      "value": "https://standards.digital.health.nz/ns/dietitians-board-id",
       "preferred": true
     },
     {
       "type": "oid",
-      "value": "2.16.840.1.113883.2.18.70.2"
+      "value": "2.16.840.1.113883.2.18.70.3"
     }
   ]
 }

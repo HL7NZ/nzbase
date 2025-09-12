@@ -10,13 +10,6 @@
   "publisher": "HL7 New Zealand",
   "description": "The address to where electronic communications might be sent. For historical reasons, there is an overlap with edi-address.",
   "fhirVersion": "4.0.1",
-  "mapping": [
-    {
-      "identity": "rim",
-      "uri": "http://hl7.org/v3",
-      "name": "RIM Mapping"
-    }
-  ],
   "kind": "complex-type",
   "abstract": false,
   "context": [

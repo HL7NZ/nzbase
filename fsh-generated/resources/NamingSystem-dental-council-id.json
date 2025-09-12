@@ -1,6 +1,12 @@
 {
   "resourceType": "NamingSystem",
-  "id": "hpipractitionerrole",
+  "id": "dental-council-id",
+  "name": "NZDental",
+  "description": "Dental Council Register Number",
+  "status": "active",
+  "kind": "identifier",
+  "date": "2020-07-14",
+  "responsible": "HISO",
   "type": {
     "coding": [
       {
@@ -20,17 +26,15 @@
       ]
     }
   ],
-  "name": "HPIPractitionerRole",
-  "description": "HPI PractitionerRole id",
-  "status": "active",
-  "kind": "identifier",
-  "date": "2020-07-14",
-  "responsible": "HISO",
   "uniqueId": [
     {
       "type": "uri",
-      "value": "https://standards.digital.health.nz/ns/hpi-practitionerrole-id",
+      "value": "https://standards.digital.health.nz/ns/dental-council-id",
       "preferred": true
+    },
+    {
+      "type": "oid",
+      "value": "2.16.840.1.113883.2.18.70.2"
     }
   ]
 }

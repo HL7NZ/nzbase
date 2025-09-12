@@ -1,8 +1,8 @@
 {
   "resourceType": "NamingSystem",
-  "id": "nzopt",
-  "name": "NZOpt",
-  "description": "Optometrists & Dispensing Opticians Board Register Number",
+  "id": "osteopathic-council-id",
+  "name": "NZOst",
+  "description": "Osteopathic Council Register Number",
   "status": "active",
   "kind": "identifier",
   "date": "2020-07-14",
@@ -29,12 +29,12 @@
   "uniqueId": [
     {
       "type": "uri",
-      "value": "https://standards.digital.health.nz/ns/optometrists-dispensing-opticians-board-id",
+      "value": "https://standards.digital.health.nz/ns/osteopathic-council-id",
       "preferred": true
     },
     {
       "type": "oid",
-      "value": "2.16.840.1.113883.2.18.70.12"
+      "value": "2.16.840.1.113883.2.18.70.6"
     }
   ]
 }

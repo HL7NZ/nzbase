@@ -1,6 +1,6 @@
 {
   "resourceType": "NamingSystem",
-  "id": "nhi",
+  "id": "nhi-id",
   "name": "NHI",
   "description": "NHI number",
   "status": "active",

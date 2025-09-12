@@ -1,8 +1,8 @@
 {
   "resourceType": "NamingSystem",
-  "id": "nzpsycho",
-  "name": "NZPsycho",
-  "description": "Psychotherapists Board register Number",
+  "id": "medical-radiation-technologists-board-id",
+  "name": "NZRadiologist",
+  "description": "Medical Radiation Technologists Board Register Number",
   "status": "active",
   "kind": "identifier",
   "date": "2020-07-14",
@@ -29,12 +29,8 @@
   "uniqueId": [
     {
       "type": "uri",
-      "value": "https://standards.digital.health.nz/ns/psychotherapists-board-id",
+      "value": "https://standards.digital.health.nz/ns/medical-radiation-technologists-board-id",
       "preferred": true
-    },
-    {
-      "type": "oid",
-      "value": "2.16.840.1.113883.2.18.70.7"
     }
   ]
 }

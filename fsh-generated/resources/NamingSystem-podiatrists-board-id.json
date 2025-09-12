@@ -1,6 +1,6 @@
 {
   "resourceType": "NamingSystem",
-  "id": "nzpod",
+  "id": "podiatrists-board-id",
   "name": "NZPodiatry",
   "description": "Podiatrists Board Register Number",
   "status": "active",
