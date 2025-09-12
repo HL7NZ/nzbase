@@ -45,7 +45,7 @@ Usage: #definition
 * uniqueId[2].type = #oid
 * uniqueId[2].value = "2.16.840.1.113883.2.18.3.1"
 
-Instance: hpi-organization-id
+Instance: hpi-organisation-id
 InstanceOf: NamingSystem
 Usage: #definition
 
@@ -113,7 +113,7 @@ Usage: #definition
 * uniqueId[=].value = "https://standards.digital.health.nz/ns/nzhis-facility-id"
 
 
-
+/*
 Instance: hpipractitionerrole
 InstanceOf: NamingSystem
 Usage: #definition
@@ -131,9 +131,9 @@ Usage: #definition
 * uniqueId.value = "https://standards.digital.health.nz/ns/hpi-practitionerrole-id"
 * uniqueId.preferred = true
 
-
+*/
 //------------
-Instance: nmedical-council-id
+Instance: medical-council-id
 InstanceOf: NamingSystem
 Usage: #definition
 * type.coding = http://terminology.hl7.org/CodeSystem/v2-0203#NPI "National provider identifier"
