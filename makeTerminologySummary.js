@@ -39,11 +39,11 @@ arVS.push("<tr><th>ValueSet</th><th>Purpose</th><th>Url</th><th>CodeSystem Urls<
 arCS.push("### CodeSystems");
 //arCS.push("\r\n");
 let csText = `
-These are codesystems that have been defined by this guide. They define specific concepts that are included in ValueSets. It is preferabe to use an international code systm such as SNOMED, ICD or LOINC - but this is not always possible.
+These are codesystems that have been defined by this guide. They define specific concepts that are included in ValueSets. It is preferable to use an international code system such as SNOMED, ICD or LOINC - but this is not always possible.
 
-Each CodeSystem has a globally unique url that is used to unambiguously identiy it. The url generally refers to a describtion of the codesystem, rather than to the FHIR CodeSystem resource.
+Each CodeSystem has a globally unique url that is used to unambiguously identify it. The url generally refers to a description of the codesystem, rather than to the FHIR CodeSystem resource.
 
-The [FHIR spec](http://hl7.org/fhir/terminology-module.html) has much more detail on the use of Terminology in FHIR
+The [FHIR spec](https://hl7.org/fhir/R4/terminology-module.html) has much more detail on the use of Terminology in FHIR
 `
 arCS.push(csText);
 //arCS.push("\r\n");
@@ -154,4 +154,3 @@ function loadFile(path) {
     let resource = JSON.parse(contents)
     return resource;
 }
-

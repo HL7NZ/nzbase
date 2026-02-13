@@ -145,7 +145,7 @@
 <td>
 <div>Patient.gender</div>
 </td>
-<td><p>Text provided by the person with the choice of &#39;Another gender&#39; (The FHIR AdministrativeGender CodeSystem codes this as &#39;<a href="http://hl7.org/fhir/R4B/codesystem-administrative-gender.html">other</a>&#39;).</p></td>
+<td><p>Text provided by the person with the choice of &#39;Another gender&#39; (The FHIR AdministrativeGender CodeSystem codes this as &#39;<a href="https://hl7.org/fhir/R4/codesystem-administrative-gender.html">other</a>&#39;).</p></td>
 <td></td>
 </tr>
 <tr>
