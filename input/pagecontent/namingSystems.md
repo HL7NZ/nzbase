@@ -2,7 +2,7 @@
 ### Identifiers
 
 <div>
-These are identifiers defined in this IG. They are defined using <a href='http://hl7.org/fhir/namingsystem.html'>NamingSystem</a> resources.
+These are identifiers defined in this IG. They are defined using <a href='https://hl7.org/fhir/R4/namingsystem.html'>NamingSystem</a> resources.
 </div>
 
 <table class='table table-bordered table-condensed'>

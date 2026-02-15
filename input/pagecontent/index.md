@@ -24,7 +24,7 @@ The following tabs are available from the navbar at the top.
 
 ### Extensions
 
-This tab lists all the extensions defined in this guide, where an extension is an additional element that can be recorded in a resource. The extension definition describes the purpose of the extension, its name and [dataType/s](http://hl7.org/fhir/datatypes.html).
+This tab lists all the extensions defined in this guide, where an extension is an additional element that can be recorded in a resource. The extension definition describes the purpose of the extension, its name and [dataType/s](https://hl7.org/fhir/R4/datatypes.html).
 
 Clicking on the link in the 'id' column will display the detail page for that extension. Extensions can have a single value, or can be composed of multiple 'child' elements - an example is the [funded programme](StructureDefinition-funded-programme.html) extension. The snapshot tab in the details page (about halfway down) lists all the parts of the extension - including a link to the ValueSet if the element is coded.
 
@@ -32,12 +32,12 @@ Clicking on the link in the 'id' column will display the detail page for that ex
 
 This tab lists the terminology artifacts defined in this guide. There are 2 artifacts that will be found here:
 
-* [ValueSets](http://hl7.org/fhir/valueset.html) are sets of codes, drawn from one or more code systems, intended for use in coded data elements in Resources, as defined by a particular conformance rule - such as an Extension or Profile. The ValueSets in this Guide are 'recommended' values, but it may be possible for implementers to use additional concepts if the rules defined by a particular Extension or Profile permit this.
-* [CodeSystem](http://hl7.org/fhir/codesystem.html) resources are used to declare the existence of and describe a code system, its key properties, and optionally define a part or all of its content. Wherever possible, the use of international terminologies, such as [SNOMED CT](https://www.snomed.org/), is recommended; however, a number of New Zealand-specific code systems are included in this Guide to meet unique, local requirements.
+* [ValueSets](https://hl7.org/fhir/R4/valueset.html) are sets of codes, drawn from one or more code systems, intended for use in coded data elements in Resources, as defined by a particular conformance rule - such as an Extension or Profile. The ValueSets in this Guide are 'recommended' values, but it may be possible for implementers to use additional concepts if the rules defined by a particular Extension or Profile permit this.
+* [CodeSystem](https://hl7.org/fhir/R4/codesystem.html) resources are used to declare the existence of and describe a code system, its key properties, and optionally define a part or all of its content. Wherever possible, the use of international terminologies, such as [SNOMED CT](https://www.snomed.org/), is recommended; however, a number of New Zealand-specific code systems are included in this Guide to meet unique, local requirements.
 
-These resources can be used by Terminology Servers (like [Terminz](https://terminz-itp.azurewebsites.net/) or [Ontoserver](https://aehrc.com/ontoserver/) ) to provide terminology [operations](http://hl7.org/fhir/operations.html) of use to implementers, such as the ValueSet [$expand](http://hl7.org/fhir/valueset-operation-expand.html) operation.
+These resources can be used by Terminology Servers (like [Terminz](https://terminz-itp.azurewebsites.net/) or [Ontoserver](https://aehrc.com/ontoserver/) ) to provide terminology [operations](https://hl7.org/fhir/R4/operations.html) of use to implementers, such as the ValueSet [$expand](https://hl7.org/fhir/R4/valueset-operation-expand.html) operation.
 
-There is a lot more detail on terminology in the [FHIR specification](http://hl7.org/fhir/terminology-module.html). The section on [Terminology Services](http://hl7.org/fhir/terminology-service.html) is also useful.
+There is a lot more detail on terminology in the [FHIR specification](https://hl7.org/fhir/R4/terminology-module.html). The section on [Terminology Services](https://hl7.org/fhir/R4/terminology-service.html) is also useful.
 
 ### Identifiers
 

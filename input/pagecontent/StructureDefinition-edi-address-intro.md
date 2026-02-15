@@ -5,7 +5,7 @@
 
 This extension allows an EDI address to be added to the ContactPoint.system element.
 
-As the FHIR specification has a [required](http://hl7.org/fhir/terminologies.html#required) binding for this element, it is necessary to
+As the FHIR specification has a [required](https://hl7.org/fhir/R4/terminologies.html#required) binding for this element, it is necessary to
 provide a value from the defined set (eg 'other') then place the extension on that value.
 
 The actual value of the edi address is the .value element.
