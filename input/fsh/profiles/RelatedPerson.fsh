@@ -11,3 +11,5 @@ Description:    "The base New Zealand RelatedPerson profile"
 * ^purpose = "Describe the Base New Zealand RelatedPerson resource profile"
 * ^text.status = #additional
 * ^text.div = "<div xmlns='http://www.w3.org/1999/xhtml'>NZ RelatedPerson profile</div>"
+
+* relationship from NzRelationshipType (preferred)
