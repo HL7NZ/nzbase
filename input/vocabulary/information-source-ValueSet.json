@@ -1,0 +1,44 @@
+{
+  "resourceType": "ValueSet",
+  "id": "information-source",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2026-04-07T20:25:39.037+12:00",
+    "tag": [
+      {
+        "system": "https://standards.digital.health.nz/ns/nzhts-usage-tags",
+        "code": "FHIR"
+      }
+    ]
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Information Source</h2><tt>https://nzhts.digital.health.nz/fhir/ValueSet/information-source-code</tt><p>The source from where the value of this item was sourced</p></div>"
+  },
+  "url": "https://nzhts.digital.health.nz/fhir/ValueSet/information-source-code",
+  "version": "1.0.0",
+  "name": "InformationSource",
+  "title": "Information Source",
+  "status": "active",
+  "date": "2023-10-18T11:59:31.000Z",
+  "publisher": "HL7 New Zealand",
+  "contact": [
+    {
+      "name": "HL7 New Zealand",
+      "telecom": [
+        {
+          "system": "email"
+        }
+      ]
+    }
+  ],
+  "description": "The source from where the value of this item was sourced",
+  "compose": {
+    "include": [
+      {
+        "system": "https://standards.digital.health.nz/ns/information-source-code",
+        "version": "1.0.0"
+      }
+    ]
+  }
+}

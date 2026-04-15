@@ -34,6 +34,8 @@ Description: "New Zealand Geocode. This uses a different datum from that defined
 * extension[datumCode].value[x] only CodeableConcept
 * extension[datumCode].valueCodeableConcept from $datum-code-vs (preferred)
 
+/* move to sourcing from NZHTS 
+
 ValueSet: DatumCode
 Id: datumCode
 Title: "Datum code"
@@ -59,3 +61,5 @@ Description: "Possible datum codes"
 
 * #WGS84 "WGS84" "global datum, used by google maps"
 * #NZGD2000 "NZGD2000" "Nz official datum, used by MoH address service"
+
+*/

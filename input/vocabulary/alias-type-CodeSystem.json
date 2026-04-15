@@ -1,0 +1,77 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "alias-type",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2026-04-07T20:26:54.515+12:00",
+    "tag": [
+      {
+        "system": "https://standards.digital.health.nz/ns/nzhts-usage-tags",
+        "code": "FHIR"
+      }
+    ]
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Type of Alias</h2><tt>https://standards.digital.health.nz/ns/alias-type-code</tt><p>Used in Organization and Location to indicate what is the type of Alias</p></div>"
+  },
+  "url": "https://standards.digital.health.nz/ns/alias-type-code",
+  "version": "2.0.0",
+  "name": "AliasType",
+  "title": "Type of Alias",
+  "status": "active",
+  "date": "2023-10-25T11:59:31.000Z",
+  "publisher": "HL7 New Zealand",
+  "contact": [
+    {
+      "name": "HL7 New Zealand",
+      "telecom": [
+        {
+          "system": "email"
+        }
+      ]
+    }
+  ],
+  "description": "Used in Organization and Location to indicate what is the type of Alias",
+  "caseSensitive": true,
+  "valueSet": "https://nzhts.digital.health.nz/fhir/ValueSet/alias-type-code",
+  "content": "complete",
+  "count": 7,
+  "concept": [
+    {
+      "code": "aka",
+      "display": "Aka",
+      "definition": "The name by which the organisation or facility is also known as."
+    },
+    {
+      "code": "old",
+      "display": "Old",
+      "definition": "The previous legal name(s) of the organisation/facility."
+    },
+    {
+      "code": "maori",
+      "display": "Māori",
+      "definition": "The Māori name of the organisation or facility."
+    },
+    {
+      "code": "legal",
+      "display": "Legal",
+      "definition": "The name as recorded in the official register eg Register of Companies."
+    },
+    {
+      "code": "short",
+      "display": "Short",
+      "definition": "An abbreviated name by which the organisation or facility is known."
+    },
+    {
+      "code": "trade-as",
+      "display": "Trading as",
+      "definition": "Used when the organisation/facility has a separate trading name."
+    },
+    {
+      "code": "current",
+      "display": "Current unverified or unofficial name",
+      "definition": "The name currently used for a facility."
+    }
+  ]
+}

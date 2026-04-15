@@ -1,0 +1,68 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "practitioner-registration-status-code",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2026-04-07T20:36:08.300+12:00",
+    "tag": [
+      {
+        "system": "https://standards.digital.health.nz/ns/nzhts-usage-tags",
+        "code": "FHIR"
+      }
+    ]
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Registration Status of Practitioners</h2><tt>https://standards.digital.health.nz/ns/practitioner-registration-status-code</tt><p>The code list represents the current practicing status of the Provider Person as per their registration with an RA.</p></div>"
+  },
+  "url": "https://standards.digital.health.nz/ns/practitioner-registration-status-code",
+  "version": "2.0",
+  "name": "PractitionerRegistrationStatusCode",
+  "title": "Registration Status of Practitioners",
+  "status": "active",
+  "date": "2023-10-18T11:59:31.000Z",
+  "publisher": "HL7 New Zealand",
+  "contact": [
+    {
+      "name": "HL7 New Zealand",
+      "telecom": [
+        {
+          "system": "email"
+        }
+      ]
+    }
+  ],
+  "description": "The code list represents the current practicing status of the Provider Person as per their registration with an RA.",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166",
+          "code": "NZ"
+        }
+      ]
+    }
+  ],
+  "caseSensitive": true,
+  "valueSet": "https://nzhts.digital.health.nz/fhir/ValueSet/practitioner-registration-status-code",
+  "content": "complete",
+  "count": 4,
+  "concept": [
+    {
+      "code": "current",
+      "display": "A provider who holds or is deemed to hold a current practising certificate."
+    },
+    {
+      "code": "inactive",
+      "display": "A provider who is not practising"
+    },
+    {
+      "code": "removed",
+      "display": "A provider who has been removed from the register – this includes voluntary removal, de-registration and deceased"
+    },
+    {
+      "code": "suspended",
+      "display": "A provider who is suspended from practising by a Responsible Authority"
+    }
+  ]
+}

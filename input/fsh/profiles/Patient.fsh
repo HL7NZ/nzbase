@@ -114,7 +114,7 @@ Expression: "Patient.identifier.where(system='https://standards.digital.health.n
 Severity: #error
 Description: "only a single official NHI"
 
-
+/* -> move to NZHTS sourced
 ValueSet : NHIUse
 Id: nhi-use
 Title: "Valid use values for NHI"
@@ -124,10 +124,6 @@ Description:  "NHI Use codes"
 * ^version = "1.0.0"
 * http://hl7.org/fhir/identifier-use#official
 * http://hl7.org/fhir/identifier-use#old
-
-//* codes from system $nhi-use-cs
-
-/*
 
 CodeSystem:  Nhi-use
 Id: nhi-use

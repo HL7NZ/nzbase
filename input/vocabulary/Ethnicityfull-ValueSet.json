@@ -1,0 +1,45 @@
+{
+  "resourceType": "ValueSet",
+  "id": "Ethnicityfull",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2026-04-07T20:31:15.986+12:00",
+    "tag": [
+      {
+        "system": "https://standards.digital.health.nz/ns/nzhts-usage-tags",
+        "code": "FHIR"
+      }
+    ]
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Ethnicity of a person (full)</h2><tt>https://nzhts.digital.health.nz/fhir/ValueSet/nz-ethnic-group-code</tt><p>NZ ethnic group codes that cover every ethnicity level</p></div>"
+  },
+  "url": "https://nzhts.digital.health.nz/fhir/ValueSet/nz-ethnic-group-code",
+  "version": "2.1.0",
+  "name": "Ethnicityfull",
+  "title": "Ethnicity of a person (full)",
+  "status": "draft",
+  "date": "2023-11-03T00:00:00.000Z",
+  "publisher": "HISO",
+  "contact": [
+    {
+      "name": "HISO",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "Standards@health.govt.nz"
+        }
+      ]
+    }
+  ],
+  "description": "NZ ethnic group codes that cover every ethnicity level",
+  "compose": {
+    "include": [
+      {
+        "system": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
+        "version": "2.1.0"
+      }
+    ]
+  }
+}

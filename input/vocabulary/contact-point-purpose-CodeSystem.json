@@ -1,0 +1,66 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "contact-point-purpose",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2026-04-07T20:22:59.128+12:00",
+    "tag": [
+      {
+        "system": "https://standards.digital.health.nz/ns/nzhts-usage-tags",
+        "code": "FHIR"
+      }
+    ]
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>ContactPoint purpose</h2><tt>https://standards.digital.health.nz/ns/contact-point-purpose-code</tt><p>The purpose of a ContactPoint - what it is used for.</p></div>"
+  },
+  "url": "https://standards.digital.health.nz/ns/contact-point-purpose-code",
+  "version": "1.0.0",
+  "name": "ContactPointPurpose",
+  "title": "ContactPoint purpose",
+  "status": "active",
+  "date": "2023-10-25T11:59:31.000Z",
+  "publisher": "HL7 New Zealand",
+  "contact": [
+    {
+      "name": "HL7 New Zealand",
+      "telecom": [
+        {
+          "system": "email"
+        }
+      ]
+    }
+  ],
+  "description": "The purpose of a ContactPoint - what it is used for.",
+  "caseSensitive": true,
+  "valueSet": "https://nzhts.digital.health.nz/fhir/ValueSet/contact-point-purpose-code",
+  "content": "complete",
+  "count": 6,
+  "concept": [
+    {
+      "code": "rx",
+      "display": "Prescription"
+    },
+    {
+      "code": "vc",
+      "display": "Video Conference"
+    },
+    {
+      "code": "wf",
+      "display": "Web forum"
+    },
+    {
+      "code": "ob",
+      "display": "Online booking"
+    },
+    {
+      "code": "vob",
+      "display": "Vaccination online booking"
+    },
+    {
+      "code": "www",
+      "display": "Website"
+    }
+  ]
+}

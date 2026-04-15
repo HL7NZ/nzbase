@@ -1,0 +1,78 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "maoridescentcode",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2026-04-07T20:26:26.231+12:00",
+    "tag": [
+      {
+        "system": "https://standards.digital.health.nz/ns/nzhts-usage-tags",
+        "code": "FHIR"
+      }
+    ]
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Māori descent codes</h2><tt>https://standards.digital.health.nz/ns/maori-descent-code</tt><p>Stats NZ's Māori descent codes</p></div>"
+  },
+  "url": "https://standards.digital.health.nz/ns/maori-descent-code",
+  "identifier": [
+    {
+      "value": "maoridescent"
+    }
+  ],
+  "version": "1.0.0",
+  "name": "MaoriDescentCodes",
+  "title": "Māori descent codes",
+  "status": "draft",
+  "date": "2023-06-26T00:00:00.000Z",
+  "publisher": "HISO",
+  "contact": [
+    {
+      "name": "HISO",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "Standards@health.govt.nz"
+        }
+      ]
+    }
+  ],
+  "description": "Stats NZ's Māori descent codes",
+  "caseSensitive": false,
+  "valueSet": "https://nzhts.digital.health.nz/fhir/ValueSet/maori-descent",
+  "compositional": false,
+  "versionNeeded": false,
+  "content": "complete",
+  "count": 7,
+  "concept": [
+    {
+      "code": "1",
+      "display": "Māori descent"
+    },
+    {
+      "code": "2",
+      "display": "No Māori descent"
+    },
+    {
+      "code": "4",
+      "display": "Don't know"
+    },
+    {
+      "code": "7",
+      "display": "Response unidentifiable"
+    },
+    {
+      "code": "9",
+      "display": "Not stated"
+    },
+    {
+      "code": "5",
+      "display": "Refused to answer"
+    },
+    {
+      "code": "8",
+      "display": "Response outside scope"
+    }
+  ]
+}

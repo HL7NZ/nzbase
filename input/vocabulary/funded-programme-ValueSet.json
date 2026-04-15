@@ -1,0 +1,44 @@
+{
+  "resourceType": "ValueSet",
+  "id": "funded-programme",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2026-04-07T20:30:13.045+12:00",
+    "tag": [
+      {
+        "system": "https://standards.digital.health.nz/ns/nzhts-usage-tags",
+        "code": "FHIR"
+      }
+    ]
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Funded Programme</h2><tt>https://nzhts.digital.health.nz/fhir/ValueSet/funded-programme-code</tt><p>Some sort of funded programme</p></div>"
+  },
+  "url": "https://nzhts.digital.health.nz/fhir/ValueSet/funded-programme-code",
+  "version": "1.0.0",
+  "name": "FundedProgramme",
+  "title": "Funded Programme",
+  "status": "active",
+  "date": "2023-10-18T11:59:31.000Z",
+  "publisher": "HL7 New Zealand",
+  "contact": [
+    {
+      "name": "HL7 New Zealand",
+      "telecom": [
+        {
+          "system": "email"
+        }
+      ]
+    }
+  ],
+  "description": "Some sort of funded programme",
+  "compose": {
+    "include": [
+      {
+        "system": "https://standards.digital.health.nz/ns/funded-programme-code",
+        "version": "1.0.0"
+      }
+    ]
+  }
+}

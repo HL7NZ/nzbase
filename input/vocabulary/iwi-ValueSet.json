@@ -1,0 +1,43 @@
+{
+  "resourceType": "ValueSet",
+  "id": "iwi",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2026-04-07T20:22:16.739+12:00",
+    "tag": [
+      {
+        "system": "https://standards.digital.health.nz/ns/nzhts-usage-tags",
+        "code": "FHIR"
+      }
+    ]
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Iwi</h2><tt>https://nzhts.digital.health.nz/fhir/ValueSet/iwi-code</tt><p>New Zealand iwi codes</p></div>"
+  },
+  "url": "https://nzhts.digital.health.nz/fhir/ValueSet/iwi-code",
+  "version": "2.1.0",
+  "name": "Iwi",
+  "title": "Iwi",
+  "status": "active",
+  "date": "2023-10-18T11:59:31.000Z",
+  "publisher": "HL7 New Zealand",
+  "contact": [
+    {
+      "name": "HL7 New Zealand",
+      "telecom": [
+        {
+          "system": "email"
+        }
+      ]
+    }
+  ],
+  "description": "New Zealand iwi codes",
+  "compose": {
+    "include": [
+      {
+        "system": "https://standards.digital.health.nz/ns/iwi-code"
+      }
+    ]
+  }
+}

@@ -1,0 +1,277 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "practitioner-additional-authorisation",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2026-04-07T20:21:51.336+12:00",
+    "tag": [
+      {
+        "system": "https://standards.digital.health.nz/ns/nzhts-usage-tags",
+        "code": "FHIR"
+      }
+    ]
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Additional Authorisation</h2><tt>https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code</tt><p>Additional authorisations that a practitioner is authorised to practice or prescribe.</p></div>"
+  },
+  "url": "https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code",
+  "version": "1.0.1",
+  "name": "AdditionalAuthorisation",
+  "title": "Additional Authorisation",
+  "status": "active",
+  "date": "2024-09-23T12:59:31.000Z",
+  "publisher": "HL7 New Zealand",
+  "contact": [
+    {
+      "name": "HL7 New Zealand",
+      "telecom": [
+        {
+          "system": "email"
+        }
+      ]
+    }
+  ],
+  "description": "Additional authorisations that a practitioner is authorised to practice or prescribe.",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166",
+          "code": "NZ"
+        }
+      ]
+    }
+  ],
+  "caseSensitive": true,
+  "valueSet": "https://nzhts.digital.health.nz/fhir/ValueSet/practitioner-additional-authorisation-code",
+  "content": "complete",
+  "count": 45,
+  "concept": [
+    {
+      "code": "CA01",
+      "display": "Cardiothoracic Surgery: Cardiothoracic Surgeon",
+      "definition": "Alternate name."
+    },
+    {
+      "code": "CA02",
+      "display": "Cardiothoracic Surgery: Transplant Surgeon",
+      "definition": "Alternate name."
+    },
+    {
+      "code": "DI01",
+      "display": "Diagnostic Imaging authorisation",
+      "definition": "A practitioner is authorised to perform diagnostic imaging in rural settings."
+    },
+    {
+      "code": "DP01",
+      "display": "Diabetes Prescriber",
+      "definition": "A Registered Nurse Diabetes Prescriber."
+    },
+    {
+      "code": "EC01",
+      "display": "ECP authorisation",
+      "definition": "A practitioner is authorised to dispense the emergency contraceptive pill."
+    },
+    {
+      "code": "FS01",
+      "display": "First Surgical Assistant",
+      "definition": "A nurse authorised to undertake an expanded role to assist the surgeon during surgery."
+    },
+    {
+      "code": "IMMU",
+      "display": "Immunisation",
+      "definition": "A person authorised to administer immunizations."
+    },
+    {
+      "code": "INTR",
+      "display": "Intravenous Infusions",
+      "definition": "A practitioner who is certified to administer intravenous infusions."
+    },
+    {
+      "code": "MD01",
+      "display": "Internal Medicine: Cardiologist",
+      "definition": "An internal medicine specialist working in the role of cardiologist."
+    },
+    {
+      "code": "MD02",
+      "display": "Internal Medicine: Endocrinologist",
+      "definition": "An internal medicine specialist working in the role of endocrinologist."
+    },
+    {
+      "code": "MD03",
+      "display": "Internal Medicine: Gastroenterologist",
+      "definition": "An internal medicine specialist working in the role of gastroenterologist."
+    },
+    {
+      "code": "MD04",
+      "display": "Internal Medicine: Geriatrician",
+      "definition": "An internal medicine specialist working in the role of geriatrician."
+    },
+    {
+      "code": "MD05",
+      "display": "Internal Medicine: Infectious Disease Specialist",
+      "definition": "An internal medicine specialist working in the role of infectious disease specialist."
+    },
+    {
+      "code": "MD06",
+      "display": "Internal Medicine: Nephrologist",
+      "definition": "An internal medicine specialist working in the role of nephrologist."
+    },
+    {
+      "code": "MD07",
+      "display": "Internal Medicine: Neurologist",
+      "definition": "An internal medicine specialist working in the role of neurologist."
+    },
+    {
+      "code": "MD08",
+      "display": "Internal Medicine: Oncologist",
+      "definition": "An internal medicine specialist working in the role of oncologist."
+    },
+    {
+      "code": "MD09",
+      "display": "Internal Medicine: Physician for the Elderly (FRACP)",
+      "definition": "An internal medicine specialist working in the role of physician for the Elderly (FRACP = Royal Australasian College of Physicians)."
+    },
+    {
+      "code": "MD10",
+      "display": "Internal Medicine: Renal Physician",
+      "definition": "An internal medicine specialist working in the role of renal physician."
+    },
+    {
+      "code": "MD11",
+      "display": "Internal Medicine: Respiratory Specialist",
+      "definition": "An internal medicine specialist working in the role of respiratory specialist."
+    },
+    {
+      "code": "MD12",
+      "display": "Internal Medicine: Rheumatologist",
+      "definition": "An internal medicine specialist working in the role of rheumatologist."
+    },
+    {
+      "code": "NC01",
+      "display": "Prescribing authorisation",
+      "definition": "A nurse practitioner is authorised to prescribe."
+    },
+    {
+      "code": "NC02",
+      "display": "Nurse Colposcopist",
+      "definition": "A nurse authorised to undertake colposcopy procedures."
+    },
+    {
+      "code": "NC03",
+      "display": "A nurse authorised to prescribe with primary health and speciality teams",
+      "definition": "A nurse authorised to prescribe with primary health and speciality teams."
+    },
+    {
+      "code": "NC04",
+      "display": "A nurse authorised to prescribe in community health",
+      "definition": "A nurse authorised to prescribe in community health."
+    },
+    {
+      "code": "OG01",
+      "display": "Obstetrics and Gynaecology: Gynaecologist",
+      "definition": "Alternate name."
+    },
+    {
+      "code": "OG02",
+      "display": "Obstetrics and Gynaecology: Obstetrician",
+      "definition": "Alternate name."
+    },
+    {
+      "code": "ON01",
+      "display": "Radiation Oncology: Oncologist",
+      "definition": "Alternate name."
+    },
+    {
+      "code": "ON02",
+      "display": "Radiation Oncology: Radiation Oncologist",
+      "definition": "Alternate name."
+    },
+    {
+      "code": "OP01",
+      "display": "Optometrists",
+      "definition": "Optometrists."
+    },
+    {
+      "code": "PA01",
+      "display": "Paediatrics: Cardiologist",
+      "definition": "A paediatrician working in the role of cardiologist."
+    },
+    {
+      "code": "PA02",
+      "display": "Paediatrics: Endocrinologist",
+      "definition": "A paediatrician working in the role of endocrinologist."
+    },
+    {
+      "code": "PA03",
+      "display": "Paediatrics: Gastroenterologist",
+      "definition": "A paediatrician working in the role of gastroenterologist."
+    },
+    {
+      "code": "PA04",
+      "display": "Paediatrics: Geriatrician",
+      "definition": "A paediatrician working in the role of geriatrician."
+    },
+    {
+      "code": "PA05",
+      "display": "Paediatrics: Infectious Disease Specialist",
+      "definition": "A paediatrician working in the role of infectious disease specialist."
+    },
+    {
+      "code": "PA06",
+      "display": "Paediatrics: Nephrologist",
+      "definition": "A paediatrician working in the role of nephrologist."
+    },
+    {
+      "code": "PA07",
+      "display": "Paediatrics: Neurologist",
+      "definition": "A paediatrician working in the role of neurologist."
+    },
+    {
+      "code": "PA08",
+      "display": "Paediatrics: Oncologist",
+      "definition": "A paediatrician working in the role of oncologist."
+    },
+    {
+      "code": "PA09",
+      "display": "Paediatrics: Physician for the Elderly (FRACP)",
+      "definition": "A paediatrician working in the role of of physician for the elderly (FRACP = Royal Australasian College of Physicians)."
+    },
+    {
+      "code": "PA10",
+      "display": "Paediatrics: Renal Physician",
+      "definition": "A paediatrician working in the role of renal physician."
+    },
+    {
+      "code": "PA11",
+      "display": "Paediatrics: Respiratory Specialist",
+      "definition": "A paediatrician working in the role of respiratory specialist."
+    },
+    {
+      "code": "PA12",
+      "display": "Paediatrics: Rheumatologist",
+      "definition": "A paediatrician working in the role of rheumatologist."
+    },
+    {
+      "code": "PS01",
+      "display": "Psychiatry: Psychiatrist",
+      "definition": "Alternate name."
+    },
+    {
+      "code": "PS02",
+      "display": "Psychiatry: Psychological Medicine Specialist",
+      "definition": "Alternate name."
+    },
+    {
+      "code": "SMEA",
+      "display": "Smear Taker",
+      "definition": "A person authorised by the Cervical Screening Programme to participate in smear taking and on the register."
+    },
+    {
+      "code": "NC05",
+      "display": "May supply Hepatitis C Medication",
+      "definition": "A nurse authorised to supply Hepatitis C medication"
+    }
+  ]
+}

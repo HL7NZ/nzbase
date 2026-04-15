@@ -1,0 +1,44 @@
+{
+  "resourceType": "ValueSet",
+  "id": "coverage-type-code",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2026-04-07T20:23:04.672+12:00",
+    "tag": [
+      {
+        "system": "https://standards.digital.health.nz/ns/nzhts-usage-tags",
+        "code": "FHIR"
+      }
+    ]
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Coverage Type</h2><tt>https://nzhts.digital.health.nz/fhir/ValueSet/coverage-type-code</tt><p>New Zealand codes for Coverage Types</p></div>"
+  },
+  "url": "https://nzhts.digital.health.nz/fhir/ValueSet/coverage-type-code",
+  "version": "1.1.0",
+  "name": "CoverageType",
+  "title": "Coverage Type",
+  "status": "active",
+  "date": "2024-09-11T10:15:31.000Z",
+  "publisher": "HL7 New Zealand",
+  "contact": [
+    {
+      "name": "HL7 New Zealand",
+      "telecom": [
+        {
+          "system": "email"
+        }
+      ]
+    }
+  ],
+  "description": "New Zealand codes for Coverage Types",
+  "compose": {
+    "include": [
+      {
+        "system": "https://standards.digital.health.nz/ns/coverage-type-code",
+        "version": "1.1.0"
+      }
+    ]
+  }
+}

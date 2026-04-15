@@ -1,0 +1,54 @@
+{
+  "resourceType": "ValueSet",
+  "id": "hpi-practitionerrole-status-reason",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2026-04-07T20:22:46.250+12:00",
+    "tag": [
+      {
+        "system": "https://standards.digital.health.nz/ns/nzhts-usage-tags",
+        "code": "FHIR"
+      }
+    ]
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>PractitionerRole status reason</h2><tt>https://nzhts.digital.health.nz/fhir/ValueSet/hpi-practitioner-role-status-reason-code</tt><p>The reason for the current status of PractitionerRole</p></div>"
+  },
+  "url": "https://nzhts.digital.health.nz/fhir/ValueSet/hpi-practitioner-role-status-reason-code",
+  "version": "1.0.0",
+  "name": "PractitionerRoleStatusReason",
+  "title": "PractitionerRole status reason",
+  "status": "active",
+  "date": "2023-10-18T11:59:31.000Z",
+  "publisher": "HL7 New Zealand",
+  "contact": [
+    {
+      "name": "HL7 New Zealand",
+      "telecom": [
+        {
+          "system": "email"
+        }
+      ]
+    }
+  ],
+  "description": "The reason for the current status of PractitionerRole",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166",
+          "code": "NZ"
+        }
+      ]
+    }
+  ],
+  "compose": {
+    "include": [
+      {
+        "system": "https://standards.digital.health.nz/ns/hpi-practitioner-role-status-reason-code",
+        "version": "1.0.0"
+      }
+    ]
+  }
+}

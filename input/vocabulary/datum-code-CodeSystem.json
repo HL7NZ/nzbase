@@ -1,0 +1,52 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "datum-code",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2026-04-07T20:39:26.407+12:00",
+    "tag": [
+      {
+        "system": "https://standards.digital.health.nz/ns/nzhts-usage-tags",
+        "code": "FHIR"
+      }
+    ]
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Datum codes</h2><tt>https://standards.digital.health.nz/ns/nz-datum-code</tt><p>Possible datum codes</p></div>"
+  },
+  "url": "https://standards.digital.health.nz/ns/nz-datum-code",
+  "version": "1.0.0",
+  "name": "DatumCode",
+  "title": "Datum codes",
+  "status": "active",
+  "date": "2023-08-22T12:59:31.000Z",
+  "publisher": "HL7 New Zealand",
+  "contact": [
+    {
+      "name": "HL7 New Zealand",
+      "telecom": [
+        {
+          "system": "email"
+        }
+      ]
+    }
+  ],
+  "description": "Possible datum codes",
+  "caseSensitive": true,
+  "valueSet": "https://nzhts.digital.health.nz/fhir/ValueSet/nz-datum-code",
+  "content": "complete",
+  "count": 2,
+  "concept": [
+    {
+      "code": "WGS84",
+      "display": "WGS84",
+      "definition": "global datum, used by google maps"
+    },
+    {
+      "code": "NZGD2000",
+      "display": "NZGD2000",
+      "definition": "Nz official datum, used by MoH address service"
+    }
+  ]
+}

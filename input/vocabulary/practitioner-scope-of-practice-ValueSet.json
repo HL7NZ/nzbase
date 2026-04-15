@@ -1,0 +1,54 @@
+{
+  "resourceType": "ValueSet",
+  "id": "practitioner-scope-of-practice",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2026-04-07T20:21:30.408+12:00",
+    "tag": [
+      {
+        "system": "https://standards.digital.health.nz/ns/nzhts-usage-tags",
+        "code": "FHIR"
+      }
+    ]
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Scope of practice</h2><tt>https://nzhts.digital.health.nz/fhir/ValueSet/practitioner-scope-of-practice-code</tt><p>A coded type for professional scope of practice.</p></div>"
+  },
+  "url": "https://nzhts.digital.health.nz/fhir/ValueSet/practitioner-scope-of-practice-code",
+  "version": "2.1.0",
+  "name": "PractitionerScopeOfPractice",
+  "title": "Scope of practice",
+  "status": "active",
+  "date": "2023-11-22T11:59:31.000Z",
+  "publisher": "HISO",
+  "contact": [
+    {
+      "name": "HISO",
+      "telecom": [
+        {
+          "system": "email"
+        }
+      ]
+    }
+  ],
+  "description": "A coded type for professional scope of practice.",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166",
+          "code": "NZ"
+        }
+      ]
+    }
+  ],
+  "compose": {
+    "include": [
+      {
+        "system": "https://standards.digital.health.nz/ns/practitioner-scope-of-practice-code",
+        "version": "2.1.0"
+      }
+    ]
+  }
+}
