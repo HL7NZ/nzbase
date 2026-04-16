@@ -8,7 +8,7 @@ NZ Base masters terminology in NZHTS. All authoring/updates to terminology shoul
 node scripts/fetch-nzhts-resources.js
 ```
 
-The script searches NZHTS for resources tagged with `FHIR`, downloads each `ValueSet`, `CodeSystem`, and `ConceptMap`, and reports a summary of what changed — including files added, removed, or updated — compared to the previous run.
+The script searches NZHTS for resources tagged with `FHIR`, downloads each `ValueSet`, `CodeSystem`, and `ConceptMap` etc., and lists a summary of what changed compared to the previous run.
 
 ### Options
 
