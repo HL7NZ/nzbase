@@ -54,3 +54,14 @@ Open the menu-driven helper (additional build options):
 ```bash
 ./_build.sh
 ```
+
+### Terminology from NZHTS
+
+NZ Base masters terminology in NZHTS. All authoring/updates to terminology should be performed there. 
+
+Before building the IG, run  `scripts/fetch-nzhts-resources.js` to pull down the current terminology from NZHTS into `input/vocabulary`. Any terminology changes made in NZHTS since the last run will be reflected in the build.
+
+```bash
+node scripts/fetch-nzhts-resources.js
+```
+
