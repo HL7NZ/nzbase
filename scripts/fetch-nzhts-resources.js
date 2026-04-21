@@ -75,7 +75,7 @@ function parseArgs(argv) {
 }
 
 function printHelp() {
-  console.log('Fetch NZHTS-tagged FHIR resources into input/vocabulary');
+  console.log('Fetch tagged FHIR resources into input/vocabulary');
   console.log('');
   console.log('Usage:');
   console.log('  node scripts/fetch-nzhts-resources.js [options]');
