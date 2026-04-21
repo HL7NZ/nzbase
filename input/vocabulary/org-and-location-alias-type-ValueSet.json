@@ -3,11 +3,11 @@
   "id": "org-and-location-alias-type",
   "meta": {
     "versionId": "1",
-    "lastUpdated": "2026-04-07T20:21:46.676+12:00",
+    "lastUpdated": "2026-04-21T17:55:02.630+12:00",
     "tag": [
       {
         "system": "https://standards.digital.health.nz/ns/nzhts-usage-tags",
-        "code": "FHIR"
+        "code": "NZBase"
       }
     ]
   },

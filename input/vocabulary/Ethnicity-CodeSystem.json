@@ -2,8 +2,8 @@
   "resourceType": "CodeSystem",
   "id": "Ethnicity",
   "meta": {
-    "versionId": "5",
-    "lastUpdated": "2024-06-13T10:06:20.516+12:00",
+    "versionId": "1",
+    "lastUpdated": "2026-04-21T17:59:44.862+12:00",
     "tag": [
       {
         "system": "https://standards.digital.health.nz/ns/nzhts-usage-tags",
@@ -27,6 +27,7 @@
   "valueSet": "https://nzhts.digital.health.nz/fhir/ValueSet/nz-ethnic-group-code",
   "versionNeeded": false,
   "content": "complete",
+  "count": 263,
   "concept": [
     {
       "code": "Ethnicity",
@@ -14880,6 +14881,5 @@
         }
       ]
     }
-  ],
-  "count": 263
+  ]
 }

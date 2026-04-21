@@ -3,11 +3,11 @@
   "id": "hpi-practitionerrole-status-reason",
   "meta": {
     "versionId": "1",
-    "lastUpdated": "2026-04-07T20:22:46.250+12:00",
+    "lastUpdated": "2026-04-21T17:54:04.439+12:00",
     "tag": [
       {
         "system": "https://standards.digital.health.nz/ns/nzhts-usage-tags",
-        "code": "FHIR"
+        "code": "NZBase"
       }
     ]
   },

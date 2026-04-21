@@ -10,7 +10,7 @@ const TEMP_DIR = 'temp/terminology';
 const DEFAULTS = {
   baseUrl: 'https://nzhts.digital.health.nz/fhir',
   tagSystem: 'https://standards.digital.health.nz/ns/nzhts-usage-tags',
-  tagCode: 'FHIR',
+  tagCode: 'NZBase',
   outDir: 'input/vocabulary',
   count: 200,
   resourceTypes: ['ValueSet', 'CodeSystem', 'ConceptMap'],
@@ -546,5 +546,8 @@ async function main() {
 
 main().catch((err) => {
   console.error(err.message || err);
+  if (err.cause) {
+    console.error('Caused by:', err.cause);
+  }
   process.exit(1);
 });

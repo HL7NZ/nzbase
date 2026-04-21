@@ -2,43 +2,42 @@
   "resourceType": "ValueSet",
   "id": "acc-patient-occupation",
   "meta": {
+    "versionId": "1",
+    "lastUpdated": "2026-04-21T17:55:05.631+12:00",
     "tag": [
       {
-        "code": "NZBase",
-        "system": "https://standards.digital.health.nz/ns/nzhts-usage-tags"
+        "system": "https://standards.digital.health.nz/ns/nzhts-usage-tags",
+        "code": "NZBase"
       }
-    ],
-    "versionId": "1",
-    "lastUpdated": "2026-04-15T22:19:30.266+12:00"
+    ]
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>ACC Patient Occupation</h2><tt>https://nzhts.digital.health.nz/fhir/ValueSet/acc-patient-occupation-code</tt><p>ValueSet of codes for classifying patient occupations, drawn from the ACC codeset</p></div>"
   },
   "url": "https://nzhts.digital.health.nz/fhir/ValueSet/acc-patient-occupation-code",
   "version": "1.0.0",
+  "name": "AccPatientOccupationValueSet",
   "title": "ACC Patient Occupation",
   "status": "active",
+  "publisher": "HL7 New Zealand",
   "contact": [
     {
+      "name": "HL7 New Zealand",
       "telecom": [
         {
           "system": "email",
           "value": "admin@hl7.org.nz"
         }
-      ],
-      "name": "HL7 New Zealand"
+      ]
     }
   ],
+  "description": "ValueSet of codes for classifying patient occupations, drawn from the ACC codeset",
   "compose": {
     "include": [
       {
         "system": "https://standards.digital.health.nz/ns/acc-patient-occupation-code"
       }
     ]
-  },
-  "description": "ValueSet of codes for classifying patient occupations, drawn from the ACC codeset",
-  "text": {
-    "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>ACC Patient Occupation</h2><tt>https://nzhts.digital.health.nz/fhir/ValueSet/acc-patient-occupation-code</tt><p>ValueSet of codes for classifying patient occupations, drawn from the ACC codeset</p></div>"
-  },
-  "name": "AccPatientOccupationValueSet",
-  "id": "acc-patient-occupation",
-  "publisher": "HL7 New Zealand"
+  }
 }

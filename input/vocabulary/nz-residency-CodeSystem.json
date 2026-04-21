@@ -3,11 +3,11 @@
   "id": "nz-residency",
   "meta": {
     "versionId": "1",
-    "lastUpdated": "2026-04-07T20:22:38.563+12:00",
+    "lastUpdated": "2026-04-21T18:00:39.477+12:00",
     "tag": [
       {
         "system": "https://standards.digital.health.nz/ns/nzhts-usage-tags",
-        "code": "FHIR"
+        "code": "NZBase"
       }
     ]
   },

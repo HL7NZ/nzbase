@@ -3,11 +3,11 @@
   "id": "practitioner-scope-of-practice",
   "meta": {
     "versionId": "1",
-    "lastUpdated": "2026-04-07T20:21:30.408+12:00",
+    "lastUpdated": "2026-04-21T17:59:11.586+12:00",
     "tag": [
       {
         "system": "https://standards.digital.health.nz/ns/nzhts-usage-tags",
-        "code": "FHIR"
+        "code": "NZBase"
       }
     ]
   },

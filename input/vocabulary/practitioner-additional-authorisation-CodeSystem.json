@@ -3,11 +3,11 @@
   "id": "practitioner-additional-authorisation",
   "meta": {
     "versionId": "1",
-    "lastUpdated": "2026-04-07T20:21:51.336+12:00",
+    "lastUpdated": "2026-04-21T17:59:29.571+12:00",
     "tag": [
       {
         "system": "https://standards.digital.health.nz/ns/nzhts-usage-tags",
-        "code": "FHIR"
+        "code": "NZBase"
       }
     ]
   },

@@ -3,11 +3,11 @@
   "id": "coverage-category",
   "meta": {
     "versionId": "1",
-    "lastUpdated": "2026-04-07T20:31:19.737+12:00",
+    "lastUpdated": "2026-04-21T18:05:56.150+12:00",
     "tag": [
       {
         "system": "https://standards.digital.health.nz/ns/nzhts-usage-tags",
-        "code": "FHIR"
+        "code": "NZBase"
       }
     ]
   },

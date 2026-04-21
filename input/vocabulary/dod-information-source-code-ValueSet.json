@@ -3,11 +3,11 @@
   "id": "dod-information-source-code",
   "meta": {
     "versionId": "1",
-    "lastUpdated": "2026-04-07T20:22:49.084+12:00",
+    "lastUpdated": "2026-04-21T17:59:44.713+12:00",
     "tag": [
       {
         "system": "https://standards.digital.health.nz/ns/nzhts-usage-tags",
-        "code": "FHIR"
+        "code": "NZBase"
       }
     ]
   },

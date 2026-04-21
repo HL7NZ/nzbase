@@ -3,11 +3,11 @@
   "id": "ethnicityL4",
   "meta": {
     "versionId": "1",
-    "lastUpdated": "2026-04-07T20:30:41.361+12:00",
+    "lastUpdated": "2026-04-21T18:05:45.406+12:00",
     "tag": [
       {
         "system": "https://standards.digital.health.nz/ns/nzhts-usage-tags",
-        "code": "FHIR"
+        "code": "NZBase"
       }
     ]
   },
