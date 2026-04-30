@@ -9,3 +9,7 @@
 # * If that file exists, SUSHI will use it instead of generating this one.                                                       *
 # * See: https://confluence.hl7.org/pages/viewpage.action?pageId=66938614#ImplementationGuideParameters-ManagingWarningsandHints *
 # ********************************************************************************************************************************
+
+
+# testing ignoreWarnings
+No definition could be found for URL value 'https://standards.digital.health.nz/ns/csc-id'

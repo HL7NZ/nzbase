@@ -27,8 +27,8 @@ Description: "The official source of information held about a patient."
 //* ^context[=].expression = "Patient.deceasedDateTime"
 
 * ^context[+].type = #element
-* ^context[=].expression = "Patient.deceased.ofType(dateTime)"
-
+* ^context[=].expression = "Patient.deceased"
+//* ^context[=].expression = "Patient.deceased.ofType(dateTime)"
 
 * value[x] only CodeableConcept
 * valueCodeableConcept 0..1

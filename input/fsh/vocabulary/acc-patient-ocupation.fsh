@@ -5,7 +5,13 @@ Id: acc-patient-occupation-valueset
 Title: "ACC Patient Occupation"
 Description: "ValueSet of codes for classifying patient occupations, drawn from the ACC codeset"
 * ^url = $acc-occupation-code-vs
-* codes from system $acc-occupation-code-cs
+
+//* codes from system $acc-occupation-code-cs
+* codes from system https://standards.digital.health.nz/ns/acc-patient-occupation-code
+
+
+
+
 * ^version = "1.0.0"
 
 // ACC Patient Occupation CodeSystem
@@ -14,7 +20,8 @@ CodeSystem: AccPatientOccupationCodeSystem
 Id: acc-patient-occupation-codesystem
 Title: "ACC Patient Occupation CodeSystem"
 Description: "Codes for classifying patient occupations, drawn from the ACC codeset"
-* ^url = $acc-occupation-code-cs
+//* ^url = $acc-occupation-code-cs
+* ^url = "https://standards.digital.health.nz/ns/acc-patient-occupation-code"
 * ^version = "1.0.0"
 * ^status = #active
 * ^publisher = "ACC"
