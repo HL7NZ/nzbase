@@ -112,5 +112,7 @@ Alias: $atc-code = https://nzhts.digital.health.nz/fhir/ValueSet/atc-code
 Alias: $nzmt-type = https://nzhts.digital.health.nz/fhir/ValueSet/nzmt-type
 Alias: $nzf-atc = http://hl7.org.nz/fhir/StructureDefinition/nzf-atc
 Alias: $nzf-nzmt-type = http://hl7.org.nz/fhir/StructureDefinition/nzf-nzmt-type
+
+//These are for deprecated artifacts ? could remove. 
 Alias: $nzf-prescribe-by-brand = http://hl7.org.nz/fhir/StructureDefinition/nzf-prescribe-by-brand
 Alias: $nzf-related-medication = http://hl7.org.nz/fhir/StructureDefinition/nzf-related-medication

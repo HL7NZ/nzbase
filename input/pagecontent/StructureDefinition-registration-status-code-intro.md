@@ -11,7 +11,7 @@
                     value="https://standards.digital.health.nz/ns/practitioner-registration-status-code"/>
             <code value="current"/>
             <display
-                     value="A provider who holds or is deemed to hold a current practising certificate."/>
+                     value="Current"/>
           </coding>
         </valueCodeableConcept>
       </extension>

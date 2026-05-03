@@ -8,6 +8,9 @@ Description: "Educational qualifications a practitioner has. These may or may no
 * ^context[0].type = #element
 * ^context[0].expression = "Practitioner"
 
+* ^context[1].type = #element
+* ^context[1].expression = "Practitioner.qualification"
+
 //* ^context.type = #element
 //* ^context.expression = "Practitioner"
 
