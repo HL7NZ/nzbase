@@ -1,8 +1,8 @@
 #!/usr/bin/env node
 
-const fs = require('fs/promises');
-const path = require('path');
-const https = require('https');
+const fs = require('node:fs/promises');
+const path = require('node:path');
+const https = require('node:https');
 
 const TEMP_DIR = 'temp/terminology';
 
