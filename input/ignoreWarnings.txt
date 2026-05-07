@@ -9,3 +9,42 @@
 # * If that file exists, SUSHI will use it instead of generating this one.                                                       *
 # * See: https://confluence.hl7.org/pages/viewpage.action?pageId=66938614#ImplementationGuideParameters-ManagingWarningsandHints *
 # ********************************************************************************************************************************
+
+
+# testing ignoreWarnings
+No definition could be found for URL value 'https://standards.digital.health.nz/ns/csc-id'
+
+# These are externally defined ValueSets
+A definition could not be found for Canonical URL 'https://nzhts.digital.health.nz/fhir/ValueSet/nzmt-type'
+A definition could not be found for Canonical URL 'http://nzmt.org.nz/vs'
+The valueSet reference http://nzmt.org.nz/vs on element Medication.code could not be resolved
+The valueSet reference https://nzhts.digital.health.nz/fhir/ValueSet/atc-code on element Extension.value[x] could not be resolved
+The valueSet reference https://nzhts.digital.health.nz/fhir/ValueSet/nzmt-type on element Extension.value[x] could not be resolved
+The valueSet reference http://nzmt.org.nz/vs on element MedicationDispense.medication[x] could not be resolved
+The valueSet reference http://nzmt.org.nz/vs on element MedicationRequest.medication[x] could not be resolved
+The valueSet reference http://nzmt.org.nz/vs on element MedicationStatement.medication[x] could not be resolved
+A definition could not be found for Canonical URL 'https://nzhts.digital.health.nz/fhir/ValueSet/atc-code'
+
+
+# Acknowledge this is draft
+Reference to draft CodeSystem https://standards.digital.health.nz/ns/dhb-code|1.0.0
+
+# Acknowledge there are missing examples
+The Implementation Guide contains no examples for this extension
+The Implementation Guide contains no examples for this data type profile	
+The Implementation Guide contains no examples for this profile
+
+# This is correct
+This element does not match any known slice defined in the profile http://hl7.org.nz/fhir/StructureDefinition/NzPatient|1.0.0 (this may not be a problem, but you should check that it's not intended to match a slice)
+
+# Large code CodeSystem
+The value set expansion is too large, and only a subset has been displayed
+
+# Use of HTML noted
+The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk
+
+# Regex deprecated. Unclear where this is coming form, but safe to ignore
+The extension http://hl7.org/fhir/StructureDefinition/regex|5.2.0 is deprecated with the note: 'This was deprecated in favor of using a constraint on the element using FHIRPath, since constraints allow for the provision of a human readable message associated with the regex'
+
+# Deprecated extension - unclear where it's coming from but safe to ignore
+The extension http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet|5.2.0 is deprecated

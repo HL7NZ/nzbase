@@ -47,7 +47,7 @@ Description:    "The base New Zealand Patient profile"
     $accPatientOccupation named acc-patient-occupation 0..1 and
     $messagingAddress named messaging-address 0..* and
     $nzResidency named nz-residency 0..1 and
-    http://hl7.org/fhir/StructureDefinition/patient-interpreterRequired named interpreter-required 0..1
+    http://hl7.org/fhir/StructureDefinition/patient-interpreterRequired|4.0.1 named interpreter-required 0..1
 
 * deceasedDateTime.extension contains
     $information-source named information-source 0..1

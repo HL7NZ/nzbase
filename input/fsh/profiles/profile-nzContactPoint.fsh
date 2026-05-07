@@ -1,3 +1,4 @@
+//Note that Contactpoint is slightly inconsistent with the DT name. A mistake too late to change now. Also note that the profile is called NzContactpoint, not NzContactPoint, to be consistent with the DT name. Again, a mistake too late to change now.
 
 Profile:        NzContactPoint
 Parent:         ContactPoint
