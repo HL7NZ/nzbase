@@ -103,4 +103,5 @@ parameters:
     - https://nzhts.digital.health.nz/fhir/ValueSet/contact-point-purpose-code
     - https://nzhts.digital.health.nz/fhir/ValueSet/nz-ethnic-group-code
     - https://nzhts.digital.health.nz/fhir/ValueSet/practitioner-scope-of-practice-code
+    - http://hl7.org.nz/fhir/StructureDefinition/NzContactpoint
  
