@@ -2,8 +2,8 @@
   "resourceType": "ValueSet",
   "id": "nz-citizenship-status-code",
   "meta": {
-    "versionId": "1",
-    "lastUpdated": "2026-05-06T01:31:37.702+12:00",
+    "versionId": "4",
+    "lastUpdated": "2026-05-07T20:42:45.964+12:00",
     "tag": [
       {
         "system": "https://standards.digital.health.nz/ns/nzhts-usage-tags",
@@ -20,6 +20,7 @@
   "name": "CitizenshipStatus",
   "title": "NZ Citizenship status",
   "status": "active",
+  "experimental": false,
   "date": "2023-10-18T11:59:31.000Z",
   "publisher": "HL7 New Zealand",
   "contact": [

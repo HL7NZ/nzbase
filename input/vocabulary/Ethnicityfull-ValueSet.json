@@ -2,8 +2,8 @@
   "resourceType": "ValueSet",
   "id": "Ethnicityfull",
   "meta": {
-    "versionId": "1",
-    "lastUpdated": "2026-05-06T01:34:20.403+12:00",
+    "versionId": "6",
+    "lastUpdated": "2026-05-07T20:40:48.178+12:00",
     "tag": [
       {
         "system": "https://standards.digital.health.nz/ns/nzhts-usage-tags",
@@ -19,7 +19,8 @@
   "version": "2.1.0",
   "name": "Ethnicityfull",
   "title": "Ethnicity of a person (full)",
-  "status": "draft",
+  "status": "active",
+  "experimental": false,
   "date": "2023-11-03T00:00:00.000Z",
   "publisher": "HISO",
   "contact": [

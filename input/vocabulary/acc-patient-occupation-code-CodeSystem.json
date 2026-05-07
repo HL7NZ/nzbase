@@ -2,8 +2,8 @@
   "resourceType": "CodeSystem",
   "id": "acc-patient-occupation-code",
   "meta": {
-    "versionId": "1",
-    "lastUpdated": "2026-05-06T01:29:37.692+12:00",
+    "versionId": "3",
+    "lastUpdated": "2026-05-07T19:12:16.066+12:00",
     "tag": [
       {
         "system": "https://standards.digital.health.nz/ns/nzhts-usage-tags",
@@ -20,6 +20,7 @@
   "name": "AccPatientOccupationCodeSystem",
   "title": "ACC Patient Occupation CodeSystem",
   "status": "active",
+  "experimental": false,
   "date": "2025-09-12T01:57:04+00:00",
   "publisher": "HL7 New Zealand",
   "contact": [
@@ -34,7 +35,7 @@
     }
   ],
   "description": "Codes for classifying patient occupations, drawn from the ACC codeset",
-  "caseSensitive": false,
+  "caseSensitive": true,
   "valueSet": "https://nzhts.digital.health.nz/fhir/ValueSet/acc-patient-occupation-code",
   "content": "complete",
   "count": 6909,

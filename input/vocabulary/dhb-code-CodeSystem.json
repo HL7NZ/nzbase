@@ -2,8 +2,8 @@
   "resourceType": "CodeSystem",
   "id": "dhb-code",
   "meta": {
-    "versionId": "1",
-    "lastUpdated": "2026-05-06T01:40:43.441+12:00",
+    "versionId": "8",
+    "lastUpdated": "2026-05-07T20:15:43.802+12:00",
     "tag": [
       {
         "system": "https://standards.digital.health.nz/ns/nzhts-usage-tags",
@@ -19,7 +19,7 @@
   "version": "1.0.0",
   "name": "Dhb_code",
   "title": "NZ DHB",
-  "status": "draft",
+  "status": "active",
   "experimental": false,
   "date": "2023-10-25T23:00:00.000Z",
   "publisher": "HL7 New Zealand",

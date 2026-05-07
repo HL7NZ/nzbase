@@ -2,8 +2,8 @@
   "resourceType": "CodeSystem",
   "id": "maoridescentcode",
   "meta": {
-    "versionId": "1",
-    "lastUpdated": "2026-05-06T01:35:29.397+12:00",
+    "versionId": "11",
+    "lastUpdated": "2026-05-07T19:33:50.546+12:00",
     "tag": [
       {
         "system": "https://standards.digital.health.nz/ns/nzhts-usage-tags",
@@ -24,7 +24,8 @@
   "version": "1.0.0",
   "name": "MaoriDescentCodes",
   "title": "Māori descent codes",
-  "status": "draft",
+  "status": "active",
+  "experimental": false,
   "date": "2023-06-26T00:00:00.000Z",
   "publisher": "HISO",
   "contact": [
@@ -39,7 +40,7 @@
     }
   ],
   "description": "Codes for classifying Māori descent. Defined by Stats NZ - Māori descent v1.0.0",
-  "caseSensitive": false,
+  "caseSensitive": true,
   "valueSet": "https://nzhts.digital.health.nz/fhir/ValueSet/maori-descent",
   "compositional": false,
   "versionNeeded": false,

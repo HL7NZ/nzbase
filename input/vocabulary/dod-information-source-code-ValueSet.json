@@ -2,8 +2,8 @@
   "resourceType": "ValueSet",
   "id": "dod-information-source-code",
   "meta": {
-    "versionId": "1",
-    "lastUpdated": "2026-05-06T01:34:51.330+12:00",
+    "versionId": "11",
+    "lastUpdated": "2026-05-07T20:40:16.086+12:00",
     "tag": [
       {
         "system": "https://standards.digital.health.nz/ns/nzhts-usage-tags",
@@ -20,6 +20,7 @@
   "name": "DodInformationSource",
   "title": "Death date Information Source",
   "status": "active",
+  "experimental": false,
   "date": "2025-11-04T11:59:31.000Z",
   "publisher": "HL7 New Zealand",
   "contact": [

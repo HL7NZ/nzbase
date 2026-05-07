@@ -2,8 +2,8 @@
   "resourceType": "CodeSystem",
   "id": "Ethnicity",
   "meta": {
-    "versionId": "1",
-    "lastUpdated": "2026-05-06T01:34:51.882+12:00",
+    "versionId": "8",
+    "lastUpdated": "2026-05-07T19:33:03.977+12:00",
     "tag": [
       {
         "system": "https://standards.digital.health.nz/ns/nzhts-usage-tags",
@@ -23,7 +23,7 @@
   "experimental": false,
   "publisher": "HISO",
   "description": "Ethnicity New Zealand Standard Classification 2005. Ethnicity is the ethnic group or groups that people identify with or feel they belong to.",
-  "caseSensitive": false,
+  "caseSensitive": true,
   "valueSet": "https://nzhts.digital.health.nz/fhir/ValueSet/nz-ethnic-group-code",
   "versionNeeded": false,
   "content": "complete",

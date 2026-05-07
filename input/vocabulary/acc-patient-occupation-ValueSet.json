@@ -2,8 +2,8 @@
   "resourceType": "ValueSet",
   "id": "acc-patient-occupation",
   "meta": {
-    "versionId": "1",
-    "lastUpdated": "2026-05-06T01:30:37.336+12:00",
+    "versionId": "2",
+    "lastUpdated": "2026-05-07T20:38:22.180+12:00",
     "tag": [
       {
         "system": "https://standards.digital.health.nz/ns/nzhts-usage-tags",
@@ -20,6 +20,7 @@
   "name": "AccPatientOccupationValueSet",
   "title": "ACC Patient Occupation",
   "status": "active",
+  "experimental": false,
   "publisher": "HL7 New Zealand",
   "contact": [
     {

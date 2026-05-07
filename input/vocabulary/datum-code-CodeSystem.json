@@ -2,8 +2,8 @@
   "resourceType": "CodeSystem",
   "id": "datum-code",
   "meta": {
-    "versionId": "1",
-    "lastUpdated": "2026-05-06T01:43:12.953+12:00",
+    "versionId": "8",
+    "lastUpdated": "2026-05-07T20:14:53.887+12:00",
     "tag": [
       {
         "system": "https://standards.digital.health.nz/ns/nzhts-usage-tags",
@@ -20,6 +20,7 @@
   "name": "DatumCode",
   "title": "Datum codes",
   "status": "active",
+  "experimental": false,
   "date": "2023-08-22T12:59:31.000Z",
   "publisher": "HL7 New Zealand",
   "contact": [

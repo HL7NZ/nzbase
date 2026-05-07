@@ -15,7 +15,7 @@ Usage: #example
 
 * qualification[=].extension[+].url = "http://hl7.org.nz/fhir/StructureDefinition/registration-status-code"
 * qualification[=].extension[=].extension[+].url = "status"
-* qualification[=].extension[=].extension[=].valueCodeableConcept = $csRegStatus#current  "Current"
+* qualification[=].extension[=].extension[=].valueCodeableConcept = $csRegStatus#current  "A provider who holds or is deemed to hold a current practising certificate."
 
 * qualification[=].extension[=].extension[+].url = "period"
 * qualification[=].extension[=].extension[=].valuePeriod.start = "2021-01-01"

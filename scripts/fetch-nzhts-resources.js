@@ -14,6 +14,7 @@ const DEFAULTS = {
   outDir: 'input/vocabulary',
   count: 200,
   resourceTypes: ['ValueSet', 'CodeSystem', 'ConceptMap'],
+  bearerToken: process.env.TERM_SERVER_BEARER_TOKEN || '',
 };
 
 function parseArgs(argv) {
@@ -41,6 +42,11 @@ function parseArgs(argv) {
     }
     if (arg === '--out-dir' && next) {
       options.outDir = next;
+      i += 1;
+      continue;
+    }
+    if (arg === '--bearer-token' && next) {
+      options.bearerToken = next;
       i += 1;
       continue;
     }
@@ -85,9 +91,13 @@ function printHelp() {
   console.log('  --tag-system <system>  Tag system URL');
   console.log('  --tag-code <code>      Tag code');
   console.log('  --out-dir <path>       Output directory');
+  console.log('  --bearer-token <token> Bearer token for secured FHIR endpoints');
   console.log('  --count <number>       Search page size (default 200)');
   console.log('  --resource-types <csv> Resource types to search (default ValueSet,CodeSystem,ConceptMap)');
   console.log('  --help                 Show this help');
+  console.log('');
+  console.log('Environment:');
+  console.log('  TERM_SERVER_BEARER_TOKEN  Used if --bearer-token is not supplied');
 }
 
 function toAbsoluteUrl(baseUrl, maybeRelativeUrl) {
@@ -167,10 +177,21 @@ function normalizeJson(raw) {
   }
 }
 
-function httpGetJson(url) {
+function buildHeaders(options) {
+  const headers = { Accept: 'application/fhir+json, application/json' };
+  const token = options.bearerToken ? String(options.bearerToken).trim() : '';
+  if (token) {
+    headers.Authorization = token.toLowerCase().startsWith('bearer ')
+      ? token
+      : `Bearer ${token}`;
+  }
+  return headers;
+}
+
+function httpGetJson(url, options) {
   // Fallback HTTP client for Node environments (v16 or earlier) without global fetch.
   return new Promise((resolve, reject) => {
-    const req = https.get(url, { headers: { Accept: 'application/fhir+json, application/json' } }, (res) => {
+    const req = https.get(url, { headers: buildHeaders(options) }, (res) => {
       const chunks = [];
       res.on('data', (chunk) => chunks.push(chunk));
       res.on('end', () => {
@@ -192,11 +213,11 @@ function httpGetJson(url) {
   });
 }
 
-async function fetchJson(url) {
+async function fetchJson(url, options) {
   // Prefer global fetch when available; otherwise use the HTTPS fallback above.
   if (typeof fetch === 'function') {
     const response = await fetch(url, {
-      headers: { Accept: 'application/fhir+json, application/json' },
+      headers: buildHeaders(options),
     });
     const text = await response.text();
 
@@ -207,7 +228,7 @@ async function fetchJson(url) {
     return JSON.parse(text);
   }
 
-  return httpGetJson(url);
+  return httpGetJson(url, options);
 }
 
 async function fetchSearchEntriesForType(options, resourceType) {
@@ -228,7 +249,7 @@ async function fetchSearchEntriesForType(options, resourceType) {
     page += 1;
     console.log(`Fetching ${resourceType} search page ${page}: ${nextUrl}`);
 
-    const bundle = await fetchJson(nextUrl);
+    const bundle = await fetchJson(nextUrl, options);
     if (bundle.resourceType !== 'Bundle') {
       throw new Error(`Expected Bundle from search, got ${bundle.resourceType || 'unknown'}`);
     }
@@ -302,7 +323,7 @@ async function saveResource(options, resourceType, id, outDir) {
   // Download one resource from /{resourceType}/{id} and save to outDir.
   const base = options.baseUrl.replace(/\/$/, '');
   const url = `${base}/${encodeURIComponent(resourceType)}/${encodeURIComponent(id)}`;
-  const resource = await fetchJson(url);
+  const resource = await fetchJson(url, options);
 
   const outputName = fileNameFor(resourceType, id);
   const outputPath = path.resolve(outDir, outputName);

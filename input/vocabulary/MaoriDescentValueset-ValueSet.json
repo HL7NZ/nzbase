@@ -2,8 +2,8 @@
   "resourceType": "ValueSet",
   "id": "MaoriDescentValueset",
   "meta": {
-    "versionId": "1",
-    "lastUpdated": "2026-05-06T01:39:54.791+12:00",
+    "versionId": "7",
+    "lastUpdated": "2026-05-08T10:17:41.820+12:00",
     "tag": [
       {
         "system": "https://standards.digital.health.nz/ns/nzhts-usage-tags",
@@ -24,7 +24,8 @@
   "version": "1.0.0",
   "name": "MaoriDescent",
   "title": "Māori descent",
-  "status": "draft",
+  "status": "active",
+  "experimental": false,
   "date": "2023-07-21T00:00:00.000Z",
   "publisher": "HISO",
   "contact": [
@@ -43,37 +44,7 @@
     "include": [
       {
         "system": "https://standards.digital.health.nz/ns/maori-descent-code",
-        "version": "1.0.0",
-        "concept": [
-          {
-            "code": "1",
-            "display": "Māori descent"
-          },
-          {
-            "code": "2",
-            "display": "No Māori descent"
-          },
-          {
-            "code": "4",
-            "display": "Don't know"
-          },
-          {
-            "code": "7",
-            "display": "Response unidentifiable"
-          },
-          {
-            "code": "9",
-            "display": "Not stated"
-          },
-          {
-            "code": "5",
-            "display": "Refused to answer"
-          },
-          {
-            "code": "8",
-            "display": "Response outside scope"
-          }
-        ]
+        "version": "1.0.0"
       }
     ]
   }

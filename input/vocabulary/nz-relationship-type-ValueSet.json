@@ -1,0 +1,49 @@
+{
+  "resourceType": "ValueSet",
+  "id": "nz-relationship-type",
+  "meta": {
+    "versionId": "4",
+    "lastUpdated": "2026-05-07T20:44:22.096+12:00",
+    "tag": [
+      {
+        "system": "https://standards.digital.health.nz/ns/nzhts-usage-tags",
+        "code": "NZBase"
+      }
+    ]
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>NZ Relationship Type</h2><tt>http://hl7.org.nz/fhir/ValueSet/nz-relationship-type</tt><p>New Zealand relationship types, extending the HL7 related person relationship types with Māori concepts.</p></div>"
+  },
+  "url": "http://hl7.org.nz/fhir/ValueSet/nz-relationship-type",
+  "version": "1.1.0",
+  "name": "NzRelationshipType",
+  "title": "NZ Relationship Type",
+  "status": "active",
+  "experimental": false,
+  "publisher": "HL7 New Zealand",
+  "contact": [
+    {
+      "name": "HL7 New Zealand",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "mailto:admin@hl7.org.nz"
+        }
+      ]
+    }
+  ],
+  "description": "New Zealand relationship types, extending the HL7 related person relationship types with Māori concepts.",
+  "compose": {
+    "include": [
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/ValueSet/relatedperson-relationshiptype"
+        ]
+      },
+      {
+        "system": "http://hl7.org.nz/fhir/CodeSystem/nz-relationship-codes"
+      }
+    ]
+  }
+}

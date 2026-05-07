@@ -2,8 +2,8 @@
   "resourceType": "ValueSet",
   "id": "domicile-code",
   "meta": {
-    "versionId": "1",
-    "lastUpdated": "2026-05-06T01:31:10.350+12:00",
+    "versionId": "11",
+    "lastUpdated": "2026-05-07T20:40:29.197+12:00",
     "tag": [
       {
         "system": "https://standards.digital.health.nz/ns/nzhts-usage-tags",
@@ -20,6 +20,7 @@
   "name": "DomicileCode",
   "title": "Domicile Code",
   "status": "active",
+  "experimental": false,
   "date": "2023-10-18T11:59:31.000Z",
   "publisher": "HL7 New Zealand",
   "contact": [

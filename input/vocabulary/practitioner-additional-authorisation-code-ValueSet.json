@@ -2,8 +2,8 @@
   "resourceType": "ValueSet",
   "id": "practitioner-additional-authorisation-code",
   "meta": {
-    "versionId": "1",
-    "lastUpdated": "2026-05-06T01:31:02.646+12:00",
+    "versionId": "12",
+    "lastUpdated": "2026-05-07T20:43:29.485+12:00",
     "tag": [
       {
         "system": "https://standards.digital.health.nz/ns/nzhts-usage-tags",
@@ -20,6 +20,7 @@
   "name": "PractitionerAdditionalAuthorisationCode",
   "title": "Additional Practitioner authorisations",
   "status": "active",
+  "experimental": false,
   "date": "2024-09-23T12:59:31.000Z",
   "publisher": "HL7 New Zealand",
   "contact": [

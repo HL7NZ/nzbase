@@ -64,4 +64,5 @@ Before building the IG, run  `scripts/fetch-nzhts-resources.js` to pull down the
 ```bash
 node scripts/fetch-nzhts-resources.js
 ```
+
 For more detail see the [Scripts README.md](/scripts).

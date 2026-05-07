@@ -2,8 +2,8 @@
   "resourceType": "ValueSet",
   "id": "hpi-practitionerrole-status-reason",
   "meta": {
-    "versionId": "1",
-    "lastUpdated": "2026-05-06T01:29:43.301+12:00",
+    "versionId": "7",
+    "lastUpdated": "2026-05-07T20:41:29.486+12:00",
     "tag": [
       {
         "system": "https://standards.digital.health.nz/ns/nzhts-usage-tags",
@@ -20,6 +20,7 @@
   "name": "PractitionerRoleStatusReason",
   "title": "PractitionerRole status reason",
   "status": "active",
+  "experimental": false,
   "date": "2023-10-18T11:59:31.000Z",
   "publisher": "HL7 New Zealand",
   "contact": [
