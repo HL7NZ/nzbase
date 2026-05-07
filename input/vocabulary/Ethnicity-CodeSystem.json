@@ -3,7 +3,7 @@
   "id": "Ethnicity",
   "meta": {
     "versionId": "1",
-    "lastUpdated": "2026-04-21T17:59:44.862+12:00",
+    "lastUpdated": "2026-05-06T01:34:51.882+12:00",
     "tag": [
       {
         "system": "https://standards.digital.health.nz/ns/nzhts-usage-tags",
@@ -13,7 +13,7 @@
   },
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>NZ ethnic group codes</h2><tt>https://standards.digital.health.nz/ns/nz-ethnic-group-codes</tt><p>A FHIR CodeSystem of Australian and Ethnicity New Zealand Standard Classification</p></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>NZ ethnic group codes</h2><tt>https://standards.digital.health.nz/ns/nz-ethnic-group-codes</tt><p>Ethnicity New Zealand Standard Classification 2005. Ethnicity is the ethnic group or groups that people identify with or feel they belong to.</p></div>"
   },
   "url": "https://standards.digital.health.nz/ns/nz-ethnic-group-codes",
   "version": "2.1.0",
@@ -22,7 +22,7 @@
   "status": "active",
   "experimental": false,
   "publisher": "HISO",
-  "description": "A FHIR CodeSystem of Australian and Ethnicity New Zealand Standard Classification",
+  "description": "Ethnicity New Zealand Standard Classification 2005. Ethnicity is the ethnic group or groups that people identify with or feel they belong to.",
   "caseSensitive": false,
   "valueSet": "https://nzhts.digital.health.nz/fhir/ValueSet/nz-ethnic-group-code",
   "versionNeeded": false,

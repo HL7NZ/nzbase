@@ -3,7 +3,7 @@
   "id": "ethnicity",
   "meta": {
     "versionId": "1",
-    "lastUpdated": "2026-04-21T17:53:51.145+12:00",
+    "lastUpdated": "2026-05-06T01:34:21.911+12:00",
     "tag": [
       {
         "system": "https://standards.digital.health.nz/ns/nzhts-usage-tags",
@@ -13,10 +13,10 @@
   },
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Ethnicity of a person (L4)</h2><tt>https://nzhts.digital.health.nz/fhir/ValueSet/ethnic-group-level-4-code</tt><p>Codes to record a person's ethnicity, drawn from [Level 4 of the Ethnicity code system](http://aria.stats.govt.nz/aria/#ClassificationView:uri=http://stats.govt.nz/cms/ClassificationVersion/YVqOcFHSlguKkT17)\nNote that the correct version of the ethicity code system is 2.1.0</p></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Ethnicity of a person (L4)</h2><tt>https://nzhts.digital.health.nz/fhir/ValueSet/ethnic-group-level-4-code</tt><p>Codes to record a person's ethnicity, drawn from [Level 4 of the Ethnicity code system](http://aria.stats.govt.nz/aria/#ClassificationView:uri=http://stats.govt.nz/cms/ClassificationVersion/YVqOcFHSlguKkT17)</p></div>"
   },
   "url": "https://nzhts.digital.health.nz/fhir/ValueSet/ethnic-group-level-4-code",
-  "version": "1.0.0",
+  "version": "2.1.0",
   "name": "Ethnicity",
   "title": "Ethnicity of a person (L4)",
   "status": "active",
@@ -32,7 +32,7 @@
       ]
     }
   ],
-  "description": "Codes to record a person's ethnicity, drawn from [Level 4 of the Ethnicity code system](http://aria.stats.govt.nz/aria/#ClassificationView:uri=http://stats.govt.nz/cms/ClassificationVersion/YVqOcFHSlguKkT17)\nNote that the correct version of the ethicity code system is 2.1.0",
+  "description": "Codes to record a person's ethnicity, drawn from [Level 4 of the Ethnicity code system](http://aria.stats.govt.nz/aria/#ClassificationView:uri=http://stats.govt.nz/cms/ClassificationVersion/YVqOcFHSlguKkT17)",
   "compose": {
     "include": [
       {

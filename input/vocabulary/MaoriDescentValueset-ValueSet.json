@@ -3,7 +3,7 @@
   "id": "MaoriDescentValueset",
   "meta": {
     "versionId": "1",
-    "lastUpdated": "2026-04-21T17:54:15.704+12:00",
+    "lastUpdated": "2026-05-06T01:39:54.791+12:00",
     "tag": [
       {
         "system": "https://standards.digital.health.nz/ns/nzhts-usage-tags",
@@ -13,7 +13,7 @@
   },
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Māori descent codes</h2><tt>https://nzhts.digital.health.nz/fhir/ValueSet/maori-descent</tt></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Māori descent</h2><tt>https://nzhts.digital.health.nz/fhir/ValueSet/maori-descent</tt><p>Codes indicating whether a person is of Māori descent</p></div>"
   },
   "url": "https://nzhts.digital.health.nz/fhir/ValueSet/maori-descent",
   "identifier": [
@@ -23,7 +23,7 @@
   ],
   "version": "1.0.0",
   "name": "MaoriDescent",
-  "title": "Māori descent codes",
+  "title": "Māori descent",
   "status": "draft",
   "date": "2023-07-21T00:00:00.000Z",
   "publisher": "HISO",
@@ -38,6 +38,7 @@
       ]
     }
   ],
+  "description": "Codes indicating whether a person is of Māori descent",
   "compose": {
     "include": [
       {

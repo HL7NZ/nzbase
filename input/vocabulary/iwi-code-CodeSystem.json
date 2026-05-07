@@ -3,7 +3,7 @@
   "id": "iwi-code",
   "meta": {
     "versionId": "1",
-    "lastUpdated": "2026-04-21T17:54:48.005+12:00",
+    "lastUpdated": "2026-05-06T01:34:31.369+12:00",
     "tag": [
       {
         "system": "https://standards.digital.health.nz/ns/nzhts-usage-tags",
@@ -13,7 +13,7 @@
   },
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>NZ Iwi</h2><tt>https://standards.digital.health.nz/ns/iwi-code</tt><p>A FHIR CodeSystem of Iwi and iwi-related groups statistical classification</p></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>NZ Iwi</h2><tt>https://standards.digital.health.nz/ns/iwi-code</tt><p>NZ iwi and iwi-related groups statistical classification</p></div>"
   },
   "url": "https://standards.digital.health.nz/ns/iwi-code",
   "version": "2.1.0",
@@ -22,7 +22,7 @@
   "status": "active",
   "experimental": false,
   "publisher": "HISO",
-  "description": "A FHIR CodeSystem of Iwi and iwi-related groups statistical classification",
+  "description": "NZ iwi and iwi-related groups statistical classification",
   "valueSet": "https://nzhts.digital.health.nz/fhir/ValueSet/iwi-code",
   "content": "complete",
   "count": 211,
