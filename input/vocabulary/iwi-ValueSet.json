@@ -1,0 +1,44 @@
+{
+  "resourceType": "ValueSet",
+  "id": "iwi",
+  "meta": {
+    "versionId": "8",
+    "lastUpdated": "2026-05-07T20:41:57.737+12:00",
+    "tag": [
+      {
+        "system": "https://standards.digital.health.nz/ns/nzhts-usage-tags",
+        "code": "NZBase"
+      }
+    ]
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Iwi</h2><tt>https://nzhts.digital.health.nz/fhir/ValueSet/iwi-code</tt><p>New Zealand iwi codes. The 2 digit codes are abstract codes and provided in the expansion for navigational purposes. Users should not select an abstract code directly as a proper value.</p></div>"
+  },
+  "url": "https://nzhts.digital.health.nz/fhir/ValueSet/iwi-code",
+  "version": "2.1.0",
+  "name": "Iwi",
+  "title": "Iwi",
+  "status": "active",
+  "experimental": false,
+  "date": "2023-10-18T11:59:31.000Z",
+  "publisher": "HL7 New Zealand",
+  "contact": [
+    {
+      "name": "HL7 New Zealand",
+      "telecom": [
+        {
+          "system": "email"
+        }
+      ]
+    }
+  ],
+  "description": "New Zealand iwi codes. The 2 digit codes are abstract codes and provided in the expansion for navigational purposes. Users should not select an abstract code directly as a proper value.",
+  "compose": {
+    "include": [
+      {
+        "system": "https://standards.digital.health.nz/ns/iwi-code"
+      }
+    ]
+  }
+}

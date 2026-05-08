@@ -12,4 +12,4 @@ Description:    "The base New Zealand RelatedPerson profile"
 * ^text.status = #additional
 * ^text.div = "<div xmlns='http://www.w3.org/1999/xhtml'>NZ RelatedPerson profile</div>"
 
-* relationship from NzRelationshipType (preferred)
+* relationship from http://hl7.org.nz/fhir/ValueSet/nz-relationship-type (preferred)

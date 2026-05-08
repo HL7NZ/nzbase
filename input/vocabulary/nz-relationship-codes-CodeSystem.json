@@ -1,0 +1,48 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "nz-relationship-codes",
+  "meta": {
+    "versionId": "2",
+    "lastUpdated": "2026-05-08T10:19:41.469+12:00",
+    "tag": [
+      {
+        "system": "https://standards.digital.health.nz/ns/nzhts-usage-tags",
+        "code": "NZBase"
+      }
+    ]
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>NZ Relationship Type Code System</h2><tt>http://hl7.org.nz/fhir/CodeSystem/nz-relationship-codes</tt><p>Code system for NZ relationship type codes.</p></div>"
+  },
+  "url": "http://hl7.org.nz/fhir/CodeSystem/nz-relationship-codes",
+  "version": "1.1.0",
+  "name": "NzRelationshipCodes",
+  "title": "NZ Relationship Type Code System",
+  "status": "active",
+  "experimental": false,
+  "publisher": "HL7 New Zealand",
+  "contact": [
+    {
+      "name": "HL7 New Zealand",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "mailto:admin@hl7.org.nz"
+        }
+      ]
+    }
+  ],
+  "description": "Code system for NZ relationship type codes.",
+  "caseSensitive": true,
+  "compositional": false,
+  "content": "complete",
+  "count": 1,
+  "concept": [
+    {
+      "code": "WHANGAI",
+      "display": "Whāngai",
+      "definition": "Whāngai is the Māori tradition of children being raised by someone other than their birth parents — usually a relative."
+    }
+  ]
+}

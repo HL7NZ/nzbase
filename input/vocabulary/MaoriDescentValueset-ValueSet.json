@@ -1,0 +1,51 @@
+{
+  "resourceType": "ValueSet",
+  "id": "MaoriDescentValueset",
+  "meta": {
+    "versionId": "7",
+    "lastUpdated": "2026-05-08T10:17:41.820+12:00",
+    "tag": [
+      {
+        "system": "https://standards.digital.health.nz/ns/nzhts-usage-tags",
+        "code": "NZBase"
+      }
+    ]
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Māori descent</h2><tt>https://nzhts.digital.health.nz/fhir/ValueSet/maori-descent</tt><p>Codes indicating whether a person is of Māori descent</p></div>"
+  },
+  "url": "https://nzhts.digital.health.nz/fhir/ValueSet/maori-descent",
+  "identifier": [
+    {
+      "value": "MaoriDescent"
+    }
+  ],
+  "version": "1.0.0",
+  "name": "MaoriDescent",
+  "title": "Māori descent",
+  "status": "active",
+  "experimental": false,
+  "date": "2023-07-21T00:00:00.000Z",
+  "publisher": "HISO",
+  "contact": [
+    {
+      "name": "HISO",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "Standards@health.govt.nz"
+        }
+      ]
+    }
+  ],
+  "description": "Codes indicating whether a person is of Māori descent",
+  "compose": {
+    "include": [
+      {
+        "system": "https://standards.digital.health.nz/ns/maori-descent-code",
+        "version": "1.0.0"
+      }
+    ]
+  }
+}

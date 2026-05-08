@@ -1,0 +1,45 @@
+{
+  "resourceType": "ValueSet",
+  "id": "org-and-location-alias-type",
+  "meta": {
+    "versionId": "4",
+    "lastUpdated": "2026-05-07T22:14:57.559+12:00",
+    "tag": [
+      {
+        "system": "https://standards.digital.health.nz/ns/nzhts-usage-tags",
+        "code": "NZBase"
+      }
+    ]
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Alias types</h2><tt>https://nzhts.digital.health.nz/fhir/ValueSet/alias-type-code</tt><p>The complete set of alias types that apply to Locations and Organizations</p></div>"
+  },
+  "url": "https://nzhts.digital.health.nz/fhir/ValueSet/alias-type-code",
+  "version": "1.0.0",
+  "name": "AliasType",
+  "title": "Alias types",
+  "status": "active",
+  "experimental": false,
+  "date": "2023-10-18T11:59:31.000Z",
+  "publisher": "HL7 New Zealand",
+  "contact": [
+    {
+      "name": "HL7 New Zealand",
+      "telecom": [
+        {
+          "system": "email"
+        }
+      ]
+    }
+  ],
+  "description": "The complete set of alias types that apply to Locations and Organizations",
+  "compose": {
+    "include": [
+      {
+        "system": "https://standards.digital.health.nz/ns/alias-type-code",
+        "version": "2.0.0"
+      }
+    ]
+  }
+}
