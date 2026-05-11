@@ -1,8 +1,13 @@
 
 ## New Zealand base FHIR Implementation Guide
 
-This is the base Implementation Guide (IG) for New Zealand and contains the common extensions that most NZ FHIR Implementations will need, along with any terminology 
-artifacts referenced by them (ie coded elements).
+This is the base FHIR Implementation Guide (IG) for New Zealand. It provides a common set of reusable FHIR artefacts for representing New Zealand concepts, including extensions, identifiers, terminology, naming systems, and profiles.
+
+NZ Base is intended to support consistency across New Zealand FHIR implementations by defining shared components that can be referenced by implementation guides, APIs, and solutions. Artefacts are included where they represent common New Zealand concepts or requirements that are expected to be broadly applicable across FHIR implementations in New Zealand, rather than being specific to a single project, product, organisation, or programme.
+
+NZ Base is maintained as a living artifact and is expected to evolve based on feedback and usage experience from the implementation community. Concepts are included where there is a clear New Zealand-specific requirement, where reuse across implementations is expected, and where the artifact is appropriate for inclusion in a national base guide. Where suitable definitions already exist in the core FHIR specification, international implementation guides, or other recognised registries, reuse is preferred over defining new New Zealand-specific artifacts.
+
+NZ Base is not intended to define the complete conformance requirements for a particular implementation or use case. It does not, by itself, specify which resources, profiles, extensions, terminology bindings, or interactions must be supported by an implementation. While NZ Base artifacts may define constraints, terminology, or other rules for the artifacts themselves, downstream implementation guides, programme specifications, API specifications, or other implementation-specific artifacts are expected to define which NZ Base artifacts are required, optional, or not applicable in context.
 
 <!--
 # Must Support
@@ -68,3 +73,7 @@ If you would like to provide any feedback on this Implementation Guide, email ad
 ## Globals
 
 {% include globals-table.xhtml %}
+
+In FHIR Implementation Guides, global profiles are profiles that apply by default to all resources of a given type within the scope of the guide. For example, if NzPatient is defined as the global profile for Patient, all resources within the IG that reference a Patient as a subject would reference NzPatient as a subject.
+
+NZ Base does not define any global profiles as it is not intended to define the complete conformance requirements for implementations, but instead to provide the reusable components and definitions for NZ specific concepts. 
