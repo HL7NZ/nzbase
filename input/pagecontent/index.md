@@ -1,9 +1,9 @@
 
 ## New Zealand base FHIR Implementation Guide
 
-This is the base FHIR Implementation Guide (IG) for New Zealand. It provides a common set of reusable FHIR artefacts for representing New Zealand concepts, including extensions, identifiers, terminology, naming systems, and profiles.
+This is the base FHIR Implementation Guide (IG) for New Zealand. It provides a common set of reusable FHIR artifacts for representing New Zealand concepts, including extensions, identifiers, terminology, naming systems, and profiles.
 
-NZ Base is intended to support consistency across New Zealand FHIR implementations by defining shared components that can be referenced by implementation guides, APIs, and solutions. Artefacts are included where they represent common New Zealand concepts or requirements that are expected to be broadly applicable across FHIR implementations in New Zealand, rather than being specific to a single project, product, organisation, or programme.
+NZ Base is intended to support consistency across New Zealand FHIR implementations by defining shared components that can be referenced by implementation guides, APIs, and solutions. Artifacts are included where they represent common New Zealand concepts or requirements that are expected to be broadly applicable across FHIR implementations in New Zealand, rather than being specific to a single project, product, organisation, or programme.
 
 NZ Base is maintained as a living artifact and is expected to evolve based on feedback and usage experience from the implementation community. Concepts are included where there is a clear New Zealand-specific requirement, where reuse across implementations is expected, and where the artifact is appropriate for inclusion in a national base guide. Where suitable definitions already exist in the core FHIR specification, international implementation guides, or other recognised registries, reuse is preferred over defining new New Zealand-specific artifacts.
 
