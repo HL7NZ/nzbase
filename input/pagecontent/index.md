@@ -51,4 +51,20 @@ This is a tab automatically generated during the build of the Implementation Gui
 
 Contains links to the main FHIR specification, as well downloads for the full IG or the artifacts defined in the guide (Extension Definitions, ValueSets and CodeSystems.)
 
-If you would like to make any feedback on this Implementation Guide, email admin@hl7.org.nz
+If you would like to provide any feedback on this Implementation Guide, email admin@hl7.org.nz
+
+## Version
+
+{% include cross-version-analysis.xhtml %}
+
+## Dependencies
+
+{% include dependency-table.xhtml %}
+
+## IP Statement
+
+{% include ip-statements.xhtml %}
+
+## Globals
+
+{% include globals-table.xhtml %}

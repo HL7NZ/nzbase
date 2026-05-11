@@ -9,7 +9,7 @@ Thumbs.db
 /temp
 /working
 .claude
-
+/.vscode/
 fsh-generated
 
 *.bak
