@@ -62,7 +62,3 @@ If you would like to provide any feedback on this Implementation Guide, email ad
 ### Globals
 
 {% include globals-table.xhtml %}
-
-In FHIR Implementation Guides, global profiles are profiles that apply by default to all resources of a given type within the scope of the guide. For example, if NzPatient is defined as the global profile for Patient, all resources within the IG that reference a Patient as a subject would reference NzPatient as a subject.
-
-NZ Base does not define any global profiles as it is not intended to define the complete conformance requirements for implementations, but instead to provide the reusable components and definitions for NZ specific concepts. 
