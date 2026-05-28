@@ -2,8 +2,8 @@
   "resourceType": "CodeSystem",
   "id": "iwi-code",
   "meta": {
-    "versionId": "10",
-    "lastUpdated": "2026-05-07T20:08:46.351+12:00",
+    "versionId": "12",
+    "lastUpdated": "2026-05-28T21:13:01.316+12:00",
     "tag": [
       {
         "system": "https://standards.digital.health.nz/ns/nzhts-usage-tags",
@@ -27,6 +27,14 @@
   "valueSet": "https://nzhts.digital.health.nz/fhir/ValueSet/iwi-code",
   "content": "complete",
   "count": 211,
+  "property": [
+    {
+      "code": "parent",
+      "uri": "http://hl7.org/fhir/concept-properties#parent",
+      "description": "The concept identified in this property is a parent of the concept on which it is used",
+      "type": "code"
+    }
+  ],
   "concept": [
     {
       "code": "NZIWI",

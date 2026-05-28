@@ -2,8 +2,8 @@
   "resourceType": "CodeSystem",
   "id": "Ethnicity",
   "meta": {
-    "versionId": "8",
-    "lastUpdated": "2026-05-07T19:33:03.977+12:00",
+    "versionId": "9",
+    "lastUpdated": "2026-05-28T21:00:26.949+12:00",
     "tag": [
       {
         "system": "https://standards.digital.health.nz/ns/nzhts-usage-tags",
@@ -28,6 +28,14 @@
   "versionNeeded": false,
   "content": "complete",
   "count": 263,
+  "property": [
+    {
+      "code": "parent",
+      "uri": "http://hl7.org/fhir/concept-properties#parent",
+      "description": "The concept identified in this property is a parent of the concept on which it is used",
+      "type": "code"
+    }
+  ],
   "concept": [
     {
       "code": "Ethnicity",
