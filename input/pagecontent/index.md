@@ -1,17 +1,11 @@
 
 ### New Zealand base FHIR Implementation Guide
 
-This is the base Implementation Guide (IG) for New Zealand and contains the common extensions that most NZ FHIR Implementations will need, along with any terminology 
-artifacts referenced by them (ie coded elements).
+This is the base FHIR Implementation Guide (IG) for New Zealand. It provides a common set of reusable FHIR artifacts for representing New Zealand concepts, including extensions, identifiers, terminology artifacts, naming systems, and profiles. It is intended to support consistency across New Zealand FHIR implementations by defining shared artifacts that can be reused across implementation guides, APIs, and solutions.
 
-<!--
-# Must Support
+The NZ Base IG is maintained as a living artifact and is expected to evolve based on feedback and usage experience from the implementation community. Concepts are included where there is a clear New Zealand-specific requirement, where reuse across implementations is expected, and where the artifact is appropriate for inclusion in a national base guide. Where suitable definitions already exist in the core FHIR specification, international implementation guides, or other recognised registries, reuse is preferred over defining new New Zealand-specific artifacts.
 
-Many of the elements in profiles are marked as 'Must Support'. This means that clients using these profiles must understand what the elements mean, and have a strategy for dealing them - such as storing them in local repositories or displaying them to the user. They should not be ignored if present.
-
-Note that 'Must Support' does not mean the same as 'Required', as they may be absent.
-
--->
+NZ Base is not intended to define the complete conformance requirements for a particular implementation or use case. It does not, by itself, specify which resources, profiles, extensions, terminology bindings, or interactions must be supported by an implementation. While NZ Base artifacts may define constraints, terminology, or other rules for the artifacts themselves, downstream implementation guides, programme specifications, API specifications, or other implementation-specific artifacts are expected to define which NZ Base artifacts are required, optional, or not applicable in context.
 
 #### Macron support for Te reo Māori
 By default, FHIR supports macrons (and all diacritics) as commonly used by Te Reo Māori to indicate long vowels. 
