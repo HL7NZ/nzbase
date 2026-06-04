@@ -595,6 +595,24 @@ Usage: #definition
 * responsible = "New Zealand Health Information Standards Organisation (HISO)"
 * name = "Rheumatic_fever_ccs_id"
 
+Instance: sdhr-id
+InstanceOf: NamingSystem
+Usage: #definition
+* name = "SDHR Id NamingSystem"
+* description = "The SDHR (Shared Digital Health Record) id NamingSystem identifies the SDHR resource id namespace."
+* status = #active
+* kind = #identifier
+* date = "2026-06-03"
+* contact.name = "HL7 New Zealand"
+* contact.telecom.value = "http://hl7.org.nz"
+* contact.telecom.system = #url
+* publisher = "HL7 New Zealand"
+* responsible = "New Zealand Health Information Standards Organisation (HISO)"
+* usage = "The SDHR (Shared Digital Health Record) id NamingSystem identifies the SDHR resource id namespace."
+* jurisdiction = urn:iso:std:iso:3166#NZ
+* uniqueId[+].type = #uri
+* uniqueId[=].value = "https://standards.digital.health.nz/ns/sdhr-id"
+* uniqueId[=].preferred = true
 
 /*
 Instance: nzFacilitylegacy
