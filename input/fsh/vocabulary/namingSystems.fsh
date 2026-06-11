@@ -181,7 +181,7 @@ Usage: #definition
 * type.coding = http://terminology.hl7.org/CodeSystem/v2-0203#NPI "National provider identifier"
 * jurisdiction = urn:iso:std:iso:3166#NZ
 
-* name = "NZMC"
+* name = "Pharmacy_council_id"
 * description = "Pharmacy Council of New Zealand Register Number"
 * status = #active
 * kind = #identifier
