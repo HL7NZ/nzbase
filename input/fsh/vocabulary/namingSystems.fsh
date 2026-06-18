@@ -598,8 +598,8 @@ Usage: #definition
 Instance: sdhr-id
 InstanceOf: NamingSystem
 Usage: #definition
-* name = "SDHR Id NamingSystem"
-* description = "Identifier namespace for SDHR-assigned resource identifiers. This sdhr-id identifier is recorded in Resource.identifier on a local resource to support synchronisation with the SDHR Data Service. Its value is the original SDHR-assigned FHIR Resource.id, allowing the integrating system to preserve a reference to the SDHR resource. This enables the system to match the local resource back to the corresponding SDHR resource during future synchronisation and other interactions."
+* name = "SDHR_id"
+* description = "Identifier namespace for SDHR-assigned resource identifiers."
 * status = #active
 * kind = #identifier
 * date = "2026-06-03"
@@ -607,11 +607,12 @@ Usage: #definition
 * contact.telecom.value = "http://hl7.org.nz"
 * contact.telecom.system = #url
 * publisher = "HL7 New Zealand"
-* responsible = "New Zealand Health Information Standards Organisation (HISO)"
+* responsible = "HISO"
 * jurisdiction = urn:iso:std:iso:3166#NZ
 * uniqueId[+].type = #uri
 * uniqueId[=].value = "https://standards.digital.health.nz/ns/sdhr-id"
 * uniqueId[=].preferred = true
+* usage = "This sdhr-id identifier is recorded in Resource.identifier on a local resource to support synchronisation with the SDHR Data Service. Its value is the original SDHR-assigned FHIR Resource.id, allowing the integrating system to preserve a reference to the SDHR resource. This enables the system to match the local resource back to the corresponding SDHR resource during future synchronisation and other interactions."
 
 /*
 Instance: nzFacilitylegacy
