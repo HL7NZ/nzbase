@@ -598,7 +598,7 @@ Usage: #definition
 Instance: sdhr-id
 InstanceOf: NamingSystem
 Usage: #definition
-* name = "SDHR_id"
+* name = "Sdhr_id"
 * description = "Identifier namespace for SDHR-assigned resource identifiers."
 * status = #active
 * kind = #identifier
