@@ -550,7 +550,7 @@ Usage: #definition
 * publisher = "HL7 New Zealand"
 * jurisdiction = urn:iso:std:iso:3166#NZ
 * description = "This identifier, known as the 'MoE Number' or 'School Number', is used by the education sector to identify an NZ education institution. These identifiers can be looked up at the \\[[educationcounts.govt.nz](http://educationcounts.govt.nz)\\]([https://www.educationcounts.govt.nz/directories/list-of-nz-schools](https://www.educationcounts.govt.nz/directories/list-of-nz-schools)) website."
-* responsible = "New Zealand Health Information Standards Organisation (HISO)"
+* responsible = "HISO"
 * name = "Moe_facility_id"
 
 Instance: nz-address-id
@@ -571,7 +571,7 @@ Usage: #definition
 * publisher = "HL7 New Zealand"
 * jurisdiction = urn:iso:std:iso:3166#NZ
 * description = "New Zealand Street Address Mapping Identifier"
-* responsible = "New Zealand Health Information Standards Organisation (HISO)"
+* responsible = "HISO"
 * name = "Nz_address_id"
 
 Instance: rheumatic-fever-ccs-id
@@ -592,7 +592,7 @@ Usage: #definition
 * publisher = "HL7 New Zealand"
 * jurisdiction = urn:iso:std:iso:3166#NZ
 * description = "Identifier assigned by the Rheumatic Fever Care Coordination System, used on CarePlan, Condition, CareTeam, and Observation resources."
-* responsible = "New Zealand Health Information Standards Organisation (HISO)"
+* responsible = "HISO"
 * name = "Rheumatic_fever_ccs_id"
 
 Instance: sdhr-id
