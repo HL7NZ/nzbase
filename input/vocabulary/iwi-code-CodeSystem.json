@@ -2,8 +2,8 @@
   "resourceType": "CodeSystem",
   "id": "iwi-code",
   "meta": {
-    "versionId": "12",
-    "lastUpdated": "2026-05-28T21:13:01.316+12:00",
+    "versionId": "13",
+    "lastUpdated": "2026-06-26T15:35:00.966+12:00",
     "tag": [
       {
         "system": "https://standards.digital.health.nz/ns/nzhts-usage-tags",
@@ -21,12 +21,12 @@
   "title": "NZ Iwi",
   "status": "active",
   "experimental": false,
-  "publisher": "HISO",
+  "publisher": "Stats NZ",
   "description": "NZ iwi and iwi-related groups statistical classification",
   "caseSensitive": true,
   "valueSet": "https://nzhts.digital.health.nz/fhir/ValueSet/iwi-code",
   "content": "complete",
-  "count": 211,
+  "count": 210,
   "property": [
     {
       "code": "parent",
@@ -37,68 +37,28 @@
   ],
   "concept": [
     {
-      "code": "NZIWI",
-      "display": "NZ IWI"
-    },
-    {
       "code": "01",
-      "display": "Te Tai Tokerau/Tāmaki-makaurau (Northland/Auckland) Region Iwi",
-      "property": [
-        {
-          "code": "parent",
-          "valueCode": "NZIWI"
-        }
-      ]
+      "display": "Te Tai Tokerau/Tāmaki-makaurau (Northland/Auckland) Region Iwi"
     },
     {
       "code": "02",
-      "display": "Hauraki (Coromandel) Region Iwi",
-      "property": [
-        {
-          "code": "parent",
-          "valueCode": "NZIWI"
-        }
-      ]
+      "display": "Hauraki (Coromandel) Region Iwi"
     },
     {
       "code": "03",
-      "display": "Waikato/Te Rohe Pōtae (Waikato/King Country) Region Iwi",
-      "property": [
-        {
-          "code": "parent",
-          "valueCode": "NZIWI"
-        }
-      ]
+      "display": "Waikato/Te Rohe Pōtae (Waikato/King Country) Region Iwi"
     },
     {
       "code": "04",
-      "display": "Te Arawa/Taupō (Rotorua/Taupō) Region Iwi",
-      "property": [
-        {
-          "code": "parent",
-          "valueCode": "NZIWI"
-        }
-      ]
+      "display": "Te Arawa/Taupō (Rotorua/Taupō) Region Iwi"
     },
     {
       "code": "05",
-      "display": "Tauranga Moana/Mātaatua (Bay of Plenty) Region Iwi",
-      "property": [
-        {
-          "code": "parent",
-          "valueCode": "NZIWI"
-        }
-      ]
+      "display": "Tauranga Moana/Mātaatua (Bay of Plenty) Region Iwi"
     },
     {
       "code": "06",
-      "display": "Te Tai Rāwhiti (East Coast) Region Iwi",
-      "property": [
-        {
-          "code": "parent",
-          "valueCode": "NZIWI"
-        }
-      ]
+      "display": "Te Tai Rāwhiti (East Coast) Region Iwi"
     },
     {
       "code": "0808",
@@ -474,13 +434,7 @@
     },
     {
       "code": "07",
-      "display": "Te Matau-a-Māui/Wairarapa (Hawke's Bay/Wairarapa) Region iwi",
-      "property": [
-        {
-          "code": "parent",
-          "valueCode": "NZIWI"
-        }
-      ]
+      "display": "Te Matau-a-Māui/Wairarapa (Hawke's Bay/Wairarapa) Region iwi"
     },
     {
       "code": "0809",
@@ -608,23 +562,11 @@
     },
     {
       "code": "08",
-      "display": "Taranaki Region Iwi",
-      "property": [
-        {
-          "code": "parent",
-          "valueCode": "NZIWI"
-        }
-      ]
+      "display": "Taranaki Region Iwi"
     },
     {
       "code": "09",
-      "display": "Whanganui/Rangitīkei (Wanganui/Rangitīkei) Region Iwi",
-      "property": [
-        {
-          "code": "parent",
-          "valueCode": "NZIWI"
-        }
-      ]
+      "display": "Whanganui/Rangitīkei (Wanganui/Rangitīkei) Region Iwi"
     },
     {
       "code": "2306",
@@ -4080,13 +4022,7 @@
     },
     {
       "code": "10",
-      "display": "Manawatū/Horowhenua/Te Whanganui-a-Tara (Manawatū/Horowhenua/Wellington) Region Iwi",
-      "property": [
-        {
-          "code": "parent",
-          "valueCode": "NZIWI"
-        }
-      ]
+      "display": "Manawatū/Horowhenua/Te Whanganui-a-Tara (Manawatū/Horowhenua/Wellington) Region Iwi"
     },
     {
       "code": "2307",
@@ -4142,23 +4078,11 @@
     },
     {
       "code": "11",
-      "display": "Te Waipounamu (South Island) Region Iwi",
-      "property": [
-        {
-          "code": "parent",
-          "valueCode": "NZIWI"
-        }
-      ]
+      "display": "Te Waipounamu (South Island) Region Iwi"
     },
     {
       "code": "12",
-      "display": "Rēkohu/Wharekauri (Chatham Islands) Region Imi/Iwi",
-      "property": [
-        {
-          "code": "parent",
-          "valueCode": "NZIWI"
-        }
-      ]
+      "display": "Rēkohu/Wharekauri (Chatham Islands) Region Imi/Iwi"
     },
     {
       "code": "1110",
@@ -6894,13 +6818,7 @@
     },
     {
       "code": "20",
-      "display": "Confederations and Waka, iwi not named",
-      "property": [
-        {
-          "code": "parent",
-          "valueCode": "NZIWI"
-        }
-      ]
+      "display": "Confederations and Waka, iwi not named"
     },
     {
       "code": "1108",
@@ -6956,33 +6874,15 @@
     },
     {
       "code": "21",
-      "display": "Iwi named, region not known",
-      "property": [
-        {
-          "code": "parent",
-          "valueCode": "NZIWI"
-        }
-      ]
+      "display": "Iwi named, region not known"
     },
     {
       "code": "22",
-      "display": "Hapū affiliated to more than one iwi",
-      "property": [
-        {
-          "code": "parent",
-          "valueCode": "NZIWI"
-        }
-      ]
+      "display": "Hapū affiliated to more than one iwi"
     },
     {
       "code": "23",
-      "display": "Region known, Iwi not named",
-      "property": [
-        {
-          "code": "parent",
-          "valueCode": "NZIWI"
-        }
-      ]
+      "display": "Region known, Iwi not named"
     },
     {
       "code": "0709",
@@ -17346,13 +17246,7 @@
     },
     {
       "code": "44",
-      "display": "Don't Know",
-      "property": [
-        {
-          "code": "parent",
-          "valueCode": "NZIWI"
-        }
-      ]
+      "display": "Don't Know"
     },
     {
       "code": "2111",
@@ -21860,13 +21754,7 @@
     },
     {
       "code": "55",
-      "display": "Refused To Answer",
-      "property": [
-        {
-          "code": "parent",
-          "valueCode": "NZIWI"
-        }
-      ]
+      "display": "Refused To Answer"
     },
     {
       "code": "2001",
@@ -27638,13 +27526,7 @@
     },
     {
       "code": "77",
-      "display": "Response Unidentifiable",
-      "property": [
-        {
-          "code": "parent",
-          "valueCode": "NZIWI"
-        }
-      ]
+      "display": "Response Unidentifiable"
     },
     {
       "code": "0512",
@@ -28240,13 +28122,7 @@
     },
     {
       "code": "88",
-      "display": "Response Outside Scope",
-      "property": [
-        {
-          "code": "parent",
-          "valueCode": "NZIWI"
-        }
-      ]
+      "display": "Response Outside Scope"
     },
     {
       "code": "0402",
@@ -29890,13 +29766,7 @@
     },
     {
       "code": "99",
-      "display": "Not Stated",
-      "property": [
-        {
-          "code": "parent",
-          "valueCode": "NZIWI"
-        }
-      ]
+      "display": "Not Stated"
     },
     {
       "code": "0413",

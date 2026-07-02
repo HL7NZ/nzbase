@@ -2,8 +2,8 @@
   "resourceType": "ValueSet",
   "id": "Ethnicityfull",
   "meta": {
-    "versionId": "6",
-    "lastUpdated": "2026-05-07T20:40:48.178+12:00",
+    "versionId": "7",
+    "lastUpdated": "2026-06-26T15:30:35.014+12:00",
     "tag": [
       {
         "system": "https://standards.digital.health.nz/ns/nzhts-usage-tags",
@@ -22,7 +22,7 @@
   "status": "active",
   "experimental": false,
   "date": "2023-11-03T00:00:00.000Z",
-  "publisher": "HISO",
+  "publisher": "Stats NZ",
   "contact": [
     {
       "name": "HISO",

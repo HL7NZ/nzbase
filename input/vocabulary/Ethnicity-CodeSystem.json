@@ -2,8 +2,8 @@
   "resourceType": "CodeSystem",
   "id": "Ethnicity",
   "meta": {
-    "versionId": "9",
-    "lastUpdated": "2026-05-28T21:00:26.949+12:00",
+    "versionId": "10",
+    "lastUpdated": "2026-06-26T15:27:24.365+12:00",
     "tag": [
       {
         "system": "https://standards.digital.health.nz/ns/nzhts-usage-tags",
@@ -21,13 +21,13 @@
   "title": "NZ ethnic group codes",
   "status": "active",
   "experimental": false,
-  "publisher": "HISO",
+  "publisher": "Stats NZ",
   "description": "Ethnicity New Zealand Standard Classification 2005. Ethnicity is the ethnic group or groups that people identify with or feel they belong to.",
   "caseSensitive": true,
   "valueSet": "https://nzhts.digital.health.nz/fhir/ValueSet/nz-ethnic-group-code",
   "versionNeeded": false,
   "content": "complete",
-  "count": 263,
+  "count": 262,
   "property": [
     {
       "code": "parent",
@@ -37,10 +37,6 @@
     }
   ],
   "concept": [
-    {
-      "code": "Ethnicity",
-      "display": "Ethnicity New Zealand Standard Classification"
-    },
     {
       "code": "96666",
       "display": "Repeated Value",
@@ -1049,13 +1045,7 @@
     },
     {
       "code": "1",
-      "display": "European",
-      "property": [
-        {
-          "code": "parent",
-          "valueCode": "Ethnicity"
-        }
-      ]
+      "display": "European"
     },
     {
       "code": "122",
@@ -1079,13 +1069,7 @@
     },
     {
       "code": "2",
-      "display": "Māori",
-      "property": [
-        {
-          "code": "parent",
-          "valueCode": "Ethnicity"
-        }
-      ]
+      "display": "Māori"
     },
     {
       "code": "124",
@@ -1099,13 +1083,7 @@
     },
     {
       "code": "3",
-      "display": "Pacific Peoples",
-      "property": [
-        {
-          "code": "parent",
-          "valueCode": "Ethnicity"
-        }
-      ]
+      "display": "Pacific Peoples"
     },
     {
       "code": "125",
@@ -1119,13 +1097,7 @@
     },
     {
       "code": "4",
-      "display": "Asian",
-      "property": [
-        {
-          "code": "parent",
-          "valueCode": "Ethnicity"
-        }
-      ]
+      "display": "Asian"
     },
     {
       "code": "126",
@@ -1139,13 +1111,7 @@
     },
     {
       "code": "5",
-      "display": "Middle Eastern/Latin American/African",
-      "property": [
-        {
-          "code": "parent",
-          "valueCode": "Ethnicity"
-        }
-      ]
+      "display": "Middle Eastern/Latin American/African"
     },
     {
       "code": "127",
@@ -1159,13 +1125,7 @@
     },
     {
       "code": "6",
-      "display": "Other Ethnicity",
-      "property": [
-        {
-          "code": "parent",
-          "valueCode": "Ethnicity"
-        }
-      ]
+      "display": "Other Ethnicity"
     },
     {
       "code": "128",
@@ -1189,13 +1149,7 @@
     },
     {
       "code": "9",
-      "display": "Residual Categories",
-      "property": [
-        {
-          "code": "parent",
-          "valueCode": "Ethnicity"
-        }
-      ]
+      "display": "Residual Categories"
     },
     {
       "code": "21",
