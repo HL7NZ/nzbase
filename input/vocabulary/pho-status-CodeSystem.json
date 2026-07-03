@@ -2,8 +2,8 @@
   "resourceType": "CodeSystem",
   "id": "pho-status",
   "meta": {
-    "versionId": "10",
-    "lastUpdated": "2026-05-07T20:19:51.709+12:00",
+    "versionId": "11",
+    "lastUpdated": "2026-07-03T12:26:02.681+12:00",
     "tag": [
       {
         "system": "https://standards.digital.health.nz/ns/nzhts-usage-tags",
@@ -16,7 +16,7 @@
     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>PHO</h2><tt>https://standards.digital.health.nz/ns/pho-code</tt><p>Primary Healthcare Organization</p></div>"
   },
   "url": "https://standards.digital.health.nz/ns/pho-code",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "name": "PHO",
   "title": "PHO",
   "status": "active",
@@ -37,12 +37,8 @@
   "caseSensitive": true,
   "valueSet": "https://nzhts.digital.health.nz/fhir/ValueSet/pho-code",
   "content": "complete",
-  "count": 30,
+  "count": 29,
   "concept": [
-    {
-      "code": "G04587-F",
-      "display": "Alliance Health Plus Trust"
-    },
     {
       "code": "G05487-G",
       "display": "Auckland PHO Limited"
@@ -132,14 +128,6 @@
       "display": "Rural Canterbury PHO Limited"
     },
     {
-      "code": "G00025-K",
-      "display": "South Canterbury Primary and Community"
-    },
-    {
-      "code": "G05589-D",
-      "display": "Te Awakairangi Health Network"
-    },
-    {
       "code": "G05596-A",
       "display": "Total Healthcare Charitable Trust"
     },
@@ -158,6 +146,14 @@
     {
       "code": "G01220-B",
       "display": "Whanganui Regional Health Network"
+    },
+    {
+      "code": "G0P656-E",
+      "display": "Arataki (Tend)"
+    },
+    {
+      "code": "G0K668-C",
+      "display": "The Cause Collective"
     }
   ]
 }
