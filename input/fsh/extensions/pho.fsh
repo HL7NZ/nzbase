@@ -35,7 +35,7 @@ Description: "Primary Healthcare Organisation associated with a General Practice
 * value[x] ^requirements = "The Nzpho ValueSet should be used as this provides the correct NZ HPI-ORG ID for each of the 30 Primary Healthcare Organisations.The binding strength is extensible as this is the most suitable option for a Codeable Concept data type."
 
 * value[x] ^example[0].label = "Procare Networks Ltd"
-* value[x] ^example[0].valueCodeableConcept.coding[0].version = "1.0"
+//* value[x] ^example[0].valueCodeableConcept.coding[0].version = "1.0"
 * value[x] ^example[0].valueCodeableConcept.coding[0] = $pho-code-cs#G05533-K "Procare Networks Limited"
 * value[x] ^isModifier = false
 * value[x] ^binding.description = "NZ HPI-ORG Values for PHOs"

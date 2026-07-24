@@ -4,7 +4,7 @@ id: fhir.org.nz.ig.base
 ### experimental!!!  changing the canonical url to match the 
 # this is the original   canonical: http://fhir.org.nz/ig/base
 
-canonical: http://hl7.org.nz/fhir
+canonical: http://fhir.org.nz/ig/base
 
 version: 3.1.0
 name: HL7FHIRNewZealandBaseImplementationGuide
@@ -18,7 +18,7 @@ license: CC0-1.0
 fhirVersion: 4.0.1
 copyrightYear: 2021+
 # releaseLabel: Release
-releaseLabel: Draft
+releaseLabel: Release
 
 
 # ╭───────────────────────────────────────package-list.json────────────────────────────────────────╮
@@ -54,7 +54,7 @@ parameters:
   apply-version: false
   # default-version: true
   special-url: 
-    - 'https://standards.digital.health.nz/ns/nz-ethnic-group-codes'
+    - https://standards.digital.health.nz/ns/nz-ethnic-group-codes
     - https://standards.digital.health.nz/ns/acc-patient-occupation-code
     - https://standards.digital.health.nz/ns/alias-type-code
     - https://standards.digital.health.nz/ns/nz-citizenship-status-code
@@ -68,13 +68,13 @@ parameters:
     - https://standards.digital.health.nz/ns/funded-programme-code
     - https://standards.digital.health.nz/ns/hpi-practitioner-role-status-reason-code
     - https://standards.digital.health.nz/ns/information-source-code
-    - https://standards.digital.health.nz/ns/iwi-code)
+    - https://standards.digital.health.nz/ns/iwi-code
     - https://standards.digital.health.nz/ns/maori-descent-code
     - https://standards.digital.health.nz/ns/nz-residency-code
     - https://standards.digital.health.nz/ns/pho-code
     - https://standards.digital.health.nz/ns/practitioner-additional-authorisation-code
     - https://standards.digital.health.nz/ns/practitioner-registration-status-code
-    - https://standards.digital.health.nz/ns/practitioner-scope-of-practice-code)
+    - https://standards.digital.health.nz/ns/practitioner-scope-of-practice-code
     - https://standards.digital.health.nz/ns/iwi-code
     - https://standards.digital.health.nz/ns/practitioner-scope-of-practice-code
     - https://nzhts.digital.health.nz/fhir/ValueSet/acc-patient-occupation-code
@@ -87,7 +87,7 @@ parameters:
     - https://nzhts.digital.health.nz/fhir/ValueSet/dod-information-source-code
     - https://nzhts.digital.health.nz/fhir/ValueSet/domicile-code
     - https://nzhts.digital.health.nz/fhir/ValueSet/ethnic-group-level-4-code
-    - https://nzhts.digital.health.nz/fhir/ValueSet/nz-ethnic-group-code)
+    - https://nzhts.digital.health.nz/fhir/ValueSet/nz-ethnic-group-code
     - https://nzhts.digital.health.nz/fhir/ValueSet/funded-programme-code
     - https://nzhts.digital.health.nz/fhir/ValueSet/hpi-practitioner-role-status-reason-code
     - https://nzhts.digital.health.nz/fhir/ValueSet/information-source-code
@@ -99,9 +99,62 @@ parameters:
     - https://nzhts.digital.health.nz/fhir/ValueSet/pho-code
     - https://nzhts.digital.health.nz/fhir/ValueSet/practitioner-additional-authorisation-code
     - https://nzhts.digital.health.nz/fhir/ValueSet/practitioner-registration-status-code
-    - https://nzhts.digital.health.nz/fhir/ValueSet/practitioner-scope-of-practice-code)
+    - https://nzhts.digital.health.nz/fhir/ValueSet/practitioner-scope-of-practice-code
     - https://nzhts.digital.health.nz/fhir/ValueSet/contact-point-purpose-code
     - https://nzhts.digital.health.nz/fhir/ValueSet/nz-ethnic-group-code
     - https://nzhts.digital.health.nz/fhir/ValueSet/practitioner-scope-of-practice-code
     - http://hl7.org.nz/fhir/StructureDefinition/NzContactpoint
+    - http://hl7.org.nz/fhir/CodeSystem/nz-relationship-codes
+    - http://hl7.org.nz/fhir/StructureDefinition/acc-patient-occupation
+    - http://hl7.org.nz/fhir/StructureDefinition/additional-authorisation
+    - http://hl7.org.nz/fhir/StructureDefinition/alias-type
+    - http://hl7.org.nz/fhir/StructureDefinition/building-name
+    - http://hl7.org.nz/fhir/StructureDefinition/condition-on-practice
+    - http://hl7.org.nz/fhir/StructureDefinition/contactpoint-purpose
+    - http://hl7.org.nz/fhir/StructureDefinition/country-name
+    - http://hl7.org.nz/fhir/StructureDefinition/death-date
+    - http://hl7.org.nz/fhir/StructureDefinition/dhb
+    - http://hl7.org.nz/fhir/StructureDefinition/domicile-code
+    - http://hl7.org.nz/fhir/StructureDefinition/edi-address
+    - http://hl7.org.nz/fhir/StructureDefinition/educational-qualification
+    - http://hl7.org.nz/fhir/StructureDefinition/established
+    - http://hl7.org.nz/fhir/StructureDefinition/funded-programme
+    - http://hl7.org.nz/fhir/StructureDefinition/gender-original-text
+    - http://hl7.org.nz/fhir/StructureDefinition/information-source
+    - http://hl7.org.nz/fhir/StructureDefinition/long-term-condition
+    - http://hl7.org.nz/fhir/StructureDefinition/maori-descent
+    - http://hl7.org.nz/fhir/StructureDefinition/messaging-address
+    - http://hl7.org.nz/fhir/StructureDefinition/NzAddress
+    - http://hl7.org.nz/fhir/StructureDefinition/nz-citizenship
+    - http://hl7.org.nz/fhir/StructureDefinition/NzCondition
+    - http://hl7.org.nz/fhir/StructureDefinition/NzCoverage
+    - http://hl7.org.nz/fhir/StructureDefinition/nzeps-long-term-medication
+    - http://hl7.org.nz/fhir/StructureDefinition/nzeps-supply-period-reason
+    - http://hl7.org.nz/fhir/StructureDefinition/nzeps-unusual-dose-quantity
+    - http://hl7.org.nz/fhir/StructureDefinition/nz-ethnicity
+    - http://hl7.org.nz/fhir/StructureDefinition/nzf-atc
+    - http://hl7.org.nz/fhir/StructureDefinition/nzf-nzmt-type
+    - http://hl7.org.nz/fhir/StructureDefinition/nz-geocode
+    - http://hl7.org.nz/fhir/StructureDefinition/NzHealthcareService
+    - http://hl7.org.nz/fhir/StructureDefinition/nz-iwi
+    - http://hl7.org.nz/fhir/StructureDefinition/NzLocation
+    - http://hl7.org.nz/fhir/StructureDefinition/NzMedication
+    - http://hl7.org.nz/fhir/StructureDefinition/NzMedicationDispense
+    - http://hl7.org.nz/fhir/StructureDefinition/NzMedicationRequest
+    - http://hl7.org.nz/fhir/StructureDefinition/NzMedicationStatement
+    - http://hl7.org.nz/fhir/StructureDefinition/NzOrganization
+    - http://hl7.org.nz/fhir/StructureDefinition/NzPatient
+    - http://hl7.org.nz/fhir/StructureDefinition/NzPractitioner
+    - http://hl7.org.nz/fhir/StructureDefinition/NzPractitionerRole
+    - http://hl7.org.nz/fhir/StructureDefinition/NzRelatedPerson
+    - http://hl7.org.nz/fhir/StructureDefinition/nz-residency
+    - http://hl7.org.nz/fhir/StructureDefinition/pho
+    - http://hl7.org.nz/fhir/StructureDefinition/practitionerRole-creator
+    - http://hl7.org.nz/fhir/StructureDefinition/practitionerRole-status-reason
+    - http://hl7.org.nz/fhir/StructureDefinition/registration-initial-date
+    - http://hl7.org.nz/fhir/StructureDefinition/registration-status-code
+    - http://hl7.org.nz/fhir/StructureDefinition/scope-of-practice
+    - http://hl7.org.nz/fhir/StructureDefinition/sex-at-birth
+    - http://hl7.org.nz/fhir/StructureDefinition/suburb
+    - http://hl7.org.nz/fhir/ValueSet/nz-relationship-type
  

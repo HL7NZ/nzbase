@@ -16,7 +16,7 @@
     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>PHO</h2><tt>https://nzhts.digital.health.nz/fhir/ValueSet/pho-code</tt><p>Primary Healthcare Organization</p></div>"
   },
   "url": "https://nzhts.digital.health.nz/fhir/ValueSet/pho-code",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "name": "PHO",
   "title": "PHO",
   "status": "active",
@@ -38,7 +38,7 @@
     "include": [
       {
         "system": "https://standards.digital.health.nz/ns/pho-code",
-        "version": "1.0.0"
+        "version": "1.1.0"
       }
     ]
   }
