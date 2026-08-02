@@ -6,7 +6,7 @@ id: fhir.org.nz.ig.base
 
 canonical: http://fhir.org.nz/ig/base
 
-version: 3.1.0
+version: 3.2.0-ci-build
 name: HL7FHIRNewZealandBaseImplementationGuide
 title: HL7® FHIR® New Zealand Base Implementation Guide
 status: active
@@ -18,7 +18,7 @@ license: CC0-1.0
 fhirVersion: 4.0.1
 copyrightYear: 2021+
 # releaseLabel: Release
-releaseLabel: Release
+releaseLabel: Draft
 
 
 # ╭───────────────────────────────────────package-list.json────────────────────────────────────────╮
