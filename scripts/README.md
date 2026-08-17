@@ -9,7 +9,24 @@ node scripts/fetch-nzhts-resources.js
 ```
 
 The script searches NZHTS for resources tagged with `NZBase` (with a `system` value of `https://standards.digital.health.nz/ns/nzhts-usage-tags`), downloads each `ValueSet`, `CodeSystem`, and `ConceptMap` etc., and lists a summary of what changed compared to the previous run.
+```mermaid
+flowchart TB
 
+    subgraph NZBASE["NZ Base IG"]
+        TX_PACKAGE["NZ Base<br/> terminology artifacts"]
+    end
+
+    subgraph NZHTS["NZHTS Term Service"]
+        TX_SOURCE["ValueSet, CodeSystems etc.<br/> tagged with 'NZBase'<br/>"]
+    end
+
+    TX_SOURCE -->|"Download Tx at build time"| TX_PACKAGE
+
+    style NZHTS fill:#fff,stroke:#333,stroke-width:2px
+    style NZBASE fill:#fff,stroke:#333,stroke-width:2px
+    style TX_SOURCE fill:#fff,stroke:#333,stroke-width:2px
+    style TX_PACKAGE fill:#fff,stroke:#333,stroke-width:2px,stroke-dasharray:6 6
+```
 The script can also be used for secured endpoints such as the NZHTS authoring environment, by providing an OAuth 2.0 bearer token via `TERM_SERVER_BEARER_TOKEN`. The token is sent as an `Authorization: Bearer ...` header on all FHIR requests. You can also pass a token directly with `--bearer-token <token>`, but variables are preferred because command-line arguments are more likely to be retained in shell history.
 
 E.g. for Linux, macOS, Git Bash, or WSL:
