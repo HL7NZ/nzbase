@@ -7,23 +7,24 @@ The base New Zealand Encounter profile.
 
 ### Categorising encounters
 
-Accurately capturing the nature of encounters is important for clinical, administrative, and reporting purposes. 
+Accurately capturing the nature of encounters is important for clinical, administrative, and reporting purposes.
 
-The base FHIR Encounter resource provides three distinct elements with their own terminology for categorising encounters: `class`, `type`, and `serviceType`. Without explanation, the intended meaning of these axes, and how they should be used together, may not be immediately obvious in the context of the New Zealand health system. 
+The base FHIR Encounter resource provides three distinct elements, each with its own terminology, for categorising encounters: `class`, `type`, and `serviceType`. Without further explanation, the intended meaning of these elements, and how they should be used together, may not be immediately obvious in the context of the New Zealand health system.
 
-However, there is also no pre-existing New Zealand-specific encounter classification model to adopt instead. Further, trying to capture the variety and full character of encounter types using a single ValueSet would require mixing concerns and categories of concept within a single flat taxonomy. 
+However, there is no pre-existing New Zealand-specific encounter classification model to adopt instead. Trying to capture the variety and full character of encounters using a single classification would also require mixing different concerns and categories of concepts within a single taxonomy. A single classification could represent these different characteristics, but doing so would either require compound concepts representing combinations of characteristics, potentially resulting in a very large number of concepts, or place concepts representing different dimensions together within the same classification. Representing these dimensions separately allows them to vary independently and makes their intended semantics explicit.
 
-The FHIR Encounter resource with three distinct axes has been designed to accommodate different health system contexts and has been developed with substantial clinical and administrative input from health experts across many countries. As these elements are part of the base FHIR standard, NZ Base uses them as the starting point for categorising encounters. Each represents a distinct aspect of the encounter: `class` describes the broad care context or setting, `type` describes the specific kind or purpose of the encounter, and `serviceType` describes the health service being provided. In combination they provide a (fairly) comprehensive way to describe encounters.
+The FHIR Encounter instead uses three distinct dimensions, or axes, to categorise encounters in a way that can be applied across different health system contexts. NZ Base adopts these as the basis for encounter classification. Each represents a distinct aspect of the encounter: `class` describes the broad care context or setting, `type` describes the specific kind or purpose of the encounter, and `serviceType` describes the health service being provided. Used together, they provide a comprehensive way to classify the nature of an encounter without conflating these different dimensions.
 
-The following table summarises the three axes, what each categorises, and the question it is intended to answer.
+The following table summarises the three FHIR categorisation elements, what each categorises, and the question it is intended to answer.
 
-| FHIR Element | Axis / What it categorises | Question it answers | Examples |
-|---|---|---|---|
-| `class` | Encounter context / setting | In what broad care context does this encounter occur? | ambulatory, emergency, acute inpatient, non-acute inpatient, home health, virtual, field, short stay |
-| `type` | Kind or purpose of encounter | What kind of encounter is this? | annual visit, initial consultation, follow-up consultation, review, assessment |
-| `serviceType` | Health service / service line | What health service is being provided? | general practice service, endoscopy service, clinical pharmacology service |
+| FHIR Element  | Axis / What it categorises    | Question it answers                                   | Examples                                                                                             |
+| ------------- | ----------------------------- | ----------------------------------------------------- | ---------------------------------------------------------------------------------------------------- |
+| `class`       | Encounter context / setting   | In what broad care context does this encounter occur? | ambulatory, emergency, acute inpatient, non-acute inpatient, home health, virtual, field, short stay |
+| `type`        | Kind or purpose of encounter  | What kind of encounter is this?                       | annual visit, initial consultation, follow-up consultation, review, assessment                       |
+| `serviceType` | Health service / service line | What health service is being provided?                | general practice service, endoscopy service, clinical pharmacology service                           |
 
 The reason for the encounter and any clinical procedures or interventions performed are separate from these classifications. They are represented elsewhere, for example using `reasonCode` or `reasonReference`, or through resources such as `Condition`, `Procedure`, or `Immunization` that reference the Encounter.
+
 
 #### `Encounter.class`
 
