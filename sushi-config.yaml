@@ -128,6 +128,7 @@ parameters:
     - http://hl7.org.nz/fhir/StructureDefinition/nz-citizenship
     - http://hl7.org.nz/fhir/StructureDefinition/NzCondition
     - http://hl7.org.nz/fhir/StructureDefinition/NzCoverage
+    - http://hl7.org.nz/fhir/StructureDefinition/NzEncounter
     - http://hl7.org.nz/fhir/StructureDefinition/nzeps-long-term-medication
     - http://hl7.org.nz/fhir/StructureDefinition/nzeps-supply-period-reason
     - http://hl7.org.nz/fhir/StructureDefinition/nzeps-unusual-dose-quantity
