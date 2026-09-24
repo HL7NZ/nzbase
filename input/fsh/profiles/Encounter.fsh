@@ -7,66 +7,66 @@ The base New Zealand Encounter profile.
 
 ### Categorising encounters
 
-Accurately capturing the nature of encounters is important for clinical, administrative and reporting purposes. The base FHIR Encounter resource provides three independent axes or dimensions for categorising encounters: `class`, `type` and `serviceType`. These three axes may not (at least without further explanation) be immediately meaningful or obvious as to how they should be used together in the New Zealand health system context. However, there is no pre-existing NZ-specific categories or classfications for encounters, and the FHIR encounter has been developed to be flexible enough to accommodate different health system contexts, and had significant clinical and administrative input from health experts from many countries. 
+Accurately capturing the nature of encounters is important for clinical, administrative, and reporting purposes. The base FHIR Encounter resource provides three distinct axes for categorising encounters: `class`, `type`, and `serviceType`. Without further explanation, the intended meaning of these axes, and how they should be used together, may not be immediately obvious in the context of the New Zealand health system. However, there is no pre-existing New Zealand-specific encounter classification model to adopt instead. The FHIR Encounter resource has been designed to accommodate different health system contexts and has been developed with substantial clinical and administrative input from health experts across many countries.
 
-Therefore, as they're part of the base standard, these are used in NZ Base as the starting point for capturing how encounters are categorised. The three axes are independent, and each captures a different aspect of the encounter. The `class` axis captures the broad care context or setting, the `type` axis captures the specific kind or purpose of the encounter, and the `serviceType` axis captures the health service being provided. The following table summarises the three axes, what they categorise, and the questions they answer.
+As these elements are part of the base FHIR standard, NZ Base uses them as the starting point for categorising encounters. Each axis represents a distinct aspect of the encounter: `class` describes the broad care context or setting, `type` describes the specific kind or purpose of the encounter, and `serviceType` describes the health service being provided. The following table summarises the three axes, what each categorises, and the question it is intended to answer.
 
 | FHIR Element | Axis / What it categorises | Question it answers | Examples |
 |---|---|---|---|
-| class | Encounter context / setting | In what broad care context is this encounter occurring? | ambulatory, emergency, acute inpatient, non-acute inpatient, home health, virtual, field, short stay |
-| type | Kind of interaction / encounter event | What kind of encounter is this? | annual visit, initial consultation, follow-up consultation, review, assessment |
-| serviceType | Health service / service line | What health service is being provided? | general practice service, endoscopy service, clinical pharmacology service |
+| `class` | Encounter context / setting | In what broad care context does this encounter occur? | ambulatory, emergency, acute inpatient, non-acute inpatient, home health, virtual, field, short stay |
+| `type` | Kind or purpose of encounter | What kind of encounter is this? | annual visit, initial consultation, follow-up consultation, review, assessment |
+| `serviceType` | Health service / service line | What health service is being provided? | general practice service, endoscopy service, clinical pharmacology service |
 
-The reason for the encounter and any clinical procedure performed are **separate** to these classifications. They are recorded elsewhere, e.g. in `reasonCode` / `reasonReference`, or as `Condition`, `Procedure` or `Immunization` resources that reference the Encounter.
+The reason for the encounter and any clinical procedures or interventions performed are separate from these classifications. They are represented elsewhere, for example using `reasonCode` or `reasonReference`, or through resources such as `Condition`, `Procedure`, or `Immunization` that reference the Encounter.
 
 #### `Encounter.class`
 
-`Encounter.class` represents the broad care context in which the encounter occurs, particularly the patient's relationship to the care setting, such as ambulatory, emergency, inpatient, home-based or virtual care. It does not identify the clinical service being provided or the specific purpose/type of interaction.
+`Encounter.class` represents the broad care context in which the encounter occurs, particularly the patient's relationship to the care setting. Examples include ambulatory, emergency, inpatient, home-based, and virtual care. It does not identify the clinical service being provided or the specific kind or purpose of the encounter.
 
-`class` is mandatory (1..1) and uses the base FHIR binding to the v3 ActEncounterCode value set:
+`class` is mandatory (`1..1`) and retains the base FHIR binding to the **v3 ActEncounterCode** value set.
 
 | Code | Display | Example classifications |
 |---|---|---|
-| AMB | ambulatory | GP consultation, specialist outpatient, physiotherapy clinic |
-| EMER | emergency | ED encounter |
-| FLD | field | |
-| HH | home health | district nursing home visit |
-| IMP | inpatient | |
-| ACUTE | inpatient acute | acute admission |
-| NONAC | inpatient non-acute | rehabilitation admission |
-| OBSENC | observation | |
-| PRENC | pre-admission | |
-| SS | short stay | day surgery admission |
-| VR | virtual | video consultation |
+| `AMB` | ambulatory | GP consultation, specialist outpatient appointment, physiotherapy clinic visit |
+| `EMER` | emergency | emergency department encounter |
+| `FLD` | field | care delivered in a field or community setting |
+| `HH` | home health | district nursing visit in the patient's home |
+| `IMP` | inpatient encounter | inpatient encounter where a more specific inpatient class is not used |
+| `ACUTE` | inpatient acute | acute inpatient admission |
+| `NONAC` | inpatient non-acute | rehabilitation or other non-acute inpatient admission |
+| `OBSENC` | observation encounter | observation stay |
+| `PRENC` | pre-admission | pre-admission assessment |
+| `SS` | short stay | day surgery or other planned short-stay admission |
+| `VR` | virtual | video or other remote consultation |
 
-ACUTE and NONAC are more specific kinds of IMP and should be preferred when known. No NZ-specific class codes are added. For example, a residential aged care setting (added as a class in AU Base) is better conveyed through `serviceType`, e.g. *Aged residential care general practice service*.
+`ACUTE` and `NONAC` are more specific subtypes of `IMP` and should be used in preference to `IMP` when the more specific classification is known.
 
 #### `Encounter.type`
 
-`Encounter.type` describes the specific kind or purpose of healthcare interaction represented by the Encounter, independently of the broad care context, the health service providing it, and the clinical problem, reason or procedure.
+`Encounter.type` describes the specific kind or purpose of healthcare interaction represented by the Encounter, independently of the broad care context, the health service being provided, and the clinical problem, reason, or procedure.
 
-* `type` should add information that isn't already carried by `class` or `serviceType`. For example, `class` = AMB and `serviceType` = *General practice service* doesn't tell you whether this was a new-patient consultation, an annual review or a follow-up. `type` carries that purpose or kind information.
-* `type` is optional (0..\*). There is no requirement to invent a type when there isn't a useful additional classification.
-* Avoid duplicating other elements in `type`, e.g. a "telemedicine consultation" type on an encounter that already has `class` = VR, or a "colonoscopy encounter" type where the colonoscopy is recorded as a Procedure.
+* `type` should add information that is not already represented by `class` or `serviceType`. For example, `class` = `AMB` and `serviceType` = *General practice service* do not indicate whether the encounter was an initial consultation, annual review, or follow-up. `type` provides this additional classification.
+* `type` is optional (`0..*`). There is no requirement to assign a type where it would not provide useful additional information.
+* Avoid duplicating information represented elsewhere. For example, do not use a *telemedicine consultation* type solely to repeat `class` = `VR`, or a *colonoscopy encounter* type where the colonoscopy itself is recorded as a `Procedure`.
 
-Examples of encounter types include: annual visit, initial consultation, follow-up consultation, clinical review, assessment and multidisciplinary review.
+Examples of encounter types include annual visit, initial consultation, follow-up consultation, clinical review, assessment, and multidisciplinary review.
 
-`type` is currently bound (preferred) to descendants of SNOMED CT 308335008 |Patient encounter procedure|. This is an interim binding. An NZ Encounter Type reference set is planned, seeded from 308335008 but constrained to concepts describing the nature or purpose of the patient–healthcare interaction, independently of the care context, health service, clinical problem or specific clinical intervention.
+`type` is currently bound with **preferred** strength to a value set comprising descendants of SNOMED CT `308335008 |Patient encounter procedure|`. This is an interim binding. An NZ Encounter Type reference set is planned, seeded from this hierarchy but constrained to concepts that describe the nature or purpose of the healthcare interaction, independently of the care context, health service, clinical problem, or specific clinical intervention.
 
 #### `Encounter.serviceType`
 
-`Encounter.serviceType` identifies the health service or service function within which care is provided. It describes the service being delivered, rather than the encounter context or the particular kind of interaction.
+`Encounter.serviceType` identifies the health service or service function within which care is provided. It describes the service being delivered, rather than the broad care context or the specific kind or purpose of the encounter.
 
-`serviceType` is bound (extensible) to the NZ Health Service Type SNOMED CT NZ edition reference set (461000210102). Examples include:
+`serviceType` is bound with **extensible** strength to the **NZ Health Service Type** SNOMED CT NZ Edition reference set (`461000210102`). Examples include:
 
-* 788007007 General practice service
-* 609111000210100 Aged residential care general practice service
-* 659831000210108 Hospital-based orthopaedic outpatient service
-* 171791000210102 Immunisation service
-* 537311000210105 Maternal mental health service
-* 302021000210109 NASC - Needs assessment and service coordination service
+* `788007007` General practice service
+* `609111000210100` Aged residential care general practice service
+* `659831000210108` Hospital-based orthopaedic outpatient service
+* `171791000210102` Immunisation service
+* `537311000210105` Maternal mental health service
+* `302021000210109` NASC - Needs assessment and service coordination service
 
-### Worked examples
+### Examples of encounter classifications
 
 | Scenario | class | type | serviceType | Other clinically important information |
 |---|---|---|---|---|
