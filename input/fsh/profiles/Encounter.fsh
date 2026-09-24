@@ -7,9 +7,15 @@ The base New Zealand Encounter profile.
 
 ### Categorising encounters
 
-Accurately capturing the nature of encounters is important for clinical, administrative, and reporting purposes. The base FHIR Encounter resource provides three distinct axes for categorising encounters: `class`, `type`, and `serviceType`. Without further explanation, the intended meaning of these axes, and how they should be used together, may not be immediately obvious in the context of the New Zealand health system. However, there is no pre-existing New Zealand-specific encounter classification model to adopt instead. The FHIR Encounter resource has been designed to accommodate different health system contexts and has been developed with substantial clinical and administrative input from health experts across many countries.
+Accurately capturing the nature of encounters is important for clinical, administrative, and reporting purposes. 
 
-As these elements are part of the base FHIR standard, NZ Base uses them as the starting point for categorising encounters. Each axis represents a distinct aspect of the encounter: `class` describes the broad care context or setting, `type` describes the specific kind or purpose of the encounter, and `serviceType` describes the health service being provided. The following table summarises the three axes, what each categorises, and the question it is intended to answer.
+The base FHIR Encounter resource provides three distinct elements with their own terminology for categorising encounters: `class`, `type`, and `serviceType`. Without explanation, the intended meaning of these axes, and how they should be used together, may not be immediately obvious in the context of the New Zealand health system. 
+
+However, there is also no pre-existing New Zealand-specific encounter classification model to adopt instead. Further, trying to capture the variety and full character of encounter types using a single ValueSet would require mixing concerns and categories of concept within a single flat taxonomy. 
+
+The FHIR Encounter resource with three distinct axes has been designed to accommodate different health system contexts and has been developed with substantial clinical and administrative input from health experts across many countries. As these elements are part of the base FHIR standard, NZ Base uses them as the starting point for categorising encounters. Each represents a distinct aspect of the encounter: `class` describes the broad care context or setting, `type` describes the specific kind or purpose of the encounter, and `serviceType` describes the health service being provided. In combination they provide a (fairly) comprehensive way to describe encounters.
+
+The following table summarises the three axes, what each categorises, and the question it is intended to answer.
 
 | FHIR Element | Axis / What it categorises | Question it answers | Examples |
 |---|---|---|---|
