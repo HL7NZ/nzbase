@@ -7,7 +7,9 @@ The base New Zealand Encounter profile.
 
 ### Categorising encounters
 
-Encounters are categorised here using three independent axes: `class`, `type` and `serviceType`. Each answers a different question, and values should not be repeated across them.
+Accurately capturing the nature of encounters is important for clinical, administrative and reporting purposes. The base FHIR Encounter resource provides three independent axes or dimensions for categorising encounters: `class`, `type` and `serviceType`. These three axes may not (at least without further explanation) be immediately meaningful or obvious as to how they should be used together in the New Zealand health system context. However, there is no pre-existing NZ-specific categories or classfications for encounters, and the FHIR encounter has been developed to be flexible enough to accommodate different health system contexts, and had significant clinical and administrative input from health experts from many countries. 
+
+Therefore, as they're part of the base standard, these are used in NZ Base as the starting point for capturing how encounters are categorised. The three axes are independent, and each captures a different aspect of the encounter. The `class` axis captures the broad care context or setting, the `type` axis captures the specific kind or purpose of the encounter, and the `serviceType` axis captures the health service being provided. The following table summarises the three axes, what they categorise, and the questions they answer.
 
 | FHIR Element | Axis / What it categorises | Question it answers | Examples |
 |---|---|---|---|
