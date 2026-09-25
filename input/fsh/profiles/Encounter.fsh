@@ -7,7 +7,7 @@ The base Encounter profile for New Zealand.
 
 ### Categorising encounters
 
-NZ Base categorises an encounter using the three elements provided by FHIR R4. Each is intended to answer a different question about the encounter. The terminologies bound to these elements, however, do not always keep those questions separate; for example, `class` includes `VR` (virtual), which describes how care is delivered rather than the care setting. NZ Base keeps the three elements as orthogonal as the current model allows, but some overlap is unavoidable. The three elements are:
+NZ Base categorises an encounter using the three elements provided by FHIR R4. Each is intended to answer a different question about the encounter. The terminologies bound to these elements, however, do not always keep those questions separate; for example, `class` includes `PRENC` (pre-admission), which describes the purpose of the encounter rather than its care setting. NZ Base keeps the three elements as orthogonal as the current model allows, but some overlap is unavoidable. The three elements are:
 
 | Element | Question it answers | Examples |
 |---|---|---|
