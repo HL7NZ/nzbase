@@ -7,15 +7,15 @@ The base Encounter profile for New Zealand.
 
 ### Categorising encounters
 
-NZ Base categorises an encounter using the three elements provided by FHIR R4. Each is intended to answer a different question about the encounter. The terminologies bound to these elements, however, do not always keep those questions separate; for example, `class` includes `PRENC` (pre-admission), which describes the purpose of the encounter rather than its care setting. NZ Base keeps the three elements as orthogonal as the current model allows, but some overlap is unavoidable. The three elements are:
+FHIR categorises an encounter using the three elements in R4. Ideally, each would answer a different question about the encounter. The terminologies bound to these elements, however, do not always keep those questions entirely separate. NZ Base should attempt to keep the three elements as orthogonal as the current model allows, even if some overlap is unavoidable. The three elements are:
 
 | Element | Question it answers | Examples |
 |---|---|---|
 | `class` | In what care setting does the encounter occur? | ambulatory, emergency, inpatient, home, virtual |
-| `type` | What kind of encounter is it? | initial consultation, follow-up, annual review, assessment |
 | `serviceType` | What health service is being provided? | general practice, endoscopy, immunisation |
+| `type` | What kind of encounter is it? | initial consultation, follow-up, annual review, assessment |
 
-The reason for the encounter, and any procedures, immunisations or other interventions, are not part of this categorisation. Record them in `reasonCode` or `reasonReference`, or in resources such as `Condition`, `Procedure` or `Immunization` that reference the encounter.
+The reason for the encounter, and any procedures, immunisations or other interventions, are not part of this categorisation. Record them in `reasonCode` or `reasonReference`, or in resources such as `Condition`, `Procedure` or `Immunization` that reference the encounter. The `type` element is the broadest of these three, with significant scope for covering more than one dimension if not carefully constrained. Typically, in FHIR, it is used where `class` and `serviceType` do not already convey enough information about the kind of encounter. For example, a general practice encounter may be described with a `class` of `AMB` and a `serviceType` of *General practice service*, but the `type` may distinguish whether it is an initial consultation, a follow-up or an annual review - or if such distinctions are not relevant, `type` may be omitted.
 
 #### `class`
 
@@ -35,11 +35,11 @@ The reason for the encounter, and any procedures, immunisations or other interve
 | `OBSENC` | observation encounter | Observation without inpatient admission |
 | `PRENC` | pre-admission | Pre-admission assessment |
 
-`ACUTE` in FHIR describes the kind of care, not whether the admission was planned (which is not always how acute is used in practice in NZ). An elective surgical admission is `ACUTE`. Record planned or unplanned using `priority`.
+In NZ, "acute" often means an unplanned admission, as opposed to an elective one. In FHIR, `ACUTE` means acute-care inpatient treatment, as opposed to non-acute care such as rehabilitation (`NONAC`). It describes the kind of care, not whether the admission was planned, so an elective surgical admission is `ACUTE`. Record planned or unplanned using `priority`. NZ Base could just use IMP or it could decide to just use ACUTE and NONAC, to reduce confusion. Or all three could be used, with IMP for when the care type is unknown. This should be based on requiements. 
 
 #### `serviceType`
 
-`serviceType` records the health service being provided. It has an extensible binding to the NZ Health Service Type reference set (`461000210102`), for example:
+`serviceType` records the health service being provided. The suggested extensible binding is to the NZ Health Service Type SNOMED CT reference set (`461000210102`), for example:
 
 * `788007007` General practice service
 * `659831000210108` Hospital-based orthopaedic outpatient service
@@ -54,16 +54,16 @@ The organisation providing the service, such as a pharmacy, is recorded in `serv
 
 `type` records the kind of encounter where `class` and `serviceType` do not already convey it. For example, it distinguishes whether a general practice encounter is an initial consultation, a follow-up or an annual review.
 
-`type` is optional. Omit it where it would only restate `class` or `serviceType`. Encounters for a single procedure or immunisation usually have no `type`.
+`type` is optional. It should be ommitted where it would only restate information already present in `class` or `serviceType`. So, for example Encounters for a single procedure or immunisation usually have no `type`.
 
-`type` has an interim preferred binding to descendants of SNOMED CT `308335008 |Patient encounter procedure|`. Many concepts in this hierarchy also imply a setting, service or clinical problem. Prefer concepts that describe only the kind of encounter. An NZ Encounter Type reference set is planned.
+`type` has an suggested binding to descendants of SNOMED CT `308335008 |Patient encounter procedure|`. Many concepts in this hierarchy also imply a setting, service or clinical problem. Prefer concepts that describe only the kind of encounter. Constraining the concepts allowed for `type` is recommended to ensure consistency.
 
 ### Examples
 
 | Scenario | `class` | `type` | `serviceType` | Recorded elsewhere |
 |---|---|---|---|---|
 | [GP consultation for respiratory illness](Encounter-encounter-gp-consultation.html) | AMB | Consultation | General practice service | Symptoms or diagnosis in `reasonCode` or `Condition` |
-| Orthopaedic outpatient follow-up | AMB | Follow-up encounter | Hospital-based orthopaedic outpatient service | |
+| [Orthopaedic outpatient follow-up](Encounter-encounter-orthopaedic-follow-up.html) | AMB | Follow-up encounter | Hospital-based orthopaedic outpatient service | |
 | [Flu vaccination at a community pharmacy](Encounter-encounter-pharmacy-flu-vaccination.html) | AMB | *(none)* | Immunisation service | Vaccination in `Immunization`; pharmacy in `serviceProvider` |
 | [Outpatient colonoscopy](Encounter-encounter-colonoscopy.html) | AMB | *(none)* | Endoscopy service | Colonoscopy in `Procedure` |
 | [Day-case cataract surgery](Encounter-encounter-cataract-surgery.html) | SS | *(none)* | Ophthalmology service | Cataract extraction in `Procedure` |
